@@ -21,7 +21,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 1,
@@ -3450,7 +3451,7 @@ const monster_data = [
                 {
                     "member": [148, 661],
                     "out": 666
-                        },
+                },
                 "description": "冰耀巨鱷和冰霜魔像相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -3514,7 +3515,7 @@ const monster_data = [
                 {
                     "member": [151, 662],
                     "out": 667
-                        },
+                },
                 "description": "烙紅龍蜥和天火魔像相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -3578,7 +3579,7 @@ const monster_data = [
                 {
                     "member": [154, 663],
                     "out": 668
-                        },
+                },
                 "description": "碧青行者和枯木魔像相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -3642,7 +3643,7 @@ const monster_data = [
                 {
                     "member": [157, 664],
                     "out": 669
-                        },
+                },
                 "description": "聖靈怒獅和華光魔像相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -3706,7 +3707,7 @@ const monster_data = [
                 {
                     "member": [160, 665],
                     "out": 670
-                        },
+                },
                 "description": "暗月夜龍和無夜魔像相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -3770,7 +3771,7 @@ const monster_data = [
                 {
                     "member": [163, 166, 169, 172, 175],
                     "out": 620
-                        },
+                },
                 "description": "與機械獸相連時可以合體，並將生命力回復至 100% ；超獸魔神必定為全體攻擊",
                 "tag": ["合體"]
             }
@@ -3842,7 +3843,7 @@ const monster_data = [
                 {
                     "member": [163, 166, 169, 172, 175],
                     "out": 620
-                        },
+                },
                 "description": "與機械獸相連時可以合體，並將生命力回復至 100% ；超獸魔神必定為全體攻擊",
                 "tag": ["合體"]
             }
@@ -3914,7 +3915,7 @@ const monster_data = [
                 {
                     "member": [163, 166, 169, 172, 175],
                     "out": 620
-                        },
+                },
                 "description": "與機械獸相連時可以合體，並將生命力回復至 100% ；超獸魔神必定為全體攻擊",
                 "tag": ["合體"]
             }
@@ -3986,7 +3987,7 @@ const monster_data = [
                 {
                     "member": [163, 166, 169, 172, 175],
                     "out": 620
-                        },
+                },
                 "description": "與機械獸相連時可以合體，並將生命力回復至 100% ；超獸魔神必定為全體攻擊",
                 "tag": ["合體"]
             }
@@ -4058,7 +4059,7 @@ const monster_data = [
                 {
                     "member": [163, 166, 169, 172, 175],
                     "out": 620
-                        },
+                },
                 "description": "與機械獸相連時可以合體，並將生命力回復至 100% ；超獸魔神必定為全體攻擊",
                 "tag": ["合體"]
             }
@@ -8597,7 +8598,7 @@ const monster_data = [
                 {
                     "member": [389, 716],
                     "out": 721
-                        },
+                },
                 "description": "屠龍者 ‧ 貝奧武夫和復仇半龍 ‧ 絲蔻比亞相連時可以合體，同時合體後個人首次追打的攻擊力提升至 1.5 倍",
                 "tag": ["合體"]
             }
@@ -8659,7 +8660,7 @@ const monster_data = [
                 {
                     "member": [391, 717],
                     "out": 722
-                        },
+                },
                 "description": "戰神 ‧ 阿基里斯和執拗聖盾 ‧ 忒提斯相連時可以合體，同時合體後個人首次追打的攻擊力提升至 1.5 倍",
                 "tag": ["合體"]
             }
@@ -8721,7 +8722,7 @@ const monster_data = [
                 {
                     "member": [393, 718],
                     "out": 723
-                        },
+                },
                 "description": "薔薇雙槍 ‧ 迪爾姆德和嫉愛薔薇 ‧ 艾摩婭與瑟露絲相連時可以合體，同時合體後個人首次追打的攻擊力提升至 1.5 倍",
                 "tag": ["合體"]
             }
@@ -8776,7 +8777,7 @@ const monster_data = [
                 {
                     "member": [395, 719],
                     "out": 724
-                        },
+                },
                 "description": "遮那王 ‧ 源義經和鬼刀意志 ‧ 今劍與薄綠相連時可以合體，同時合體後個人首次追打的攻擊力提升至 1.5 倍",
                 "tag": ["合體"]
             }
@@ -8849,7 +8850,7 @@ const monster_data = [
                 {
                     "member": [397, 720],
                     "out": 725
-                        },
+                },
                 "description": "鬼神 ‧ 呂布和魔骸戰意 ‧ 呂凌霜相連時可以合體，同時合體後個人首次追打的攻擊力提升至 1.5 倍",
                 "tag": ["合體"]
             }
@@ -13333,7 +13334,7 @@ const monster_data = [
                 {
                     "member": [597, 651],
                     "out": 656
-                        },
+                },
                 "description": "連肢機偶 · 格蕾琴與海森堡和戰鯨 ‧ 摩斯路相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -13388,7 +13389,7 @@ const monster_data = [
                 {
                     "member": [599, 652],
                     "out": 657
-                        },
+                },
                 "description": "焚魔學者 ‧ 阿涅茜和戰翼 ‧ 薇薇爾相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -13443,7 +13444,7 @@ const monster_data = [
                 {
                     "member": [601, 653],
                     "out": 658
-                        },
+                },
                 "description": "蠻牛貳式和戰兵 ‧ 毒刺相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -13498,7 +13499,7 @@ const monster_data = [
                 {
                     "member": [603, 654],
                     "out": 659
-                        },
+                },
                 "description": "半偶研製者 ‧ 莉莎和戰偶 ‧ 皮諾曹相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -13553,7 +13554,7 @@ const monster_data = [
                 {
                     "member": [605, 655],
                     "out": 660
-                        },
+                },
                 "description": "偏狂學士 ‧ 米基利和戰巫 ‧ 傑佩諾相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -14449,7 +14450,7 @@ const monster_data = [
                 {
                     "member": [597, 651],
                     "out": 656
-                        },
+                },
                 "description": "連肢機偶 · 格蕾琴與海森堡和戰鯨 ‧ 摩斯路相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -14487,7 +14488,7 @@ const monster_data = [
                 {
                     "member": [599, 652],
                     "out": 657
-                        },
+                },
                 "description": "焚魔學者 ‧ 阿涅茜和戰翼 ‧ 薇薇爾相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -14525,7 +14526,7 @@ const monster_data = [
                 {
                     "member": [601, 653],
                     "out": 658
-                        },
+                },
                 "description": "蠻牛貳式和戰兵 ‧ 毒刺相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -14563,7 +14564,7 @@ const monster_data = [
                 {
                     "member": [603, 654],
                     "out": 659
-                        },
+                },
                 "description": "半偶研製者 ‧ 莉莎和戰偶 ‧ 皮諾曹相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -14601,7 +14602,7 @@ const monster_data = [
                 {
                     "member": [605, 655],
                     "out": 660
-                        },
+                },
                 "description": "偏狂學士 ‧ 米基利和戰巫 ‧ 傑佩諾相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -14809,7 +14810,7 @@ const monster_data = [
                 {
                     "member": [148, 661],
                     "out": 666
-                        },
+                },
                 "description": "冰耀巨鱷和冰霜魔像相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -14839,7 +14840,7 @@ const monster_data = [
                 {
                     "member": [151, 662],
                     "out": 667
-                        },
+                },
                 "description": "烙紅龍蜥和天火魔像相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -14869,7 +14870,7 @@ const monster_data = [
                 {
                     "member": [154, 663],
                     "out": 668
-                        },
+                },
                 "description": "碧青行者和枯木魔像相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -14899,7 +14900,7 @@ const monster_data = [
                 {
                     "member": [157, 664],
                     "out": 669
-                        },
+                },
                 "description": "聖靈怒獅和華光魔像相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -14929,7 +14930,7 @@ const monster_data = [
                 {
                     "member": [160, 665],
                     "out": 670
-                        },
+                },
                 "description": "暗月夜龍和無夜魔像相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -15861,7 +15862,7 @@ const monster_data = [
                 {
                     "member": [703, 704],
                     "out": 1522
-                        },
+                },
                 "description": "噬日誅天 ‧ 噬日狼和蝕月毀天 ‧ 喰月狼相連時可以合體，同時完全回復生命力，並將龍脈儀儲滿<br>合體後的每回合追打變為 50% 暗屬性傷害 1 次",
                 "tag": ["合體"]
             }
@@ -15914,7 +15915,7 @@ const monster_data = [
                 {
                     "member": [703, 704],
                     "out": 1522
-                        },
+                },
                 "description": "噬日誅天 ‧ 噬日狼和蝕月毀天 ‧ 喰月狼相連時可以合體，同時完全回復生命力，並將龍脈儀儲滿<br>合體後的每回合追打變為 50% 暗屬性傷害 1 次",
                 "tag": ["合體"]
             }
@@ -16270,7 +16271,7 @@ const monster_data = [
                 {
                     "member": [389, 716],
                     "out": 721
-                        },
+                },
                 "description": "屠龍者 ‧ 貝奧武夫和復仇半龍 ‧ 絲蔻比亞相連時可以合體，同時合體後個人首次追打的攻擊力提升至 1.5 倍",
                 "tag": ["合體"]
             }
@@ -16301,7 +16302,7 @@ const monster_data = [
                 {
                     "member": [391, 717],
                     "out": 722
-                        },
+                },
                 "description": "戰神 ‧ 阿基里斯和執拗聖盾 ‧ 忒提斯相連時可以合體，同時合體後個人首次追打的攻擊力提升至 1.5 倍",
                 "tag": ["合體"]
             }
@@ -16331,7 +16332,7 @@ const monster_data = [
                 {
                     "member": [393, 718],
                     "out": 723
-                        },
+                },
                 "description": "薔薇雙槍 ‧ 迪爾姆德和嫉愛薔薇 ‧ 艾摩婭與瑟露絲相連時可以合體，同時合體後個人首次追打的攻擊力提升至 1.5 倍",
                 "tag": ["合體"]
             }
@@ -16369,7 +16370,7 @@ const monster_data = [
                 {
                     "member": [395, 719],
                     "out": 724
-                        },
+                },
                 "description": "遮那王 ‧ 源義經和鬼刀意志 ‧ 今劍與薄綠相連時可以合體，同時合體後個人首次追打的攻擊力提升至 1.5 倍",
                 "tag": ["合體"]
             }
@@ -16408,7 +16409,7 @@ const monster_data = [
                 {
                     "member": [397, 720],
                     "out": 725
-                        },
+                },
                 "description": "鬼神 ‧ 呂布和魔骸戰意 ‧ 呂凌霜相連時可以合體，同時合體後個人首次追打的攻擊力提升至 1.5 倍",
                 "tag": ["合體"]
             }
@@ -21691,7 +21692,7 @@ const monster_data = [
                 {
                     "member": [956, 976],
                     "out": 961
-                        },
+                },
                 "description": "星辰之翼 ‧ 梅塔特隆和碎羽墮落者系列的召喚獸相連時可以合體，並將生命力回復至 100%",
                 "tag": ["合體"]
             }
@@ -21721,7 +21722,7 @@ const monster_data = [
                 {
                     "member": [957, 976],
                     "out": 962
-                        },
+                },
                 "description": "星辰之翼 ‧ 梅塔特隆和碎羽墮落者系列的召喚獸相連時可以合體，並將生命力回復至 100%",
                 "tag": ["合體"]
             }
@@ -21751,7 +21752,7 @@ const monster_data = [
                 {
                     "member": [958, 976],
                     "out": 963
-                        },
+                },
                 "description": "星辰之翼 ‧ 梅塔特隆和碎羽墮落者系列的召喚獸相連時可以合體，並將生命力回復至 100%",
                 "tag": ["合體"]
             }
@@ -21781,7 +21782,7 @@ const monster_data = [
                 {
                     "member": [959, 976],
                     "out": 964
-                        },
+                },
                 "description": "星辰之翼 ‧ 梅塔特隆和碎羽墮落者系列的召喚獸相連時可以合體，並將生命力回復至 100%",
                 "tag": ["合體"]
             }
@@ -21811,7 +21812,7 @@ const monster_data = [
                 {
                     "member": [960, 976],
                     "out": 965
-                        },
+                },
                 "description": "星辰之翼 ‧ 梅塔特隆和碎羽墮落者系列的召喚獸相連時可以合體，並將生命力回復至 100%",
                 "tag": ["合體"]
             }
@@ -22136,7 +22137,7 @@ const monster_data = [
                 {
                     "member": [956, 976],
                     "out": 961
-                        },
+                },
                 "description": "星辰之翼 ‧ 梅塔特隆和碎羽墮落者系列的召喚獸相連時可以合體，並將生命力回復至 100%",
                 "tag": ["合體"]
             },
@@ -22149,7 +22150,7 @@ const monster_data = [
                 {
                     "member": [957, 976],
                     "out": 962
-                        },
+                },
                 "description": "星辰之翼 ‧ 梅塔特隆和碎羽墮落者系列的召喚獸相連時可以合體，並將生命力回復至 100%",
                 "tag": ["合體"]
             },
@@ -22162,7 +22163,7 @@ const monster_data = [
                 {
                     "member": [958, 976],
                     "out": 963
-                        },
+                },
                 "description": "星辰之翼 ‧ 梅塔特隆和碎羽墮落者系列的召喚獸相連時可以合體，並將生命力回復至 100%",
                 "tag": ["合體"]
             },
@@ -22175,7 +22176,7 @@ const monster_data = [
                 {
                     "member": [959, 976],
                     "out": 964
-                        },
+                },
                 "description": "星辰之翼 ‧ 梅塔特隆和碎羽墮落者系列的召喚獸相連時可以合體，並將生命力回復至 100%",
                 "tag": ["合體"]
             },
@@ -22188,7 +22189,7 @@ const monster_data = [
                 {
                     "member": [960, 976],
                     "out": 965
-                        },
+                },
                 "description": "星辰之翼 ‧ 梅塔特隆和碎羽墮落者系列的召喚獸相連時可以合體，並將生命力回復至 100%",
                 "tag": ["合體"]
             }
@@ -29731,7 +29732,7 @@ const monster_data = [
                 {
                     "member": [1306, 1307],
                     "out": 1308
-                        },
+                },
                 "description": "鹿角組和紅鼻組相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -29761,7 +29762,7 @@ const monster_data = [
                 {
                     "member": [1306, 1307],
                     "out": 1308
-                        },
+                },
                 "description": "鹿角組和紅鼻組相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -38661,7 +38662,7 @@ const monster_data = [
                 {
                     "member": [1720, 1723],
                     "out": 1725
-                        },
+                },
                 "description": "機鎧昂揚 ‧ 貝塔和機鎧岑寂 ‧ 阿爾法相連時可以合體，所有機械族成員的行動值提升 20%",
                 "tag": ["合體"]
             }
@@ -38725,7 +38726,7 @@ const monster_data = [
                 {
                     "member": [1720, 1723],
                     "out": 1725
-                        },
+                },
                 "description": "機鎧昂揚 ‧ 貝塔和機鎧岑寂 ‧ 阿爾法相連時可以合體，所有機械族成員的行動值提升 20%",
                 "tag": ["合體"]
             }
@@ -42486,7 +42487,7 @@ const monster_data = [
                 {
                     "member": [1878, 1879, 1880],
                     "out": 1881
-                        },
+                },
                 "description": "部件 ‧ 飛船、部件 ‧ 大炮和部件 ‧ 機翼相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -42516,7 +42517,7 @@ const monster_data = [
                 {
                     "member": [1878, 1879, 1880],
                     "out": 1881
-                        },
+                },
                 "description": "部件 ‧ 飛船、部件 ‧ 大炮和部件 ‧ 機翼相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -42546,7 +42547,7 @@ const monster_data = [
                 {
                     "member": [1878, 1879, 1880],
                     "out": 1881
-                        },
+                },
                 "description": "部件 ‧ 飛船、部件 ‧ 大炮和部件 ‧ 機翼相連時可以合體，同時完全回復生命力",
                 "tag": ["合體"]
             }
@@ -53926,7 +53927,7 @@ const monster_data = [
                 {
                     "member": [2337, 2341],
                     "out": 2345
-                        },
+                },
                 "description": "「羅伊 ‧ 馬斯坦古」和「莉莎 ‧ 霍克愛」相連時可以合體：<br>I. 引爆所有符石<br>⇒ 掉落水以外符石<br>1 回合內<br>II. 其他符石兼具火符石效果",
                 "tag": ["合體"]
             }
@@ -53978,7 +53979,7 @@ const monster_data = [
                 {
                     "member": [2338, 2339],
                     "out": 2344
-                        },
+                },
                 "description": "「愛德華 ‧ 愛力克」和「阿爾馮斯 ‧ 愛力克」相連時可以合體：<br>I. 完全回復生命力<br>II. 將所有符石轉化為強化符石",
                 "tag": ["合體"]
             }
@@ -54037,7 +54038,7 @@ const monster_data = [
                 {
                     "member": [2338, 2339],
                     "out": 2344
-                        },
+                },
                 "description": "「愛德華 ‧ 愛力克」和「阿爾馮斯 ‧ 愛力克」相連時可以合體：<br>I. 完全回復生命力<br>II. 將所有符石轉化為強化符石",
                 "tag": ["合體"]
             }
@@ -54121,7 +54122,7 @@ const monster_data = [
                 {
                     "member": [2337, 2341],
                     "out": 2345
-                        },
+                },
                 "description": "「羅伊 ‧ 馬斯坦古」和「莉莎 ‧ 霍克愛」相連時可以合體：<br>I. 引爆所有符石<br>⇒ 掉落水以外符石<br>1 回合內<br>II. 其他符石兼具火符石效果",
                 "tag": ["合體"]
             }
@@ -55570,7 +55571,7 @@ const monster_data = [
                 {
                     "member": [2407, 2408],
                     "out": 2414
-                        },
+                },
                 "description": "「西蒙與螺巖」和「卡米那與紅蓮」相連時可以合體：<br>I. 完全回復生命力<br>II. 儲滿龍脈儀<br>III.「大紅蓮團」機械族成員的行動值提升至 100%",
                 "tag": ["合體"]
             }
@@ -55600,7 +55601,7 @@ const monster_data = [
                 {
                     "member": [2407, 2408],
                     "out": 2414
-                        },
+                },
                 "description": "「西蒙與螺巖」和「卡米那與紅蓮」相連時可以合體：<br>I. 完全回復生命力<br>II. 儲滿龍脈儀<br>III.「大紅蓮團」機械族成員的行動值提升至 100%",
                 "tag": ["合體"]
             }
@@ -55655,7 +55656,8 @@ const monster_data = [
                 "description": "I. 發動技能及每回合結束時<br>⓵ 將光符石轉化為火強化符石<br>⓶ 將暗符石轉化為心強化符石<br>II. 隊長攻擊力 3 倍<br>III. 首批消除所有符石時<br>⇒「大紅蓮團」成員 CD 減少 3<br>IV. 於發動攻擊前<br>⇒ 對單一敵人造成 200 萬無屬性傷害<br>(需消除符石、此傷害無視敵人防禦力及「強化突破」敵技)<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 將所有符石轉化為五屬強化符石各 6 粒",
                 "tag": ["符石轉火", "符石轉心", "符石轉火強化", "符石轉心強化", "光轉其他", "暗轉其他", "增傷", "界王拳", "減CD", "直傷", "隨時關閉", "符石轉水", "符石轉木", "符石轉光", "符石轉暗", "符石轉水強化", "符石轉木強化", "符石轉光強化", "符石轉暗強化", "大幅轉版"]
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2412,
@@ -55671,7 +55673,8 @@ const monster_data = [
                 "description": "I. 將所有符石<br>⇒ 轉化為強化符石<br>1 回合內<br>II. 迴避「人類、機械族或魔族」敵人的攻擊 1 次<br>III. 成功迴避敵人攻擊後，下回合，所有敵人<br>⇒ 受到的傷害 2.5 倍",
                 "tag": ["符石強化", "迴避", "增傷"]
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2413,
@@ -55695,7 +55698,8 @@ const monster_data = [
                 "description": "需儲滿龍脈儀才可發動此技能：<br>I. 消耗 100% 龍脈儀能量<br>1 回合內<br>II. 自身攻擊力 10 倍<br>III. 回合結束時<br>⇒ 自身進入 2 回合瀕死狀態",
                 "tag": ["增傷", "界王拳", "限制成員攻擊"]
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2414,
@@ -55719,7 +55723,8 @@ const monster_data = [
                 "description": "I. 額外增加 3 行符石：<br>「火、木、心」強化符石各 6 粒<br>1 回合內<br>II. 延長移動符石時間至 12 秒<br>III.「大紅蓮團」成員<br>⇒ 攻擊力及回復力 2.5 倍<br>IV. 將移動符石時經過的符石<br>⇒ 轉化為機械族符石<br>V. 回合結束時，將所有符石<br>⇒ 轉化為機械族符石<br>(此技能無視封鎖技能)",
                 "tag": ["增加符石", "延長轉珠時間", "增傷", "增回", "機械族符石製造"]
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2415,
@@ -55735,7 +55740,8 @@ const monster_data = [
                 "description": "1 回合內<br>I. 自身攻擊<br>⇒ 對水屬性目標額外 6 倍<br>II. 隊伍中只有 2 種屬性及只有機械族成員時<br>⇒ 效果持續 2 回合",
                 "tag": ["增傷", "界王拳"]
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2416,
@@ -55751,7 +55757,8 @@ const monster_data = [
                 "description": "1 回合內<br>I. 移動的步數愈多<br>⇒ 機械族及獸類攻擊力提升愈多<br>⇒ 移動 25 步攻擊力可提升至最大 2.2 倍<br>II. 若發動技能時全體敵人防禦力為 0 時<br>⇒ 個人追打火屬性攻擊 1 次",
                 "tag": ["增傷", "火屬追打", "自身追打"]
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2417,
@@ -55767,7 +55774,8 @@ const monster_data = [
                 "description": "1 回合內<br>I. 消除 1 組 ≥4 粒符石<br>⇒ 自身攻擊力 2.5 倍<br>II. 消除 ≥2 組 ≥4 粒符石<br>⇒ 自身攻擊力 4 倍<br>III. 發動技能時，若我方生命力為 1<br>⇒ 可任意移動符石而不會發動消除",
                 "tag": ["增傷", "界王拳", "排珠"]
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2418,
@@ -55783,7 +55791,8 @@ const monster_data = [
                 "description": "I. 引爆「光及心以外」符石<br>⇒ 掉落隨機屬性符石，對敵方全體造成 100,000 點光屬性傷害<br>1 回合內<br>II. 消除 ≥6 粒光或心符石<br>⇒ 減少 60% 所受傷害",
                 "tag": ["引爆", "光外符石引爆", "心外符石引爆", "強制掉落", "直傷", "增傷"]
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2419,
@@ -55807,7 +55816,8 @@ const monster_data = [
                 "description": "敵方為人類，而且當前生命力為<br>⇒ 100 萬或以下，即殺",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2420,
@@ -55823,7 +55833,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2421,
@@ -55839,7 +55850,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2422,
@@ -55855,7 +55867,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2423,
@@ -55871,7 +55884,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2424,
@@ -55887,7 +55901,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2425,
@@ -55903,7 +55918,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2426,
@@ -55919,7 +55935,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2427,
@@ -55935,7 +55952,8 @@ const monster_data = [
                 "description": "沒有技能",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2428,
@@ -55951,7 +55969,8 @@ const monster_data = [
                 "description": "沒有技能",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2429,
@@ -55967,7 +55986,8 @@ const monster_data = [
                 "description": "沒有技能",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2430,
@@ -55983,7 +56003,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2431,
@@ -55999,7 +56020,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2432,
@@ -56015,7 +56037,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2433,
@@ -56031,7 +56054,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2434,
@@ -56047,7 +56071,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2435,
@@ -56063,7 +56088,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2436,
@@ -56079,7 +56105,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2437,
@@ -56095,7 +56122,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2438,
@@ -56111,7 +56139,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2439,
@@ -56127,7 +56156,8 @@ const monster_data = [
                 "description": "I. 發動技能時若場上有 ≥10 粒水符石<br>⓵ 將所有符石轉化為強化符石<br>⓶ 1 回合內，機械族攻擊力及回復力 1.8 倍<br>II. 隨機將符石轉化為水強化符石<br>⇒ 直至場上有 10 粒水強化符石為止",
                 "tag": ["符石強化", "增傷", "增回", "符石轉水", "符石轉水強化"]
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2440,
@@ -56143,7 +56173,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2441,
@@ -56159,7 +56190,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2442,
@@ -56175,7 +56207,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2443,
@@ -56191,7 +56224,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2444,
@@ -56207,7 +56241,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2445,
@@ -56223,7 +56258,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2446,
@@ -56239,7 +56275,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2447,
@@ -56255,7 +56292,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2448,
@@ -56271,7 +56309,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2449,
@@ -56287,7 +56326,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2450,
@@ -56303,7 +56343,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2451,
@@ -56319,7 +56360,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2452,
@@ -56335,7 +56377,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2453,
@@ -56351,7 +56394,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2454,
@@ -56367,7 +56411,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2455,
@@ -56383,7 +56428,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2456,
@@ -56399,7 +56445,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2457,
@@ -56415,7 +56462,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2458,
@@ -56431,7 +56479,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2459,
@@ -56447,7 +56496,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2460,
@@ -56463,7 +56513,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2461,
@@ -56479,7 +56530,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2462,
@@ -56495,7 +56547,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2463,
@@ -56511,7 +56564,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2464,
@@ -56527,7 +56581,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2465,
@@ -56543,7 +56598,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2466,
@@ -56559,7 +56615,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2467,
@@ -56575,7 +56632,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2468,
@@ -56591,7 +56649,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2469,
@@ -56607,7 +56666,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2470,
@@ -56623,7 +56683,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2471,
@@ -56639,7 +56700,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2472,
@@ -56655,7 +56717,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2473,
@@ -56671,7 +56734,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2474,
@@ -56687,7 +56751,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2475,
@@ -56703,7 +56768,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2476,
@@ -56719,7 +56785,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2477,
@@ -56735,7 +56802,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2478,
@@ -56751,7 +56819,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2479,
@@ -56767,7 +56836,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2480,
@@ -56783,7 +56853,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2481,
@@ -56799,7 +56870,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2482,
@@ -56815,7 +56887,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2483,
@@ -56831,7 +56904,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2484,
@@ -56847,7 +56921,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2485,
@@ -56863,7 +56938,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2486,
@@ -56879,7 +56955,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2487,
@@ -56895,7 +56972,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2488,
@@ -56911,7 +56989,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2489,
@@ -56927,7 +57006,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2490,
@@ -56943,7 +57023,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2491,
@@ -56959,7 +57040,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2492,
@@ -56975,7 +57057,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2493,
@@ -56991,7 +57074,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2494,
@@ -57007,7 +57091,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2495,
@@ -57023,7 +57108,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2496,
@@ -57039,7 +57125,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2497,
@@ -57055,7 +57142,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2498,
@@ -57071,7 +57159,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2499,
@@ -57087,7 +57176,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 2500,
@@ -57103,8 +57193,14 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
+    
+    
+    
+    
+    
     {
         "id": 7001,
         "attribute": "火",
@@ -57431,7 +57527,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7019,
@@ -57447,7 +57544,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7020,
@@ -57463,7 +57561,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7021,
@@ -57479,7 +57578,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7022,
@@ -57495,7 +57595,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7023,
@@ -57511,7 +57612,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7024,
@@ -57527,7 +57629,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7025,
@@ -57543,7 +57646,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7026,
@@ -57559,7 +57663,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7027,
@@ -57575,7 +57680,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7028,
@@ -57591,7 +57697,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7029,
@@ -57607,7 +57714,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7030,
@@ -57623,7 +57731,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7031,
@@ -57639,7 +57748,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7032,
@@ -57655,7 +57765,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7033,
@@ -57671,7 +57782,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7034,
@@ -57687,7 +57799,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7035,
@@ -57703,7 +57816,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7036,
@@ -57719,7 +57833,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7037,
@@ -57735,7 +57850,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7038,
@@ -57751,7 +57867,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7039,
@@ -57767,7 +57884,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7040,
@@ -57783,7 +57901,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7041,
@@ -57799,7 +57918,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7042,
@@ -57815,7 +57935,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7043,
@@ -57831,7 +57952,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7044,
@@ -57847,7 +57969,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7045,
@@ -57863,7 +57986,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7046,
@@ -57879,7 +58003,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7047,
@@ -57895,7 +58020,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7048,
@@ -57911,7 +58037,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7049,
@@ -57927,7 +58054,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 7050,
@@ -57943,8 +58071,14 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
+    
+    
+    
+    
+    
     {
         "id": 8001,
         "attribute": "水",
@@ -58768,7 +58902,8 @@ const monster_data = [
                 "activate_tag": ["指定隊長", "指定成員"],
                 "relative": [8045, 828]
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 8046,
@@ -58784,7 +58919,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 8047,
@@ -58800,7 +58936,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 8048,
@@ -58816,7 +58953,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 8049,
@@ -58832,7 +58970,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 8050,
@@ -58848,8 +58987,14 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
+    
+    
+    
+    
+    
     {
         "id": 9001,
         "attribute": "水",
@@ -59248,7 +59393,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9022,
@@ -59264,7 +59410,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9023,
@@ -59280,7 +59427,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9024,
@@ -59296,7 +59444,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9025,
@@ -59312,7 +59461,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9026,
@@ -59328,7 +59478,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9027,
@@ -59344,7 +59495,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9028,
@@ -59360,7 +59512,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9029,
@@ -59376,7 +59529,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9030,
@@ -59392,7 +59546,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9031,
@@ -59408,7 +59563,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9032,
@@ -59424,7 +59580,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9033,
@@ -59440,7 +59597,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9034,
@@ -59456,7 +59614,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9035,
@@ -59472,7 +59631,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9036,
@@ -59488,7 +59648,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9037,
@@ -59504,7 +59665,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9038,
@@ -59520,7 +59682,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9039,
@@ -59536,7 +59699,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9040,
@@ -59552,7 +59716,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9041,
@@ -59568,7 +59733,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9042,
@@ -59584,7 +59750,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9043,
@@ -59600,7 +59767,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9044,
@@ -59616,7 +59784,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9045,
@@ -59632,7 +59801,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9046,
@@ -59648,7 +59818,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9047,
@@ -59664,7 +59835,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9048,
@@ -59680,7 +59852,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9049,
@@ -59696,7 +59869,8 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
     {
         "id": 9050,
@@ -59712,6 +59886,7 @@ const monster_data = [
                 "description": "",
                 "tag": []
             }
-        ]
+        ],
+        "team_skill": []
     },
 ]
