@@ -1,4 +1,4 @@
-// Last modified : 2020.06.25 00:42
+// Last modified : 2020.07.04 00:37
 
 const monster_data = [
     {
@@ -42378,15 +42378,23 @@ const monster_data = [
         'star': 7,
         'skill': [
             {
-                'name': '沒有技能',
+                'name': '奔騰的液流',
                 'type': 'normal',
-                'charge': '',
-                'num': 0,
-                'description': '沒有技能',
-                'tag': []
+                'charge': 'CD',
+                'num': 8,
+                'description': 'I. 所受傷害減至 10<br>(包括「喋血屠刀」、「一擊必殺」等扣除召喚師指定 % 生命力的敵技所造成的傷害)<br>II. 自身攻擊力 5 倍<br>III. 若有擊斃敵人，於回合結束時，將所有符石轉化為<br>⇒ 機械族強化符石<br>IV. 技能持續時若所有機械族成員的行動值達至 100%<br>⇒ 自身攻擊傷害可克制敵人<br><br>效果持續至受到敵人攻擊',
+                'tag': ['減傷', '增傷', '界王拳', '符石強化', '對機械族增傷', '屬性剋制改變']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 進入關卡後，機械族成員行動值提升 50%<br><br>II. 延長移動符石時間至 10 秒',
+                'activate': '以「毀世的重生者 ‧ 夏馬西」作隊長及戰友',
+                'skill_tag': ['行動值提升', '延長轉珠時間'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [1871]
+            }
+        ]
     },
     {
         'id': 1872,
@@ -43187,7 +43195,7 @@ const monster_data = [
                 'activate': '隊伍中只有妖精類成員，並以 1 個或以上果園精靈系列角色作成員',
                 'skill_tag': ['增回', '回復力共鳴'],
                 'activate_tag': ['指定成員', '指定種族成員'],
-                'relative': [1905, 1906, 1907]
+                'relative': [1905, 1906, 1907, 2438]
             }
         ]
     },
@@ -43212,7 +43220,7 @@ const monster_data = [
                 'activate': '隊伍中只有妖精類成員，並以 1 個或以上果園精靈系列角色作成員',
                 'skill_tag': ['增回', '回復力共鳴'],
                 'activate_tag': ['指定成員', '指定種族成員'],
-                'relative': [1906, 1905, 1907]
+                'relative': [1906, 1905, 1907, 2438]
             }
         ]
     },
@@ -43237,7 +43245,7 @@ const monster_data = [
                 'activate': '隊伍中只有妖精類成員，並以 1 個或以上果園精靈系列角色作成員',
                 'skill_tag': ['增回', '回復力共鳴'],
                 'activate_tag': ['指定成員', '指定種族成員'],
-                'relative': [1907, 1905, 1906]
+                'relative': [1907, 1905, 1906, 2438]
             }
         ]
     },
@@ -48614,7 +48622,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內<br>I. 每消除 1 組符石<br>⇒ 額外計算多 2 連擊 (Ex. Combo)<br>⇒ 最多可額外增加 20 連擊 (Ex. Combo)<br>II. 發動技能時若自身「仙力」達 10 點<br>⓵ 效果則持續 2 回合<br>⓶ 最多可增加 30 個 Ex. Combo<br>III. 若隊長及戰友為「上古諸神」成員<br>⇒ 額外增加 1 回合效果',
-                'tag': ['增傷', '增回']
+                'tag': ['增加Ex.Combo']
             }
         ],
         'team_skill': [
@@ -48646,7 +48654,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 3,
                 'description': '1 回合內<br>I. 連擊 (Ex. Combo) 數目增加 3<br>II. 自身以外「上古諸神」系列角色的「仙力」增加 5 點<br>III. 將戰友直行的符石<br>⇒ 轉化為與自身直行相同的符石 (包括強化符石、種族符石)<br>IV. 若自身為戰友<br>⇒ 則將自身直行的符石轉化為神族符石<br>V. 發動技能時若自身「仙力」達 10 點<br>⇒ 1 回合內，連擊 (Ex. Combo) 數目額外增加 8',
-                'tag': ['神族符石製造', '增傷', '增回']
+                'tag': ['增加Ex.Combo', '神族符石製造']
             }
         ],
         'team_skill': [
@@ -53269,17 +53277,17 @@ const monster_data = [
     },
     {
         'id': 2303,
-        'attribute': '',
-        'race': '',
-        'star': -1,
+        'attribute': '木',
+        'race': '神族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '誓鳥之志',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 3,
+                'description': '隊長需為神族才能發動此技能：<br>I.「上古諸神」系列角色的「仙力」增加 5 點<br>II. 將神族成員的屬性符石<br>⇒ 轉化為神族符石<br>III. 下回合追加上回合的 Ex. Combo 數目',
+                'tag': ['神族符石製造', '增加Ex.Combo']
             }
         ],
         'team_skill': []
@@ -54984,20 +54992,35 @@ const monster_data = [
     },
     {
         'id': 2379,
-        'attribute': '',
-        'race': '',
-        'star': -1,
+        'attribute': '光',
+        'race': '神族',
+        'star': 8,
         'skill': [
             {
-                'name': '',
+                'name': '突破之結界 ‧ 強',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 將所有符石轉化為強化符石<br>1 回合內<br>II. 光屬性、神族、魔族<br>⇒ 攻擊力 2 倍<br>III. 光屬性「神族及魔族」<br>⇒ 則攻擊力 2.5 倍<br>IV. 光符石、暗符石、心符石<br>⇒ 互相兼具效果',
+                'tag': ['符石強化', '增傷', '符石兼具光', '符石兼具暗', '符石兼具心']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '隊長的隊長技能「玄華獨尊 ‧ 崇」<br>⇒ 變為「玄華獨尊 ‧ 崇極」<br><br>I. 延長移動符石時間至 8 秒<br><br>II. 光及暗符石兼具 50% 心符石效果<br><br>III. 暗及心符石兼具光符石效果<br><br>IV. 水、火、木符石<br>⇒ 兼具 25% 光符石效果<br><br>V. 消除光、暗及心符石其中 2 種符石時<br>⇒ 光屬性攻擊力 5 倍<br><br>VI. 光屬性成員生命力、攻擊力及回復力 1.6 倍<br><br>VII. ≥3 粒相同種類的符石相連，即可發動消除<br><br>VIII.所有符石掉落率不受其他技能影響<br>(包括改變掉落符石屬性的技能)<br><br>IX. 回合結束時，可點選「X 型」<br>⇒ 引爆 10 個固定位置的符石<br><br>X.沒有點選時，將「X 型」位置的符石<br>⇒ 轉化為光強化符石',
+                'activate': '以「開世的文明 ‧ 瑪雅」作隊長及戰友',
+                'skill_tag': ['隊長技改變'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2379]
+            }, 
+            {
+                'description': '每合計消除 3 粒光、暗或心符石時<br>⇒ 光屬性攻擊力提升<br>⇒ 消除 30 粒可提升至最大 5 倍',
+                'activate': '以「開世的文明 ‧ 瑪雅」作隊長及戰友',
+                'skill_tag': ['增攻'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2379]
+            }
+        ]
     },
     {
         'id': 2380,
@@ -56498,20 +56521,28 @@ const monster_data = [
     },
     {
         'id': 2438,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '妖精類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '蜜甜之妖靈 ‧ 暗',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '暗符石轉化為妖族符石。1 回合內，心符石兼具 50% 暗符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2',
+                'tag': ['符石兼具暗', '妖族符石製造', '減CD']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '所有成員的回復力跟隨回復力最高的成員 (不包括進入關卡後的基值加乘) ',
+                'activate': '隊伍中只有妖精類成員，並以 1 個或以上果園精靈系列角色作成員',
+                'skill_tag': ['增回', '回復力共鳴'],
+                'activate_tag': ['指定成員', '指定種族成員'],
+                'relative': [2438, 1905, 1906, 1907]
+            }
+        ]
     },
     {
         'id': 2439,
