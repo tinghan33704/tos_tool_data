@@ -1,4 +1,4 @@
-// Last modified : 2020.07.04 00:37
+// Last modified : 2020.07.07 19:25
 
 const monster_data = [
     {
@@ -55750,6 +55750,23 @@ const monster_data = [
                 'relative': [2410, 2421]
             }
         ]
+    },
+    {
+        'id': 24101,
+        'attribute': '暗',
+        'race': '人類',
+        'star': 6,
+        'skill': [
+            {
+                'name': '人類殲滅系統發動',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': '5 回合內<br>發動技能及每回合結束時：<br>隨機將 6 粒符石<br>⇒ 轉化為暗強化符石',
+                'tag': ['符石轉暗', '符石轉暗強化']
+            }, 
+        ],
+        'team_skill': []
     },
     {
         'id': 2411,
