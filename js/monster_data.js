@@ -1,4 +1,4 @@
-// Last modified : 2020.07.07 19:25
+// Last modified : 2020.07.11 13:53
 
 const monster_data = [
     {
@@ -47402,7 +47402,7 @@ const monster_data = [
                 'activate': '以「魂揚樂器」系列角色作隊長或隊員',
                 'skill_tag': ['物品掉落增加'],
                 'activate_tag': [],
-                'relative': [2096, 2097]
+                'relative': [2096, 2097, 2098]
             }
         ]
     },
@@ -47427,26 +47427,34 @@ const monster_data = [
                 'activate': '以「魂揚樂器」系列角色作隊長或隊員',
                 'skill_tag': ['物品掉落增加'],
                 'activate_tag': [],
-                'relative': [2096, 2097]
+                'relative': [2096, 2097, 2098]
             }
         ]
     },
     {
         'id': 2098,
-        'attribute': '',
-        'race': '',
-        'star': -1,
+        'attribute': '暗',
+        'race': '神族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '處處是琴',
                 'type': 'normal',
-                'charge': '',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 將單數直行最底 3 粒符石<br>⇒ 轉化為暗符石<br>II. 將雙數直行最底 3 粒符石<br>⇒ 轉化為心符石<br>回合結束時<br>III. 將單數直行最頂 3 粒符石<br>⇒ 轉化為暗符石<br>IV. 將雙數直行最頂 3 粒符石<br>⇒ 轉化為心符石',
+                'tag': ['符石轉暗', '符石轉心', '固定轉版']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '通過第十封印指定關卡<br>⇒ 額外獲得 1 個存音石 (不能疊加)',
+                'activate': '以「魂揚樂器」系列角色作隊長或隊員',
+                'skill_tag': ['物品掉落增加'],
+                'activate_tag': [],
+                'relative': [2096, 2097, 2098]
+            }
+        ]
     },
     {
         'id': 2099,
@@ -51597,17 +51605,17 @@ const monster_data = [
     },
     {
         'id': 2249,
-        'attribute': '',
-        'race': '',
-        'star': -1,
+        'attribute': '光',
+        'race': '龍類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '龍族電光',
                 'type': 'normal',
-                'charge': '',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 電擊敵方全體，持續 3 回合<br>II. 將所有符石<br>⇒ 轉化為龍族符石<br>1 回合內<br>III. 首批全部消除場上其中 1 種符石<br>⇒ 回合結束時，所有符石轉化為龍族符石',
+                'tag': ['電擊敵方', '龍族符石製造']
             }
         ],
         'team_skill': []
@@ -56402,17 +56410,17 @@ const monster_data = [
     },
     {
         'id': 2430,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '蔑火戰舞',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 點選元素法陣上的 1 粒符石<br>⇒ 將該種符石轉化為人族強化符石<br>1 回合內<br>II. 若首批消除所有該種符石<br>⇒ 自身及「破陣無雙 ‧ 項羽」的攻擊無視「指定形狀盾」<br>III. 無視燃燒敵技<br>(不包括「煉獄之火」)<br>IV. 消除符石種類愈多<br>⇒ 全隊攻擊力愈高<br>⇒ 最大可提升至 2.8 倍',
+                'tag': ['符石強化', '人族符石製造', '無視拼圖盾', '無視燃燒', '增傷']
             }
         ],
         'team_skill': []
