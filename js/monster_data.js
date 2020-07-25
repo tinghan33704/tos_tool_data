@@ -1,4 +1,4 @@
-// Last modified : 2020.07.21 21:06
+// Last modified : 2020.07.26 01:23
 
 const monster_data = [
     {
