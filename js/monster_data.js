@@ -1,4 +1,4 @@
-// Last modified : 2020.07.26 01:23
+// Last modified : 2020.08.01 13:42
 
 const monster_data = [
     {
@@ -26606,6 +26606,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1167,
                 'description': '變身成明鏡之諜 ‧ 冰花，隊伍中其他水屬性成員的主動技能 CD 減少 1',
                 'tag': ['減CD', '變身']
             }
@@ -26656,6 +26657,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1169,
                 'description': '變身成堅守赤心 ‧ 洛可可，隊伍中其他火屬性成員的主動技能 CD 減少 1',
                 'tag': ['減CD', '變身']
             }
@@ -26706,6 +26708,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1171,
                 'description': '變身成拳風療動 ‧ 新月，隊伍中其他木屬性成員的主動技能 CD 減少 1',
                 'tag': ['減CD', '變身']
             }
@@ -26756,6 +26759,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1173,
                 'description': '變身成思考殿主 ‧ 摩斯，隊伍中其他光屬性成員的主動技能 CD 減少 1',
                 'tag': ['減CD', '變身']
             }
@@ -26806,6 +26810,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1175,
                 'description': '變身成漆黑啟示 ‧ 優格圖，隊伍中其他暗屬性成員的主動技能 CD 減少 1',
                 'tag': ['減CD', '變身']
             }
@@ -39443,6 +39448,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1761,
                 'description': '變身；1 回合內，全隊攻擊力 1.5 倍',
                 'tag': ['變身', '增傷']
             }
@@ -39493,6 +39499,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1763,
                 'description': '變身；所有符石轉化為強化符石',
                 'tag': ['變身', '符石強化']
             }
@@ -39636,6 +39643,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1765,
                 'description': '變身；所有符石轉化為人族符石',
                 'tag': ['變身', '人族符石製造']
             }
@@ -39730,6 +39738,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1767,
                 'description': '變身；1 回合內，迴避敵人首次攻擊',
                 'tag': ['變身', '迴避']
             }
@@ -40315,6 +40324,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1787,
                 'description': '變身；將「累積戰鬥回合 (需消除符石) +6」數量的符石轉化為強化符石，最多 30 粒',
                 'tag': ['變身', '符石強化']
             }
@@ -40402,6 +40412,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1789,
                 'description': '變身；回合結束時將場上的符石變回發動技能時的火及心符石分佈',
                 'tag': ['變身']
             }
@@ -40468,6 +40479,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1791,
                 'description': '變身；「藏馬」以外的妖精及魔族成員的主動技能 CD 減少 1；1 回合內，可任意移動符石而不會發動消除',
                 'tag': ['變身', '排珠', '減CD']
             }
@@ -40594,6 +40606,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
+                'transform': 1794,
                 'description': '變身；1 回合內，累積戰鬥回合數 (需消除符石) 愈多，所有符石兼具火及暗符石效果愈多，10 回合可兼具最多 100%',
                 'tag': ['變身', '符石兼具火', '符石兼具暗']
             }
@@ -40885,6 +40898,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1804,
                 'description': '變身；1 回合內，消除所有附加效果，每消除 1 個效果，減少 25% 所受傷害，最多減少 100%',
                 'tag': ['變身', '減傷', '附加消除']
             }
@@ -41226,6 +41240,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1802,
                 'description': '變身；完全回復生命力',
                 'tag': ['變身', '回血']
             }
@@ -44157,6 +44172,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 1948,
                 'description': '變身；所有符石轉化為妖族符石',
                 'tag': ['變身', '妖族符石製造']
             }
@@ -44182,6 +44198,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'EP',
                 'num': 8,
+                'transform': 1949,
                 'description': '變身；所有符石轉化為妖族符石；若隊伍中有「不赦惡神 ‧ 洛基」或「亡靈蝕骨 ‧ 洛基」，所有心符石轉化為暗強化符石',
                 'tag': ['變身', '符石轉暗', '符石轉暗強化', '心轉其他', '妖族符石製造']
             }
@@ -46189,6 +46206,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2042,
                 'description': '變身；回復 20000 點生命力；隊伍中其他水屬性成員的主動技能 CD 減少 1；水符石轉化為人族符石',
                 'tag': ['變身', '回血', '人族符石製造', '減CD']
             }
@@ -46239,6 +46257,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2044,
                 'description': '變身；回復 20000 點生命力；隊伍中其他火屬性成員的主動技能 CD 減少 1；火符石轉化為人族符石',
                 'tag': ['變身', '回血', '人族符石製造', '減CD']
             }
@@ -46289,6 +46308,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2046,
                 'description': '變身；回復 20000 點生命力；隊伍中其他木屬性成員的主動技能 CD 減少 1；木符石轉化為人族符石',
                 'tag': ['變身', '回血', '人族符石製造', '減CD']
             }
@@ -46339,6 +46359,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2048,
                 'description': '變身；回復 20000 點生命力；隊伍中其他光屬性成員的主動技能 CD 減少 1；光符石轉化為人族符石',
                 'tag': ['變身', '回血', '人族符石製造', '減CD']
             }
@@ -46389,6 +46410,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2050,
                 'description': '變身；回復 20000 點生命力；隊伍中其他暗屬性成員的主動技能 CD 減少 1；暗符石轉化為人族符石',
                 'tag': ['變身', '回血', '人族符石製造', '減CD']
             }
@@ -47561,6 +47583,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2102,
                 'description': '需裝備「水瓶座黃金聖衣」龍刻武裝才可發動此技能：<br>I. 變身<br>II. 1 回合內，可任意移動符石而不會發動消除',
                 'tag': ['變身', '排珠']
             }
@@ -47669,6 +47692,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2104,
                 'description': '需裝備「獅子座黃金聖衣」龍刻武裝才可發動此技能：<br>I. 變身<br>II. 所有「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 所在直行的符石轉化為人族強化符石',
                 'tag': ['變身', '符石強化', '人族符石製造']
             }
@@ -47749,6 +47773,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2106,
                 'description': '需裝備「 天秤座黃金聖衣」龍刻武裝才可發動此技能：<br>I. 變身<br>II. 完全回復生命力<br>III. 1 回合內，木符石兼具其他屬性符石效果',
                 'tag': ['變身', '符石兼具水', '符石兼具火', '符石兼具光', '符石兼具暗', '回血']
             }
@@ -47857,6 +47882,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2108,
                 'description': '需裝備「射手座黃金聖衣」龍刻武裝才可發動此技能：<br>I. 變身<br>II. 引爆所有「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 所在直行的符石，以掉落該直行成員屬性的符石',
                 'tag': ['變身', '引爆', '直行引爆', '強制掉落']
             }
@@ -47951,6 +47977,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2110,
                 'description': '需裝備「處女座黃金聖衣」龍刻武裝才可發動此技能：<br>I. 變身<br>II. 1 回合內，自身攻擊力及回復力 4 倍',
                 'tag': ['變身', '增傷', '界王拳', '增回']
             }
@@ -49107,6 +49134,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2151,
                 'description': 'I. 變身<br>II. 「超人ZERO」及「超人ZERO (無限形態)」直行的符石<br>⇒ 轉化為水神族強化符石<br>III. 1 回合內，水及暗符石兼具心符石效果',
                 'tag': ['變身', '符石轉水', '符石轉水強化', '神族符石製造', '符石兼具心']
             }
@@ -49399,6 +49427,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2158,
                 'description': 'I. 變身<br>II. 1 回合內全隊攻擊力及回復力 2 倍<br>隊伍中每多 1 個「超人」<br>⇒ 額外增加 1 回合效果<br>⇒ 最多可持續 6 回合',
                 'tag': ['變身', '增傷', '增回']
             }
@@ -49538,6 +49567,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2163,
                 'description': '場上需有 14 粒或以上暗符石才可發動此技能<br>I. 變身<br>II. 引爆場上所有符石<br>⇒ 以掉落強化符石<br>III. 1 回合內<br>⇒ 其他符石兼具暗符石效果<br>⇒ 連擊 (Combo) 數目增加 5',
                 'tag': ['變身', '引爆', '整版引爆', '符石兼具暗', '增加Combo']
             }
@@ -50745,6 +50775,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2208,
                 'description': '變身；所有符石轉化為龍族符石',
                 'tag': ['變身', '龍族符石製造']
             }
@@ -53404,6 +53435,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
+                'transform': 2377,
                 'description': '需裝備專屬龍刻武裝才可發動此技能：<br>I. 變身<br>II. 引爆水以外的符石<br>⇒ 掉落屬性強化符石<br>1 回合內<br>III. 龍類、神族、獸類<br>⇒ 攻擊力 2.5 倍<br>IV. 發動技能時，若隊長及戰友為「卿雲護庇 ‧ 蒼璧」或「豁達浪息 ‧ 蒼璧」<br>⇒「龍鱗值」減至 0 點',
                 'tag': ['變身', '引爆', '水外符石引爆', '強制掉落', '增傷']
             }
