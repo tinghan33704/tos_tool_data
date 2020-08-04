@@ -1,4 +1,4 @@
-// Last modified : 2020.08.01 13:42
+// Last modified : 2020.08.04 22:14
 
 const monster_data = [
     {
@@ -39921,7 +39921,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 9,
                 'description': '2 回合內，使敵方全體無法行動；效果期間，於每回合結束時消耗敵方現有 10% 生命力',
-                'tag': ['無法行動']
+                'tag': ['無法行動', '直傷']
             }
         ],
         'team_skill': []
@@ -55020,7 +55020,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'EP',
                 'num': 6,
-                'description': 'I. 無視「黏腐」敵技<br>II. 每次觸碰「黏腐」位置<br>III. 每個成員追打 1 次<br>上述效果會在進入下一層數 (Wave) 時消失<br><br>IV. 解除「風化符石」狀態<br>V. 將所有符石轉化為強化符石<br>VI.「卿雲護庇 ‧ 蒼璧」以外龍類、神族、獸類 CD 減少 2',
+                'description': 'I. 無視「黏腐」敵技<br>II. 每次觸碰「黏腐」位置<br>⇒ 回復 5% 生命力 (不會溢補)<br>III. 每個成員追打 1 次<br>上述效果會在進入下一層數 (Wave) 時消失<br><br>IV. 解除「風化符石」狀態<br>V. 將所有符石轉化為強化符石<br>VI.「卿雲護庇 ‧ 蒼璧」以外龍類、神族、獸類 CD 減少 2',
                 'tag': ['無視黏腐', '回血', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打', '全隊追打', '風化符石處理', '符石強化', '減CD']
             },
             {
@@ -57035,156 +57035,318 @@ const monster_data = [
     },
     {
         'id': 2451,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '狩獵祭典',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '1 回合內<br>I. 自身以外成員及全體敵人攻擊力減少 80%<br>II. 並將減去的攻擊力<br>⇒ 加入自身攻擊力<br>III. 自身對魔族目標攻擊力額外 5 倍<br>IV. 自身對敵方造成傷害的 50% 轉化為生命力',
+                'tag': ['我方減攻', '敵方減攻', '攻擊力吸收', '增傷', '界王拳', '對魔族增傷', '我方傷害吸收']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 延長移動符石時間 2 秒<br>II. 火、光、暗符石互相兼具效果<br>III. 移動符石前若生命力全滿<br>⇒ 全隊攻擊力 2 倍<br>IV. 移動符石前若生命力未滿<br>⇒「貪婪之罪 ‧ 班」攻擊力額外 5 倍<br>V. 無視「燃燒」敵技<br>VI. 隊伍不受中毒技能影響',
+                'activate': '以「貪婪之罪 ‧ 班」作隊長及戰友',
+                'skill_tag': ['延長轉珠時間', '符石兼具火', '符石兼具光', '符石兼具暗', '火兼具其他', '光兼具其他', '暗兼具其他', '增攻', '無視燃燒', '防毒'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2451]
+            },
+            {
+                'description': '最左方的「貪婪之罪 ‧ 班」及最左方的「伊蓮恩」<br>⇒ 生命力、攻擊力、回復力 1.5 倍',
+                'activate': '以「貪婪之罪 ‧ 班」及「伊蓮恩」作成員',
+                'skill_tag': ['增攻', '增回', '增血'],
+                'activate_tag': ['指定成員'],
+                'relative': [2451, 2463]
+            },
+            {
+                'description': '當前生命力大於 90% 時，下一次所受傷害不會使你死亡',
+                'activate': '以「貪婪之罪 ‧ 班」作隊長及戰友，並以「伊蓮恩」作成員',
+                'skill_tag': ['意志'],
+                'activate_tag': ['指定雙隊長', '指定成員'],
+                'relative': [2451, 2463]
+            }
+        ]
     },
     {
         'id': 2452,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '妖精類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '靈槍 Chastiefol 第五形態「增殖」',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 將水符石轉化為<br>⇒ 木妖族強化符石<br>1 回合內<br>II. 每首批消除 1 粒木符石<br>⇒ 增加 1 連擊 (Combo)<br>⇒ 最多可增加 10 Combo',
+                'tag': ['水轉其他', '符石轉木', '符石轉木強化', '妖族符石製造', '增加Combo']
+            },
+            {
+                'name': '靈槍 Chastiefol 第四形態「光華」',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 8,
+                'description': '1 回合內<br>I. 首批 2 粒相連的符石可發動消除<br>II. 每首批消除 1 組符石<br>⇒ 個人以 30% 攻擊力追打木屬性攻擊 1 次<br>⇒ 最多可追打 10 次',
+                'tag': ['改變消除方式', '自身追打', '木屬追打']
+            },
+            {
+                'name': '真 ‧ 靈槍 Chastiefol 第一形態「暴君之嵐」',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 引爆水符石<br>⇒ 掉落木妖族強化符石<br>1 回合內<br>II. 每首批消除 1 粒木符石<br>⇒ 增加 1 連擊 (Combo)<br>⇒ 最多可增加 10 Combo',
+                'tag': ['引爆', '水符石引爆', '強制掉落', '妖族符石製造', '增加Combo']
+            },
+            {
+                'name': '真 ‧ 靈槍 Chastiefol 第四形態「光華」',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 8,
+                'description': 'I. 將所有符石轉化為<br>⇒ 固定數量及位置的「木妖族、光、心」強化符石<br>1 回合內<br>II. 每消除 1 組木、光或心符石<br>⇒ 個人追打 50% 光屬性攻擊<br>⇒ 最多可追打 20 次',
+                'tag': ['符石轉木', '符石轉光', '符石轉心', '符石轉木強化', '符石轉光強化', '符石轉心強化', '妖族符石製造', '大幅轉版', '固定轉版','自身追打', '光屬追打']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 必然延長移動符石 2 秒<br>II. 每消除 1 組木、光或心符石<br>⇒ 額外計算多 2 連擊 (Ex. Combo)<br>⇒ 最多可增加 12 連擊 (Ex. Combo)<br>III.「怠惰之罪 ‧ 金恩」每次發動技能<br>⇒ 自身攻擊力 2.5 倍',
+                'activate': '以「怠惰之罪 ‧ 金恩」作隊長及戰友',
+                'skill_tag': ['延長轉珠時間', '增加Ex.Combo', '增攻'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2452]
+            },
+            {
+                'description': '最左方的「怠惰之罪 ‧ 金恩」及最左方的「嫉妒之罪 ‧ 黛安娜」<br>⇒ 生命力、攻擊力、回復力 1.5 倍',
+                'activate': '以「怠惰之罪 ‧ 金恩」及「嫉妒之罪 ‧ 黛安娜」作成員',
+                'skill_tag': ['增攻', '增回', '增血'],
+                'activate_tag': ['指定成員'],
+                'relative': [2452, 2457]
+            },
+            {
+                'description': '最左方的「怠惰之罪 ‧ 金恩」及最左方的「伊蓮恩」<br>⇒ 生命力、攻擊力、回復力 1.3 倍',
+                'activate': '以「怠惰之罪 ‧ 金恩」及「伊蓮恩」作成員',
+                'skill_tag': ['增攻', '增回', '增血'],
+                'activate_tag': ['指定成員'],
+                'relative': [2452, 2463]
+            },
+            {
+                'description': '組合技能：合技「天空之光弓」<br><br>1 回合內<br>I. 發動技能的「色慾之罪．哥塞爾」<br>⇒ 攻擊力減至 0<br>II. 將減去攻擊力的 6 倍<br>⇒ 加入發動技能的「怠惰之罪．金恩」的攻擊力<br>III. 發動技能的「怠惰之罪．金恩」的攻擊<br>⓵ 無視「指定形狀盾」敵技<br>⓶ 無視敵人防禦力<br>IV. 受到發動技能的「金恩」攻擊的敵人<br>⓵ 附加 1 回合電擊狀態<br>⓶ 無法行動 1 回合',
+                'activate': '以「怠惰之罪 ‧ 金恩」及「色慾之罪 ‧ 哥塞爾」作成員 (召喚獸等級達 50 或以上)',
+                'skill_tag': ['組合技能'],
+                'activate_tag': ['指定成員', '等級下限'],
+                'relative': [2452, 2459]
+            }
+        ]
     },
     {
         'id': 2453,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '治癒超魔力',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 完全回復生命力<br>II. 將自身直行的符石<br>⇒ 轉化為心強化符石<br>1 回合內<br>III. 隊伍不受中毒技能影響<br>IV. 若隊中其他成員均為「七大罪」<br>⇒ I - III 效果持續 3 回合',
+                'tag': ['回血', '符石轉心', '符石轉心強化', '防毒']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '最左方的「看板娘 ‧ 伊麗莎白」及最左方的「憤怒之罪 ‧ 梅里奧達斯」<br>⇒ 生命力、攻擊力、回復力 1.5 倍',
+                'activate': '以「憤怒之罪 ‧ 梅里奧達斯」及「看板娘 ‧ 伊麗莎白」作成員',
+                'skill_tag': ['增攻', '增回', '增血'],
+                'activate_tag': ['指定成員'],
+                'relative': [2453, 2454]
+            }
+        ]
     },
     {
         'id': 2454,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '全反擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': '1 回合內<br>I. 自身不能發動攻擊<br>II. 所受傷害不會使你死亡<br>(包括「喋血屠刀」、「一擊必殺」等扣除召喚師指定 % 生命力的敵技所造成的傷害)<br>III. 以所受傷害 1000 倍<br>⇒ 對敵方攻擊者進行相剋屬性反擊<br>(此傷害無視防禦力及「強化突破」敵技)<br>IV. 下回合，將本回合所受傷害的 3 倍<br>⇒ 加至自身攻擊力<br>⇒ 最多加至 32500',
+                'tag': ['限制成員攻擊', '意志', '直傷', '增傷']
+            },
+            {
+                'name': '變身',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'transform': 2455,
+                'description': 'I. 變身<br>II. 引爆心符石<br>⇒ 掉落暗魔族強化符石<br>2 回合內<br>III. 心符石的掉落率降至 0<br>IV. 將原有機率增加至<br>⇒ 暗符石的掉落率<br>V. 將掉落的暗符石<br>⇒ 以暗魔族強化符石代替<br>VI. 魔族攻擊力及回復力 1.7 倍',
+                'tag': ['變身', '引爆', '心符石引爆', '魔族符石製造', '強制掉落', '禁珠', '改變掉落機率', '增傷', '增回']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 必然延長移動符石時間 2 秒<br>II. 「七大罪」<br>⇒ 生命力、攻擊力、回復力 1.2 倍<br>III. 將移動符石時觸碰的符石<br>⇒ 轉化為強化符石<br>IV. 其他屬性符石<br>⇒ 兼具 50% 暗符石效果<br>V. 每消除 2 連擊 (Combo)<br>⇒ 額外計算多 1 連擊 (Combo)',
+                'activate': '以「憤怒之罪 ‧ 梅里奧達斯」作隊長及戰友；或以「憤怒之罪 ‧ 梅里奧達斯」及「魔神化 ‧ 梅里奧達斯」作隊長及戰友',
+                'skill_tag': ['延長轉珠時間', '增攻', '增回', '增血', '符石強化', '符石兼具暗', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '增加Combo'],
+                'activate_tag': ['指定雙隊長', '指定隊長戰友'],
+                'relative': [2454, 2455]
+            },
+            {
+                'description': '最左方的「看板娘 ‧ 伊麗莎白」及最左方的「憤怒之罪 ‧ 梅里奧達斯」<br>⇒ 生命力、攻擊力、回復力 1.5 倍',
+                'activate': '以「憤怒之罪 ‧ 梅里奧達斯」及「看板娘 ‧ 伊麗莎白」作成員',
+                'skill_tag': ['增攻', '增回', '增血'],
+                'activate_tag': ['指定成員'],
+                'relative': [2454, 2453]
+            }
+        ]
     },
     {
         'id': 2455,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '全反擊 ‧ 強',
                 'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'charge': 'EP',
+                'num': 7,
+                'description': '1 回合內<br>I. 自身不能發動攻擊<br>II. 所受傷害不會使你死亡<br>(包括「喋血屠刀」、「一擊必殺」等扣除召喚師指定 % 生命力的敵技所造成的傷害)<br>III. 以所受傷害 2000 倍<br>⇒ 對敵方攻擊者進行相剋屬性反擊<br>(此傷害無視防禦力及「強化突破」敵技)<br>IV. 下回合，將本回合所受傷害的 5 倍<br>⇒ 加至自身攻擊力<br>⇒ 最多加至 56000',
+                'tag': ['限制成員攻擊', '意志', '直傷', '增傷']
+            },
+            {
+                'name': '神千斬',
+                'type': 'normal',
+                'charge': 'EP',
+                'num': 7,
+                'description': 'I. 敵方全體點燃<br>II. 使受影響目標<br>⇒ 轉為暗屬性<br>III. 每回合以 100 倍自身攻擊力<br>⇒ 對敵方全體造成暗屬性傷害，並持續至死亡<br>IV. 效果持續期間<br>⇒ 暗屬性及魔族攻擊力 1.7 倍',
+                'tag': ['點燃敵方', '敵方轉屬', '直傷', '增傷']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 必然延長移動符石時間 2 秒<br>II. 魔族攻擊力及回復力 1.7 倍<br>III. 將移動符石時觸碰的符石<br>⇒ 轉化為魔族強化符石<br>IV. 其他屬性符石<br>⇒ 兼具 50% 暗符石效果<br>V. 每消除 2 連擊 (Combo)<br>⇒ 額外計算多 1 連擊 (Combo)',
+                'activate': '以「魔神化 ‧ 梅里奧達斯」作隊長及戰友',
+                'skill_tag': ['延長轉珠時間', '增攻', '增回', '符石強化', '魔族符石製造', '符石兼具暗', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '增加Combo'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2455]
+            },
+            {
+                'description': '「最高神的女兒 ‧ 伊麗莎白」每次發動主動技能<br>⇒「魔神化 ‧ 梅里奧達斯」的技能 EP 增加 2',
+                'activate': '以「最高神的女兒 ‧ 伊麗莎白」及「魔神化 ‧ 梅里奧達斯」作成員',
+                'skill_tag': ['開技減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2455, 2473]
+            }
+        ]
     },
     {
         'id': 2456,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '死亡啄木鳥',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 引爆所有弱化符石<br>1 回合內<br>II. 個人以 30% 攻擊力<br>⇒ 追打光及暗屬性攻擊各 5 次<br>III. 每首批消除 1 組火符石<br>⇒ 增加 1 連擊 (Ex. Combo)',
+                'tag': ['引爆', '弱化符石處理', '光屬追打', '暗屬追打', '自身追打', '增加Ex.Combo']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，最左方的「卡梅洛國王 ‧ 亞瑟」及最左方的「暴食之罪 ‧ 瑪琳」<br>⇒ 技能 CD 減少 3',
+                'activate': '以「卡梅洛國王 ‧ 亞瑟」及「暴食之罪 ‧ 瑪琳」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2456, 2458]
+            }
+        ]
     },
     {
         'id': 2457,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '亂衝擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 解除「石化符石」狀態，成功解除後<br>⇒ 自身技能 CD 減少 5<br>1 回合內<br>II. 可任意移動符石而不會發動消除<br>III. 將移動符石時觸碰的木符石<br>⇒ 轉化為木人族強化符石<br>IV. 個人追打木屬性攻擊 3 次',
+                'tag': ['石化符石處理', '減CD', '排珠', '符石轉木強化', '符石強化', '人族符石製造', '木屬追打', '自身追打']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '最左方的「怠惰之罪 ‧ 金恩」及最左方的「嫉妒之罪 ‧ 黛安娜」<br>⇒ 生命力、攻擊力、回復力 1.5 倍',
+                'activate': '以「怠惰之罪 ‧ 金恩」及「嫉妒之罪 ‧ 黛安娜」作成員',
+                'skill_tag': ['增攻', '增回', '增血'],
+                'activate_tag': ['指定成員'],
+                'relative': [2457, 2452]
+            }
+        ]
     },
     {
         'id': 2458,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '衝擊的尾針',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': '3 回合內<br>I. 發動技能及回合結束時<br>⇒ 將隊長及戰友直行的符石轉化為暗強化符石<br><br>2 回合內<br>II. 電擊敵方全體<br>III. 使受影響目標無法行動',
+                'tag': ['符石轉暗', '符石轉暗強化', '固定轉版', '電擊敵方', '無法行動']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，最左方的「卡梅洛國王 ‧ 亞瑟」及最左方的「暴食之罪 ‧ 瑪琳」<br>⇒ 技能 CD 減少 3',
+                'activate': '以「卡梅洛國王 ‧ 亞瑟」及「暴食之罪 ‧ 瑪琳」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2458, 2456]
+            }
+        ]
     },
     {
         'id': 2459,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '綁架傀儡',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': '1 回合內<br>I. 敵方互相或自我進行 1 次攻擊<br>II. 效果期間，敵人防禦力變 0',
+                'tag': ['魅惑敵方', '破防']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '組合技能：合技「天空之光弓」<br><br>1 回合內<br>I. 發動技能的「色慾之罪．哥塞爾」<br>⇒ 攻擊力減至 0<br>II. 將減去攻擊力的 6 倍<br>⇒ 加入發動技能的「怠惰之罪．金恩」的攻擊力<br>III. 發動技能的「怠惰之罪．金恩」的攻擊<br>⓵ 無視「指定形狀盾」敵技<br>⓶ 無視敵人防禦力<br>IV. 受到發動技能的「金恩」攻擊的敵人<br>⓵ 附加 1 回合電擊狀態<br>⓶ 無法行動 1 回合',
+                'activate': '以「怠惰之罪 ‧ 金恩」及「色慾之罪 ‧ 哥塞爾」作成員 (召喚獸等級達 50 或以上)',
+                'skill_tag': ['組合技能'],
+                'activate_tag': ['指定成員', '等級下限'],
+                'relative': [2459, 2452]
+            }
+        ]
     },
     {
         'id': 2460,
@@ -57222,37 +57384,59 @@ const monster_data = [
     },
     {
         'id': 2462,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '獸類',
+        'star': 5,
         'skill': [
             {
-                'name': '',
+                'name': '必殺技 香腸突擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': '1 回合內，個人以 10% 攻擊力<br>⇒ 隨機追打火及光屬性攻擊共 20 次',
+                'tag': ['火屬追打', '光屬追打', '自身追打']
             }
         ],
         'team_skill': []
     },
     {
         'id': 2463,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '妖精類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '嵐瀑布',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '1 回合內<br>I. 將單體攻擊轉化為全體攻擊<br>II. 全隊攻擊力 1.5 倍<br>III. 妖精類攻擊力則 2 倍<br>IV. 觸碰暴風時仍可移動符石<br>V. 隊中有「貪婪之罪 ‧ 班」或「怠惰之罪 ‧ 金恩」<br>⇒ 額外增加 5 連擊 (Combo)',
+                'tag': ['增傷', '無視暴風', '增加Combo']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '最左方的「貪婪之罪 ‧ 班」及最左方的「伊蓮恩」<br>⇒ 生命力、攻擊力、回復力 1.5 倍',
+                'activate': '以「貪婪之罪 ‧ 班」及「伊蓮恩」作成員',
+                'skill_tag': ['增攻', '增回', '增血'],
+                'activate_tag': ['指定成員'],
+                'relative': [2463, 2451]
+            },
+            {
+                'description': '最左方的「怠惰之罪 ‧ 金恩」及最左方的「伊蓮恩」<br>⇒ 生命力、攻擊力、回復力 1.3 倍',
+                'activate': '以「怠惰之罪 ‧ 金恩」及「伊蓮恩」作成員',
+                'skill_tag': ['增攻', '增回', '增血'],
+                'activate_tag': ['指定成員'],
+                'relative': [2463, 2452]
+            },
+            {
+                'description': '當前生命力大於 90% 時，下一次所受傷害不會使你死亡',
+                'activate': '以「貪婪之罪 ‧ 班」作隊長及戰友，並以「伊蓮恩」作成員',
+                'skill_tag': ['意志'],
+                'activate_tag': ['指定雙隊長', '指定成員'],
+                'relative': [2463, 2451]
+            }
+        ]
     },
     {
         'id': 2464,
@@ -57273,20 +57457,28 @@ const monster_data = [
     },
     {
         'id': 2465,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '人類',
+        'star': 5,
         'skill': [
             {
-                'name': '',
+                'name': '巨神的手甲',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 將最左及最右方直行的符石<br>⇒ 轉化為木強化符石<br>II. 引爆中間 4 直行的符石',
+                'tag': ['符石轉木', '符石轉木強化', '固定轉版', '引爆', '直行引爆']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '組合技能：合技 「礦樹歐魯德拉」<br><br>I. 將最左及最右方直行的符石<br>⇒ 轉化為木強化符石<br>II. 引爆中間 4 直行的符石<br>⇒ 分別掉落橫行「心、水、火、光、暗」強化符石各 4 粒<br>1 回合內<br>III. 人類及妖精類攻擊力 3 倍',
+                'activate': '以「安息 ‧ 葛羅基西尼亞」及「忍耐 ‧ 多羅爾」作成員 (召喚獸等級達 50 或以上)',
+                'skill_tag': ['組合技能'],
+                'activate_tag': ['指定成員', '等級下限'],
+                'relative': [2465]
+            }
+        ]
     },
     {
         'id': 2466,
@@ -57341,20 +57533,28 @@ const monster_data = [
     },
     {
         'id': 2469,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '凶星雲',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 所有符石隨機轉換<br>II. 將內側 12 粒符石<br>⇒ 轉化為暗魔族強化符石<br>1 回合內<br>II. 將移動符石時觸碰的符石<br>⇒ 轉化為魔族強化符石<br>III. 延長移動符石時間至 20 秒',
+                'tag': ['大幅轉版', '符石轉暗', '符石轉暗強化', '魔族符石製造', '固定轉版', '符石強化', '延長轉珠時間']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 主動技能 CD 少於「敬神 ‧ 傑魯德利斯」的成員<br>⇒ 主動技能 CD +2<br>II. 主動技能 CD 高於「敬神 ‧ 傑魯德利斯」的成員<br>⇒ 進入關卡後，主動技能 CD -4',
+                'activate': '以「敬神 ‧ 傑魯德利斯」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': [],
+                'relative': [2469]
+            }
+        ]
     },
     {
         'id': 2470,
@@ -57375,51 +57575,59 @@ const monster_data = [
     },
     {
         'id': 2471,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '魔族',
+        'star': 4,
         'skill': [
             {
-                'name': '',
+                'name': '赤色咬噬',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 消耗敵方 5% 現有生命力<br>II. 並將之轉化為我方生命力',
+                'tag': ['直傷', '回血']
             }
         ],
         'team_skill': []
     },
     {
         'id': 2472,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '魔族',
+        'star': 4,
         'skill': [
             {
-                'name': '',
+                'name': '魔神之血',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '1 回合內<br>I. 首批消除最底橫行 1 組 6 粒符石<br>⇒ 魔族攻擊力 1.5 倍<br>II. 首批消除最頂橫行 1 組 6 粒符石<br>⇒ 減少 50% 所受傷害',
+                'tag': ['增傷', '減傷']
             }
         ],
         'team_skill': []
     },
     {
         'id': 2473,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '神族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '聖櫃',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 將場上的符石變回原始模樣<br>1 回合內<br>II. 受到攻擊的敵人<br>⇒ 延遲行動 1 回合<br>III. 受到攻擊的魔族敵人<br>⇒ 額外延遲行動 1 回合',
+                'tag': ['還原版面', '延遲']
+            },
+            {
+                'name': '光明降臨',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 8,
+                'description': '點選元素法陣上 1 粒光以外的符石<br>I. 引爆該種符石<br>2 回合內<br>II. 該符石掉落率降至 0<br>III. 將原有機率<br>⇒ 增加至光符石的掉落率<br>IV. 光符石兼具<br>⇒ 50% 其他屬性符石效果',
+                'tag': ['引爆', '指定符石引爆', '禁珠', '改變掉落機率', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具暗']
             }
         ],
         'team_skill': []
@@ -60027,7 +60235,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '將 14 個固定位置的符石轉化為暗神族符石',
-                'tag': ['符石轉暗', '神族符石製造', '大幅轉版', '固定轉版']
+                'tag': ['符石轉暗', '神族符石製造', '固定轉版']
             }
         ],
         'team_skill': []
