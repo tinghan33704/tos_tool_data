@@ -1,4 +1,4 @@
-// Last modified : 2020.08.06 21:19
+// Last modified : 2020.08.06 21:29
 
 const monster_data = [
     {
@@ -57373,7 +57373,7 @@ const monster_data = [
                 'name': '變身',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 8,
+                'num': 3,
                 'transform': 2461,
                 'description': '累積首批消除 ≥60 粒光符石才可發動此技能：<br>I. 變身<br>II. 1 回合內，所受傷害減至 0<br>(包括「喋血屠刀」、「一擊必殺」等扣除召喚師指定 % 生命力的敵技所造成的傷害)',
                 'tag': ['變身', '減傷']
