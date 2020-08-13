@@ -1,4 +1,4 @@
-// Last modified : 2020.08.06 21:29
+// Last modified : 2020.08.13 20:58
 
 const monster_data = [
     {
@@ -57494,17 +57494,17 @@ const monster_data = [
     },
     {
         'id': 2464,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '神族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '極大聖櫃',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 將黑白符石變回原來色調<br>II. 將所有符石<br>⇒ 轉化為神族符石<br>III. 若場上有魔族敵人時<br>⇒ 則將所有符石<br>⇒ 轉化為神族強化符石<br>1 回合內<br>IV. 首批掉落的 15 粒符石<br>⇒ 必定為光神族強化符石',
+                'tag': ['黑白還原', '神族符石製造', '符石強化', '強制掉落']
             }
         ],
         'team_skill': []
@@ -57586,20 +57586,28 @@ const monster_data = [
     },
     {
         'id': 2468,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '殺戮飛盤',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 隨機將 2 個角落共 8 粒符石<br>⇒ 轉化為暗魔族強化符石<br>1 回合內<br>II. 暗屬性攻擊力及回復力 2 倍<br>III. 若有擊斃敵人<br>⇒ 自身技能 CD 減少 3',
+                'tag': ['符石轉暗', '符石轉暗強化', '魔族符石製造', '增傷', '增回', '減CD']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 攻擊力基值低於「慈愛 ‧ 艾斯塔洛薩」的成員<br>⇒ 攻擊力 2 倍<br>II. 攻擊力基值高於「慈愛 ‧ 艾斯塔洛薩」的成員<br>⇒ 攻擊力變 0',
+                'activate': '以「慈愛 ‧ 艾斯塔洛薩」作成員',
+                'skill_tag': ['增攻'],
+                'activate_tag': [],
+                'relative': [2468]
+            }
+        ]
     },
     {
         'id': 2469,
