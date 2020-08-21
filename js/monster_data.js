@@ -1,4 +1,4 @@
-// Last modified : 2020.08.18 22:46
+// Last modified : 2020.08.21 23:48
 
 const monster_data = [
     {
@@ -51614,9 +51614,9 @@ const monster_data = [
     },
     {
         'id': 2246,
-        'attribute': '',
-        'race': '',
-        'star': -1,
+        'attribute': '水',
+        'race': '龍類',
+        'star': 6,
         'skill': [
             {
                 'name': '浪濤陣勢',
@@ -51631,17 +51631,17 @@ const monster_data = [
     },
     {
         'id': 2247,
-        'attribute': '',
-        'race': '',
-        'star': -1,
+        'attribute': '火',
+        'race': '龍類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '龍族加冕 ‧ 附從',
                 'type': 'normal',
-                'charge': '',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'charge': 'CD',
+                'num': 7,
+                'description': 'I. 將累積戰鬥回合 (需消除符石) +2 數量的符石轉化為龍族強化符石，最多 20 粒<br>1 回合內<br>II. 每消除 1 種隊長屬性以外的符石<br>⇒ 掉落 5 粒隊長屬性符石<br>⇒ 消除 4 種可掉落最多 20 粒',
+                'tag': ['符石強化', '龍族符石製造', '強制掉落']
             }
         ],
         'team_skill': []
@@ -57636,20 +57636,28 @@ const monster_data = [
     },
     {
         'id': 2470,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '魔族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '真紅的葬送',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 敵方全體點燃<br>II. 使受影響目標轉為火屬性<br>III. 每回合以 200 倍自身攻擊力<br>⇒ 對敵方全體造成火屬性傷害並持續至死亡<br>IV. 效果持續期間<br>⓵ 受影響目標防禦力變為 0<br>⓶ 自身攻擊無視指定減傷抗性敵技',
+                'tag': ['點燃敵方', '敵方轉屬', '直傷', '破防']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '「幽閉空間」技能生效時：<br>⓵ 延長移動符石時間至 20 秒<br>⓶「最上位魔神 ‧ 錢德勒」<br>⇒ 攻擊力 3 倍',
+                'activate': '以「最上位魔神 ‧ 錢德勒」作成員',
+                'skill_tag': ['延長轉珠時間', '增攻'],
+                'activate_tag': [],
+                'relative': [2470]
+            }
+        ]
     },
     {
         'id': 2471,
