@@ -1,4 +1,4 @@
-// Last modified : 2020.08.21 23:48
+// Last modified : 2020.08.22 13:59
 
 const monster_data = [
     {
@@ -22774,7 +22774,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -22791,7 +22791,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -22808,7 +22808,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -22825,7 +22825,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -22842,7 +22842,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -32065,7 +32065,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -32114,7 +32114,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -34478,7 +34478,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -38430,7 +38430,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -38983,7 +38983,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -39370,7 +39370,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -39387,7 +39387,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -39404,7 +39404,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -40121,7 +40121,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -40297,7 +40297,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -40846,7 +40846,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -41088,7 +41088,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -41113,7 +41113,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -41138,7 +41138,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -41188,7 +41188,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -41281,7 +41281,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -43062,7 +43062,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -43079,7 +43079,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -44112,7 +44112,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -44307,7 +44307,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -44750,7 +44750,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -44767,7 +44767,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -45087,7 +45087,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -46986,7 +46986,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -47003,7 +47003,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -47045,7 +47045,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -48609,7 +48609,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -49751,7 +49751,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -49935,7 +49935,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -50648,7 +50648,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -50665,7 +50665,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -50866,7 +50866,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -50900,7 +50900,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
@@ -52690,7 +52690,7 @@ const monster_data = [
             {
                 'name': '沒有技能',
                 'type': 'normal',
-                'charge': '',
+                'charge': 'CD',
                 'num': 0,
                 'description': '沒有技能',
                 'tag': []
