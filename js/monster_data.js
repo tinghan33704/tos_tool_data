@@ -1,4 +1,4 @@
-// Last modified : 2020.08.22 13:59
+// Last modified : 2020.08.23 03:00
 
 const monster_data = [
     {
@@ -31005,7 +31005,7 @@ const monster_data = [
                 'activate': '以漓澌原罪 ‧ 阿撒兹勒作隊長及戰友，並以復仇魔君 ‧ 貝利爾作隊員',
                 'skill_tag': ['增血'],
                 'activate_tag': ['指定雙隊長', '指定成員'],
-                'relative': [1351, 1110]
+                'relative': [1351, 1100]
             },
             {
                 'description': '隊長及戰友的隊長技能「無影幻像 ‧ 浪濤襲」變為「無垠幻像 ‧ 浪濤襲」，其中水屬性攻擊力提升至 4.5 倍',
@@ -31037,7 +31037,7 @@ const monster_data = [
                 'activate': '以熽炎煉獄 ‧ 亞巴頓作隊長及戰友，並以復仇魔君 ‧ 貝利爾作隊員',
                 'skill_tag': ['增血'],
                 'activate_tag': ['指定雙隊長', '指定成員'],
-                'relative': [1352, 1110]
+                'relative': [1352, 1100]
             },
             {
                 'description': '隊長及戰友的隊長技能「無影幻像 ‧ 熾燄襲」變為「無垠幻像 ‧ 熾燄襲」，其中火屬性攻擊力提升至 4.5 倍',
@@ -31069,7 +31069,7 @@ const monster_data = [
                 'activate': '以蒼翠茂綠 ‧ 薩麥爾作隊長及戰友，並以復仇魔君 ‧ 貝利爾作隊員',
                 'skill_tag': ['增血'],
                 'activate_tag': ['指定雙隊長', '指定成員'],
-                'relative': [1353, 1110]
+                'relative': [1353, 1100]
             },
             {
                 'description': '隊長及戰友的隊長技能「無影幻像 ‧ 藤木襲」變為「無垠幻像 ‧ 藤木襲」，其中木屬性攻擊力提升至 4.5 倍',
@@ -31108,7 +31108,7 @@ const monster_data = [
                 'activate': '以暮光蠅王 ‧ 別西卜作隊長及戰友，並以復仇魔君 ‧ 貝利爾作隊員',
                 'skill_tag': ['增攻'],
                 'activate_tag': ['指定雙隊長', '指定成員'],
-                'relative': [1354, 1110]
+                'relative': [1354, 1100]
             }
         ]
     },
@@ -31140,7 +31140,7 @@ const monster_data = [
                 'activate': '浩宕昏暗 ‧ 莫斯提馬作隊長及戰友，並以復仇魔君 ‧ 貝利爾作隊員',
                 'skill_tag': ['增攻'],
                 'activate_tag': ['指定雙隊長', '指定成員'],
-                'relative': [1355, 1110]
+                'relative': [1355, 1100]
             },
             {
                 'description': '最左方的浩宕昏暗 ‧ 莫斯提馬及最左方的森林暗鬼 ‧ 斯蘭達的生命力提升 1.8 倍',
