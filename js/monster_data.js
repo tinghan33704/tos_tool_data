@@ -10,7 +10,7 @@ const monster_data = [
             {
                 'name': '',
                 'type': 'normal',
-                'charge': 'CD',
+                'charge': '',
                 'num': 0,
                 'description': '',
                 'tag': []
@@ -18,7 +18,7 @@ const monster_data = [
             {
                 'name': '',
                 'type': 'normal',
-                'charge': 'CD',
+                'charge': '',
                 'num': 0,
                 'description': '',
                 'tag': []
