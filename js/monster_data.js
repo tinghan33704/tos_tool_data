@@ -1,4 +1,4 @@
-// Last modified : 2020.08.23 03:00
+// Last modified : 2020.08.25 20:36
 
 const monster_data = [
     {
@@ -18119,7 +18119,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '1 回合內，全隊攻擊力 2 倍；下一回合全隊回復力變 0',
-                'tag': ['增傷']
+                'tag': ['增傷', '我方減回']
             }
         ],
         'team_skill': []
@@ -18136,7 +18136,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '1 回合內，全隊攻擊力 2 倍；下一回合全隊回復力變 0',
-                'tag': ['增傷']
+                'tag': ['增傷', '我方減回']
             }
         ],
         'team_skill': [
@@ -24253,8 +24253,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': '3 回合內，全隊攻擊力 1.8 倍及全隊回復力變 0；並於第 3 回合結 束時，完全回復生命力',
-                'tag': ['回血', '增傷']
+                'description': '3 回合內，全隊攻擊力 1.8 倍及全隊回復力變 0；並於第 3 回合結束時，完全回復生命力',
+                'tag': ['回血', '增傷', '我方減回']
             }
         ],
         'team_skill': []
@@ -26991,7 +26991,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '1 回合内，全隊攻擊力 2.5 倍；下一回合全隊回復力變 0',
-                'tag': ['增傷']
+                'tag': ['增傷', '我方減回']
             }
         ],
         'team_skill': [
