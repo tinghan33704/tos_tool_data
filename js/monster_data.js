@@ -1,4 +1,4 @@
-// Last modified : 2020.08.25 20:36
+// Last modified : 2020.08.27 20:04
 
 const monster_data = [
     {
@@ -26565,7 +26565,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '3 回合內，水屬性攻擊力 1.8 倍及全隊回復力變 0；並於第 3 回合結束時，完全回復生命力',
-                'tag': ['回血', '增傷']
+                'tag': ['回血', '增傷', '我方減回']
             }
         ],
         'team_skill': []
