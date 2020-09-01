@@ -1,4 +1,4 @@
-// Last modified : 2020.08.31 21:30
+// Last modified : 2020.09.02 01:17
 
 const monster_data = [
     {
@@ -22996,6 +22996,13 @@ const monster_data = [
                 'skill_tag': ['主動技改變'],
                 'activate_tag': ['指定雙隊長'],
                 'relative': [998, 1135]
+            },
+            {
+                'description': 'I.「制約瓦解 ‧ 米迦勒」<br>⇒ 轉換為光屬性<br><br>II. 所有「制約瓦解 ‧ 米迦勒」的攻擊力<br>⇒ 跟隨攻擊力最高的「混沌之翼 ‧ 路西法」',
+                'activate': '以「制約瓦解 ‧ 米迦勒」及「混沌之翼 ‧ 路西法」作成員',
+                'skill_tag': ['攻擊力共鳴'],
+                'activate_tag': ['指定成員'],
+                'relative': [998, 2479]
             },
             {
                 'description': '組合技能：天雷的戰場<br>2 回合內，敵方全體轉為暗屬性，並大幅提升光屬性對暗屬性目標的攻擊力',
@@ -58253,7 +58260,15 @@ const monster_data = [
                 'tag': ['增傷', '界王拳', '增回', '光屬追打', '暗屬追打', '碎裂還原']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I.「制約瓦解 ‧ 米迦勒」<br>⇒ 轉換為光屬性<br><br>II. 所有「制約瓦解 ‧ 米迦勒」的攻擊力<br>⇒ 跟隨攻擊力最高的「混沌之翼 ‧ 路西法」',
+                'activate': '以「制約瓦解 ‧ 米迦勒」及「混沌之翼 ‧ 路西法」作成員',
+                'skill_tag': ['召喚獸轉光', '攻擊力共鳴'],
+                'activate_tag': ['指定成員'],
+                'relative': [2479, 998]
+            },
+        ]
     },
     {
         'id': 2480,
