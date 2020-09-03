@@ -1,4 +1,4 @@
-// Last modified : 2020.09.02 01:17
+// Last modified : 2020.09.04 00:45
 
 const monster_data = [
     {
@@ -58179,17 +58179,17 @@ const monster_data = [
     },
     {
         'id': 2475,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '井井有條',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': '1 回合內<br>I. 人類攻擊力 1.8 倍<br>II. 水符石兼具 50% 其他屬性符石效果<br>III. 若消除 1 種符石達 ≥10 粒<br>⇒ 自身技能 CD 減少 6',
+                'tag': ['增傷', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '減CD']
             }
         ],
         'team_skill': []
@@ -58213,20 +58213,28 @@ const monster_data = [
     },
     {
         'id': 2477,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '魔息怒溢',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 將所有符石隨機轉化為<br>⇒ 五屬強化符石<br>1 回合內<br>II. 消除符石的屬性愈多<br>⇒ 自身及「智火解析 ‧ 恩莉兒」攻擊力提升愈多<br>⇒ 最多可提升至 6 倍<br>III. 若有擊斃敵人<br>⇒ 下回合將自身及「智火解析 ‧ 恩莉兒」直行的符石轉化為自身屬性強化符石',
+                'tag': ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '大幅轉版', '增傷', '界王拳']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '「源恨復甦 · 恩莉兒」<br>⇒ 對神族目標攻擊力額外 3 倍',
+                'activate': '以「源恨復甦 · 恩莉兒」及「智火解析 ‧ 恩莉兒」作成員',
+                'skill_tag': ['增攻', '對神族增傷'],
+                'activate_tag': ['指定成員'],
+                'relative': [2477, 2307]
+            },
+        ]
     },
     {
         'id': 2478,
@@ -58747,17 +58755,17 @@ const monster_data = [
     },
     {
         'id': 2504,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '絕望爆發',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 引爆所有符石<br>⓵ 單數直行掉落木符石<br>⓶ 雙數直行掉落火符石<br>II. 隊伍中只有魔族成員時<br>⇒ 將所有符石轉化為魔族符石',
+                'tag': ['引爆', '整版引爆', '強制掉落', '魔族符石製造']
             }
         ],
         'team_skill': []
