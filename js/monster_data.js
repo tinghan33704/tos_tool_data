@@ -1,4 +1,4 @@
-// Last modified : 2020.09.04 00:45
+// Last modified : 2020.09.11 21:04
 
 const monster_data = [
     {
@@ -57227,20 +57227,28 @@ const monster_data = [
     },
     {
         'id': 2442,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '獸類',
+        'star': 5,
         'skill': [
             {
-                'name': '',
+                'name': '祥瑞之火',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 敵方全體點燃，持續 3 回合<br>II. 效果期間，敵方全體的防禦力減至 0<br>3 回合內<br>III. 將移動符石時觸碰的首 6 粒符石<br>⇒ 轉化為獸族符石<br>IV. 若隊中只有獸類或神族成員<br>⇒ 無視「燃燒」敵技<br>(不包括「煉獄之火」)',
+                'tag': ['點燃敵方', '破防', '獸族符石製造', '無視燃燒']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，「慌失失瑞獸團」角色<br>⇒ 技能 CD 減少 8',
+                'activate': '以 ≥2 個「慌失失瑞獸團」角色作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2441, 2442, 2443, 2444, 2445]
+            }
+        ]
     },
     {
         'id': 2443,
@@ -58297,20 +58305,28 @@ const monster_data = [
     },
     {
         'id': 2481,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '神族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '靈石激濤洶勢 ‧ 草薙劍',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '1 回合內<br>I. 其他符石兼具水符石效果<br>II. 若技能發動時場上齊集五屬符石<br>⓵ 將屬性符石轉化為強化符石<br>⓶ 當前技能 CD 減少 3<br>III. 反之，將所有符石<br>⇒ 隨機轉化為五屬符石',
+                'tag': ['符石兼具水', '符石強化', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '減CD', '符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '大幅轉版']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '消除符石前場上有種族符石<br>⇒ 該種族成員攻擊力 2.5 倍',
+                'activate': '以相同的潛解「大和」系列角色作隊長及戰友',
+                'skill_tag': ['增攻'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2481]
+            },
+        ]
     },
     {
         'id': 2482,
@@ -58365,20 +58381,28 @@ const monster_data = [
     },
     {
         'id': 2485,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '神族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '暗神加冕 ‧ 靈動',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 3,
+                'description': 'I. 將光符石轉化為暗強化符石<br>II. 將暗符石轉化為暗神族強化符石<br>1 回合內<br>III. 隊中只有神族成員時<br>⇒ 暗符石首批 3 粒相連即可發動消除',
+                'tag': ['符石轉暗', '符石轉暗強化', '光轉其他', '神族符石製造', '改變消除方式']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '消除符石前場上有種族符石<br>⇒ 該種族成員攻擊力 2.5 倍',
+                'activate': '以相同的潛解「大和」系列角色作隊長及戰友',
+                'skill_tag': ['增攻'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2485]
+            },
+        ]
     },
     {
         'id': 2486,
@@ -58399,37 +58423,67 @@ const monster_data = [
     },
     {
         'id': 2487,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '神族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '靈木無量 ‧ 靈動',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 將場上所有符石轉化為<br>⇒ 固定數量及位置的<br>「心及木神族」強化符石<br>1 回合內<br>II. 木及心符石首批 2 粒相連即可發動消除',
+                'tag': ['符石轉木', '符石轉木強化', '符石轉心', '符石轉心強化', '神族符石製造', '大幅轉版', '固定轉版', '改變消除方式']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '消除符石前場上有種族符石<br>⇒ 該種族成員攻擊力 2.5 倍',
+                'activate': '以相同的潛解「大和」系列角色作隊長及戰友',
+                'skill_tag': ['增攻'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2487]
+            },
+            {
+                'description': 'I. 消除木符石時，回合結束時：<br>將最底 1 橫行的符石轉化為<br>⇒「木及心」神族強化符石各 3 粒<br><br>II. 首批消除 ≥4 組木或心符石時<br>⇒ 木屬性攻擊力 2 倍',
+                'activate': '以「顧眄相伴 ‧ 伊邪那岐」作隊長及戰友',
+                'skill_tag': ['符石轉木', '符石轉心', '符石轉木強化', '符石轉心強化', '神族符石製造', '固定轉版', '增攻'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2487]
+            },
+        ]
     },
     {
         'id': 2488,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '神族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '凝時之念 ‧ 神',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 延長移動符石時間至 10 秒<br>II. 於移動符石時間內，可任意移動符石而不會發動消除<br>III. 敵方全體的防禦力減至 0<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 將所有符石轉化為神族符石<br>⓶ 將暗符石轉化為神族強化符石',
+                'tag': ['排珠', '破防', '隨時關閉', '神族符石製造', '符石強化', '符石轉暗強化']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '消除符石前場上有種族符石<br>⇒ 該種族成員攻擊力 2.5 倍',
+                'activate': '以相同的潛解「大和」系列角色作隊長及戰友',
+                'skill_tag': ['增攻'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2488]
+            },
+            {
+                'description': 'I. 首批消除 1 組暗符石的數量愈多<br>⇒ 連擊 (Combo) 數量增加愈多<br><br>II. 首批消除 1 組 ≥12 粒暗符石<br>⇒ 暗屬性成員的攻擊無視「指定形狀盾」敵技',
+                'activate': '以「寂寥偶戲 ‧ 月讀」作隊長及戰友',
+                'skill_tag': ['增加Combo', '無視拼圖盾'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2488]
+            },
+        ]
     },
     {
         'id': 2489,
@@ -59361,17 +59415,25 @@ const monster_data = [
     },
     {
         'id': 7018,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '神族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '連綿夢魘',
                 'type': 'normal',
-                'charge': '',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'charge': 'CD',
+                'num': 8,
+                'description': 'I. 敵方全體進入睡眠狀態<br>II. 使受影響目標無法行動，持續 3 回合<br>III. 效果持續期間<br>⇒ 敵人所受傷害 1.5 倍<br>IV. 首批消除心符石<br>⇒ 會令敵方甦醒',
+                'tag': ['無法行動', '增傷']
+            },
+            {
+                'name': '永墮黑暗',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 8,
+                'description': 'I. 將心符石轉化為暗符石<br>1 回合內<br>II. 所有成員追打<br>⇒ 暗屬性攻擊 1 次<br>III. 敵人置身睡眠狀態時<br>⇒ 所有成員<br>⓵ 無視「固定連擊盾」<br>⓶ 無視「五屬盾」',
+                'tag': ['符石轉暗', '心轉其他', '暗屬追打', '全隊追打', '無視五屬盾', '無視固定連擊盾']
             }
         ],
         'team_skill': []
