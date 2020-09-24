@@ -1,4 +1,4 @@
-// Last modified : 2020.09.17 20:10
+// Last modified : 2020.09.24 21:12
 
 const monster_data = [
     {
@@ -32867,7 +32867,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '3 回合內，首批消除場上所有光符石時，下回合開始時將最底一橫行的符石轉化為光強化符石；反之，下回合開始時將 3 粒符石 (心符石優先轉換) 轉化為光強化符石',
-                'tag': ['符石轉光', '符石轉光強化']
+                'tag': ['符石轉光', '符石轉光強化', '固定轉版']
             }
         ],
         'team_skill': []
@@ -32918,7 +32918,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '將所有符石轉化為神族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 5 倍對其進行火屬性反擊，此傷害無視防禦力',
-                'tag': ['直傷', '破防直傷', '敵方傷害吸收', '神族符石製造']
+                'tag': ['直傷', '破防直傷', '神族符石製造']
             }
         ],
         'team_skill': []
@@ -32935,7 +32935,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '將所有符石轉化為神族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 5 倍對其進行火屬性反擊，此傷害無視防禦力',
-                'tag': ['直傷', '破防直傷', '敵方傷害吸收', '神族符石製造']
+                'tag': ['直傷', '破防直傷', '神族符石製造']
             }
         ],
         'team_skill': [
@@ -41623,7 +41623,7 @@ const monster_data = [
                 'name': '魔骸咒',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 7,
+                'num': 6,
                 'description': '1 回合內<br>I. 使敵方全體無法行動並轉為暗屬性<br>II. 每個受影響目標將轉化 3 粒暗符石',
                 'tag': ['無法行動', '敵方轉屬', '符石轉暗']
             }
@@ -46547,7 +46547,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': 'I. 點擊元素法陣上的 1 粒符石<br>⇒ 並將該種符石引爆<br>⇒ 以掉落該種符石以外的符石<br>1 回合內<br>II. 首批掉落的符石必定為妖族符石<br>III. 延長移動符石時間至 12 秒',
+                'description': 'I. 點選元素法陣上的 1 粒符石<br>⇒ 並將該種符石引爆<br>⇒ 以掉落該種符石以外的符石<br>1 回合內<br>II. 首批掉落的符石必定為妖族符石<br>III. 延長移動符石時間至 12 秒',
                 'tag': ['引爆', '指定符石引爆', '強制掉落', '妖族符石製造', '延長轉珠時間']
             }
         ],
@@ -46581,7 +46581,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': 'I. 點擊元素法陣上的 1 粒符石<br>⇒ 並將該種符石引爆<br>⇒ 以掉落該種符石以外的符石<br>1 回合內<br>II. 對敵方全體造成 100,000 點木屬性傷害 (此傷害無視防禦力)<br>III. 首批掉落的符石必定為魔族符石',
+                'description': 'I. 點選元素法陣上的 1 粒符石<br>⇒ 並將該種符石引爆<br>⇒ 以掉落該種符石以外的符石<br>1 回合內<br>II. 對敵方全體造成 100,000 點木屬性傷害 (此傷害無視防禦力)<br>III. 首批掉落的符石必定為魔族符石',
                 'tag': ['引爆', '指定符石引爆', '強制掉落', '魔族符石製造', '直傷', '破防直傷']
             }
         ],
@@ -46598,7 +46598,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': 'I. 點擊元素法陣上的 1 粒符石，並將該種符石引爆，以掉落該種符石以外的符石<br>II. 1 回合內，首批掉落的符石必定為人族符石；每消除 2 粒人族符石，個人追打 1 次，最多 10 次',
+                'description': 'I. 點選元素法陣上的 1 粒符石，並將該種符石引爆，以掉落該種符石以外的符石<br>II. 1 回合內，首批掉落的符石必定為人族符石；每消除 2 粒人族符石，個人追打 1 次，最多 10 次',
                 'tag': ['引爆', '指定符石引爆', '強制掉落', '人族符石製造', '自身追打', '光屬追打']
             }
         ],
@@ -46615,7 +46615,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': 'I. 點擊元素法陣上的 1 粒符石<br>⇒ 並將該種符石引爆<br>⇒ 以掉落該種符石以外的符石<br>1 回合內<br>II. 首批掉落的符石必定為獸族符石<br>III. 每消除 1 粒獸族符石<br>⇒ 回復 2000 點生命力<br>⇒ 最多可回復至 100% 生命力',
+                'description': 'I. 點選元素法陣上的 1 粒符石<br>⇒ 並將該種符石引爆<br>⇒ 以掉落該種符石以外的符石<br>1 回合內<br>II. 首批掉落的符石必定為獸族符石<br>III. 每消除 1 粒獸族符石<br>⇒ 回復 2000 點生命力<br>⇒ 最多可回復至 100% 生命力',
                 'tag': ['引爆', '指定符石引爆', '強制掉落', '獸族符石製造', '回血']
             }
         ],
@@ -57252,20 +57252,28 @@ const monster_data = [
     },
     {
         'id': 2443,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '獸類',
+        'star': 5,
         'skill': [
             {
-                'name': '',
+                'name': '肚容百毒',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': '3 回合內<br>I. 隊伍不受中毒技能影響<br>II. 延長移動符石時間至 12 秒',
+                'tag': ['防毒', '延長轉珠時間']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，「慌失失瑞獸團」角色<br>⇒ 技能 CD 減少 8',
+                'activate': '以 ≥2 個「慌失失瑞獸團」角色作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2441, 2442, 2443, 2444, 2445]
+            }
+        ]
     },
     {
         'id': 2444,
@@ -58246,17 +58254,17 @@ const monster_data = [
     },
     {
         'id': 2478,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '機械族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '機魂虹彩',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 將所有符石轉化為機械族符石<br>1 回合內<br>II. 記錄「移動符石時間完結一刻」場上的符石分佈<br>(包括強化符石、種族符石)<br>⇒ 首批掉落所記錄的符石',
+                'tag': ['機械族符石製造', '強制掉落']
             }
         ],
         'team_skill': []
@@ -58360,54 +58368,78 @@ const monster_data = [
     },
     {
         'id': 2482,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '神族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '烈燄斬 ‧ 炎',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '1 回合內<br>I. 全隊攻擊力 2 倍<br>II. 神族攻擊力則 2.5 倍<br>III. 若隊長為火屬性神族<br>⇒ 火符石首批 2 粒相連即可發動消除<br>IV. 若技能發動時場上有 ≥5 粒火符石<br>⇒ I-III 效果持續 2 回合',
+                'tag': ['增傷', '改變消除方式']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '消除符石前場上有種族符石<br>⇒ 該種族成員攻擊力 2.5 倍',
+                'activate': '以相同的潛解「大和」系列角色作隊長及戰友',
+                'skill_tag': ['增攻'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2482]
+            },
+        ]
     },
     {
         'id': 2483,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '獸類',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '獸權加冕 ‧ 森',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 將自身直行及木符石<br>⇒ 轉化為木獸族強化符石<br>II. 若隊長為獸類<br>⇒ 將龍脈儀儲滿<br>III. 若技能發動時場上沒有心符石<br>⇒ 將所有符石轉化為獸族強化符石',
+                'tag': ['符石轉木', '符石轉木強化', '符石強化', '獸族符石製造', '龍脈儀蓄能']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '消除符石前場上有種族符石<br>⇒ 該種族成員攻擊力 2.5 倍',
+                'activate': '以相同的潛解「大和」系列角色作隊長及戰友',
+                'skill_tag': ['增攻'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2483]
+            },
+        ]
     },
     {
         'id': 2484,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '人類',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '流螢幻術 ‧ 強',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '3 回合內<br>I. 將 3 粒符石轉化為<br>⇒ 光人族強化符石<br>(心符石優先轉換)<br>II. 若首批消除場上所有光符石<br>⇒ 下回合開始時，將最底 1 橫行的符石轉化為光強化符石',
+                'tag': ['符石轉光', '符石轉光強化', '人族符石製造', '固定轉版']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '消除符石前場上有種族符石<br>⇒ 該種族成員攻擊力 2.5 倍',
+                'activate': '以相同的潛解「大和」系列角色作隊長及戰友',
+                'skill_tag': ['增攻'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2484]
+            },
+        ]
     },
     {
         'id': 2485,
@@ -58436,20 +58468,35 @@ const monster_data = [
     },
     {
         'id': 2486,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '神族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '神權八咫鏡 ‧ 強',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 10,
+                'description': 'I. 將所有符石轉化為神族強化符石<br>2 回合內<br>II. 吸收該回合敵人首次攻擊傷害<br>III. 以所吸收攻擊力的 1000 倍<br>⇒ 對其進行火屬性反擊<br>(此傷害無視防禦力及「強化突破」敵技)',
+                'tag': ['符石強化', '神族符石製造', '直傷', '破防直傷']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '消除符石前場上有種族符石<br>⇒ 該種族成員攻擊力 2.5 倍',
+                'activate': '以相同的潛解「大和」系列角色作隊長及戰友',
+                'skill_tag': ['增攻'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2486]
+            },
+            {
+                'description': 'I. 隊中主動技能 ≥CD 10 的成員<br>⇒ 進入關卡後，技能 CD 減少 10<br><br>II. 每次發動龍刻脈動後<br>(只適用於首 2 次)<br>⇒ 火屬性神族成員技能 CD 減少 10<br><br>III. 下回合開始時，將火符石轉化為神族符石',
+                'activate': '以「馨陽晴爽 ‧ 天照」作隊長及戰友',
+                'skill_tag': ['進場減CD', '其他減CD', '神族符石製造'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2486]
+            },
+        ]
     },
     {
         'id': 2487,
@@ -58517,17 +58564,17 @@ const monster_data = [
     },
     {
         'id': 2489,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '月餅魔彈',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 敵方全體點燃並轉化為火屬性，持續 2 回合<br>2 回合內<br>II. 將木符石轉化為火魔族符石<br>III. 將暗符石轉化為光魔族符石',
+                'tag': ['點燃敵方', '敵方轉屬', '符石轉火', '符石轉光', '木轉其他', '暗轉其他', '魔族符石製造']
             }
         ],
         'team_skill': []
