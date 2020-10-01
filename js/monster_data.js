@@ -1,4 +1,4 @@
-// Last modified : 2020.09.24 21:12
+// Last modified : 2020.10.01 22:28
 
 const monster_data = [
     {
@@ -58581,17 +58581,17 @@ const monster_data = [
     },
     {
         'id': 2490,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '妖精類',
+        'star': 5,
         'skill': [
             {
-                'name': '',
+                'name': '靈動之澤',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 將 10 粒符石<br>⇒ 轉化為妖族符石<br>(非種族符石優先轉換)<br>1 回合內<br>II. 首批 2 粒相連的符石可發動消除',
+                'tag': ['妖族符石製造', '改變消除方式']
             }
         ],
         'team_skill': []
@@ -58928,20 +58928,28 @@ const monster_data = [
     },
     {
         'id': 2506,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '獸類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '巨蟒凶勢',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 引爆風化符石，成功引爆後<br>⇒ 延遲敵方全體行動 2 回合<br>1 回合內<br>II. 將移動符石時觸碰的首 8 粒符石轉化為<br>⇒ 自身屬性獸族符石',
+                'tag': ['引爆', '風化符石處理', '延遲', '符石轉木', '獸族符石製造']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '「禍根血脈 ‧ 耶夢加得」<br>⇒ 轉換為隊長的屬性',
+                'activate': '以「禍根血脈 ‧ 耶夢加得」作成員，且隊中只有獸類成員',
+                'skill_tag': ['召喚獸轉水', '召喚獸轉火', '召喚獸轉光', '召喚獸轉暗'],
+                'activate_tag': ['指定種族成員'],
+                'relative': [2506]
+            },
+        ]
     },
     {
         'id': 2507,
