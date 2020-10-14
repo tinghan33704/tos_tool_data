@@ -1,4 +1,4 @@
-// Last modified : 2020.10.12 23:10
+// Last modified : 2020.10.14 19:42
 
 const monster_data = [
     {
@@ -55926,16 +55926,16 @@ const monster_data = [
     },
     {
         'id': 2399,
-        'attribute': '',
-        'race': '',
-        'star': -1,
+        'attribute': '水',
+        'race': '強化素材',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
