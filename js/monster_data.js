@@ -1,4 +1,4 @@
-// Last modified : 2020.10.14 19:42
+// Last modified : 2020.10.20 00:13
 
 const monster_data = [
     {
@@ -37078,7 +37078,15 @@ const monster_data = [
                 'tag': ['增傷', '界王拳']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 最左方的「邪趣屠夫 ‧ 艾德」及最左方的「香甜殺意 ‧ 諾亞」<br>⇒ 生命力、攻擊力、回復力 1.8 倍<br><br>II.「香甜殺意 ‧ 諾亞」<br>⇒ 轉換為暗屬性<br><br>III.「香甜殺意 ‧ 諾亞」的主動技能「甜蜜殺機」<br>⇒ 變為「深淵殺機」<br><br>1 回合內，隊伍中攻擊力最高 (最左方) 的暗屬性成員攻擊力 10 倍',
+                'activate': '以「邪趣屠夫 ‧ 艾德」及「香甜殺意 ‧ 諾亞」作成員',
+                'skill_tag': ['增攻', '增回', '增血', '召喚獸轉暗', '主動技改變'],
+                'activate_tag': ['指定成員'],
+                'relative': [1623, 2543]
+            },
+        ]
     },
     {
         'id': 1624,
@@ -59527,17 +59535,17 @@ const monster_data = [
     },
     {
         'id': 2526,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '神族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '揮動熾熱',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 將最左及最右方直行符石<br>⇒ 轉化為火強化符石<br>1 回合內<br>II. 個人以 50% 攻擊力追打 6 次',
+                'tag': ['符石轉火', '符石轉火強化', '固定轉版', '火屬追打', '自身追打']
             }
         ],
         'team_skill': []
@@ -59831,50 +59839,58 @@ const monster_data = [
     },
     {
         'id': 2542,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '機械族',
+        'star': 5,
         'skill': [
             {
-                'name': '',
+                'name': '罪的獨白',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 發動技能時，封鎖自身以外可發動技能成員的技能<br>II. 自身攻擊力及回復力 5 倍<br>效果會在進入下一層數 (Wave) 時消失',
+                'tag': ['增傷', '界王拳', '增回']
             }
         ],
         'team_skill': []
     },
     {
         'id': 2543,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '魔族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '殘暴解放',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 解除自身被封鎖的技能<br>1 回合內<br>II. 自身攻擊力 20 倍<br>III. 自身攻擊<br>⓵ 無視敵人防禦力<br>⓶ 無視「固定連擊盾」<br>IV. 其他成員不能發動攻擊',
+                'tag': ['解鎖', '增傷', '界王拳', '破防', '無視固定連擊盾', '限制成員攻擊']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 最左方的「邪趣屠夫 ‧ 艾德」及最左方的「香甜殺意 ‧ 諾亞」<br>⇒ 生命力、攻擊力、回復力 1.8 倍<br><br>II.「香甜殺意 ‧ 諾亞」<br>⇒ 轉換為暗屬性<br><br>III.「香甜殺意 ‧ 諾亞」的主動技能「甜蜜殺機」<br>⇒ 變為「深淵殺機」<br><br>1 回合內，隊伍中攻擊力最高 (最左方) 的暗屬性成員攻擊力 10 倍',
+                'activate': '以「邪趣屠夫 ‧ 艾德」及「香甜殺意 ‧ 諾亞」作成員',
+                'skill_tag': ['增攻', '增回', '增血'],
+                'activate_tag': ['指定成員'],
+                'relative': [2543, 1623]
+            },
+        ]
     },
     {
         'id': 2544,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '進化素材',
+        'star': 5,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
