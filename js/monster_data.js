@@ -1,4 +1,4 @@
-// Last modified : 2020.11.03 22:10
+// Last modified : 2020.11.06 01:21
 
 const monster_data = [
     {
@@ -37162,15 +37162,15 @@ const monster_data = [
         ],
         'team_skill': [
             {
-                'description': '隊中成員每 1 次發動主動技能，賢智泉源 ‧ 亞特蘭提斯的主動技能 CD 減少 1 (技能發動者除外)',
-                'activate': '隊伍中有賢智泉源 ‧ 亞特蘭提斯作成員',
+                'description': '隊中成員每 1 次發動主動技能，賢智泉源 ‧ 亞特蘭堤斯的主動技能 CD 減少 1 (技能發動者除外)',
+                'activate': '隊伍中有賢智泉源 ‧ 亞特蘭堤斯作成員',
                 'skill_tag': ['開技減CD'],
                 'activate_tag': [],
                 'relative': [1626]
             },
             {
                 'description': '水符石的符石掉落率提升至 25%<br>移動符石時間增加 2 秒',
-                'activate': '以賢智泉源 ‧ 亞特蘭提斯作隊長及戰友',
+                'activate': '以賢智泉源 ‧ 亞特蘭堤斯作隊長及戰友',
                 'skill_tag': ['符石掉落率提升', '延長轉珠時間'],
                 'activate_tag': ['指定雙隊長'],
                 'relative': [1626]
@@ -57285,20 +57285,28 @@ const monster_data = [
     },
     {
         'id': 2444,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '獸類',
+        'star': 5,
         'skill': [
             {
-                'name': '',
+                'name': '財源廣進',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': '3 回合內，隊伍成員的種族及屬性愈多<br>⇒ 所受傷害減少愈多<br>⇒ 隊中集齊 5 種屬性及 6 個種族成員，可減少最多 88% 傷害',
+                'tag': ['減傷']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，「慌失失瑞獸團」角色<br>⇒ 技能 CD 減少 8',
+                'activate': '以 ≥2 個「慌失失瑞獸團」角色作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2441, 2442, 2443, 2444, 2445]
+            }
+        ]
     },
     {
         'id': 2445,
@@ -58961,17 +58969,17 @@ const monster_data = [
     },
     {
         'id': 2507,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '妖精類',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '震吼之暴',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': '2 回合內<br>I. 敵方全體防禦力減至 0<br>II. 減少 40% 所受傷害<br>III. 首批消除所有木符石<br>⇒ 神族及妖精類成員的攻擊無視「指定形狀盾」敵技',
+                'tag': ['破防', '減傷', '無視拼圖盾']
             }
         ],
         'team_skill': []
@@ -60103,20 +60111,43 @@ const monster_data = [
     },
     {
         'id': 2545,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '神族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '自由激濤 ‧ 湧',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 15 秒內，可任意移動符石而不會發動消除<br>1 回合內<br>II. 全隊攻擊力 2.2 倍<br>III. 若隊中只有水屬性成員<br>⇒ 水符石 1 粒即可發動消除<br>⇒ 效果持續至消除 30 粒水符石',
+                'tag': ['排珠', '增傷', '改變消除方式']
+            },
+            {
+                'name': '睿智急流',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 3,
+                'description': '將 5 至 8 粒符石<br>⇒ 轉化為水強化符石<br>(心符石優先轉換)',
+                'tag': ['符石轉水', '符石轉水強化']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 隊中成員每 1 次發動主動技能<br>⇒「明悟睿濤 ‧ 亞特蘭堤斯」的技能 CD -1<br>(技能發動者除外)<br><br>II.「明悟睿濤 ‧ 亞特蘭堤斯」發動技能的回合<br>⇒「明悟睿濤 ‧ 亞特蘭堤斯」攻擊力 2 倍',
+                'activate': '以「明悟睿濤 ‧ 亞特蘭堤斯」作成員',
+                'skill_tag': ['開技減CD', '增攻'],
+                'activate_tag': [],
+                'relative': [2545]
+            },
+            {
+                'description': 'I. 水符石的掉落率提升至 40%<br><br>II. 掉落的水符石<br>⇒ 以水強化符石代替<br><br>III. 必然延長移動符石時間 3 秒<br><br>IV. 無視「黏腐」敵技<br><br>V. 觸碰電擊符石時仍可移動符石<br><br>VI. 首批消除所有水符石時<br>⇒ 全隊攻擊力 4 倍',
+                'activate': '以「明悟睿濤 ‧ 亞特蘭堤斯」作隊長及戰友',
+                'skill_tag': ['符石掉落率提升', '延長轉珠時間', '無視黏腐', '無視電擊', '增攻'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2545]
+            }
+        ]
     },
     {
         'id': 2546,
