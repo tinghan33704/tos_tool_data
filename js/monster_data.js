@@ -1,4 +1,4 @@
-// Last modified : 2020.11.06 01:21
+// Last modified : 2020.11.07 22:50
 
 const monster_data = [
     {
@@ -682,7 +682,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '3 回合內，所受傷害減少 50%',
-                'tag': ['減傷']
+                'tag': [['減傷', 3]]
             }
         ],
         'team_skill': []
@@ -699,7 +699,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '3 回合內，所受傷害減少 50%',
-                'tag': ['減傷']
+                'tag': [['減傷', 3]]
             }
         ],
         'team_skill': []
@@ -716,7 +716,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '3 回合內，所受傷害減少 50%',
-                'tag': ['減傷']
+                'tag': [['減傷', 3]]
             }
         ],
         'team_skill': []
@@ -733,7 +733,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '3 回合內，所受傷害減少 50%',
-                'tag': ['減傷']
+                'tag': [['減傷', 3]]
             }
         ],
         'team_skill': []
@@ -750,7 +750,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -767,7 +767,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -784,7 +784,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -801,7 +801,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，全體敵人的防禦力減少 90%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -2443,7 +2443,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -2477,7 +2477,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -2511,7 +2511,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -2545,7 +2545,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -2579,7 +2579,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -2596,7 +2596,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '敵方轉屬', '凍結敵方']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': [
@@ -2621,7 +2621,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '敵方轉屬', '凍結敵方']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': [
@@ -2646,7 +2646,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '敵方轉屬', '凍結敵方']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': [
@@ -2774,7 +2774,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '敵方全體被寄生，每回合將吸取相當於自身回復力的生命力，此傷害無視防禦力及屬性並持續到死亡',
-                'tag': ['回血', '寄生敵方']
+                'tag': [['回血', -1], ['寄生敵方', -1]]
             }
         ],
         'team_skill': [
@@ -2799,7 +2799,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '敵方全體被寄生，每回合將吸取相當於自身回復力的生命力，此傷害無視防禦力及屬性並持續到死亡',
-                'tag': ['回血', '寄生敵方']
+                'tag': [['回血', -1], ['寄生敵方', -1]]
             }
         ],
         'team_skill': [
@@ -2824,7 +2824,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '敵方全體被寄生，每回合將吸取相當於自身回復力的生命力，此傷害無視防禦力及屬性並持續到死亡',
-                'tag': ['回血', '寄生敵方']
+                'tag': [['回血', -1], ['寄生敵方', -1]]
             }
         ],
         'team_skill': [
@@ -2863,7 +2863,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '連續 5 回合大量恢復生命力',
-                'tag': ['回血']
+                'tag': [['回血', 5]]
             }
         ],
         'team_skill': [
@@ -2888,7 +2888,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '連續 5 回合大量恢復生命力',
-                'tag': ['回血']
+                'tag': [['回血', 5]]
             }
         ],
         'team_skill': [
@@ -2913,7 +2913,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '連續 5 回合大量恢復生命力',
-                'tag': ['回血']
+                'tag': [['回血', 5]]
             }
         ],
         'team_skill': [
@@ -2952,7 +2952,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '敵方全體中毒，每回合將受到施技者攻擊力的傷害，此傷害無視防禦力及屬性並持續到死亡',
-                'tag': ['敵方中毒']
+                'tag': [['敵方中毒', -1]]
             }
         ],
         'team_skill': [
@@ -2977,7 +2977,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '敵方全體中毒，每回合將受到施技者攻擊力的傷害，此傷害無視防禦力及屬性並持續到死亡',
-                'tag': ['敵方中毒']
+                'tag': [['敵方中毒', -1]]
             }
         ],
         'team_skill': [
@@ -3002,7 +3002,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '敵方全體中毒，每回合將受到施技者攻擊力的傷害，此傷害無視防禦力及屬性並持續到死亡',
-                'tag': ['敵方中毒']
+                'tag': [['敵方中毒', -1]]
             }
         ],
         'team_skill': [
@@ -3041,7 +3041,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '5 回合內，所受傷害減少 50%',
-                'tag': ['減傷']
+                'tag': [['減傷', 5]]
             }
         ],
         'team_skill': [
@@ -3066,7 +3066,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '5 回合內，所受傷害減少 50%',
-                'tag': ['減傷']
+                'tag': [['減傷', 5]]
             }
         ],
         'team_skill': [
@@ -3091,7 +3091,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '5 回合內，所受傷害減少 50%',
-                'tag': ['減傷']
+                'tag': [['減傷', 5]]
             }
         ],
         'team_skill': [
@@ -4198,7 +4198,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '石化敵方全體，使受影響目標無法行動並轉為木屬性，持續 3 回合',
-                'tag': ['無法行動', '石化敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['石化敵方', 3], ['敵方轉屬', 3]]
             }
         ],
         'team_skill': []
@@ -4215,7 +4215,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '石化敵方全體，使受影響目標無法行動並轉為木屬性，持續 3 回合',
-                'tag': ['無法行動', '石化敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['石化敵方', 3], ['敵方轉屬', 3]]
             }
         ],
         'team_skill': []
@@ -4232,7 +4232,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '石化敵方全體，使受影響目標無法行動並轉為木屬性，持續 3 回合',
-                'tag': ['無法行動', '石化敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['石化敵方', 3], ['敵方轉屬', 3]]
             }
         ],
         'team_skill': []
@@ -4351,7 +4351,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '水屬性傷害持續提升，直至沒有水屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -4368,7 +4368,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '水屬性傷害持續提升，直至沒有水屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -4400,7 +4400,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '火屬性傷害持續提升，直至沒有火屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -4417,7 +4417,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '火屬性傷害持續提升，直至沒有火屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -4449,7 +4449,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '木屬性傷害持續提升，直至沒有木屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -4466,7 +4466,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '木屬性傷害持續提升，直至沒有木屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -4498,7 +4498,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '光屬性傷害持續提升，直至沒有光屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -4515,7 +4515,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '光屬性傷害持續提升，直至沒有光屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -4547,7 +4547,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '暗屬性傷害持續提升，直至沒有暗屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -4564,7 +4564,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '暗屬性傷害持續提升，直至沒有暗屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -5771,7 +5771,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '3 回合內，所受傷害減少 50%',
-                'tag': ['減傷']
+                'tag': [['減傷', 3]]
             }
         ],
         'team_skill': []
@@ -5788,7 +5788,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '3 回合內，所受傷害減少 50%',
-                'tag': ['減傷']
+                'tag': [['減傷', 3]]
             }
         ],
         'team_skill': []
@@ -5805,7 +5805,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '3 回合內，所受傷害減少 50%',
-                'tag': ['減傷']
+                'tag': [['減傷', 3]]
             }
         ],
         'team_skill': []
@@ -5873,7 +5873,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '敵方全體被寄生，每回合將吸取相當於自身回復力的生命力，此傷害無視防禦力及屬性並持續到死亡',
-                'tag': ['回血', '寄生敵方']
+                'tag': [['回血', -1], ['寄生敵方', -1]]
             }
         ],
         'team_skill': []
@@ -5890,7 +5890,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '敵方全體被寄生，每回合將吸取相當於自身回復力的生命力，此傷害無視防禦力及屬性並持續到死亡',
-                'tag': ['回血', '寄生敵方']
+                'tag': [['回血', -1], ['寄生敵方', -1]]
             }
         ],
         'team_skill': []
@@ -5907,7 +5907,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '敵方全體被寄生，每回合將吸取相當於自身回復力的生命力，此傷害無視防禦力及屬性並持續到死亡',
-                'tag': ['回血', '寄生敵方']
+                'tag': [['回血', -1], ['寄生敵方', -1]]
             }
         ],
         'team_skill': []
@@ -6358,7 +6358,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '石化敵方全體，使受影響目標無法行動並轉為木屬性，持續 3 回合',
-                'tag': ['無法行動', '石化敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['石化敵方', 3], ['敵方轉屬', 3]]
             }
         ],
         'team_skill': []
@@ -6375,7 +6375,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '魔族攻擊力減至 0 及光屬性成員攻擊力減至 50%，並將被減去的攻擊力加入自身攻擊力。消除光符石才會發動攻擊 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['我方減攻', '攻擊力吸收']
+                'tag': [['我方減攻', -1], ['我方攻擊力吸收', -1]]
             }
         ],
         'team_skill': [
@@ -6406,7 +6406,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '累積 3 回合內敵方所受傷害的 70% 再爆發 (不包括無屬性傷害)，此 傷害無視屬性及防禦力',
+                'description': '累積 3 回合內敵方所受傷害的 70% 再爆發 (不包括無屬性傷害)，此傷害無視屬性及防禦力',
                 'tag': []
             }
         ],
@@ -6423,7 +6423,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '累積 3 回合內敵方所受傷害的 70% 再爆發 (不包括無屬性傷害)，此 傷害無視屬性及防禦力',
+                'description': '累積 3 回合內敵方所受傷害的 70% 再爆發 (不包括無屬性傷害)，此傷害無視屬性及防禦力',
                 'tag': []
             }
         ],
@@ -6440,7 +6440,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '累積 3 回合內敵方所受傷害的 70% 再爆發 (不包括無屬性傷害)，此 傷害無視屬性及防禦力',
+                'description': '累積 3 回合內敵方所受傷害的 70% 再爆發 (不包括無屬性傷害)，此傷害無視屬性及防禦力',
                 'tag': []
             },
             {
@@ -6496,7 +6496,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '敵方全體點燃，使受影響目標轉為火屬性並受到自身攻擊力 30 倍火屬性傷害，持續 3 回合',
-                'tag': ['敵方轉屬', '點燃敵方']
+                'tag': [['敵方轉屬', 3], ['點燃敵方', 3]]
             }
         ],
         'team_skill': []
@@ -6513,7 +6513,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '敵方全體點燃，使受影響目標轉為火屬性並受到自身攻擊力 30 倍火屬性傷害，持續 3 回合',
-                'tag': ['敵方轉屬', '點燃敵方']
+                'tag': [['敵方轉屬', 3], ['點燃敵方', 3]]
             }
         ],
         'team_skill': []
@@ -6530,7 +6530,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '敵方全體點燃，使受影響目標轉為火屬性並受到自身攻擊力 30 倍火屬性傷害，持續 3 回合',
-                'tag': ['敵方轉屬', '點燃敵方']
+                'tag': [['敵方轉屬', 3], ['點燃敵方', 3]]
             }
         ],
         'team_skill': [
@@ -6576,7 +6576,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵方所受傷害的 20% 轉化為我方生命力',
-                'tag': ['我方傷害吸收']
+                'tag': [['我方傷害吸收', 3]]
             }
         ],
         'team_skill': []
@@ -6593,7 +6593,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵方所受傷害的 20% 轉化為我方生命力',
-                'tag': ['我方傷害吸收']
+                'tag': [['我方傷害吸收', 3]]
             }
         ],
         'team_skill': []
@@ -6610,7 +6610,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵方所受傷害的 20% 轉化為我方生命力',
-                'tag': ['我方傷害吸收']
+                'tag': [['我方傷害吸收', 3]]
             },
             {
                 'name': '生靈採捕',
@@ -6619,7 +6619,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵方所受傷害的 50% 轉化為我方生命力',
-                'tag': ['我方傷害吸收']
+                'tag': [['我方傷害吸收', 3]]
             }
         ],
         'team_skill': [
@@ -6754,7 +6754,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '3 回合內，敵方互相或自我進行 1 次攻擊',
-                'tag': ['魅惑敵方']
+                'tag': [['魅惑敵方', 3]]
             }
         ],
         'team_skill': []
@@ -6771,7 +6771,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '3 回合內，敵方互相或自我進行 1 次攻擊',
-                'tag': ['魅惑敵方']
+                'tag': [['魅惑敵方', 3]]
             }
         ],
         'team_skill': []
@@ -6788,7 +6788,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '3 回合內，敵方互相或自我進行 1 次攻擊',
-                'tag': ['魅惑敵方']
+                'tag': [['魅惑敵方', 3]]
             }
         ],
         'team_skill': [
@@ -7694,7 +7694,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '我方回復力減至 0，並將每個成員自身回復力的 2.5 倍各自加入自身攻擊力 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['我方減回', '增傷']
+                'tag': [['我方減回', -1], ['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -7711,7 +7711,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '我方回復力減至 0，並將每個成員自身回復力的 2.5 倍各自加入自身攻擊力 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['我方減回', '增傷']
+                'tag': [['我方減回', -1], ['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -7728,7 +7728,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '所有成員攻擊力提升 1.5 倍，同時火符石掉落機率提升，但受到的傷害提升 1.5 倍 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['增傷', '我方受傷增加', '改變掉落機率']
+                'tag': [['增傷', -1], ['我方受傷增加', -1], ['改變掉落機率', -1]]
             }
         ],
         'team_skill': []
@@ -7745,7 +7745,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '所有成員攻擊力提升 1.5 倍，同時火符石掉落機率提升，但受到的傷害提升 1.5 倍 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['增傷', '改變掉落機率']
+                'tag': [['增傷', -1], ['我方受傷增加', -1], ['改變掉落機率', -1]]
             }
         ],
         'team_skill': []
@@ -7762,7 +7762,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '達成 4 連擊(Combo) 或以上才會發動攻擊和回復，連擊 (Combo) 時攻擊力提升 25%，期間所有減傷效果無效 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -7779,7 +7779,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '達成 4 連擊(Combo) 或以上才會發動攻擊和回復，連擊 (Combo) 時攻擊力提升 25%，期間所有減傷效果無效 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -7921,7 +7921,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '暈擊敵方全體，使受影響目標無法行動 5 回合，但效果會因受到攻擊而消失',
-                'tag': ['無法行動', '暈擊敵方']
+                'tag': [['無法行動', 5], ['暈擊敵方', 5]]
             }
         ],
         'team_skill': [
@@ -7946,7 +7946,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '暈擊敵方全體，使受影響目標無法行動 5 回合，但效果會因受到攻擊而消失',
-                'tag': ['無法行動', '暈擊敵方']
+                'tag': [['無法行動', 5], ['暈擊敵方', 5]]
             }
         ],
         'team_skill': [
@@ -7971,7 +7971,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '在全部或最少 4 個成員可發動主動技時，發動此技會將所有成員技能 CD 重置，提升全隊攻擊力 2 倍並持續 8 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 8]]
             },
             {
                 'name': '狂暴戰士',
@@ -7980,7 +7980,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '在全部或最少 3 個成員可發動主動技時，發動此技會將所有成員技能 CD 重置，提升全隊攻擊力 2 倍並持續 8 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 8]]
             }
         ],
         'team_skill': [
@@ -8005,7 +8005,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '在全部或最少 4 個成員可發動主動技時，發動此技會將所有成員技能 CD 重置，提升全隊攻擊力 2 倍並持續 8 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 8]]
             },
             {
                 'name': '狂暴戰士',
@@ -8014,7 +8014,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '在全部或最少 3 個成員可發動主動技時，發動此技會將所有成員技能 CD 重置，提升全隊攻擊力 2 倍並持續 8 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 8]]
             }
         ],
         'team_skill': [
@@ -8157,7 +8157,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '在全部或最少 4 個成員可發動主動技時，發動此技會將所有成員技能 CD 重置，提升全隊攻擊力 2 倍並持續 8 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 8]]
             },
             {
                 'name': '狂暴戰士',
@@ -8166,7 +8166,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '在全部或最少 3 個成員可發動主動技時，發動此技會將所有成員技能 CD 重置，提升全隊攻擊力 2 倍並持續 8 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 8]]
             }
         ],
         'team_skill': [
@@ -8191,7 +8191,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '在全部或最少 4 個成員可發動主動技時，發動此技會將所有成員技能 CD 重置，提升全隊攻擊力 2 倍並持續 8 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 8]]
             },
             {
                 'name': '狂暴戰士',
@@ -8200,7 +8200,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '在全部或最少 3 個成員可發動主動技時，發動此技會將所有成員技能 CD 重置，提升全隊攻擊力 2 倍並持續 8 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 8]]
             }
         ],
         'team_skill': [
@@ -8275,7 +8275,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，以神族及魔族其中造成的最大傷害轉換為全隊神族及魔族的傷害',
-                'tag': ['共鳴']
+                'tag': [['共鳴', 2]]
             }
         ],
         'team_skill': [
@@ -8300,7 +8300,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，以神族及魔族其中造成的最大傷害轉換為全隊神族及魔族的傷害',
-                'tag': ['共鳴']
+                'tag': [['共鳴', 2]]
             }
         ],
         'team_skill': [
@@ -8720,7 +8720,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '敵方全體中毒，每回合將受到施技者攻擊力的傷害，此傷害無視防禦力及屬性並持續到死亡',
-                'tag': ['敵方中毒']
+                'tag': [['敵方中毒', -1]]
             }
         ],
         'team_skill': []
@@ -8737,7 +8737,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '敵方全體中毒，每回合將受到施技者攻擊力的傷害，此傷害無視防禦力及屬性並持續到死亡',
-                'tag': ['敵方中毒']
+                'tag': [['敵方中毒', -1]]
             }
         ],
         'team_skill': []
@@ -8754,7 +8754,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '敵方全體中毒，每回合將受到施技者攻擊力的傷害，此傷害無視防禦力及屬性並持續到死亡',
-                'tag': ['敵方中毒']
+                'tag': [['敵方中毒', -1]]
             }
         ],
         'team_skill': []
@@ -8771,7 +8771,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '2 回合內，敵方全體轉為火屬性，並提升水屬性對火屬性目標的攻擊力',
-                'tag': ['敵方轉屬', '增傷']
+                'tag': [['敵方轉屬', 2], ['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -8788,7 +8788,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '2 回合內，敵方全體轉為火屬性，並提升水屬性對火屬性目標的攻擊力',
-                'tag': ['敵方轉屬', '增傷']
+                'tag': [['敵方轉屬', 2], ['增傷', 2]]
             },
             {
                 'name': '合體',
@@ -8833,7 +8833,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '2 回合內，敵方全體轉為木屬性，並提升火屬性對木屬性目標的攻擊力',
-                'tag': ['敵方轉屬', '增傷']
+                'tag': [['敵方轉屬', 2], ['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -8850,7 +8850,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '2 回合內，敵方全體轉為木屬性，並提升火屬性對木屬性目標的攻擊力',
-                'tag': ['敵方轉屬', '增傷']
+                'tag': [['敵方轉屬', 2], ['增傷', 2]]
             },
             {
                 'name': '合體',
@@ -9127,7 +9127,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '敵方轉屬', '凍結敵方']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -9144,7 +9144,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '心符石的掉落機率降至 0，並將原有機率增加至光符石的掉落機率 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['禁珠', '改變掉落機率']
+                'tag': [['禁珠', -1], ['改變掉落機率', -1]]
             }
         ],
         'team_skill': []
@@ -9161,7 +9161,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '心符石的掉落機率降至 0，並將原有機率增加至暗符石的掉落機率 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['禁珠', '改變掉落機率']
+                'tag': [['禁珠', -1], ['改變掉落機率', -1]]
             }
         ],
         'team_skill': []
@@ -9528,7 +9528,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，以龍類其中造成的最大傷害轉換為全隊龍類的傷害',
-                'tag': ['共鳴']
+                'tag': [['共鳴', 2]]
             }
         ],
         'team_skill': []
@@ -9545,7 +9545,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，以龍類其中造成的最大傷害轉換為全隊龍類的傷害',
-                'tag': ['共鳴']
+                'tag': [['共鳴', 2]]
             }
         ],
         'team_skill': [
@@ -9724,7 +9724,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '龍類攻擊力減至 0，並將龍類攻擊力加入自身攻擊力，消除暗符石才會發動攻擊 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['我方減攻', '攻擊力吸收']
+                'tag': [['我方減攻', -1], ['我方攻擊力吸收', -1]]
             }
         ],
         'team_skill': []
@@ -9741,7 +9741,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '龍類攻擊力減至 0，並將龍類攻擊力加入自身攻擊力，消除暗符石才會發動攻擊 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['我方減攻', '攻擊力吸收']
+                'tag': [['我方減攻', -1], ['我方攻擊力吸收', -1]]
             }
         ],
         'team_skill': [
@@ -9909,7 +9909,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '回復效果提升 2 倍，直至沒有消除心符石 (不包括主動及隊長技)',
-                'tag': ['增回']
+                'tag': [['增回', -1]]
             }
         ],
         'team_skill': []
@@ -10027,7 +10027,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 3,
-                'description': '將 3 粒符石轉化為心符石 (火符石優先轉換) ，使用後有一定機會可即時再次發動技能',
+                'description': '將 3 粒符石轉化為心符石 (火符石優先轉換)，使用後有一定機會可即時再次發動技能',
                 'tag': ['符石轉心']
             }
         ],
@@ -10059,7 +10059,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 3,
-                'description': '將 3 粒符石轉化為心符石 (木符石優先轉換) ，使用後有一定機會可即時再次發動技能',
+                'description': '將 3 粒符石轉化為心符石 (木符石優先轉換)，使用後有一定機會可即時再次發動技能',
                 'tag': ['符石轉心']
             }
         ],
@@ -10091,7 +10091,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 3,
-                'description': '將 3 粒符石轉化為心符石 (水符石優先轉換) ，使用後有一定機會可即時再次發動技能',
+                'description': '將 3 粒符石轉化為心符石 (水符石優先轉換)，使用後有一定機會可即時再次發動技能',
                 'tag': ['符石轉心']
             }
         ],
@@ -10123,7 +10123,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 3,
-                'description': '將 3 粒符石轉化為心符石 (暗符石優先轉換) ，使用後有一定機會可即時再次發動技能',
+                'description': '將 3 粒符石轉化為心符石 (暗符石優先轉換)，使用後有一定機會可即時再次發動技能',
                 'tag': ['符石轉心']
             }
         ],
@@ -10155,7 +10155,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 3,
-                'description': '將 3 粒符石轉化為心符石 (光符石優先轉換) ，使用後有一定機會可即時再次發動技能',
+                'description': '將 3 粒符石轉化為心符石 (光符石優先轉換)，使用後有一定機會可即時再次發動技能',
                 'tag': ['符石轉心']
             }
         ],
@@ -10639,7 +10639,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -10656,7 +10656,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -10673,7 +10673,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -10690,7 +10690,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -10707,7 +10707,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -10725,7 +10725,7 @@ const monster_data = [
                 'num': 12,
                 'reduce': 4,
                 'description': '全隊攻擊力提升 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': []
@@ -10743,7 +10743,7 @@ const monster_data = [
                 'num': 12,
                 'reduce': 4,
                 'description': '全隊攻擊力提升 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': []
@@ -10797,7 +10797,7 @@ const monster_data = [
                 'num': 12,
                 'reduce': 4,
                 'description': '全隊攻擊力提升 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': []
@@ -10815,7 +10815,7 @@ const monster_data = [
                 'num': 12,
                 'reduce': 4,
                 'description': '全隊攻擊力提升 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': []
@@ -10833,7 +10833,7 @@ const monster_data = [
                 'num': 12,
                 'reduce': 4,
                 'description': '全隊攻擊力提升 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': []
@@ -10851,7 +10851,7 @@ const monster_data = [
                 'num': 12,
                 'reduce': 4,
                 'description': '全隊攻擊力提升 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': []
@@ -11025,7 +11025,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '2 回合內，水符石兼具心符石效果',
-                'tag': ['符石兼具心']
+                'tag': [['符石兼具心', 2]]
             }
         ],
         'team_skill': []
@@ -11041,8 +11041,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 13,
-                'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合， 效果期間必然延長移動符石時間 5 秒',
-                'tag': ['無法行動', '敵方轉屬', '凍結敵方', '延長轉珠時間']
+                'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合，效果期間必然延長移動符石時間 5 秒',
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3], ['延長轉珠時間', 3]]
             }
         ],
         'team_skill': [
@@ -11120,7 +11120,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '敵方全體被寄生，每回合將吸取相當於自身 2 倍回復力的生命力，此傷害無視防禦力、屬性及敵方技能，並持續到死亡，效果最多可疊加 3 次',
-                'tag': ['回血', '寄生敵方']
+                'tag': [['回血', -1], ['寄生敵方', -1]]
             }
         ],
         'team_skill': [
@@ -11159,7 +11159,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '連續 5 回合回復自身回復力 10 倍的生命力',
-                'tag': ['回血']
+                'tag': [['回血', 5]]
             }
         ],
         'team_skill': [
@@ -11198,7 +11198,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '1 回合內，全隊攻擊力 1.5 倍，並解除所有成員被封鎖的技能及清除敵人身上的控制技能 (此技能無視封鎖技能)。發動技能的回合若擊斃所有敵人，下一回合全隊攻擊力 2.5 倍',
-                'tag': ['增傷', '解鎖']
+                'tag': [['增傷', 2], '解鎖']
             }
         ],
         'team_skill': [
@@ -11329,7 +11329,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，隊伍不會被封鎖主動技能',
-                'tag': ['防鎖']
+                'tag': [['防鎖', 3]]
             }
         ],
         'team_skill': []
@@ -11363,7 +11363,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，隊伍不受中毒技能影響',
-                'tag': ['防毒']
+                'tag': [['防毒', 3]]
             }
         ],
         'team_skill': []
@@ -11883,7 +11883,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，所受傷害減少 60%',
-                'tag': ['減傷']
+                'tag': [['減傷', 3]]
             }
         ],
         'team_skill': []
@@ -11900,7 +11900,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '全體敵人的防禦力減少 90%，持續 3 回合；並延遲其行動 1 回合',
-                'tag': ['破防', '延遲']
+                'tag': [['破防', 3], '延遲']
             }
         ],
         'team_skill': []
@@ -12189,7 +12189,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，心符石的掉落機率降至 0，並將原有機率增加至水符石的掉落機率',
-                'tag': ['禁珠', '改變掉落機率']
+                'tag': [['禁珠', 3], ['改變掉落機率', 3]]
             }
         ],
         'team_skill': []
@@ -12206,7 +12206,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，心符石的掉落機率降至 0，並將原有機率增加至水符石的掉落機率',
-                'tag': ['禁珠', '改變掉落機率']
+                'tag': [['禁珠', 3], ['改變掉落機率', 3]]
             }
         ],
         'team_skill': []
@@ -12257,7 +12257,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '2 回合內，敵方全體轉為水屬性，並提升木屬性對水屬性目標的攻擊力',
-                'tag': ['敵方轉屬', '增傷']
+                'tag': [['敵方轉屬', 2], ['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -12274,7 +12274,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '2 回合內，敵方全體轉為水屬性，並提升木屬性對水屬性目標的攻擊力',
-                'tag': ['敵方轉屬', '增傷']
+                'tag': [['敵方轉屬', 2], ['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -12449,7 +12449,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '於移動符石時間內，可任意移動符石而不會發動消除，效果持續 2 回合',
-                'tag': ['排珠']
+                'tag': [['排珠', 2]]
             }
         ],
         'team_skill': []
@@ -12551,7 +12551,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內，水屬性攻擊力 1.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -12568,7 +12568,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內，水屬性攻擊力 1.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -12585,7 +12585,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內，火屬性攻擊力 1.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -12602,7 +12602,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內，火屬性攻擊力 1.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -12619,7 +12619,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內，木屬性攻擊力 1.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -12636,7 +12636,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內，木屬性攻擊力 1.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -12653,7 +12653,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內，光屬性攻擊力 1.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -12670,7 +12670,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內，光屬性攻擊力 1.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -12687,7 +12687,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內，暗屬性攻擊力 1.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -12704,7 +12704,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內，暗屬性攻擊力 1.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -12814,7 +12814,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，自身攻擊力 3 倍。若身旁的成員同為獸類，同得此效果',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -12848,7 +12848,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '全隊攻擊力提升 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': []
@@ -13222,7 +13222,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，心符石的掉落機率降至 0，並將原有機率增加至水符石的掉落機率',
-                'tag': ['禁珠', '改變掉落機率']
+                'tag': [['禁珠', 3], ['改變掉落機率', 3]]
             }
         ],
         'team_skill': []
@@ -13342,7 +13342,7 @@ const monster_data = [
                 'num': 10,
                 'reduce': 2,
                 'description': '心符石的掉落機率降至 0，並將原有機率增加至光符石的掉落機率 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['禁珠', '改變掉落機率']
+                'tag': [['禁珠', -1], ['改變掉落機率', -1]]
             }
         ],
         'team_skill': []
@@ -13360,7 +13360,7 @@ const monster_data = [
                 'num': 10,
                 'reduce': 2,
                 'description': '心符石的掉落機率降至 0，並將原有機率增加至暗符石的掉落機率 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['禁珠', '改變掉落機率']
+                'tag': [['禁珠', -1], ['改變掉落機率', -1]]
             }
         ],
         'team_skill': []
@@ -13456,7 +13456,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，無視全體敵人的防禦力',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             },
             {
                 'name': '金睛真火 ‧ 凝煉',
@@ -13465,7 +13465,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，敵方全體的防禦力減至 0；而且首回合全隊攻擊力 1.5 倍',
-                'tag': ['破防', '增傷']
+                'tag': [['破防', 3], '增傷']
             }
         ],
         'team_skill': []
@@ -13977,7 +13977,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '石化敵方全體，使受影響目標無法行動並轉為木屬性，持續 3 回合',
-                'tag': ['無法行動', '石化敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['石化敵方', 3], ['敵方轉屬', 3]]
             }
         ],
         'team_skill': []
@@ -14050,7 +14050,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '5 回合內，所有屬性符石兼具 50% 其他屬性符石效果',
-                'tag': ['符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗']
+                'tag': [['符石兼具水', 5], ['符石兼具火', 5], ['符石兼具木', 5], ['符石兼具光', 5], ['符石兼具暗', 5]]
             },
             {
                 'name': ' 異獸魔光',
@@ -14075,7 +14075,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，自身攻擊力 3 倍。若身旁的成員同為獸類，同得此效果',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -14092,7 +14092,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，自身攻擊力 3 倍。若身旁的成員同為獸類，同得此效果',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -14109,7 +14109,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，自身攻擊力 3 倍。若身旁的成員同為獸類，同得此效果',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -14126,7 +14126,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '敵方全體點燃，使受影響目標無法行動並轉為火屬性，持續 3 回合',
-                'tag': ['無法行動', '點燃敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['點燃敵方', 3], ['敵方轉屬', 3]]
             }
         ],
         'team_skill': []
@@ -14143,7 +14143,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '敵方全體點燃，使受影響目標無法行動並轉為火屬性，持續 3 回合',
-                'tag': ['無法行動', '點燃敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['點燃敵方', 3], ['敵方轉屬', 3]]
             }
         ],
         'team_skill': []
@@ -14160,7 +14160,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '敵方全體點燃，使受影響目標無法行動並轉為火屬性，持續 3  回合。效果持續期間火屬性攻擊力 1.5 倍',
-                'tag': ['無法行動', '點燃敵方', '敵方轉屬', '增傷']
+                'tag': [['無法行動', 3], ['點燃敵方', 3], ['敵方轉屬', 3], ['增傷', 3]]
             }
         ],
         'team_skill': []
@@ -14228,7 +14228,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，自身攻擊力 3 倍。若身旁的成員同為獸類，同得此效果',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -14245,7 +14245,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，自身攻擊力 3 倍。若身旁的成員同為獸類，同得此效果',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -14262,7 +14262,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，自身攻擊力 3 倍。若身旁的成員同為獸類，同得此效果',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -15309,7 +15309,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '2 回合內，隊伍中妖精類成員愈多，妖精類的攻擊力及回復力愈高，最大 2 倍',
-                'tag': ['增傷', '增回']
+                'tag': [['增傷', 2], ['增回', 2]]
             }
         ],
         'team_skill': []
@@ -15326,7 +15326,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '2 回合內，隊伍中妖精類成員愈多，妖精類的攻擊力及回復力愈高，最大 2 倍',
-                'tag': ['增傷', '增回']
+                'tag': [['增傷', 2], ['增回', 2]]
             },
             {
                 'name': '完全回復',
@@ -15645,7 +15645,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '5 回合內減少所受傷害 60%；而且首回合所受傷害不會使你死亡',
-                'tag': ['減傷', '意志']
+                'tag': [['減傷', 5], '意志']
             }
         ],
         'team_skill': [
@@ -16175,7 +16175,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '水屬性傷害持續提升，直至沒有水屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -16192,7 +16192,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '火屬性傷害持續提升，直至沒有火屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -16209,7 +16209,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '木屬性傷害持續提升，直至沒有木屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -16226,7 +16226,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '光屬性傷害持續提升，直至沒有光屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -16243,7 +16243,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '暗屬性傷害持續提升，直至沒有暗屬性傷害',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -16261,7 +16261,7 @@ const monster_data = [
                 'num': 12,
                 'reduce': 4,
                 'description': '全隊攻擊力提升 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': [
@@ -16308,7 +16308,7 @@ const monster_data = [
                 'num': 12,
                 'reduce': 4,
                 'description': '全隊攻擊力提升 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': [
@@ -16355,7 +16355,7 @@ const monster_data = [
                 'num': 12,
                 'reduce': 4,
                 'description': '全隊攻擊力提升 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': [
@@ -16395,7 +16395,7 @@ const monster_data = [
                 'num': 12,
                 'reduce': 4,
                 'description': '全隊攻擊力提升 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': [
@@ -16428,7 +16428,7 @@ const monster_data = [
                 'num': 12,
                 'reduce': 4,
                 'description': '全隊攻擊力提升 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': [
@@ -16522,7 +16522,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，自身發動攻擊時，個人追打木屬性攻擊 1 次',
-                'tag': ['自身追打', '木屬追打']
+                'tag': [['自身追打', 3], ['木屬追打', 3]]
             },
             {
                 'name': '合體',
@@ -16560,7 +16560,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '2 回合內，每回合扣除 15% 自身生命力；敵方全體無法行動 2 回合，但效果會因自身生命力不足 15% 而消失',
-                'tag': ['我方扣血', '無法行動']
+                'tag': [['我方扣血', 2], ['無法行動', 2]]
             },
             {
                 'name': '合體',
@@ -16639,7 +16639,7 @@ const monster_data = [
                 'num': 12,
                 'reduce': 1,
                 'description': '2 回合內，敵方全體轉為火屬性，並提升水屬性對火屬性目標的攻擊力，若效果期間擊斃所有敵人，當前技能 CD 減少 3',
-                'tag': ['敵方轉屬', '增傷', '減CD']
+                'tag': [['敵方轉屬', 2], ['增傷', 2], ['減CD', 2]]
             }
         ],
         'team_skill': [
@@ -16674,7 +16674,7 @@ const monster_data = [
                 'num': 12,
                 'reduce': 1,
                 'description': '2 回合內，敵方全體轉為木屬性，並提升火屬性對木屬性目標的攻擊力，若效果期間擊斃所有敵人，當前技能 CD 減少 3',
-                'tag': ['敵方轉屬', '增傷', '減CD']
+                'tag': [['敵方轉屬', 2], ['增傷', 2], ['減CD', 2]]
             }
         ],
         'team_skill': [
@@ -16707,7 +16707,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，木屬性成員發動攻擊時追打木屬性攻擊 1 次',
-                'tag': ['木屬追打']
+                'tag': [['木屬追打', 2]]
             }
         ],
         'team_skill': [
@@ -16749,7 +16749,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，每回合扣除 15% 自身生命力；敵方全體無法行動 3 回合，但效果會因自身生命力不足 15% 而消失',
-                'tag': ['我方扣血', '無法行動']
+                'tag': [['我方扣血', 3], ['無法行動', 3]]
             }
         ],
         'team_skill': [
@@ -16785,7 +16785,7 @@ const monster_data = [
                 'num': 9,
                 'reduce': 1,
                 'description': '2 回合內，全隊攻擊力 2.2 倍，第 3 回全隊不能發動攻擊',
-                'tag': ['增傷', '限制成員攻擊']
+                'tag': [['增傷', 2], '限制成員攻擊']
             },
             {
                 'name': '掩眼魔靈 ‧ 幽暗',
@@ -16993,7 +16993,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '魔族攻擊力提升 1.5 倍，效果持續至受到敵人攻擊。效果持續期間技能不會冷卻',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -17010,7 +17010,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '魔族攻擊力提升 1.5 倍，效果持續至受到敵人攻擊。效果持續期間技能不會冷卻',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -17043,7 +17043,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': '1 回合內，自身攻擊力 2.5 倍。若身旁的成員同為水屬性或魔族，同 得此效果',
+                'description': '1 回合內，自身攻擊力 2.5 倍。若身旁的成員同為水屬性或魔族，同得此效果',
                 'tag': ['增傷', '界王拳']
             }
         ],
@@ -17593,7 +17593,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '連續 3 回合回復自身回復力 20 倍的生命力',
-                'tag': ['回血']
+                'tag': [['回血', 3]]
             }
         ],
         'team_skill': []
@@ -17610,7 +17610,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '連續 3 回合回復自身回復力 20 倍的生命力',
-                'tag': ['回血']
+                'tag': [['回血', 3]]
             },
             {
                 'name': '慈雲祥暉 ‧ 強',
@@ -17619,7 +17619,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '連續 5 回合回復自身回復力 20 倍的生命力',
-                'tag': ['回血']
+                'tag': [['回血', 5]]
             }
         ],
         'team_skill': [
@@ -17856,7 +17856,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '連續 3 回合回復自身回復力 20 倍的生命力',
-                'tag': ['回血']
+                'tag': [['回血', 3]]
             }
         ],
         'team_skill': []
@@ -18034,7 +18034,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '1 回合內，所受傷害減少 40%；若隊伍中有人類及魔族成員時，效果持續 2 回合',
-                'tag': ['減傷']
+                'tag': [['減傷', 2]]
             }
         ],
         'team_skill': [
@@ -18093,7 +18093,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，水符石的掉落機率提升，並將掉落的水符石以水強化符石代替',
-                'tag': ['改變掉落機率']
+                'tag': [['改變掉落機率', 3]]
             }
         ],
         'team_skill': []
@@ -18111,7 +18111,7 @@ const monster_data = [
                 'num': 10,
                 'reduce': 2,
                 'description': '3 回合內，水符石的掉落機率提升，並將掉落的水符石以水強化符石代替',
-                'tag': ['改變掉落機率']
+                'tag': [['改變掉落機率', 3]]
             }
         ],
         'team_skill': [
@@ -18136,7 +18136,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，火符石的掉落機率提升，並將掉落的火符石以火強化符石代替',
-                'tag': ['改變掉落機率']
+                'tag': [['改變掉落機率', 3]]
             }
         ],
         'team_skill': []
@@ -18154,7 +18154,7 @@ const monster_data = [
                 'num': 10,
                 'reduce': 2,
                 'description': '3 回合內，火符石的掉落機率提升，並將掉落的火符石以火強化符石代替',
-                'tag': ['改變掉落機率']
+                'tag': [['改變掉落機率', 3]]
             }
         ],
         'team_skill': [
@@ -18179,7 +18179,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，木符石的掉落機率提升，並將掉落的木符石以木強化符石代替',
-                'tag': ['改變掉落機率']
+                'tag': [['改變掉落機率', 3]]
             }
         ],
         'team_skill': []
@@ -18197,7 +18197,7 @@ const monster_data = [
                 'num': 10,
                 'reduce': 2,
                 'description': '3 回合內，木符石的掉落機率提升，並將掉落的木符石以木強化符石代替',
-                'tag': ['改變掉落機率']
+                'tag': [['改變掉落機率', 3]]
             }
         ],
         'team_skill': [
@@ -18267,7 +18267,7 @@ const monster_data = [
                 'num': 8,
                 'reduce': 2,
                 'description': '所受傷害減少 20%，直至沒有消除火符石，不包括主動技及隊長技 (效果持續期間技能不會冷卻)',
-                'tag': ['減傷']
+                'tag': [['減傷', -1]]
             }
         ],
         'team_skill': []
@@ -18285,7 +18285,7 @@ const monster_data = [
                 'num': 8,
                 'reduce': 2,
                 'description': '所受傷害減少 20%，直至沒有消除火符石，不包括主動技及隊長技 (效果持續期間技能不會冷卻)',
-                'tag': ['減傷']
+                'tag': [['減傷', -1]]
             }
         ],
         'team_skill': [
@@ -18422,7 +18422,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -18804,7 +18804,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '暈擊敵方全體，使受影響目標無法行動 5 回合，但效果會因受到攻擊而消失',
-                'tag': ['無法行動', '暈擊敵方']
+                'tag': [['無法行動', 5], ['暈擊敵方', 5]]
             },
             {
                 'name': '灼熱盾擊 ‧ 強',
@@ -18812,7 +18812,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '暈擊敵方全體，使受影響目標無法行動 5 回合，效果會因受到主動技能傷害或首批消除符石所造成的攻擊而消失。效果期間，全隊攻擊力 1.5 倍',
-                'tag': ['無法行動', '暈擊敵方', '增傷']
+                'tag': [['無法行動', 5], ['暈擊敵方', 5], ['增傷', 5]]
             }
         ],
         'team_skill': [
@@ -18851,7 +18851,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '在全部或最少 4 個成員可發動主動技時，發動此技會將所有成員技能 CD 重置，提升全隊攻擊力 2 倍並持續 8 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 8]]
             },
             {
                 'name': '狂暴戰士',
@@ -18860,7 +18860,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '在全部或最少 3 個成員可發動主動技時，發動此技會將所有成員技能 CD 重置，提升全隊攻擊力 2 倍並持續 8 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 8]]
             }
         ],
         'team_skill': [
@@ -18980,7 +18980,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '在全部或最少 4 個成員可發動主動技時，發動此技會將所有成員技能 CD 重置，提升全隊攻擊力 2 倍並持續 8 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 8]]
             },
             {
                 'name': '狂暴戰士',
@@ -18989,7 +18989,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '在全部或最少 3 個成員可發動主動技時，發動此技會將所有成員技能 CD 重置，提升全隊攻擊力 2 倍並持續 8 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 8]]
             }
         ],
         'team_skill': [
@@ -19060,7 +19060,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，以神族及魔族其中造成的最大傷害轉換為全隊神族及魔族的傷害',
-                'tag': ['共鳴']
+                'tag': [['共鳴', 2]]
             }
         ],
         'team_skill': [
@@ -19459,7 +19459,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，自身發動攻擊時，個人追打木屬性攻擊 1 次',
-                'tag': ['木屬追打']
+                'tag': [['木屬追打', 3]]
             }
         ],
         'team_skill': []
@@ -19544,7 +19544,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，水屬性成員愈多，水屬性攻擊力愈高，最大 1.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -19561,7 +19561,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '3 回合內，每回合回復 50% 生命力',
-                'tag': ['回血']
+                'tag': [['回血', 3]]
             }
         ],
         'team_skill': []
@@ -19578,7 +19578,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '3 回合內，自身攻擊力 1.5 倍。若身旁的成員同為木屬性，同得此效果',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 3], ['界王拳', 3]]
             }
         ],
         'team_skill': []
@@ -19770,8 +19770,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 15,
-                'description': '石化敵方全體，使受影響目標無法行動並轉為木屬性，持續 3 回合。 效果期間木屬性攻擊力 1.5 倍',
-                'tag': ['無法行動', '石化敵方', '敵方轉屬', '增傷']
+                'description': '石化敵方全體，使受影響目標無法行動並轉為木屬性，持續 3 回合。效果期間木屬性攻擊力 1.5 倍',
+                'tag': [['無法行動', 3], ['石化敵方', 3], ['敵方轉屬', 3], ['增傷', 3]]
             }
         ],
         'team_skill': []
@@ -19907,7 +19907,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，消除心符石時，無視全體敵人的防禦力',
-                'tag': ['破防']
+                'tag': [['破防', 2]]
             }
         ],
         'team_skill': []
@@ -19924,7 +19924,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，消除心符石時，無視全體敵人的防禦力',
-                'tag': ['破防']
+                'tag': [['破防', 2]]
             }
         ],
         'team_skill': [
@@ -20021,7 +20021,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '回復效果提升 2 倍，直至沒有消除心符石 (不包括主動及隊長技)',
-                'tag': ['增回']
+                'tag': [['增回', -1]]
             }
         ],
         'team_skill': []
@@ -20038,7 +20038,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '回復效果提升 2 倍，直至沒有消除心符石 (不包括主動及隊長技)',
-                'tag': ['增回']
+                'tag': [['增回', -1]]
             }
         ],
         'team_skill': [
@@ -20276,7 +20276,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，心符石的掉落機率提升，並將掉落的心符石以心強化符石代替',
-                'tag': ['改變掉落機率']
+                'tag': [['改變掉落機率', 3]]
             }
         ],
         'team_skill': [
@@ -20413,7 +20413,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，全隊攻擊力 1.5 倍，並減少所受傷害 50%',
-                'tag': ['減傷', '增傷']
+                'tag': [['減傷', 2], ['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -20430,7 +20430,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，全隊攻擊力 1.5 倍，並減少所受傷害 50%',
-                'tag': ['減傷', '增傷']
+                'tag': [['減傷', 2], ['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -20723,7 +20723,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '我方回復力減至 0，同時必然延長移動符石時間 1 秒 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['我方減回', '延長轉珠時間']
+                'tag': [['我方減回', -1], ['延長轉珠時間', -1]]
             }
         ],
         'team_skill': []
@@ -20740,7 +20740,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '我方回復力減至 0，同時必然延長移動符石時間 1 秒 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['我方減回', '延長轉珠時間']
+                'tag': [['我方減回', -1], ['延長轉珠時間', -1]]
             },
             {
                 'name': '天魔往生訣 ‧ 強',
@@ -20749,7 +20749,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '自身回復力減至 0，同時必然延長移動符石時間 2 秒 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['我方減回', '延長轉珠時間']
+                'tag': [['我方減回', -1], ['延長轉珠時間', -1]]
             }
         ],
         'team_skill': []
@@ -20935,7 +20935,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '人類攻擊力減至 50%，光屬性人類成員攻擊力則減至 0，並將被減去攻擊力的 1.5 倍加入自身攻擊力。消除光符石才會發動攻擊 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['我方減攻', '增傷', '界王拳', '攻擊力吸收']
+                'tag': [['我方減攻', -1], ['增傷', -1], ['界王拳', -1], ['我方攻擊力吸收', -1]]
             }
         ],
         'team_skill': []
@@ -20952,7 +20952,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '人類攻擊力減至 50%，光屬性人類成員攻擊力則減至 0，並將被減去攻擊力的 1.5 倍加入自身攻擊力。消除光符石才會發動攻擊 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['我方減攻', '增傷', '界王拳', '攻擊力吸收']
+                'tag': [['我方減攻', -1], ['增傷', -1], ['界王拳', -1], ['我方攻擊力吸收', -1]]
             },
             {
                 'name': '御靈旋 ‧ 強',
@@ -20961,7 +20961,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '人類攻擊力減至 50%，光屬性人類成員攻擊力則減至 0，並將被減去攻擊力的 1.5 倍加入自身攻擊力。消除光符石才會發動攻擊 (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉，關閉時，當前技能 CD 減少 5，及於該回合提升全隊攻擊力 1.5 倍',
-                'tag': ['增傷', '界王拳', '攻擊力吸收', '減CD', '隨時關閉']
+                'tag': [['我方減攻', -1], ['增傷', -1], ['界王拳', -1], ['我方攻擊力吸收', -1], '減CD', '隨時關閉']
             }
         ],
         'team_skill': []
@@ -21235,7 +21235,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '2 回合內，消除火符石時，全隊攻擊力 1.5 倍；消除水符石時，回復自身回復力 15 倍的生命力',
-                'tag': ['回血', '增傷']
+                'tag': [['回血', 2], ['增傷', 2]]
             }
         ],
         'team_skill': [
@@ -21454,7 +21454,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '我方回復力減至 0，同時必然延長移動符石時間 1 秒 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['我方減回', '延長轉珠時間']
+                'tag': [['我方減回', -1], ['延長轉珠時間', -1]]
             }
         ],
         'team_skill': []
@@ -21488,7 +21488,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '每回合鎖定 3 粒符石：消除所有被鎖定的符石，全隊攻擊力 2 倍；反之，扣除 10% 總生命力 (最多扣至 1 血)。效果會在再次發動此技能或死亡後消失',
-                'tag': ['我方扣血', '增傷']
+                'tag': [['我方扣血', -1], ['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -21539,7 +21539,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '每回合以左下角的符石開始轉珠時，回復力 1.5 倍；以右下角的符石開始轉珠時，則攻擊力 1.5 倍。若以其他符石開始轉珠，該回合攻擊力及回復力減少 15%。(效果會在再次發動此技能或死亡後消失)',
-                'tag': ['我方減回', '增傷', '增回']
+                'tag': [['我方減攻', -1], ['我方減回', -1], ['增傷', -1], ['增回', -1]]
             }
         ],
         'team_skill': []
@@ -21556,7 +21556,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '水屬性傷害持續提升，直至沒有消除一組 5 粒或以上的水屬性符石 (只計算首批消除的符石)。每累計消除 20 粒水符石，水屬性傷害加快提升。水屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -21602,7 +21602,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '火屬性傷害持續提升，直至沒有消除一組 5 粒或以上的火屬性符石 (只計算首批消除的符石)。每累計消除 20 粒火符石，火屬性傷害加快提升。火屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -21648,7 +21648,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '木屬性傷害持續提升，直至沒有消除一組 5 粒或以上的木屬性符石 (只計算首批消除的符石)。每累計消除 20 粒木符石，木屬性傷害加快提升。木屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -21694,7 +21694,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '光屬性傷害持續提升，直至沒有消除一組 5 粒或以上的光屬性符石 (只計算首批消除的符石)。每累計消除 20 粒光符石，光屬性傷害加快提升。光屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -21740,7 +21740,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '暗屬性傷害持續提升，直至沒有消除一組 5 粒或以上的暗屬性符石 (只計算首批消除的符石)。每累計消除 20 粒暗符石，暗屬性傷害加快提升。暗屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -22258,7 +22258,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，自身攻擊力 3 倍。若身旁的成員同為獸類，同得此效果',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -22326,7 +22326,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '全隊攻擊力提升 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -22743,7 +22743,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '2 回合內，全隊攻擊力 1.5 倍及全體敵人的攻擊力弱化 80%，期間所有減傷效果無效',
-                'tag': ['增傷', '敵方減攻']
+                'tag': [['增傷', 2], ['敵方減攻', 2]]
             }
         ],
         'team_skill': [
@@ -22841,7 +22841,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '2 回合內，全隊攻擊力 1.5 倍及全體敵人的攻擊力弱化 80%，期間所有減傷效果無效',
-                'tag': ['增傷', '敵方減攻']
+                'tag': [['增傷', 2], ['敵方減攻', 2]]
             }
         ],
         'team_skill': [
@@ -22922,7 +22922,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '2 回合內，每回合隨機將 5 粒符石轉化為自身屬性符石',
-                'tag': ['符石轉光']
+                'tag': [['符石轉光', 2]]
             }
         ],
         'team_skill': [
@@ -22964,7 +22964,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '光屬性成員攻擊力減至 50% 及魔族攻擊力減至 0，並將被減去的攻擊力加入自身攻擊力。消除光符石才會發動攻擊 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['我方減攻', '攻擊力吸收']
+                'tag': [['我方減攻', -1], ['我方攻擊力吸收', -1]]
             },
             {
                 'name': '玄冥靈量',
@@ -23025,7 +23025,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -23042,7 +23042,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -23392,7 +23392,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '在全部或最少 3 個成員可發動主動技時，可發動此技能，並將這些成員的技能 CD 重置：1 回合內全隊攻擊力 2 倍及延長移動符石時間 2 秒。若多於 3 個成員的技能被重置，其後每個技能被重置的成員 ，額外增加效果持續 1 回合，最多可持續 4 回合',
-                'tag': ['增傷', '延長轉珠時間']
+                'tag': [['增傷', 4], ['延長轉珠時間', 4]]
             }
         ],
         'team_skill': []
@@ -23408,7 +23408,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '1 回合內，每消除 1 粒水符石 (只計算首批消除的符石)，個人 追打 10000 點水屬性攻擊 1 次，最多可追打 30 次',
+                'description': '1 回合內，每消除 1 粒水符石 (只計算首批消除的符石)，個人追打 10000 點水屬性攻擊 1 次，最多可追打 30 次',
                 'tag': ['自身追打', '水屬追打']
             }
         ],
@@ -23948,7 +23948,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -23982,7 +23982,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -23999,7 +23999,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內，全隊攻擊力 1.5 倍；隊伍中每多一個獸類成員，額外增加效果持續 1 回合，最多可持續 6 回合 (效果持續期間技能不會冷卻)',
-                'tag': ['增傷']
+                'tag': [['增傷', 6]]
             }
         ],
         'team_skill': []
@@ -24016,7 +24016,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -24033,7 +24033,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '心符石的掉落機率降至 0，並將原有機率增加至木符石的掉落機率 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['禁珠', '改變掉落機率']
+                'tag': [['禁珠', -1], ['改變掉落機率', -1]]
             }
         ],
         'team_skill': []
@@ -24050,7 +24050,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -24067,7 +24067,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '攻擊力 1.5 倍，直至消除心符石 (只計算首批消除的符石)，效果持續期間技能不會冷卻',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -24084,7 +24084,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -24118,7 +24118,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '心符石的掉落機率降至 0，並將原有機率增加至水符石的掉落機率 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['禁珠', '改變掉落機率']
+                'tag': [['禁珠', -1], ['改變掉落機率', -1]]
             }
         ],
         'team_skill': [
@@ -24175,7 +24175,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '2 回合內，敵方全體轉為水屬性，並提升木屬性對水屬性目標的攻擊力',
-                'tag': ['敵方轉屬', '增傷']
+                'tag': [['敵方轉屬', 2], ['增傷', 2]]
             }
         ],
         'team_skill': [
@@ -24249,7 +24249,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '我方回復力減至 0，並將每個成員自身回復力的 3.5 倍各自加入自身攻擊力 (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉，關閉時，當前技能 CD 減少 4',
-                'tag': ['我方減回', '增傷', '減CD', '隨時關閉']
+                'tag': [['我方減回', -1], ['增傷', -1], '減CD', '隨時關閉']
             }
         ],
         'team_skill': []
@@ -24266,7 +24266,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '所有成員攻擊力提升 2 倍，同時火屬性符石掉落機率提升，但受到的傷害提升 1.5 倍 (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉，關閉時，當前技能 CD 減少 4',
-                'tag': ['增傷', '我方受傷增加', '減CD', '改變掉落機率', '隨時關閉']
+                'tag': [['增傷', -1], ['我方受傷增加', -1], ['改變掉落機率', -1], '減CD', '隨時關閉']
             }
         ],
         'team_skill': [
@@ -24291,7 +24291,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '達成 4 連擊 (Combo) 或以上才會發動攻擊和回復，連擊 (Combo) 時攻擊力提升 40%，期間所有減傷效果無效 (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉，關閉時，當前技能 CD 減少 6',
-                'tag': ['增傷', '減CD', '隨時關閉']
+                'tag': [['增傷', -1], '減CD', '隨時關閉']
             }
         ],
         'team_skill': []
@@ -24307,7 +24307,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，全隊攻擊力 1.5 倍，並延長移動符石時間 1 秒；隊伍中 每多一個獸類成員，額外提升攻擊力 0.2 倍及延長移動符石時間 0.2 秒，最多可達 2.5 倍攻擊力及延長移動符石時間 2 秒',
+                'description': '1 回合內，全隊攻擊力 1.5 倍，並延長移動符石時間 1 秒；隊伍中每多一個獸類成員，額外提升攻擊力 0.2 倍及延長移動符石時間 0.2 秒，最多可達 2.5 倍攻擊力及延長移動符石時間 2 秒',
                 'tag': ['增傷', '延長轉珠時間']
             }
         ],
@@ -24501,8 +24501,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '心符石的掉落機率降至 0，並將原有機率增加至火符石的掉落 機率 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['禁珠', '改變掉落機率']
+                'description': '心符石的掉落機率降至 0，並將原有機率增加至火符石的掉落機率 (效果會在再次發動此技能或死亡後消失)',
+                'tag': [['禁珠', -1], ['改變掉落機率', -1]]
             }
         ],
         'team_skill': []
@@ -24536,7 +24536,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '3 回合內，全隊攻擊力 1.8 倍及全隊回復力變 0；並於第 3 回合結束時，完全回復生命力',
-                'tag': ['回血', '增傷', '我方減回']
+                'tag': ['回血', ['增傷', 3], ['我方減回', 3]]
             }
         ],
         'team_skill': []
@@ -24629,7 +24629,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，以龍類其中造成的最大傷害轉換為全隊龍類的傷害',
-                'tag': ['共鳴']
+                'tag': [['共鳴', 2]]
             }
         ],
         'team_skill': [
@@ -24785,7 +24785,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '龍類攻擊力減至 0，並將龍類攻擊力的 1.5 倍加入自身攻擊力，消除暗符石才會發動攻擊 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['我方減攻', '增傷', '界王拳', '攻擊力吸收']
+                'tag': [['我方減攻', -1], ['增傷', -1], ['界王拳', -1], , ['我方攻擊力吸收', -1]]
             }
         ],
         'team_skill': [
@@ -24859,7 +24859,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '全隊攻擊力 1.7 倍，直至連擊 (Combo) 數為雙數時 (只計算首批消除的符石)。效果持續期間技能不會冷卻',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -25245,7 +25245,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，無視全體敵人的防禦力',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             },
             {
                 'name': '金睛真火 ‧ 凝煉',
@@ -25254,7 +25254,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，敵方全體的防禦力減至 0；而且首回合全隊攻擊力 1.5 倍',
-                'tag': ['破防', '增傷']
+                'tag': [['破防', 3], '增傷']
             }
         ],
         'team_skill': [
@@ -25550,7 +25550,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，扣減魔族成員的自身生命力 (隊伍總生命力最多減至 1)，並將魔族成員的自身生命力的 2.5 倍加入自身攻擊力，上限為提升至自身攻擊力 20 倍。此技能不能與神魔共鳴、魔力召喚或魔力歸一 同時發動',
+                'description': '1 回合內，扣減魔族成員的自身生命力 (隊伍總生命力最多減至 1)，並將魔族成員的自身生命力的 2.5 倍加入自身攻擊力，上限為提升至自身攻擊力 20 倍。此技能不能與神魔共鳴、魔力召喚或魔力歸一同時發動',
                 'tag': ['我方扣血', '增傷', '界王拳']
             }
         ],
@@ -25589,7 +25589,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，消除符石的種類愈多，水屬性攻擊力提升愈多，最 大提升至 2.2 倍',
+                'description': '1 回合內，消除符石的種類愈多，水屬性攻擊力提升愈多，最大提升至 2.2 倍',
                 'tag': ['增傷']
             }
         ],
@@ -25606,7 +25606,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，消除符石的種類愈多，水屬性攻擊力提升愈多，最 大提升至 2.2 倍',
+                'description': '1 回合內，消除符石的種類愈多，水屬性攻擊力提升愈多，最大提升至 2.2 倍',
                 'tag': ['增傷']
             }
         ],
@@ -25638,7 +25638,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，消除符石的種類愈多，火屬性攻擊力提升愈多，最 大提升至 2.2 倍',
+                'description': '1 回合內，消除符石的種類愈多，火屬性攻擊力提升愈多，最大提升至 2.2 倍',
                 'tag': ['增傷']
             }
         ],
@@ -25655,7 +25655,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，消除符石的種類愈多，火屬性攻擊力提升愈多，最 大提升至 2.2 倍',
+                'description': '1 回合內，消除符石的種類愈多，火屬性攻擊力提升愈多，最大提升至 2.2 倍',
                 'tag': ['增傷']
             }
         ],
@@ -25687,7 +25687,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，消除符石的種類愈多，木屬性攻擊力提升愈多，最 大提升至 2.2 倍',
+                'description': '1 回合內，消除符石的種類愈多，木屬性攻擊力提升愈多，最大提升至 2.2 倍',
                 'tag': ['增傷']
             }
         ],
@@ -25704,7 +25704,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，消除符石的種類愈多，木屬性攻擊力提升愈多，最 大提升至 2.2 倍',
+                'description': '1 回合內，消除符石的種類愈多，木屬性攻擊力提升愈多，最大提升至 2.2 倍',
                 'tag': ['增傷']
             }
         ],
@@ -25858,7 +25858,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，消除符石的種類愈多，水屬性攻擊力提升愈多，最 大提升至 2.2 倍',
+                'description': '1 回合內，消除符石的種類愈多，水屬性攻擊力提升愈多，最大提升至 2.2 倍',
                 'tag': ['增傷']
             }
         ],
@@ -25892,7 +25892,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，消除符石的種類愈多，火屬性攻擊力提升愈多，最 大提升至 2.2 倍',
+                'description': '1 回合內，消除符石的種類愈多，火屬性攻擊力提升愈多，最大提升至 2.2 倍',
                 'tag': ['增傷']
             }
         ],
@@ -25926,7 +25926,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，消除符石的種類愈多，木屬性攻擊力提升愈多，最 大提升至 2.2 倍',
+                'description': '1 回合內，消除符石的種類愈多，木屬性攻擊力提升愈多，最大提升至 2.2 倍',
                 'tag': ['增傷']
             }
         ],
@@ -26150,7 +26150,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '2 回合內，木屬性攻擊力 1.5 倍及木屬性魔族攻擊力 2 倍；並延遲全體敵人行動 1 回合',
-                'tag': ['增傷', '延遲']
+                'tag': [['增傷', 2], '延遲']
             }
         ],
         'team_skill': []
@@ -26184,7 +26184,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '魔族攻擊力提升 1.8 倍，效果持續至受到敵人攻擊',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -26218,7 +26218,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '當場上只有 1 個敵人時，根據發動此技能時敵人的生命力觸發以下效果。<br>敵人生命力 90% 或以上時：消耗敵人 20% 生命力，1 回合內，暗屬性攻擊力 2 倍。<br>敵人生命力 50% 或以上，並少於 90% 時：2 回合內，暗屬性攻擊力 2 倍<br>敵人生命力少於 50% 時：2 回合內，暗屬性攻擊力 2.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': [
@@ -26249,7 +26249,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，消除的符石數量愈多，全隊攻擊力愈高，消除 30 粒可達 至最大 2.5 倍',
+                'description': '1 回合內，消除的符石數量愈多，全隊攻擊力愈高，消除 30 粒可達至最大 2.5 倍',
                 'tag': ['增傷']
             }
         ],
@@ -26711,7 +26711,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '每次受到敵人攻擊時，場上隨機 3 粒符石轉化為心符石，效果持續至沒有消除心符石',
-                'tag': ['符石轉心']
+                'tag': [['符石轉心', -1]]
             }
         ],
         'team_skill': []
@@ -26744,8 +26744,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '自身攻擊力 4 倍，下回合開始時回復 10% 自身總生命力，效果持續 至沒有首批消除場上所有木符石',
-                'tag': ['回血', '增傷', '界王拳']
+                'description': '自身攻擊力 4 倍，下回合開始時回復 10% 自身總生命力，效果持續至沒有首批消除場上所有木符石',
+                'tag': [['回血', -1], ['增傷', -1], ['界王拳', -1]]
             }
         ],
         'team_skill': []
@@ -26847,7 +26847,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '3 回合內，水屬性攻擊力 1.8 倍及全隊回復力變 0；並於第 3 回合結束時，完全回復生命力',
-                'tag': ['回血', '增傷', '我方減回']
+                'tag': ['回血', ['增傷', 3], ['我方減回', 3]]
             }
         ],
         'team_skill': []
@@ -27187,7 +27187,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 9,
                 'description': '2 回合內，光屬性及人類攻擊力 1.5 倍；光屬性人類攻擊力 2.25 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -27248,7 +27248,7 @@ const monster_data = [
                 'num': 8,
                 'reduce': 2,
                 'description': '所受傷害減少 35%，消除火或心符石可維持效果',
-                'tag': ['減傷']
+                'tag': [['減傷', -1]]
             }
         ],
         'team_skill': [
@@ -27272,7 +27272,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '1 回合内，全隊攻擊力 2.5 倍；下一回合全隊回復力變 0',
+                'description': '1 回合內，全隊攻擊力 2.5 倍；下一回合全隊回復力變 0',
                 'tag': ['增傷', '我方減回']
             }
         ],
@@ -27297,7 +27297,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '1 回合内，隊伍成員的種族愈多，全隊攻擊力愈高，4 種族的成員即可達至最大 2.5 倍',
+                'description': '1 回合內，隊伍成員的種族愈多，全隊攻擊力愈高，4 種族的成員即可達至最大 2.5 倍',
                 'tag': ['增傷']
             }
         ],
@@ -27324,7 +27324,7 @@ const monster_data = [
                 'num': 6,
                 'reduce': 1,
                 'description': '1 回合內<br>I. 全隊攻擊力 1.5 倍<br>II. 將全隊對敵方造成實際傷害的 5%<br>⇒ 轉化為生命力<br>(不計算主動及隊長技傷害)<br>III. 若隊伍中只有龍類成員時<br>⇒ 則效果持續 5 回合',
-                'tag': ['增傷', '我方傷害吸收']
+                'tag': [['增傷', 5], ['我方傷害吸收', 5]]
             }
         ],
         'team_skill': []
@@ -27382,7 +27382,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '1 回合内，所有成員以 50% 攻擊力追打水、火及木屬性攻擊各 1 次',
+                'description': '1 回合內，所有成員以 50% 攻擊力追打水、火及木屬性攻擊各 1 次',
                 'tag': ['全隊追打', '水屬追打', '火屬追打', '木屬追打']
             }
         ],
@@ -27454,7 +27454,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '達成 4 連擊 (Combo) 或以上時，全隊攻擊力 2 倍及回復力減少 50% (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉，關閉時，隨機將 8 粒符石轉化為心符石',
-                'tag': ['符石轉心', '增傷', '我方減回', '隨時關閉']
+                'tag': ['符石轉心', ['增傷', -1], ['我方減回', -1], '隨時關閉']
             }
         ],
         'team_skill': [
@@ -27479,7 +27479,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，全隊攻擊力 1.5 倍，消除心符石時，無視全體敵人的防禦力',
-                'tag': ['破防', '增傷']
+                'tag': [['破防', 2], ['增傷', 2]]
             }
         ],
         'team_skill': [
@@ -27572,7 +27572,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '回復效果提升 2 倍，直至沒有消除心符石 (不包括主動及隊長技)；發動技能時，將自身所在隊伍欄直行的符石轉化為心符石',
-                'tag': ['符石轉心', '增回']
+                'tag': ['符石轉心', ['增回', -1]]
             }
         ],
         'team_skill': [
@@ -27727,7 +27727,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '1 回合內，火屬性攻擊力 1.5 倍；場上有附加效果時，於 7  秒內可任意移動符石而不會發動消除',
+                'description': '1 回合內，火屬性攻擊力 1.5 倍；場上有附加效果時，於 7 秒內可任意移動符石而不會發動消除',
                 'tag': ['排珠', '增傷']
             }
         ],
@@ -27762,7 +27762,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -27779,7 +27779,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -27856,7 +27856,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，自身攻擊力最高 (最左方) 的光屬性成員追打光屬性攻擊 3 次',
-                'tag': ['光屬追打']
+                'tag': [['光屬追打', 2]]
             }
         ],
         'team_skill': []
@@ -27890,7 +27890,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '1 回合內，火屬性攻擊力 1.5 倍，10 秒內可任意移動符石而不會發動消除；若擊斃所有敵人，下回合火屬性攻擊力 1.5 倍',
-                'tag': ['排珠', '增傷']
+                'tag': ['排珠', ['增傷', 2]]
             },
             {
                 'name': '赤燄玲瓏 ‧ 熾',
@@ -27899,7 +27899,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '1 回合內，火屬性攻擊力 2 倍，於 10 秒內可任意移動符石而不會發動消除；若擊斃所有敵人，下回合火屬性攻擊力 2 倍',
-                'tag': ['排珠', '增傷']
+                'tag': ['排珠', ['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -27940,8 +27940,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '暗屬性及人類攻擊力 1.5 倍，減少 50% 所受傷害，效果持續至受到 敵人攻擊',
-                'tag': ['減傷', '增傷']
+                'description': '暗屬性及人類攻擊力 1.5 倍，減少 50% 所受傷害，效果持續至受到敵人攻擊',
+                'tag': [['減傷', -1], ['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -28009,7 +28009,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '2 回合內，每回合扣除現有 10% 生命力，同時心符石兼具所有屬性符石效果',
-                'tag': ['符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '我方扣血']
+                'tag': [['符石兼具水', 2], ['符石兼具火', 2], ['符石兼具木', 2], ['符石兼具光', 2], ['符石兼具暗', 2], ['我方扣血', 2]]
             }
         ],
         'team_skill': []
@@ -28076,7 +28076,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，移動符石時間延長至 8 秒；消除一組 6 粒或以 上的水符石，水屬性攻擊力 1.5 倍',
+                'description': '1 回合內，移動符石時間延長至 8 秒；消除一組 6 粒或以上的水符石，水屬性攻擊力 1.5 倍',
                 'tag': ['增傷', '延長轉珠時間']
             }
         ],
@@ -28115,7 +28115,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，移動符石時間延長至 8 秒；消除一組 6 粒或以 上的火符石，火屬性攻擊力 1.5 倍',
+                'description': '1 回合內，移動符石時間延長至 8 秒；消除一組 6 粒或以上的火符石，火屬性攻擊力 1.5 倍',
                 'tag': ['增傷', '延長轉珠時間']
             }
         ],
@@ -28154,7 +28154,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，移動符石時間延長至 8 秒；消除一組 6 粒或以 上的木符石，木屬性攻擊力 1.5 倍',
+                'description': '1 回合內，移動符石時間延長至 8 秒；消除一組 6 粒或以上的木符石，木屬性攻擊力 1.5 倍',
                 'tag': ['增傷', '延長轉珠時間']
             }
         ],
@@ -28193,7 +28193,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，移動符石時間延長至 8 秒；消除一組 6 粒或以 上的光符石，光屬性攻擊力 1.5 倍',
+                'description': '1 回合內，移動符石時間延長至 8 秒；消除一組 6 粒或以上的光符石，光屬性攻擊力 1.5 倍',
                 'tag': ['增傷', '延長轉珠時間']
             }
         ],
@@ -28232,7 +28232,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，移動符石時間延長至 8 秒；消除一組 6 粒或以 上的暗符石，暗屬性攻擊力 1.5 倍',
+                'description': '1 回合內，移動符石時間延長至 8 秒；消除一組 6 粒或以上的暗符石，暗屬性攻擊力 1.5 倍',
                 'tag': ['增傷', '延長轉珠時間']
             }
         ],
@@ -28272,7 +28272,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -28306,7 +28306,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -28340,7 +28340,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -28365,7 +28365,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '完全回復生命力。1 回合內，迴避所有攻擊；此外，2 回合內，所有符石兼具木符石效果',
-                'tag': ['符石兼具木', '回血', '迴避']
+                'tag': [['符石兼具木', 2], '回血', '迴避']
             }
         ],
         'team_skill': []
@@ -28382,7 +28382,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -28424,7 +28424,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -28458,7 +28458,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '所受傷害減少 20%，直至沒有消除水及心符石，不包括主動技及隊長技能',
-                'tag': ['減傷']
+                'tag': [['減傷', -1]]
             }
         ],
         'team_skill': []
@@ -28492,7 +28492,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '2 回合內，首次所受傷害不會使你死亡',
-                'tag': ['意志']
+                'tag': [['意志', 2]]
             }
         ],
         'team_skill': []
@@ -28509,7 +28509,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，全隊攻擊力持續提升，最大 2.2 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 3]]
             }
         ],
         'team_skill': []
@@ -28559,7 +28559,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '1 回合內，延長移動符石時間至 10 秒，消除符石的組數愈多時，全隊 攻擊力愈高，消除 10 組可達至最大 2.5 倍',
+                'description': '1 回合內，延長移動符石時間至 10 秒，消除符石的組數愈多時，全隊攻擊力愈高，消除 10 組可達至最大 2.5 倍',
                 'tag': ['增傷', '延長轉珠時間']
             }
         ],
@@ -28643,7 +28643,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '木符石轉化為木強化符石，並直接引爆場上所有光及暗符石，以掉落 水、火、木及心強化符石',
+                'description': '木符石轉化為木強化符石，並直接引爆場上所有光及暗符石，以掉落水、火、木及心強化符石',
                 'tag': ['引爆', '光符石引爆', '暗符石引爆', '符石強化', '符石轉木強化', '強制掉落']
             }
         ],
@@ -28847,7 +28847,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '2 回合內，暗屬性攻擊力 2 倍，並將心符石的掉落機率降至 0',
-                'tag': ['增傷', '禁珠', '改變掉落機率']
+                'tag': [['增傷', 2], ['禁珠', 2], ['改變掉落機率', 2]]
             }
         ],
         'team_skill': []
@@ -28986,7 +28986,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '完全回復生命力，並解除所有成員被鎖的技能及清除敵人身上的控制 技能 (此技能無視封鎖技能)',
+                'description': '完全回復生命力，並解除所有成員被鎖的技能及清除敵人身上的控制技能 (此技能無視封鎖技能)',
                 'tag': ['回血', '解鎖']
             }
         ],
@@ -29021,7 +29021,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '全隊攻擊力 1.5 倍，每回合扣除現有 20% 生命力，效果持續至受到 2 次攻擊為止',
-                'tag': ['我方扣血', '增傷']
+                'tag': [['我方扣血', -1], ['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -29038,7 +29038,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'reduce': 1,
-                'description': '每次只能選取 1 個效果。<br>效果1：1  回合內，水屬性攻擊力 1.8 倍，並於移動符石時間內，可任意移動符石而不會發動消除<br>效果2：心符石轉化為水強化符石，同時將火符石轉化為心強化符石，並將木符石轉化為光強化符石',
+                'description': '每次只能選取 1 個效果。<br>效果1：1 回合內，水屬性攻擊力 1.8 倍，並於移動符石時間內，可任意移動符石而不會發動消除<br>效果2：心符石轉化為水強化符石，同時將火符石轉化為心強化符石，並將木符石轉化為光強化符石',
                 'tag': ['符石轉水', '符石轉水強化', '符石轉光', '符石轉光強化', '符石轉心', '符石轉心強化', '火轉其他', '木轉其他', '心轉其他', '排珠', '增傷']
             }
         ],
@@ -29056,7 +29056,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'reduce': 1,
-                'description': '每次只能選取 1 個效果。<br>效果1：1  回合內，火屬性攻擊力 1.5 倍，並無視全體敵人的防禦力<br>效果2：心符石轉化為火強化符石，同時將木符石轉化為心強化符石，並將光符石轉化為暗強化符石',
+                'description': '每次只能選取 1 個效果。<br>效果1：1 回合內，火屬性攻擊力 1.5 倍，並無視全體敵人的防禦力<br>效果2：心符石轉化為火強化符石，同時將木符石轉化為心強化符石，並將光符石轉化為暗強化符石',
                 'tag': ['符石轉火', '符石轉火強化', '符石轉暗', '符石轉暗強化', '符石轉心', '符石轉心強化', '木轉其他', '光轉其他', '心轉其他', '破防', '增傷']
             }
         ],
@@ -29074,7 +29074,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'reduce': 1,
-                'description': '每次只能選取 1 個效果。<br>效果1：1  回合內，木屬性攻擊力 1.75 倍，並消除所有附加效果，消除的效果愈多，木屬性攻擊力提升愈多，最大提升至 2.5 倍<br>效果2：心符石轉化為木強化符石，同時將水符石轉化為心強化符石，並將火符石轉化為光強化符石',
+                'description': '每次只能選取 1 個效果。<br>效果1：1 回合內，木屬性攻擊力 1.75 倍，並消除所有附加效果，消除的效果愈多，木屬性攻擊力提升愈多，最大提升至 2.5 倍<br>效果2：心符石轉化為木強化符石，同時將水符石轉化為心強化符石，並將火符石轉化為光強化符石',
                 'tag': ['符石轉木', '符石轉木強化', '符石轉光', '符石轉光強化', '符石轉心', '符石轉心強化', '水轉其他', '火轉其他', '心轉其他', '增傷', '附加消除']
             }
         ],
@@ -29092,7 +29092,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'reduce': 1,
-                'description': '每次只能選取 1 個效果。<br>效果1：1  回合內，光屬性攻擊力 1.8 倍，並延長移動符石時間 2 秒<br>效果2：心符石轉化為光強化符石，同時將暗符石轉化為心強化符石，並將火符石轉化為水強化符石',
+                'description': '每次只能選取 1 個效果。<br>效果1：1 回合內，光屬性攻擊力 1.8 倍，並延長移動符石時間 2 秒<br>效果2：心符石轉化為光強化符石，同時將暗符石轉化為心強化符石，並將火符石轉化為水強化符石',
                 'tag': ['符石轉水', '符石轉水強化', '符石轉光', '符石轉光強化', '符石轉心', '符石轉心強化', '火轉其他', '暗轉其他', '心轉其他', '增傷', '延長轉珠時間']
             }
         ],
@@ -29110,7 +29110,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'reduce': 1,
-                'description': '每次只能選取 1 個效果。<br>效果1：1  回合內，暗及光屬性攻擊力 2 倍<br>效果2：心符石轉化為暗強化符石，同時將光符石轉化為心強化符石，並將水符石轉化為木強化符石',
+                'description': '每次只能選取 1 個效果。<br>效果1：1 回合內，暗及光屬性攻擊力 2 倍<br>效果2：心符石轉化為暗強化符石，同時將光符石轉化為心強化符石，並將水符石轉化為木強化符石',
                 'tag': ['符石轉木', '符石轉木強化', '符石轉暗', '符石轉暗強化', '符石轉心', '符石轉心強化', '水轉其他', '光轉其他', '心轉其他', '增傷']
             }
         ],
@@ -29128,7 +29128,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，全隊攻擊力 1.8 倍，並減少所受傷害 65%',
-                'tag': ['減傷', '增傷']
+                'tag': [['減傷', 2], ['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -29198,7 +29198,7 @@ const monster_data = [
                 'num': 8,
                 'reduce': 2,
                 'description': '1 回合內，自身及身旁的成員攻擊力 3.5 倍；若身旁成員的攻擊力均低於自己，則效果持續 2 回合',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -29421,7 +29421,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '1 回合內，每消除 1 組水、火或木符石，個人追打光屬性攻擊 1 次 ，最多可追打 10 次',
+                'description': '1 回合內，每消除 1 組水、火或木符石，個人追打光屬性攻擊 1 次，最多可追打 10 次',
                 'tag': ['自身追打', '光屬追打']
             }
         ],
@@ -29595,7 +29595,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 4,
                 'description': '發動此技能及下回合開始時，將 3 粒水及光以外的符石轉化為光強化符石',
-                'tag': ['符石轉光', '符石轉光強化']
+                'tag': [['符石轉光', 2], ['符石轉光強化', 2]]
             }
         ],
         'team_skill': [
@@ -29701,7 +29701,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '光符石與暗符石轉化為心強化符石，2 回合內，減少所受傷害 50%',
-                'tag': ['符石轉心', '符石轉心強化', '光轉其他', '暗轉其他', '減傷']
+                'tag': ['符石轉心', '符石轉心強化', '光轉其他', '暗轉其他', ['減傷', 2]]
             }
         ],
         'team_skill': [
@@ -29765,7 +29765,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，光屬性攻擊力及回復力 1.5 倍，光屬性神族攻擊力及回復力則提升 2 倍',
-                'tag': ['增傷', '增回']
+                'tag': [['增傷', 2], ['增回', 2]]
             }
         ],
         'team_skill': []
@@ -29899,7 +29899,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -29916,7 +29916,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -30198,7 +30198,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '1 回合內，全隊攻擊力 2.5 倍；若在最左及最右直行各消除 1 組 5 粒或以上的符石，下回合全隊攻擊力 2.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             },
             {
                 'name': '加冕之槍',
@@ -30333,7 +30333,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '2 回合內，全隊攻擊力 1.8 倍及全體敵人的攻擊力弱化 85%，期間所有減傷效果無效',
-                'tag': ['增傷', '敵方減攻']
+                'tag': [['增傷', 2], ['敵方減攻', 2]]
             }
         ],
         'team_skill': [
@@ -30397,7 +30397,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '2 回合內，全隊攻擊力 1.8 倍及全體敵人的攻擊力弱化 85%，期間所有減傷效果無效',
-                'tag': ['增傷', '敵方減攻']
+                'tag': [['增傷', 2], ['敵方減攻', 2]]
             }
         ],
         'team_skill': [
@@ -30586,7 +30586,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，自身攻擊力 3 倍。若身旁的成員同為水屬性或獸類，同得此效果',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -30603,7 +30603,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 15,
                 'description': '敵方全體點燃，使受影響目標無法行動並轉為火屬性，持續 3 回合。效果持續期間火屬性攻擊力 1.5 倍',
-                'tag': ['無法行動', '點燃敵方', '敵方轉屬', '增傷']
+                'tag': [['無法行動', 3], ['點燃敵方', 3], ['敵方轉屬', 3], ['增傷', 3]]
             }
         ],
         'team_skill': []
@@ -30637,7 +30637,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，自身攻擊力 3 倍。若身旁的成員同為光屬性或獸類，同得此效果',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -30672,7 +30672,7 @@ const monster_data = [
                 'num': 10,
                 'reduce': 4,
                 'description': '全隊攻擊力 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)；若有擊斃敵人時，該回合不會扣減技能持續回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': [
@@ -30718,7 +30718,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'reduce': 6,
-                'description': '將場上的符石變回原始模樣。1 回合內，所有符石兼具水符石 效果',
+                'description': '將場上的符石變回原始模樣。1 回合內，所有符石兼具水符石效果',
                 'tag': ['符石兼具水', '還原版面']
             }
         ],
@@ -30737,7 +30737,7 @@ const monster_data = [
                 'num': 10,
                 'reduce': 4,
                 'description': '全隊攻擊力 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)；若有擊斃敵人時，該回合不會扣減技能持續回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': [
@@ -30783,7 +30783,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'reduce': 6,
-                'description': '將場上的符石變回原始模樣。1 回合內，所有符石兼具火符石 效果',
+                'description': '將場上的符石變回原始模樣。1 回合內，所有符石兼具火符石效果',
                 'tag': ['符石兼具火', '還原版面']
             }
         ],
@@ -30802,7 +30802,7 @@ const monster_data = [
                 'num': 10,
                 'reduce': 4,
                 'description': '全隊攻擊力 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)；若有擊斃敵人時，該回合不會扣減技能持續回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': [
@@ -30841,7 +30841,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'reduce': 6,
-                'description': '將場上的符石變回原始模樣。1 回合內，所有符石兼具木符石 效果',
+                'description': '將場上的符石變回原始模樣。1 回合內，所有符石兼具木符石效果',
                 'tag': ['符石兼具木', '還原版面']
             }
         ],
@@ -30860,7 +30860,7 @@ const monster_data = [
                 'num': 10,
                 'reduce': 4,
                 'description': '全隊攻擊力 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)；若有擊斃敵人時，該回合不會扣減技能持續回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': [
@@ -30911,7 +30911,7 @@ const monster_data = [
                 'num': 10,
                 'reduce': 4,
                 'description': '全隊攻擊力 1.5 倍，技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)；若有擊斃敵人時，該回合不會扣減技能持續回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': [
@@ -30977,8 +30977,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '心符石的掉落機率降至 0，並將原有機率增加至火符石的掉落 機率 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['禁珠', '改變掉落機率']
+                'description': '心符石的掉落機率降至 0，並將原有機率增加至火符石的掉落機率 (效果會在再次發動此技能或死亡後消失)',
+                'tag': [['禁珠', -1], ['改變掉落機率', -1]]
             }
         ],
         'team_skill': []
@@ -30994,8 +30994,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': '3 回合內，全隊攻擊力 1.8 倍；並於第 3 回合結束時，完全 回復生命力',
-                'tag': ['回血', '增傷']
+                'description': '3 回合內，全隊攻擊力 1.8 倍；並於第 3 回合結束時，完全回復生命力',
+                'tag': ['回血', ['增傷', 3]]
             }
         ],
         'team_skill': []
@@ -31054,7 +31054,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '每回合敵方所受傷害的 110% 再爆發 (不包括無屬性傷害)，此傷害無視屬性及防禦力，效果持續 2 回合；每回合結束時，所有符石轉化為強化符石',
-                'tag': ['符石強化']
+                'tag': [['符石強化', 2]]
             }
         ],
         'team_skill': [
@@ -31086,7 +31086,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '敵方全體點燃，使受影響目標轉為火屬性及受到自身攻擊力 60 倍 的火屬性傷害，並持續到死亡；效果持續期間，觸碰被燃燒的位置所受的傷害減至 0 (不包括煉獄之火所造成的傷害)',
-                'tag': ['敵方轉屬', '點燃敵方', '無視燃燒']
+                'tag': [['敵方轉屬', -1], ['點燃敵方', -1], ['無視燃燒', -1]]
             }
         ],
         'team_skill': [
@@ -31118,7 +31118,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，全隊攻擊力 1.5 倍，妖精類攻擊力則提升至 2 倍，敵方所受傷害的 20% 轉化為我方生命力',
-                'tag': ['增傷', '我方傷害吸收']
+                'tag': [['增傷', 3], ['我方傷害吸收', 3]]
             }
         ],
         'team_skill': [
@@ -31150,7 +31150,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，移動符石時觸碰的符石轉化為妖族符石，敵方所受傷害的 50% 分別擴散到其他敵人身上',
-                'tag': ['妖族符石製造']
+                'tag': [['妖族符石製造', 3]]
             }
         ],
         'team_skill': [
@@ -31182,7 +31182,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 13,
                 'description': '3 回合內，敵方互相或自我進行 1 次攻擊',
-                'tag': ['魅惑敵方']
+                'tag': [['魅惑敵方', 3]]
             }
         ],
         'team_skill': [
@@ -31213,7 +31213,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '1 回合內，機械族及水屬性成員攻擊力 1.8 倍，每多 1 個附加效果 ，攻擊力額外提升 0.4 倍，最多可提升至最大 3 倍',
+                'description': '1 回合內，機械族及水屬性成員攻擊力 1.8 倍，每多 1 個附加效果，攻擊力額外提升 0.4 倍，最多可提升至最大 3 倍',
                 'tag': ['增傷']
             }
         ],
@@ -31230,7 +31230,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '1 回合內，發動技能時若生命力為 50% 或以上：減少 40% 所受傷害 ，並延長移動符石時間至 10 秒。反之，1 回合內，減少 80% 所受傷害，並延長移動符石時間至 15 秒',
+                'description': '1 回合內，發動技能時若生命力為 50% 或以上：減少 40% 所受傷害，並延長移動符石時間至 10 秒。反之，1 回合內，減少 80% 所受傷害，並延長移動符石時間至 15 秒',
                 'tag': ['減傷', '延長轉珠時間']
             }
         ],
@@ -31248,7 +31248,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '每回合發動攻擊前以 60 倍自身攻擊力對敵方全體造成無屬性傷害 ( 需消除符石及效果會在關閉此技能或死亡後消失)。此技能可隨時關閉，關閉時，所有機械族成員的主動技能 CD 減少 1',
-                'tag': ['直傷', '減CD', '隨時關閉']
+                'tag': [['直傷', -1], '減CD', '隨時關閉']
             }
         ],
         'team_skill': []
@@ -31465,7 +31465,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '水屬性傷害持續提升，直至沒有消除一組 5 粒或以上的水符石 (只計算首批消除的符石)。每累計消除 20 粒符石，水屬性傷害加快提升。水屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -31497,7 +31497,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '3 回合內，每回合隨機將 5 粒火符石轉化為水強化神族符石',
-                'tag': ['符石轉水', '符石轉水強化', '火轉其他', '神族符石製造']
+                'tag': [['符石轉水', 3], ['符石轉水強化', 3], ['火轉其他', 3], ['神族符石製造', 3]]
             }
         ],
         'team_skill': []
@@ -31514,7 +31514,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '火屬性傷害持續提升，直至沒有消除一組 5 粒或以上的火符石 (只計算首批消除的符石)。每累計消除 20 粒符石，火屬性傷害加快提升。火屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -31546,7 +31546,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '3 回合內，每回合隨機將 5 粒木符石轉化為火強化神族符石',
-                'tag': ['符石轉火', '符石轉火強化', '木轉其他', '神族符石製造']
+                'tag': [['符石轉火', 3], ['符石轉火強化', 3], ['木轉其他', 3], ['神族符石製造', 3]]
             }
         ],
         'team_skill': []
@@ -31563,7 +31563,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '木屬性傷害持續提升，直至沒有消除一組 5 粒或以上的木符石 (只計算首批消除的符石)。每累計消除 20 粒符石，木屬性傷害加快提升。木屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -31595,7 +31595,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '3 回合內，每回合隨機將 5 粒水符石轉化為木強化神族符石',
-                'tag': ['符石轉木', '符石轉木強化', '水轉其他', '神族符石製造']
+                'tag': [['符石轉木', 3], ['符石轉木強化', 3], ['水轉其他', 3], ['神族符石製造', 3]]
             }
         ],
         'team_skill': []
@@ -31612,7 +31612,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '光屬性傷害持續提升，直至沒有消除一組 5 粒或以上的光符石 (只計算首批消除的符石)。每累計消除 20 粒符石，光屬性傷害加快提升。光屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -31644,7 +31644,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '3 回合內，每回合隨機將 5 粒暗符石轉化為光強化神族符石',
-                'tag': ['符石轉光', '符石轉光強化', '暗轉其他', '神族符石製造']
+                'tag': [['符石轉光', 3], ['符石轉光強化', 3], ['暗轉其他', 3], ['神族符石製造', 3]]
             }
         ],
         'team_skill': []
@@ -31661,7 +31661,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '暗屬性傷害持續提升，直至沒有消除一組 5 粒或以上的暗符石 (只計算首批消除的符石)。每累計消除 20 粒符石，暗屬性傷害加快提升。暗屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -31693,7 +31693,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '3 回合內，每回合隨機將 5 粒光符石轉化為暗強化神族符石',
-                'tag': ['符石轉暗', '符石轉暗強化', '光轉其他', '神族符石製造']
+                'tag': [['符石轉暗', 3], ['符石轉暗強化', 3], ['光轉其他', 3], ['神族符石製造', 3]]
             }
         ],
         'team_skill': []
@@ -31743,7 +31743,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '1 回合內，首批消除 12 粒或以下符石時，無視全體敵人的 防禦力；反之，全隊攻擊力 2.2 倍',
+                'description': '1 回合內，首批消除 12 粒或以下符石時，無視全體敵人的防禦力；反之，全隊攻擊力 2.2 倍',
                 'tag': ['破防', '增傷']
             }
         ],
@@ -31777,7 +31777,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '1 回合內，首批消除 12 粒或以下符石時，無視全體敵人的 防禦力；反之，全隊攻擊力 2.2 倍',
+                'description': '1 回合內，首批消除 12 粒或以下符石時，無視全體敵人的防禦力；反之，全隊攻擊力 2.2 倍',
                 'tag': ['破防', '增傷']
             }
         ],
@@ -31820,7 +31820,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '水符石掉落率提升至 20%，消除水符石愈多，水屬性攻擊力愈高，消除 12 粒水符石可達至最大 2.2 倍，效果持續至沒有消除神族符石',
-                'tag': ['增傷', '改變掉落機率']
+                'tag': [['增傷', -1], ['改變掉落機率', -1]]
             }
         ],
         'team_skill': []
@@ -31837,7 +31837,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '達成 4 連擊 (Combo) 或以上時，全隊攻擊力 2 倍 (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉，關閉時，隨機將 8 粒符石轉化為心強化符石',
-                'tag': ['符石轉心', '符石轉心強化', '增傷', '隨時關閉']
+                'tag': ['符石轉心', '符石轉心強化', ['增傷', -1], '隨時關閉']
             }
         ],
         'team_skill': [
@@ -31862,7 +31862,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '木符石掉落率降至 0，並將原有機率增加至火符石的掉落機率，消除神族符石時，火符石掉落率提升至 40% (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['禁珠', '改變掉落機率']
+                'tag': [['禁珠', -1], ['改變掉落機率', -1]]
             }
         ],
         'team_skill': []
@@ -32279,7 +32279,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '完全回復生命力。1 回合內，迴避所有攻擊；2 回合內，所有符石兼具隊伍中獸類成員屬性效果',
-                'tag': ['符石兼具木', '回血', '迴避']
+                'tag': [['符石兼具木', 2], '回血', '迴避']
             }
         ],
         'team_skill': []
@@ -32393,8 +32393,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '消除的符石數目愈多，全隊攻擊力愈高，消除 30 粒可達至最 大 2.5 倍，效果持續至沒有消除 12 粒或以上自身屬性符石',
-                'tag': ['增傷']
+                'description': '消除的符石數目愈多，全隊攻擊力愈高，消除 30 粒可達至最大 2.5 倍，效果持續至沒有消除 12 粒或以上自身屬性符石',
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -32443,7 +32443,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -32460,7 +32460,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -32528,7 +32528,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '木屬性傷害可剋制火屬性目標。每消除一組木符石，個人追打木屬性攻擊 1 次，最多 10 次 (效果會在關閉此技能或死亡後消失)。技能關閉時，所有符石轉化為木符石',
-                'tag': ['符石轉木', '水轉其他', '火轉其他', '光轉其他', '暗轉其他', '心轉其他', '自身追打', '木屬追打', '大幅轉版', '固定轉版', '屬性剋制改變']
+                'tag': ['符石轉木', '水轉其他', '火轉其他', '光轉其他', '暗轉其他', '心轉其他', ['自身追打', -1], ['木屬追打', -1], '大幅轉版', '固定轉版', ['屬性剋制改變', -1]]
             }
         ],
         'team_skill': [
@@ -32595,7 +32595,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內，全隊攻擊力 1.8 倍；隊伍中每多一個獸類成員，額外增加效果持續 1 回合，最多可持續 6 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 6]]
             }
         ],
         'team_skill': []
@@ -32611,8 +32611,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '心符石的掉落機率降至 0，並將原有機率增加至木符石的掉落 機率 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['禁珠', '改變掉落機率']
+                'description': '心符石的掉落機率降至 0，並將原有機率增加至木符石的掉落機率 (效果會在再次發動此技能或死亡後消失)',
+                'tag': [['禁珠', -1], ['改變掉落機率', -1]]
             }
         ],
         'team_skill': []
@@ -32629,7 +32629,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '獸類攻擊力 2 倍，效果持續至沒有發動 3 種屬性攻擊',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -32799,7 +32799,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '1 回合內，全隊攻擊力 2 倍；若技能發動時場上有 5 粒或以上的火符石，效果持續 2 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -32867,7 +32867,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '3 回合內，首批消除場上所有光符石時，下回合開始時將最底一橫行的符石轉化為光強化符石；反之，下回合開始時將 3 粒符石 (心符石優先轉換) 轉化為光強化符石',
-                'tag': ['符石轉光', '符石轉光強化', '固定轉版']
+                'tag': [['符石轉光', 3], ['符石轉光強化', 3], ['固定轉版', 3]]
             }
         ],
         'team_skill': []
@@ -32918,7 +32918,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '將所有符石轉化為神族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 5 倍對其進行火屬性反擊，此傷害無視防禦力',
-                'tag': ['直傷', '破防直傷', '神族符石製造']
+                'tag': ['直傷', '破防直傷', '神族符石製造', '敵方傷害吸收']
             }
         ],
         'team_skill': []
@@ -32935,7 +32935,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '將所有符石轉化為神族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 5 倍對其進行火屬性反擊，此傷害無視防禦力',
-                'tag': ['直傷', '破防直傷', '神族符石製造']
+                'tag': ['直傷', '破防直傷', '神族符石製造', '敵方傷害吸收']
             }
         ],
         'team_skill': [
@@ -33002,7 +33002,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '移動符石時間延長至 10 秒，於移動符石時間內，可任意移動符石而不會發動消除，並使敵方全體的防禦力減至 0。效果持續至沒有擊斃所有敵人',
-                'tag': ['破防', '排珠']
+                'tag': [['破防', -1], ['排珠', -1]]
             }
         ],
         'team_skill': []
@@ -33019,7 +33019,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '移動符石時間延長至 10 秒，於移動符石時間內，可任意移動符石而不會發動消除，並使敵方全體的防禦力減至 0。效果持續至沒有擊斃所有敵人',
-                'tag': ['破防', '排珠']
+                'tag': [['破防', -1], ['排珠', -1]]
             }
         ],
         'team_skill': []
@@ -33195,7 +33195,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '所有成員攻擊力提升 1.3 倍，同時暗屬性符石掉落率提升，每回合開始時，暗符石轉化為暗強化符石 (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉，關閉時，該回合暗屬性神族攻擊力 2 倍及當前技能 CD 減少 2',
-                'tag': ['增傷', '符石強化', '符石轉暗強化', '改變掉落機率', '減CD', '隨時關閉']
+                'tag': [['增傷', -1], ['符石強化', -1], ['符石轉暗強化', -1], ['改變掉落機率', -1], '減CD', '隨時關閉']
             }
         ],
         'team_skill': []
@@ -33314,7 +33314,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，全隊攻擊力 1.5 倍，隊伍中每多一個水屬性人類或光屬性人類成員時，攻擊力提升，最多提升至 2.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -33458,7 +33458,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '水符石轉化為暗強化符石，下回合開始時，將本回合所消除強化符石的數量等值的符石轉化為暗強化符石 (水及光符石優先轉換)',
-                'tag': ['符石轉暗', '符石轉暗強化', '水轉其他']
+                'tag': [['符石轉暗', 2], ['符石轉暗強化', 2], '水轉其他']
             },
             {
                 'name': '銳劍出鞘',
@@ -33466,7 +33466,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '每回合自身攻擊力持續提升，最大 4 倍，直至自身沒有發動攻擊',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', -1], ['界王拳', -1]]
             }
         ],
         'team_skill': []
@@ -33500,7 +33500,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '火屬性攻擊力 2 倍，直至沒有消除 5 連擊 (Combo) 或以上的符石',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -33585,7 +33585,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '水符石轉化為人族符石；2 回合內，每回合扣除 30% 總生命力，水屬性攻擊力 2.25 倍，若技能發動時隊伍回復為 0 時，則不會每回合扣除生命力',
-                'tag': ['我方扣血', '增傷', '人族符石製造']
+                'tag': [['我方扣血', 2], ['增傷', 2], '人族符石製造']
             }
         ],
         'team_skill': []
@@ -33601,7 +33601,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': '木符石轉化為火強化符石；並將 4 個角落共 4 粒符石轉化為火符石 。若技能發動後 4 個角落均為火符石時，1 回合內，全隊攻擊力 1.5 倍',
+                'description': '木符石轉化為火強化符石；並將 4 個角落共 4 粒符石轉化為火符石。若技能發動後 4 個角落均為火符石時，1 回合內，全隊攻擊力 1.5 倍',
                 'tag': ['符石轉火', '符石轉火強化', '木轉其他', '增傷']
             }
         ],
@@ -33695,7 +33695,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 9,
                 'description': '2 回合內，人類及龍類攻擊力 1.5 倍；火屬性人類及火屬性龍類攻擊力提升至 2.25 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -33711,8 +33711,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 12,
-                'description': '使受影響目標無法行動 5 回合，但效果會因我方發動攻擊而減少 1  回合 (每回合最多減少 1 回合效果持續時間)',
-                'tag': ['無法行動']
+                'description': '使受影響目標無法行動 5 回合，但效果會因我方發動攻擊而減少 1 回合 (每回合最多減少 1 回合效果持續時間)',
+                'tag': [['無法行動', 5]]
             }
         ],
         'team_skill': []
@@ -33771,7 +33771,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 9,
                 'description': '2 回合內，水屬性攻擊力 1.5 倍，若首回合沒有受到攻擊，下回合水屬性攻擊力提升至 2.5 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -33964,7 +33964,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 1,
-                'description': '回復累積戰鬥回合數 (需要消除符石) 倍化 2000 點等值的生命力 ，10 回合可回復最多 20000 點生命力。發動技能後將累積戰鬥回合數重置',
+                'description': '回復累積戰鬥回合數 (需要消除符石) 倍化 2000 點等值的生命力，10 回合可回復最多 20000 點生命力。發動技能後將累積戰鬥回合數重置',
                 'tag': ['回血']
             }
         ],
@@ -34151,7 +34151,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '消除所有附加效果。2 回合內，受到攻擊時，隨機將火及心以外的一 種符石轉化為火符石 (每回合最多可轉化一次)',
-                'tag': ['符石轉火', '附加消除']
+                'tag': [['符石轉火', 2], '附加消除']
             }
         ],
         'team_skill': []
@@ -34168,7 +34168,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '龍類攻擊力 1.5 倍，效果持續至沒有消除 5 粒木符石或 5 粒暗符石',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -34202,7 +34202,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '直接引爆場上所有木符石以掉落火符石。3 回合內，人類攻擊力 1.3 倍',
-                'tag': ['引爆', '木符石引爆', '增傷', '強制掉落']
+                'tag': ['引爆', '木符石引爆', '強制掉落', ['增傷', 3]]
             }
         ],
         'team_skill': []
@@ -34219,7 +34219,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '直接引爆場上所有火屬性以外 2 粒或以上相連的符石，以掉落強化符石。2 回合內，火屬性回復力 1.5 倍',
-                'tag': ['引爆', '火外符石引爆', '增回']
+                'tag': ['引爆', '火外符石引爆', ['增回', 2]]
             }
         ],
         'team_skill': []
@@ -34236,7 +34236,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '直接引爆場上所有符石並掉落強化符石。2 回合內，神族攻擊力 1.5 倍',
-                'tag': ['引爆', '整版引爆', '增傷']
+                'tag': ['引爆', '整版引爆', ['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -34253,7 +34253,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '光符石轉化為水強化符石。2 回合內，減少所受傷害 65%',
-                'tag': ['符石轉水', '符石轉水強化', '光轉其他', '減傷']
+                'tag': ['符石轉水', '符石轉水強化', '光轉其他', ['減傷', 2]]
             }
         ],
         'team_skill': []
@@ -34304,7 +34304,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，全隊攻擊力 1.5 倍；倍率有 50% 機率提升至 2.25 倍及 25% 機率提升至 3.375 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -34321,7 +34321,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '心符石轉化為火符石。1 回合內，將龍類、獸類及魔族的攻擊力加入自身攻擊力',
-                'tag': ['符石轉火', '心轉其他', '界王拳', '攻擊力吸收']
+                'tag': ['符石轉火', '心轉其他', '界王拳', '我方攻擊力吸收']
             }
         ],
         'team_skill': []
@@ -34337,7 +34337,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '1 回合內，每消除 1 連擊 (Combo)，個人追打無屬性攻擊 1  次，最多 15 次',
+                'description': '1 回合內，每消除 1 連擊 (Combo)，個人追打無屬性攻擊 1 次，最多 15 次',
                 'tag': ['自身追打', '無屬追打']
             }
         ],
@@ -34414,7 +34414,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '心符石轉化為火符石。1 回合內，將龍類、獸類及魔族的攻擊力加入自身攻擊力',
-                'tag': ['符石轉火', '心轉其他', '界王拳', '攻擊力吸收']
+                'tag': ['符石轉火', '心轉其他', '界王拳', '我方攻擊力吸收']
             }
         ],
         'team_skill': []
@@ -34456,7 +34456,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，以人類其中造成最大傷害轉換為全隊人類的傷害。首批消除場上所有光符石時，下回合開始時將心符石轉化為光強化符石',
-                'tag': ['符石轉光', '符石轉光強化', '心轉其他', '共鳴']
+                'tag': [['符石轉光', 2], ['符石轉光強化', 2], ['心轉其他', 2], ['共鳴', 2]]
             }
         ],
         'team_skill': [
@@ -34481,7 +34481,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '光屬性人類及暗屬性人類成員的攻擊力減至 50%，並將被減去的攻擊力加入自身攻擊力 (效果會在再次發動此技能或死亡後消失)。發動技能首回合，將 3 粒符石轉化為暗強化符石 (水、火及木符石優先轉換)',
-                'tag': ['我方減攻', '符石轉暗', '符石轉暗強化', '攻擊力吸收']
+                'tag': [['我方減攻', -1], ['我方攻擊力吸收', -1], '符石轉暗', '符石轉暗強化']
             },
             {
                 'name': '天劍三絕 ‧ 極',
@@ -34490,7 +34490,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '光屬性人類及暗屬性人類成員的攻擊力減至 50%，並將被減去的攻擊力加入自身攻擊力 (效果會在關閉此技能或死亡後消失)。發動及關閉技能的該回合，將 3 粒符石轉化為暗強化符石 (水、火及木符石優先轉換)。此技能可隨時關閉，關閉時，當前技能 CD 減少 2',
-                'tag': ['我方減攻', '符石轉暗', '符石轉暗強化', '攻擊力吸收', '減CD', '隨時關閉']
+                'tag': [['我方減攻', -1], ['我方攻擊力吸收', -1], '符石轉暗', '符石轉暗強化', '減CD', '隨時關閉']
             }
         ],
         'team_skill': [
@@ -34529,7 +34529,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，全隊攻擊力 1.5 倍；倍率有 50% 機率提升至 2.25 倍及 25% 機率提升至 3.375 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': [
@@ -34662,7 +34662,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '1 回合內，每消除一組光符石、暗符石或心符石時，個人追打自身屬性 攻擊 1 次及回復 1500 點生命力，最多追打 15 次及回復 22500 點生命力',
+                'description': '1 回合內，每消除一組光符石、暗符石或心符石時，個人追打自身屬性攻擊 1 次及回復 1500 點生命力，最多追打 15 次及回復 22500 點生命力',
                 'tag': ['自身追打', '光屬追打', '回血']
             }
         ],
@@ -34713,8 +34713,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '光屬性攻擊力 1.5 倍及光屬性人類攻擊力 2 倍；效果持續至沒有首 批消除所有光符石',
-                'tag': ['增傷']
+                'description': '光屬性攻擊力 1.5 倍及光屬性人類攻擊力 2 倍；效果持續至沒有首批消除所有光符石',
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -34731,7 +34731,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '火符石兼具 50% 心符石效果，效果持續至沒有消除火符石 (效果持續期間技能不會冷卻)',
-                'tag': ['符石兼具心']
+                'tag': [['符石兼具心', -1]]
             }
         ],
         'team_skill': []
@@ -34772,8 +34772,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '3 回合內，所有成員不能發動攻擊及所受傷害減少 95%。期間每回合 回復 50% 總生命力 (需消除符石)',
-                'tag': ['限制成員攻擊', '減傷', '回血']
+                'description': '3 回合內，所有成員不能發動攻擊及所受傷害減少 95%。期間每回合回復 50% 總生命力 (需消除符石)',
+                'tag': [['限制成員攻擊', 3], ['減傷', 3], ['回血', 3]]
             }
         ],
         'team_skill': []
@@ -34806,8 +34806,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '所有符石轉化為強化符石。1 回合內，所有符石兼具暗符石 效果',
-                'tag': ['符石兼具暗', '符石強化']
+                'description': '所有符石轉化為強化符石。1 回合內，所有符石兼具暗符石效果',
+                'tag': ['符石強化', '符石兼具暗']
             }
         ],
         'team_skill': [
@@ -35034,7 +35034,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '消除屬性符石時，個人追打與消除符石屬性相同的攻擊各 1 次。效果持續至沒有消除 3 種或以上的屬性符石',
-                'tag': ['自身追打', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打']
+                'tag': [['自身追打', -1], ['水屬追打', -1], ['火屬追打', -1], ['木屬追打', -1], ['光屬追打', -1], ['暗屬追打', -1]]
             }
         ],
         'team_skill': [
@@ -35361,8 +35361,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '隊伍中攻擊力最高 (最左方) 的 1 個龍類成員追打暗屬性攻擊 2 次， 效果持續至該龍類成員沒有發動攻擊',
-                'tag': ['暗屬追打']
+                'description': '隊伍中攻擊力最高 (最左方) 的 1 個龍類成員追打暗屬性攻擊 2 次，效果持續至該龍類成員沒有發動攻擊',
+                'tag': [['暗屬追打', -1]]
             }
         ],
         'team_skill': [
@@ -35436,7 +35436,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': '1 回合內，所有符石兼具水符石效果；同時消除水、光及心符石時， 自身以外所有水屬性成員的主動技能 CD 減少 2',
+                'description': '1 回合內，所有符石兼具水符石效果；同時消除水、光及心符石時，自身以外所有水屬性成員的主動技能 CD 減少 2',
                 'tag': ['符石兼具水', '減CD']
             }
         ],
@@ -35470,7 +35470,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '1 回合內，全隊攻擊力 1.5 倍；每首批消除 1 組暗以外的符石， 必定掉落 2 粒暗符石',
+                'description': '1 回合內，全隊攻擊力 1.5 倍；每首批消除 1 組暗以外的符石，必定掉落 2 粒暗符石',
                 'tag': ['增傷', '強制掉落']
             }
         ],
@@ -35488,7 +35488,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '自身攻擊力 3 倍，每回合扣除 20% 總生命力，並在每回合發動攻擊後提升自身攻擊力 1 倍 (需要消除符石)，最大可提升至 8 倍。效果會在再次發動此技能或死亡後消失',
-                'tag': ['我方扣血', '增傷', '界王拳']
+                'tag': [['我方扣血', -1], ['增傷', -1], ['界王拳', -1]]
             }
         ],
         'team_skill': [
@@ -35513,7 +35513,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '每回合移動符石前，出現隨機 4 至 6 的連擊 (Combo) 數，當達成指定連擊 (Combo) 時(只計算首批消除的符石)，水屬性攻擊力 2 倍及回復 5000 點生命力，效果持續至沒有達成指定連擊 (Combo) 數目',
-                'tag': ['回血', '增傷']
+                'tag': [['回血', -1], ['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -35589,7 +35589,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，暗符石的掉落機率降至 0，並將原有機率增加至光符石的掉落機率；此外，有一定機會掉落光人族符石',
-                'tag': ['禁珠', '改變掉落機率', '人族符石製造']
+                'tag': [['禁珠', 3], ['改變掉落機率', 3], ['人族符石製造', 3]]
             }
         ],
         'team_skill': []
@@ -35655,7 +35655,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '自身不能發動攻擊；暗符石兼具 50% 心符石效果，並將移動符石時觸碰的暗符石轉化為神族符石；隊伍中的「不赦惡神 ‧ 洛基」、「亡靈蝕骨 ‧ 洛基」及「罪愆篡改 · 洛基」追打暗屬性攻擊 1 次 (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉',
-                'tag': ['限制成員攻擊', '符石兼具心', '暗屬追打', '神族符石製造', '隨時關閉']
+                'tag': [['限制成員攻擊', -1], ['符石兼具心', -1], ['暗屬追打', -1], ['神族符石製造', -1], '隨時關閉']
             }
         ],
         'team_skill': []
@@ -35672,7 +35672,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '對敵方全體施放印記，並將所有符石轉化為五屬符石。印記生效期間 ，將黑白符石變回原來色調，並必然延長移動符石時間 3 秒',
-                'tag': ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '延長轉珠時間', '黑白還原']
+                'tag': ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', ['延長轉珠時間', -1], ['黑白還原', -1]]
             }
         ],
         'team_skill': []
@@ -35774,7 +35774,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '人類攻擊力 1.3 倍及減少 30% 所受傷害，持續 4 回合；期間若首批同時消除 5 種屬性符石時，人類攻擊力提升至 2 倍及中止持續效果',
-                'tag': ['減傷', '增傷']
+                'tag': [['減傷', 4], ['增傷', 4]]
             }
         ],
         'team_skill': []
@@ -35822,8 +35822,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': '每次只能選取 1 個效果 。<br>效果1：最終決戰奧義 ‧ 無式：引爆隊伍成員屬性以外的符石，以掉落強化符石。1 回合內，自身攻擊力 1.5 倍，個人追打火屬性攻擊 4 次<br>效果2：MAX 版 裏百八式 ‧ 大蛇薙：自身進入儲力狀態，每回合提升自身攻擊力 3 倍，最大可提升至 9 倍，效果持續至沒有 消除一組 6 粒或以上的火符石。發動此技能時需要儲滿龍脈儀及該回合不能發動龍刻脈動',
-                'tag': ['自身追打', '火屬追打', '引爆', '增傷', '界王拳']
+                'description': '每次只能選取 1 個效果 。<br>效果1：最終決戰奧義 ‧ 無式：引爆隊伍成員屬性以外的符石，以掉落強化符石。1 回合內，自身攻擊力 1.5 倍，個人追打火屬性攻擊 4 次<br>效果2：MAX 版 裏百八式 ‧ 大蛇薙：自身進入儲力狀態，每回合提升自身攻擊力 3 倍，最大可提升至 9 倍，效果持續至沒有消除一組 6 粒或以上的火符石。發動此技能時需要儲滿龍脈儀及該回合不能發動龍刻脈動',
+                'tag': ['自身追打', '火屬追打', '引爆', ['增傷', -1], ['界王拳', -1]]
             }
         ],
         'team_skill': [
@@ -35912,7 +35912,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 9,
                 'description': '每次只能選取 1 個 效果。<br>效果1：裏百八式 ‧ 八酒杯：敵方全體點燃，使受影響目標無法行動並轉為暗屬性，持續 2 回合，但效果會因受到攻擊而消失。2 回合內，人類攻擊力提升 2.5 倍<br>效果2：MAX 版 禁千貳百拾壹式 ‧ 八稚女：1 回合內，將敵方全體的攻擊力及防禦力減至 0；自身攻擊力提升 1.5 倍，並以 30% 自身攻擊力追打 8 次暗屬性攻擊。所有成員攻擊後，再對全體敵人追打 1 次自身攻擊力 30 倍的暗屬性傷害。發動此技能時需要儲滿龍脈儀及該回合不能發動龍刻脈動',
-                'tag': ['自身追打', '暗屬追打', '破防', '無法行動', '點燃敵方', '敵方轉屬', '增傷', '界王拳', '敵方減攻']
+                'tag': [['無法行動', 2], ['點燃敵方', 2], ['敵方轉屬', 2], ['增傷', 2], '自身追打', '暗屬追打', '破防', '界王拳', '敵方減攻']
             }
         ],
         'team_skill': [
@@ -35946,7 +35946,7 @@ const monster_data = [
         'star': 6,
         'skill': [
             {
-                'name': '超必殺忍蜂、MAX 版  超必殺忍蜂',
+                'name': '超必殺忍蜂、MAX 版 超必殺忍蜂',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
@@ -36008,7 +36008,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '人類攻擊力 1.3 倍及減少 30% 所受傷害，持續 4 回合；期間若首批同時消除 5 種屬性符石時，人類攻擊力提升至 2 倍及中止持續效果',
-                'tag': ['減傷', '增傷']
+                'tag': [['減傷', 4], ['增傷', 4]]
             }
         ],
         'team_skill': [
@@ -36122,7 +36122,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內，每消除 1 粒水符石，自身追打 1 次火屬性攻擊，消除 10 粒可追打最多 10 次。若消除 10 粒或以上的水強化符石，效果持續 2 回合',
-                'tag': ['自身追打', '火屬追打']
+                'tag': [['自身追打', 2], ['火屬追打', 2]]
             }
         ],
         'team_skill': [
@@ -36147,7 +36147,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '於移動符石並消除符石後，根據首批消除的連擊 (Combo) 數目增加相同的連擊 (Combo) 數目，效果持續至達成 15 連擊 (Combo) 或以上',
-                'tag': ['增加Combo']
+                'tag': [['增加Combo', -1]]
             }
         ],
         'team_skill': [
@@ -36172,7 +36172,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '對敵方全體施放印記，印記生效期間，全隊攻擊力 1.3 倍，敵人所受攻擊次數愈多，全隊攻擊力提升愈多，敵人受攻擊 15 次可達至最高 2.8 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -36222,7 +36222,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，水屬性及妖精類攻擊力 1.5 倍；水屬性妖精攻擊力提升至 2.25 倍。發動技能時若生命力未滿，效果持續期間每回合回復 8000 點生命力',
-                'tag': ['回血', '增傷']
+                'tag': [['回血', 3], ['增傷', 3]]
             }
         ],
         'team_skill': []
@@ -36238,7 +36238,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '1 回合內，自身追打木屬性攻擊 9 次，此回合每擊斃 1 個敵人， 當前技能 CD 減少 1，最多可減少 5 CD',
+                'description': '1 回合內，自身追打木屬性攻擊 9 次，此回合每擊斃 1 個敵人，當前技能 CD 減少 1，最多可減少 5 CD',
                 'tag': ['自身追打', '木屬追打', '減CD']
             }
         ],
@@ -36256,7 +36256,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '小幅提升暗符石掉落率；若隊伍中只有暗屬性獸類時，全隊攻擊力提升 1.5 倍，心符石的掉落機率降至 0，並將原有機率增加至暗符石的掉落機率 。效果持續至沒有消除暗符石',
-                'tag': ['增傷', '禁珠', '改變掉落機率']
+                'tag': [['增傷', -1], ['禁珠', -1], ['改變掉落機率', -1]]
             }
         ],
         'team_skill': []
@@ -36543,7 +36543,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -36689,7 +36689,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '隊伍中有 3 個或以上的屬性成員時，連擊 (Combo) 時攻擊力提升 30%，效果持續至自身沒有發動攻擊',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -37007,7 +37007,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '全隊攻擊力 2 倍，每移動 1 步，扣除 1% 總生命力 (最多扣至 1 血)。效果會在關閉此技能或死亡後消失',
-                'tag': ['我方扣血', '增傷']
+                'tag': [['我方扣血', -1], ['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -37058,7 +37058,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '消除的心符石愈多，全隊攻擊力及回復力提升愈多，消除 8 粒心符石可提升至最大 2 倍；但受到的傷害提升 1.5 倍，效果持續至沒有消除心符石',
-                'tag': ['增傷', '增回', '我方受傷增加']
+                'tag': [['增傷', -1], ['增回', -1], ['我方受傷增加', -1]]
             }
         ],
         'team_skill': []
@@ -37132,7 +37132,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '2 回合內<br>I. 心符石的掉落率降至 0<br>II. 將原有機率增加至<br>⇒ 水符石的掉落率<br>III. 掉落的水符石<br>⇒ 以水妖族符石代替<br>IV. 隊中只有神族及妖精類成員<br>⇒ 其他符石兼具 50% 水符石效果',
-                'tag': ['禁珠', '改變掉落機率', '妖族符石製造', '符石兼具水']
+                'tag': [['禁珠', 2], ['改變掉落機率', 2], ['妖族符石製造', 2], ['符石兼具水', 2]]
             }
         ],
         'team_skill': [
@@ -37670,7 +37670,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '龍類成員對敵方所造成傷害的 2.5% 轉化為我方生命力，效果持續至回合結束時我方生命力全滿 (效果持續期間技能不會冷卻)。發動技能首回合，龍類攻擊力 1.5 倍',
-                'tag': ['增傷', '我方傷害吸收']
+                'tag': ['增傷', ['我方傷害吸收', -1]]
             }
         ],
         'team_skill': []
@@ -37704,7 +37704,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '隨機將 2 個魔族成員所在隊伍欄直行的符石轉化為水符石；2 回合內，全隊攻擊力 1.5 倍，且水屬性傷害可剋制木屬性目標',
-                'tag': ['符石轉水', '增傷', '屬性剋制改變']
+                'tag': ['符石轉水', ['增傷', 2], ['屬性剋制改變', 2]]
             }
         ],
         'team_skill': []
@@ -37721,7 +37721,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '自身攻擊力 2 倍及個人追打光屬性攻擊 1 次，效果持續至自身沒有發動攻擊',
-                'tag': ['自身追打', '光屬追打', '增傷', '界王拳']
+                'tag': [['自身追打', -1], ['光屬追打', -1], ['增傷', -1], ['界王拳', -1]]
             }
         ],
         'team_skill': []
@@ -37738,7 +37738,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '3 回合內，發動技能及回合開始時將木符石轉化為神族符石；並將所有掉落的符石轉化為強化符石',
-                'tag': ['神族符石製造']
+                'tag': [['神族符石製造', 3]]
             }
         ],
         'team_skill': []
@@ -37940,7 +37940,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '2 回合內，隨機 2 個成員的攻擊力提升：獸類成員攻擊力 5 倍及非獸類成員攻擊力 3 倍',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': [
@@ -37989,7 +37989,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '2 回合內，敵方全體轉為光屬性，並提升暗屬性對光屬性目標的攻擊力。若敵人為人類、獸類或神族，自身攻擊力額外提升 3 倍',
-                'tag': ['敵方轉屬', '增傷', '界王拳']
+                'tag': [['敵方轉屬', 2], ['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -38113,8 +38113,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '每首批消除 1 粒木符石可減少 6.25% 所受傷害，消除 12 粒可減少 最多 75% 所受傷害，效果持續至沒有首批消除木符石。效果持續期間技能不會冷卻',
-                'tag': ['減傷']
+                'description': '每首批消除 1 粒木符石可減少 6.25% 所受傷害，消除 12 粒可減少最多 75% 所受傷害，效果持續至沒有首批消除木符石。效果持續期間技能不會冷卻',
+                'tag': [['減傷', -1]]
             }
         ],
         'team_skill': []
@@ -38148,7 +38148,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '光屬性人類成員攻擊力減至 0，並將被減去攻擊力的 1.5 倍加入自身攻擊力 (效果會在再次發動此技能或死亡後消失)。此技能可隨時關閉，關閉時，當前技能 CD 減少 2',
-                'tag': ['我方減攻', '增傷', '界王拳', '攻擊力吸收', '減CD', '隨時關閉']
+                'tag': [['我方減攻', -1], ['增傷', -1], ['界王拳', -1], ['我方攻擊力吸收', -1], '減CD', '隨時關閉']
             }
         ],
         'team_skill': [
@@ -38190,7 +38190,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '自身攻擊力 2.5 倍；每當敵人發動攻擊，下回合人類及魔族成員以 50% 自身攻擊力追打 1 次自身屬性攻擊。效果持續至首批消除 5 種屬性符石',
-                'tag': ['暗屬追打', '增傷', '界王拳']
+                'tag': [['暗屬追打', -1], ['增傷', -1], ['界王拳', -1]]
             }
         ],
         'team_skill': [
@@ -38273,7 +38273,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '所有符石隨機轉化為火符石及 2 種屬性符石 (優先轉換隊伍成員屬性符石)；1 回合內，其他屬性符石兼具 50%火符石效果',
+                'description': '所有符石隨機轉化為火符石及 2 種屬性符石 (優先轉換隊伍成員屬性符石)；1 回合內，其他屬性符石兼具 50% 火符石效果',
                 'tag': ['大幅轉版', '符石轉火', '符石兼具火']
             }
         ],
@@ -38316,7 +38316,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '全隊回復力減少 50%；光屬性攻擊力 1.5 倍，當隊伍中只有人類成員時，光屬性攻擊力額外提升 1.3 倍 (效果會在關閉此技能或死亡後消失)',
-                'tag': ['我方減回', '增傷']
+                'tag': [['我方減回', -1], ['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -38332,7 +38332,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '隨機將 1 種屬性符石轉化為水符石；若轉化的符石數量比原有的水符石數量少， 1 回合內自身攻擊力 4 倍',
+                'description': '隨機將 1 種屬性符石轉化為水符石；若轉化的符石數量比原有的水符石數量少，1 回合內自身攻擊力 4 倍',
                 'tag': ['符石轉水', '增傷', '界王拳']
             }
         ],
@@ -38364,8 +38364,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '1 回合內，人類攻擊力 1.6 倍；隊伍中每多 1 個木屬性成員，額 外增加效果持續 1 回合，最多可持續 6 回合',
-                'tag': ['增傷']
+                'description': '1 回合內，人類攻擊力 1.6 倍；隊伍中每多 1 個木屬性成員，額外增加效果持續 1 回合，最多可持續 6 回合',
+                'tag': [['增傷', 6]]
             }
         ],
         'team_skill': [
@@ -38397,7 +38397,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '敵方全體中毒，每回合將受到施技者攻擊力的傷害，此傷害無視防禦力及屬性並持續到死亡。效果期間全隊攻擊力 1.6 倍，並延長移動符石時間至 15 秒',
-                'tag': ['增傷', '延長轉珠時間', '敵方中毒']
+                'tag': [['增傷', -1], ['延長轉珠時間', -1], ['敵方中毒', -1]]
             }
         ],
         'team_skill': []
@@ -38519,7 +38519,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '達成 4 連擊 (Combo) 或以上時，自身及左旁的火屬性成員攻擊力 2.5 倍 (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉，關閉時，所有符石轉化為強化符石',
-                'tag': ['增傷', '界王拳', '符石強化', '隨時關閉']
+                'tag': [['增傷', -1], ['界王拳', -1], '符石強化', '隨時關閉']
             }
         ],
         'team_skill': [
@@ -38637,7 +38637,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -38654,7 +38654,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內，移動符石時觸碰的火符石轉化為水強化符石， 觸碰的暗符石轉化為光強化符石',
-                'tag': ['符石轉水', '符石轉水強化', '符石轉光', '符石轉光強化', '火轉其他', '暗轉其他']
+                'tag': [['符石轉水', 2], ['符石轉水強化', 2], ['符石轉光', 2], ['符石轉光強化', 2], ['火轉其他', 2], ['暗轉其他', 2]]
             }
         ],
         'team_skill': [
@@ -38704,7 +38704,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '木屬性及機械族攻擊力 1.8 倍，若發動技能時自身行動值達至 100%，攻擊力提升至 2.2 倍；隊伍中若有 3 個或以上機械族成員，必然延長移動符石時間 3 秒。效果會在進入下一層數 (Wave) 時消失',
-                'tag': ['增傷', '延長轉珠時間']
+                'tag': [['增傷', -1], ['延長轉珠時間', -1]]
             }
         ],
         'team_skill': [
@@ -38736,7 +38736,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '神族攻擊力 2 倍；每首批消除 1 組隊伍成員屬性符石或心符石時，將產生 1 粒神族強化符石，最多可產生 6 粒，效果持續至受到敵人攻擊',
-                'tag': ['增傷', '符石強化', '神族符石製造']
+                'tag': [['增傷', -1], ['符石強化', -1], ['神族符石製造', -1]]
             }
         ],
         'team_skill': [
@@ -38892,7 +38892,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '2 回合內，可任意移動符石而不會發動消除；並將移動符石所觸碰的心符石轉化為妖族符石',
-                'tag': ['排珠', '妖族符石製造']
+                'tag': [['排珠', 2], ['妖族符石製造', 2]]
             }
         ],
         'team_skill': []
@@ -38909,7 +38909,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '自身攻擊力減至 0 及人類及魔族攻擊力 2.2 倍，效果持續至全隊沒有發動攻擊',
-                'tag': ['我方減攻', '增傷']
+                'tag': [['我方減攻', -1], ['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -38934,7 +38934,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '自身攻擊力 3 倍，場上有凍結符石時，攻擊力提升至 6 倍，效果持續至沒有消除水符石',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', -1], ['界王拳', -1]]
             }
         ],
         'team_skill': []
@@ -39010,7 +39010,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '發動技能時生命力需為 50% 或以上，自身攻擊力 2.5 倍，場上有其他附加效果時，攻擊力提升至 5 倍，效果持續至我方生命力為 50% 以下',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', -1], ['界王拳', -1]]
             }
         ],
         'team_skill': [
@@ -39155,7 +39155,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '每消除 1 種屬性符石，回復機械族成員 10% 總生命力，消除 5 種可回復最多機械族成員 50% 總生命力 (效果會在再次發動此技能或死亡後消失)',
-                'tag': ['回血']
+                'tag': [['回血', -1]]
             }
         ],
         'team_skill': []
@@ -39244,7 +39244,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '隨機將符石轉化為水強化符石，直至場上有 20 粒水強化符石為止。3 回合內，機械族、獸類及魔族攻擊力及回復力 2 倍',
-                'tag': ['符石轉水', '符石轉水強化', '增傷', '增回']
+                'tag': ['符石轉水', '符石轉水強化', ['增傷', 3], ['增回', 3]]
             }
         ],
         'team_skill': [
@@ -39269,7 +39269,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '心符石轉化為火人族強化符石，並引爆場上所有水及光符石以提升火屬性攻擊力，引爆 8 粒可達至最大 1.8 倍 (倍攻效果持續 2 回合)；2 回合內，心符石的掉落機率降至 0，並將原有機率增加至火符石的掉落機率，掉落的火符石以火強化符石代替',
-                'tag': ['符石轉火', '符石轉火強化', '心轉其他', '引爆', '水符石引爆', '光符石引爆', '增傷', '禁珠', '改變掉落機率', '人族符石製造']
+                'tag': ['符石轉火', '符石轉火強化', '人族符石製造', '心轉其他', '引爆', '水符石引爆', '光符石引爆', ['增傷', 2], ['禁珠', 2], ['改變掉落機率', 2]]
             }
         ],
         'team_skill': []
@@ -39286,7 +39286,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '水及火符石轉化為心強化符石。引爆場上所有光及暗符石以掉落水強化、火強化及木強化符石；引爆 1 粒符石可減少 4% 所受傷害，引爆 10 粒可減少最多 40% 所受傷害 (減傷效果持續 2 回合)。2 回合內，延長移動符石時間至 8 秒',
-                'tag': ['符石轉心', '符石轉心強化', '水轉其他', '火轉其他', '減傷', '引爆', '光符石引爆', '暗符石引爆', '延長轉珠時間', '強制掉落']
+                'tag': ['符石轉心', '符石轉心強化', '水轉其他', '火轉其他', '引爆', '光符石引爆', '暗符石引爆', '強制掉落', ['減傷', 2], ['延長轉珠時間', 2]]
             }
         ],
         'team_skill': [
@@ -39343,7 +39343,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '引爆場上所有非強化符石以掉落屬性強化符石。2 回合內，減少 40% 所受傷害，自身對神族目標攻擊力提升 3 倍',
-                'tag': ['減傷', '引爆', '增傷', '界王拳', '對神族增傷', '強制掉落']
+                'tag': ['引爆', '強制掉落', ['減傷', 2], ['增傷', 2], ['界王拳', 2], ['對神族增傷', 2]]
             }
         ],
         'team_skill': []
@@ -39394,7 +39394,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '「X 型」引爆 10 個固定位置的符石以掉落火強化符石。2 回合內，減少 30% 所受傷害，心符石的掉落機率降至 0，並將原有機率增加至火符石的掉落機率',
-                'tag': ['減傷', '引爆', 'X型引爆', '禁珠', '改變掉落機率', '強制掉落']
+                'tag': ['引爆', 'X型引爆', '強制掉落', ['減傷', 2], ['禁珠', 2], ['改變掉落機率', 2]]
             }
         ],
         'team_skill': []
@@ -39445,7 +39445,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '引爆火、木及光符石，並將最底 3 橫行的符石轉化為強化符石。2 回合內，水屬性攻擊力 1.6 倍',
-                'tag': ['引爆', '火符石引爆', '木符石引爆', '光符石引爆', '增傷', '符石強化']
+                'tag': ['引爆', '火符石引爆', '木符石引爆', '光符石引爆', '符石強化', ['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -39479,7 +39479,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '木符石轉化為光強化符石。引爆心符石以掉落木以外的符石及提升自身攻擊力，引爆 5 粒可達至最大 6 倍 (倍攻效果持續 2 回合)',
-                'tag': ['符石轉光', '符石轉光強化', '木轉其他', '引爆', '心符石引爆', '增傷', '界王拳', '強制掉落']
+                'tag': ['符石轉光', '符石轉光強化', '木轉其他', '引爆', '心符石引爆', '強制掉落', ['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -39513,7 +39513,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '火符石轉化為光人族符石，風化符石轉化為光符石。2 回合內，木符石的掉落機率降至 0，並將原有機率增加至光符石的掉落機率',
-                'tag': ['符石轉光', '火轉其他', '禁珠', '改變掉落機率', '風化符石處理', '人族符石製造']
+                'tag': ['符石轉光', '火轉其他', '風化符石處理', '人族符石製造', ['禁珠', 2], ['改變掉落機率', 2]]
             }
         ],
         'team_skill': []
@@ -39547,7 +39547,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '火符石轉化為木符石，水符石轉化為光符石；3 回合內，火符石掉落率減少，自身對神族目標攻擊力提升 2.5 倍',
-                'tag': ['符石轉木', '符石轉光', '火轉其他', '水轉其他', '增傷', '界王拳', '對神族增傷', '改變掉落機率']
+                'tag': ['符石轉木', '符石轉光', '火轉其他', '水轉其他', ['改變掉落機率', 3], ['增傷', 3], ['界王拳', 3], ['對神族增傷', 3]]
             }
         ],
         'team_skill': []
@@ -39598,7 +39598,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '心符石兼具 50% 自身屬性符石效果；發動技能時，場上每 1 粒心符石，額外增加 1 回合效果，3 粒心符石可持續最多 4 回合',
-                'tag': ['符石轉暗', '符石兼具暗']
+                'tag': [['符石兼具暗', 4]]
             }
         ],
         'team_skill': [
@@ -39725,7 +39725,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '水及光屬性機械族成員的行動值提升至 100%。若此時全隊機械族成員的行動值達至 100%：將所有符石轉化為機械族符石；身旁的水屬性機械族及光屬性機械族成員攻擊力提升 2.5 倍；效果持續至沒有首批消除光符石',
-                'tag': ['增傷', '界王拳', '機械族符石製造', '行動值提升']
+                'tag': ['行動值提升', ['增傷', -1], ['界王拳', -1], ['機械族符石製造', -1]]
             }
         ],
         'team_skill': []
@@ -39759,7 +39759,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': 'I. 將火符石轉化為魔族強化符石<br>1 回合內<br>II. 其他符石兼具火符石效果<br>III. 若自身隊長為火屬性魔族<br>⇒ 兼具效果持續 2 回合',
-                'tag': ['符石兼具火', '符石強化', '符石轉火強化', '魔族符石製造']
+                'tag': ['符石強化', '符石轉火強化', '魔族符石製造', ['符石兼具火', 2]]
             }
         ],
         'team_skill': [
@@ -40011,7 +40011,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 10,
                 'description': '引爆木以外的符石；所有符石轉化為強化符石。1 回合內，自身攻擊力 30 倍，其他成員不能發動攻擊，此傷害無視防禦力。全隊回復力 1.6 倍；於發動攻擊前以 30 倍自身攻擊力對敵方全體造成木屬性傷害。回合結束時，自身進入 2 回合瀕死狀態',
-                'tag': ['破防', '引爆', '木外符石引爆', '直傷', '增傷', '界王拳', '限制成員攻擊', '增回', '符石強化']
+                'tag': ['破防', '引爆', '木外符石引爆', '直傷', '增傷', '界王拳', '增回', '符石強化', ['限制成員攻擊', 2]]
             }
         ],
         'team_skill': [
@@ -40078,7 +40078,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '自身攻擊力 4 倍，自身攻擊傷害可克制敵人；效果持續至首批消除 1 組 6 粒或以上的光符石',
-                'tag': ['增傷', '界王拳', '屬性剋制改變']
+                'tag': [['增傷', -1], ['界王拳', -1], ['屬性剋制改變', -1]]
             },
             {
                 'name': '變身',
@@ -40126,7 +40126,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 6,
                 'description': '自身攻擊力 4 倍，自身攻擊傷害可克制敵人；效果持續至首批消除 1 組 6 粒或以上的光符石',
-                'tag': ['增傷', '界王拳', '屬性剋制改變']
+                'tag': [['增傷', -1], ['界王拳', -1], ['屬性剋制改變', -1]]
             },
             {
                 'name': '絶對時間',
@@ -40134,7 +40134,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 10,
                 'description': '2 回合內，每回合開始時扣除自身總生命力 20%；全隊攻擊力 2 倍；延長移動符石時間至 25 秒；期間隊伍不會被封鎖主動技能。隊伍中有 2 個或以上獵人 × 獵人系列成員時，將場上的符石變回原始模樣',
-                'tag': ['我方扣血', '增傷', '延長轉珠時間', '防鎖', '還原版面']
+                'tag': [['我方扣血', 2], ['增傷', 2], ['延長轉珠時間', 2], ['防鎖', 2], '還原版面']
             }
         ],
         'team_skill': [
@@ -40363,7 +40363,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 9,
                 'description': '2 回合內，使敵方全體無法行動；效果期間，於每回合結束時消耗敵方現有 10% 生命力',
-                'tag': ['無法行動', '直傷']
+                'tag': [['無法行動', 2], ['直傷', 2]]
             }
         ],
         'team_skill': []
@@ -40498,7 +40498,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '連續 3 回合回復 30% 總生命力',
-                'tag': ['回血']
+                'tag': [['回血', 3]]
             }
         ],
         'team_skill': []
@@ -40549,7 +40549,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，每回合將隊伍成員屬性的符石轉化為妖族符石，消除 1 粒妖族符石可減少 10% 所受傷害，消除 8 粒可減少最多 80% 所受傷害',
-                'tag': ['減傷', '妖族符石製造']
+                'tag': [['減傷', 2], ['妖族符石製造', 2]]
             }
         ],
         'team_skill': []
@@ -40667,7 +40667,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '1 回合內，自身不能對敵方造成傷害，減少 60% 所受傷害。下回合減少 90% 所受傷害，受到敵人的攻擊傷害時，以 50 倍自身攻擊力對其進行木屬性反擊，此傷害無視防禦力',
-                'tag': ['限制成員攻擊', '減傷', '直傷', '破防直傷']
+                'tag': ['限制成員攻擊', ['減傷', 2], '直傷', '破防直傷']
             }
         ],
         'team_skill': [
@@ -40815,7 +40815,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 10,
                 'description': '所有符石隨機轉化為水強化、光強化及心強化符石。1 回合內，合計消除的水、光或心符石愈多，自身攻擊力愈高，消除 30 粒可提升至最大 9 倍。下回合開始時，人類、妖精類及魔族成員所在直行的符石轉化為該成員屬性的強化符石',
-                'tag': ['符石轉水', '符石轉水強化', '符石轉光', '符石轉光強化', '符石轉心', '符石轉心強化', '增傷', '界王拳', '大幅轉版']
+                'tag': [['符石轉水', 2], ['符石轉水強化', 2], '符石轉光', '符石轉光強化', '符石轉心', '符石轉心強化', '增傷', '界王拳', '大幅轉版']
             }
         ],
         'team_skill': [
@@ -40969,7 +40969,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 5,
                 'description': '2 回合內，自身攻擊力 4 倍；若有擊斃敵人時，該回合不會扣減技能持續回合',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             },
             {
                 'name': '魔界植物召喚',
@@ -41274,7 +41274,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -41308,7 +41308,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 6,
                 'description': '首批消除 5 粒或以上暗符石，自身攻擊力 5.5 倍，其後每回合需要首批消除的暗符石數量 +1，達成條件時自身攻擊力額外提升 1.5 倍，最大 10 倍。效果持續至沒有達成條件',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', -1], ['界王拳', -1]]
             },
             {
                 'name': '指彈',
@@ -41375,7 +41375,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 5,
                 'description': '減少 20% 所受傷害，每回合結束時，對全體敵人造成 25 萬光屬性傷害 (需消除符石)，效果會在進入下一層數 (Wave) 時消失',
-                'tag': ['減傷', '直傷']
+                'tag': [['減傷', -1], ['直傷', -1]]
             }
         ],
         'team_skill': [
@@ -41558,7 +41558,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': 'I. 每回合隨機將 3 粒符石<br>⇒ 轉化為魔族強化符石<br>II. 魔族成員發動攻擊時<br>⇒ 該成員額外追打 1 次<br>效果持續至沒有消除魔族符石',
-                'tag': ['符石強化', '魔族符石製造', '火屬追打']
+                'tag': [['符石強化', -1], ['魔族符石製造', -1], ['火屬追打', -1]]
             }
         ],
         'team_skill': [
@@ -41583,7 +41583,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '隊伍中有 3 個或以上的魔族成員時：<br>I. 增加 3 連擊 (Combo)<br>II. 減少 30% 所受傷害<br>效果持續至首批消除心符石',
-                'tag': ['增加Combo', '減傷']
+                'tag': [['增加Combo', -1], ['減傷', -1]]
             }
         ],
         'team_skill': [
@@ -41608,7 +41608,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '2 回合內<br>I. 光屬性及魔族攻擊力 2 倍<br>II. 若隊伍中只有魔族成員時<br>⇒ 無視全體敵人的防禦力',
-                'tag': ['破防', '增傷']
+                'tag': [['破防', 2], ['增傷', 2]]
             }
         ],
         'team_skill': [
@@ -41675,7 +41675,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '首批消除 5 粒或以上暗符石，自身攻擊力 5.5 倍，其後每回合需要首批消除的暗符石數量 +1，達成條件時自身攻擊力額外提升 1.5 倍，最大 10 倍。效果持續至沒有達成條件',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', -1], ['界王拳', -1]]
             },
             {
                 'name': '變身',
@@ -41701,7 +41701,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '達成 4 連擊 (Combo) 或以上時，個人追打光及暗屬性攻擊 1 次；達成 6 連擊 (Combo) 或以上時，自身攻擊力 3 倍；達成 8 連擊 (Combo) 或以上時，自身攻擊無視「固定連擊盾」。效果持續至沒有達成 4 連擊 (Combo) 或以上',
-                'tag': ['自身追打', '光屬追打', '暗屬追打', '增傷', '界王拳', '無視固定連擊盾']
+                'tag': [['自身追打', -1], ['光屬追打', -1], ['暗屬追打', -1], ['增傷', -1], ['界王拳', -1], ['無視固定連擊盾', -1]]
             }
         ],
         'team_skill': [
@@ -41743,7 +41743,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -42158,7 +42158,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '將黑白符石變回原來色調；點選 2 直行的符石並引爆，以掉落水神族強化符石',
-                'tag': ['引爆', '直行引爆', '黑白還原', '強制掉落', '神族符石製造']
+                'tag': ['黑白還原', '引爆', '直行引爆', '強制掉落', '神族符石製造']
             }
         ],
         'team_skill': [
@@ -42200,7 +42200,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '將黑白符石變回原來色調；1 回合內，必然延長移動符石時間 6 秒；自身攻擊力 6 倍；連擊 (Combo) 數目增加 6',
-                'tag': ['增傷', '界王拳', '延長轉珠時間', '黑白還原', '增加Combo']
+                'tag': ['黑白還原', '增傷', '界王拳', '延長轉珠時間', '增加Combo']
             }
         ],
         'team_skill': [
@@ -42242,7 +42242,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內，隊長及戰友攻擊力 4 倍；隊伍中每多 1 個神族成員，額外增加 1 回合效果，最多持續 5 回合',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 5], ['界王拳', 5]]
             }
         ],
         'team_skill': [
@@ -42284,7 +42284,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內，同時消除光、暗及心符石時，全隊攻擊力 2.2 倍；隊伍中每多 1 個神族成員，額外增加 1 回合效果，最多持續 5 回合',
-                'tag': ['增傷']
+                'tag': [['增傷', 5]]
             }
         ],
         'team_skill': [
@@ -42326,7 +42326,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '將黑白符石變回原來色調；1 回合內，減少 50% 所受傷害；消除神族符石愈多，全隊攻擊力提升愈多，5 粒可提升至最大 2 倍',
-                'tag': ['減傷', '增傷', '黑白還原']
+                'tag': ['黑白還原', '減傷', '增傷']
             }
         ],
         'team_skill': [
@@ -42368,7 +42368,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內，每首批消除 2 粒水符石，將產生 1 粒水神族符石；隊伍中每多 1 個神族成員，額外增加 1 回合效果，最多持續 5 回合',
-                'tag': ['強制掉落', '神族符石製造']
+                'tag': [['強制掉落', 5], ['神族符石製造', 5]]
             }
         ],
         'team_skill': [
@@ -42410,7 +42410,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內，可任意移動符石而不會發動消除；隊伍中每多 1 個神族成員，額外增加 1 回合效果，最多持續 5 回合',
-                'tag': ['排珠']
+                'tag': [['排珠', 5]]
             }
         ],
         'team_skill': [
@@ -42452,7 +42452,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內，神族攻擊力及回復力 1.5 倍；隊伍中每多 1 個神族成員 ，額外增加 1 回合效果，最多持續 5 回合',
-                'tag': ['增傷', '增回']
+                'tag': [['增傷', 5], ['增回', 5]]
             }
         ],
         'team_skill': [
@@ -42536,7 +42536,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '自身以外所有成員的攻擊力 2 倍。若隊伍中沒有「唯識無境 ‧ 梵天」，受到的傷害提升 1.5 倍。(效果會在再次發動此技能或死亡後消失)',
-                'tag': ['增傷', '我方受傷增加']
+                'tag': [['增傷', -1], ['我方受傷增加', -1]]
             }
         ],
         'team_skill': []
@@ -42553,7 +42553,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '若全隊均為神族成員：2 回合內，減少 80% 所受傷害，隊長及戰友攻擊力提升 3.5 倍；反之，2 回合內，減少 50% 所受傷害，隊長及戰友攻擊力提升 2 倍',
-                'tag': ['減傷', '增傷', '界王拳']
+                'tag': [['減傷', 2], ['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -42747,7 +42747,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '引爆隊長及戰友所在直行的符石，以掉落獸族強化符石；1  回合內，獸類成員以 30% 自身攻擊力追打隨機屬性攻擊 3 次',
+                'description': '引爆隊長及戰友所在直行的符石，以掉落獸族強化符石；1 回合內，獸類成員以 30% 自身攻擊力追打隨機屬性攻擊 3 次',
                 'tag': ['水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打', '引爆', '直行引爆', '獸族符石製造']
             }
         ],
@@ -42840,7 +42840,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': 'I. 所受傷害減至 10<br>(包括「喋血屠刀」、「一擊必殺」等扣除召喚師指定 % 生命力的敵技所造成的傷害)<br>II. 自身攻擊力 5 倍<br>III. 若有擊斃敵人，於回合結束時，將所有符石轉化為<br>⇒ 機械族強化符石<br>IV. 技能持續時若所有機械族成員的行動值達至 100%<br>⇒ 自身攻擊傷害可克制敵人<br><br>效果持續至受到敵人攻擊',
-                'tag': ['減傷', '增傷', '界王拳', '符石強化', '對機械族增傷', '屬性剋制改變']
+                'tag': [['減傷', -1], ['增傷', -1], ['界王拳', -1], ['符石強化', -1], ['對機械族增傷', -1], ['屬性剋制改變', -1]]
             }
         ],
         'team_skill': [
@@ -42865,7 +42865,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，生命力未滿時，根據隊伍中人類成員的數量，回復相應的生命力，6 個人類成員可回復最多 15000 點生命力',
-                'tag': ['回血']
+                'tag': [['回血', 3]]
             }
         ],
         'team_skill': []
@@ -43150,7 +43150,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '每次只能選取 1 個效果。<br>效果1：最頂及最底 1 橫行的符石轉化為火強化符石；對敵方全體造成 800 萬火屬性傷害，此傷害無視防禦力及強化突破敵技。回合結束時，自身進入 1 回合疲憊狀態<br>效果2：單數橫行的符石轉化為火強化符石；對敵方全體造成 1000 萬火屬性傷害，此傷害無視防禦力及強化突破敵技。回合結束時，2 回合內自身進入疲憊狀態及「華麗爆裂 ‧ 惠惠」以外人類及神族成員進入亢奮狀態。發動此技能時需儲滿龍脈儀及該回合不能發動龍刻脈動',
-                'tag': ['符石轉火', '符石轉火強化', '直傷', '破防直傷']
+                'tag': ['符石轉火', '符石轉火強化', '直傷', '破防直傷', ['限制成員攻擊', 2], ['增傷', 2]]
             }
         ],
         'team_skill': [
@@ -43221,7 +43221,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '心符石的掉落率降至 0，並將原有機率增加至光符石的掉落機率；減少 15% 所受傷害，每次受到敵人攻擊，減傷效果將提升 10%，最多可減傷 35% (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉，關閉時，隨機將 8 粒符石轉化為心符石',
-                'tag': ['符石轉心', '減傷', '禁珠', '改變掉落機率', '隨時關閉']
+                'tag': [['禁珠', -1], ['改變掉落機率', -1], ['減傷', -1], '隨時關閉', '符石轉心']
             }
         ],
         'team_skill': [
@@ -43260,7 +43260,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '自身攻擊力 1.5 倍，若隊伍中有 3 個或以上屬性成員時，自身攻擊轉化為水屬性及自身攻擊力提升至 3.5 倍 (效果會在關閉此技能或死亡後消失)。技能關閉時，凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 1 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬', '增傷', '界王拳', '攻擊轉屬']
+                'tag': [['增傷', -1], ['界王拳', -1], ['攻擊轉屬', -1], '無法行動', '凍結敵方', '敵方轉屬']
             }
         ],
         'team_skill': [
@@ -43422,7 +43422,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內，個人追打自身攻擊力 1.5 倍的隨機屬性攻擊 1 至 5 次，自身行動值達 100% 時，必定追打 5 次。隊伍中每多 1 個機械族成員可額外增加 1 回合效果，最多持續 6 回合',
-                'tag': ['自身追打', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打', '增傷', '界王拳']
+                'tag': [['自身追打', 6], ['水屬追打', 6], ['火屬追打', 6], ['木屬追打', 6], ['光屬追打', 6], ['暗屬追打', 6], ['增傷', 6], ['界王拳', 6]]
             }
         ],
         'team_skill': []
@@ -43456,7 +43456,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '隊伍中只有人類或神族時，下一次所受傷害不會使你死亡，並於該回合完結時完全回復生命力',
-                'tag': ['回血', '意志']
+                'tag': ['回血', ['意志', -1]]
             }
         ],
         'team_skill': []
@@ -43490,7 +43490,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '引爆光及暗符石以掉落強化符石；2 回合內，移動符石後光及暗符石的掉落率降至 50%，並將原有機率增加至心符石的掉落機率',
-                'tag': ['引爆', '光符石引爆', '暗符石引爆', '改變掉落機率']
+                'tag': ['引爆', '光符石引爆', '暗符石引爆', ['改變掉落機率', 2]]
             }
         ],
         'team_skill': []
@@ -43626,7 +43626,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內，隨機將 3 粒符石轉化為火強化符石，移動符石時觸碰的火符石轉化為獸族符石',
-                'tag': ['符石轉火', '符石轉火強化', '獸族符石製造']
+                'tag': [['符石轉火', 2], ['符石轉火強化', 2], ['獸族符石製造', 2]]
             }
         ],
         'team_skill': []
@@ -44000,7 +44000,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -44017,7 +44017,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '2 回合內，完全回復生命力，若於最後一層 (Wave) 發動此技能，獸類攻擊力 2.5 倍',
-                'tag': ['回血', '增傷']
+                'tag': [['回血', 2], ['增傷', 2]]
             }
         ],
         'team_skill': [
@@ -44049,7 +44049,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -44098,7 +44098,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -44114,7 +44114,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '所有符石轉化為獸族強化符石。隊伍中只有獸類成員時，1 回合內， 首批 1 粒符石即可發動消除',
+                'description': '所有符石轉化為獸族強化符石。隊伍中只有獸類成員時，1 回合內，首批 1 粒符石即可發動消除',
                 'tag': ['符石強化', '獸族符石製造', '改變消除方式']
             }
         ],
@@ -44154,7 +44154,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -44210,7 +44210,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -44227,7 +44227,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '發動技能時敵方全體生命力需為全滿：所有成員進入潛行模式及攻擊力提升 3 倍，效果持續至對敵人造成傷害 (效果持續期間技能不會冷卻)',
-                'tag': ['增傷', '迴避']
+                'tag': [['增傷', -1], ['迴避', -1]]
             }
         ],
         'team_skill': [
@@ -44266,7 +44266,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -44315,7 +44315,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -44364,7 +44364,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，敵人的防禦力減少 75%',
-                'tag': ['破防']
+                'tag': [['破防', 3]]
             }
         ],
         'team_skill': []
@@ -44413,7 +44413,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '3 回合內，根據隊伍中獸類成員的數量，回復相應的生命力，6 個獸類成員可回復最多 15000 點生命力；於單數層數 (Wave) 發動此技能，此技能回復量 2 倍及最多可回復 30000 點生命力',
-                'tag': ['回血']
+                'tag': [['回血', 3]]
             }
         ],
         'team_skill': [
@@ -44523,7 +44523,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '1 回合內，個人追打自身攻擊力 3 倍的木屬性攻擊 2 次；發動技能時，若場上有獸族符石，技能效果變為持續 3 回合',
-                'tag': ['自身追打', '木屬追打', '增傷', '界王拳']
+                'tag': [['自身追打', 3], ['木屬追打', 3], ['增傷', 3], ['界王拳', 3]]
             }
         ],
         'team_skill': []
@@ -44574,7 +44574,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，暗屬性及妖精類的攻擊力及回復力 2 倍',
-                'tag': ['增傷', '增回']
+                'tag': [['增傷', 2], ['增回', 2]]
             },
             {
                 'name': '妖精護界',
@@ -44667,7 +44667,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 10,
                 'description': '3 回合內，心符石的掉落率降至 0，將原有機率增加至暗符石的掉落機率，並將掉落的暗符石以暗強化符石代替；首批消除暗符石愈多，神族及妖精類攻擊力提升愈多，首批消除 25 粒可提升至最大 3.5 倍',
-                'tag': ['增傷', '禁珠', '改變掉落機率']
+                'tag': [['增傷', 3], ['禁珠', 3], ['改變掉落機率', 3]]
             }
         ],
         'team_skill': []
@@ -44769,7 +44769,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '水符石轉化為強化符石，全隊攻擊力 2.5 倍及減少 50% 所受傷害，效果持續至受到敵人攻擊',
-                'tag': ['減傷', '增傷', '符石強化', '符石轉水強化']
+                'tag': [['減傷', -1], ['增傷', -1], ['符石強化', -1], ['符石轉水強化', -1]]
             }
         ],
         'team_skill': [
@@ -44801,7 +44801,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '敵方全體點燃，使受影響目標轉為火屬性及每回合以 30 倍自身攻擊力對敵方全體造成火屬性傷害，並持續至死亡；效果持續期間，自身攻擊力 5 倍',
-                'tag': ['直傷', '點燃敵方', '敵方轉屬', '增傷', '界王拳']
+                'tag': [['直傷', -1], ['點燃敵方', -1], ['敵方轉屬', -1], ['增傷', -1], ['界王拳', -1]]
             },
             {
                 'name': '火龍的咆哮',
@@ -45001,7 +45001,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，將心及暗符石轉化為強化符石；所有成員百毒不侵；延長移動符石時間至 15 秒',
-                'tag': ['符石強化', '符石轉暗強化', '符石轉心強化', '延長轉珠時間', '防毒']
+                'tag': [['符石強化', 3], ['符石轉暗強化', 3], ['符石轉心強化', 3], ['防毒', 3], ['延長轉珠時間', 3]]
             }
         ],
         'team_skill': []
@@ -45060,7 +45060,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '將敵方全體轉為暗屬性及防禦力減至 0，效果持續至敵人死亡；效果期間敵人所受到的暗屬性傷害提升 2.5 倍。將心及光符石轉化為暗強化符石；下回合開始時，自身直行的符石轉化為暗強化符石',
-                'tag': ['符石轉暗', '符石轉暗強化', '光轉其他', '心轉其他', '破防', '敵方轉屬', '增傷']
+                'tag': [['符石轉暗', 2], ['符石轉暗強化', 2], '光轉其他', '心轉其他', ['破防', -1], ['敵方轉屬', -1], ['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -45170,7 +45170,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '5 回合內，將光符石轉化為妖族符石；全隊攻擊力 1.5 倍，「FAIRY TAIL 公會成員」(包括 FAIRY TAIL 石抽系列角色、梅比斯、馬卡羅夫、茱比亞及龐沙利利) 的攻擊力則 2.25 倍',
-                'tag': ['增傷', '妖族符石製造']
+                'tag': [['增傷', 5], ['妖族符石製造', 5]]
             }
         ],
         'team_skill': [
@@ -45229,7 +45229,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '消除 1 組 5 粒或以上的符石時，該回合全隊攻擊力提升：消除組數愈多，該回合全隊攻擊力提升愈多，消除 3 組可達至最大 2.6 倍，效果會在進入下一層數 (Wave) 時消失',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -45246,7 +45246,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '自身直行的符石轉化為木獸族強化符石。隊伍中只有獸類成員時：於回合結束時於隨機將 3 粒自身直行的符石轉化為木獸族強化符石，效果持續至沒有消除獸族符石',
-                'tag': ['符石轉木', '符石轉木強化', '獸族符石製造']
+                'tag': [['符石轉木', -1], ['符石轉木強化', -1], ['獸族符石製造', -1]]
             }
         ],
         'team_skill': []
@@ -45348,7 +45348,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 木屬性傷害可克制火及木屬性目標<br>II. 每消除 2 粒木符石<br>⇒ 個人追打木屬性攻擊 1 次，最多 10 次<br>(效果會在關閉此技能或死亡後消失)  <br>此技能可隨時關閉，關閉時：<br>⇒ 當前技能 CD 減少 2<br>⇒ 將所有符石轉化為木強化符石',
-                'tag': ['符石轉木', '符石轉木強化', '水轉其他', '火轉其他', '光轉其他', '暗轉其他', '心轉其他', '自身追打', '木屬追打', '大幅轉版', '固定轉版', '減CD', '屬性剋制改變', '隨時關閉']
+                'tag': [['自身追打', -1], ['木屬追打', -1], ['屬性剋制改變', -1], '隨時關閉', '減CD', '大幅轉版', '固定轉版', '符石轉木', '符石轉木強化', '水轉其他', '火轉其他', '光轉其他', '暗轉其他', '心轉其他']
             }
         ],
         'team_skill': [
@@ -45447,7 +45447,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -45583,7 +45583,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '電擊敵方全體，使受影響目標無法行動，持續 3 回合。效果期間機械族攻擊力 1.5 倍',
-                'tag': ['無法行動', '電擊敵方', '增傷']
+                'tag': [['無法行動', 3], ['電擊敵方', 3], ['增傷', 3]]
             }
         ],
         'team_skill': []
@@ -45710,7 +45710,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -46007,7 +46007,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '3 回合內，首批掉落的 8 粒符石必定為水強化符石；技能持續時若所有機械族成員的行動值達至 100%，自身攻擊力 3 倍',
-                'tag': ['增傷', '界王拳', '強制掉落']
+                'tag': [['增傷', 3], ['界王拳', 3], ['強制掉落', 3]]
             }
         ],
         'team_skill': [
@@ -46159,7 +46159,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '解除機械族成員被封鎖的技能 (此技能無視封鎖技能)。3 回合內，機械族成員的攻擊力及回復力 1.8 倍；發動技能時若所有機械族成員的行動值達至 100%，延長移動符石時間至 15 秒',
-                'tag': ['增傷', '增回', '延長轉珠時間', '解鎖']
+                'tag': ['解鎖', ['增傷', 3], ['增回', 3], ['延長轉珠時間', 3]]
             }
         ],
         'team_skill': [
@@ -46201,7 +46201,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '解除水屬性成員被封鎖的技能 (此技能無視封鎖技能)。敵方全體中毒，每回合將受到施技者攻擊力 10 倍的傷害，此傷害無視防禦力及屬性並持續到死亡',
-                'tag': ['解鎖', '敵方中毒']
+                'tag': ['解鎖', ['敵方中毒', -1]]
             }
         ],
         'team_skill': []
@@ -46276,8 +46276,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '於下回合開始時將場上的符石變回發動技能時的分佈 (包括強化符石 、種族符石)，效果持續 2 回合',
-                'tag': ['大幅轉版']
+                'description': '於下回合開始時將場上的符石變回發動技能時的分佈 (包括強化符石、種族符石)，效果持續 2 回合',
+                'tag': [['大幅轉版', 2]]
             }
         ],
         'team_skill': []
@@ -46294,7 +46294,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '2 回合內，將火、木及暗符石轉化為機械族強化符石；發動技能時若「道德反詰法 ‧ 蘇格拉底」及「乙太紛裂 ‧ 亞里士多德」的行動值達至 100% 時，所有符石轉化為機械族強化符石',
-                'tag': ['機械族符石製造']
+                'tag': [['符石強化', 2], ['機械族符石製造', 2]]
             }
         ],
         'team_skill': [
@@ -46378,7 +46378,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '心符石兼具木符石效果，隊長及戰友攻擊力 1.5 倍，效果持續至沒有達成 6 連擊 (Combo) 或以上',
-                'tag': ['符石兼具木', '增傷', '界王拳']
+                'tag': [['符石兼具木', -1], ['增傷', -1], ['界王拳', -1]]
             }
         ],
         'team_skill': []
@@ -46411,8 +46411,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '隊伍中有 3 個或以上魔族成員時：連擊 (Combo) 時攻擊力提升 30% ；回合結束時，將 3 粒符石轉化為魔族強化符石 (隊伍成員屬性符石優先轉換)，效果持續至沒有消除魔族符石',
-                'tag': ['增傷', '符石強化', '魔族符石製造']
+                'description': '隊伍中有 3 個或以上魔族成員時：連擊 (Combo) 時攻擊力提升 30%；回合結束時，將 3 粒符石轉化為魔族強化符石 (隊伍成員屬性符石優先轉換)，效果持續至沒有消除魔族符石',
+                'tag': [['增傷', -1], ['符石強化', -1], ['魔族符石製造', -1]]
             }
         ],
         'team_skill': []
@@ -46429,7 +46429,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 自身不能發動攻擊<br>II. 火屬性隊長及火屬性戰友<br>⇒ 隨機追打 4 至 8 次<br>效果會在進入下一層數 (Wave) 時消失',
-                'tag': ['限制成員攻擊', '火屬追打']
+                'tag': [['限制成員攻擊', -1], ['火屬追打', -1]]
             }
         ],
         'team_skill': []
@@ -46913,7 +46913,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '2 回合內，可任意移動符石而不會發動消除，水屬性及妖精類攻擊力 2 倍',
-                'tag': ['排珠', '增傷']
+                'tag': [['排珠', 2], ['增傷', 2]]
             }
         ],
         'team_skill': [
@@ -47236,7 +47236,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '隊長及戰友攻擊力 2.5 倍，效果持續至首批消除心符石',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', -1], ['界王拳', -1]]
             }
         ],
         'team_skill': [
@@ -47261,7 +47261,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '發動技能及每回合開始時，將 2 粒符石轉化為木強化符石 (心及水符石優先轉換)；首批消除 2 組或以上木符石時，自身及左旁的木屬性成員攻擊力 2.5 倍。效果會在關閉此技能或死亡後消失',
-                'tag': ['符石轉木', '符石轉木強化', '增傷', '界王拳']
+                'tag': [['符石轉木', -1], ['符石轉木強化', -1], ['增傷', -1], ['界王拳', -1]]
             }
         ],
         'team_skill': []
@@ -47278,7 +47278,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '妖精類攻擊力 1.5 倍；每首批消除 1 組符石時，將產生 1 粒妖族強化符石，最多可產生 8 粒，效果持續至沒有消除種族符石',
-                'tag': ['增傷', '符石強化', '妖族符石製造']
+                'tag': [['增傷', -1], ['符石強化', -1], ['妖族符石製造', -1]]
             }
         ],
         'team_skill': []
@@ -47328,8 +47328,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '2 回合內，自身攻擊力 4 倍，個人追打火屬性攻擊 1 次；效果期間 ，若有擊斃敵人，自身主動技能 CD 減少 1',
-                'tag': ['自身追打', '火屬追打', '增傷', '界王拳', '減CD']
+                'description': '2 回合內，自身攻擊力 4 倍，個人追打火屬性攻擊 1 次；效果期間，若有擊斃敵人，自身主動技能 CD 減少 1',
+                'tag': [['自身追打', 2], ['火屬追打', 2], ['增傷', 2], ['界王拳', 2], ['減CD', 2]]
             }
         ],
         'team_skill': []
@@ -47363,7 +47363,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '隨機將 2 個人類成員直行的符石轉化為水人族強化符石。2 回合內，敵方全體轉為火屬性',
-                'tag': ['符石轉水', '符石轉水強化', '敵方轉屬', '人族符石製造']
+                'tag': ['符石轉水', '符石轉水強化', '人族符石製造', ['敵方轉屬', 2]]
             }
         ],
         'team_skill': []
@@ -47735,7 +47735,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '2 回合內<br>I. 光屬性攻擊力 1.6 倍<br>II. 移動符石時觸碰的首 6 粒符石<br>⇒ 轉化為光人族強化符石',
-                'tag': ['符石轉光', '符石轉光強化', '增傷', '人族符石製造']
+                'tag': [['符石轉光', 2], ['符石轉光強化', 2], ['增傷', 2], ['人族符石製造', 2]]
             }
         ],
         'team_skill': [
@@ -47961,7 +47961,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': 'I. 解除火屬性成員被封鎖的技能 (此技能無視封鎖技能)<br>2 回合內<br>II. 心符石的掉落率降至 0，並將原有機率增加至火符石的掉落機率<br>III. 所有符石兼具 50% 火符石效果',
-                'tag': ['符石兼具火', '解鎖', '禁珠', '改變掉落機率']
+                'tag': ['解鎖', ['符石兼具火', 2], ['禁珠', 2], ['改變掉落機率', 2]]
             }
         ],
         'team_skill': [
@@ -47993,7 +47993,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內<br>I. 發動技能及每回合結束時<br>⇒ 將所有符石轉化為強化符石<br>II. 延長移動符石時間至 12 秒<br>III. 可任意移動符石而不會發動消除',
-                'tag': ['符石強化', '排珠']
+                'tag': [['符石強化', 2], ['排珠', 2]]
             }
         ],
         'team_skill': [
@@ -48167,7 +48167,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'EP',
                 'num': 6,
-                'description': 'I. 引爆下方 3 橫行的符石以掉落強化符石<br>II. 1 回合內， 減少 50% 所受傷害',
+                'description': 'I. 引爆下方 3 橫行的符石以掉落強化符石<br>II. 1 回合內，減少 50% 所受傷害',
                 'tag': ['減傷', '引爆', '橫行引爆']
             },
             {
@@ -48624,7 +48624,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '敵方全體中毒，每回合將受到「施技者攻擊力」15 倍等值的傷害，此傷害無視防禦力及屬性並持續至死亡；效果期間，敵人的防禦力減至 0 及其攻擊力弱化 30%',
-                'tag': ['破防', '敵方減攻', '敵方中毒']
+                'tag': [['破防', -1], ['敵方減攻', -1], ['敵方中毒', -1]]
             }
         ],
         'team_skill': [
@@ -48793,7 +48793,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': 'I. 2 回合內，人類攻擊力 2 倍<br>II. 敵方全體陷入天舞戰陣：受影響目標無法行動、攻擊力及防禦力變為 0，持續 2 回合',
-                'tag': ['破防', '無法行動', '增傷', '敵方減攻']
+                'tag': [['破防', 2], ['無法行動', 2], ['增傷', 2], ['敵方減攻', 2]]
             }
         ],
         'team_skill': [
@@ -48820,11 +48820,11 @@ const monster_data = [
         'star': 6,
         'skill': [
             {
-                'name': '銀河<font style=\'color: #2488DF;\'>星</font><font style=\'color: #555555;\'>爆</font>',
+                'name': '銀河<span style=\'color: #2488DF;\'>星</span><span style=\'color: #555555;\'>爆</span>',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 9,
-                'description': 'I. 連續引爆水、火、木符石 2 次<br>1 回合內<br>II. 自身攻擊力 4 倍　( 攻擊力不可與其他成員共享)<br>III. 敵人所受到的暗屬性傷害提升 2 倍',
+                'description': 'I. 連續引爆水、火、木符石 2 次<br>1 回合內<br>II. 自身攻擊力 4 倍 (攻擊力不可與其他成員共享)<br>III. 敵人所受到的暗屬性傷害提升 2 倍',
                 'tag': ['引爆', '多次引爆', '水符石引爆', '火符石引爆', '木符石引爆', '增傷', '界王拳']
             }
         ],
@@ -49128,7 +49128,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內<br>I. 每消除 1 組符石<br>⇒ 額外計算多 2 連擊 (Ex. Combo)<br>⇒ 最多可額外增加 20 連擊 (Ex. Combo)<br>II. 發動技能時若自身「仙力」達 10 點<br>⓵ 效果則持續 2 回合<br>⓶ 最多可增加 30 個 Ex. Combo<br>III. 若隊長及戰友為「上古諸神」成員<br>⇒ 額外增加 1 回合效果',
-                'tag': ['增加Ex.Combo']
+                'tag': [['增加Ex.Combo', 4]]
             }
         ],
         'team_skill': [
@@ -49367,7 +49367,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '隊伍中有 3 個或以上獸類成員時：<br>I. 發動此技能及回合結束時<br>⇒ 隨機將 3 粒符石轉化為獸族符石<br>II. 每消除 1 粒獸族符石<br>⇒ 減少 5% 所受傷害，最多可減少 30% 傷害<br>消除獸族或神族符石可維持效果',
-                'tag': ['獸族符石製造', '減傷']
+                'tag': [['獸族符石製造', -1], ['減傷', -1]]
             }
         ],
         'team_skill': []
@@ -49518,8 +49518,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '消除人族符石時<br>⇒ 自身攻擊力 1.5 倍<br>⇒ 個人追打水、火、木屬性攻擊 1 次效果持續至沒有消除人族符石',
-                'tag': ['增傷', '界王拳', '水屬追打', '火屬追打', '木屬追打']
+                'description': '消除人族符石時<br>⇒ 自身攻擊力 1.5 倍<br>⇒ 個人追打水、火、木屬性攻擊 1 次<br>效果持續至沒有消除人族符石',
+                'tag': [['增傷', -1], ['界王拳', -1], ['水屬追打', -1], ['火屬追打', -1], ['木屬追打', -1]]
             }
         ],
         'team_skill': [
@@ -49692,7 +49692,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': 'I. 將每直行最底 3 粒符石<br>⇒ 分別轉化為「五屬及心」神族強化符石<br>1 回合內<br>II. 自身以全體神族及「超人」攻擊力的 2 倍發動攻擊 (「超人」以外的神族不能發動攻擊)<br>III. 若隊長及戰友均為「超人ORB」，且隊長有裝備龍刻<br>⇒ 可同時獲得隊伍技能「ORB 聖劍」中以不同屬性符石開始轉珠 (需消除符石) 所觸發的效果',
-                'tag': ['符石轉水', '符石轉水強化', '符石轉火', '符石轉火強化', '符石轉木', '符石轉木強化', '符石轉光', '符石轉光強化', '符石轉暗', '符石轉暗強化', '符石轉心', '符石轉心強化', '固定轉版', '大幅轉版', '神族符石製造', '增傷', '界王拳', '限制成員攻擊', '攻擊力吸收']
+                'tag': ['符石轉水', '符石轉水強化', '符石轉火', '符石轉火強化', '符石轉木', '符石轉木強化', '符石轉光', '符石轉光強化', '符石轉暗', '符石轉暗強化', '符石轉心', '符石轉心強化', '固定轉版', '大幅轉版', '神族符石製造', '增傷', '界王拳', '限制成員攻擊', '我方攻擊力吸收']
             }
         ],
         'team_skill': [
@@ -49752,7 +49752,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '2 回合內<br>I.全隊攻擊力 2 倍<br>II. 每回合敵方所受傷害的 100% 再爆發(不包括無屬性傷害)<br>此傷害無視屬性及防禦力<br>III. 每回合結束時<br>⇒ 引爆最頂 1 橫行的符石<br>⇒ 以掉落強化符石',
-                'tag': ['增傷', '引爆', '橫行引爆']
+                'tag': [['增傷', 2], ['引爆', 2], ['橫行引爆', 2]]
             }
         ],
         'team_skill': []
@@ -49820,7 +49820,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': 'I. 引爆場上所有凍結符石、電擊符石、自身屬性符石、心符石<br>⇒ 以掉落自身屬性神族符石<br>II. 2 回合內，敵方全體的防禦力減至 0',
-                'tag': ['引爆', '水符石引爆', '心符石引爆', '凍結符石處理', '電擊符石處理', '神族符石製造', '強制掉落', '破防']
+                'tag': ['引爆', '水符石引爆', '心符石引爆', '凍結符石處理', '電擊符石處理', '神族符石製造', '強制掉落', ['破防', 2]]
             }
         ],
         'team_skill': [
@@ -49871,7 +49871,7 @@ const monster_data = [
                 'num': 8,
                 'transform': 2158,
                 'description': 'I. 變身<br>II. 1 回合內全隊攻擊力及回復力 2 倍<br>隊伍中每多 1 個「超人」<br>⇒ 額外增加 1 回合效果<br>⇒ 最多可持續 6 回合',
-                'tag': ['變身', '增傷', '增回']
+                'tag': ['變身', ['增傷', 6], ['增回', 6]]
             }
         ],
         'team_skill': [
@@ -50069,7 +50069,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': 'I. 3 回合內，石化敵方全體<br>使受影響目標無法行動<br>II. 效果期間，自身攻擊力 5 倍',
-                'tag': ['無法行動', '石化敵方', '增傷', '界王拳']
+                'tag': [['無法行動', 3], ['石化敵方', 3], ['增傷', 3], ['界王拳', 3]]
             }
         ],
         'team_skill': []
@@ -50120,7 +50120,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內<br>I. 凍結敵方全體<br>II. 使受影響目標無法行動並轉為火屬性',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 2], ['凍結敵方', 2], ['敵方轉屬', 2]]
             }
         ],
         'team_skill': []
@@ -50230,7 +50230,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '3 回合內<br>I. 將光符石轉化為機械族符石<br>II. 若移動符石前場上有電擊符石<br>⇒ 該回合自身攻擊力 4 倍',
-                'tag': ['機械族符石製造', '增傷', '界王拳']
+                'tag': [['機械族符石製造', 3], ['增傷', 3], ['界王拳', 3]]
             }
         ],
         'team_skill': []
@@ -50247,7 +50247,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '消除符石的種類愈多，火屬性攻擊力愈高<br>⇒ 消除 2 種 1.5 倍<br>⇒ 消除 4 種可達至最大 2 倍<br>效果持續至首批消除心符石',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -50298,7 +50298,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': 'I. 神族攻擊力及回復力 1.6 倍<br>II. 每回合開始時，將光及暗符石<br>⇒ 轉化為神族強化符石 (效果會在關閉此技能或死亡後消失)<br>技能關閉時<br>III. 消除所有附加效果<br>⇒ 每消除 1 個效果<br>⇒ 神族成員的技能 CD 減少 2<br>IV. 引爆場上所有符石',
-                'tag': ['增傷', '增回', '符石強化', '符石轉光強化', '符石轉暗強化', '神族符石製造', '附加消除', '減CD', '引爆', '整版引爆']
+                'tag': [['增傷', -1], ['增回', -1], ['符石強化', -1], ['符石轉光強化', -1], ['符石轉暗強化', -1], ['神族符石製造', -1], '附加消除', '減CD', '引爆', '整版引爆']
             }
         ],
         'team_skill': [
@@ -50348,7 +50348,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 點選元素法陣上的 1 粒符石<br>⇒ 將該種符石轉化為自身屬性符石<br>2 回合內<br>II. 於回合結束時將 5 粒符石<br>(自身屬性及心以外符石優先轉換)<br>⇒ 轉化為自身屬性符石<br>III. 自身屬性符石兼具 50% 心符石效果',
-                'tag': ['符石轉光', '指定符石轉其他', '符石兼具心']
+                'tag': [['符石轉光', 2], '指定符石轉其他', ['符石兼具心', 2]]
             }
         ],
         'team_skill': [
@@ -50397,7 +50397,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '個人追打攻擊力 3 倍的攻擊 1 次<br>⇒ 下回合額外增加 1 次追打<br>⇒ 5 回合可增加最多 5 次追打<br>效果持續至沒有消除 1 組 ≥6 粒心符石',
-                'tag': ['增傷', '界王拳', '光屬追打', '自身追打']
+                'tag': [['增傷', -1], ['界王拳', -1], ['光屬追打', -1], ['自身追打', -1]]
             }
         ],
         'team_skill': []
@@ -50519,8 +50519,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '3 回合內<br>I. 敵方全體的防禦力減至 0<br>III. 將移動符石時觸碰的首 5 粒符石<br>⇒ 轉化為神族強化符石',
-                'tag': ['破防', '增傷', '符石強化', '神族符石製造']
+                'description': '3 回合內<br>I. 敵方全體的防禦力減至 0<br>II. 全隊攻擊力 1.5 倍<br>III. 將移動符石時觸碰的首 5 粒符石<br>⇒ 轉化為神族強化符石',
+                'tag': [['破防', 3], ['增傷', 3], ['符石強化', 3], ['神族符石製造', 3]]
             },
             {
                 'name': '破石成金',
@@ -50678,7 +50678,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 引爆木符石以掉落<br>⇒ 木以外的機械族強化符石<br>II. 1 回合內，所有屬性符石兼具 50% 其他屬性符石效果<br>III. 若發動技能時自身行動值達至 100%<br>⇒ 兼具效果持續 2 回合',
-                'tag': ['引爆', '木符石引爆', '強制掉落', '機械族符石製造', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗']
+                'tag': ['引爆', '木符石引爆', '強制掉落', '機械族符石製造', ['符石兼具水', 2], ['符石兼具火', 2], ['符石兼具木', 2], ['符石兼具光', 2], ['符石兼具暗', 2]]
             }
         ],
         'team_skill': [
@@ -50948,7 +50948,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 引爆所有凍結符石<br>II. 自身攻擊力減至 1<br>III. 連擊 (Combo) 時攻擊力提升 39%<br>效果持續至沒有達成 ≥4 連擊 (Combo)',
-                'tag': ['引爆', '我方減攻', '凍結符石處理', '增傷']
+                'tag': ['引爆', '凍結符石處理', ['我方減攻', -1], ['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -51012,7 +51012,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '發動技能及每回合開始時<br>I. 將隊伍成員屬性的符石<br>⇒ 轉化為強化符石<br>II. 並將隊長及戰友直行的符石<br>⇒ 轉化為 4 粒木符石及 1 粒心符石<br>效果會在進入下一層數 (Wave) 時消失',
-                'tag': ['符石強化', '符石轉木', '符石轉木強化', '符石轉心', '固定轉版']
+                'tag': [['符石強化', -1], ['符石轉木', -1], ['符石轉木強化', -1], ['符石轉心', -1], ['固定轉版', -1]]
             }
         ],
         'team_skill': [
@@ -51044,7 +51044,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 發動技能及每回合開始時<br>⇒ 隨機將 5 粒暗以外的符石<br>⇒ 轉化為暗機械族符石<br>II.每回合機械族成員的傷害持續提升<br>⇒ 最大 2.4 倍<br>每累計消除 15 粒符石<br>⇒ 機械族傷害加快提升<br>效果持續至沒有消除 1 組 ≥5 粒暗符石',
-                'tag': ['符石轉暗', '機械族符石製造', '增傷']
+                'tag': [['符石轉暗', -1], ['機械族符石製造', -1], ['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -51076,7 +51076,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方', '敵方轉屬']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -51210,7 +51210,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '點選元素法陣上的 1 粒符石<br>I. 將該種屬性符石轉化為龍族強化符石<br>II. 並將敵方全體轉為該屬性，持續 5 回合<br>III. 1 回合內<br>自身攻擊力 5 倍',
-                'tag': ['符石強化', '龍族符石製造', '敵方轉屬', '增傷', '界王拳']
+                'tag': ['符石強化', '龍族符石製造', ['敵方轉屬', 5], '增傷', '界王拳']
             },
             {
                 'name': '變身',
@@ -51244,7 +51244,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 5,
                 'description': '點選元素法陣上的 1 粒符石<br>I. 將該種屬性符石轉化為龍族強化符石<br>II. 並將敵方全體轉為該屬性，持續 5 回合<br>III. 1 回合內<br>自身攻擊力 5 倍',
-                'tag': ['符石強化', '龍族符石製造', '敵方轉屬', '增傷', '界王拳']
+                'tag': ['符石強化', '龍族符石製造', ['敵方轉屬', 5], '增傷', '界王拳']
             },
             {
                 'name': '原璧之固',
@@ -51252,7 +51252,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 6,
                 'description': '3 回合內<br>I. 心符石的掉落率降至 0<br>並將原有機率增加至<br>⇒ 其他符石的掉落機率<br>II. 隊伍不受中毒技能影響<br>III. 木屬性及龍類攻擊力 2 倍',
-                'tag': ['禁珠', '改變掉落機率', '防毒', '增傷']
+                'tag': [['禁珠', 3], ['改變掉落機率', 3], ['防毒', 3], ['增傷', 3]]
             }
         ],
         'team_skill': [
@@ -51277,7 +51277,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '消除符石的屬性愈多<br>⇒ 該回合自身攻擊力愈高<br>⇒ 消除 5 種屬性符石可提升至最大 6 倍<br>效果持續至沒有消除 ≥3 種屬性符石',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', -1], ['界王拳', -1]]
             }
         ],
         'team_skill': []
@@ -51370,7 +51370,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內<br>I. 敵方所受傷害的 30%<br>⇒ 轉化為我方生命力<br>II. 若回合結束時隊伍回復為 0 時<br>⇒ 該回合不會扣減技能持續回合',
-                'tag': ['我方傷害吸收']
+                'tag': [['我方傷害吸收', 3]]
             }
         ],
         'team_skill': [
@@ -51410,7 +51410,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內，所有屬性符石兼具心符石效果',
-                'tag': ['符石兼具心']
+                'tag': [['符石兼具心', 2]]
             }
         ],
         'team_skill': []
@@ -51444,7 +51444,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': 'I. 敵方全體點燃，持續 3 回合：<br>⇒ 效果期間，敵方全體的防禦力減至 0<br>II. 1 回合內<br>妖精類攻擊力 1.6 倍，<br>剩餘的移動符石時間愈多<br>⇒ 妖精類攻擊力愈高<br>⇒ 剩餘 4 秒可達至最大 2.6 倍',
-                'tag': ['點燃敵方', '破防', '增傷']
+                'tag': [['點燃敵方', 3], ['破防', 3], '增傷']
             }
         ],
         'team_skill': [
@@ -51535,7 +51535,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '隊長需為妖精類才可發動此技能：<br>每個妖精類成員以自身回復力的 3 倍<br>⇒ 各自加入自身攻擊力<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 引爆所有符石以掉落強化符石<br>⓶ 完全回復生命力',
-                'tag': ['增傷', '引爆', '整版引爆', '回血', '隨時關閉']
+                'tag': [['增傷', -1], '引爆', '整版引爆', '回血', '隨時關閉']
             }
         ],
         'team_skill': [
@@ -51577,7 +51577,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '2 回合內<br>I. 全隊攻擊力 2 倍<br>II. 延長移動符石時間至 20 秒<br>III. 所受傷害減至 0<br>(包括「喋血屠刀」、「一擊必殺」等扣除召喚師指定 % 生命力的敵技所造成的傷害)',
-                'tag': ['增傷', '延長轉珠時間', '減傷']
+                'tag': [['增傷', 2], ['延長轉珠時間', 2], ['減傷', 2]]
             }
         ],
         'team_skill': [
@@ -51696,7 +51696,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 凍結敵方全體，持續 3 回合：<br>⇒ 效果期間，敵方全體的防禦力減至 0<br>II. 將 6 粒「火及心以外」的符石<br>⇒ 轉化為火妖族強化符石<br>1 回合內<br>III. 「移動符石時間完結一刻」場上每有 1 粒心符石<br>⇒ 個人追打 1 次<br>⇒ 最多追打 6 次',
-                'tag': ['凍結敵方', '破防', '符石轉火', '符石轉火強化', '妖族符石製造', '火屬追打', '自身追打']
+                'tag': [['凍結敵方', 3], ['破防', 3], '符石轉火', '符石轉火強化', '妖族符石製造', '火屬追打', '自身追打']
             }
         ],
         'team_skill': [
@@ -51738,7 +51738,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內<br>I. 妖精類攻擊力及回復力 1.5 倍<br>II. 將移動符石時觸碰的首 6 粒符石<br>⇒ 轉化為心妖族強化符石<br>III. 若發動技能時我方生命力為 1<br>⇒ 效果持續 2 回合',
-                'tag': ['增傷', '增回', '符石轉心', '符石轉心強化', '妖族符石製造']
+                'tag': [['增傷', 2], ['增回', 2], ['符石轉心', 2], ['符石轉心強化', 2], ['妖族符石製造', 2]]
             }
         ],
         'team_skill': [
@@ -51966,7 +51966,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '4 回合內<br>I. 妖精類攻擊力 1.6 倍<br>II. 減少 40% 所受傷害<br>III. 若受到敵人攻擊<br>⇒ 該回合自身技能 CD 減少 1',
-                'tag': ['增傷', '減傷', '減CD']
+                'tag': [['增傷', 4], ['減傷', 4], ['減CD', 4]]
             }
         ],
         'team_skill': []
@@ -52000,7 +52000,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 電擊敵方全體，持續 3 回合<br>1 回合內<br>II. 觸碰電擊符石時仍可移動符石<br>III. 自身攻擊力 3 倍',
-                'tag': ['電擊敵方', '電擊符石處理', '增傷', '界王拳']
+                'tag': [['電擊敵方', 3], '電擊符石處理', '增傷', '界王拳']
             }
         ],
         'team_skill': []
@@ -52016,8 +52016,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': 'I. 全隊攻擊力 1.5 倍<br>II. 自身屬性符石掉落機率提升<br>III.每回合開始時，將自身屬性符石轉化為強化符石<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 引爆自身及身旁神族成員直行的符石<br>⇒ 掉落強化符石<br>⓶ 該回合神族攻擊力及回復力 2 倍<br>⓷「冥魂判守 ‧ 阿努比斯」的技能 CD 減少 2',
-                'tag': ['增傷', '改變掉落機率', '符石強化', '符石轉暗強化', '減CD', '增回', '引爆', '直行引爆', '隨時關閉']
+                'description': 'I. 全隊攻擊力 1.5 倍<br>II. 自身屬性符石掉落機率提升<br>III. 每回合開始時，將自身屬性符石轉化為強化符石<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 引爆自身及身旁神族成員直行的符石<br>⇒ 掉落強化符石<br>⓶ 該回合神族攻擊力及回復力 2 倍<br>⓷「冥魂判守 ‧ 阿努比斯」的技能 CD 減少 2',
+                'tag': [['增傷', -1], ['改變掉落機率', -1], ['符石強化', -1], ['符石轉暗強化', -1], '減CD', '增回', '引爆', '直行引爆', '隨時關閉']
             }
         ],
         'team_skill': [
@@ -52066,7 +52066,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '3 回合內<br>I. 自身攻擊力 1.5 倍<br>II. 發動技能及每回合結束時<br>⇒ 將水符石轉化為水強化符石<br>III. 心符石的掉落率降至 0<br>IV. 將原有機率增加至<br>⇒ 水符石的掉落率',
-                'tag': ['增傷', '界王拳', '符石強化', '符石轉水強化', '禁珠', '改變掉落機率']
+                'tag': [['增傷', 3], ['界王拳', 3], ['符石強化', 3], ['符石轉水強化', 3], ['禁珠', 3], ['改變掉落機率', 3]]
             }
         ],
         'team_skill': []
@@ -52117,7 +52117,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 電擊敵方全體，持續 3 回合<br>II. 將所有符石<br>⇒ 轉化為龍族符石<br>1 回合內<br>III. 首批全部消除場上其中 1 種符石<br>⇒ 回合結束時，所有符石轉化為龍族符石',
-                'tag': ['電擊敵方', '龍族符石製造']
+                'tag': [['電擊敵方', 3], '龍族符石製造']
             }
         ],
         'team_skill': []
@@ -52377,7 +52377,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': 'I. 將光及暗符石<br>⇒ 轉化為心強化符石<br>II. 將「驍銳武聖 ‧ 關羽」及「革導皇命 ‧ 劉備」直行的符石<br>⇒ 轉化為人族強化符石<br>2 回合內<br>III. 減少 60% 所受傷害',
-                'tag': ['符石轉心', '符石轉心強化', '光轉其他', '暗轉其他', '符石強化', '人族符石製造', '減傷']
+                'tag': ['符石轉心', '符石轉心強化', '光轉其他', '暗轉其他', '符石強化', '人族符石製造', ['減傷', 2]]
             }
         ],
         'team_skill': [
@@ -52501,7 +52501,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '每首批消除 1 粒木符石<br>⇒ 減少 6.25% 所受傷害<br>⇒ 消除 16 粒可減少最多 100% 所受傷害<br>效果持續至沒有首批消除木符石<br>(效果持續期間技能不會冷卻)',
-                'tag': ['減傷']
+                'tag': [['減傷', -1]]
             }
         ],
         'team_skill': [
@@ -52533,7 +52533,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '光屬性人類成員攻擊力減至 0<br>⇒ 被減去攻擊力的 1.5 倍加入自身攻擊力<br>(效果會在再次發動此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時，<br>⓵ 隨機將 6 粒符石 (光以外符石優先轉換)<br>⇒ 轉化為光人族強化符石<br>⓶ 當前技能 CD 減少 2',
-                'tag': ['我方減攻', '增傷', '界王拳', '攻擊力吸收', '隨時關閉', '符石轉光', '符石轉光強化', '人族符石製造', '減CD']
+                'tag': [['我方減攻', -1], ['增傷', -1], ['界王拳', -1], ['我方攻擊力吸收', -1], '隨時關閉', '符石轉光', '符石轉光強化', '人族符石製造', '減CD']
             }
         ],
         'team_skill': [
@@ -52572,7 +52572,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 全隊回復力減少 25%<br>II. 光屬性攻擊力 1.5 倍<br>III. 隊伍中只有人類成員時<br>⇒ 光屬性攻擊力額外 1.6 倍<br>效果會在關閉此技能或死亡後消失<br><br>此技能可隨時關閉，關閉時：<br>⇒ 光屬性成員技能 CD 減少 1',
-                'tag': ['我方減回', '增傷', '隨時關閉', '減CD']
+                'tag': [['我方減回', -1], ['增傷', -1], '隨時關閉', '減CD']
             }
         ],
         'team_skill': [
@@ -52894,7 +52894,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 自身攻擊力 3 倍<br>II. 人類及魔族成員<br>⇒ 以 50% 自身攻擊力追打 1 次<br>III. 每當敵人發動攻擊<br>⇒ 下回合人類及魔族成員額外追打 1 次<br>效果持續至首批消除 6 種符石',
-                'tag': ['增傷', '界王拳', '暗屬追打']
+                'tag': [['增傷', -1], ['界王拳', -1], ['暗屬追打', -1]]
             }
         ],
         'team_skill': [
@@ -53096,7 +53096,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 3,
                 'description': '發動此技能及下回合開始時，將 10 粒「水及光以外」的符石<br>⇒ 轉化為「水、光」人族強化符石各 5 粒',
-                'tag': ['符石轉水', '符石轉水強化', '符石轉光', '符石轉光強化', '人族符石製造']
+                'tag': [['符石轉水', 2], ['符石轉水強化', 2], ['符石轉光', 2], ['符石轉光強化', 2], ['人族符石製造', 2]]
             }
         ],
         'team_skill': [
@@ -53186,7 +53186,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I.發動技能首回合時<br>⇒ 完全回復生命力<br>II. 每回合隨機鎖定 2 個位置<br><br>⓵ 移動符石時經過 1 個鎖定位置：<br>⇒ 該回合全隊攻擊力 1.5 倍<br>⇒ 自身攻擊力額外 1.5 倍<br><br>⓶ 移動符石時經過 2 個鎖定位置：<br>⇒ 則該回合全隊攻擊力 2.5 倍<br>⇒ 自身攻擊力額外 2.5 倍<br><br>經過鎖定位置可持續技能效果',
-                'tag': ['回血', '增傷', '界王拳']
+                'tag': ['回血', ['增傷', -1], ['界王拳', -1]]
             }
         ],
         'team_skill': [
@@ -53407,7 +53407,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 9,
                 'description': '2 回合內，敵方互相或自我以攻擊力 10 倍進行 1 次攻擊',
-                'tag': ['魅惑敵方']
+                'tag': [['魅惑敵方', 2]]
             }
         ],
         'team_skill': [
@@ -53549,7 +53549,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 9,
                 'description': '2 回合內<br>I. 束縛敵方全體<br>⇒ 使受影響目標無法行動<br>II. 敵人受到的傷害 1.5 倍<br>III. 觸碰電擊符石時仍可移動符石',
-                'tag': ['無法行動', '增傷', '電擊符石處理']
+                'tag': [['無法行動', 2], ['增傷', 2], ['電擊符石處理', 2]]
             },
             {
                 'name': '火紅眼 ‧ 目標鎖定',
@@ -53870,7 +53870,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 無視「黏腐」敵技<br>II. 每次觸碰「黏腐」位置<br>⇒ 回復 5% 生命力 (不會溢補)<br>III. 每個成員追打 1 次<br>上述效果會在進入下一層數 (Wave) 時消失<br><br>IV. 解除「風化符石」狀態<br>V. 將所有符石轉化為強化符石<br>VI.「卿雲護庇 ‧ 蒼璧」以外龍類、神族、獸類 CD 減少 1',
-                'tag': ['無視黏腐', '回血', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打', '全隊追打', '風化符石處理', '符石強化', '減CD']
+                'tag': [['無視黏腐', -1], ['回血', -1], ['水屬追打', -1], ['全隊追打', -1], '風化符石處理', '符石強化', '減CD']
             },
             {
                 'name': '變身',
@@ -53904,7 +53904,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 火屬性傷害可克制水屬性目標<br>II. 消除種族符石時<br>⇒ 個人追打火及木屬性攻擊 1 次<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 引爆神族成員直行符石<br>⇒ 掉落神族強化符石',
-                'tag': ['屬性剋制改變', '火屬追打', '木屬追打', '自身追打', '引爆', '直行引爆', '神族符石製造', '隨時關閉']
+                'tag': [['屬性剋制改變', -1], ['火屬追打', -1], ['木屬追打', -1], ['自身追打', -1], '引爆', '直行引爆', '神族符石製造', '隨時關閉']
             }
         ],
         'team_skill': [
@@ -53995,7 +53995,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '發動技能時生命力需為 50% 或以上：<br>I. 隨機 3 個龍類成員直行的符石<br>⇒ 轉化為龍族符石<br>II. 全隊回復力減至 0<br>III. 龍類攻擊力 2 倍<br>效果持續至我方生命力為 50% 以下',
-                'tag': ['龍族符石製造', '我方減回', '增傷']
+                'tag': [['龍族符石製造', -1], ['我方減回', -1], ['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -54088,7 +54088,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 個人追打 2 次<br>II. 減少 60% 所受傷害<br>效果持續至沒有消除神族符石<br><br>III. 若隊長為「上古諸神」系列角色<br>⇒ 可迴避敵人攻擊一次',
-                'tag': ['光屬追打', '自身追打', '減傷', '迴避']
+                'tag': [['光屬追打', -1], ['自身追打', -1], ['減傷', -1], '迴避']
             }
         ],
         'team_skill': []
@@ -54173,7 +54173,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': 'I. 隨機將 3 個神族成員直行的符石<br>⇒ 轉化為神族符石<br><br>1 回合內<br>II. 每消除 1 粒神族符石<br>⇒ 回復 2000 點生命力<br>⇒ 消除 30 粒可回復最多 60,000 點<br><br>III. 首批消除神族符石時<br>⇒ 效果 II 持續 2 回合',
-                'tag': ['神族符石製造', '回血']
+                'tag': ['神族符石製造', ['回血', 2]]
             }
         ],
         'team_skill': [
@@ -54215,7 +54215,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內<br>I. 妖精攻擊力及回復力 1.6 倍<br>II. 將移動符石所觸碰的符石<br>⇒ 轉化為妖族符石<br>III. 若發動技能時隊伍中所有成員的回復力基值相同<br>⓵ 則移動符石所觸碰的符石<br>⇒ 轉化為妖族強化符石<br>⓶ I - III 效果持續 3 回合',
-                'tag': ['增傷', '增回', '妖族符石製造', '符石強化']
+                'tag': [['增傷', 3], ['增回', 3], ['妖族符石製造', 3], ['符石強化', 3]]
             }
         ],
         'team_skill': []
@@ -54283,7 +54283,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 16,
                 'description': '凍結敵方全體，使受影響目標無法行動並轉為水屬性，持續 3 回合',
-                'tag': ['無法行動', '凍結敵方']
+                'tag': [['無法行動', 3], ['敵方轉屬', 3], ['凍結敵方', 3]]
             }
         ],
         'team_skill': []
@@ -54444,7 +54444,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 自身及身旁成員攻擊力 2 倍<br>II. 若身旁成員為機械族時<br>⇒ 則自身及該成員攻擊力 3 倍<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 引爆自身及機械族成員直行的符石<br>⇒ 掉落強化符石',
-                'tag': ['增傷', '界王拳', '隨時關閉', '引爆', '直行引爆']
+                'tag': [['增傷', -1], ['界王拳', -1], '隨時關閉', '引爆', '直行引爆']
             }
         ],
         'team_skill': []
@@ -54461,7 +54461,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I.連續引爆最底 2 橫行符石 3 次<br>⇒ 掉落水以外符石<br>⇒ 對敵方全體造成火屬性傷害<br>(此傷害無視「強化突破」敵技)<br><br>2 回合內<br>II. 火屬性攻擊力 1.8 倍<br>III. 水符石的掉落機率降至 0<br>IV. 將原有機率增加至<br>⇒ 火符石的掉落機率',
-                'tag': ['引爆', '橫行引爆', '多次引爆', '強制掉落', '直傷', '增傷', '禁珠', '改變掉落機率']
+                'tag': ['引爆', '橫行引爆', '多次引爆', '強制掉落', '直傷', ['增傷', 2], ['禁珠', 2], ['改變掉落機率', 2]]
             },
             {
                 'name': '合體',
@@ -54479,7 +54479,7 @@ const monster_data = [
         ],
         'team_skill': [
             {
-                'description': 'I. 火符石兼具 50% 心符石效果<br><br>II. 火符石符石掉落率提升至 25%<br><br>III. 首批消除所有火符石時，    於移動並消除符石後<br>⇒ 引爆所有水符石<br><br>IV. 場上有「燃燒」敵技<br>⇒ 隊長攻擊力 3 倍<br>⇒ 燃燒傷害減至 1 (包括煉獄之火)',
+                'description': 'I. 火符石兼具 50% 心符石效果<br><br>II. 火符石符石掉落率提升至 25%<br><br>III. 首批消除所有火符石時，於移動並消除符石後<br>⇒ 引爆所有水符石<br><br>IV. 場上有「燃燒」敵技<br>⇒ 隊長攻擊力 3 倍<br>⇒ 燃燒傷害減至 1 (包括煉獄之火)',
                 'activate': '以「羅伊 ‧ 馬斯坦古」作隊長，並以「羅伊 ‧ 馬斯坦古」或「羅伊與莉莎」作戰友',
                 'skill_tag': ['火兼具其他', '符石兼具心', '符石掉落率提升', '引爆', '增攻', '無視燃燒'],
                 'activate_tag': ['指定隊長戰友'],
@@ -54798,7 +54798,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I.連續引爆最底 2 橫行符石 3 次<br>⇒ 掉落水以外的強化符石<br>⇒ 對敵方全體造成火屬性傷害<br>(此傷害無視「強化突破」敵技)<br><br>2 回合內<br>II. 火屬性攻擊力 2 倍<br>III. 水符石的掉落機率降至 0<br>IV. 將原有機率增加至<br>⇒ 火符石的掉落機率<br>V. 掉落的火符石<br>⇒ 以火強化符石代替',
-                'tag': ['引爆', '橫行引爆', '多次引爆', '強制掉落', '直傷', '增傷', '禁珠', '改變掉落機率']
+                'tag': ['引爆', '橫行引爆', '多次引爆', '強制掉落', '直傷', ['增傷', 2], ['禁珠', 2], ['改變掉落機率', 2]]
             },
             {
                 'name': '鷹之眼 ‧ 銳',
@@ -54811,7 +54811,7 @@ const monster_data = [
         ],
         'team_skill': [
             {
-                'description': 'I. 火符石兼具 50% 心符石效果<br><br>II. 火符石符石掉落率提升至 25%<br><br>III. 首批消除所有火符石時，    於移動並消除符石後<br>⇒ 引爆所有水符石<br><br>IV. 場上有「燃燒」敵技<br>⇒ 隊長攻擊力 3 倍<br>⇒ 燃燒傷害減至 1 (包括煉獄之火)',
+                'description': 'I. 火符石兼具 50% 心符石效果<br><br>II. 火符石符石掉落率提升至 25%<br><br>III. 首批消除所有火符石時，於移動並消除符石後<br>⇒ 引爆所有水符石<br><br>IV. 場上有「燃燒」敵技<br>⇒ 隊長攻擊力 3 倍<br>⇒ 燃燒傷害減至 1 (包括煉獄之火)',
                 'activate': '以「羅伊 ‧ 馬斯坦古」作隊長，並以「羅伊 ‧ 馬斯坦古」或「羅伊與莉莎」作戰友',
                 'skill_tag': ['火兼具其他', '符石兼具心', '符石掉落率提升', '引爆', '無視燃燒'],
                 'activate_tag': ['指定隊長戰友'],
@@ -54845,7 +54845,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '點選元素法陣上的 1 粒符石<br>I. 引爆所有符石<br>⇒ 掉落該種符石以外的符石<br>2 回合內<br>II. 該種符石掉落率減至 0<br>III. 自身攻擊力 2.5 倍',
-                'tag': ['引爆', '整版引爆', '強制掉落', '禁珠', '改變掉落機率', '增傷', '界王拳']
+                'tag': ['引爆', '整版引爆', '強制掉落', ['禁珠', 2], ['改變掉落機率', 2], ['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -54862,7 +54862,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 自身攻擊力 2.5 倍<br>II. 自身攻擊無視敵人的防禦力<br>III. 消除 9 個固定位置內的所有符石時<br>⓵ 全隊攻擊力 1.5 倍<br>⓶ 於回合結束時將固定位置的符石<br>⇒ 轉化為強化符石<br><br>首批消除固定位置內的任何符石<br>可維持上述效果',
-                'tag': ['增傷', '界王拳', '破防', '符石強化']
+                'tag': [['增傷', -1], ['界王拳', -1], ['破防', -1], ['符石強化', -1]]
             }
         ],
         'team_skill': []
@@ -54963,7 +54963,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': 'I. 將光符石轉化為暗強化符石<br>1 回合內<br>II. 減少 40% 所受傷害<br>III. 其他符石兼具 50% 暗符石效果<br>IV. 隊伍中每多 1 個暗屬性成員<br>⇒ 額外增加 1 回合效果<br>⇒ 最多可持續 6 回合',
-                'tag': ['符石轉暗', '符石轉暗強化', '光轉其他', '減傷', '符石兼具暗']
+                'tag': ['符石轉暗', '符石轉暗強化', '光轉其他', ['減傷', 6], ['符石兼具暗', 6]]
             }
         ],
         'team_skill': []
@@ -54980,7 +54980,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 3 回合內，隊伍不會被封鎖主動技能<br>II. 以 20 倍自身攻擊力進行木屬性攻擊 5 次<br>III. 將 10 個固定位置的符石<br>⇒ 轉化為木強化符石',
-                'tag': ['防鎖', '直傷', '符石轉木', '符石轉木強化', '固定轉版']
+                'tag': [['防鎖', 3], '直傷', '符石轉木', '符石轉木強化', '固定轉版']
             }
         ],
         'team_skill': []
@@ -55082,7 +55082,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': 'I. 完全回復生命力<br>II. 若隊伍中只有人類及機械族：<br>下回合開始時<br>⓵ 機械族成員的行動值提升至 100%<br>⓶ 完全回復生命力',
-                'tag': ['回血', '行動值提升']
+                'tag': [['回血', 2], '行動值提升']
             }
         ],
         'team_skill': []
@@ -55276,7 +55276,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': 'I. 將黑白符石變為原來色調<br>2 回合內<br>II. 隊伍不受中毒技能影響<br>III. 將移動符石時首 5 粒觸碰的符石<br>⇒ 轉化為強化符石',
-                'tag': ['黑白還原', '防毒', '符石強化']
+                'tag': ['黑白還原', ['防毒', 2], ['符石強化', 2]]
             }
         ],
         'team_skill': []
@@ -55463,7 +55463,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 6,
                 'description': 'I. 無視「黏腐」敵技<br>II. 每次觸碰「黏腐」位置<br>⇒ 回復 5% 生命力 (不會溢補)<br>III. 每個成員追打 1 次<br>上述效果會在進入下一層數 (Wave) 時消失<br><br>IV. 解除「風化符石」狀態<br>V. 將所有符石轉化為強化符石<br>VI.「卿雲護庇 ‧ 蒼璧」以外龍類、神族、獸類 CD 減少 2',
-                'tag': ['無視黏腐', '回血', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打', '全隊追打', '風化符石處理', '符石強化', '減CD']
+                'tag': [['無視黏腐', -1], ['回血', -1], ['水屬追打', -1], ['全隊追打', -1], '風化符石處理', '符石強化', '減CD']
             },
             {
                 'name': '碧穹殺機',
@@ -55707,7 +55707,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 完全回復生命力<br>1 回合內<br>II. 人類攻擊力 1.6 倍<br>III. 連擊 (Combo) 數目增加 3<br>IV. 隊中每多 1 個 「代偶規條」成員<br>⇒ 額外增加 1 回合效果<br>⇒ 最多可持續 5 回合',
-                'tag': ['回血', '增傷', '增加Combo']
+                'tag': ['回血', ['增傷', 5], ['增加Combo', 5]]
             }
         ],
         'team_skill': []
@@ -55724,7 +55724,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 自身生命力扣至 1<br>(生命力為 1 時無法發動技能)<br>II. 將隊中「編號 1125 ‧ 沙迪」的技能重置<br><br>III. 暈擊敵方全體<br>IV. 使受影響目標無法行動 3 回合<br>效果會因受到「代偶規條」以外成員的攻擊而消失',
-                'tag': ['我方扣血', '暈擊敵方', '無法行動']
+                'tag': ['我方扣血', ['暈擊敵方', 3], ['無法行動', 3]]
             }
         ],
         'team_skill': []
@@ -55740,7 +55740,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 隨機將 3 個人類成員直行最頂 3 粒符石<br>⇒ 轉化為該直行成員屬性強化符石<br>II. 隨機將 3 個機械族成員直行最頂 3 粒符石<br>⇒ 轉化為心強化符石<br>III. 若我方生命力為 1<br>⇒ 則 I,II 效果改為轉化<br>整個直行 5 粒符石',
+                'description': 'I. 隨機將 3 個人類成員直行最頂 3 粒符石<br>⇒ 轉化為該直行成員屬性強化符石<br>II. 隨機將 3 個機械族成員直行最頂 3 粒符石<br>⇒ 轉化為心強化符石<br>III. 若我方生命力為 1<br>⇒ 則 I,II 效果改為轉化整個直行 5 粒符石',
                 'tag': ['符石轉暗', '符石轉心', '符石轉暗強化', '符石轉心強化']
             }
         ],
@@ -55758,7 +55758,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '2 回合內<br>I. 自身攻擊力 3 倍<br>II. 若有擊斃敵人<br>⇒ 該回合不會扣減技能持續回合<br>III. 若隊中所有成員回復力基值相同時<br>⇒ 身旁的妖精類成員攻擊力 3 倍',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -55817,7 +55817,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': 'I. 電擊敵方全體，持續 3 回合<br>II. 將每直行最頂 3 粒符石分別轉化為「心、暗、光、木、火、水」強化符石<br>1 回合內<br>III. 將移動符石時觸碰的首 10 粒符石<br>⇒ 轉化為神族強化符石',
-                'tag': ['電擊敵方', '符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '符石轉心強化', '大幅轉版', '固定轉版', '符石強化', '神族符石製造']
+                'tag': [['電擊敵方', 3], '符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '符石轉心強化', '大幅轉版', '固定轉版', '符石強化', '神族符石製造']
             }
         ],
         'team_skill': []
@@ -55902,7 +55902,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 自身屬性符石由左下方開始向右排列<br>1 回合內<br>II. 全隊回復力 2 倍<br>III. 首批消除所有自身屬性符石<br>⇒ 下回合全隊回復力 2.5 倍',
-                'tag': ['增回']
+                'tag': [['增回', 2]]
             }
         ],
         'team_skill': [
@@ -56003,7 +56003,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內<br>I. 隨機引爆 6 粒符石<br>⇒ 掉落火符石<br>II. 敵方全體點燃，持續 2 回合',
-                'tag': ['引爆', '強制掉落', '點燃敵方']
+                'tag': [['引爆', 2], ['強制掉落', 2], ['點燃敵方', 2]]
             }
         ],
         'team_skill': [
@@ -56274,7 +56274,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '5 回合內<br>發動技能及每回合結束時：<br>隨機將 6 粒符石<br>⇒ 轉化為暗強化符石',
-                'tag': ['符石轉暗', '符石轉暗強化']
+                'tag': [['符石轉暗', 5], ['符石轉暗強化', 5]]
             }, 
         ],
         'team_skill': []
@@ -56291,7 +56291,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': 'I. 發動技能及每回合結束時<br>⓵ 將光符石轉化為火強化符石<br>⓶ 將暗符石轉化為心強化符石<br>II. 隊長攻擊力 3 倍<br>III. 首批消除所有符石時<br>⇒「大紅蓮團」成員 CD 減少 3<br>IV. 於發動攻擊前<br>⇒ 對單一敵人造成 200 萬無屬性傷害<br>(需消除符石、此傷害無視敵人防禦力及「強化突破」敵技)<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 將所有符石轉化為五屬強化符石各 6 粒',
-                'tag': ['符石轉火', '符石轉心', '符石轉火強化', '符石轉心強化', '光轉其他', '暗轉其他', '增傷', '界王拳', '減CD', '直傷', '破防直傷', '隨時關閉', '符石轉水', '符石轉木', '符石轉光', '符石轉暗', '符石轉水強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '大幅轉版']
+                'tag': [['符石轉火', -1], ['符石轉心', -1], ['符石轉火強化', -1], ['符石轉心強化', -1], ['光轉其他', -1], ['暗轉其他', -1], ['增傷', -1], ['界王拳', -1], ['減CD', -1], ['直傷', -1], ['破防直傷', -1], '隨時關閉', '符石轉水', '符石轉木', '符石轉光', '符石轉暗', '符石轉水強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '大幅轉版']
             }, 
             {
                 'name': '天上天下 ‧ 一機當神 ‧ 超銀河紅蓮螺巖！',
@@ -56421,7 +56421,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '需儲滿龍脈儀才可發動此技能：<br>I. 消耗 100% 龍脈儀能量<br>1 回合內<br>II. 自身攻擊力 10 倍<br>III. 回合結束時<br>⇒ 自身進入 2 回合瀕死狀態',
-                'tag': ['增傷', '界王拳', '限制成員攻擊']
+                'tag': ['增傷', '界王拳', ['限制成員攻擊', 2]]
             }, 
             {
                 'name': '天上天下 ‧ 一機當神 ‧ 超銀河紅蓮螺巖！',
@@ -56492,7 +56492,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內<br>I. 自身攻擊<br>⇒ 對水屬性目標額外 6 倍<br>II. 隊伍中只有 2 種屬性及只有機械族成員時<br>⇒ 效果持續 2 回合',
-                'tag': ['增傷', '界王拳']
+                'tag': [['增傷', 2], ['界王拳', 2]]
             }
         ],
         'team_skill': []
@@ -56606,7 +56606,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': 'I. 機械族成員行動值提升 20%<br>2 回合內<br>II. 機械族及魔族成員<br>⇒ 追打 1 次<br>III. 若隊中有「絕對滅亡大魔神」<br>⇒ 機械族及魔族攻擊力 2 倍',
-                'tag': ['行動值提升', '暗屬追打', '增傷']
+                'tag': ['行動值提升', ['暗屬追打', 2], ['增傷', 2]]
             }
         ],
         'team_skill': [
@@ -56807,7 +56807,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 3,
                 'description': '2 回合內<br>I. 每消除 1 組符石<br>⇒ 額外增加 1 連擊 (Combo)<br>1 回合內<br>II. 以螺旋牽制敵方全體<br>IV. 使受影響目標無法行動<br>V. 敵人受到的傷害 2.5 倍',
-                'tag': ['增加Combo', '無法行動', '增傷']
+                'tag': [['增加Combo', 2], '無法行動', '增傷']
             }, 
             {
                 'name': '這就是天元突破！這就是紅蓮螺巖！',
@@ -56940,7 +56940,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 水屬性傷害<br>⓵ 持續提升<br>⓶ 對火屬性目標攻擊力額外 1.5 倍<br>⇒ 直至沒有消除 1 組 ≥5 粒水符石<br>II. 每累計消除 15 粒水符石<br>⇒ 水屬性傷害提升<br>III. 當提升至最高倍率時<br>⇒ 水符石轉化為神族強化符石<br><br>水屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷', '符石轉水強化', '符石強化', '神族符石製造']
+                'tag': [['增傷', -1], ['符石轉水強化', -1], ['符石強化', -1], ['神族符石製造', -1]]
             },
             {
                 'name': '神族符能 ‧ 浪濤靈陣',
@@ -56948,7 +56948,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 點擊元素法陣上的 1 粒符石<br>⇒ 3 回合內，發動技能及每回合結束時<br>⇒ 將 6 粒該種符石轉化為水神族強化符石<br>II. 每消除 1 粒水神族符石<br>⇒ 回復「隊伍總生命力 5%」的生命力',
-                'tag': ['指定符石轉其他', '符石轉水', '符石轉水強化', '符石強化', '神族符石製造', '回血']
+                'tag': [['指定符石轉其他', 3], ['符石轉水', 3], ['符石轉水強化', 3], ['符石強化', 3], ['神族符石製造', 3], ['回血', 3]]
             }
         ],
         'team_skill': [
@@ -56973,7 +56973,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 火屬性傷害<br>⓵ 持續提升<br>⓶ 對木屬性目標攻擊力額外 1.5 倍<br>⇒ 直至沒有消除 1 組 ≥5 粒火符石<br>II. 每累計消除 15 粒火符石<br>⇒ 火屬性傷害提升<br>III. 當提升至最高倍率時<br>⇒ 火符石轉化為神族強化符石<br><br>火屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷', '符石轉火強化', '符石強化', '神族符石製造']
+                'tag': [['增傷', -1], ['符石轉火強化', -1], ['符石強化', -1], ['神族符石製造', -1]]
             },
             {
                 'name': '神族符能 ‧ 熾燄靈陣',
@@ -56981,7 +56981,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 點擊元素法陣上的 1 粒符石<br>⇒ 3 回合內，發動技能及每回合結束時<br>⇒ 將 6 粒該種符石轉化為火神族強化符石<br>II. 每消除 1 粒火神族符石<br>⇒ 回復「隊伍總生命力 5%」的生命力',
-                'tag': ['指定符石轉其他', '符石轉火', '符石轉火強化', '符石強化', '神族符石製造', '回血']
+                'tag': [['指定符石轉其他', 3], ['符石轉火', 3], ['符石轉火強化', 3], ['符石強化', 3], ['神族符石製造', 3], ['回血', 3]]
             }
         ],
         'team_skill': [
@@ -57006,7 +57006,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 木屬性傷害<br>⓵ 持續提升<br>⓶ 對水屬性目標攻擊力額外 1.5 倍<br>⇒ 直至沒有消除 1 組 ≥5 粒木符石<br>II. 每累計消除 15 粒木符石<br>⇒ 木屬性傷害提升<br>III. 當提升至最高倍率時<br>⇒ 木符石轉化為神族強化符石<br><br>木屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷', '符石轉木強化', '符石強化', '神族符石製造']
+                'tag': [['增傷', -1], ['符石轉木強化', -1], ['符石強化', -1], ['神族符石製造', -1]]
             },
             {
                 'name': '神族符能 ‧ 藤木靈陣',
@@ -57014,7 +57014,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 點擊元素法陣上的 1 粒符石<br>⇒ 3 回合內，發動技能及每回合結束時<br>⇒ 將 6 粒該種符石轉化為木神族強化符石<br>II. 每消除 1 粒木神族符石<br>⇒ 回復「隊伍總生命力 5%」的生命力',
-                'tag': ['指定符石轉其他', '符石轉木', '符石轉木強化', '符石強化', '神族符石製造', '回血']
+                'tag': [['指定符石轉其他', 3], ['符石轉木', 3], ['符石轉木強化', 3], ['符石強化', 3], ['神族符石製造', 3], ['回血', 3]]
             }
         ],
         'team_skill': [
@@ -57039,7 +57039,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 光屬性傷害<br>⓵ 持續提升<br>⓶ 對暗屬性目標攻擊力額外 1.5 倍<br>⇒ 直至沒有消除 1 組 ≥5 粒光符石<br>II. 每累計消除 15 粒光符石<br>⇒ 光屬性傷害提升<br>III. 當提升至最高倍率時<br>⇒ 光符石轉化為神族強化符石<br><br>光屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷', '符石轉光強化', '符石強化', '神族符石製造']
+                'tag': [['增傷', -1], ['符石轉光強化', -1], ['符石強化', -1], ['神族符石製造', -1]]
             },
             {
                 'name': '神族符能 ‧ 玄光靈陣',
@@ -57047,7 +57047,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 點擊元素法陣上的 1 粒符石<br>⇒ 3 回合內，發動技能及每回合結束時<br>⇒ 將 6 粒該種符石轉化為光神族強化符石<br>II. 每消除 1 粒光神族符石<br>⇒ 回復「隊伍總生命力 5%」的生命力',
-                'tag': ['指定符石轉其他', '符石轉光', '符石轉光強化', '符石強化', '神族符石製造', '回血']
+                'tag': [['指定符石轉其他', 3], ['符石轉光', 3], ['符石轉光強化', 3], ['符石強化', 3], ['神族符石製造', 3], ['回血', 3]]
             }
         ],
         'team_skill': [
@@ -57072,7 +57072,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 暗屬性傷害<br>⓵ 持續提升<br>⓶ 對光屬性目標攻擊力額外 1.5 倍<br>⇒ 直至沒有消除 1 組 ≥5 粒暗符石<br>II. 每累計消除 15 粒暗符石<br>⇒ 暗屬性傷害提升<br>III. 當提升至最高倍率時<br>⇒ 暗符石轉化為神族強化符石<br><br>暗屬性傷害會於每一層數 (Wave) 重置',
-                'tag': ['增傷', '符石轉暗強化', '符石強化', '神族符石製造']
+                'tag': [['增傷', -1], ['符石轉暗強化', -1], ['符石強化', -1], ['神族符石製造', -1]]
             },
             {
                 'name': '神族符能 ‧ 玄冥靈陣',
@@ -57080,7 +57080,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 點擊元素法陣上的 1 粒符石<br>⇒ 3 回合內，發動技能及每回合結束時<br>⇒ 將 6 粒該種符石轉化為暗神族強化符石<br>II. 每消除 1 粒暗神族符石<br>⇒ 回復「隊伍總生命力 5%」的生命力',
-                'tag': ['指定符石轉其他', '符石轉暗', '符石轉暗強化', '符石強化', '神族符石製造', '回血']
+                'tag': [['指定符石轉其他', 3], ['符石轉暗', 3], ['符石轉暗強化', 3], ['符石強化', 3], ['神族符石製造', 3], ['回血', 3]]
             }
         ],
         'team_skill': [
@@ -57203,7 +57203,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 引爆妖精類成員直行符石<br>⓵「願望果園精靈」成員直行<br>⇒ 掉落該成員屬性妖族強化符石<br>⓶ 其他成員直行<br>⇒ 掉落妖族強化符石<br><br>1 回合內<br>II. 妖精類攻擊力 2.8 倍<br>III. 回合結束時，將「願望果園精靈」成員直行符石<br>⇒ 轉化為該成員屬性妖族強化符石<br>IV. 隊中每有 1 個「願望果園精靈」成員<br>⇒ II,III 額外增加 2 回合效果<br>⇒ 最多持續 5 回合',
-                'tag': ['引爆', '直行引爆', '強制掉落', '妖族符石製造', '增傷']
+                'tag': ['引爆', '直行引爆', '強制掉落', ['妖族符石製造', 5], ['增傷', 5]]
             }
         ],
         'team_skill': []
@@ -57220,7 +57220,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內<br>I. 凍結符石轉化為可消除的狀態<br>II. 獸類及神族攻擊力及回復力 2 倍<br>III. 每消除 1 粒獸族或神族符石<br>⇒ 回復 3000 點生命力',
-                'tag': ['凍結符石處理', '增傷', '增回', '回血']
+                'tag': [['凍結符石處理', 3], ['增傷', 3], ['增回', 3], ['回血', 3]]
             }
         ],
         'team_skill': [
@@ -57245,7 +57245,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': 'I. 敵方全體點燃，持續 3 回合<br>II. 效果期間，敵方全體的防禦力減至 0<br>3 回合內<br>III. 將移動符石時觸碰的首 6 粒符石<br>⇒ 轉化為獸族符石<br>IV. 若隊中只有獸類或神族成員<br>⇒ 無視「燃燒」敵技<br>(不包括「煉獄之火」)',
-                'tag': ['點燃敵方', '破防', '獸族符石製造', '無視燃燒']
+                'tag': [['點燃敵方', 3], ['破防', 3], ['獸族符石製造', 3], ['無視燃燒', 3]]
             }
         ],
         'team_skill': [
@@ -57270,7 +57270,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內<br>I. 隊伍不受中毒技能影響<br>II. 延長移動符石時間至 12 秒',
-                'tag': ['防毒', '延長轉珠時間']
+                'tag': [['防毒', 3], ['延長轉珠時間', 3]]
             }
         ],
         'team_skill': [
@@ -57295,7 +57295,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內，隊伍成員的種族及屬性愈多<br>⇒ 所受傷害減少愈多<br>⇒ 隊中集齊 5 種屬性及 6 個種族成員，可減少最多 88% 傷害',
-                'tag': ['減傷']
+                'tag': [['減傷', 3]]
             }
         ],
         'team_skill': [
@@ -57391,7 +57391,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': 'I. 將光符石轉化為獸族符石<br>II. 電擊敵方全體<br>III. 使受影響目標無法行動，持續 3 回合<br>IV. 效果期間，每消除 1 組光或暗符石<br>⇒ 額外增加 2 連擊 (Combo)',
-                'tag': ['獸族符石製造', '電擊敵方', '無法行動', '增加Combo']
+                'tag': ['獸族符石製造', ['電擊敵方', 3], ['無法行動', 3], ['增加Combo', 3]]
             }
         ],
         'team_skill': []
@@ -57462,7 +57462,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': 'I. 將暗符石轉化為獸族符石<br>II. 將黑白符石變回原來色調<br>3 回合內<br>III. 自身及自身以外攻擊力最高的 1 個獸類成員追打各 2 次',
-                'tag': ['獸族符石製造', '黑白還原', '暗屬追打', '自身追打']
+                'tag': ['獸族符石製造', '黑白還原', ['暗屬追打', 3]]
             }
         ],
         'team_skill': []
@@ -57519,7 +57519,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內<br>I. 自身以外成員及全體敵人攻擊力減少 80%<br>II. 並將減去的攻擊力<br>⇒ 加入自身攻擊力<br>III. 自身對魔族目標攻擊力額外 5 倍<br>IV. 自身對敵方造成傷害的 50% 轉化為生命力',
-                'tag': ['我方減攻', '敵方減攻', '攻擊力吸收', '增傷', '界王拳', '對魔族增傷', '我方傷害吸收']
+                'tag': ['我方減攻', '敵方減攻', '我方攻擊力吸收', '增傷', '界王拳', '對魔族增傷', '我方傷害吸收']
             }
         ],
         'team_skill': [
@@ -57628,7 +57628,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 完全回復生命力<br>II. 將自身直行的符石<br>⇒ 轉化為心強化符石<br>1 回合內<br>III. 隊伍不受中毒技能影響<br>IV. 若隊中其他成員均為「七大罪」<br>⇒ I - III 效果持續 3 回合',
-                'tag': ['回血', '符石轉心', '符石轉心強化', '防毒']
+                'tag': [['回血', 3], ['符石轉心', 3], ['符石轉心強化', 3], ['防毒', 3]]
             }
         ],
         'team_skill': [
@@ -57662,7 +57662,7 @@ const monster_data = [
                 'num': 7,
                 'transform': 2455,
                 'description': 'I. 變身<br>II. 引爆心符石<br>⇒ 掉落暗魔族強化符石<br>2 回合內<br>III. 心符石的掉落率降至 0<br>IV. 將原有機率增加至<br>⇒ 暗符石的掉落率<br>V. 將掉落的暗符石<br>⇒ 以暗魔族強化符石代替<br>VI. 魔族攻擊力及回復力 1.7 倍',
-                'tag': ['變身', '引爆', '心符石引爆', '魔族符石製造', '強制掉落', '禁珠', '改變掉落機率', '增傷', '增回']
+                'tag': ['變身', '引爆', '心符石引爆', '魔族符石製造', '強制掉落', ['禁珠', 2], ['改變掉落機率', 2], ['增傷', 2], ['增回', 2]]
             }
         ],
         'team_skill': [
@@ -57702,7 +57702,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 7,
                 'description': 'I. 敵方全體點燃<br>II. 使受影響目標<br>⇒ 轉為暗屬性<br>III. 每回合以 100 倍自身攻擊力<br>⇒ 對敵方全體造成暗屬性傷害，並持續至死亡<br>IV. 效果持續期間<br>⇒ 暗屬性及魔族攻擊力 1.7 倍',
-                'tag': ['點燃敵方', '敵方轉屬', '直傷', '增傷']
+                'tag': [['點燃敵方', -1], ['敵方轉屬', -1], ['直傷', -1], ['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -57784,7 +57784,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '3 回合內<br>I. 發動技能及回合結束時<br>⇒ 將隊長及戰友直行的符石轉化為暗強化符石<br><br>2 回合內<br>II. 電擊敵方全體<br>III. 使受影響目標無法行動',
-                'tag': ['符石轉暗', '符石轉暗強化', '固定轉版', '電擊敵方', '無法行動']
+                'tag': [['符石轉暗', 3], ['符石轉暗強化', 3], ['固定轉版', 3], ['電擊敵方', 2], ['無法行動', 2]]
             }
         ],
         'team_skill': [
@@ -58120,7 +58120,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': 'I. 敵方全體點燃<br>II. 使受影響目標轉為火屬性<br>III. 每回合以 200 倍自身攻擊力<br>⇒ 對敵方全體造成火屬性傷害並持續至死亡<br>IV. 效果持續期間<br>⓵ 受影響目標防禦力變為 0<br>⓶ 自身攻擊無視指定減傷抗性敵技',
-                'tag': ['點燃敵方', '敵方轉屬', '直傷', '破防']
+                'tag': [['點燃敵方', -1], ['敵方轉屬', -1], ['直傷', -1], ['破防', -1]]
             }
         ],
         'team_skill': [
@@ -58187,7 +58187,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '點選元素法陣上 1 粒光以外的符石<br>I. 引爆該種符石<br>2 回合內<br>II. 該符石掉落率降至 0<br>III. 將原有機率<br>⇒ 增加至光符石的掉落率<br>IV. 光符石兼具<br>⇒ 50% 其他屬性符石效果',
-                'tag': ['引爆', '指定符石引爆', '禁珠', '改變掉落機率', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具暗']
+                'tag': ['引爆', '指定符石引爆', ['禁珠', 2], ['改變掉落機率', 2], ['符石兼具水', 2], ['符石兼具火', 2], ['符石兼具木', 2], ['符石兼具暗', 2]]
             }
         ],
         'team_skill': []
@@ -58204,7 +58204,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '隊中有人類及神族成員才可發動此技能：<br>I. 自身及身旁「人類、神族」成員<br>⇒ 攻擊力 3 倍<br>II. 場上有其他附加效果<br>⇒ 延長移動符石時間 3 秒<br>效果持續至沒有消除 ≥6 粒木符石',
-                'tag': ['增傷', '界王拳', '延長轉珠時間']
+                'tag': [['增傷', -1], ['界王拳', -1], ['延長轉珠時間', -1]]
             }
         ],
         'team_skill': []
@@ -58238,7 +58238,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 若隊長及戰友均為「魔性原罪 · 夏娃」<br>⇒ 所有「魔性原罪 · 夏娃」獲得 2 個禁果<br>2 回合內<br>II. 將最底 1 橫行的符石<br>⇒ 轉化為強化符石<br>III. 光屬性及魔族攻擊力 2 倍',
-                'tag': ['符石強化', '增傷']
+                'tag': [['符石強化', 2], ['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -58255,7 +58255,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': 'I. 將所有符石隨機轉化為<br>⇒ 五屬強化符石<br>1 回合內<br>II. 消除符石的屬性愈多<br>⇒ 自身及「智火解析 ‧ 恩莉兒」攻擊力提升愈多<br>⇒ 最多可提升至 6 倍<br>III. 若有擊斃敵人<br>⇒ 下回合將自身及「智火解析 ‧ 恩莉兒」直行的符石轉化為自身屬性強化符石',
-                'tag': ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '大幅轉版', '增傷', '界王拳']
+                'tag': ['符石轉水', ['符石轉火', 2], '符石轉木', '符石轉光', '符石轉暗', '符石轉水強化', ['符石轉火強化', 2], '符石轉木強化', '符石轉光強化', '符石轉暗強化', '大幅轉版', '增傷', '界王拳']
             }
         ],
         'team_skill': [
@@ -58394,7 +58394,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '1 回合內<br>I. 全隊攻擊力 2 倍<br>II. 神族攻擊力則 2.5 倍<br>III. 若隊長為火屬性神族<br>⇒ 火符石首批 2 粒相連即可發動消除<br>IV. 若技能發動時場上有 ≥5 粒火符石<br>⇒ I-III 效果持續 2 回合',
-                'tag': ['增傷', '改變消除方式']
+                'tag': [['增傷', 2], ['改變消除方式', 2]]
             }
         ],
         'team_skill': [
@@ -58444,7 +58444,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '3 回合內<br>I. 將 3 粒符石轉化為<br>⇒ 光人族強化符石<br>(心符石優先轉換)<br>II. 若首批消除場上所有光符石<br>⇒ 下回合開始時，將最底 1 橫行的符石轉化為光強化符石',
-                'tag': ['符石轉光', '符石轉光強化', '人族符石製造', '固定轉版']
+                'tag': [['符石轉光', 3], ['符石轉光強化', 3], ['人族符石製造', 3], ['固定轉版', 3]]
             }
         ],
         'team_skill': [
@@ -58494,7 +58494,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': 'I. 將所有符石轉化為神族強化符石<br>2 回合內<br>II. 吸收該回合敵人首次攻擊傷害<br>III. 以所吸收攻擊力的 1000 倍<br>⇒ 對其進行火屬性反擊<br>(此傷害無視防禦力及「強化突破」敵技)',
-                'tag': ['符石強化', '神族符石製造', '直傷', '破防直傷']
+                'tag': ['符石強化', '神族符石製造', ['直傷', 2], ['破防直傷', 2], ['敵方傷害吸收', 2]]
             }
         ],
         'team_skill': [
@@ -58558,7 +58558,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 延長移動符石時間至 10 秒<br>II. 於移動符石時間內，可任意移動符石而不會發動消除<br>III. 敵方全體的防禦力減至 0<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 將所有符石轉化為神族符石<br>⓶ 將暗符石轉化為神族強化符石',
-                'tag': ['排珠', '破防', '隨時關閉', '神族符石製造', '符石強化', '符石轉暗強化']
+                'tag': [['排珠', -1], ['破防', -1], '隨時關閉', '神族符石製造', '符石強化', '符石轉暗強化']
             }
         ],
         'team_skill': [
@@ -58590,7 +58590,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 敵方全體點燃並轉化為火屬性，持續 2 回合<br>2 回合內<br>II. 將木符石轉化為火魔族符石<br>III. 將暗符石轉化為光魔族符石',
-                'tag': ['點燃敵方', '敵方轉屬', '符石轉火', '符石轉光', '木轉其他', '暗轉其他', '魔族符石製造']
+                'tag': [['點燃敵方', 2], ['敵方轉屬', 2], ['符石轉火', 2], ['符石轉光', 2], ['木轉其他', 2], ['暗轉其他', 2], ['魔族符石製造', 2]]
             }
         ],
         'team_skill': []
@@ -58726,7 +58726,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 將黑白符石變回原來色調<br>II. 身上有附加效果的成員及「星辰之理 ‧ 蘇因」攻擊力 2.2 倍<br>III. 消除神族符石時<br>⇒ 神族成員以 50% 攻擊力追打 1 次<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 完全回復生命力<br>⓶ 將神族成員直行的符石<br>⇒ 轉化為強化符石',
-                'tag': ['黑白還原', '增傷', '界王拳', '火屬追打', '隨時關閉', '回血', '符石強化']
+                'tag': ['黑白還原', ['增傷', -1], ['界王拳', -1], ['火屬追打', -1], '隨時關閉', '回血', '符石強化']
             }
         ],
         'team_skill': [
@@ -58853,7 +58853,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '1 回合內<br>I. 將所有成員的攻擊力減至 0<br>⓵ 將魔族成員減去攻擊力的 2 倍<br>⇒ 加入自身攻擊力<br>⓶ 將魔族以外成員減去的攻擊力<br>⇒ 加入自身攻擊力<br>II. 自身攻擊無視攻前盾<br>III. 若有擊斃敵人時<br>⇒ 自身技能 CD 減少 2',
-                'tag': ['攻擊力吸收', '我方減攻', '無視攻前盾', '減CD']
+                'tag': ['我方攻擊力吸收', '我方減攻', '無視攻前盾', '減CD']
             }
         ],
         'team_skill': []
@@ -58895,7 +58895,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 引爆電擊符石所在直行符石<br>⇒ 掉落強化符石<br>1 回合內<br>II. 電擊敵方全體<br>III 使受影響目標攻擊力減少 50%<br>IV. 神族成員攻擊力減至 0<br>V. 將被減去的攻擊力<br>⇒ 分別加入神族隊長及神族戰友的攻擊力',
-                'tag': ['引爆', '直行引爆', '電擊符石處理', '電擊敵方', '敵方減攻', '我方減攻', '攻擊力吸收']
+                'tag': ['引爆', '直行引爆', '電擊符石處理', '電擊敵方', '敵方減攻', '我方減攻', '我方攻擊力吸收']
             }
         ],
         'team_skill': []
@@ -58937,7 +58937,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': 'I. 凍結敵方全體，持續 2 回合<br>1 回合內<br>II. 首批掉落的 10 粒符石<br>⇒ 必定為水魔族符石',
-                'tag': ['凍結敵方', '強制掉落', '魔族符石製造']
+                'tag': [['凍結敵方', 2], '強制掉落', '魔族符石製造']
             }
         ],
         'team_skill': []
@@ -58979,7 +58979,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '2 回合內<br>I. 敵方全體防禦力減至 0<br>II. 減少 40% 所受傷害<br>III. 首批消除所有木符石<br>⇒ 神族及妖精類成員的攻擊無視「指定形狀盾」敵技',
-                'tag': ['破防', '減傷', '無視拼圖盾']
+                'tag': [['破防', 2], ['減傷', 2], ['無視拼圖盾', 2]]
             }
         ],
         'team_skill': []
@@ -59141,7 +59141,7 @@ const monster_data = [
                 'num': 8,
                 'transform': 2517,
                 'description': 'I. 變身<br>II. 自身「同步率」上限<br>⇒ 變為 400%<br>III. 自身「同步率」提升 100%<br>IV. 引爆「EVA 駕駛員」直行符石以掉落<br>⇒ 該成員屬性的神族強化符石<br>V. 回合結束時，將「EVA 駕駛員」直行符石<br>⇒ 轉化為該成員屬性的神族強化符石',
-                'tag': ['變身', '引爆', '直行引爆', '強制掉落', '神族符石製造', '符石轉水', '符石轉水強化']
+                'tag': ['變身', '引爆', '直行引爆', '強制掉落', ['神族符石製造', 2], '符石轉水', '符石轉水強化']
             }
         ],
         'team_skill': [
@@ -59194,7 +59194,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 8,
                 'description': 'I. 引爆所有符石及石化符石<br>⇒ 掉落五屬強化符石<br>2 回合內<br>II. 自身攻擊力 3 倍<br>III. 消除屬性符石時<br>⇒ 個人追打該屬性攻擊 1 次<br>IV. 消除 ≥3 種屬性符石時<br>⇒ 自身攻擊無視「指定形狀盾」<br>V. 若隊中有 ≥3 個「EVA 駕駛員」<br>⇒ 刷新「絕對領域」',
-                'tag': ['引爆', '整版引爆', '石化符石處理', '強制掉落', '增傷', '界王拳', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打', '自身追打', '無視拼圖盾']
+                'tag': ['引爆', '整版引爆', '石化符石處理', '強制掉落', ['增傷', 2], ['界王拳', 2], ['水屬追打', 2], ['火屬追打', 2], ['木屬追打', 2], ['光屬追打', 2], ['暗屬追打', 2], ['自身追打', 2], ['無視拼圖盾', 2]]
             },
             {
                 'name': '堅定信念',
@@ -59262,7 +59262,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': 'I. 將敵方全體轉為木屬性，持續 2 回合<br>II. 將最頂及最底橫行符石<br>⇒ 轉化為神族強化符石<br>III. 將中間 3 橫行符石<br>⇒ 分別轉化為直行「五屬及心」神族強化符石<br>1 回合內<br>IV. 首批掉落的 10 粒符石<br>⇒ 必定為火強化符石<br>V. 若隊中有 ≥3 個「EVA 駕駛員」<br>⇒ 刷新「絕對領域」',
-                'tag': ['敵方轉屬', '符石強化', '神族符石製造', '符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '符石轉心強化', '大幅轉版', '固定轉版', '強制掉落']
+                'tag': [['敵方轉屬', 2], '符石強化', '神族符石製造', '符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '符石轉心強化', '大幅轉版', '固定轉版', '強制掉落']
             }
         ],
         'team_skill': [
@@ -59347,7 +59347,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': 'I. 將場上的符石變回原始模樣<br>II. 引爆所有符石<br>⇒ 掉落神族強化符石<br>III. 對敵方全體造成<br>⇒ 5,000 萬光屬性傷害<br>(此傷害無視敵人防禦力、「強化突破」、「固定連擊盾」敵技)<br>1 回合內<br>IV. 神族成員追打<br>⇒ 光屬性攻擊 1 次<br>3 回合內<br>V. 自身【錮縛鎖攻 - 金】',
-                'tag': ['還原版面', '引爆', '整版引爆', '神族符石製造', '直傷', '破防直傷', '光屬追打', '限制成員攻擊']
+                'tag': ['還原版面', '引爆', '整版引爆', '神族符石製造', '直傷', '破防直傷', '光屬追打', ['限制成員攻擊', 3]]
             },
             {
                 'name': '給我一雙翅膀',
@@ -59440,7 +59440,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內<br>I. 我方回復力減至 0<br>II. 人類及神族成員攻擊力 2.5 倍<br>III. 隊中有 ≥3 個「EVA 駕駛員」<br>⇒ 自身技能 CD -2',
-                'tag': ['我方減回', '增傷', '減CD']
+                'tag': [['我方減回', 2], ['增傷', 2], '減CD']
             }
         ],
         'team_skill': [
@@ -59472,7 +59472,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內<br>I. 隊伍所受傷害 1.5 倍<br>II. 隊長屬性符石掉落率提升<br>III. 人類及神族成員攻擊力 2 倍<br>IV. 隊中有 ≥3 個「EVA 駕駛員」<br>⇒ 自身技能 CD -2',
-                'tag': ['我方受傷增加', '改變掉落機率', '增傷', '減CD']
+                'tag': [['我方受傷增加', 2], ['改變掉落機率', 2], ['增傷', 2], '減CD']
             }
         ],
         'team_skill': [
@@ -59504,7 +59504,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '2 回合內<br>I. 所有減傷效果無效<br>II. 每消除 1 連擊 (Combo)<br>⇒ 額外增加 1 Ex. Combo<br>⇒ 最多增加 10 Ex. Combo<br>III. 隊中有 ≥3 個「EVA 駕駛員」<br>⇒ 自身技能 CD -2',
-                'tag': ['增加Ex.Combo', '減CD']
+                'tag': [['增加Ex.Combo', 2], '減CD']
             }
         ],
         'team_skill': [
@@ -59595,7 +59595,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 所有符石隨機轉換<br>II. 將非強化符石<br>⇒ 轉化為強化符石<br>III. 上述每轉化 1 粒強化符石<br>⇒ 對敵方全體造成 50 萬點無屬性傷害<br>IV. 敵方全體點燃，持續 3 回合',
-                'tag': ['大幅轉版', '符石強化', '直傷', '點燃敵方']
+                'tag': ['大幅轉版', '符石強化', '直傷', ['點燃敵方', 3]]
             }
         ],
         'team_skill': [
@@ -59620,7 +59620,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 所有符石隨機轉換<br>II. 將非強化符石<br>⇒ 轉化為強化符石<br>III. 上述每轉化 1 粒強化符石<br>⇒ 對敵方全體造成 50 萬點無屬性傷害<br>IV. 電擊敵方全體，持續 3 回合',
-                'tag': ['大幅轉版', '符石強化', '直傷', '電擊敵方']
+                'tag': ['大幅轉版', '符石強化', '直傷', ['電擊敵方', 3]]
             }
         ],
         'team_skill': [
@@ -59662,7 +59662,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 將所有符石轉化為神族符石<br>1 回合內<br>I. 左旁神族成員的攻擊力減至 0<br>II. 將減去攻擊力的 3.5 倍<br>⇒ 加入自身攻擊力<br>III. 自身攻擊無視敵人防禦力<br>IV. 若左旁成員為「明日香與EVA2號機」<br>⇒ 則效果持續 5 回合',
-                'tag': ['神族符石製造', '我方減攻', '攻擊力吸收', '增傷', '界王拳', '破防']
+                'tag': ['神族符石製造', ['我方減攻', 5], ['我方攻擊力吸收', 5], ['增傷', 5], ['界王拳', 5], ['破防', 5]]
             }
         ],
         'team_skill': [
@@ -59754,7 +59754,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '生命力全滿才可發動此技能：<br>I. 自身攻擊力減至 0<br>II. 人類及神族攻擊力 2 倍<br>III.「EVA 駕駛員」攻擊力<br>⇒ 額外 1.4 倍<br>效果持續至生命力 ≤40%',
-                'tag': ['我方減攻', '增傷']
+                'tag': [['我方減攻', -1], ['增傷', -1]]
             }
         ],
         'team_skill': [
@@ -59805,7 +59805,7 @@ const monster_data = [
                 'num': 7,
                 'transform': 2537,
                 'description': 'I. 變身<br>II. 自身陷入 7 回合殞命輪迴<br>7 回合內<br>III. 自身攻擊力及回復力 3.7 倍<br>IV. 每回合刷新「絕對領域」<br>(III、IV 效果會在死亡後消失)',
-                'tag': ['變身', '增傷', '界王拳', '增回']
+                'tag': ['變身', ['增傷', 7], ['界王拳', 7], ['增回', 7]]
             }
         ],
         'team_skill': [
@@ -59858,7 +59858,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 6,
                 'description': 'I. 發動技能及每回合開始時<br>⇒ 扣除自身總生命力 50%<br>(最多扣至 1 血)<br>II. 自身攻擊力及回復力 2.5 倍<br>III.「EVA 駕駛員」不會被封鎖主動技能<br>效果持續至生命力為 1',
-                'tag': ['我方扣血', '增傷', '界王拳', '增回', '防鎖']
+                'tag': [['我方扣血', -1], ['增傷', -1], ['界王拳', -1], ['增回', -1], ['防鎖', -1]]
             },
             {
                 'name': '野性突襲',
@@ -59951,7 +59951,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': 'I. 引爆火屬性神族及木屬性神族成員直行符石<br>⇒ 掉落相應屬性神族符石<br><br>1 回合內<br>II. 自身、「明日香與EVA改2號機」、「明日香與EVA改2號機 (獸化第4形態)」、「真理與EVA8號機β」<br>⇒ 以 50 % 攻擊力追打 3 次<br>III. 隊中每有 1 個「明日香與EVA改2號機」、「明日香與EVA改2號機 (獸化第4形態)」、「真理與EVA8號機β」<br>⇒ 額外增加 1 回合效果<br>⇒ 最多可持續 5 回合',
-                'tag': ['引爆', '直行引爆', '神族符石製造', '強制掉落', '火屬追打']
+                'tag': ['引爆', '直行引爆', '神族符石製造', '強制掉落', ['火屬追打', 5]]
             }
         ],
         'team_skill': [
@@ -59976,7 +59976,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': '3 回合內<br>I. 水、火、木符石兼具<br>⇒ 光及暗符石效果<br>II.「綾波零與EVA零號機」及「碇真嗣與渚薰與EVA13號機」<br>⇒ 攻擊力減至 0<br>III. 將減去攻擊力的 3 倍<br>⇒ 加至自身攻擊力',
-                'tag': ['符石兼具光', '符石兼具暗', '我方減攻', '攻擊力吸收', '增傷', '界王拳']
+                'tag': [['符石兼具光', 3], ['符石兼具暗', 3], ['我方減攻', 3], ['我方攻擊力吸收', 3], ['增傷', 3], ['界王拳', 3]]
             }
         ],
         'team_skill': [
@@ -60062,7 +60062,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 6,
                 'description': 'I. 發動技能時，封鎖自身以外可發動技能成員的技能<br>II. 自身攻擊力及回復力 5 倍<br>效果會在進入下一層數 (Wave) 時消失',
-                'tag': ['增傷', '界王拳', '增回']
+                'tag': [['增傷', -1], ['界王拳', -1], ['增回', -1]]
             }
         ],
         'team_skill': []
@@ -60341,7 +60341,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '1 回合內，首 4 組消除符石額外計算多 1 連擊 (Combo)，其後每組 消除符石額外計算多 2 連擊 (Combo)。連擊 (Combo) 只計算首批消除的符石。其他計算首批消除符石的技能不受此額外的連擊 (Combo) 影響',
+                'description': '1 回合內，首 4 組消除符石額外計算多 1 連擊 (Combo)，其後每組消除符石額外計算多 2 連擊 (Combo)。連擊 (Combo) 只計算首批消除的符石。其他計算首批消除符石的技能不受此額外的連擊 (Combo) 影響',
                 'tag': ['增加Combo']
             }
         ],
@@ -60376,7 +60376,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '每回合全隊攻擊力持續提升，最大 2.5 倍，效果會在進入下一層數 (Wave) 時消失',
-                'tag': ['增傷']
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -60393,7 +60393,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '2 回合內<br>I. 龍類攻擊力 2 倍<br>II. 首批消除所有火符石時<br>⇒ 個人以 50% 攻擊力追打火屬性攻擊 9 次',
-                'tag': ['增傷', '火屬追打', '自身追打']
+                'tag': [['增傷', 2], ['火屬追打', 2], ['自身追打', 2]]
             }
         ],
         'team_skill': []
@@ -60426,8 +60426,8 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '全隊攻擊力 1.5 倍，直至沒有消除心符石 (只計算首批消除的符石) 。效果持續期間技能不會冷卻',
-                'tag': ['增傷']
+                'description': '全隊攻擊力 1.5 倍，直至沒有消除心符石 (只計算首批消除的符石)。效果持續期間技能不會冷卻',
+                'tag': [['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -60461,7 +60461,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '木屬性及獸類攻擊力 1.5 倍，木符石兼具其他屬性符石效果，效果持續至沒有消除木符石',
-                'tag': ['符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '增傷']
+                'tag': [['符石兼具水', -1], ['符石兼具火', -1], ['符石兼具木', -1], ['符石兼具光', -1], ['符石兼具暗', -1], ['增傷', -1]]
             }
         ],
         'team_skill': []
@@ -60512,7 +60512,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '每首批消除 1 組火屬性的連擊 (Combo) 時，個人追打火屬性攻擊 1 次，並於下回合開始時將 1 粒符石轉化為火符石，最多追打 4 次及轉化 4 粒；效果持續至沒有首批消除 4 粒或以上火符石',
-                'tag': ['符石轉火', '自身追打', '火屬追打']
+                'tag': [['符石轉火', -1], ['自身追打', -1], ['火屬追打', -1]]
             }
         ],
         'team_skill': []
@@ -60546,7 +60546,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': '移動符石前若生命力全滿，魔族攻擊力 2 倍；隊伍中只有魔族成員時，將自身對敵方造成傷害的 3% 轉化為生命力。效果持續至生命力為 20% 或以下',
-                'tag': ['增傷', '我方傷害吸收']
+                'tag': [['增傷', -1], ['我方傷害吸收', -1]]
             }
         ],
         'team_skill': []
@@ -60563,7 +60563,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'description': 'I. 敵方全體進入睡眠狀態<br>II. 使受影響目標無法行動，持續 3 回合<br>III. 效果持續期間<br>⇒ 敵人所受傷害 1.5 倍<br>IV. 首批消除心符石<br>⇒ 會令敵方甦醒',
-                'tag': ['無法行動', '增傷']
+                'tag': [['無法行動', 3], ['增傷', 3]]
             },
             {
                 'name': '永墮黑暗',
@@ -61137,7 +61137,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '3 回合內，所受傷害減少 30%，並有 70 % 迴避敵人的攻擊',
-                'tag': ['減傷', '迴避']
+                'tag': [['減傷', 3], ['迴避', 3]]
             },
             {
                 'name': '元素護壁 ‧ 強',
@@ -61146,7 +61146,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '5 回合內，所受傷害減少 30%，並有 70% 迴避敵人的攻擊',
-                'tag': ['減傷', '迴避']
+                'tag': [['減傷', 5], ['迴避', 5]]
             }
         ],
         'team_skill': []
@@ -61163,7 +61163,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '3 回合內，所受傷害減少 30%，並有 70 % 迴避敵人的攻擊',
-                'tag': ['減傷', '迴避']
+                'tag': [['減傷', 3], ['迴避', 3]]
             },
             {
                 'name': '元素護壁 ‧ 強',
@@ -61172,7 +61172,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '5 回合內，所受傷害減少 30%，並有 70% 迴避敵人的攻擊',
-                'tag': ['減傷', '迴避']
+                'tag': [['減傷', 5], ['迴避', 5]]
             }
         ],
         'team_skill': []
@@ -61283,7 +61283,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，消除一組 5 粒或以上光屬性以外的屬性符石，必定產生 5 粒光符石',
-                'tag': ['強制掉落']
+                'tag': [['強制掉落', 3]]
             }
         ],
         'team_skill': []
@@ -61300,7 +61300,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，消除一組 5 粒或以上光屬性以外的屬性符石，必定產生 5 粒光符石',
-                'tag': ['強制掉落']
+                'tag': [['強制掉落', 3]]
             }
         ],
         'team_skill': []
@@ -61317,7 +61317,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '自身發動攻擊時，個人追打暗屬性攻擊 1 次，效果持續至自身沒有發動攻擊為止。效果持續期間技能不會冷卻',
-                'tag': ['自身追打', '暗屬追打']
+                'tag': [['自身追打', -1], ['暗屬追打', -1]]
             }
         ],
         'team_skill': []
@@ -61334,7 +61334,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '自身發動攻擊時，個人追打暗屬性攻擊 1 次，效果持續至自身沒有發動攻擊為止。效果持續期間技能不會冷卻',
-                'tag': ['自身追打', '暗屬追打']
+                'tag': [['自身追打', -1], ['暗屬追打', -1]]
             }
         ],
         'team_skill': []
@@ -61351,7 +61351,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '於移動符石時間內，可任意移動符石而不會發動消除，效果持續 3 回合',
-                'tag': ['排珠']
+                'tag': [['排珠', 3]]
             }
         ],
         'team_skill': []
@@ -61368,7 +61368,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '於移動符石時間內，可任意移動符石而不會發動消除，效果持續 3 回合',
-                'tag': ['排珠']
+                'tag': [['排珠', 3]]
             }
         ],
         'team_skill': []
@@ -61521,7 +61521,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '2 回合內，消除任何三種或以上屬性符石，龍類攻擊力 2 倍',
-                'tag': ['增傷']
+                'tag': [['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -61886,7 +61886,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '於移動符石時間內，可任意移動符石而不會發動消除，效果持續 3 回合',
-                'tag': ['排珠']
+                'tag': [['排珠', 3]]
             }
         ],
         'team_skill': []
@@ -62053,7 +62053,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '3 回合內，所受傷害減少 30%，並有 70 % 迴避敵人的攻擊',
-                'tag': ['減傷', '迴避']
+                'tag': [['減傷', 3], ['迴避', 3]]
             },
             {
                 'name': '元素護壁 ‧ 強',
@@ -62062,7 +62062,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '5 回合內，所受傷害減少 30%，並有 70% 迴避敵人的攻擊',
-                'tag': ['減傷', '迴避']
+                'tag': [['減傷', 5], ['迴避', 5]]
             }
         ],
         'team_skill': []
@@ -62079,7 +62079,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '3 回合內，所受傷害減少 30%，並有 70 % 迴避敵人的攻擊',
-                'tag': ['減傷', '迴避']
+                'tag': [['減傷', 3], ['迴避', 3]]
             },
             {
                 'name': '元素護壁 ‧ 強',
@@ -62088,7 +62088,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '5 回合內，所受傷害減少 30%，並有 70% 迴避敵人的攻擊',
-                'tag': ['減傷', '迴避']
+                'tag': [['減傷', 5], ['迴避', 5]]
             }
         ],
         'team_skill': []
@@ -62191,7 +62191,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，消除一組 5 粒或以上光屬性以外的屬性符石，必定產生 5 粒光符石',
-                'tag': ['強制掉落']
+                'tag': [['強制掉落', 3]]
             }
         ],
         'team_skill': []
@@ -62208,7 +62208,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '3 回合內，消除一組 5 粒或以上光屬性以外的屬性符石，必定產生 5 粒光符石',
-                'tag': ['強制掉落']
+                'tag': [['強制掉落', 3]]
             }
         ],
         'team_skill': []
@@ -62225,7 +62225,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '自身發動攻擊時，個人追打暗屬性攻擊 1 次，效果持續至自身沒有發動攻擊為止。效果持續期間技能不會冷卻',
-                'tag': ['自身追打', '暗屬追打']
+                'tag': [['自身追打', -1], ['暗屬追打', -1]]
             }
         ],
         'team_skill': []
@@ -62242,7 +62242,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '自身發動攻擊時，個人追打暗屬性攻擊 1 次，效果持續至自身沒有發動攻擊為止。效果持續期間技能不會冷卻',
-                'tag': ['自身追打', '暗屬追打']
+                'tag': [['自身追打', -1], ['暗屬追打', -1]]
             }
         ],
         'team_skill': []
@@ -62259,7 +62259,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '於移動符石時間內，可任意移動符石而不會發動消除，效果持續 3 回合',
-                'tag': ['排珠']
+                'tag': [['排珠', 3]]
             }
         ],
         'team_skill': []
@@ -62276,7 +62276,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '於移動符石時間內，可任意移動符石而不會發動消除，效果持續 3 回合',
-                'tag': ['排珠']
+                'tag': [['排珠', 3]]
             }
         ],
         'team_skill': []
@@ -62369,7 +62369,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 10,
                 'description': '隊伍中只有人類或神族時，下一次所受傷害不會使你死亡，並於該回合完結時完全回復生命力',
-                'tag': ['回血', '意志']
+                'tag': ['回血', ['意志', -1]]
             }
         ],
         'team_skill': []
