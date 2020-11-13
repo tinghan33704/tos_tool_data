@@ -1,4 +1,4 @@
-// Last modified : 2020.11.07 22:50
+// Last modified : 2020.11.14 01:31
 
 const monster_data = [
     {
@@ -47859,20 +47859,28 @@ const monster_data = [
     },
     {
         'id': 2095,
-        'attribute': '',
-        'race': '',
-        'star': -1,
+        'attribute': '火',
+        'race': '神族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '瑰豔之音',
                 'type': 'normal',
-                'charge': '',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 將火及心符石轉化為<br>⇒ 神族強化符石<br>1 回合內<br>II. 火屬性及神族<br>⇒ 攻擊力及回復力 1.8 倍<br>III. 首批消除 ≥5 種符石<br>⇒ 自身技能 CD -5',
+                'tag': ['符石轉火強化', '符石轉心強化', '符石強化', '神族符石製造', '增傷', '增回', '減CD']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '通過第十封印指定關卡<br>⇒ 額外獲得 1 個存音石 (不能疊加)',
+                'activate': '以「魂揚樂器」系列角色作隊長或隊員',
+                'skill_tag': ['物品掉落增加'],
+                'activate_tag': [],
+                'relative': [2094, 2095, 2096, 2097, 2098]
+            }
+        ]
     },
     {
         'id': 2096,
@@ -47895,7 +47903,7 @@ const monster_data = [
                 'activate': '以「魂揚樂器」系列角色作隊長或隊員',
                 'skill_tag': ['物品掉落增加'],
                 'activate_tag': [],
-                'relative': [2094, 2096, 2097, 2098]
+                'relative': [2094, 2095, 2096, 2097, 2098]
             }
         ]
     },
@@ -47920,7 +47928,7 @@ const monster_data = [
                 'activate': '以「魂揚樂器」系列角色作隊長或隊員',
                 'skill_tag': ['物品掉落增加'],
                 'activate_tag': [],
-                'relative': [2094, 2096, 2097, 2098]
+                'relative': [2094, 2095, 2096, 2097, 2098]
             }
         ]
     },
@@ -47945,7 +47953,7 @@ const monster_data = [
                 'activate': '以「魂揚樂器」系列角色作隊長或隊員',
                 'skill_tag': ['物品掉落增加'],
                 'activate_tag': [],
-                'relative': [2094, 2096, 2097, 2098]
+                'relative': [2094, 2095, 2096, 2097, 2098]
             }
         ]
     },
@@ -54201,7 +54209,15 @@ const monster_data = [
                 'tag': ['符石轉水', '符石轉光', '符石轉心', '增傷']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '「馬戲團團長 ‧ 馬列斯」每次發動技能<br>⇒「奇幻馬戲團」系列角色當前技能 CD -6',
+                'activate': '以「馬戲團團長 ‧ 馬列斯」及「奇幻馬戲團」系列角色作成員',
+                'skill_tag': ['開技減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2510, 2322, 2323, 2324, 2325, 2326]
+            }
+        ]
     },
     {
         'id': 2323,
@@ -54218,7 +54234,15 @@ const monster_data = [
                 'tag': [['增傷', 3], ['增回', 3], ['妖族符石製造', 3], ['符石強化', 3]]
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '「馬戲團團長 ‧ 馬列斯」每次發動技能<br>⇒「奇幻馬戲團」系列角色當前技能 CD -6',
+                'activate': '以「馬戲團團長 ‧ 馬列斯」及「奇幻馬戲團」系列角色作成員',
+                'skill_tag': ['開技減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2510, 2322, 2323, 2324, 2325, 2326]
+            }
+        ]
     },
     {
         'id': 2324,
@@ -54235,7 +54259,15 @@ const monster_data = [
                 'tag': ['符石強化', '符石轉木強化', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '「馬戲團團長 ‧ 馬列斯」每次發動技能<br>⇒「奇幻馬戲團」系列角色當前技能 CD -6',
+                'activate': '以「馬戲團團長 ‧ 馬列斯」及「奇幻馬戲團」系列角色作成員',
+                'skill_tag': ['開技減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2510, 2322, 2323, 2324, 2325, 2326]
+            }
+        ]
     },
     {
         'id': 2325,
@@ -54252,7 +54284,15 @@ const monster_data = [
                 'tag': ['引爆', '暗符石引爆', '心符石引爆', '魔族符石製造', '強制掉落']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '「馬戲團團長 ‧ 馬列斯」每次發動技能<br>⇒「奇幻馬戲團」系列角色當前技能 CD -6',
+                'activate': '以「馬戲團團長 ‧ 馬列斯」及「奇幻馬戲團」系列角色作成員',
+                'skill_tag': ['開技減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2510, 2322, 2323, 2324, 2325, 2326]
+            }
+        ]
     },
     {
         'id': 2326,
@@ -54269,7 +54309,15 @@ const monster_data = [
                 'tag': ['機械族符石製造', '增傷']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '「馬戲團團長 ‧ 馬列斯」每次發動技能<br>⇒「奇幻馬戲團」系列角色當前技能 CD -6',
+                'activate': '以「馬戲團團長 ‧ 馬列斯」及「奇幻馬戲團」系列角色作成員',
+                'skill_tag': ['開技減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2510, 2322, 2323, 2324, 2325, 2326]
+            }
+        ]
     },
     {
         'id': 2327,
@@ -58682,17 +58730,17 @@ const monster_data = [
     },
     {
         'id': 2495,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '妖精類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '暗魅追擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 將 12 粒符石轉化為<br>⇒ 妖族強化符石<br>(非種族符石優先轉換)<br>1 回合內<br>II. 自身攻擊力減至 0<br>III. 左旁成員追打 6 次',
+                'tag': ['符石強化', '妖族符石製造', '我方減攻', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打']
             }
         ],
         'team_skill': []
@@ -59020,20 +59068,28 @@ const monster_data = [
     },
     {
         'id': 2510,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '精妙演繹',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': '1 回合內<br>I. 無視「燃燒」敵技<br>(不包括「煉獄之火」)<br>II. 無視「黏腐」敵技<br>III. 隊長、戰友、「馬戲團團長 ‧ 馬列斯」及「奇幻馬戲團」系列成員<br>⇒ 攻擊力 3.5 倍',
+                'tag': ['無視燃燒', '無視黏腐', '增傷', '界王拳']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '「馬戲團團長 ‧ 馬列斯」每次發動技能<br>⇒「奇幻馬戲團」系列角色當前技能 CD -6',
+                'activate': '以「馬戲團團長 ‧ 馬列斯」及「奇幻馬戲團」系列角色作成員',
+                'skill_tag': [],
+                'activate_tag': ['指定成員'],
+                'relative': [2510, 2322, 2323, 2324, 2325, 2326]
+            },
+        ]
     },
     {
         'id': 2511,
@@ -60113,7 +60169,7 @@ const monster_data = [
         'id': 2545,
         'attribute': '水',
         'race': '神族',
-        'star': 7,
+        'star': 8,
         'skill': [
             {
                 'name': '自由激濤 ‧ 湧',
