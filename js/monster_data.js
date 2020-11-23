@@ -1,4 +1,4 @@
-// Last modified : 2020.11.23 22:47
+// Last modified : 2020.11.23 23:00
 
 const monster_data = [
     {
@@ -63942,6 +63942,30 @@ const monster_data = [
                 'num': 5,
                 'description': 'I. 消除所有附加效果<br>II. 引爆自身角色直行符石<br>⇒ 掉落心符石',
                 'tag': ['附加消除', '引爆', '直行引爆', '強制掉落']
+            },
+            {
+                'name': '元素之軌',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 消除所有附加效果<br>II. 將移動符石時觸碰的首 6 粒符石<br>⇒ 轉化為自身屬性符石',
+                'tag': ['附加消除', '符石轉暗']
+            },
+            {
+                'name': '潛力激發',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 消除所有附加效果<br>1 回合內<br>II. 自身攻擊力 5 倍',
+                'tag': ['附加消除', '增傷', '界王拳']
+            },
+            {
+                'name': '無束之志',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 解除自身被封鎖的技能<br>(此技能無視封鎖技能)<br>II. 消除所有附加效果<br>III. 完全回復生命力',
+                'tag': ['解鎖', '附加消除', '回血']
             }
         ],
         'team_skill': []
