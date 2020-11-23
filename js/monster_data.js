@@ -1,4 +1,4 @@
-// Last modified : 2020.11.14 01:31
+// Last modified : 2020.11.23 22:47
 
 const monster_data = [
     {
@@ -53886,8 +53886,8 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'transform': 2377,
-                'description': '需裝備專屬龍刻武裝才可發動此技能：<br>I. 變身<br>II. 引爆水以外的符石<br>⇒ 掉落屬性強化符石<br>1 回合內<br>III. 龍類、神族、獸類<br>⇒ 攻擊力 2.5 倍<br>IV. 發動技能時，若隊長及戰友為「卿雲護庇 ‧ 蒼璧」或「豁達浪息 ‧ 蒼璧」<br>⇒「龍鱗值」減至 0 點',
-                'tag': ['變身', '引爆', '水外符石引爆', '強制掉落', '增傷']
+                'description': '需裝備專屬龍刻武裝才可發動此技能：<br>I. 變身<br>II. 引爆水以外的符石<br>⇒ 掉落屬性強化符石<br>1 回合內<br>III. 龍類、神族、獸類<br>⇒ 攻擊力 2.5 倍<br>IV. 發動技能時，若隊長及戰友為「卿雲護庇 ‧ 蒼璧」或「豁達浪息 ‧ 蒼璧」<br>⇒「龍鱗值」減至 0 點<br><br>若隊長為「緋曦赤霞 ‧ 紅璦」及以「緋曦赤霞 ‧ 紅璦」、「卿雲護庇 ‧ 蒼璧」 或「豁達浪息 ‧ 蒼璧」作戰友，則效果改為：<br><br>I. 引爆「水及火」以外符石<br>⇒ 掉落屬性強化符石<br>1 回合內<br>II. 龍類、人類、妖精類、魔族攻擊力 2.5 倍<br>III.「紅鱗值」提升至 100 點',
+                'tag': ['變身', '引爆', '水外符石引爆', '強制掉落', '增傷', '火外符石引爆']
             }
         ],
         'team_skill': [
@@ -55529,6 +55529,13 @@ const monster_data = [
                 'skill_tag': ['回血', '延長轉珠時間', '增攻', '減傷'],
                 'activate_tag': ['指定隊長戰友'],
                 'relative': [2377, 2306]
+            },
+            {
+                'description': '「豁達浪息 ‧ 蒼璧」的主動技能「碧穹殺機」變為「赤龍殺機」<br><br>I.「紅鱗值」提升 50 點<br>II. 將心符石轉化為<br>⇒ 火龍族強化符石<br>1 回合內<br>III. 自身攻擊力 3 倍<br>IV. 回合結束時<br>⇒ 將心符石轉化為火強化符石',
+                'activate': '以「緋曦赤霞 ‧ 紅璦」作隊長，並以「豁達浪息 ‧ 蒼璧」作成員',
+                'skill_tag': ['主動技改變'],
+                'activate_tag': ['指定隊長戰友'],
+                'relative': [2377, 2567]
             }
         ]
     },
@@ -60275,6 +60282,924 @@ const monster_data = [
     },
     {
         'id': 2550,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2551,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2552,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2553,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2554,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2555,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2556,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2557,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2558,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2559,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2560,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2561,
+        'attribute': '水',
+        'race': '龍類',
+        'star': 5,
+        'skill': [
+            {
+                'name': '蒼龍長嘯',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 將心符石轉化為<br>⇒ 隊長屬性符石<br>II. 將水符石轉化為<br>⇒ 龍族強化符石<br>1 回合內<br>III. 連擊 (Combo) 數目增加 3<br>IV. 隊中每多 1 種族成員<br>⇒ 額外增加 1 回合效果<br>⇒ 最多持續 3 回合',
+                'tag': ['心轉其他', '符石轉水強化', '符石強化', '龍族符石製造', ['增加Combo', 3]]
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2562,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2563,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2564,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2565,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2566,
+        'attribute': '水',
+        'race': '魔族',
+        'star': 6,
+        'skill': [
+            {
+                'name': '人魔血裔',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 8,
+                'description': 'I. 引爆所有符石<br>⓵ 魔族成員直行掉落魔族符石<br>⓶ 人類成員直行掉落人族符石<br>1 回合內<br>II. 自身攻擊力減至 0<br>III. 所受傷害減至 100<br>(包括「喋血屠刀」、「一擊必殺」等扣除召喚師指定 % 生命力的敵技所造成的傷害)',
+                'tag': ['引爆', '整版引爆', '魔族符石製造', '人族符石製造', '我方減攻', '減傷']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2567,
+        'attribute': '火',
+        'race': '龍類',
+        'star': 6,
+        'skill': [
+            {
+                'name': '命運交織',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 8,
+                'description': 'I. 將場上的符石變回原始模樣<br>II. 引爆所有符石<br>⇒ 掉落固定數量及位置的「水及火」龍族強化符石<br>1 回合內<br>II. 龍類、人類、妖精類、魔族<br>⇒ 攻擊力 2 倍<br>III. 所有成員無視「三屬盾」及「五屬盾」',
+                'tag': ['還原版面', '引爆', '整版引爆', '強制掉落', '龍族符石製造', '增傷', '無視三屬盾', '無視五屬盾']
+            }
+        ],
+        'team_skill': [
+            {
+                'description': 'I. 每消除 1 粒龍族符石<br>⇒ 回復 3,000 點生命力<br>⇒ 最多回復 60,000 點<br><br>II. 必然延長移動符石時間 2 秒<br><br>III. 【紅鱗值】<br>⓵ 紅鱗值愈高<br>⇒ 全隊攻擊力提升愈多<br>⇒ 最多可提升至 5 倍<br>⓶ 紅鱗值達至 100 點時<br>⇒ 「緋曦赤霞 ‧ 紅璦」攻擊力額外 3 倍<br><br>[＊] 進入關卡後，獲得 50 點紅鱗值<br>[＊] 每消除 3 粒火符石<br>⇒ 提升 10 點紅鱗值<br>[＊] 受到敵人攻擊後<br>⇒ 該回合減少 30 點紅鱗值',
+                'activate': '以「緋曦赤霞 ‧ 紅璦」作隊長，並以「緋曦赤霞 ‧ 紅璦」、「卿雲護庇 ‧ 蒼璧」或「豁達浪息 ‧ 蒼璧」作戰友',
+                'skill_tag': ['回血', '延長轉珠時間', '增攻'],
+                'activate_tag': ['指定隊長戰友'],
+                'relative': [2567, 2306, 2377]
+            },
+            {
+                'description': '「豁達浪息 ‧ 蒼璧」的主動技能「碧穹殺機」變為「赤龍殺機」<br><br>I.「紅鱗值」提升 50 點<br>II. 將心符石轉化為<br>⇒ 火龍族強化符石<br>1 回合內<br>III. 自身攻擊力 3 倍<br>IV. 回合結束時<br>⇒ 將心符石轉化為火強化符石',
+                'activate': '以「緋曦赤霞 ‧ 紅璦」作隊長，並以「豁達浪息 ‧ 蒼璧」作成員',
+                'skill_tag': [],
+                'activate_tag': ['指定隊長戰友'],
+                'relative': [2567, 2377]
+            }
+        ]
+    },
+    {
+        'id': 2568,
+        'attribute': '木',
+        'race': '獸類',
+        'star': 6,
+        'skill': [
+            {
+                'name': '猛獸列陣',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': '點選法陣上的動物圖像<br>⇒ 轉換自身形態<br><br>【鹿】<br>⓵ 引爆所有符石<br>3 回合內<br>⓶ 全隊回復力減至 0<br>⓷ 每回合回復<br>⇒ 45,000 點生命力<br><br>【熊】<br>1 回合內<br>⓵ 所受傷害減至 0<br><br>【狼】<br>⓵ 將獸類成員屬性符石及心符石轉化為強化符石<br>1 回合內<br>⓶ 獸類攻擊力 2 倍<br>⓷ 所有成員無視「攻前盾」<br><br>【鷹】<br>⓵「比擬萬象 ‧ 達格」以外獸類成員 CD -1<br>1 回合內<br>⓶ 所有符石兼具<br>⇒ 其他屬性符石效果',
+                'tag': ['引爆', '整版引爆', ['我方減回', 3], ['回血', 3], '減傷', '符石強化', '符石轉木強化', '符石轉心強化', '增傷', '無視攻前盾', '減CD', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗']
+            }
+        ],
+        'team_skill': [
+            {
+                'description': '每隻「比擬萬象 ‧ 達格」轉換為以下形態時，可獲得以下效果：<br><br>【鹿】<br>▋每回合回復「所有成員生命力等值」15% 的生命力<br><br>【熊】<br>▋所受傷害減少 10%<br><br>【狼】<br>▋自身攻擊力 2 倍<br>▋自身攻擊無視敵人防禦力<br><br>【鷹】<br>▋消除 ≥4 種符石<br>⇒ 自身技能 CD -1',
+                'activate': '以「比擬萬象 ‧ 達格」作成員',
+                'skill_tag': ['回血', '減傷', '增攻', '破防', '其他減CD'],
+                'activate_tag': [],
+                'relative': [2568]
+            },
+            {
+                'description': 'I. 必然延長移動符石時間 2.5 秒<br>II. 獸類成員發動技能時<br>⓵ 完全回復生命力<br>⓶ 獸類攻擊力 1.5 倍<br>III. 首批消除所有木符石時<br>⇒ 於移動並消除符石後引爆單數直行符石<br>⇒ 掉落獸族強化符石<br>IV. 首批消除所有光符石時<br>⇒ 於移動並消除符石後引爆雙數直行符石<br>⇒ 掉落獸族強化符石<br>V. 首批消除所有木或光符石時<br>⇒ 增加 5 連擊 (Combo)<br>VI. 其他符石兼具 50% 木符石效果',
+                'activate': '以「比擬萬象 ‧ 達格」作隊長及戰友',
+                'skill_tag': ['延長轉珠時間', '回血', '增攻', '引爆', '獸族符石製造', '增加Combo', '符石兼具木', '水兼具其他', '火兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2568]
+            }
+        ]
+    },
+    {
+        'id': 2569,
+        'attribute': '光',
+        'race': '獸類',
+        'star': 6,
+        'skill': [
+            {
+                'name': '獸之約法',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': '2 回合內<br>I. 隊中只有獸類成員時：<br>⓵ 全隊攻擊力及回復力 1.8 倍<br>⓶ 所有成員無視「固定連擊盾」<br>II. 反之<br>⓵ 首批掉落直行成員屬性的種族符石<br>III.隊中有「夢詠守望 ‧ 英格麗」<br>⇒ 同時獲得 I、II 效果',
+                'tag': [['增傷', 2], ['增回', 2], ['無視固定連擊盾', 2], ['強制掉落', 2], ['獸族符石製造', 2]]
+            }
+        ],
+        'team_skill': [
+            {
+                'description': '進入關卡後，最左方的「天才使魔 ‧ 豹豹」<br>⇒ 技能 CD -6',
+                'activate': '以「夢詠守望 ‧ 英格麗」及「天才使魔 ‧ 豹豹」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2569, 2570]
+            }
+        ]
+    },
+    {
+        'id': 2570,
+        'attribute': '暗',
+        'race': '人類',
+        'star': 6,
+        'skill': [
+            {
+                'name': '命定的守護',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 8,
+                'description': '1 回合內<br>I. 心符石兼具<br>⇒ 200% 屬性符石效果<br>II. 2 粒符石即可發動消除，效果持續至消除 1 種符石達 25 粒<br>III. 回合結束時<br>⇒ 自身進入 2 回合瀕死狀態',
+                'tag': ['符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '改變消除方式', '限制成員攻擊']
+            }
+        ],
+        'team_skill': [
+            {
+                'description': '進入關卡後，「夢詠守望 ‧ 英格麗」<br>⇒ 技能 CD -2',
+                'activate': '以「夢詠守望 ‧ 英格麗」及「以諾」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2570, 20001]
+            },
+            {
+                'description': '進入關卡後，最左方的「天才使魔 ‧ 豹豹」<br>⇒ 技能 CD -6',
+                'activate': '以「夢詠守望 ‧ 英格麗」及「天才使魔 ‧ 豹豹」作成員',
+                'skill_tag': [],
+                'activate_tag': ['指定成員'],
+                'relative': [2569, 2570]
+            },
+            {
+                'description': 'I. 所有符石兼具<br>⇒ 其他屬性符石效果<br><br>II. 所有屬性符石兼具<br>⇒ 50% 心符石效果<br><br>III. 隊中有神族及魔族成員時<br>⓵ 將移動符石時觸碰的符石<br>⇒ 轉化為強化符石<br>⓶ 增加 4 連擊 (Combo)<br><br>IV. 隊中有龍類、獸類及妖精類其中 2 種族成員時<br>⓵ 全隊生命力、攻擊力、回復力 1.2 倍<br>⓶ 無視「燃燒」敵技<br>(不包括「煉獄之火」)<br>⓷ 無視「黏腐」敵技<br><br>V. 隊中有機械族成員時<br>⓵ 所有成員每回合以 50% 攻擊力追打自身屬性或自身克制屬性的攻擊 1 次<br>⓶ 必然延長移動符石時間 2.5 秒',
+                'activate': '以「夢詠守望 ‧ 英格麗」作隊長及戰友',
+                'skill_tag': ['水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心', '符石強化', '增加Combo', '增攻', '增回', '增血', '無視燃燒', '無視黏腐', '光屬追打', '暗屬追打', '延長轉珠時間'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2570]
+            }
+        ]
+    },
+    {
+        'id': 2571,
+        'attribute': '木',
+        'race': '妖精類',
+        'star': 6,
+        'skill': [
+            {
+                'name': '青之魅術',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': '2 回合內<br>I. 木屬性及妖精類<br>⇒ 攻擊力及回復力 1.8 倍<br>II. 若隊中所有成員的回復力基值相同時<br>⓵ 延長移動符石時間 4 秒<br>⓶ 觸碰電擊符石時仍可移動符石<br>III. 若有擊斃敵人時<br>⇒ 該回合不會扣減技能持續回合',
+                'tag': [['增傷', 2], ['增回', 2], ['延長轉珠時間', 2], ['電擊符石處理', 2]]
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2572,
+        'attribute': '光',
+        'race': '神族',
+        'star': 6,
+        'skill': [
+            {
+                'name': '五彩神輝',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': '1 回合內<br>I. 可任意移動符石而不會發動消除<br>II. 消除屬性符石時，自身、「以諾」、「魔法閣沙蘿耶」系列、「八仙」系列角色<br>⇒ 以 50% 攻擊力追打相應屬性攻擊 1 次',
+                'tag': ['排珠', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打']
+            }
+        ],
+        'team_skill': [
+            {
+                'description': '「破幻銀鈴 ‧ 傾霞」<br>⇒ 對妖精類及魔族目標攻擊力額外 2 倍',
+                'activate': '以「破幻銀鈴 ‧ 傾霞」作成員',
+                'skill_tag': ['增攻', '對妖精類增傷', '對魔族增傷'],
+                'activate_tag': [],
+                'relative': [2573]
+            }
+        ]
+    },
+    {
+        'id': 2573,
+        'attribute': '暗',
+        'race': '機械族',
+        'star': 6,
+        'skill': [
+            {
+                'name': '機式銳擊',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': 'I. 完全回復生命力<br>II. 將水、火、木符石<br>⇒ 轉化為強化符石<br>1 回合內<br>III. 機械族成員追打<br>⇒ 光及暗屬性攻擊 1 次<br>IV. 發動技能時，若我方生命力為 1<br>⇒ 迴避敵人首次攻擊',
+                'tag': ['回血', '符石強化', '符石轉水強化', '符石轉火強化', '符石轉木強化', '光屬追打', '暗屬追打', '迴避']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2574,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2575,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2576,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2577,
+        'attribute': '木',
+        'race': '獸類',
+        'star': 7,
+        'skill': [
+            {
+                'name': '破石衝鋒',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 將木符石轉化為<br>⇒ 獸族強化符石<br>II. 解除「石化符石」狀態，成功解除後<br>⇒ 自身技能 CD -5<br>1 回合內<br>III. 自身攻擊力 4 倍<br>IV. 自身攻擊無視「攻前盾」',
+                'tag': ['符石強化', '符石轉木強化', '獸族符石製造', '石化符石處理', '減CD', '增傷', '界王拳', '無視攻前盾']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2578,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2579,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2580,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2581,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2582,
+        'attribute': '光',
+        'race': '獸類',
+        'star': 6,
+        'skill': [
+            {
+                'name': '玄冥之吼',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 將 12 個固定位置的符石<br>⇒ 轉化為「光及暗」獸族強化符石各 6 粒<br>II.「干戈雷芒 ‧ 渾沌」以外技能 CD ≥5 的獸類成員<br>⇒ CD -1',
+                'tag': ['符石轉光', '符石轉暗', '符石轉光強化', '符石轉暗強化', '獸族符石製造', '固定轉版', '減CD']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2583,
+        'attribute': '暗',
+        'race': '強化素材',
+        'star': 3,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2584,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2585,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2586,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2587,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2588,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2589,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2590,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2591,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2592,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2593,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2594,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2595,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2596,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2597,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2598,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2599,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2600,
         'attribute': '',
         'race': '',
         'star': 0,
