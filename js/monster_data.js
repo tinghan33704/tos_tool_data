@@ -1,4 +1,4 @@
-// Last modified : 2020.11.28 20:14
+// Last modified : 2020.11.28 20:46
 
 const monster_data = [
     {
@@ -31376,6 +31376,7 @@ const monster_data = [
             },
             {
                 'description': '隊長及戰友的隊長技能「無影幻像 ‧ 藤木襲」變為「無垠幻像．藤木強襲」<br><br>I. 木屬性攻擊力 6.5 倍<br>II. 每回合場上數量最多的 1 種屬性符石及心符石<br>⇒ 兼具 50% 木符石效果<br>III. 如場上數量最多的 1 種屬性符石為木符石時<br>⇒ 則兼具效果變為木屬性攻擊力 2.2 倍',
+                'activate': '以蒼翠茂綠 ‧ 薩麥爾作隊長及戰友',
                 'skill_tag': ['隊長技改變'],
                 'activate_tag': ['指定雙隊長'],
                 'relative': [1353]
