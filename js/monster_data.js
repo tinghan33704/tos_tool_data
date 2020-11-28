@@ -1,4 +1,4 @@
-// Last modified : 2020.11.23 23:00
+// Last modified : 2020.11.28 20:14
 
 const monster_data = [
     {
@@ -60775,37 +60775,53 @@ const monster_data = [
     },
     {
         'id': 2575,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '哈迪婆婆的暴擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': '點選元素法陣上的 1 種符石：<br>3 回合內<br>I. 將移動符石時觸碰的該種符石<br>⇒ 轉化為木強化符石<br>II. 自身攻擊力 4 倍',
+                'tag': [['指定符石轉其他', 3], ['符石轉木', 3], ['符石轉木強化', 3], ['增傷', 3], ['界王拳', 3]]
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '「青春臂彎 ‧ 哈迪婆婆」<br>⇒ 技能 CD -2',
+                'activate': '以「以諾」或「魔法閣沙蘿耶」系列角色作隊長，且隊中有「青春臂彎 ‧ 哈迪婆婆」作成員',
+                'skill_tag': ['永久減CD'],
+                'activate_tag': ['指定隊長'],
+                'relative': [2575, 20001, 2566, 2567, 2568, 2569, 2570, 2571, 2572, 2573]
+            }
+        ]
     },
     {
         'id': 2576,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '神族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '破冰魅術',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 引爆所有凍結符石<br>II. 將固定 15 個位置的符石<br>⇒ 轉化為暗強化符石<br>III. 每首批消除 1 組暗符石<br>⇒ 額外增加 1 連擊 (Ex. Combo)<br>⇒ 最多可增加 15 Ex. Combo',
+                'tag': ['引爆', '凍結符石處理', '符石轉暗', '符石轉暗強化', '固定轉版', '增加Ex.Combo']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '「面紗下的微光 ‧ 塔維爾」<br>⇒ 技能 CD -2',
+                'activate': '以 ≥3 個「魔法閣沙蘿耶」系列角色及「面紗下的微光 ‧ 塔維爾」作成員',
+                'skill_tag': ['永久減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2576, 2566, 2567, 2568, 2569, 2570, 2571, 2572, 2573]
+            }
+        ]
     },
     {
         'id': 2577,
