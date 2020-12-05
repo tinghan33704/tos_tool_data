@@ -1,4 +1,4 @@
-// Last modified : 2020.11.28 20:46
+// Last modified : 2020.12.05 17:43
 
 const monster_data = [
     {
@@ -60215,258 +60215,548 @@ const monster_data = [
     },
     {
         'id': 2546,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '魔族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '波濤的戰場 ‧ 追擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': '2 回合內<br>I. 敵方全體轉為火屬性<br>II. 提升水屬性<br>⇒ 對火屬性目標的攻擊力<br>III. 所有成員<br>⇒ 追打水屬性攻擊 1 次',
+                'tag': [['敵方轉屬', 2], ['增傷', 2], ['水屬追打', 2], ['全隊追打', 2]]
+            },
+            {
+                'name': '合體',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': -1,
+                'combine':
+                {
+                    'member': [2546, 2551],
+                    'out': 2556
+                },
+                'description': '「斧光亡影 ‧ 貝奧武夫」和「蔚碧魔翼 ‧ 絲蔻比亞」相連時可以合體：<br>1 回合內<br>I. 合體角色攻擊力 1.5 倍<br>II. 將合體角色對敵方造成傷害的 5%<br>⇒ 轉化為生命力<br>(不計算主動技傷害)<br>⇒ 最大為生命力等值的 100%',
+                'tag': ['合體']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，最左方的「斧光亡影 ‧ 貝奧武夫」及最左方的「蔚碧魔翼 ‧ 絲蔻比亞」<br>⇒ 技能 CD -5',
+                'activate': '以「斧光亡影 ‧ 貝奧武夫」及「蔚碧魔翼 ‧ 絲蔻比亞」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2546, 2551]
+            }
+        ]
     },
     {
         'id': 2547,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '魔族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '火烈的戰場 ‧ 追擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': '2 回合內<br>I. 敵方全體轉為木屬性<br>II. 提升火屬性<br>⇒ 對木屬性目標的攻擊力<br>III. 所有成員<br>⇒ 追打火屬性攻擊 1 次',
+                'tag': [['敵方轉屬', 2], ['增傷', 2], ['火屬追打', 2], ['全隊追打', 2]]
+            },
+            {
+                'name': '合體',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': -1,
+                'combine':
+                {
+                    'member': [2547, 2552],
+                    'out': 2557
+                },
+                'description': '「沐火狂嘯 ‧ 阿基里斯」和「流麗盾舞 ‧ 忒提斯」相連時可以合體：<br>1 回合內<br>I. 合體角色攻擊力 1.5 倍<br>II. 將合體角色對敵方造成傷害的 5%<br>⇒ 轉化為生命力<br>(不計算主動技傷害)<br>⇒ 最大為生命力等值的 100%',
+                'tag': ['合體']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，最左方的「沐火狂嘯 ‧ 阿基里斯」及最左方的「流麗盾舞 ‧ 忒提斯」<br>⇒ 技能 CD -5',
+                'activate': '以「沐火狂嘯 ‧ 阿基里斯」及「流麗盾舞 ‧ 忒提斯」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2547, 2552]
+            }
+        ]
     },
     {
         'id': 2548,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '魔族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '森魔攻勢',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 將心符石轉化為木強化符石<br>II. 將弱化符石及電擊符石<br>⇒ 轉化為木魔族強化符石',
+                'tag': ['符石轉木', '符石轉木強化', '心轉其他', '弱化符石處理', '電擊符石處理', '魔族符石製造']
+            },
+            {
+                'name': '合體',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': -1,
+                'combine':
+                {
+                    'member': [2548, 2553],
+                    'out': 2558
+                },
+                'description': '「恨愛芒刺 ‧ 迪爾姆德」和「香郁尖刺 ‧ 艾摩婭與瑟露絲」相連時可以合體：<br>1 回合內<br>I. 合體角色攻擊力 1.5 倍<br>II. 將合體角色對敵方造成傷害的 5%<br>⇒ 轉化為生命力<br>(不計算主動技傷害)<br>⇒ 最大為生命力等值的 100%',
+                'tag': ['合體']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，最左方的「恨愛芒刺 ‧ 迪爾姆德」及最左方的「香郁尖刺 ‧ 艾摩婭與瑟露絲」<br>⇒ 技能 CD -3',
+                'activate': '以「恨愛芒刺 ‧ 迪爾姆德」及「香郁尖刺 ‧ 艾摩婭與瑟露絲」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2548, 2553]
+            }
+        ]
     },
     {
         'id': 2549,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '魔族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '玄靈攻濤',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 將心符石轉化為光強化符石<br>II. 將暗符石轉化為心強化符石<br>III. 將木符石轉化為水強化符石',
+                'tag': ['符石轉光', '符石轉光強化', '心轉其他', '符石轉水', '符石轉水強化', '暗轉其他', '符石轉心', '符石轉心強化', '木轉其他']
+            },
+            {
+                'name': '合體',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': -1,
+                'combine':
+                {
+                    'member': [2549, 2554],
+                    'out': 2559
+                },
+                'description': '「劍戟武侯 ‧ 源義經」和「砉然游刃 ‧ 今劍與薄綠」相連時可以合體：<br>1 回合內<br>I. 合體角色攻擊力 1.5 倍<br>II. 將合體角色對敵方造成傷害的 5%<br>⇒ 轉化為生命力<br>(不計算主動技傷害)<br>⇒ 最大為生命力等值的 100%',
+                'tag': ['合體']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，最左方的「劍戟武侯 ‧ 源義經」及最左方的「砉然游刃 ‧ 今劍與薄綠」<br>⇒ 技能 CD -5',
+                'activate': '以「劍戟武侯 ‧ 源義經」及「砉然游刃 ‧ 今劍與薄綠」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2549, 2554]
+            }
+        ]
     },
     {
         'id': 2550,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '魔族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '斃命一擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 若敵方生命力 ≤15%<br>⇒ 即殺<br>II. 若敵方生命力 >15%<br>⇒ 消耗敵方現有 40% 生命力',
+                'tag': ['直傷']
+            },
+            {
+                'name': '合體',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': -1,
+                'combine':
+                {
+                    'member': [2550, 2555],
+                    'out': 2560
+                },
+                'description': '「沙場無敵 ‧ 呂布」和「悚駭轍印 ‧ 呂凌霜」相連時可以合體：<br>1 回合內<br>I. 合體角色攻擊力 1.5 倍<br>II. 將合體角色對敵方造成傷害的 5%<br>⇒ 轉化為生命力<br>(不計算主動技傷害)<br>⇒ 最大為生命力等值的 100%',
+                'tag': ['合體']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，最左方的「沙場無敵 ‧ 呂布」及最左方的「悚駭轍印 ‧ 呂凌霜」<br>⇒ 技能 CD -5',
+                'activate': '以「沙場無敵 ‧ 呂布」及「悚駭轍印 ‧ 呂凌霜」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2550, 2555]
+            }
+        ]
     },
     {
         'id': 2551,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '魔靈煞 ‧ 水',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 隨機將 2 直行的符石<br>⇒ 轉化為水魔族符石<br>1 回合內<br>II. 隊長及戰友攻擊力 3 倍',
+                'tag': ['符石轉水', '魔族符石製造', '增傷', '界王拳']
+            },
+            {
+                'name': '合體',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': -1,
+                'combine':
+                {
+                    'member': [2546, 2551],
+                    'out': 2556
+                },
+                'description': '「斧光亡影 ‧ 貝奧武夫」和「蔚碧魔翼 ‧ 絲蔻比亞」相連時可以合體：<br>1 回合內<br>I. 合體角色攻擊力 1.5 倍<br>II. 將合體角色對敵方造成傷害的 5%<br>⇒ 轉化為生命力<br>(不計算主動技傷害)<br>⇒ 最大為生命力等值的 100%',
+                'tag': ['合體']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，最左方的「斧光亡影 ‧ 貝奧武夫」及最左方的「蔚碧魔翼 ‧ 絲蔻比亞」<br>⇒ 技能 CD -5',
+                'activate': '以「斧光亡影 ‧ 貝奧武夫」及「蔚碧魔翼 ‧ 絲蔻比亞」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2546, 2551]
+            }
+        ]
     },
     {
         'id': 2552,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '魔靈煞 ‧ 火',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 隨機將 2 直行的符石<br>⇒ 轉化為火魔族符石<br>1 回合內<br>II. 隊長及戰友攻擊力 3 倍',
+                'tag': ['符石轉火', '魔族符石製造', '增傷', '界王拳']
+            },
+            {
+                'name': '合體',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': -1,
+                'combine':
+                {
+                    'member': [2547, 2552],
+                    'out': 2557
+                },
+                'description': '「沐火狂嘯 ‧ 阿基里斯」和「流麗盾舞 ‧ 忒提斯」相連時可以合體：<br>1 回合內<br>I. 合體角色攻擊力 1.5 倍<br>II. 將合體角色對敵方造成傷害的 5%<br>⇒ 轉化為生命力<br>(不計算主動技傷害)<br>⇒ 最大為生命力等值的 100%',
+                'tag': ['合體']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，最左方的「沐火狂嘯 ‧ 阿基里斯」及最左方的「流麗盾舞 ‧ 忒提斯」<br>⇒ 技能 CD -5',
+                'activate': '以「沐火狂嘯 ‧ 阿基里斯」及「流麗盾舞 ‧ 忒提斯」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2547, 2552]
+            }
+        ]
     },
     {
         'id': 2553,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '薔薇連擊 ‧ 強',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '3 回合內<br>I. 將自身直行的符石<br>⇒ 轉化為強化符石<br>II. 個人追打木屬性攻擊 1 次',
+                'tag': [['符石強化', 3], ['木屬追打', 3], ['自身追打', 3]]
+            },
+            {
+                'name': '合體',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': -1,
+                'combine':
+                {
+                    'member': [2548, 2553],
+                    'out': 2558
+                },
+                'description': '「恨愛芒刺 ‧ 迪爾姆德」和「香郁尖刺 ‧ 艾摩婭與瑟露絲」相連時可以合體：<br>1 回合內<br>I. 合體角色攻擊力 1.5 倍<br>II. 將合體角色對敵方造成傷害的 5%<br>⇒ 轉化為生命力<br>(不計算主動技傷害)<br>⇒ 最大為生命力等值的 100%',
+                'tag': ['合體']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，最左方的「恨愛芒刺 ‧ 迪爾姆德」及最左方的「香郁尖刺 ‧ 艾摩婭與瑟露絲」<br>⇒ 技能 CD -3',
+                'activate': '以「恨愛芒刺 ‧ 迪爾姆德」及「香郁尖刺 ‧ 艾摩婭與瑟露絲」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2548, 2553]
+            }
+        ]
     },
     {
         'id': 2554,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '捨生換夕 ‧ 強',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': '2 回合內<br>I. 將每直行首粒符石轉化為<br>⇒ 該直行成員的種族符石<br>II. 每回合扣除 15% 自身生命力<br>III. 敵方全體無法行動<br><br>效果會因自身生命力不足 15% 而消失',
+                'tag': [['魔族符石製造', 2], ['我方扣血', 2], ['無法行動', 2]]
+            },
+            {
+                'name': '合體',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': -1,
+                'combine':
+                {
+                    'member': [2549, 2554],
+                    'out': 2559
+                },
+                'description': '「劍戟武侯 ‧ 源義經」和「砉然游刃 ‧ 今劍與薄綠」相連時可以合體：<br>1 回合內<br>I. 合體角色攻擊力 1.5 倍<br>II. 將合體角色對敵方造成傷害的 5%<br>⇒ 轉化為生命力<br>(不計算主動技傷害)<br>⇒ 最大為生命力等值的 100%',
+                'tag': ['合體']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，最左方的「劍戟武侯 ‧ 源義經」及最左方的「砉然游刃 ‧ 今劍與薄綠」<br>⇒ 技能 CD -5',
+                'activate': '以「劍戟武侯 ‧ 源義經」及「砉然游刃 ‧ 今劍與薄綠」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2549, 2554]
+            }
+        ]
     },
     {
         'id': 2555,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '魔靈煞 ‧ 暗',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 隨機將 2 直行的符石<br>⇒ 轉化為暗魔族符石<br>1 回合內<br>II. 隊長及戰友攻擊力 3 倍',
+                'tag': ['符石轉暗', '魔族符石製造', '增傷', '界王拳']
+            },
+            {
+                'name': '合體',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': -1,
+                'combine':
+                {
+                    'member': [2550, 2555],
+                    'out': 2560
+                },
+                'description': '「沙場無敵 ‧ 呂布」和「悚駭轍印 ‧ 呂凌霜」相連時可以合體：<br>1 回合內<br>I. 合體角色攻擊力 1.5 倍<br>II. 將合體角色對敵方造成傷害的 5%<br>⇒ 轉化為生命力<br>(不計算主動技傷害)<br>⇒ 最大為生命力等值的 100%',
+                'tag': ['合體']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，最左方的「沙場無敵 ‧ 呂布」及最左方的「悚駭轍印 ‧ 呂凌霜」<br>⇒ 技能 CD -5',
+                'activate': '以「沙場無敵 ‧ 呂布」及「悚駭轍印 ‧ 呂凌霜」作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2550, 2555]
+            }
+        ]
     },
     {
         'id': 2556,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '魔族',
+        'star': 8,
         'skill': [
             {
-                'name': '',
+                'name': '巨浪滔天的戰場',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': '2 回合內<br>I. 將敵方全體轉為火屬性<br>II. 提升水屬性<br>⇒ 對火屬性目標的攻擊力<br>III. 所有成員追打<br>⇒ 水屬性攻擊 1 次<br>IV. 效果期間若擊斃所有敵人<br>⇒ 當前技能 CD -4',
+                'tag': [['敵方轉屬', 2], ['增傷', 2], ['水屬追打', 2], ['全隊追打', 2], ['減CD', 2]]
+            },
+            {
+                'name': '魔靈煞 ‧ 水波',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 還原所有「碎裂」的位置<br>II. 引爆自身左直行及隨機 1 直行符石<br>⇒ 掉落水魔族強化符石<br>1 回合內<br>III. 自身、隊長及戰友<br>⇒ 攻擊力 3.5 倍',
+                'tag': ['碎裂還原', '引爆', '直行引爆', '強制掉落', '魔族符石製造', '增傷', '界王拳']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 每回合個人以 30% 攻擊力追打 1 次<br>II. 自身對龍類及機械族目標<br>⇒ 攻擊力額外 3 倍',
+                'activate': '以「滄浪鈞斧 ‧ 貝奧武夫」作成員',
+                'skill_tag': ['水屬追打', '增攻', '對龍類增傷', '對機械族增傷'],
+                'activate_tag': [],
+                'relative': [2556]
+            }
+        ]
     },
     {
         'id': 2557,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '魔族',
+        'star': 8,
         'skill': [
             {
-                'name': '',
+                'name': '烽火紛飛的戰場',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': '2 回合內<br>I. 將敵方全體轉為木屬性<br>II. 提升火屬性<br>⇒ 對木屬性目標的攻擊力<br>III. 所有成員追打<br>⇒ 火屬性攻擊 1 次<br>IV. 效果期間若擊斃所有敵人<br>⇒ 當前技能 CD -4',
+                'tag': [['敵方轉屬', 2], ['增傷', 2], ['火屬追打', 2], ['全隊追打', 2], ['減CD', 2]]
+            },
+            {
+                'name': '魔靈煞 ‧ 火燄',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 還原所有「碎裂」的位置<br>II. 引爆自身左直行及隨機 1 直行符石<br>⇒ 掉落火魔族強化符石<br>1 回合內<br>III. 自身、隊長及戰友<br>⇒ 攻擊力 3.5 倍',
+                'tag': ['碎裂還原', '引爆', '直行引爆', '強制掉落', '魔族符石製造', '增傷', '界王拳']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 每回合個人以 30% 攻擊力追打 1 次<br>II. 自身對神族及機械族目標<br>⇒ 攻擊力額外 3 倍',
+                'activate': '以「熔煉護盾‧ 阿基里斯」作成員',
+                'skill_tag': ['火屬追打', '增攻', '對神族增傷', '對機械族增傷'],
+                'activate_tag': [],
+                'relative': [2557]
+            }
+        ]
     },
     {
         'id': 2558,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '魔族',
+        'star': 8,
         'skill': [
             {
-                'name': '',
+                'name': '森魔攻勢 ‧ 強',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 引爆弱化符石、電擊符石、心符石<br>⇒ 掉落木魔族強化符石<br>II. 若上述引爆符石 ≥15 粒<br>⇒ 1 回合內，連擊 (Combo) 增加 5',
+                'tag': ['引爆', '心符石引爆', '弱化符石處理', '電擊符石處理', '強制掉落', '魔族符石製造', '增加Combo']
+            },
+            {
+                'name': '藤木連環擊',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': '2 回合內<br>I. 發動技能及每回合結束時<br>⓵ 將木屬性成員直行符石<br>⇒ 轉化為強化符石<br>⓶ 魔族成員直行符石<br>⇒ 則轉化為魔族強化符石<br>II. 木屬性成員追打 1 次',
+                'tag': [['符石強化', 2], ['魔族符石製造', 2], ['木屬追打', 2]]
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 每回合個人以 30% 攻擊力追打 1 次<br>II. 自身對獸類及機械族目標<br>⇒ 攻擊力額外 3 倍',
+                'activate': '以「荊林怒放 ‧ 迪爾姆德」作成員',
+                'skill_tag': ['木屬追打', '增攻', '對獸類增傷', '對機械族增傷'],
+                'activate_tag': [],
+                'relative': [2558]
+            }
+        ]
     },
     {
         'id': 2559,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '魔族',
+        'star': 8,
         'skill': [
             {
-                'name': '',
+                'name': '玄靈攻濤陣',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': '將所有符石轉化<br>⓵ 12 粒光強化符石<br>⓶「心及水」強化符石各 9 粒',
+                'tag': ['符石轉光', '符石轉光強化', '符石轉心', '符石轉心強化', '符石轉水', '符石轉水強化', '大幅轉版']
+            },
+            {
+                'name': '捨生換日 ‧ 強',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 8,
+                'description': '3 回合內<br>I. 將每直行首粒符石轉化為<br>⇒ 該直行成員的種族強化符石<br>II. 每回合扣除 15% 自身生命力<br>III. 敵方全體無法行動<br><br>效果會因自身生命力不足 15% 而消失',
+                'tag': [['符石強化', 3], ['魔族符石製造', 3], ['我方扣血', 3], ['無法行動', 3]]
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 每回合個人以 30% 攻擊力追打 1 次<br>II. 自身對妖精類及機械族目標<br>⇒ 攻擊力額外 3 倍',
+                'activate': '以「合璧之刃 ‧ 源義經」作成員',
+                'skill_tag': ['光屬追打', '增攻', '對妖精類增傷', '對機械族增傷'],
+                'activate_tag': [],
+                'relative': [2559]
+            }
+        ]
     },
     {
         'id': 2560,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '魔族',
+        'star': 8,
         'skill': [
             {
-                'name': '',
+                'name': '速戰決意 ‧ 風火無懼',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 消耗敵方 40% 總生命力<br><br>2 回合內<br>II. 觸碰暴風時仍可移動符石<br>III. 無視「燃燒」敵技<br>IV. 全隊攻擊力 2.6 倍<br><br>V. 第 3 回合全隊不能發動攻擊',
+                'tag': ['直傷', ['無視暴風', 2], ['無視燃燒', 2], ['增傷', 2], '限制成員攻擊']
+            },
+            {
+                'name': '魔靈煞 ‧ 幽冥',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 還原所有「碎裂」的位置<br>II. 引爆自身左直行及隨機 1 直行符石<br>⇒ 掉落暗魔族強化符石<br>1 回合內<br>III. 自身、隊長及戰友<br>⇒ 攻擊力 3.5 倍',
+                'tag': ['碎裂還原', '引爆', '直行引爆', '強制掉落', '魔族符石製造', '增傷', '界王拳']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 每回合個人以 30% 攻擊力追打 1 次<br>II. 自身對人類及機械族目標<br>⇒ 攻擊力額外 3 倍',
+                'activate': '以「馳風馭者 ‧ 呂布」作成員',
+                'skill_tag': ['暗屬追打', '增攻', '對人類增傷', '對機械族增傷'],
+                'activate_tag': [],
+                'relative': [2560]
+            }
+        ]
     },
     {
         'id': 2561,
@@ -60487,33 +60777,33 @@ const monster_data = [
     },
     {
         'id': 2562,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '妖精類',
+        'star': 5,
         'skill': [
             {
-                'name': '',
+                'name': '觸手驚心',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 將心符石轉化為<br>⇒ 隊長屬性符石<br>II. 將火符石轉化為<br>⇒ 妖族強化符石<br>1 回合內<br>III. 隊長屬性符石<br>⇒ 兼具 50% 其他符石效果<br>IV. 隊伍中每多 1 種族成員<br>⇒ 額外增加 1 回合效果<br>⇒ 最多持續 3 回合',
+                'tag': ['心轉其他', '符石轉火強化', '符石強化', '妖族符石製造', ['符石兼具水', 3], ['符石兼具火', 3], ['符石兼具木', 3], ['符石兼具光', 3], ['符石兼具暗', 3], ['符石兼具心', 3]]
             }
         ],
         'team_skill': []
     },
     {
         'id': 2563,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '魔族',
+        'star': 5,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
@@ -60521,16 +60811,16 @@ const monster_data = [
     },
     {
         'id': 2564,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '魔族',
+        'star': 5,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
@@ -60538,16 +60828,16 @@ const monster_data = [
     },
     {
         'id': 2565,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '獸類',
+        'star': 5,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
@@ -60843,17 +61133,17 @@ const monster_data = [
     },
     {
         'id': 2578,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '魔族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '魔之風暴',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 將木及心符石轉化為<br>⇒ 魔族強化符石<br>1 回合內<br>II. 無視「黏腐」敵技<br>III. 觸碰暴風時仍可移動符石<br>IV. 每首批消除 1 粒魔族符石<br>⇒ 額外增加 1 連撃 (Combo)<br>⇒ 最多可增加 10 Combo',
+                'tag': ['符石轉木強化', '符石轉心強化', '符石強化', '魔族符石製造', '無視黏腐', '無視暴風', '增加Combo']
             }
         ],
         'team_skill': []
