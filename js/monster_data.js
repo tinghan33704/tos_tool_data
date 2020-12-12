@@ -1,4 +1,4 @@
-// Last modified : 2020.12.05 17:43
+// Last modified : 2020.12.12 23:41
 
 const monster_data = [
     {
@@ -46988,6 +46988,13 @@ const monster_data = [
                 'skill_tag': ['增攻', '攻擊力共鳴'],
                 'activate_tag': ['指定雙隊長', '指定種族成員'],
                 'relative': [2054]
+            },
+            {
+                'description': '「炙烈熔岩 ‧ 克魯非」<br>⓵ 生命力及攻擊力 2 倍<br>⓶ 技能 CD -1',
+                'activate': '以「炙烈熔岩 ‧ 克魯非」及；「魔性原罪 · 夏娃」或「瀾漫勾惑 ‧ 夏娃」作成員',
+                'skill_tag': [],
+                'activate_tag': ['指定成員'],
+                'relative': [2574, 2054]
             }
         ]
     },
@@ -53607,7 +53614,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': 'I. 引爆「火及心以外」符石<br>⇒ 掉落隊伍成員屬性強化符石<br><br>1 回合內<br>II. 自身攻擊力 10 倍，此傷害無視防禦力，其他成員不能發動攻擊<br><br>III. 若隊伍中有任何「西索」<br>⇒ 所受傷害不會使你死亡<br><br>IV. 若隊伍中有任何「比司吉」<br>⇒ 火及心符石互相兼具效果',
+                'description': 'I. 引爆「火及心以外」符石<br>⇒ 掉落隊伍成員屬性強化符石<br><br>1 回合內<br>II. 自身攻擊力 10 倍，此傷害無視防禦力，其他成員不能發動攻擊<br>III. 若隊伍中有任何「西索」<br>⇒ 所受傷害不會使你死亡<br>IV. 若隊伍中有任何「比司吉」<br>⇒ 火及心符石互相兼具效果',
                 'tag': ['引爆', '火外符石引爆', '心外符石引爆', '強制掉落', '增傷', '界王拳', '破防', '限制成員攻擊', '意志', '符石兼具火', '符石兼具心']
             }
         ],
@@ -61049,20 +61056,28 @@ const monster_data = [
     },
     {
         'id': 2574,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '獄炎魔殺炮',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 引爆木符石<br>⇒ 掉落火強化符石<br><br>II. 魔族攻擊力 1.8 倍<br>III. 每回合魔族成員首次發動主動技能時<br>⇒ 對敵方全體造成 600 萬火屬性傷害<br>(此傷害無視敵人防禦力)<br>效果會在進入下一層數 (Wave) 時消失',
+                'tag': ['引爆', '木符石引爆', '強制掉落', ['增傷', -1], ['直傷', -1], ['破防直傷', -1]]
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '「炙烈熔岩 ‧ 克魯非」<br>⓵ 生命力及攻擊力 2 倍<br>⓶ 技能 CD -1',
+                'activate': '以「炙烈熔岩 ‧ 克魯非」及；「魔性原罪 · 夏娃」或「瀾漫勾惑 ‧ 夏娃」作成員',
+                'skill_tag': ['增攻', '增血', '永久減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2574, 2054]
+            }
+        ]
     },
     {
         'id': 2575,
@@ -61150,17 +61165,17 @@ const monster_data = [
     },
     {
         'id': 2579,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '神族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '神火之襲',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '隊長需為神族才可發動此技能：<br>1 回合內<br>I. 神族攻擊力 1.8 倍<br>II. 神族成員以 50% 攻擊力<br>⇒ 追打火及光屬性攻擊各 1 次<br>III. 首批消除火神族符石時<br>⇒ 當前技能 CD -3',
+                'tag': ['增傷', '火屬追打', '光屬追打', '減CD']
             }
         ],
         'team_skill': []
@@ -61269,85 +61284,93 @@ const monster_data = [
     },
     {
         'id': 2586,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '機械族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '連擊契約',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 引爆所有凍結符石及弱化符石<br>II. 自身攻擊力減至 1<br>III. 連擊 (Ex. Combo、Combo) 時<br>⇒ 攻擊力提升 40%<br>效果持續至沒有達成 ≥4 連擊 (Combo)',
+                'tag': ['引爆', '凍結符石處理', '弱化符石處理', ['我方減攻', -1], ['增傷', -1]]
             }
         ],
         'team_skill': []
     },
     {
         'id': 2587,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '人類',
+        'star': 8,
         'skill': [
             {
-                'name': '',
+                'name': '熾烈的力量',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
-                'tag': []
+                'description': 'I. 引爆「火及心以外」符石<br>⇒ 掉落隊伍成員屬性強化符石<br><br>1 回合內<br>II. 自身攻擊力 10 倍，此傷害無視防禦力，其他成員不能發動攻擊<br>III. 若隊伍中有「卿雲護庇 ‧ 蒼璧」或「豁達浪息 ‧ 蒼璧」<br>⇒ 所受傷害不會使你死亡<br>IV. 若隊伍中有「編號 8299 ‧ 南納」<br>⇒ 火及心符石互相兼具效果',
+                'tag': ['引爆', '火外符石引爆', '心外符石引爆', '強制掉落', '增傷', '界王拳', '破防', '限制成員攻擊', '意志', '符石兼具火', '符石兼具心']
             }
         ],
         'team_skill': []
     },
     {
         'id': 2588,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '慾念釋放',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 自身攻擊力 4 倍<br>II. 自身攻擊傷害<br>⇒ 可克制敵人<br>效果持續至首批消除 1 組 ≥6 粒光符石',
+                'tag': [['增傷', -1], ['界王拳', -1], ['屬性剋制改變', -1]]
+            },
+            {
+                'name': '極限戰鬥時間',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 9,
+                'description': 'I. 隊伍中有 ≥3 個光屬性人類時<br>⇒ 將場上的符石變回原始模樣<br><br>2 回合內<br>II. 每回合開始時<br>⇒ 扣自身總生命力 25%<br>III. 全隊攻擊力 2 倍<br>IV. 延長移動符石時間至 20 秒<br>V. 隊伍不會被封鎖主動技能',
+                'tag': ['還原版面', ['我方扣血', 2], ['增傷', 2], ['延長轉珠時間', 2], ['防鎖', 2]]
             }
         ],
         'team_skill': []
     },
     {
         'id': 2589,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '重力鎮壓',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 9,
+                'description': '2 回合內<br>I. 敵人全體無法行動<br>II. 效果期間，於每回合結束時<br>⇒ 消耗敵方現有 10% 當前生命力',
+                'tag': [['無法行動', 2], ['直傷', 2]]
             }
         ],
         'team_skill': []
     },
     {
         'id': 2590,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '堅壯的臂膀',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 1 回合內，減少 75% 所受傷害<br>II. 下回合迴避所有敵人的攻擊',
+                'tag': ['減傷', '迴避']
             }
         ],
         'team_skill': []
