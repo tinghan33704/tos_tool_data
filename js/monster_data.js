@@ -1,4 +1,4 @@
-// Last modified : 2020.12.19 01:15
+// Last modified : 2020.12.27 16:09
 
 const monster_data = [
     {
@@ -58749,17 +58749,17 @@ const monster_data = [
     },
     {
         'id': 2494,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '妖精類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '擊破固定',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 將 12 粒符石<br>⇒ 轉化為妖族強化符石<br>(非種族符石優先轉換)<br>1 回合內<br>II. 自身攻擊力減至 0<br>III. 左旁成員攻擊力 5 倍<br>IV. 左旁成員無視「固定連擊盾」',
+                'tag': ['符石強化', '妖族符石製造', '我方減攻', '增傷', '界王拳', '無視固定連擊盾']
             }
         ],
         'team_skill': []
@@ -61203,17 +61203,17 @@ const monster_data = [
     },
     {
         'id': 2580,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '冰之雪舞',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 引爆所有凍結符石及火符石<br>⇒ 掉落水人族符石<br>2 回合內<br>II. 火符石的掉落率降至 0<br>III. 將原有機率增加至<br>⇒ 水符石的掉落率<br>IV. 無視「燃燒」敵技<br>(不包括「煉獄之火」)',
+                'tag': ['引爆', '凍結符石處理', '火符石引爆', '強制掉落', '人族符石製造', ['禁珠', 2], ['改變掉落機率', 2], ['無視燃燒', 2]]
             }
         ],
         'team_skill': []
@@ -61623,6 +61623,686 @@ const monster_data = [
     },
     {
         'id': 2600,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2601,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2602,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2603,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2604,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2605,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2606,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2607,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2608,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2609,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2610,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2611,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2612,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2613,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2614,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2615,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2616,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2617,
+        'attribute': '火',
+        'race': '機械族',
+        'star': 6,
+        'skill': [
+            {
+                'name': '蔓延熱焰',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': '',
+                'tag': ['引爆', '直行引爆', '強制掉落', ['敵方轉屬', 3], ['點燃敵方', 3]]
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2618,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2619,
+        'attribute': '光',
+        'race': '機械族',
+        'star': 6,
+        'skill': [
+            {
+                'name': '天使光環',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': '',
+                'tag': ['回血', '引爆', '心符石引爆', ['增傷', 4], ['減傷', 4]]
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2620,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2621,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2622,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2623,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2624,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2625,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2626,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2627,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2628,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2629,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2630,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2631,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2632,
+        'attribute': '水',
+        'race': '機械族',
+        'star': 0,
+        'skill': [
+            {
+                'name': '打倒 非正規資料！',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': '',
+                'tag': ['行動值提升', '引爆', '直行引爆', '強制掉落']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2633,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2634,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2635,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2636,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2637,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2638,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2639,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2640,
         'attribute': '',
         'race': '',
         'star': 0,
