@@ -1,4 +1,4 @@
-// Last modified : 2021.01.02 01:12
+// Last modified : 2021.01.04 20:45
 
 const monster_data = [
     {
@@ -61606,16 +61606,16 @@ const monster_data = [
     },
     {
         'id': 2599,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '進化素材',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
@@ -62347,7 +62347,7 @@ const monster_data = [
         'id': 2630,
         'attribute': '暗',
         'race': '機械族',
-        'star': 5,
+        'star': 6,
         'skill': [
             {
                 'name': '散彈冰槍',
@@ -62397,7 +62397,7 @@ const monster_data = [
         'id': 2632,
         'attribute': '水',
         'race': '機械族',
-        'star': 0,
+        'star': 6,
         'skill': [
             {
                 'name': '打倒 非正規資料！',
@@ -62427,16 +62427,16 @@ const monster_data = [
     },
     {
         'id': 2633,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '強化素材',
+        'star': 4,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
