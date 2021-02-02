@@ -61487,17 +61487,17 @@ const monster_data = [
     },
     {
         'id': 2592,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '魔族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '赤身突擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '1 回合內<br>I. 全隊回復力減至 0<br>II. 個人隨機追打 4 至 6 次<br>III. 隊中每多 1 個火屬性成員<br>⇒ 額外增加 1 回合效果<br>⇒ 最多持續 5 回合',
+                'tag': [['我方減回', 5], ['火屬追打', 5], ['自身追打', 5]]
             }
         ],
         'team_skill': []
@@ -61538,20 +61538,35 @@ const monster_data = [
     },
     {
         'id': 2595,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '神族',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '血戰山河',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 若以九黎戰神 ‧ 蚩尤作隊長<br>⇒ 還原所有「碎裂」的位置<br>II. 點選其中 1 個版面<br>⓵ 移除所有符石<br>⓶ 掉落該固定版面符石<br><br>▋ 九戰九勝【水、火、木】 <br>▋ 制五兵之器【五屬及心】<br> ▋ 三日三夜霧冥【光、暗、心】<br><br>狂戰狀態下才可發動<br>▋ 八方萬邦弭服【終極 ‧ 五屬及心】',
+                'tag': ['碎裂還原', '移除符石', '強制掉落']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 將移動符石時觸碰的電擊、凍結、弱化、化血、石化符石狀態解除<br>⇒ 並轉化為神族符石<br><br>II.「燃燒」敵技傷害減至 1<br><br>III. 記錄「移動符石時間完結一刻」場上的符石分佈<br>⇒ 首批掉落所記錄的符石<br>(並加強為神族強化符石)<br><br>IV. 火符石兼具其他符石效果<br><br>V. 其他符石兼具火符石效果<br><br>VI.「九黎戰神 ‧ 蚩尤」的攻擊<br>⇒ 無視指定減傷抗性敵技<br><br>VII.「九黎戰神 ‧ 蚩尤」<br>⇒ 技能 CD -2<br><br>VIII. 於「九黎戰神 ‧ 蚩尤」直行位置結束轉珠 (需消除符石)<br>⇒ 完全回復生命力',
+                'activate': '以「九黎戰神 ‧ 蚩尤」作隊長及戰友',
+                'skill_tag': ['電擊符石處理', '凍結符石處理', '弱化符石處理', '化血符石處理', '石化符石處理', '神族符石製造', '無視燃燒', '強制掉落', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '永久減CD', '回血'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2595]
+            },
+            {
+                'description': 'I. 觸碰「燃燒」位置或累積消除 ≥30 粒火符石後<br>⇒「九黎戰神 ‧ 蚩尤」進入狂戰狀態<br>* 召喚師死亡後結束狂戰狀態及重置累積火符石數量<br><br>II. 狂戰狀態的「九黎戰神 ‧ 蚩尤」<br>⓵ 攻擊力 2.5 倍<br>⓶ 攻擊克制水屬性目標<br>⓷ 無視敵人防禦力',
+                'activate': '以「九黎戰神 ‧ 蚩尤」作成員',
+                'skill_tag': ['增攻', '破防', '屬性剋制改變'],
+                'activate_tag': [],
+                'relative': [2595]
+            },
+        ]
     },
     {
         'id': 2596,
@@ -63532,7 +63547,7 @@ const monster_data = [
                 'name': '元素護壁',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 8,
                 'description': '3 回合內，所受傷害減少 30%，並有 70 % 迴避敵人的攻擊',
                 'tag': [['減傷', 3], ['迴避', 3]]
             },
@@ -63541,7 +63556,7 @@ const monster_data = [
                 'type': 'refine',
                 'refine': 4,
                 'charge': 'CD',
-                'num': 12,
+                'num': 8,
                 'description': '5 回合內，所受傷害減少 30%，並有 70% 迴避敵人的攻擊',
                 'tag': [['減傷', 5], ['迴避', 5]]
             }
@@ -63558,7 +63573,7 @@ const monster_data = [
                 'name': '元素護壁',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 8,
                 'description': '3 回合內，所受傷害減少 30%，並有 70 % 迴避敵人的攻擊',
                 'tag': [['減傷', 3], ['迴避', 3]]
             },
@@ -63567,7 +63582,7 @@ const monster_data = [
                 'type': 'refine',
                 'refine': 4,
                 'charge': 'CD',
-                'num': 12,
+                'num': 8,
                 'description': '5 回合內，所受傷害減少 30%，並有 70% 迴避敵人的攻擊',
                 'tag': [['減傷', 5], ['迴避', 5]]
             }
@@ -63584,7 +63599,7 @@ const monster_data = [
                 'name': '淨世一擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 6,
                 'description': '消除所有附加效果，每個消除的效果對敵方全體造成 50,000 點無屬性傷害',
                 'tag': ['直傷', '附加消除']
             },
@@ -63593,7 +63608,7 @@ const monster_data = [
                 'type': 'refine',
                 'refine': 4,
                 'charge': 'CD',
-                'num': 12,
+                'num': 6,
                 'description': '消除所有附加效果，每個消除的效果對敵方全體造成 50,000 點無屬性傷害，此傷害無視防禦力',
                 'tag': ['直傷', '破防直傷', '附加消除']
             }
@@ -63610,7 +63625,7 @@ const monster_data = [
                 'name': '淨世一擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 6,
                 'description': '消除所有附加效果，每個消除的效果對敵方全體造成 50,000 點無屬性傷害',
                 'tag': ['直傷', '附加消除']
             },
@@ -63619,7 +63634,7 @@ const monster_data = [
                 'type': 'refine',
                 'refine': 4,
                 'charge': 'CD',
-                'num': 12,
+                'num': 6,
                 'description': '消除所有附加效果，每個消除的效果對敵方全體造成 50,000 點無屬性傷害，此傷害無視防禦力',
                 'tag': ['直傷', '破防直傷', '附加消除']
             }
@@ -63678,7 +63693,7 @@ const monster_data = [
                 'name': '元素轉移 ‧ 光',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 10,
+                'num': 6,
                 'description': '3 回合內，消除一組 5 粒或以上光屬性以外的屬性符石，必定產生 5 粒光符石',
                 'tag': [['強制掉落', 3]]
             }
@@ -63695,7 +63710,7 @@ const monster_data = [
                 'name': '元素轉移 ‧ 光',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 10,
+                'num': 6,
                 'description': '3 回合內，消除一組 5 粒或以上光屬性以外的屬性符石，必定產生 5 粒光符石',
                 'tag': [['強制掉落', 3]]
             }
@@ -63712,7 +63727,7 @@ const monster_data = [
                 'name': '幽冥追擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 10,
+                'num': 5,
                 'description': '自身發動攻擊時，個人追打暗屬性攻擊 1 次，效果持續至自身沒有發動攻擊為止。效果持續期間技能不會冷卻',
                 'tag': [['自身追打', -1], ['暗屬追打', -1]]
             }
@@ -63729,7 +63744,7 @@ const monster_data = [
                 'name': '幽冥追擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 10,
+                'num': 5,
                 'description': '自身發動攻擊時，個人追打暗屬性攻擊 1 次，效果持續至自身沒有發動攻擊為止。效果持續期間技能不會冷卻',
                 'tag': [['自身追打', -1], ['暗屬追打', -1]]
             }
@@ -63746,7 +63761,7 @@ const monster_data = [
                 'name': '念之躍動',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 6,
                 'description': '於移動符石時間內，可任意移動符石而不會發動消除，效果持續 3 回合',
                 'tag': [['排珠', 3]]
             }
@@ -63763,7 +63778,7 @@ const monster_data = [
                 'name': '念之躍動',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 6,
                 'description': '於移動符石時間內，可任意移動符石而不會發動消除，效果持續 3 回合',
                 'tag': [['排珠', 3]]
             }
@@ -63780,7 +63795,7 @@ const monster_data = [
                 'name': '時空裂縫',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 5,
                 'description': '10 秒內，可任意移動符石，該次移動符石不會造成任何消除，並不會作 1 回合計算',
                 'tag': ['排珠']
             }
@@ -63797,7 +63812,7 @@ const monster_data = [
                 'name': '時空裂縫',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 5,
                 'description': '10 秒內，可任意移動符石，該次移動符石不會造成任何消除，並不會作 1 回合計算',
                 'tag': ['排珠']
             }
@@ -64448,7 +64463,7 @@ const monster_data = [
                 'name': '元素護壁',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 8,
                 'description': '3 回合內，所受傷害減少 30%，並有 70 % 迴避敵人的攻擊',
                 'tag': [['減傷', 3], ['迴避', 3]]
             },
@@ -64457,7 +64472,7 @@ const monster_data = [
                 'type': 'refine',
                 'refine': 4,
                 'charge': 'CD',
-                'num': 12,
+                'num': 8,
                 'description': '5 回合內，所受傷害減少 30%，並有 70% 迴避敵人的攻擊',
                 'tag': [['減傷', 5], ['迴避', 5]]
             }
@@ -64474,7 +64489,7 @@ const monster_data = [
                 'name': '元素護壁',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 8,
                 'description': '3 回合內，所受傷害減少 30%，並有 70 % 迴避敵人的攻擊',
                 'tag': [['減傷', 3], ['迴避', 3]]
             },
@@ -64483,7 +64498,7 @@ const monster_data = [
                 'type': 'refine',
                 'refine': 4,
                 'charge': 'CD',
-                'num': 12,
+                'num': 8,
                 'description': '5 回合內，所受傷害減少 30%，並有 70% 迴避敵人的攻擊',
                 'tag': [['減傷', 5], ['迴避', 5]]
             }
@@ -64500,7 +64515,7 @@ const monster_data = [
                 'name': '淨世一擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 6,
                 'description': '消除所有附加效果，每個消除的效果對敵方全體造成 50,000 點無屬性傷害',
                 'tag': ['直傷', '附加消除']
             },
@@ -64509,7 +64524,7 @@ const monster_data = [
                 'type': 'refine',
                 'refine': 4,
                 'charge': 'CD',
-                'num': 12,
+                'num': 6,
                 'description': '消除所有附加效果，每個消除的效果對敵方全體造成 50,000 點無屬性傷害，此傷害無視防禦力',
                 'tag': ['直傷', '破防直傷', '附加消除']
             }
@@ -64526,7 +64541,7 @@ const monster_data = [
                 'name': '淨世一擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 6,
                 'description': '消除所有附加效果，每個消除的效果對敵方全體造成 50,000 點無屬性傷害',
                 'tag': ['直傷', '附加消除']
             },
@@ -64535,7 +64550,7 @@ const monster_data = [
                 'type': 'refine',
                 'refine': 4,
                 'charge': 'CD',
-                'num': 12,
+                'num': 6,
                 'description': '消除所有附加效果，每個消除的效果對敵方全體造成 50,000 點無屬性傷害，此傷害無視防禦力',
                 'tag': ['直傷', '破防直傷', '附加消除']
             }
@@ -64586,7 +64601,7 @@ const monster_data = [
                 'name': '元素轉移 ‧ 光',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 10,
+                'num': 6,
                 'description': '3 回合內，消除一組 5 粒或以上光屬性以外的屬性符石，必定產生 5 粒光符石',
                 'tag': [['強制掉落', 3]]
             }
@@ -64603,7 +64618,7 @@ const monster_data = [
                 'name': '元素轉移 ‧ 光',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 10,
+                'num': 6,
                 'description': '3 回合內，消除一組 5 粒或以上光屬性以外的屬性符石，必定產生 5 粒光符石',
                 'tag': [['強制掉落', 3]]
             }
@@ -64620,7 +64635,7 @@ const monster_data = [
                 'name': '幽冥追擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 10,
+                'num': 5,
                 'description': '自身發動攻擊時，個人追打暗屬性攻擊 1 次，效果持續至自身沒有發動攻擊為止。效果持續期間技能不會冷卻',
                 'tag': [['自身追打', -1], ['暗屬追打', -1]]
             }
@@ -64637,7 +64652,7 @@ const monster_data = [
                 'name': '幽冥追擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 10,
+                'num': 5,
                 'description': '自身發動攻擊時，個人追打暗屬性攻擊 1 次，效果持續至自身沒有發動攻擊為止。效果持續期間技能不會冷卻',
                 'tag': [['自身追打', -1], ['暗屬追打', -1]]
             }
@@ -64654,7 +64669,7 @@ const monster_data = [
                 'name': '念之躍動',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 6,
                 'description': '於移動符石時間內，可任意移動符石而不會發動消除，效果持續 3 回合',
                 'tag': [['排珠', 3]]
             }
@@ -64671,7 +64686,7 @@ const monster_data = [
                 'name': '念之躍動',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 6,
                 'description': '於移動符石時間內，可任意移動符石而不會發動消除，效果持續 3 回合',
                 'tag': [['排珠', 3]]
             }
@@ -64688,7 +64703,7 @@ const monster_data = [
                 'name': '時空裂縫',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 5,
                 'description': '10 秒內，可任意移動符石，該次移動符石不會造成任何消除，並不會作 1 回合計算',
                 'tag': ['排珠']
             }
@@ -64705,7 +64720,7 @@ const monster_data = [
                 'name': '時空裂縫',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 5,
                 'description': '10 秒內，可任意移動符石，該次移動符石不會造成任何消除，並不會作 1 回合計算',
                 'tag': ['排珠']
             }
