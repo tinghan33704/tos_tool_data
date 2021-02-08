@@ -1,4 +1,4 @@
-// Last modified : 2021.02.07 02:51
+// Last modified : 2021.02.08 20:13
 
 const monster_data = [
     {
@@ -12828,6 +12828,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
+                'reduce': 1,
                 'description': 'I. 將火符石轉化為<br>⇒ 心強化符石<br>II. 將自身直行符石轉化為<br>⇒ 心符石',
                 'tag': ['火轉其他', '符石轉心強化', '符石轉心']
             }
@@ -12860,6 +12861,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
+                'reduce': 1,
                 'description': 'I. 將木符石轉化為<br>⇒ 心強化符石<br>II. 將自身直行符石轉化為<br>⇒ 心符石',
                 'tag': ['木轉其他', '符石轉心強化', '符石轉心']
             }
@@ -12906,6 +12908,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
+                'reduce': 1,
                 'description': 'I. 將水符石轉化為<br>⇒ 心強化符石<br>II. 將自身直行符石轉化為<br>⇒ 心符石',
                 'tag': ['水轉其他', '符石轉心強化', '符石轉心']
             }
