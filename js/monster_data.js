@@ -1,4 +1,4 @@
-// Last modified : 2021.02.08 20:13
+// Last modified : 2021.02.12 23:22
 
 const monster_data = [
     {
@@ -58615,17 +58615,17 @@ const monster_data = [
     },
     {
         'id': 2493,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '妖精類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '魅力移動',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
+                'num': 6,
                 'description': '',
-                'tag': []
+                'tag': ['符石強化', '妖族符石製造', '排珠', '我方減攻', '增傷', '界王拳', '破防']
             }
         ],
         'team_skill': []
@@ -61353,17 +61353,17 @@ const monster_data = [
     },
     {
         'id': 2591,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '龍類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '天降之掌',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '1 回合內<br>I. 首批掉落的 8 粒符石<br>⇒ 必定為隊長屬性符石<br>II. 若隊中只有龍類成員<br>⇒ 效果持續 2 回合',
+                'tag': [['強制掉落', 2]]
             }
         ],
         'team_skill': []
@@ -61453,37 +61453,53 @@ const monster_data = [
     },
     {
         'id': 2596,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '獸類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '獸之威望',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': '1 回合內<br>I. 延長移動符石時間至 12 秒<br>II. 將移動符石時觸碰的<br>⇒「凍結符石」狀態解除<br>III. 將移動符石時觸碰的符石<br>⇒ 轉化為獸族符石<br>IV. 每首批消除 3 粒獸族符石<br>⇒ 連擊 (Combo) 數目增加 1',
+                'tag': ['延長轉珠時間', '凍結符石處理', '獸族符石製造', '增加Combo']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 最左方的「喰魅 ‧ 蝕獸之王」<br>⇒ 生命力、攻擊力、回復力 1.5 倍<br>II. 進入關卡後<br>⇒ 獸類成員技能 CD -1',
+                'activate': '以「喰魅 ‧ 蝕獸之王」作成員；且隊中有 ≥4 種屬性獸類成員',
+                'skill_tag': ['增攻', '增回', '增血', '進場減CD'],
+                'activate_tag': ['指定屬性成員'],
+                'relative': [2596]
+            },
+        ]
     },
     {
         'id': 2597,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '妖精類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '幻彩奧秘',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': '2 回合內<br>I. 妖精類攻擊力及回復力 1.6 倍<br>II. 無視「黏腐」敵技<br>III. 將移動符石時觸碰的符石<br>⇒ 轉化為妖族符石<br>IV. 若有擊斃敵人<br>⇒ 該回合不會扣減技能持續回合<br>V. 若隊中所有成員回復力基值相同時<br>⇒ 自身攻擊力 5 倍',
+                'tag': [['增傷', 2], ['增回', 2], ['無視黏腐', 2], ['妖族符石製造', 2], ['界王拳', 2]]
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '所有妖精類成員的回復力跟隨回復力最高的成員<br>(不包括受主動技能影響的基值)',
+                'activate': '以「絢麗彩度 ‧ 施拉瑰」作成員；且隊中有 ≥3 種屬性妖精類成員',
+                'skill_tag': ['回復力共鳴'],
+                'activate_tag': ['指定屬性成員'],
+                'relative': [2597]
+            },
+        ]
     },
     {
         'id': 2598,
@@ -62547,17 +62563,17 @@ const monster_data = [
     },
     {
         'id': 2636,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '妖精類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '消除之力',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 選擇 2 橫行的符石<br>⇒【左右滑動移除】<br>1 回合內<br>II. 連擊 (Combo) 時攻擊力提升 200%<br>III. 隊長為「次元英雄」系列角色<br>⇒ 則效果持續 3 回合',
+                'tag': ['移除符石', ['增傷', 3]]
             }
         ],
         'team_skill': []
@@ -62581,17 +62597,17 @@ const monster_data = [
     },
     {
         'id': 2638,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '妖精類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '風之召喚',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 選擇 2 橫行的符石<br>⇒【左右滑動移除】<br>⇒ 掉落木妖族強化符石<br>1 回合內<br>II. 於發動攻擊前對全體敵人<br>⇒ 造成 500 萬點木屬性傷害',
+                'tag': ['移除符石', '強制掉落', '妖族符石製造', '直傷']
             }
         ],
         'team_skill': []
@@ -62615,6 +62631,346 @@ const monster_data = [
     },
     {
         'id': 2640,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2641,
+        'attribute': '火',
+        'race': '神族',
+        'star': 6,
+        'skill': [
+            {
+                'name': '五連火之勢',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 回復 50% 生命力<br>1 回合內<br>II. 每首批消除 1 組符石<br>⇒ 首批掉落 3 粒火符石<br>III. 消除 1 組 ≥5 粒火符石<br>⇒ 全隊攻擊力 2.5 倍',
+                'tag': ['回血', '強制掉落', '增傷']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2642,
+        'attribute': '光',
+        'race': '妖精類',
+        'star': 6,
+        'skill': [
+            {
+                'name': '相剋轉化 ‧ 雷',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 選擇 2 橫行的符石<br>⇒【左右滑動移除】<br>II. 將木符石轉化為<br>⇒ 光妖族強化符石',
+                'tag': ['移除符石', '木轉其他', '符石轉光', '符石轉光強化', '妖族符石製造']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2643,
+        'attribute': '暗',
+        'race': '神族',
+        'star': 6,
+        'skill': [
+            {
+                'name': '魔鑽護盾',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 選擇 2 橫行的符石<br>⇒【左右滑動移除】<br>2 回合內<br>II. 減少 80% 所受傷害',
+                'tag': ['移除符石', ['減傷', 2]]
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2644,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2645,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2646,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2647,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2648,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2649,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2650,
+        'attribute': '暗',
+        'race': '人類',
+        'star': 6,
+        'skill': [
+            {
+                'name': '幽之秘力',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 發動技能時，將風化符石轉化為<br>⇒ 暗人族強化符石<br><br>II. 以左下角符石開始轉珠時<br>⇒ 自身攻擊力 3.5 倍<br>III. 以右下角符石開始轉珠時<br>⇒ 自身攻擊力及回復力 2 倍<br>效果持續至自身沒有發動攻擊',
+                'tag': ['風化符石處理', '符石轉暗', '符石轉暗強化', '人族符石製造', ['增傷', -1], ['界王拳', -1], ['增回', -1]]
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2651,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2652,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2653,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2654,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2655,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2656,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2657,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2658,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2659,
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2660,
         'attribute': '',
         'race': '',
         'star': 0,
