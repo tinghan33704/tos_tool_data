@@ -1,4 +1,4 @@
-// Last modified : 2021.02.21 15:05
+// Last modified : 2021.02.25 22:10
 
 const monster_data = [
     {
@@ -62781,17 +62781,17 @@ const monster_data = [
     },
     {
         'id': 2646,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '人類',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '創作感應',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 引爆水、木、光符石<br>⇒ 分別掉落「火、暗、心」強化符石<br>1 回合內<br>II. 可任意移動符石而不會發動消除<br>III. 若首批消除所有符石，於回合結束時<br>⇒ 將所有符石轉化為人族符石',
+                'tag': ['引爆', '水符石引爆', '木符石引爆', '光符石引爆', '強制掉落', '排珠', '人族符石製造']
             }
         ],
         'team_skill': []
@@ -62883,34 +62883,34 @@ const monster_data = [
     },
     {
         'id': 2652,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '獸類',
+        'star': 5,
         'skill': [
             {
-                'name': '',
+                'name': '火焰附魔 ‧ 風',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 若隊長為獸類<br>⇒ 自身 CD -4<br>II. 敵方全體中毒：每回合受到自身攻擊力 100 倍的傷害，此傷害無視防禦力及屬性並持續到死亡<br>1 回合內<br>III. 火及心符石兼具<br>⇒ 50% 木符石效果',
+                'tag': ['減CD', ['敵方中毒', -1], '符石兼具木']
             }
         ],
         'team_skill': []
     },
     {
         'id': 2653,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '強化素材',
+        'star': 5,
         'skill': [
             {
-                'name': '',
+                'name': '大地猛擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 10,
+                'description': '對敵方全體造成 10 倍木屬性傷害',
+                'tag': ['直傷']
             }
         ],
         'team_skill': []
@@ -63378,17 +63378,25 @@ const monster_data = [
     },
     {
         'id': 7019,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '木',
+        'race': '人類',
+        'star': 7,
         'skill': [
             {
-                'name': '',
+                'name': '無畏之心',
                 'type': 'normal',
-                'charge': '',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'charge': 'CD',
+                'num': 5,
+                'description': '1 回合內<br>I. 可任意移動符石而不會發動消除<br>II. 觸碰心符石時<br>⇒ 解除其電擊、凍結、弱化、化血、石化符石狀態<br>⇒ 轉化為人族強化符石<br>III. 首批消除所有心符石時<br>⇒ 自身 CD -2',
+                'tag': ['排珠', '電擊符石處理', '凍結符石處理', '弱化符石處理', '化血符石處理', '石化符石處理', '符石強化', '符石轉心強化', '人族符石製造', '減CD']
+            },
+            {
+                'name': '人族之勇',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 9,
+                'description': 'I. 將所有符石轉化為<br>⇒ 人族強化符石<br>1 回合內<br>II. 點擊元素法陣上的 1 種屬性符石：<br>⓵ 自身攻擊力 12 倍 (攻擊力不可與其他成員共享)<br>⓶ 自身攻擊轉化為<br>⇒ 該屬性攻擊<br>⓷ 自身攻擊無視<br>⇒ 敵人防禦力、「攻前盾」、「指定形狀盾」',
+                'tag': ['人族符石製造', '符石強化', '增傷', '界王拳', '攻擊轉屬', '破防', '無視攻前盾', '無視拼圖盾']
             }
         ],
         'team_skill': []
