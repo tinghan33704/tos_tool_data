@@ -1,4 +1,4 @@
-// Last modified : 2021.02.25 22:10
+// Last modified : 2021.03.03 00:11
 
 const monster_data = [
     {
@@ -63383,7 +63383,7 @@ const monster_data = [
         'star': 7,
         'skill': [
             {
-                'name': '無畏之心',
+                'name': '無畏之靈',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
