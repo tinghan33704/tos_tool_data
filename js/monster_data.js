@@ -1,4 +1,4 @@
-// Last modified : 2021.03.03 00:11
+// Last modified : 2021.03.04 21:05
 
 const monster_data = [
     {
@@ -62529,34 +62529,49 @@ const monster_data = [
     },
     {
         'id': 2634,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '機械族',
+        'star': 8,
         'skill': [
             {
-                'name': '',
+                'name': '傲倪萬物．三原結界',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 解除機械族成員被封鎖的技能<br>(此技能無視封鎖技能)<br>II. 移除所有符石<br>⇒ 掉落固定數量及位置的「水、火、木」強化符石<br>1 回合內<br>III. 無視「指定形狀盾」及「攻前盾」<br>IV.「炙焰城主 ‧ 龐貝」的攻擊<br>⇒ 無視「五屬盾」',
+                'tag': ['解鎖', '移除符石', '強制掉落', '無視拼圖盾', '無視攻前盾', '無視五屬盾']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 隊伍中最小冷卻回合為 8 且技能等級已滿的機械族成員<br>⇒ 技能 CD -2<br><br>II. 水、木、心符石<br>⇒ 兼具火符石效果<br><br>III. 水、火、木符石<br>⇒ 兼具心符石效果<br><br>IV. 每回合隨機鎖定 8 個位置，每消除 1 個鎖定位置 (不計重複) 內的符石時<br>⓵ 火屬性及機械族攻擊力提升<br>⇒ 最多可提升 3 倍<br>⓶「炙焰城主 ‧ 龐貝」以 50% 攻擊力追打火屬性攻擊 1 次<br><br>V. 必然延長移動符石時間 3 秒<br><br>VI. 將移動符石時觸碰的水、火、木符石<br>⇒ 轉化為機械族符石',
+                'activate': '以「炙焰城主 ‧ 龐貝」作隊長及戰友',
+                'skill_tag': ['永久減CD', '水兼具其他', '火兼具其他', '木兼具其他', '心兼具其他', '符石兼具火', '符石兼具心', '增攻', '火屬追打', '延長轉珠時間', '機械族符石製造'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2634]
+            },
+            {
+                'description': 'I. 機械族成員的生命力、攻擊力、回復力 2 倍<br><br>II. 進入關卡後，機械族成員的行動值提升 50%',
+                'activate': '以「炙焰城主 ‧ 龐貝」作隊長及戰友，且隊中有 ≥3 個機械族成員',
+                'skill_tag': ['增攻', '增回', '增血', '行動值提升'],
+                'activate_tag': ['指定雙隊長', '指定種族成員'],
+                'relative': [2634]
+            },
+        ]
     },
     {
         'id': 2635,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '光',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '心意傳遞',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '2 回合內<br>I. 光符石的掉落率降至 0<br>II. 將原有機率增加至心符石的掉落率<br>III. 掉落的心符石以心強化符石代替<br>IV. 人類攻擊力及回復力 1.8 倍',
+                'tag': [['禁珠', 2], ['改變掉落機率', 2], ['增傷', 2], ['增回', 2]]
             }
         ],
         'team_skill': []
@@ -62747,20 +62762,28 @@ const monster_data = [
     },
     {
         'id': 2644,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '神族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '怒吼',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 延遲全體敵人行動 1 回合<br><br>II. 全隊回復力減至 0<br>III. 所有屬性符石<br>⇒ 分別兼具水、光、暗符石效果<br>效果會在進入下一層數 (Wave) 時消失',
+                'tag': ['延遲', ['我方減回', -1], ['符石兼具水', -1], ['符石兼具光', -1], ['符石兼具暗', -1]]
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '最左方的『「深海之主．奧克亞諾斯」、「大洋之母．忒堤斯」、「墨提斯」』<br>⇒ 生命力 1.5 倍',
+                'activate': '以「深海之主．奧克亞諾斯」；及「大洋之母．忒堤斯」或「墨提斯」作成員',
+                'skill_tag': ['增血'],
+                'activate_tag': ['指定成員'],
+                'relative': [2644, 2648]
+            },
+        ]
     },
     {
         'id': 2645,
@@ -62815,20 +62838,28 @@ const monster_data = [
     },
     {
         'id': 2648,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '神族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '破冰漩渦',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 引爆場上所有凍結符石<br>⇒ 以掉落水符石<br>1 回合內<br>II. 水屬性及神族<br>⇒ 攻擊力及回復力 2 倍<br>III. 若成功引爆凍結符石<br>⇒ 自身 CD -4',
+                'tag': ['引爆', '凍結符石處理', '強制掉落', '增傷', '增回', '減CD']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '最左方的『「深海之主．奧克亞諾斯」、「大洋之母．忒堤斯」、「墨提斯」』<br>⇒ 生命力 1.5 倍',
+                'activate': '以「深海之主．奧克亞諾斯」；及「大洋之母．忒堤斯」或「墨提斯」作成員',
+                'skill_tag': ['增血'],
+                'activate_tag': ['指定成員'],
+                'relative': [2644, 2648]
+            },
+        ]
     },
     {
         'id': 2649,
