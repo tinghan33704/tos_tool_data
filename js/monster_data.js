@@ -1,4 +1,4 @@
-// Last modified : 2021.03.04 21:05
+// Last modified : 2021.03.11 21:55
 
 const monster_data = [
     {
@@ -60727,12 +60727,12 @@ const monster_data = [
         'star': 5,
         'skill': [
             {
-                'name': '沒有技能',
+                'name': '魔瞳',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '沒有技能',
-                'tag': []
+                'num': 6,
+                'description': 'I. 將光符石轉化為<br>⇒ 魔族強化符石<br>II. 將心符石轉化為<br>⇒ 隊長屬性符石<br>1 回合內<br>III. 隊長及個人以 50% 攻擊力<br>⇒ 追打 4 次<br>IV. 隊伍中每多 1 種族成員<br>⇒ 額外增加 1 回合效果<br>⇒ 最多持續 3 回合',
+                'tag': ['符石強化', '符石轉光強化', '魔族符石製造', '心轉其他', '符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', ['水屬追打', 3], ['火屬追打', 3], ['木屬追打', 3], ['光屬追打', 3], ['暗屬追打', 3]]
             }
         ],
         'team_skill': []
@@ -62781,7 +62781,7 @@ const monster_data = [
                 'activate': '以「深海之主．奧克亞諾斯」；及「大洋之母．忒堤斯」或「墨提斯」作成員',
                 'skill_tag': ['增血'],
                 'activate_tag': ['指定成員'],
-                'relative': [2644, 2648]
+                'relative': [2644, 2649, 2648]
             },
         ]
     },
@@ -62857,26 +62857,34 @@ const monster_data = [
                 'activate': '以「深海之主．奧克亞諾斯」；及「大洋之母．忒堤斯」或「墨提斯」作成員',
                 'skill_tag': ['增血'],
                 'activate_tag': ['指定成員'],
-                'relative': [2644, 2648]
+                'relative': [2644, 2649, 2648]
             },
         ]
     },
     {
         'id': 2649,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '水',
+        'race': '神族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '神族的樂曲',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 引爆自身及身旁成員直行符石<br>⇒ 掉落神族強化符石<br>II. 若身旁成員為水屬性或神族<br>⇒ 則身旁成員掉落該成員屬性神族強化符石',
+                'tag': ['引爆', '直行引爆', '神族符石製造', '強制掉落']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '最左方的『「深海之主．奧克亞諾斯」、「大洋之母．忒堤斯」、「墨提斯」』<br>⇒ 生命力 1.5 倍',
+                'activate': '以「深海之主．奧克亞諾斯」；及「大洋之母．忒堤斯」或「墨提斯」作成員',
+                'skill_tag': ['增血'],
+                'activate_tag': ['指定成員'],
+                'relative': [2644, 2649, 2648]
+            },
+        ]
     },
     {
         'id': 2650,
@@ -62948,34 +62956,34 @@ const monster_data = [
     },
     {
         'id': 2654,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '火',
+        'race': '神族',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '智慧之泉',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '點擊元素法陣上的 1 種屬性符石：<br>I. 引爆該種屬性以外符石<br>⇒ 掉落心符石<br>1 回合內<br>II. 延長移動符石時間至 10 秒<br>III. 該種符石及心符石互相兼具 50% 效果',
+                'tag': ['引爆', '指定符石外引爆', '強制掉落', '延長轉珠時間', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心']
             }
         ],
         'team_skill': []
     },
     {
         'id': 2655,
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '人類',
+        'star': 6,
         'skill': [
             {
-                'name': '',
+                'name': '暗元素之力',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 發動技能及每回合結束時 (需消除符石)<br>⇒ 將場上數量最多的 1 種符石轉化為暗強化符石<br>II. 若場上數量最多的為暗符石<br>⇒ 額外自身 CD - 3<br>效果會在進入下一層數 (Wave) 時消失<br><br>III. 解除自身被封鎖的技能<br>(此技能無視封鎖技能)',
+                'tag': [['符石轉暗', -1], ['符石轉暗強化', -1], ['水轉其他', -1], ['火轉其他', -1], ['木轉其他', -1], ['光轉其他', -1], ['心轉其他', -1], ['減CD', -1], '解鎖']
             }
         ],
         'team_skill': []
