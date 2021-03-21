@@ -10,6 +10,7 @@
     --button_keyword_color_unable_normal: #e9ecef;
     --button_keyword_color_input_able_normal: white;
     --button_keyword_color_input_unable_normal: #e9ecef;
+	--button_tag_color_checked_normal: #a01111;
     --button_other_color_checked_normal: rgb(50, 155, 50);
     --button_sortby_normal: #eeeeee;
     --button_primary_normal: #007bff;
@@ -42,6 +43,7 @@
     --button_keyword_color_unable_dark: #232323;
     --button_keyword_color_input_able_dark: transparent;
     --button_keyword_color_input_unable_dark: #232323;
+	--button_tag_color_checked_dark: #600a0a;
     --button_other_color_checked_dark: rgb(50, 155, 50, 0.3);
     --button_sortby_dark: #666666;
     --button_primary_dark: #003070;
@@ -74,6 +76,7 @@
     --button_keyword_color_unable: var(--button_keyword_color_unable_normal);
     --button_keyword_color_input_able: var(--button_keyword_color_input_able_normal);
     --button_keyword_color_input_unable: var(--button_keyword_color_input_unable_normal);
+    --button_tag_color_checked: var(--button_tag_color_checked_normal);
     --button_other_color_checked: var(--button_other_color_checked_normal);
     --button_sortby: var(--button_sortby_normal);
     --button_primary: var(--button_primary_normal);
@@ -113,7 +116,12 @@ body {
     color: var(--button_text_color_checked); 
     font-weight: bold;
 }
-.filter[type=checkbox]:checked + label:not(.filter-btn):not(.keyword-btn) {
+.filter[type=checkbox]:checked + label.tag-btn {
+    background-color: var(--button_tag_color_checked); 
+    color: var(--button_text_color_checked); 
+    font-weight: bold;
+}
+.filter[type=checkbox]:checked + label:not(.filter-btn):not(.keyword-btn):not(.tag-btn) {
     background-color: var(--button_other_color_checked); 
     color: var(--button_text_color_checked); 
     font-weight: bold;
@@ -160,7 +168,7 @@ select {
 .btn-shell {
     padding: 3px;
 }
-.filter-btn, .attr-btn, .race-btn, .star-btn, .charge-btn, .activate-btn, .keyword-btn, .option-btn {
+.filter-btn, .tag-btn, .attr-btn, .race-btn, .star-btn, .charge-btn, .activate-btn, .keyword-btn, .option-btn {
     font-size: 1.2em;
     font-weight: normal;
     color: var(--text_color);
@@ -169,6 +177,9 @@ select {
     border-radius: 5px;
     cursor: pointer;
     padding: 5px 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .skill-group {
     width: 100%;
@@ -211,6 +222,21 @@ select {
     background-color: var(--button_secondary);
     border-color: var(--button_secondary);
     color: var(--text_color_anti);
+}
+.tag-collapse-div {
+	cursor: pointer;
+}
+.tag-collapse-div[aria-expanded="false"] .collapse-close {
+  display: inline;
+}
+.tag-collapse-div[aria-expanded="false"] .collapse-open {
+  display: none;
+}
+.tag-collapse-div[aria-expanded="true"] .collapse-close {
+  display: none;
+}
+.tag-collapse-div[aria-expanded="true"] .collapse-open {
+  display: inline;
 }
 .result {
     margin: 8px 0;
@@ -262,7 +288,7 @@ select {
     width: 25%;
     padding: 5px;
 }
-.skill_tag, .genre_tag {
+.skill_tag, .tag_tag, .genre_tag {
     font-size: 1em;
     font-weight: bold;
     border-radius: 5px;
@@ -273,6 +299,9 @@ select {
 }
 .skill_tag {
     background-color: var(--button_filter_color_checked);
+}
+.tag_tag {
+    background-color: var(--button_tag_color_checked);
 }
 .genre_tag {
     background-color: var(--button_other_color_checked);

@@ -38,6 +38,7 @@ function init() {
         case 'active_skill':
             createFilterButtonRow("filter", skill_type_string);
             createKeywordRow();
+            createFilterButtonRow("tag", tag_string);
             createFilterButtonRow("attr", attr_type_string);
             createFilterButtonRow("race", race_type_string);
             createFilterButtonRow("star", star_type_string, ' ★');
@@ -61,6 +62,20 @@ function init() {
             createFilterButtonRow("charge", craft_charge_type_string);
         break;
     }
+	
+	/*$(".btn-shell label").each((index, ele) => {
+		const svg = $(ele).find("svg")[0];
+		const text = $(svg).find("text")[0];
+		
+		const divWidth = ele.getBoundingClientRect().width;
+		$(svg).attr('viewBox', `0 0 ${divWidth} 30`)
+		
+		const textLength = text ? text.getComputedTextLength() : 0;
+		console.log(divWidth, textLength)
+		if(textLength < divWidth) {
+			$(svg).attr('viewBox', `0 0 ${Math.ceil(textLength).toString()} 30`)
+		}
+	})*/
     
     or_filter = true;
     keyword_search = false;
@@ -80,6 +95,7 @@ function init() {
     $("#reset_race").length && $("#reset_race").on("click", clearFilterButtonRow('race'));
     $("#reset_star").length && $("#reset_star").on("click", clearFilterButtonRow('star'));
     $("#reset_charge").length && $("#reset_charge").on("click", clearFilterButtonRow('charge'));
+    $("#reset_tag").length && $("#reset_tag").on("click", clearFilterButtonRow('tag'));
     $("#reset_mode").length && $("#reset_mode").on("click", clearFilterButtonRow('mode'));
     $("#reset_keyword").length && $("#reset_keyword").on("click", clearKeyword);
     $("#keyword-switch").length && $("#keyword-switch").on("click", keywordSwitch);
@@ -118,7 +134,7 @@ function createFilterButtonRow(name, data, postAppend = '') {
                 str += 
                 `<div class='col-6 col-md-4 col-lg-2 btn-shell'>
                     <input type='checkbox' class='filter' id='${name}-${index}'>
-                    <label class='p-1 w-100 text-center filter-btn' for='${name}-${index}'>${skill}${postAppend}</label>
+                    <label class='p-1 w-100 text-center ${name}-btn' for='${name}-${index}'>${skill}${postAppend}</label>
                 </div>`;
             })
         }
@@ -129,11 +145,17 @@ function createFilterButtonRow(name, data, postAppend = '') {
                     str += 
                     `<div class='col-6 col-md-4 col-lg-2 btn-shell'>
                         <input type='checkbox' class='filter' id='${name}-${index_group}-${index}'>
-                        <label class='p-1 w-100 text-center filter-btn' for='${name}-${index_group}-${index}'>${skill}${postAppend}</label>
+                        <label class='p-1 w-100 text-center ${name}-btn' for='${name}-${index_group}-${index}'>${skill}${postAppend}</label>
                     </div>`;
                 })
             })
         }
+		
+		/* 	Possible SVG solution for automatic font sizing
+		<svg width="100" height="30" viewBox="0 0 100 30"'>
+			<text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle">${skill}${postAppend}</text>
+		</svg>
+		*/
         
         return str;
     });
@@ -208,6 +230,7 @@ function clearAll()
     clearFilterButtonRow('race')();
     clearFilterButtonRow('star')();
     clearFilterButtonRow('charge')();
+    clearFilterButtonRow('tag')();
     clearKeyword();
 }
 
@@ -339,7 +362,7 @@ function textSanitizer(text)
 
 
 
-function encode(type, max_num)
+function encode(type)
 {
     let cnt = 1, enc_bin = 0;
     let str = "";
@@ -389,6 +412,17 @@ function decode(data)
     return bin_str;
 }
 
+function isTypeSelected(type) {
+	let checked = false;
+	$(`${type} .filter`).each(function() {
+        if($(this).prop('checked')) {
+			checked = true;
+			return;
+		}
+    });
+	return checked
+}
+
 function setButtonFromUrl(type, data, callback)
 {
     callback();
@@ -405,6 +439,68 @@ function setInputFromUrl(element, data)
     $(element).val(data);
 }
 
+function changeUrl()
+{
+    let search_str = (isTypeSelected(".filter-row") && !keyword_search) ? `search=${encode(".filter-row")}&` : ''
+    let keyword_str = (escape(textSanitizer($('#keyword-input').val())).length > 0 && keyword_search) ? `keyword=${escape(textSanitizer($('#keyword-input').val()))}&` : ''
+    let attr_str = isTypeSelected(".attr-row") ? `attr=${encode(".attr-row")}&` : ''
+    let race_str = isTypeSelected(".race-row") ? `race=${encode(".race-row")}&` : ''
+    let star_str = isTypeSelected(".star-row") ? `star=${encode(".star-row")}&` : ''
+    let charge_str = isTypeSelected(".charge-row") ? `chrg=${encode(".charge-row")}&` : ''
+    let tag_str = isTypeSelected(".tag-row") ? `tag=${encode(".tag-row")}&` : ''
+    let mode_str = isTypeSelected(".mode-row") ? `mode=${encode(".mode-row")}&` : ''
+    let actv_str = isTypeSelected(".activate-row") ? `actv=${encode(".activate-row")}&` : ''
+    let or_str = `or=${or_filter ? `1` : `0`}&`
+	
+	let queryStr = `${search_str}${keyword_str}${attr_str}${race_str}${star_str}${charge_str}${or_str}${tag_str}${mode_str}${actv_str}`
+	queryStr = 	queryStr.length > 0 ? 
+					queryStr.endsWith('&') ? 
+						`?${queryStr.slice(0, -1)}` :
+						`?${queryStr}`
+						
+				: ''
+	
+    window.history.pushState(null, null, queryStr);
+}
+
+function readUrl()
+{   
+    let code_array = location.search.split("&").map(x => x.split("=")[1]);
+    let code_name_array = location.search.split("?")[1].split("&").map(x => x.split("=")[0]);
+	
+	let inputQuery = {};
+	location.search.split("?")[1].split("&").forEach(query => inputQuery[query.split('=')[0]] = query.split('=')[1])
+    
+    if('search' in inputQuery && 'keyword' in inputQuery)
+    {
+        errorAlert(1);
+        return;
+    }
+    
+    if('search' in inputQuery) {
+		setButtonFromUrl(".filter-row", decode(inputQuery['search']), clearFilterButtonRow('filter'));
+	}
+    else if('keyword' in inputQuery) {
+		setInputFromUrl(".keyword-input", unescape(inputQuery['keyword']));
+        
+        $("#keyword-switch").click();
+        keywordSwitch();
+	}
+    
+	'attr' in inputQuery && setButtonFromUrl(".attr-row", decode(inputQuery['attr']), clearFilterButtonRow('attr'));
+	'race' in inputQuery && setButtonFromUrl(".race-row", decode(inputQuery['race']), clearFilterButtonRow('race'));
+	'star' in inputQuery && setButtonFromUrl(".star-row", decode(inputQuery['star']), clearFilterButtonRow('star'));
+	'chrg' in inputQuery && setButtonFromUrl(".charge-row", decode(inputQuery['chrg']), clearFilterButtonRow('charge'));
+	'tag' in inputQuery && setButtonFromUrl(".tag-row", decode(inputQuery['tag']), clearFilterButtonRow('tag'));
+	'actv' in inputQuery && setButtonFromUrl(".activate-row", decode(inputQuery['actv']), clearFilterButtonRow('activate'));
+	'mode' in inputQuery && setButtonFromUrl(".mode-row", decode(inputQuery['mode']), clearFilterButtonRow('mode'));
+	'or' in inputQuery && inputQuery['or'] == '0' && andOrChange();
+    
+    startFilter();
+    
+    window.history.pushState(null, null, location.pathname);    // clear search parameters
+}
+
 function changeTheme()
 {
     let theme_string = [
@@ -418,6 +514,7 @@ function changeTheme()
         '--button_keyword_color_unable', 
         '--button_keyword_color_input_able', 
         '--button_keyword_color_input_unable', 
+        '--button_tag_color_checked', 
         '--button_other_color_checked', 
         '--button_sortby', 
         '--button_primary',
