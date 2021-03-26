@@ -30,6 +30,11 @@
     --text_charge_sort_color_normal: #343A40;
     --table_border_normal: #363636;
     --table_border_center_normal: #777777;
+	--text_monster_name_water_color_normal: #55A4D7;
+	--text_monster_name_fire_color_normal: #F75856;
+	--text_monster_name_earth_color_normal: #76CA00;
+	--text_monster_name_light_color_normal: #F8CC2F;
+	--text_monster_name_dark_color_normal: #CB80D5;
     
     
     /* dark theme */
@@ -63,6 +68,11 @@
     --text_charge_sort_color_dark: #222222;
     --table_border_dark: #AAAAAA;
     --table_border_center_dark: #888888;
+	--text_monster_name_water_color_dark: #5252AF;
+	--text_monster_name_fire_color_dark: #AC3724;
+	--text_monster_name_earth_color_dark: #1F7400;
+	--text_monster_name_light_color_dark: #C18F3A;
+	--text_monster_name_dark_color_dark: #7B02B0;
 
     
     /* theme replacing */
@@ -96,6 +106,11 @@
     --text_charge_sort_color: var(--text_charge_sort_color_normal);
     --table_border: var(--table_border_normal);
     --table_border_center: var(--table_border_center_normal);
+	--text_monster_name_water_color: var(--text_monster_name_water_color_normal);
+	--text_monster_name_fire_color: var(--text_monster_name_fire_color_normal);
+	--text_monster_name_earth_color: var(--text_monster_name_earth_color_normal);
+	--text_monster_name_light_color: var(--text_monster_name_light_color_normal);
+	--text_monster_name_dark_color: var(--text_monster_name_dark_color_normal);
 }
 
 body {
@@ -380,6 +395,27 @@ select {
 .skill_tooltip {
     font-family: Microsoft JhengHei;
     margin: auto;
+}
+.monster_name {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    white-space: pre-wrap;
+}
+.monster_name_w {
+    color: var(--text_monster_name_water_color);
+}
+.monster_name_f {
+    color: var(--text_monster_name_fire_color);
+}
+.monster_name_e {
+    color: var(--text_monster_name_earth_color);
+}
+.monster_name_l {
+    color: var(--text_monster_name_light_color);
+}
+.monster_name_d {
+    color: var(--text_monster_name_dark_color);
 }
 .skill_name {
     color: var(--text_name_tooltip_color);

@@ -534,6 +534,11 @@ function changeTheme()
         '--text_charge_sort_color',
         '--table_border',
         '--table_border_center',
+		'--text_monster_name_water_color',
+		'--text_monster_name_fire_color',
+		'--text_monster_name_earth_color',
+		'--text_monster_name_light_color',
+		'--text_monster_name_dark_color',
     ];
     
     theme = (theme == 'normal') ? 'dark' : 'normal';
