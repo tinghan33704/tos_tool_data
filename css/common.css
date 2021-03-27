@@ -396,6 +396,14 @@ select {
     font-family: Microsoft JhengHei;
     margin: auto;
 }
+.monster_attr {
+    text-align: right;
+	padding: 0 3px;
+}
+.monster_race {
+    text-align: left;
+	padding: 0 3px;
+}
 .monster_name {
     font-size: 1em;
     font-weight: bold;
