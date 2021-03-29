@@ -1,4 +1,4 @@
-// Last modified : 2021.03.27 00:11
+// Last modified : 2021.03.29 23:16
 
 const monster_data = [
     {
@@ -63004,19 +63004,19 @@ const monster_data = [
     },
     {
         "id": 2400,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": -1,
-        "monsterTag": [],
+        "name": "異彩史萊姆",
+        "attribute": "光",
+        "race": "強化素材",
+        "star": 4,
+        "monsterTag": ["素材"],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "沒有技能",
                 "type": "normal",
                 "charge": "CD",
                 "num": 0,
-                "description": "",
+                "description": "沒有技能",
                 "tag": []
             }
         ],
@@ -70915,14 +70915,15 @@ const monster_data = [
         "attribute": "水",
         "race": "人類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['鬼滅之刃'],
+        "crossOver": true,
         "skill": [
             {
                 "name": "全集中 ‧ 水之呼吸",
                 "type": "normal",
                 "charge": "CD",
                 "num": 6,
-                "description": "",
+                "description": "1 回合內<br>I. 延長移動符石時間至 20 秒<br>II. 將移動符石時所觸碰的符石<br>⇒ 轉化為強化符石<br>III. 根據本回合首消 Combo 數<br>⇒ 發動水之呼吸其中一型<br>⇒ 獲得 1 回合效果<br><br>▋1-3 Combo<br>【水之呼吸 叁之型 流流舞】<br>⓵ 迴避魔族敵人的攻擊<br>⓶ 自身攻擊力 3 倍<br>⓷ 自身攻擊無視五屬盾<br>⓸ 回合結束時，將自身直行符石轉化為<br>⇒ 水人族強化符石<br><br>▋4-8 Combo<br>【水之呼吸 捌之型 瀧壺】<br>⓵ 單體攻擊轉化為全體攻擊<br>⓶ 自身攻擊力 8 倍<br>⓷ 自身攻擊無視固定連擊盾<br>⓸ 回合結束時，將 3 粒水符石四周的符石<br>⇒ 轉化為水人族強化符石<br><br>▋≥9 Combo<br>【水之呼吸 拾之型 生生流轉】<br>⓵ 自身攻擊力 10 倍<br>⓶ 其他成員不能發動攻擊<br>⓷ 自身攻擊無視五屬盾、固定連擊盾、指定形狀盾<br>⓸ 首批掉落的符石<br>⇒ 以人族強化符石代替",
                 "tag": ["延長轉珠時間", "符石強化", "迴避", "增傷", "界王拳", "無視五屬盾", "符石轉水", "符石轉水強化", "人族符石製造", "無視固定連擊盾", "限制成員攻擊", "無視拼圖盾"]
             },
             {
@@ -70931,11 +70932,47 @@ const monster_data = [
                 "charge": "CD",
                 "num": 8,
                 "transform": 2662,
-                "description": "",
+                "description": "當前生命力為 ≤40%，或隊中有「竈門禰豆子」才可發動此技能：<br>I. 變身<br>II. 將所有符石轉化為<br>⇒ 固定數量及位置的「水及火」強化符石",
                 "tag": ["變身", "大幅轉版", "固定版面", "符石轉水", "符石轉火", "符石轉水強化", "符石轉火強化"]
             }
         ],
-        "team_skill": []
+        "team_skill": [
+            {
+                "description": "I. 其他符石分別兼具「鬼滅之刃」石抽成員屬性符石效果<br>II. 水及心符石互相兼具效果<br>III. 無視「燃燒」敵技<br>IV. 將移動符石時觸碰的「石化符石」狀態解除<br>V. 每消除 1 粒水符石<br>⇒ 回復 5,000 點生命力<br>⇒ 最多可回復 50,000 點",
+                "activate": "以「竈門炭治郎」作隊長，並以「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」作戰友",
+                "skill_tag": ['水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心', '無視燃燒', '石化符石處理', '回血', ],
+                "activate_tag": ["指定隊長戰友"],
+                "relative": [2661, 2662]
+            },
+            {
+                "description": "I. 最左方的「竈門禰豆子」；最左方的「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」<br>⇒ 生命力、攻擊力、回復力 1.6 倍",
+                "activate": "以「竈門禰豆子」；及「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ["指定成員"],
+                "relative": [2663, 2661, 2662]
+            },
+            {
+                "description": "「竈門炭治郎」、「冨岡義勇」或「錆兎與真菰」發動技能的回合<br>⇒ 該角色攻擊力 1.5 倍",
+                "activate": "以「鱗瀧左近次」；及「竈門炭治郎」、「冨岡義勇」或「錆兎與真菰」作成員",
+                "skill_tag": ['增攻'],
+                "activate_tag": ["指定成員"],
+                "relative": [2661, 2667, 2672]
+            },
+            {
+                "description": "最左方的『「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」；「嘴平伊之助」及「我妻善逸」』<br>⇒ 生命力、攻擊力、回復力 1.3 倍",
+                "activate": "以「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」；「嘴平伊之助」及「我妻善逸」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ["指定成員"],
+                "relative": [2661, 2662, 2664, 2665]
+            },
+            {
+                "description": "「鬼殺隊士」對魔族目標<br>⇒ 攻擊力額外 2 倍",
+                "activate": "隊中有「鬼殺隊士」",
+                "skill_tag": ['增攻', '對魔族增傷'],
+                "activate_tag": ["指定成員"],
+                "relative": [2661, 2662, 2664, 2665, 2666, 2667, 2668, 2669]
+            }
+        ]
     },
     {
         "id": 2662,
@@ -70943,14 +70980,15 @@ const monster_data = [
         "attribute": "水",
         "race": "人類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['鬼滅之刃'],
+        "crossOver": true,
         "skill": [
             {
                 "name": "火之神神樂",
                 "type": "normal",
                 "charge": "EP",
                 "num": 6,
-                "description": "",
+                "description": "1 回合內<br>I. 自身以外成員攻擊力減至 0<br>II. 將「竈門炭治郎」、「火之神 ‧ 竈門炭治郎」、「竈門禰豆子」攻擊力的 3.5 倍<br>⇒ 加入自身攻擊力<br>III. 自身攻擊轉化為火屬性<br>IV. 自身攻擊無視<br>⓵ 「符石連擊零化」<br>⓶ 「指定連擊法印」<br>V. 水、火符石首批 1 粒即可發動消除<br>VI. 首批消除水及火符石愈多<br>⇒ 個人追打次數愈多<br>⇒ 最多追打 6 次",
                 "tag": ["我方減攻", "我方攻擊力吸收", "增傷", "界王拳", "攻擊轉屬", "無視追擊零化", "無視連擊法印", "改變消除方式", "火屬追打", "自身追打"]
             },
             {
@@ -70958,11 +70996,40 @@ const monster_data = [
                 "type": "normal",
                 "charge": "EP",
                 "num": 10,
-                "description": "",
+                "description": "2 回合內<br>I. 自身以外成員攻擊力減至 0<br>II. 將「竈門炭治郎」、「火之神 ‧ 竈門炭治郎」、「竈門禰豆子」攻擊力的 3.5 倍<br>⇒ 加入自身攻擊力<br>III. 自身攻擊轉化為火屬性<br>IV. 自身攻擊無視<br>⓵ 「符石連擊零化」<br>⓶ 「指定連擊法印」<br>V. 水、火符石 1 粒即可發動消除，效果持續至消除水或火符石達 20 粒<br>VI. 首批消除水及火符石愈多<br>⇒ 個人追打次數愈多<br>⇒ 最多追打 6 次<br>VII. 回合結束時，<br>⇒ 2 回合內自身進入疲憊狀態<br><br>發動此技能時需儲滿龍脈儀及該回合不能發動龍刻脈動",
                 "tag": [["我方減攻", 2], ["我方攻擊力吸收", 2], ["增傷", 2], ["界王拳", 2], ["攻擊轉屬", 2], ["無視追擊零化", 2], ["無視連擊法印", 2], ["改變消除方式", 2], ["火屬追打", 2], ["自身追打", 2], ["限制成員攻擊", 2]]
             }
         ],
-        "team_skill": []
+        "team_skill": [
+            {
+                "description": "I. 其他符石分別兼具「鬼滅之刃」石抽成員屬性符石效果<br>II. 水、火、心符石互相兼具效果<br>III. 無視「燃燒」敵技<br>IV. 將移動符石時觸碰的「石化符石」狀態解除<br>V. 觸碰「連環光牢」射擊位置時<br>⇒ 仍可移動符石<br>VI. 無視「蜘蛛網」敵技<br>VII. 每消除 1 粒水符石或火符石<br>⇒ 回復 5,000 點生命力<br>⇒ 最多可回復 50,000 點",
+                "activate": "以「火之神 ‧ 竈門炭治郎」作隊長，並以「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」作戰友",
+                "skill_tag": ['水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心', '無視燃燒', '石化符石處理', '無視射擊', '回血', ],
+                "activate_tag": ["指定隊長戰友"],
+                "relative": [2662, 2661]
+            },
+            {
+                "description": "I. 最左方的「竈門禰豆子」；最左方的「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」<br>⇒ 生命力、攻擊力、回復力 1.6 倍",
+                "activate": "以「竈門禰豆子」；及「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ["指定成員"],
+                "relative": [2663, 2661, 2662]
+            },
+            {
+                "description": "最左方的『「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」；「嘴平伊之助」及「我妻善逸」』<br>⇒ 生命力、攻擊力、回復力 1.3 倍",
+                "activate": "以「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」；「嘴平伊之助」及「我妻善逸」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ["指定成員"],
+                "relative": [2662, 2661, 2664, 2665]
+            },
+            {
+                "description": "「鬼殺隊士」對魔族目標<br>⇒ 攻擊力額外 2 倍",
+                "activate": "隊中有「鬼殺隊士」",
+                "skill_tag": ['增攻', '對魔族增傷'],
+                "activate_tag": ["指定成員"],
+                "relative": [2661, 2662, 2664, 2665, 2666, 2667, 2668, 2669]
+            }
+		]
     },
     {
         "id": 2663,
@@ -70970,18 +71037,48 @@ const monster_data = [
         "attribute": "火",
         "race": "魔族",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['鬼滅之刃'],
+        "crossOver": true,
         "skill": [
             {
                 "name": "爆血",
                 "type": "normal",
                 "charge": "CD",
                 "num": 4,
-                "description": "",
+                "description": "2 回合內<br>I. 敵方全體點燃<br>II. 使受影響目標轉為火屬性<br>III. 每回合以 500 倍自身攻擊力<br>⇒ 對敵方全體造成火屬性傷害<br>IV. 必然延長移動符石時間 5 秒<br>V. 將暗符石轉化為火強化符石<br>VI. 將光符石轉化為水強化符石",
                 "tag": [["點燃敵方", 2], ["敵方轉屬", 2], ["直傷", 2], ["延長轉珠時間", 2], ["符石轉水", 2], ["符石轉火", 2], ["符石轉水強化", 2], ["符石轉火強化", 2], ["光轉其他", 2], ["暗轉其他", 2]]
             }
         ],
-        "team_skill": []
+        "team_skill": [
+            {
+                "description": "I. 將人類成員攻擊力的 3 倍<br>⇒ 加入「竈門禰豆子」的攻擊力<br>II. 屬性符石兼具<br>⇒ 25% 心符石效果<br>III. 心符石兼具<br>⇒ 50% 屬性符石效果<br>IV. 戰鬥中首個受到致命傷害的回合不會使你死亡<br>(每場戰鬥只能發動 1 次)<br>V.「竈門禰豆子」每次攻擊敵人或受到敵人攻擊時<br>⇒ 該敵人附上 1 層「血印」<br>⇒ 最多可附 5 層<br>VI. 敵方全體每有 1 層「血印」<br>⇒「竈門禰豆子」攻擊力額外 1.5 倍<br>⇒ 最多可提升 5 次<br>VII. 若有成員置身休眠狀態<br>⇒ 每回合回復 50% 生命力",
+                "activate": "以「竈門禰豆子」作隊長，並以「竈門禰豆子」、「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」作戰友",
+                "skill_tag": ['增攻', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '意志', '回血'],
+                "activate_tag": ["指定隊長戰友"],
+                "relative": [2663, 2661, 2662]
+            },
+            {
+                "description": "I. 最左方的「竈門禰豆子」；最左方的「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」<br>⇒ 生命力、攻擊力、回復力 1.6 倍",
+                "activate": "以「竈門禰豆子」；及「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ["指定成員"],
+                "relative": [2663, 2661, 2662]
+            },
+            {
+                "description": "最左方的「竈門禰豆子」及最左方的「我妻善逸」<br>⇒ 生命力、攻擊力、回復力 1.3 倍",
+                "activate": "以「竈門禰豆子」及「我妻善逸」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ["指定成員"],
+                "relative": [2663, 2665]
+            },
+            {
+                "description": "「竈門禰豆子」對魔族目標<br>⇒ 攻擊力額外 2 倍",
+                "activate": "隊中有「竈門禰豆子」",
+                "skill_tag": ['增攻', '對魔族增傷'],
+                "activate_tag": [],
+                "relative": [2663]
+            }
+		]
     },
     {
         "id": 2664,
@@ -70989,18 +71086,48 @@ const monster_data = [
         "attribute": "木",
         "race": "獸類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['鬼滅之刃'],
+        "crossOver": true,
         "skill": [
             {
                 "name": "獸之呼吸 ‧ 叁之牙 ‧ 徹底撕裂",
                 "type": "normal",
                 "charge": "CD",
                 "num": 6,
-                "description": "",
+                "description": "I. 解除自身休眠狀態<br>II.「X 型」引爆 10 個固定位置的符石<br>⇒ 掉落「木及心」人族或獸族強化符石<br>1 回合內<br>III. 無視「黏腐」敵技<br>IV. 個人對敵方全體追打<br>⇒ 自身攻擊力 2.5 倍的攻擊 1 次<br>V. 若隊長為獸類成員<br>⇒ 回合結束時，當前技能 CD -3",
                 "tag": ["引爆", "X型引爆", "強制掉落", "人族符石製造", "獸族符石製造", "無視黏腐", "木屬追打", "自身追打", "增傷", "界王拳", "減CD"]
             }
         ],
-        "team_skill": []
+        "team_skill": [
+            {
+                "description": "I. 於角落符石位置開始轉珠：將移動符石時觸碰的首 5 粒符石轉化為木獸族符石<br>II. 延長移動符石時間至 10 秒<br>III. 木符石兼具其他屬性符石效果<br>IV. 首批消除 1 組 ≥ 5 粒木符石<br>⇒「嘴平伊之助」<br>⓵ 攻擊力 2 倍<br>⓶ 追打木屬性攻擊 1 次",
+                "activate": "以「嘴平伊之助」作隊長，並以「鬼滅之刃」石抽角色作戰友",
+                "skill_tag": ['符石轉木', '獸族符石製造', '延長轉珠時間', '木兼具其他', '符石兼具水', '符石兼具火', '符石兼具光', '符石兼具暗', '增攻', '木屬追打'],
+                "activate_tag": ["指定隊長戰友"],
+                "relative": [2664, 2661, 2662, 2663, 2665, 2666, 2667, 2668, 2669, 2670]
+            },
+            {
+                "description": "隊長的隊長技能「獸之呼吸」變為「獸之呼吸．強」<br><br>隊中只有獸類、人類或「鬼滅之刃」石抽系列成員時：<br>I. 全隊攻擊力 6 倍及生命力 1.2 倍<br>II. 每個成員增加 160 點回復力<br>III. 消除種族符石時<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 所有成員對魔族目標<br>⇒ 攻擊力額外 1.5 倍<br>V. 回合結束時，可點選「X 型」<br>⇒ 引爆 10 個固定位置的符石<br>⇒ 掉落強化符石",
+                "activate": "以「嘴平伊之助」作隊長及戰友",
+                "skill_tag": ['隊長技改變'],
+                "activate_tag": ["指定雙隊長"],
+                "relative": [2664]
+            },
+            {
+                "description": "最左方的『「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」；「嘴平伊之助」及「我妻善逸」』<br>⇒ 生命力、攻擊力、回復力 1.3 倍",
+                "activate": "以「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」；「嘴平伊之助」及「我妻善逸」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ["指定成員"],
+                "relative": [2664, 2661, 2662, 2665]
+            },
+            {
+                "description": "「鬼殺隊士」對魔族目標<br>⇒ 攻擊力額外 2 倍",
+                "activate": "隊中有「鬼殺隊士」",
+                "skill_tag": ['增攻', '對魔族增傷'],
+                "activate_tag": ["指定成員"],
+                "relative": [2661, 2662, 2664, 2665, 2666, 2667, 2668, 2669]
+            }
+		]
     },
     {
         "id": 2665,
@@ -71008,37 +71135,83 @@ const monster_data = [
         "attribute": "光",
         "race": "人類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['鬼滅之刃'],
+        "crossOver": true,
         "skill": [
             {
                 "name": "雷之呼吸 ‧ 壹之型 ‧ 霹靂一閃 ‧ 六連",
                 "type": "normal",
                 "charge": "CD",
                 "num": 6,
-                "description": "",
+                "description": "I. 解除自身休眠狀態<br>II. 將 13 個固定位置的符石<br>⇒ 轉化為光人族強化符石<br>1 回合內<br>III. 個人追打光屬性攻擊 6 次<br>IV. 攻擊敵方時電擊敵方<br>V. 自身攻擊<br>⓵ 無視敵人防禦力<br>⓶ 無視「指定形狀盾」<br>VI. 若發動技能時我方生命力為 ≤50%<br>⇒ 自身攻擊力 2 倍",
                 "tag": ["符石轉光", "符石轉光強化", "人族符石製造", "固定版面", "光屬追打", "自身追打", "電擊敵方", "破防", "無視拼圖盾", "增傷", "界王拳"]
             }
         ],
-        "team_skill": []
+        "team_skill": [
+            {
+                "description": "I. 延長移動符石時間至 10 秒<br>II. 每消除 1 粒光符石<br>⇒ 額外增加 1 連擊 (Combo)<br>⇒ 最多可增加 6 Combo<br>III. 觸碰電擊符石時仍可移動符石<br>IV. 將移動符石時觸碰的光符石<br>⇒ 轉化為光人族強化符石<br>V. 首批消除 1 組 ≥5 粒光符石<br>⇒「我妻善逸」<br>⓵ 攻擊力 2 倍<br>⓶ 無視「三屬盾」及「五屬盾」",
+                "activate": "以「我妻善逸」作隊長，並以「鬼滅之刃」石抽角色作戰友",
+                "skill_tag": ['延長轉珠時間', '增加Combo', '無視電擊', '符石強化', '符石轉光強化', '人族符石製造', '增攻', '無視三屬盾', '無視五屬盾'],
+                "activate_tag": ["指定隊長戰友"],
+                "relative": [2665, 2661, 2662, 2663, 2664, 2666, 2667, 2668, 2669, 2670]
+            },
+            {
+                "description": "最左方的『「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」；「嘴平伊之助」及「我妻善逸」』<br>⇒ 生命力、攻擊力、回復力 1.3 倍",
+                "activate": "以「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」；「嘴平伊之助」及「我妻善逸」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ["指定成員"],
+                "relative": [2665, 2661, 2662, 2664]
+            },
+            {
+                "description": "最左方的「竈門禰豆子」及最左方的「我妻善逸」<br>⇒ 生命力、攻擊力、回復力 1.3 倍",
+                "activate": "以「竈門禰豆子」及「我妻善逸」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ["指定成員"],
+                "relative": [2665, 2663]
+            },
+            {
+                "description": "「鬼殺隊士」對魔族目標<br>⇒ 攻擊力額外 2 倍",
+                "activate": "隊中有「鬼殺隊士」",
+                "skill_tag": ['增攻', '對魔族增傷'],
+                "activate_tag": ["指定成員"],
+                "relative": [2661, 2662, 2664, 2665, 2666, 2667, 2668, 2669]
+            }
+		]
     },
     {
         "id": 2666,
-        "name": "胡蝶忍",
+        "name": "栗花落香奈乎",
         "attribute": "暗",
         "race": "人類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['鬼滅之刃'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "蟲之呼吸 ‧ 蝶之舞 ‧ 戲弄",
+                "name": "瞬擊 ‧ 三連斬",
                 "type": "normal",
                 "charge": "CD",
-                "num": 6,
-                "description": "",
-                "tag": [["敵方中毒", -1], ["回血", -1], "附加消除"]
+                "num": 5,
+                "description": "I. 點選 3 粒符石<br>⇒ 引爆該符石及其四周符石<br>⇒ 掉落心強化符石<br>1 回合內<br>II. 心符石兼具<br>⇒ 屬性符石效果",
+                "tag": ["引爆", "強制掉落", "符石兼具水", "符石兼具火", "符石兼具木", "符石兼具光", "符石兼具暗"]
             }
         ],
-        "team_skill": []
+        "team_skill": [
+            {
+                "description": "最左方的「胡蝶忍」及最左方的「栗花落香奈乎」<br>⇒ 生命力、攻擊力、回復力 1.3 倍",
+                "activate": "以「胡蝶忍」及「栗花落香奈乎」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ["指定成員"],
+                "relative": [2666, 2669]
+            },
+            {
+                "description": "「鬼殺隊士」對魔族目標<br>⇒ 攻擊力額外 2 倍",
+                "activate": "隊中有「鬼殺隊士」",
+                "skill_tag": ['增攻', '對魔族增傷'],
+                "activate_tag": ["指定成員"],
+                "relative": [2661, 2662, 2664, 2665, 2666, 2667, 2668, 2669]
+            }
+		]
     },
     {
         "id": 2667,
@@ -71046,18 +71219,41 @@ const monster_data = [
         "attribute": "水",
         "race": "人類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['鬼滅之刃'],
+        "crossOver": true,
         "skill": [
             {
                 "name": "全集中 ‧ 水之呼吸 ‧ 拾壹之型 ‧ 風平浪靜",
                 "type": "normal",
                 "charge": "CD",
                 "num": 7,
-                "description": "",
+                "description": "I. 將場上的符石變回原始模樣<br>II. 將外側符石轉化為水符石<br>1 回合內<br>III. 所受傷害減至 0<br>(包括「喋血屠刀」、「一擊必殺」等扣除召喚師指定 % 生命力的敵技所造成的傷害)<br>下回合<br>IV. 將移動符石時觸碰的符石<br>⇒ 轉化為人族強化符石<br>V. 全隊攻擊力 2.2 倍<br>VI. 自身對魔族目標<br>⇒ 攻擊力額外 5 倍",
                 "tag": ["還原版面", "符石轉水", "大幅轉版", "固定版面", "減傷", "符石強化", "人族符石製造", "增傷", "對魔族增傷", "界王拳"]
             }
         ],
-        "team_skill": []
+        "team_skill": [
+            {
+                "description": "I. 移動符石後首批掉落的符石<br>⇒ 必定為水強化符石<br>II. 水及心符石互相兼具效果<br>III. 首批消除所有水或心符石時<br>⇒ 水屬性及人類攻擊力額外 2.5 倍<br>IV. 所受水屬性傷害 50% (不包括敵技傷害)<br>⇒ 轉化為我方生命力<br>V. 消除 1 組 ≥18 粒水符石<br>⇒ 增加 8 連擊 (Combo)<br>VI. 無視「黏腐」敵技<br>VII. 無視「蜘蛛網」敵技",
+                "activate": "以「冨岡義勇」作隊長及戰友",
+                "skill_tag": ['強制掉落', '符石兼具水', '符石兼具心', '水兼具其他', '心兼具其他', '增攻', '敵方傷害吸收', '增加Combo', '無視黏腐'],
+                "activate_tag": ["指定雙隊長"],
+                "relative": [2667]
+            },
+            {
+                "description": "「竈門炭治郎」、「冨岡義勇」或「錆兎與真菰」發動技能的回合<br>⇒ 該角色攻擊力 1.5 倍",
+                "activate": "以「鱗瀧左近次」；及「竈門炭治郎」、「冨岡義勇」或「錆兎與真菰」作成員",
+                "skill_tag": ['增攻'],
+                "activate_tag": ["指定成員"],
+                "relative": [2661, 2667, 2672]
+            },
+            {
+                "description": "「鬼殺隊士」對魔族目標<br>⇒ 攻擊力額外 2 倍",
+                "activate": "隊中有「鬼殺隊士」",
+                "skill_tag": ['增攻', '對魔族增傷'],
+                "activate_tag": ["指定成員"],
+                "relative": [2661, 2662, 2664, 2665, 2666, 2667, 2668, 2669]
+            }
+		]
     },
     {
         "id": 2668,
@@ -71065,45 +71261,90 @@ const monster_data = [
         "attribute": "火",
         "race": "人類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['鬼滅之刃'],
+        "crossOver": true,
         "skill": [
             {
                 "name": "炎之呼吸 ‧ 奧義九之型 ‧ 煉獄",
                 "type": "normal",
                 "charge": "CD",
                 "num": 6,
-                "description": "",
-                "tag": ["指定符石引爆", "強制掉落", "增傷", "界王拳", "無視攻前盾", "無視三屬盾", "我方扣血"]
-            },
-            {
-                "name": "炎之呼吸 ‧ 奧義九之型 ‧ 煉獄",
-                "type": "normal",
-                "charge": "CD",
-                "num": 6,
-                "description": "",
-                "tag": ["指定符石引爆", "強制掉落", "人族符石製造", "增傷", "界王拳", "無視攻前盾", "無視三屬盾", "無視拼圖盾", ["限制成員攻擊", 2], ["增傷", 2]]
+                "description": "每次只能選取 1 個效果。<br><br>效果1：<br>I. 點選元素法陣上的 1 粒符石<br>⇒ 引爆該種符石<br>⇒ 掉落火強化符石<br>1 回合內<br>II. 自身攻擊力 10 倍<br>(攻擊力不可與其他成員共享)<br>III. 自身攻擊無視攻前盾及三屬盾<br>IV. 回合結束時<br>⇒ 我方生命力變為 1<br><br>效果2：<br>I. 點選元素法陣上的 2 粒符石<br>⇒ 引爆該 2 種符石<br>⇒ 掉落火人族強化符石<br>1 回合內<br>II. 自身攻擊力 15 倍<br>(攻擊力不可與其他成員共享)<br>III. 自身攻擊無視攻前盾、三屬盾及指定形狀盾<br>IV. 回合結束時，2 回合內<br>⓵ 自身進入疲憊狀態<br>⓶ 自身以外人類成員<br>⇒ 進入亢奮狀態<br><br>發動此技能時需儲滿龍脈儀及該回合不能發動龍刻脈動",
+                "tag": ["指定符石引爆", "強制掉落", "增傷", "界王拳", "無視攻前盾", "無視三屬盾", "我方扣血", "人族符石製造", "無視拼圖盾", ["限制成員攻擊", 2], ["增傷", 2]]
             }
         ],
-        "team_skill": []
+        "team_skill": [
+            {
+                "description": "I. 火符石掉落率提升至 25%<br>II. 火及心符石互相兼具效果<br>III. 將移動符石時觸碰的首 5 粒符石<br>⇒ 轉化為火人族強化符石<br>IV. 將移動符石時觸碰的火符石<br>⇒ 轉化為火人族強化符石<br>V. 消除 1 組火符石的數目愈多<br>⇒ 全隊攻擊力提升愈多<br>⇒ 消除 1 組 8 粒可提升至最大 3 倍<br>VI.「燃燒」敵技的傷害<br>⇒ 轉化為我方生命力<br>VII. 觸碰「燃燒」位置<br>⇒ 該回合「煉獄杏壽郎」攻擊力 2.5 倍<br>VIII. 進入最後一層 (Wave)<br>⇒ 火符石效果提升 250%",
+                "activate": "以「煉獄杏壽郎」作隊長及戰友",
+                "skill_tag": ['符石掉落率提升', '符石兼具火', '符石兼具心', '火兼具其他', '心兼具其他', '符石轉火', '符石轉火強化', '人族符石製造', '符石強化', '增攻', '無視燃燒', '符石效果提升'],
+                "activate_tag": ["指定雙隊長"],
+                "relative": [2668]
+            },
+            {
+                "description": "I. 「煉獄杏壽郎」CD -3<br>II. 全隊生命力、回復力 3.5 倍<br>III. 於隊長或戰友直行每首批消除 1 粒火符石<br>⇒ 該「煉獄杏壽郎」追打 1 次<br>IV. 7 回合內，全隊攻擊力 5 倍",
+                "activate": "以「煉獄杏壽郎」作隊長及戰友，且隊中沒有隊員",
+                "skill_tag": ['永久減CD', '增回', '增血', '火屬追打', '增攻'],
+                "activate_tag": ["指定雙隊長"],
+                "relative": [2668]
+            },
+            {
+                "description": "「鬼殺隊士」對魔族目標<br>⇒ 攻擊力額外 2 倍",
+                "activate": "隊中有「鬼殺隊士」",
+                "skill_tag": ['增攻', '對魔族增傷'],
+                "activate_tag": ["指定成員"],
+                "relative": [2661, 2662, 2664, 2665, 2666, 2667, 2668, 2669]
+            }
+		]
     },
     {
         "id": 2669,
-        "name": "栗花落香奈乎",
+        "name": "胡蝶忍",
         "attribute": "暗",
+        "crossOver": true,
         "race": "人類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['鬼滅之刃'],
         "skill": [
             {
-                "name": "瞬擊 ‧ 三連斬",
+                "name": "蟲之呼吸 ‧ 蝶之舞 ‧ 戲弄",
                 "type": "normal",
                 "charge": "CD",
-                "num": 5,
-                "description": "",
-                "tag": ["引爆", "強制掉落", "符石兼具水", "符石兼具火", "符石兼具木", "符石兼具光", "符石兼具暗"]
+                "num": 6,
+                "description": "I. 敵方全體中毒：<br>每回合吸取相當於自身 300 倍回復力的生命力，此傷害無視敵人屬性及防禦並持續到死亡；<br>若目標為魔族，此傷害無視敵方技能<br>II. 隊中有 ≥3 個「鬼滅之刃」石抽系列成員<br>⓵ 消除所有附加效果<br>⓶ 完全回復生命力",
+                "tag": [["敵方中毒", -1], ["回血", -1], "附加消除"]
             }
         ],
-        "team_skill": []
+        "team_skill": [
+            {
+                "description": "I. 消除暗或心符石時<br>⇒ 受到「胡蝶忍」攻擊的敵人會身中烈毒：<br>每回合受到自身攻擊力 200 倍的傷害，此傷害無視防禦力及屬性並持續至死亡",
+                "activate": "以「胡蝶忍」作成員",
+                "skill_tag": ['敵方中毒'],
+                "activate_tag": [],
+                "relative": [2669]
+            },
+            {
+                "description": "I. 延長移動符石時間至 10 秒<br>II. 敵人附有「烈毒狀態」時<br>⇒「胡蝶忍」攻擊力額外 3 倍<br>III. 暗及心符石互相兼具效果<br>IV. 消除暗或心符石時，下回合開始時：<br>將最底 1 橫行的符石轉化為<br>⇒ 心強化及暗人族強化符石各 3 粒",
+                "activate": "以「胡蝶忍」作隊長，並以「鬼滅之刃」石抽角色作戰友",
+                "skill_tag": ['延長轉珠時間', '增攻', '符石兼具暗', '符石兼具心', '暗兼具其他', '心兼具其他', '符石轉暗', '符石轉心', '符石轉暗強化', '符石轉心強化', '人族符石製造', '固定轉版'],
+                "activate_tag": ['指定隊長戰友'],
+                "relative": [2669, 2661, 2662, 2663, 2664, 2665, 2666, 2667, 2668, 2670]
+            },
+            {
+                "description": "最左方的「胡蝶忍」及最左方的「栗花落香奈乎」<br>⇒ 生命力、攻擊力、回復力 1.3 倍",
+                "activate": "以「胡蝶忍」及「栗花落香奈乎」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ["指定成員"],
+                "relative": [2669, 2666]
+            },
+            {
+                "description": "「鬼殺隊士」對魔族目標<br>⇒ 攻擊力額外 2 倍",
+                "activate": "隊中有「鬼殺隊士」",
+                "skill_tag": ['增攻', '對魔族增傷'],
+                "activate_tag": ["指定成員"],
+                "relative": [2661, 2662, 2664, 2665, 2666, 2667, 2668, 2669]
+            }
+		]
     },
     {
         "id": 2670,
@@ -71111,24 +71352,17 @@ const monster_data = [
         "attribute": "光",
         "race": "魔族",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['鬼滅之刃'],
+        "crossOver": true,
         "skill": [
             {
                 "name": "血鬼術 ‧ 白日的魔香",
                 "type": "normal",
                 "charge": "CD",
                 "num": 6,
-                "description": "",
-                "tag": ["引爆", "心符石引爆", "強制掉落", ["魅惑敵方", 2]]
+                "description": "每次只能選取 1 個效果。<br><br>效果1：<br>I. 引爆心符石<br>⇒ 掉落心以外符石<br>1 回合內<br>II. 敵方互相或自我進行 1 次攻擊<br>III. 若目標為魔族<br>⇒ 額外增加 1 回合效果<br><br>效果2：<br>I. 引爆心符石<br>⇒ 掉落強化符石<br>1 回合內<br>II. 身旁成員<br>⓵ 攻擊力及回復力 3.5 倍<br>⓶ 攻擊無視「攻前盾」",
+                "tag": ["引爆", "心符石引爆", "強制掉落", ["魅惑敵方", 2], "增傷", "界王拳", "增回", "無視攻前盾"]
             },
-            {
-                "name": "血鬼術 ‧ 白日的魔香",
-                "type": "normal",
-                "charge": "CD",
-                "num": 6,
-                "description": "",
-                "tag": ["引爆", "心符石引爆", "增傷", "界王拳", "增回", "無視攻前盾"]
-            }
         ],
         "team_skill": []
     },
@@ -71139,6 +71373,7 @@ const monster_data = [
         "race": "",
         "star": 0,
         "monsterTag": [],
+        "crossOver": true,
         "skill": [
             {
                 "name": "",
@@ -71153,22 +71388,31 @@ const monster_data = [
     },
     {
         "id": 2672,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "錆兎與真菰",
+        "attribute": "水",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['競技場'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "全集中呼吸法",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "I. 將最頂 1 橫行的符石<br>⇒ 轉化為水強化符石<br>II. 將最底 1 橫行的符石<br>⇒ 轉化為心強化符石<br>1 回合內<br>III. 自身攻擊力 3.5 倍<br>IV. 回合結束時，將「竈門炭治郎」及「冨岡義勇」直行符石<br>⇒ 轉化為水人族強化符石",
+                "tag": ['符石轉水', '符石轉水強化', '符石轉心', '符石轉心強化', '固定版面', '增傷', '界王拳', '人族符石製造']
             }
         ],
-        "team_skill": []
+        "team_skill": [
+            {
+                "description": "「竈門炭治郎」、「冨岡義勇」或「錆兎與真菰」發動技能的回合<br>⇒ 該角色攻擊力 1.5 倍",
+                "activate": "以「鱗瀧左近次」；及「竈門炭治郎」、「冨岡義勇」或「錆兎與真菰」作成員",
+                "skill_tag": ['增攻'],
+                "activate_tag": ["指定成員"],
+                "relative": [2661, 2667, 2672]
+            },
+		]
     },
     {
         "id": 2673,
@@ -71176,14 +71420,15 @@ const monster_data = [
         "attribute": "光",
         "race": "人類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['竈門家長女'],
+        "crossOver": true,
         "skill": [
             {
                 "name": "人類攻擊提升",
                 "type": "normal",
                 "charge": "CD",
                 "num": 6,
-                "description": "",
+                "description": "I. 自身攻擊力減至 0<br>II. 人類成員攻擊力 2.2 倍<br>III.「竈門炭治郎」、「火之神 ‧ 竈門炭治郎」<br>⇒ 攻擊力額外 1.5 倍<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 將所有符石轉化為心符石",
                 "tag": [['我方減攻', -1], ['增傷', -1], ['界王拳', -1], '隨時關閉', '符石轉心', '水轉其他', '火轉其他', '木轉其他', '光轉其他', '暗轉其他', '大幅轉版', '固定版面']
             }
         ],
@@ -71191,38 +71436,40 @@ const monster_data = [
     },
     {
         "id": 2674,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "沼鬼",
+        "attribute": "水",
+        "race": "魔族",
+        "star": 5,
+        "monsterTag": ['吃人鬼'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "沼澤穿梭",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "I. 隨機將 9 粒符石轉化為<br>⇒「水、火、木」強化符石<br>1 回合內<br>II. 無視「黏腐」敵技<br>III. 首批消除 ≥3 種屬性符石<br>⇒ 個人以 50% 攻擊力追打 3 次",
+                "tag": ['符石轉水', '符石轉火', '符石轉木', '符石轉水強化', '符石轉火強化', '符石轉木強化', '無視黏腐', '水屬追打', '自身追打']
             }
         ],
         "team_skill": []
     },
     {
         "id": 2675,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "手鬼",
+        "attribute": "木",
+        "race": "魔族",
+        "star": 7,
+        "monsterTag": ['討伐戰'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "啃食人類",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "I. 將固定位置的符石轉化為<br>⇒ 15 粒木符石及 5 粒火符石<br>3 回合內<br>II. 減少 50% 所受傷害<br>III. 個人以 50% 攻擊力追打 3 次<br>IV. 若有擊斃敵人時<br>⇒ 該回合不會扣減技能持續回合",
+                "tag": ['符石轉木', '符石轉火', '大幅轉版', '固定版面', ['減傷', 3], ['木屬追打', 3], ['自身追打', 3]]
             }
         ],
         "team_skill": []
@@ -71234,6 +71481,7 @@ const monster_data = [
         "race": "",
         "star": 0,
         "monsterTag": [],
+        "crossOver": true,
         "skill": [
             {
                 "name": "",
@@ -71253,6 +71501,7 @@ const monster_data = [
         "race": "",
         "star": 0,
         "monsterTag": [],
+        "crossOver": true,
         "skill": [
             {
                 "name": "",
@@ -71272,6 +71521,7 @@ const monster_data = [
         "race": "",
         "star": 0,
         "monsterTag": [],
+        "crossOver": true,
         "skill": [
             {
                 "name": "",
@@ -71291,6 +71541,7 @@ const monster_data = [
         "race": "",
         "star": 0,
         "monsterTag": [],
+        "crossOver": true,
         "skill": [
             {
                 "name": "",
@@ -71310,6 +71561,7 @@ const monster_data = [
         "race": "",
         "star": 0,
         "monsterTag": [],
+        "crossOver": true,
         "skill": [
             {
                 "name": "",
@@ -71324,379 +71576,19 @@ const monster_data = [
     },
     {
         "id": 2681,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "赤目鬼",
+        "attribute": "光",
+        "race": "魔族",
+        "star": 3,
+        "monsterTag": ['素材'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "沒有技能",
                 "type": "normal",
                 "charge": "CD",
                 "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2682,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2683,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2684,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2685,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2686,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2687,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2688,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2689,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2690,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2691,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2692,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2693,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2694,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2695,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2696,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2697,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2698,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2699,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
-        ],
-        "team_skill": []
-    },
-    {
-        "id": 2700,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
+                "description": "沒有技能",
                 "tag": []
             }
         ],
