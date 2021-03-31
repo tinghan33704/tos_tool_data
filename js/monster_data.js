@@ -71468,7 +71468,7 @@ const monster_data = [
         "attribute": "木",
         "race": "魔族",
         "star": 7,
-        "monsterTag": ['討伐戰'],
+        "monsterTag": ['迎擊戰'],
         "crossOver": true,
         "skill": [
             {
