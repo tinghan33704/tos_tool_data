@@ -1,4 +1,4 @@
-// Last modified : 2021.03.29 23:16
+// Last modified : 2021.03.31 20:38
 
 const monster_data = [
     {
@@ -70956,7 +70956,7 @@ const monster_data = [
                 "activate": "以「鱗瀧左近次」；及「竈門炭治郎」、「冨岡義勇」或「錆兎與真菰」作成員",
                 "skill_tag": ['增攻'],
                 "activate_tag": ["指定成員"],
-                "relative": [2661, 2667, 2672]
+                "relative": [2671, 2661, 2667, 2672]
             },
             {
                 "description": "最左方的『「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」；「嘴平伊之助」及「我妻善逸」』<br>⇒ 生命力、攻擊力、回復力 1.3 倍",
@@ -71244,7 +71244,7 @@ const monster_data = [
                 "activate": "以「鱗瀧左近次」；及「竈門炭治郎」、「冨岡義勇」或「錆兎與真菰」作成員",
                 "skill_tag": ['增攻'],
                 "activate_tag": ["指定成員"],
-                "relative": [2661, 2667, 2672]
+                "relative": [2671, 2661, 2667, 2672]
             },
             {
                 "description": "「鬼殺隊士」對魔族目標<br>⇒ 攻擊力額外 2 倍",
@@ -71326,7 +71326,7 @@ const monster_data = [
             {
                 "description": "I. 延長移動符石時間至 10 秒<br>II. 敵人附有「烈毒狀態」時<br>⇒「胡蝶忍」攻擊力額外 3 倍<br>III. 暗及心符石互相兼具效果<br>IV. 消除暗或心符石時，下回合開始時：<br>將最底 1 橫行的符石轉化為<br>⇒ 心強化及暗人族強化符石各 3 粒",
                 "activate": "以「胡蝶忍」作隊長，並以「鬼滅之刃」石抽角色作戰友",
-                "skill_tag": ['延長轉珠時間', '增攻', '符石兼具暗', '符石兼具心', '暗兼具其他', '心兼具其他', '符石轉暗', '符石轉心', '符石轉暗強化', '符石轉心強化', '人族符石製造', '固定轉版'],
+                "skill_tag": ['延長轉珠時間', '增攻', '符石兼具暗', '符石兼具心', '暗兼具其他', '心兼具其他', '符石轉暗', '符石轉心', '符石轉暗強化', '符石轉心強化', '人族符石製造', '固定版面'],
                 "activate_tag": ['指定隊長戰友'],
                 "relative": [2669, 2661, 2662, 2663, 2664, 2665, 2666, 2667, 2668, 2670]
             },
@@ -71368,23 +71368,31 @@ const monster_data = [
     },
     {
         "id": 2671,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
+        "name": "鱗瀧左近次",
+        "attribute": "水",
+        "race": "人類",
+        "star": 6,
         "monsterTag": [],
         "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "水元素追擊",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "1 回合內<br>I. 首批掉落的符石<br>⇒ 必定為水及心符石<br>II. 人類成員追打<br>⇒ 水屬性攻擊 1 次<br>III. 隊伍中有「竈門炭治郎」、「冨岡義勇」或「錆兎與真菰」<br>⇒ 額外增加 1 回合效果",
+                "tag": [['強制掉落', 2], ['水屬追打', 2]]
             }
         ],
-        "team_skill": []
+        "team_skill": [
+            {
+                "description": "「竈門炭治郎」、「冨岡義勇」或「錆兎與真菰」發動技能的回合<br>⇒ 該角色攻擊力 1.5 倍",
+                "activate": "以「鱗瀧左近次」；及「竈門炭治郎」、「冨岡義勇」或「錆兎與真菰」作成員",
+                "skill_tag": [],
+                "activate_tag": ["指定成員"],
+                "relative": [2671, 2661, 2667, 2672]
+            },
+		]
     },
     {
         "id": 2672,
@@ -71410,7 +71418,7 @@ const monster_data = [
                 "activate": "以「鱗瀧左近次」；及「竈門炭治郎」、「冨岡義勇」或「錆兎與真菰」作成員",
                 "skill_tag": ['增攻'],
                 "activate_tag": ["指定成員"],
-                "relative": [2661, 2667, 2672]
+                "relative": [2671, 2661, 2667, 2672]
             },
 		]
     },
@@ -71496,40 +71504,40 @@ const monster_data = [
     },
     {
         "id": 2677,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "響凱",
+        "attribute": "光",
+        "race": "魔族",
+        "star": 5,
+        "monsterTag": ['吃人鬼'],
         "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "尚速擊鼓",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "I. 將所有符石轉化為<br>⇒「魔族成員屬性及心」魔族符石<br>II. 若隊中只有魔族成員<br>⇒ 於回合結束時，再次轉化所有符石",
+                "tag": ['符石轉光', '符石轉心', '魔族符石製造']
             }
         ],
         "team_skill": []
     },
     {
         "id": 2678,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "累",
+        "attribute": "暗",
+        "race": "魔族",
+        "star": 6,
+        "monsterTag": ['地獄級'],
         "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "刻線輪轉",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "鎖定 4 個角落位置：<br>I. 移動符石時經過鎖定位置愈多 (不計重複)<br>⇒ 自身攻擊力提升愈多<br>⇒ 經過 4 個角落可提升最多 2 倍<br>II. 於鎖定位置結束轉珠<br>⓵ 自身攻擊力額外 3 倍<br>⓶ 自身攻擊無視「固定連擊盾」<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵「井型」引爆 18 個固定位置的符石<br>⇒ 掉落強化符石",
+                "tag": [['增傷', -1], ['界王拳', -1], ['無視固定連擊盾', -1], '隨時關閉', '引爆', '直行引爆', '橫行引爆']
             }
         ],
         "team_skill": []
