@@ -1,4 +1,4 @@
-// Last modified : 2021.04.01 23:42
+// Last modified : 2021.04.05 20:49
 
 const monster_data = [
     {
@@ -71372,7 +71372,7 @@ const monster_data = [
         "attribute": "水",
         "race": "人類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['鬼殺隊培育者'],
         "crossOver": true,
         "skill": [
             {
@@ -71584,7 +71584,7 @@ const monster_data = [
     },
     {
         "id": 2681,
-        "name": "赤目鬼",
+        "name": "暴眼魔",
         "attribute": "光",
         "race": "魔族",
         "star": 3,
@@ -71592,12 +71592,12 @@ const monster_data = [
         "crossOver": true,
         "skill": [
             {
-                "name": "沒有技能",
+                "name": "緊急防禦",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "沒有技能",
-                "tag": []
+                "num": 5,
+                "description": "1 回合內，減少 50% 所受傷害",
+                "tag": ['減傷']
             }
         ],
         "team_skill": []
