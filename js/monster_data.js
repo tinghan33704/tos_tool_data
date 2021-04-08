@@ -1,4 +1,4 @@
-// Last modified : 2021.04.05 20:49
+// Last modified : 2021.04.08 22:18
 
 const monster_data = [
     {
@@ -71484,20 +71484,20 @@ const monster_data = [
     },
     {
         "id": 2676,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "矢琶羽與朱紗丸",
+        "attribute": "火",
+        "race": "魔族",
+        "star": 6,
+        "monsterTag": ['戰慄級'],
         "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "玩手球 ‧ 紅潔之箭",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 7,
+                "description": "每次只能選取 1 個效果。<br><br>效果1：<br>1 回合內<br>I. 火符石首批 1 粒即可發動消除<br>II. 每首批消除 1 組火符石<br>⇒ 個人以 50% 攻擊力追打 1 次<br>⇒ 最多可追打 8 次<br><br>效果2：<br>1 回合內<br>I. 12 秒內，可任意移動符石而不會發動消除<br>II. 將移動符石時觸碰的符石<br>⇒ 轉化為魔族強化符石",
+                "tag": ['改變消除方式', '火屬追打', '自身追打', '排珠', '符石強化', '魔族符石製造']
             }
         ],
         "team_skill": []
@@ -71544,20 +71544,20 @@ const monster_data = [
     },
     {
         "id": 2679,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "魘夢",
+        "attribute": "暗",
+        "race": "魔族",
+        "star": 6,
+        "monsterTag": ['下弦之壹'],
         "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "強制昏睡睡眠 · 眼",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 8,
+                "description": "I. 敵方全體進入睡眠狀態<br>II. 使受影響目標無法行動，持續 2 回合<br>III. 若敵方為人類<br>⇒ 則持續 5 回合<br>IV. 首批消除心符石<br>⇒ 會令敵方甦醒<br>V. 全隊對置身睡眠狀態的目標<br>⇒ 攻擊力額外 1.5 倍",
+                "tag": [['無法行動', 5], ['增傷', 5]]
             }
         ],
         "team_skill": []
@@ -71589,7 +71589,7 @@ const monster_data = [
         "race": "魔族",
         "star": 3,
         "monsterTag": ['素材'],
-        "crossOver": true,
+        "crossOver": false,
         "skill": [
             {
                 "name": "緊急防禦",
