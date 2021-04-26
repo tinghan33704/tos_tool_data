@@ -1,4 +1,4 @@
-// Last modified : 2021.04.22 23:11
+// Last modified : 2021.04.27 00:17
 
 const monster_data = [
     {
@@ -68378,12 +68378,12 @@ const monster_data = [
         "crossOver": false,
         "skill": [
             {
-                "name": "沒有技能",
+                "name": "蠎之液",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "沒有技能",
-                "tag": []
+                "num": 6,
+                "description": "I. 將暗符石轉化為<br>⇒ 獸族強化符石<br>II. 將心符石轉化為<br>⇒ 隊長屬性符石<br>1 回合內<br>III. 所受傷害減少 65%<br>IV. 隊伍中每多 1 種族成員<br>⇒ 額外增加 1 回合效果<br>⇒ 最多持續 3 回合",
+                "tag": ['符石強化', '符石轉暗強化', '獸族符石製造', '心轉其他', ['減傷', 3]]
             }
         ],
         "team_skill": []
