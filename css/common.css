@@ -639,3 +639,12 @@ select {
         padding-top: 15px;
     }
 }
+
+#notification {
+	display: none;
+}
+
+#close_notification {
+	text-align: right;
+	cursor: pointer;
+}

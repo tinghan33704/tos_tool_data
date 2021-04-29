@@ -9,6 +9,8 @@ $(window).resize(() => {
 
 function init() {
     $(".row.result-row").hide();
+	
+	setNotification();
     
     $('#toTop-btn').click(() => { 
         $('html,body').animate({
@@ -101,6 +103,7 @@ function init() {
     $("#keyword-switch").length && $("#keyword-switch").on("click", keywordSwitch);
     $("#optionPanel").length && $('#optionPanel').on('hide.bs.modal', recordOption);
     $("#switch_display").length && $('#switch_display').on("click", displaySwitch);
+    $("#close_notification").length && $('#close_notification').on("click", closeNotification);
     
     $("#option-btn").length && $('#option-btn').click(() => {
         let hasSelectedSkill = false;
@@ -114,6 +117,29 @@ function init() {
         if(hasSelectedSkill) openOptionPanel();
         else errorAlert(2);
     });
+}
+
+function setNotification() {
+	switch(tool_id) {
+        case 'active_skill':
+        case 'team_skill':
+			if(monster_notification.length) {
+				$("#notification_text").html(monster_notification)
+				$("#notification").css({'display': 'block'})
+			}
+        break;
+        case 'craft':
+			if(craft_notification.length) {
+				$("#notification_text").html(craft_notification)
+				$("#notification").css({'display': 'block'})
+			}
+        break;
+    }
+	
+}
+
+function closeNotification() {
+	$("#notification").css({'display': 'none'})
 }
 
 function createSideNavigation() {
