@@ -1,4 +1,4 @@
-// Last modified : 2021.05.06 20:47
+// Last modified : 2021.05.06 22:05
 
 const monster_data = [
     {
@@ -12799,7 +12799,7 @@ const monster_data = [
                 "type": "normal",
                 "charge": "CD",
                 "num": 8,
-                "description": "指定敵人無法在死亡後對召喚師造成傷害",
+                "description": "解除「亡命爆擊」<br>(指定敵人無法在死亡後對召喚師造成傷害)",
                 "tag": ["防爆"]
             }
         ],
@@ -72025,8 +72025,8 @@ const monster_data = [
     },
     {
         'id': 2694,
-        'name': '',
-        'attribute': '',
+        'name': '神社土偶',
+        'attribute': '水',
         'race': '',
         'star': 0,
         'monsterTag': [],
