@@ -1,4 +1,4 @@
-// Last modified : 2021.05.06 22:05
+// Last modified : 2021.05.09 23:19
 
 const monster_data = [
     {
@@ -41215,6 +41215,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["妖嬈花夢"],
         "crossOver": false,
+		"specialImage": true,
         "skill": [
             {
                 "name": "逆我盡滅",
@@ -68514,6 +68515,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["魔法閣沙蘿耶"],
         "crossOver": false,
+		"specialImage": true,
         "skill": [
             {
                 "name": "命定的守護",
@@ -69148,6 +69150,7 @@ const monster_data = [
         "star": 7,
         "monsterTag": ["東方戰神"],
         "crossOver": false,
+		"specialImage": true,
         "skill": [
             {
                 "name": "血戰山河",
@@ -73015,6 +73018,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ['天竺鼠車車'],
         "crossOver": true,
+		"specialImage": true,
         "skill": [
             {
                 "name": "汽水噴發",
@@ -73050,6 +73054,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ['天竺鼠車車'],
         "crossOver": true,
+		"specialImage": true,
         "skill": [
             {
                 "name": "防喪屍裝甲",
@@ -73085,6 +73090,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ['天竺鼠車車'],
         "crossOver": true,
+		"specialImage": true,
         "skill": [
             {
                 "name": "紅蘿蔔利誘術",
@@ -73120,6 +73126,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ['天竺鼠車車'],
         "crossOver": true,
+		"specialImage": true,
         "skill": [
             {
                 "name": "規則外的通道",
@@ -73155,6 +73162,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ['天竺鼠車車'],
         "crossOver": true,
+		"specialImage": true,
         "skill": [
             {
                 "name": "天竺鼠任務",
