@@ -1,4 +1,4 @@
-// Last modified : 2021.05.09 23:19
+// Last modified : 2021.05.10 21:56
 
 const monster_data = [
     {
@@ -51328,7 +51328,7 @@ const monster_data = [
         "attribute": "光",
         "race": "神族",
         "star": 7,
-        "monsterTag": ["憶念"],
+        "monsterTag": ["地獄魔王"],
         "crossOver": false,
         "skill": [
             {
@@ -51444,8 +51444,8 @@ const monster_data = [
     },
     {
         "id": 1996,
-        "name": "",
-        "attribute": "",
+        "name": "逐焰勇者 ‧ 伊阿宋",
+        "attribute": "木",
         "race": "",
         "star": -1,
         "monsterTag": [],
@@ -71770,8 +71770,8 @@ const monster_data = [
         'name': '堅貞護道 ‧ 壹與',
         'attribute': '光',
         'race': '人類',
-        'star': 6,
-        'monsterTag': [],
+        'star': 5,
+        'monsterTag': ['邪馬台國'],
         'crossOver': false,
         'skill': [
             {
@@ -72030,17 +72030,17 @@ const monster_data = [
         'id': 2694,
         'name': '神社土偶',
         'attribute': '水',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'race': '強化素材',
+        'star': 3,
+        'monsterTag': ['素材'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
