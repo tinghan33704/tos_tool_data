@@ -1,4 +1,4 @@
-// Last modified : 2021.05.10 21:56
+// Last modified : 2021.05.13 18:41
 
 const monster_data = [
     {
@@ -72048,20 +72048,20 @@ const monster_data = [
     },
     {
         'id': 2695,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '北海龍王 ‧ 敖吉',
+        'attribute': '水',
+        'race': '龍類',
+        'star': 7,
+        'monsterTag': ['討伐戰'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '龍力巔峰',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 將最底 1 橫行的符石<br>⇒ 轉化為水龍族符石<br>II. 回合結束時<br>⇒ 將最底 1 橫行的符石轉化為水龍族符石<br>2 回合內<br>III. 隊中攻擊力最高 (最左方)的 1 個龍類成員<br>⇒ 攻擊力基值提升 4000 點',
+                'tag': ['符石轉水', '龍族符石製造', '固定版面', ['增傷', 2]]
             }
         ],
         'team_skill': []
@@ -72992,20 +72992,28 @@ const monster_data = [
     },
     {
         "id": 7020,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "勢如破竹 ‧ 光夏",
+        "attribute": "光",
+        "race": "龍類",
+        "star": 7,
+        "monsterTag": ["迴廊之主"],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "真龍不滅",
                 "type": "normal",
-                "charge": "",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "charge": "CD",
+                "num": 7,
+                "description": "1 回合內<br>I. 自身不能發動攻擊<br>II. 以所受傷害 1500 倍<br>⇒ 對敵方攻擊者進行相剋屬性反擊<br>(此傷害無視防禦力及「強化突破」敵技)<br>III. 若隊長及戰友為龍類時<br>⇒本回合所受傷害不會使你死亡",
+                "tag": ["限制成員攻擊", "直傷", "破防直傷", "意志"]
+            },
+            {
+                "name": "逆龍浩劫",
+                "type": "normal",
+                "charge": "CD",
+                "num": 8,
+                "description": "I. 儲滿龍脈儀<br>1 回合內<br>II. 自身攻擊力 10 倍<br>III. 自身無視敵人防禦力<br>IV. 自身無視「三屬盾」<br>V.「龍類及獸類」以外成員<br>⇒ 3 回合內不能發動攻擊",
+                "tag": ['龍脈儀蓄能', '增傷', '界王拳', '破防', '無視三屬盾', ['限制成員攻擊', 3]]
             }
         ],
         "team_skill": []
