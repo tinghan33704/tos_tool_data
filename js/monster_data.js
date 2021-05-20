@@ -73316,7 +73316,7 @@ const monster_data = [
     {
         "id": 7031,
         "name": "摩斯拉",
-        "attribute": "暗",
+        "attribute": "木",
         "race": "妖精類",
         "star": 6,
         "monsterTag": ['怪獸'],
