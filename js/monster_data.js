@@ -1,4 +1,4 @@
-// Last modified : 2021.05.13 18:41
+// Last modified : 2021.05.20 23:34
 
 const monster_data = [
     {
@@ -66023,7 +66023,7 @@ const monster_data = [
         "id": 2492,
         "name": "烙刃破空 ‧ 基斯",
         "attribute": "火",
-        "race": "妖精類\t",
+        "race": "妖精類",
         "star": 6,
         "monsterTag": ["變形金屬"],
         "crossOver": false,
@@ -73240,139 +73240,177 @@ const monster_data = [
     },
     {
         "id": 7028,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "哥吉拉",
+        "attribute": "暗",
+        "race": "獸類",
+        "star": 7,
+        "monsterTag": ['怪獸'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "放射熱線",
                 "type": "normal",
-                "charge": "",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "charge": "CD",
+                "num": 7,
+                "description": "I. 減少 95% 所受傷害<br>II. 每回合發動攻擊前<br>⇒ 以 5000 倍自身攻擊力對單一敵人造成無屬性傷害<br>III. 自身攻擊 5 倍<br>IV. 自身無視「固定連擊盾」<br>效果持續至受到敵人攻擊",
+                "tag": [['減傷', -1], ['直傷', -1], ['增傷', -1], ['界王拳', -1], ['無視固定連擊盾', -1]]
             }
         ],
-        "team_skill": []
+        "team_skill": [
+            {
+                "description": "I. 延長移動符石時間 4 秒<br><br>II. 無視「燃燒」敵技<br><br>III. 暗及木符石互相兼具效果<br><br>IV. 於任何 1 橫行內消除 1 組 6 粒符石<br>⓵ 全隊攻擊力 4 倍<br>⓶ 增加 5 連擊 (Combo)<br>⓷ 首批掉落直行獸類及妖精類成員屬性符石",
+                "activate": "以「哥吉拉」作隊長及戰友",
+                "skill_tag": ['延長轉珠時間', '無視燃燒', '符石兼具木', '符石兼具暗', '木兼具其他', '暗兼具其他', '增攻', '增加Combo', '強制掉落'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [7028]
+            },
+            {
+                "description": "I. 心符石兼具屬性符石效果<br><br>II. 進入關卡後，「摩斯拉」技能 CD -8",
+                "activate": "以「哥吉拉」作隊長及戰友，並以「摩斯拉」作隊員",
+                "skill_tag": ['心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗'],
+                "activate_tag": ['指定雙隊長', '指定成員'],
+                "relative": [7028, 7031]
+            }
+		]
     },
     {
         "id": 7029,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "力多爾哥吉拉",
+        "attribute": "木",
+        "race": "獸類",
+        "star": 6,
+        "monsterTag": ['怪獸'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "泡泡熱線",
                 "type": "normal",
-                "charge": "",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "charge": "CD",
+                "num": 8,
+                "description": "1 回合內<br>I. 發動技能及回合結束時<br>⇒ 將自身直行符石轉化為木獸族符石<br>II. 觸碰暴風時仍可移動符石<br>III. 隊中每多 1 個獸類或妖精類成員<br>⇒ 額外增加 1 回合效果<br>⇒ 最多可持續 5 回合",
+                "tag": [['符石轉木', 5], ['獸族符石製造', 5], ['無視暴風', 5]]
             }
         ],
         "team_skill": []
     },
     {
         "id": 7030,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "拉頓",
+        "attribute": "火",
+        "race": "龍類",
+        "star": 6,
+        "monsterTag": ['拉頓'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "鈾能熱線",
                 "type": "normal",
-                "charge": "",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "charge": "CD",
+                "num": 5,
+                "description": "I. 凍結符石轉化為可消除的狀態<br>1 回合內<br>II. 延長移動符石時間 5 秒<br>III. 無視「燃燒」敵技 (不包括「煉獄之火」)<br>IV. 無視「黏腐」敵技",
+                "tag": ['凍結符石處理', '延長轉珠時間', '無視燃燒', '無視黏腐']
             }
         ],
         "team_skill": []
     },
     {
         "id": 7031,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "摩斯拉",
+        "attribute": "暗",
+        "race": "妖精類",
+        "star": 6,
+        "monsterTag": ['怪獸'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "超音波光線",
                 "type": "normal",
-                "charge": "",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "charge": "CD",
+                "num": 8,
+                "description": "I. 發動技能及每回合結束時<br>⇒ 將最底 1 橫行的符石轉化為心強化符石<br>II. 首批消除所有心符石時<br>⇒ 隊長追打水屬性攻擊 1 次<br><br>此技能可隨時關閉，關閉時：<br>⓵ 引爆所有符石<br>⓶ 完全回復生命力",
+                "tag": [['符石轉心', -1], ['符石轉心強化', -1], ['固定版面', -1], ['水屬追打', -1], '隨時關閉', '引爆', '整版引爆', '回血']
             }
         ],
-        "team_skill": []
+        "team_skill": [
+            {
+                "description": "I. 延長移動符石時間 5 秒<br><br>II. 當前生命力全滿時<br>⇒ 所受傷害不會使你死亡<br><br>III. 屬性符石兼具<br>⇒ 400% 心符石效果<br><br>IV. 心符石兼具屬性符石效果<br><br>V. 以回血溢出值的 6 倍作全體攻擊<br>(此傷害無視「強化突破」敵技)",
+                "activate": "以「摩斯拉」作隊長及戰友",
+                "skill_tag": ['延長轉珠時間', '意志', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '溢補攻擊'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [7031]
+            },
+            {
+                "description": "I. 心符石兼具屬性符石效果<br><br>II. 進入關卡後，「摩斯拉」技能 CD -8",
+                "activate": "以「哥吉拉」作隊長及戰友，並以「摩斯拉」作隊員",
+                "skill_tag": ['心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '進場減CD'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [7031, 7028]
+            }
+		]
     },
     {
         "id": 7032,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "王者基多拉",
+        "attribute": "光",
+        "race": "龍類",
+        "star": 6,
+        "monsterTag": ['地獄魔王'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "引力光線",
                 "type": "normal",
-                "charge": "",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "charge": "CD",
+                "num": 8,
+                "description": "I. 將第 1、2 直行的符石<br>⇒ 轉化為光符石<br>II. 將第 5、6 直行的符石<br>⇒ 轉化為暗符石<br>III. 點選元素法陣上的 1 粒符石<br>⇒ 將第 3、4 直行的符石轉化為該種符石<br>1 回合內<br>IV. 首批掉落的 15 粒符石必定為所點選的龍族符石",
+                "tag": ['符石轉光', '符石轉暗', '符石轉水', '符石轉火', '符石轉木', '符石轉心', '固定版面', '大幅轉版', '強制掉落', '龍族符石製造']
             }
         ],
-        "team_skill": []
+        "team_skill": [
+            {
+                "description": "I. 延長移動符石時間 3 秒<br><br>II. 消除 1 組符石的數量愈多，全隊攻擊力提升愈多：<br>⇒ 消除 1 組 5 粒符石，全隊攻擊力 3 倍<br>⇒ 消除 1 組 ≥15 粒符石，可達至最高 9 倍<br><br>III. 每消除 1 組符石<br>⇒ 增加 2 連擊 (Combo)<br>⇒ 最多可增加 30 Combo",
+                "activate": "以「王者基多拉」作隊長及戰友",
+                "skill_tag": ['延長轉珠時間', '增攻', '增加Combo'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [7032]
+            }
+		]
     },
     {
         "id": 7033,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "機械哥吉拉",
+        "attribute": "光",
+        "race": "機械族",
+        "star": 6,
+        "monsterTag": ['地獄魔王'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "米加光線炮",
                 "type": "normal",
-                "charge": "",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "charge": "CD",
+                "num": 7,
+                "description": "I. 發動技能及回合結束時：<br>⓵ 將第 2 橫行的符石<br>⇒ 轉化為光機械族符石<br>⓶ 將第 4 橫行的符石<br>⇒ 轉化為暗機械族符石<br>1 回合內<br>II. 個人以 50% 攻擊力追打 5 次<br>III. 個人無視「三屬盾」及「五屬盾」",
+                "tag": ['符石轉光', '符石轉暗', '固定版面', '機械族符石製造', '光屬追打', '自身追打', '無視三屬盾', '無視五屬盾']
             }
         ],
         "team_skill": []
     },
     {
         "id": 7034,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "哥吉拉幣",
+        "attribute": "光",
+        "race": "強化素材",
+        "star": 3,
+        "monsterTag": ['素材'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "沒有技能",
                 "type": "normal",
-                "charge": "",
+                "charge": "CD",
                 "num": 0,
-                "description": "",
+                "description": "沒有技能",
                 "tag": []
             }
         ],
