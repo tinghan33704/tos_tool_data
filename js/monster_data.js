@@ -1,4 +1,4 @@
-// Last modified : 2021.05.27 20:03
+// Last modified : 2021.05.29 12:17
 
 const monster_data = [
     {
@@ -52349,7 +52349,7 @@ const monster_data = [
                 "name": "烈焰功績",
                 "type": "normal",
                 "charge": "CD",
-                "num": 6,
+                "num": 8,
                 "description": "I. 自身不能發動攻擊<br>II. 火屬性隊長及火屬性戰友<br>⇒ 隨機追打 4 至 8 次<br>效果會在進入下一層數 (Wave) 時消失",
                 "tag": [["限制成員攻擊", -1], ["火屬追打", -1]]
             }
