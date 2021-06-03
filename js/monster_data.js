@@ -1,4 +1,4 @@
-// Last modified : 2021.05.29 12:17
+// Last modified : 2021.06.03 19:55
 
 const monster_data = [
     {
@@ -70965,20 +70965,20 @@ const monster_data = [
     },
     {
         "id": 2659,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "殉道王意 ‧ 春日千",
+        "attribute": "水",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['地獄魔王'],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "一鼓之志",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 7,
+                "description": "1 回合內<br>I. 隊長及戰友攻擊力 2.5 倍<br>II. 將移動符石時觸碰的首 6 粒符石<br>⇒ 轉化為心強化符石<br>III. 若首批消除 ≥8 粒心符石<br>⇒ 該回合不會扣減技能持續回合",
+                "tag": ['增傷', '界王拳', '符石轉心', '符石轉心強化']
             }
         ],
         "team_skill": []
@@ -71809,20 +71809,20 @@ const monster_data = [
     },
     {
         'id': 2685,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '婉約偽裳 ‧ 五十鈴',
+        'attribute': '暗',
+        'race': '人類',
+        'star': 5,
+        'monsterTag': ['邪馬台國'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '吞噬虛弱',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': '2 回合內<br>I. 全體敵人的攻擊力弱化 70%<br>II. 期間所有減傷效果無效<br>III. 若隊長是人類、龍類或獸類<br>⇒ 無視「燃燒」敵技<br>(不包括「煉獄之火」)',
+                'tag': [['敵方減攻', 2], ['無視燃燒', 2]]
             }
         ],
         'team_skill': []
@@ -72090,20 +72090,20 @@ const monster_data = [
     },
     {
         'id': 2696,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '吞音食噪 ‧ 格倫戴爾',
+        'attribute': '火',
+        'race': '獸類',
+        'star': 7,
+        'monsterTag': ['魔神戰'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '超武爆碎斧',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': '每次只能選取 1 個效果。<br><br>效果1：<br>I. 引爆光及暗符石<br>⇒ 掉落「光及暗」以外的獸族符石<br>1 回合內<br>II. 增加 8 連擊 (Combo)<br>III. 若上述引爆符石數量達 9 粒<br>⇒ 自身技能 CD -4<br><br>效果2：<br>I. 引爆水、火、木符石<br>⇒ 掉落「光、暗、心」獸族符石<br>II. 延遲全體敵人行動 2 回合<br>III. 若上述引爆符石數量達 14 粒<br>⇒ 自身技能 CD -2',
+                'tag': ['引爆', '光符石引爆', '暗符石引爆', '獸族符石製造', '強制掉落', '增加Combo', '減CD', '水符石引爆', '火符石引爆', '木符石引爆', ['延遲', 2]]
             }
         ],
         'team_skill': []
