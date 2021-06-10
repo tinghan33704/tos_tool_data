@@ -1,4 +1,4 @@
-// Last modified : 2021.06.03 19:55
+// Last modified : 2021.06.10 20:26
 
 const monster_data = [
     {
@@ -22314,8 +22314,8 @@ const monster_data = [
                 "type": "normal",
                 "charge": "CD",
                 "num": 8,
-                "description": "1 回合內，木屬性傷害無效",
-                "tag": ["減傷"]
+                "description": "1 回合內，迴避木屬性傷害",
+                "tag": ["迴避"]
             }
         ],
         "team_skill": []
@@ -70989,7 +70989,7 @@ const monster_data = [
         "attribute": "暗",
         "race": "人類",
         "star": 7,
-        "monsterTag": [],
+        "monsterTag": ['遺世君王'],
         "crossOver": false,
         "skill": [
             {
@@ -71769,20 +71769,20 @@ const monster_data = [
     },
     {
         'id': 2683,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '持鉞河圖 ‧ 應龍',
+        'attribute': '暗',
+        'race': '龍類',
+        'star': 6,
+        'monsterTag': ['戰慄級'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '暗魂一念間',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 解除自身被封鎖的技能 (此技能無視封鎖技能)<br>1 回合內<br>II. 可任意移動符石而不會發動消除<br>III. 將首次移動符石時觸碰的符石<br>⇒ 轉化為暗龍族符石',
+                'tag': ['解鎖', '排珠', '符石轉暗', '龍族符石製造']
             }
         ],
         'team_skill': []
@@ -72589,7 +72589,243 @@ const monster_data = [
         'team_skill': []
     },
 	
-	
+	{
+        'id': 3001,
+        'name': '野望滅絕 ‧ 薩魯曼',
+        'attribute': '暗',
+        'race': '妖精類',
+        'star': 8,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '蝕靈',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 完全回復生命力<br>1 回合內<br>II. 觸碰暗、心符石時<br>⇒ 解除其電擊、凍結、弱化、化血、石化符石狀態<br>III. 首批消除暗或心符石時<br>⇒ 妖精類成員<br>⓵ 無視「指定形狀盾」<br>⓶ 無視「攻前盾」',
+                'tag': ['回血', '凍結符石處理', '弱化符石處理', '電擊符石處理', '石化符石處理', '化血符石處理', '無視拼圖盾', '無視攻前盾']
+            },
+            {
+                'name': '妖之禮序',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 妖精類成員直行<br>⓵ 首粒及第 5 粒符石<br>⇒ 轉化為心強化符石<br>⓶ 第 2、3、4 粒符石<br>⇒ 轉化為該直行成員的屬性強化符石<br>1 回合內<br>II. 全隊攻擊力 2 倍<br>III. 若首批消除所有符石<br>⇒ 回合結束時，將所有符石轉化為妖族符石',
+                'tag': ['符石轉心', '符石轉心強化', '符石轉暗', '符石轉暗強化', '增傷', '妖族符石製造']
+            }
+        ],
+        'team_skill': [
+            {
+                "description": "I. 【核心】<br>⓵ 受到敵人 5 次攻擊後<br>⇒ 張開核心<br>⓶ 發動「侵蝕 ‧ 封王」角色技能時<br>⇒ 封閉核心<br><br>II. 核心封閉期間<br>⇒ 延長移動符石時間 1.5 秒<br><br>III. 核心張開期間<br>⓵ 每回合將自身直行符石<br>⇒ 轉化為強化符石<br>⓶ 將場上的符石<br>⇒ 轉化為黑白符石",
+                "activate": "以「侵蝕 ‧ 封王」系列角色作成員",
+                "skill_tag": ['延長轉珠時間', '符石強化'],
+                "activate_tag": ["指定成員"],
+                "relative": [3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010]
+            },
+            {
+                "description": "場上有黑白符石時<br>⇒「野望滅絕 ‧ 薩魯曼」攻擊力 4 倍",
+                "activate": "以「野望滅絕 ‧ 薩魯曼」作成員",
+                "skill_tag": ['增攻'],
+                "activate_tag": [],
+                "relative": [3001]
+            },
+            {
+                "description": "≤4 星妖精類成員<br>⓵ 攻擊力 4 倍<br>⓶ 技能 CD -3",
+                "activate": "以「野望滅絕 ‧ 薩魯曼」作成員，且隊中有 ≤4 星妖精類成員",
+                "skill_tag": ['增攻', '永久減CD'],
+                "activate_tag": ['指定種族成員', '指定稀有度成員'],
+                "relative": [3001]
+            },
+            {
+                "description": "隊員生命力、攻擊力、回復力 15 倍",
+                "activate": "以「野望滅絕 ‧ 薩魯曼」作隊長及戰友，並以 4 個 4 星「地精」系列角色作隊員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ['指定成員'],
+                "relative": [3001, 451, 452, 453, 454, 455]
+            },
+		]
+    },
+    {
+        'id': 3002,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 3003,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 3004,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 3005,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 3006,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 3007,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 3008,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 3009,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 3010,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
 	
 	
 	
