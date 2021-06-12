@@ -1,4 +1,4 @@
-// Last modified : 2021.06.10 20:26
+// Last modified : 2021.06.12 16:30
 
 const monster_data = [
     {
@@ -72595,7 +72595,7 @@ const monster_data = [
         'attribute': '暗',
         'race': '妖精類',
         'star': 8,
-        'monsterTag': [],
+        'monsterTag': ['侵蝕 ‧ 封王'],
         'crossOver': false,
         'skill': [
             {
@@ -72648,179 +72648,271 @@ const monster_data = [
     },
     {
         'id': 3002,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '日墜月落 ‧ 噬日狼與喰月狼',
+        'attribute': '光',
+        'race': '獸類',
+        'star': 8,
+        'monsterTag': ['侵蝕 ‧ 封王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                "description": "I. 【核心】<br>⓵ 受到敵人 5 次攻擊後<br>⇒ 張開核心<br>⓶ 發動「侵蝕 ‧ 封王」角色技能時<br>⇒ 封閉核心<br><br>II. 核心封閉期間<br>⇒ 延長移動符石時間 1.5 秒<br><br>III. 核心張開期間<br>⓵ 每回合將自身直行符石<br>⇒ 轉化為強化符石<br>⓶ 將場上的符石<br>⇒ 轉化為黑白符石",
+                "activate": "以「侵蝕 ‧ 封王」系列角色作成員",
+                "skill_tag": ['延長轉珠時間', '符石強化'],
+                "activate_tag": ["指定成員"],
+                "relative": [3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010]
+            }
+		]
     },
     {
         'id': 3003,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '理智失序 ‧ 奧丁',
+        'attribute': '暗',
+        'race': '神族',
+        'star': 8,
+        'monsterTag': ['侵蝕 ‧ 封王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                "description": "I. 【核心】<br>⓵ 受到敵人 5 次攻擊後<br>⇒ 張開核心<br>⓶ 發動「侵蝕 ‧ 封王」角色技能時<br>⇒ 封閉核心<br><br>II. 核心封閉期間<br>⇒ 延長移動符石時間 1.5 秒<br><br>III. 核心張開期間<br>⓵ 每回合將自身直行符石<br>⇒ 轉化為強化符石<br>⓶ 將場上的符石<br>⇒ 轉化為黑白符石",
+                "activate": "以「侵蝕 ‧ 封王」系列角色作成員",
+                "skill_tag": ['延長轉珠時間', '符石強化'],
+                "activate_tag": ["指定成員"],
+                "relative": [3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010]
+            }
+		]
     },
     {
         'id': 3004,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '根源倒錯 ‧ 迪亞布羅',
+        'attribute': '火',
+        'race': '妖精類',
+        'star': 8,
+        'monsterTag': ['侵蝕 ‧ 封王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                "description": "I. 【核心】<br>⓵ 受到敵人 5 次攻擊後<br>⇒ 張開核心<br>⓶ 發動「侵蝕 ‧ 封王」角色技能時<br>⇒ 封閉核心<br><br>II. 核心封閉期間<br>⇒ 延長移動符石時間 1.5 秒<br><br>III. 核心張開期間<br>⓵ 每回合將自身直行符石<br>⇒ 轉化為強化符石<br>⓶ 將場上的符石<br>⇒ 轉化為黑白符石",
+                "activate": "以「侵蝕 ‧ 封王」系列角色作成員",
+                "skill_tag": ['延長轉珠時間', '符石強化'],
+                "activate_tag": ["指定成員"],
+                "relative": [3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010]
+            }
+		]
     },
     {
         'id': 3005,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '生死剝離 ‧ 尼德霍格',
+        'attribute': '木',
+        'race': '龍類',
+        'star': 8,
+        'monsterTag': ['侵蝕 ‧ 封王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                "description": "I. 【核心】<br>⓵ 受到敵人 5 次攻擊後<br>⇒ 張開核心<br>⓶ 發動「侵蝕 ‧ 封王」角色技能時<br>⇒ 封閉核心<br><br>II. 核心封閉期間<br>⇒ 延長移動符石時間 1.5 秒<br><br>III. 核心張開期間<br>⓵ 每回合將自身直行符石<br>⇒ 轉化為強化符石<br>⓶ 將場上的符石<br>⇒ 轉化為黑白符石",
+                "activate": "以「侵蝕 ‧ 封王」系列角色作成員",
+                "skill_tag": ['延長轉珠時間', '符石強化'],
+                "activate_tag": ["指定成員"],
+                "relative": [3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010]
+            }
+		]
     },
     {
         'id': 3006,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '存在質疑 ‧ 路西法',
+        'attribute': '光',
+        'race': '神族',
+        'star': 8,
+        'monsterTag': ['侵蝕 ‧ 封王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                "description": "I. 【核心】<br>⓵ 受到敵人 5 次攻擊後<br>⇒ 張開核心<br>⓶ 發動「侵蝕 ‧ 封王」角色技能時<br>⇒ 封閉核心<br><br>II. 核心封閉期間<br>⇒ 延長移動符石時間 1.5 秒<br><br>III. 核心張開期間<br>⓵ 每回合將自身直行符石<br>⇒ 轉化為強化符石<br>⓶ 將場上的符石<br>⇒ 轉化為黑白符石",
+                "activate": "以「侵蝕 ‧ 封王」系列角色作成員",
+                "skill_tag": ['延長轉珠時間', '符石強化'],
+                "activate_tag": ["指定成員"],
+                "relative": [3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010]
+            }
+		]
     },
     {
         'id': 3007,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '常世否定 ‧ 姬氏',
+        'attribute': '水',
+        'race': '神族',
+        'star': 8,
+        'monsterTag': ['侵蝕 ‧ 封王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                "description": "I. 【核心】<br>⓵ 受到敵人 5 次攻擊後<br>⇒ 張開核心<br>⓶ 發動「侵蝕 ‧ 封王」角色技能時<br>⇒ 封閉核心<br><br>II. 核心封閉期間<br>⇒ 延長移動符石時間 1.5 秒<br><br>III. 核心張開期間<br>⓵ 每回合將自身直行符石<br>⇒ 轉化為強化符石<br>⓶ 將場上的符石<br>⇒ 轉化為黑白符石",
+                "activate": "以「侵蝕 ‧ 封王」系列角色作成員",
+                "skill_tag": ['延長轉珠時間', '符石強化'],
+                "activate_tag": ["指定成員"],
+                "relative": [3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010]
+            }
+		]
     },
     {
         'id': 3008,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '維度粉碎 ‧ 猶格索托斯',
+        'attribute': '火',
+        'race': '魔族',
+        'star': 8,
+        'monsterTag': ['侵蝕 ‧ 封王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                "description": "I. 【核心】<br>⓵ 受到敵人 5 次攻擊後<br>⇒ 張開核心<br>⓶ 發動「侵蝕 ‧ 封王」角色技能時<br>⇒ 封閉核心<br><br>II. 核心封閉期間<br>⇒ 延長移動符石時間 1.5 秒<br><br>III. 核心張開期間<br>⓵ 每回合將自身直行符石<br>⇒ 轉化為強化符石<br>⓶ 將場上的符石<br>⇒ 轉化為黑白符石",
+                "activate": "以「侵蝕 ‧ 封王」系列角色作成員",
+                "skill_tag": ['延長轉珠時間', '符石強化'],
+                "activate_tag": ["指定成員"],
+                "relative": [3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010]
+            }
+		]
     },
     {
         'id': 3009,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '殘像肆虐 ‧ 卡俄斯',
+        'attribute': '暗',
+        'race': '神族',
+        'star': 8,
+        'monsterTag': ['侵蝕 ‧ 封王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                "description": "I. 【核心】<br>⓵ 受到敵人 5 次攻擊後<br>⇒ 張開核心<br>⓶ 發動「侵蝕 ‧ 封王」角色技能時<br>⇒ 封閉核心<br><br>II. 核心封閉期間<br>⇒ 延長移動符石時間 1.5 秒<br><br>III. 核心張開期間<br>⓵ 每回合將自身直行符石<br>⇒ 轉化為強化符石<br>⓶ 將場上的符石<br>⇒ 轉化為黑白符石",
+                "activate": "以「侵蝕 ‧ 封王」系列角色作成員",
+                "skill_tag": ['延長轉珠時間', '符石強化'],
+                "activate_tag": ["指定成員"],
+                "relative": [3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010]
+            }
+		]
     },
     {
         'id': 3010,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '意識分解 ‧ 夏馬西',
+        'attribute': '水',
+        'race': '機械族',
+        'star': 8,
+        'monsterTag': ['侵蝕 ‧ 封王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': [
+            {
+                "description": "I. 【核心】<br>⓵ 受到敵人 5 次攻擊後<br>⇒ 張開核心<br>⓶ 發動「侵蝕 ‧ 封王」角色技能時<br>⇒ 封閉核心<br><br>II. 核心封閉期間<br>⇒ 延長移動符石時間 1.5 秒<br><br>III. 核心張開期間<br>⓵ 每回合將自身直行符石<br>⇒ 轉化為強化符石<br>⓶ 將場上的符石<br>⇒ 轉化為黑白符石",
+                "activate": "以「侵蝕 ‧ 封王」系列角色作成員",
+                "skill_tag": ['延長轉珠時間', '符石強化'],
+                "activate_tag": ["指定成員"],
+                "relative": [3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010]
+            }
+		]
+    },
+    {
+        'id': 3011,
+        'name': '滅絕晶玉',
+        'attribute': '暗',
+        'race': '進化素材',
+        'star': 8,
+        'monsterTag': ['素材'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
                 'tag': []
             }
         ],
