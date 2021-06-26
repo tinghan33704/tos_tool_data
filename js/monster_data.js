@@ -1,4 +1,4 @@
-// Last modified : 2021.06.21 21:12
+// Last modified : 2021.06.26 18:44
 
 const monster_data = [
     {
@@ -72254,6 +72254,13 @@ const monster_data = [
                 'activate_tag': ['指定雙隊長'],
                 'relative': [2701]
             },
+            {
+                'description': '組合技能：能阻止你的人，只有我！<br><br>I. 引爆所有符石及石化符石<br>⇒ 掉落直行「木、光、心」強化符石各 2 組<br>1 回合內<br>II. 木、光、心符石<br>⇒ 互相兼具效果<br>III. 最左方的『「假面騎士Zero-One」或「假面騎士Zero-Two」』<br>⓵ 以外成員不能發動攻擊<br>⓶ 以自身攻擊力 5 倍追打 4 次<br>⓷ 無視「指定形狀盾」<br>⓸ 無視指定減傷抗性敵技',
+                'activate': '以「假面騎士Zero-One」及「假面騎士Zero-Two」作成員 (召喚獸等級達 50 或以上)',
+                'skill_tag': ['組合技能'],
+                'activate_tag': ['指定成員', '等級下限'],
+                'relative': [2701, 2719]
+            }
 		]
     },
     {
@@ -72296,7 +72303,7 @@ const monster_data = [
                 'activate': '以「假面騎士Black」或「假面騎士Black Rx」作隊長及戰友，且隊中有「影月」',
                 'skill_tag': [],
                 'activate_tag': ['指定隊長戰友', '指定成員'],
-                'relative': [2702, 2703]
+                'relative': [2715, 2702, 2703]
             }
 		]
     },
@@ -72339,7 +72346,7 @@ const monster_data = [
                 'activate': '以「假面騎士Black」或「假面騎士Black Rx」作隊長及戰友，且隊中有「影月」',
                 'skill_tag': [],
                 'activate_tag': ['指定隊長戰友', '指定成員'],
-                'relative': [2702, 2703]
+                'relative': [2715, 2702, 2703]
             },
             {
                 'description': 'I. 回合結束時，將「假面騎士Black Rx」直行符石<br>⇒ 轉化為光及暗符石<br><br>II. 獲得「光劍」能力：<br>⓵ 完全回復生命力<br>1 回合內<br>⓶「假面騎士Black」及「假面騎士Black Rx」攻擊力 1.5 倍<br>⓷「假面騎士Black」技能 CD-1<br>⓸「假面騎士Black Rx」技能 EP +1<br><br>於回合開始時點擊已儲滿的龍脈儀<br>⇒ 可觸發能力<br>(需消耗 100% 龍脈儀能量)',
@@ -72603,20 +72610,20 @@ const monster_data = [
     },
     {
         'id': 2713,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
+        'name': '恩・達古巴・塞巴',
+        'attribute': '光',
+        'race': '人類',
+        'star': 6,
+        'monsterTag': ['地獄魔王'],
+        'crossOver': true,
         'skill': [
             {
-                'name': '',
+                'name': '超自然引火能力',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': '2 回合內<br>I. 敵方全體點燃<br>II. 使受影響目標轉為火屬性<br>III. 可任意移動符石而不會發動消除<br>IV. 將移動符石時觸碰的火及光符石轉化為強化符石<br>V. 首批消除所有火符石<br>⇒ 首批掉落 15 粒光符石',
+                'tag': [['點燃敵方', 2], ['敵方轉屬', 2], ['排珠', 2], ['符石強化', 2],  ['符石轉火強化', 2], ['符石轉光強化', 2], ['強制掉落', 2]]
             }
         ],
         'team_skill': []
@@ -72643,23 +72650,31 @@ const monster_data = [
     },
     {
         'id': 2715,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
+        'name': '影月',
+        'attribute': '木',
+        'race': '機械族',
+        'star': 5,
+        'monsterTag': ['公會任務'],
+        'crossOver': true,
         'skill': [
             {
-                'name': '',
+                'name': '撒旦軍刀',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 引爆所有符石<br>⇒ 掉落固定版面的火、木、光符石<br>1 回合內<br>II. 火、木、光符石分別兼具<br>⇒ 50% 其他屬性符石效果<br>III. 若隊長為【假面騎士】<br>⇒ 則兼具 100% 效果',
+                'tag': ['引爆', '整版引爆', '強制掉落', '固定版面', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '「影月」轉換為隊長的屬性',
+                'activate': '以「假面騎士Black」或「假面騎士Black Rx」作隊長及戰友，且隊中有「影月」',
+                'skill_tag': ['召喚獸轉光'],
+                'activate_tag': ['指定隊長戰友'],
+                'relative': [2715, 2702, 2703]
+            }
+		]
     },
     {
         'id': 2716,
@@ -72752,43 +72767,66 @@ const monster_data = [
     },
     {
         'id': 2719,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
+        'name': '假面騎士Zero-Two',
+        'attribute': '木',
+        'race': '人類',
+        'star': 7,
+        'monsterTag': ['假面騎士'],
+        'crossOver': true,
         'skill': [
             {
-                'name': '',
+                'name': '我一定會阻止你！',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '1 回合內<br>I. 電擊敵方全體<br>II. 使受影響目標無法行動<br>III. 自身攻擊力 4 倍<br>IV. 個人以 50% 攻擊力<br>⇒ 追打 8 次<br>V. 自身無視敵人防禦力、「攻前盾」、「指定形狀盾」<br>VI. 回合結束時，將 23 個固定位置符石<br>⇒ 轉化為木強化符石',
+                'tag': ['電擊敵方', '無法行動', '增傷', '界王拳', '木屬追打', '自身追打', '破防', '無視攻前盾', '無視拼圖盾', '符石轉木', '符石轉木強化', '大幅轉版', '固定版面']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 觸碰電擊符石時仍可移動符石<br><br>II. 無視「黏腐」敵技<br><br>III. 隊中每有 2 個【假面騎士】或木屬性成員<br>⇒ 全隊生命力及攻擊力提升<br>⇒ 最多可提升至 1.6 倍<br><br>IV. 木符石首批 2 粒相連即可發動消除<br><br>V. 每消除 1 粒木符石<br>⇒ 額外增加 2 連擊 (Combo)<br>⇒ 最多可增加 10 連擊 (Combo)',
+                'activate': '以「假面騎士Zero-Two」作隊長，並以「假面騎士Zero-One」或「假面騎士Zero-Two」作戰友',
+                'skill_tag': ['無視電擊', '無視黏腐', '增血', '增攻', '改變消除方式', '增加Combo'],
+                'activate_tag': ['指定隊長戰友'],
+                'relative': [2719, 2701]
+            },
+            {
+                'description': '組合技能：能阻止你的人，只有我！<br><br>I. 引爆所有符石及石化符石<br>⇒ 掉落直行「木、光、心」強化符石各 2 組<br>1 回合內<br>II. 木、光、心符石<br>⇒ 互相兼具效果<br>III. 最左方的『「假面騎士Zero-One」或「假面騎士Zero-Two」』<br>⓵ 以外成員不能發動攻擊<br>⓶ 以自身攻擊力 5 倍追打 4 次<br>⓷ 無視「指定形狀盾」<br>⓸ 無視指定減傷抗性敵技',
+                'activate': '以「假面騎士Zero-One」及「假面騎士Zero-Two」作成員 (召喚獸等級達 50 或以上)',
+                'skill_tag': ['組合技能'],
+                'activate_tag': ['指定成員', '等級下限'],
+                'relative': [2719, 2701]
+            }
+		]
     },
     {
         'id': 2720,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
+        'name': '假面騎士Ark-One',
+        'attribute': '暗',
+        'race': '人類',
+        'star': 7,
+        'monsterTag': ['假面騎士'],
+        'crossOver': true,
         'skill': [
             {
-                'name': '',
+                'name': 'Perfect Conclusion Learning 5！',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 延遲全體敵人行動 1 回合<br>II. 將移動符石時觸碰的首 8 粒符石轉化為<br>⇒ 惡意符石 (暗人族強化符石)<br>1 回合內<br>III. 自身攻擊力 12 倍 (攻擊力不可與其他成員共享)<br>IV. 自身無視敵人防禦力<br>V. 自身無視「五屬盾」<br>VI. 回合結束時<br>⇒ 自身進入 1 回合疲憊狀態',
+                'tag': ['延遲', '符石轉暗', '符石轉暗強化', '人族符石製造', '增傷', '界王拳', '破防', '無視五屬盾', '限制成員攻擊']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 每回合移動符石後，可點選 1 粒符石<br>⓵ 引爆該直行符石<br>⓶ 掉落所點選的強化符石<br><br>II. 上述引爆的符石包括暗符石時<br>⇒ 隊長及戰友攻擊力 3 倍<br><br>III. 上述引爆的符石包括心符石時<br>⇒ 回復 50,000 點生命力<br><br>IV. 消除 ≥5 粒水、火或木符石時<br>⓵ 全隊攻擊力 1.5 倍<br>⓶ 全隊無視敵人防禦力<br><br>V. 消除 ≥5 粒光、暗或心符石時<br>⓵ 全隊攻擊力 1.5 倍<br>⓶ 隊長及戰友技能 CD -1',
+                'activate': '以「假面騎士Ark-One」作隊長及戰友',
+                'skill_tag': ['引爆', '強制掉落', '增攻', '回血', '破防', '其他減CD'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2720]
+            },
+		]
     },
     {
         'id': 2721,
