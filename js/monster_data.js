@@ -1,4 +1,4 @@
-// Last modified : 2021.06.26 18:44
+// Last modified : 2021.07.04 13:47
 
 const monster_data = [
     {
@@ -72110,19 +72110,19 @@ const monster_data = [
     },
     {
         'id': 2697,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '人之魂寵',
+        'attribute': '火',
+        'race': '進化素材',
+        'star': 7,
+        'monsterTag': ['素材'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
@@ -72171,7 +72171,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'transform': 2700,
-                'description': 'I. 引爆所有符石<br>⇒ 掉落五屬及心符石<br>II. 若有裝備「亞克魯」龍刻武裝<br>⇒ 變身',
+                'description': 'I. 引爆所有符石<br>⇒ 掉落「五屬及心」強化符石<br>II. 若有裝備「亞克魯」龍刻武裝<br>⇒ 變身',
                 'tag': ['引爆', '整版引爆', '變身']
             }
         ],
@@ -72207,7 +72207,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'EP',
                 'num': 8,
-                'description': '2 回合內<br>I. 敵方全體點燃<br>II. 使受影響目標轉為火屬性<br>III. 減少 60% 所受傷害<br>IV. 自身攻擊 3 倍<br>V. 每首消 1 組屬性符石<br>⇒ 個人以 10% 攻擊力追打該屬性攻擊 1 次<br>⇒ 最多可追打 10 次<br>VI. 消除 5 種屬性符石時<br>⓵ 自身無視「攻前盾」<br>⓶ 自身無視「固定連擊盾」',
+                'description': '2 回合內<br>I. 敵方全體點燃<br>II. 使受影響目標轉為火屬性<br>III. 減少 60% 所受傷害<br>IV. 自身攻擊 3 倍<br>V. 每消除 1 組屬性符石<br>⇒ 個人以 10% 攻擊力追打該屬性攻擊 1 次<br>⇒ 最多可追打 10 次<br>VI. 消除 5 種屬性符石時<br>⓵ 自身無視「攻前盾」<br>⓶ 自身無視「固定連擊盾」',
                 'tag': [['點燃敵方', 2], ['敵方轉屬', 2], ['減傷', 2], ['增傷', 2], ['界王拳', 2], ['水屬追打', 2], ['火屬追打', 2], ['木屬追打', 2], ['光屬追打', 2], ['暗屬追打', 2], ['自身追打', 2], ['無視攻前盾', 2], ['無視固定連擊盾', 2]]
             }
         ],
@@ -72242,17 +72242,17 @@ const monster_data = [
         'team_skill': [
             {
                 'description': 'I. 觸碰電擊符石時仍可移動符石<br><br>II. 隊中每有 1 個【假面騎士】<br>⇒ 全隊生命力及攻擊力提升 0.1 倍<br>⇒ 最多可提升至 1.6 倍<br><br>III. 隊中【假面騎士】屬性符石<br>⇒ 兼具心符石效果<br><br>IV. 每消除 1 粒木符石<br>⇒ 額外增加 1 連擊 (Combo)<br>⇒ 最多可增加 10 連擊 (Combo)',
-                'activate': '以「假面騎士Zero-One」作隊長及戰友',
+                'activate': '以「假面騎士Zero-One」作隊長，並以「假面騎士Zero-One」或「假面騎士Zero-Two」作戰友',
                 'skill_tag': ['無視電擊', '增血', '增攻', '木兼具其他', '符石兼具心', '增加Combo'],
-                'activate_tag': ['指定雙隊長'],
-                'relative': [2701]
+                'activate_tag': ['指定隊長戰友'],
+                'relative': [2701, 2719]
             },
             {
                 'description': '獲得「預測」能力：<br><br>點選 1 個形態獲得以下效果<br><br>【撕咬鯊魚】<br>▋引爆所有符石<br>⇒ 直行掉落該成員屬性強化符石<br><br>【飛翔獵隼】<br>1 回合內<br>▋無視「黏腐」敵技<br>▋將移動符石時觸碰的符石<br>⇒ 轉化為強化符石<br><br>【熾炎猛虎】<br>▋引爆所有凍結符石<br>⇒ 掉落人族強化符石<br>▋5 回合內，無視「燃燒」敵技<br><br>【冷凍巨熊】<br>2 回合內<br>▋凍結敵方全體<br>▋使受影響目標無法行動<br>▋使受影響目標轉為水屬性<br><br>於回合開始時點擊已儲滿的龍脈儀<br>⇒ 可觸發能力<br>(需消耗龍脈儀使用次數 1 次)',
-                'activate': '以「假面騎士Zero-One」作隊長及戰友',
+                'activate': '以「假面騎士Zero-One」作隊長，並以「假面騎士Zero-One」或「假面騎士Zero-Two」作戰友',
                 'skill_tag': ['龍脈儀能力'],
-                'activate_tag': ['指定雙隊長'],
-                'relative': [2701]
+                'activate_tag': ['指定隊長戰友'],
+                'relative': [2701, 2719]
             },
             {
                 'description': '組合技能：能阻止你的人，只有我！<br><br>I. 引爆所有符石及石化符石<br>⇒ 掉落直行「木、光、心」強化符石各 2 組<br>1 回合內<br>II. 木、光、心符石<br>⇒ 互相兼具效果<br>III. 最左方的『「假面騎士Zero-One」或「假面騎士Zero-Two」』<br>⓵ 以外成員不能發動攻擊<br>⓶ 以自身攻擊力 5 倍追打 4 次<br>⓷ 無視「指定形狀盾」<br>⓸ 無視指定減傷抗性敵技',
@@ -72536,7 +72536,7 @@ const monster_data = [
                 'activate': '隊中有「假面騎士Ex-Aid」、「假面騎士Ex-Aid(無敵玩家)」、「假面騎士Genm(喪屍躍動玩家Level X-0)」其中 ≥2 個作成員',
                 'skill_tag': ['增攻', '增血'],
                 'activate_tag': ['指定成員'],
-                'relative': [2709, 2717]
+                'relative': [2709, 2717, 2712]
             }
 		]
     },
@@ -72546,7 +72546,7 @@ const monster_data = [
         'attribute': '火',
         'race': '人類',
         'star': 7,
-        'monsterTag': ['假面騎士Zi-O'],
+        'monsterTag': ['假面騎士ZI-O'],
         'crossOver': true,
         'skill': [
             {
@@ -72562,7 +72562,7 @@ const monster_data = [
             {
                 'description': 'I. 必然延長移動符石時間 5 秒<br><br>II. 將移動符石時觸碰的首 6 粒符石<br>⇒ 轉化為火符石<br><br>III. 最左方 1 個「假面騎士」系列成員<br>⇒ 攻擊力減至 0<br><br>IV. 將被減去攻擊力的 5 倍<br>⇒ 加入「假面騎士Zi-O」的攻擊力<br><br>V. 每首批消除 1 種屬性符石<br>⇒「假面騎士Zi-O」追打 1 次<br>⇒ 消除五屬符石可追打最多 5 次<br><br>VI. 以正方形消除 1 組 ≥9 粒符石<br>⓵ 全隊攻擊力額外 3 倍<br>⓶ 全隊無視「三屬盾」、「五屬盾」<br>⓷ 全隊無視敵人防禦力',
                 'activate': '以「假面騎士Zi-O」作隊長及戰友',
-                'skill_tag': ['延長轉珠時間', '符石轉火', '增攻', '火屬追打', '無視三屬盾', '無視五屬盾', '破防'],
+                'skill_tag': ['延長轉珠時間', '符石轉火', '我方減攻', '增攻', '我方攻擊力吸收', '火屬追打', '無視三屬盾', '無視五屬盾', '破防'],
                 'activate_tag': ['指定雙隊長'],
                 'relative': [2710]
             }
@@ -72590,23 +72590,31 @@ const monster_data = [
     },
     {
         'id': 2712,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
+        'name': '假面騎士Genm(喪屍躍動玩家Level X-0)',
+        'attribute': '水',
+        'race': '神族',
+        'star': 5,
+        'monsterTag': ['假面騎士Thouser & Genm'],
+        'crossOver': true,
         'skill': [
             {
-                'name': '',
+                'name': '我就是神啊！',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 25,
+                'description': 'I. 完全回復生命力<br>99 回合內<br>II. 回合結束時<br>⇒ 完全回復生命力<br>III.「假面騎士Ex-Aid(無敵玩家)」 、「假面騎士Ex-Aid」 、「假面騎士Genm(喪屍躍動玩家Level X-0)」<br>⇒ 攻擊力 3 倍',
+                'tag': [['回血', 99], ['增傷', 99], ['界王拳', 99]]
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 最左方的『「假面騎士Ex-Aid」、「假面騎士Ex-Aid(無敵玩家)」、「假面騎士Genm(喪屍躍動玩家Level X-0)」』<br>⇒ 生命力及攻擊力 1.3 倍<br>若以「假面騎士Ex-Aid」或「假面騎士Ex-Aid(無敵玩家)」作隊長時<br>⇒ 則生命力及攻擊力提升至 2 倍<br>II. 進入關卡後，最左方的「假面騎士Genm(喪屍躍動玩家Level X-0)」<br>⇒ 技能 CD -25',
+                'activate': '隊中有「假面騎士Ex-Aid」、「假面騎士Ex-Aid(無敵玩家)」、「假面騎士Genm(喪屍躍動玩家Level X-0)」其中 ≥2 個作成員',
+                'skill_tag': ['增攻', '增血', '進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2709, 2717, 2712]
+            }
+		]
     },
     {
         'id': 2713,
@@ -72630,23 +72638,38 @@ const monster_data = [
     },
     {
         'id': 2714,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
+        'name': '假面騎士滅',
+        'attribute': '暗',
+        'race': '機械族',
+        'star': 6,
+        'monsterTag': ['地獄魔王'],
+        'crossOver': true,
         'skill': [
             {
-                'name': '',
+                'name': '我才不需要心！',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': '2 回合內<br>I. 將移動符石時觸碰的首 5 粒符石轉化為<br>⇒ 暗強化符石<br>II. 自身攻擊力 4 倍<br>III. 自身無視「三屬盾」、「四屬盾」、「五屬盾」敵技<br>IV. 回合結束時，敵人全體中毒，每回合受到自身攻擊力 500 倍的傷害，此傷害無視防禦力及屬性並持續到死亡',
+                'tag': [['符石轉暗', 2], ['符石轉暗強化', 2], ['增傷', 2], ['界王拳', 2], ['無視三屬盾', 2], ['無視四屬盾', 2], ['無視五屬盾', 2], ['敵方中毒', -1]]
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 暗符石兼具 50% 心符石效果<br><br>II. 其他屬性符石兼具暗符石效果<br><br>III. 延長移動符石時間 4 秒',
+                'activate': '以「假面騎士滅」作隊長及戰友',
+                'skill_tag': ['暗兼具其他', '符石兼具心', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '符石兼具暗', '延長轉珠時間'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2714]
+            },
+            {
+                'description': '「假面騎士滅」對附有「中毒」或「烈毒」狀態目標<br>⇒ 攻擊力額外 3 倍',
+                'activate': '以「假面騎士滅」作成員',
+                'skill_tag': ['增攻'],
+                'activate_tag': [],
+                'relative': [2714]
+            }
+		]
     },
     {
         'id': 2715,
@@ -72720,7 +72743,7 @@ const monster_data = [
                 'activate': '隊中有「假面騎士Ex-Aid」、「假面騎士Ex-Aid(無敵玩家)」、「假面騎士Genm(喪屍躍動玩家Level X-0)」其中 ≥2 個作成員',
                 'skill_tag': ['增攻', '增血'],
                 'activate_tag': ['指定成員'],
-                'relative': [2709, 2717]
+                'relative': [2709, 2717, 2712]
             },
             {
                 'description': 'I. 必然延長移動符石時間 3 秒<br><br>II. 全隊生命力、回復力 1.5 倍',
@@ -72830,23 +72853,31 @@ const monster_data = [
     },
     {
         'id': 2721,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
+        'name': '假面騎士逢魔Zi-O',
+        'attribute': '光',
+        'race': '魔族',
+        'star': 8,
+        'monsterTag': ['假面騎士ZI-O'],
+        'crossOver': true,
         'skill': [
             {
-                'name': '',
+                'name': '終焉時刻！逢魔Zi-O必殺擊！',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 20 秒內，可任意移動符石<br>(此移動不會造成任何消除，並不會作 1 回合計算)<br>2 回合內<br>II.「假面騎士Zi-O」及「假面騎士逢魔Zi-O」<br>⇒ 無視敵人防禦力<br>III. 記錄「移動符石時間完結一刻」場上的符石分佈 (包括強化符石、種族符石)<br>⇒ 回合結束時，將場上的符石變回已記錄的符石分佈',
+                'tag': ['排珠', '破防']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 必然延長移動符石時間 4 秒<br><br>II. 其他符石兼具 50% 光符石效果<br><br>III. 將移動符石時觸碰的首 6 粒符石<br>⇒ 轉化為起手的強化符石<br><br>IV. 隊長以外成員攻擊力減至 0<br>V. 將被減去攻擊力的 2 倍<br>⇒ 加入隊長攻擊力<br><br>VI. 每首批消除 1 種屬性符石<br>⇒ 隊長攻擊力提升<br>⇒ 消除五屬符石可達至最大 6 倍<br><br>VII. 以正方形消除 1 組 ≥9 粒符石<br>⇒ 增加 10 連擊 (Combo)',
+                'activate': '以「假面騎士逢魔Zi-O」作隊長及戰友',
+                'skill_tag': ['延長轉珠時間', '符石兼具光', '水兼具其他', '火兼具其他', '木兼具其他', '暗兼具其他', '心兼具其他', '符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '符石轉心強化', '我方減攻', '增攻', '我方攻擊力吸收', '增加Combo'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [2721]
+            }
+		]
     },
     {
         'id': 2722,
