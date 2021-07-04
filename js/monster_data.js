@@ -1,4 +1,4 @@
-// Last modified : 2021.07.04 13:47
+// Last modified : 2021.07.04 16:03
 
 const monster_data = [
     {
@@ -72130,19 +72130,19 @@ const monster_data = [
     },
     {
         'id': 2698,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '魔之魂寵',
+        'attribute': '暗',
+        'race': '進化素材',
+        'star': 7,
+        'monsterTag': ['素材'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
