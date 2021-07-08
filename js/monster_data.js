@@ -72652,22 +72652,31 @@ const monster_data = [
                 'num': 7,
                 'description': '2 回合內<br>I. 將移動符石時觸碰的首 5 粒符石轉化為<br>⇒ 暗強化符石<br>II. 自身攻擊力 4 倍<br>III. 自身無視「三屬盾」、「四屬盾」、「五屬盾」敵技<br>IV. 回合結束時，敵人全體中毒，每回合受到自身攻擊力 500 倍的傷害，此傷害無視防禦力及屬性並持續到死亡',
                 'tag': [['符石轉暗', 2], ['符石轉暗強化', 2], ['增傷', 2], ['界王拳', 2], ['無視三屬盾', 2], ['無視四屬盾', 2], ['無視五屬盾', 2], ['敵方中毒', -1]]
+            },
+            {
+                'name': '變身！',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 8,
+				'transform': 2722,
+                'description': 'I. 引爆暗符石以外符石<br>⇒ 掉落強化符石<br>1 回合內<br>II. 上述每引爆 1 粒符石<br>⇒ 自身攻擊力提升 200 點<br>III. 若有裝備「滅絕驅動器 」龍刻武裝<br>⇒ 變身',
+                'tag': ['引爆', '暗外符石引爆', '增傷', '變身']
             }
         ],
         'team_skill': [
             {
                 'description': 'I. 暗符石兼具 50% 心符石效果<br><br>II. 其他屬性符石兼具暗符石效果<br><br>III. 延長移動符石時間 4 秒',
-                'activate': '以「假面騎士滅」作隊長及戰友',
+                'activate': '以「假面騎士滅」或「假面騎士滅(Ark-Scorpion)」作隊長及戰友',
                 'skill_tag': ['暗兼具其他', '符石兼具心', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '符石兼具暗', '延長轉珠時間'],
-                'activate_tag': ['指定雙隊長'],
-                'relative': [2714]
+                'activate_tag': ['指定隊長戰友'],
+                'relative': [2714, 2722]
             },
             {
-                'description': '「假面騎士滅」對附有「中毒」或「烈毒」狀態目標<br>⇒ 攻擊力額外 3 倍',
-                'activate': '以「假面騎士滅」作成員',
+                'description': '「假面騎士滅」、「假面騎士滅(Ark-Scorpion)」對附有「中毒」或「烈毒」狀態目標<br>⇒ 攻擊力額外 3 倍',
+                'activate': '以「假面騎士滅」或「假面騎士滅(Ark-Scorpion)」作成員',
                 'skill_tag': ['增攻'],
                 'activate_tag': [],
-                'relative': [2714]
+                'relative': [2714, 2722]
             }
 		]
     },
@@ -72701,20 +72710,20 @@ const monster_data = [
     },
     {
         'id': 2716,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
+        'name': '假面騎士Eden',
+        'attribute': '暗',
+        'race': '神族',
+        'star': 7,
+        'monsterTag': ['迎擊戰'],
+        'crossOver': true,
         'skill': [
             {
-                'name': '',
+                'name': 'Eden Impact',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': '1 回合內<br>I. 每移動 1 步<br>⇒ 扣除 1% 總生命力<br>(最多扣至 1 血)<br>II. 將移動符石時觸碰的符石<br>⇒ 轉化為強化符石<br>III. 自身攻擊力 5 倍<br>IV. 自身對人類、神族及機械族目標<br>⇒ 攻擊力額外 2 倍<br>V. 自身無視「攻前盾」<br>VI. 自身無視「指定形狀盾」',
+                'tag': ['我方扣血', '符石強化', '增傷', '界王拳', '對人類增傷', '對神族增傷', '對機械族增傷', '無視攻前盾', '無視拼圖盾']
             }
         ],
         'team_skill': []
@@ -72879,25 +72888,49 @@ const monster_data = [
             }
 		]
     },
+    
     {
         'id': 2722,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
+        'name': '假面騎士滅(Ark-Scorpion)',
+        'attribute': '暗',
+        'race': '機械族',
+        'star': 7,
+        'monsterTag': ['地獄魔王'],
+        'crossOver': true,
         'skill': [
             {
-                'name': '',
+                'name': '遵從滅亡迅雷站的意志吧！',
                 'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'charge': 'EP',
+                'num': 7,
+                'description': '2 回合內<br>I. 將移動符石時觸碰的首 5 粒符石轉化為<br>⇒ 暗機械族強化符石<br>II. 自身攻擊力 4 倍<br>III. 自身無視「三屬盾」、「四屬盾」、「五屬盾」敵技<br>IV. 回合結束時，敵人全體中毒，每回合受到自身攻擊力 500 倍的傷害，此傷害無視防禦力及屬性並持續到死亡',
+                'tag': [['符石轉暗', 2], ['符石轉暗強化', 2], ['機械族符石製造', 2], ['增傷', 2], ['界王拳', 2], ['無視三屬盾', 2], ['無視四屬盾', 2], ['無視五屬盾', 2], ['敵方中毒', -1]]
+            },
+            {
+                'name': '這就是聖戰！',
+                'type': 'normal',
+                'charge': 'EP',
+                'num': 7,
+                'description': '2 回合內<br>I. 隊伍不受中毒技能影響<br>II. 單數直行首批掉落暗符石<br>III. 雙數直行首批掉落心符石',
+                'tag': [['防毒', 2], ['強制掉落', 2]]
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 暗符石兼具 50% 心符石效果<br><br>II. 其他屬性符石兼具暗符石效果<br><br>III. 延長移動符石時間 4 秒',
+                'activate': '以「假面騎士滅」或「假面騎士滅(Ark-Scorpion)」作隊長及戰友',
+                'skill_tag': ['暗兼具其他', '符石兼具心', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '符石兼具暗', '延長轉珠時間'],
+                'activate_tag': ['指定隊長戰友'],
+                'relative': [2714, 2722]
+            },
+            {
+                'description': '「假面騎士滅」、「假面騎士滅(Ark-Scorpion)」對附有「中毒」或「烈毒」狀態目標<br>⇒ 攻擊力額外 3 倍',
+                'activate': '以「假面騎士滅」或「假面騎士滅(Ark-Scorpion)」作成員',
+                'skill_tag': ['增攻'],
+                'activate_tag': [],
+                'relative': [2722, 2714]
+            }
+		]
     },
     {
         'id': 2723,
