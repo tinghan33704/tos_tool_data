@@ -1,4 +1,4 @@
-// Last modified : 2021.07.10 18:05
+// Last modified : 2021.07.12 20:30
 
 const monster_data = [
     {
@@ -69277,7 +69277,7 @@ const monster_data = [
     {
         'id': 2600,
         'name': '八色凝聚 ‧ 瘋頭',
-        'attribute': '水',
+        'attribute': '火',
         'race': '強化素材',
         'star': 6,
         'monsterTag': ['瘋頭'],
