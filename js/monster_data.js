@@ -1,4 +1,4 @@
-// Last modified : 2021.07.12 20:30
+// Last modified : 2021.07.15 23:06
 
 const monster_data = [
     {
@@ -51446,18 +51446,18 @@ const monster_data = [
         'id': 1996,
         'name': '逐焰勇者 ‧ 伊阿宋',
         'attribute': '木',
-        'race': '',
-        'star': -1,
-        'monsterTag': [],
+        'race': '人類',
+        'star': 5,
+        'monsterTag': ['伊阿宋'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '疾風迅連斬',
                 'type': 'normal',
-                'charge': '',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'charge': 'CD',
+                'num': 8,
+                'description': 'I. 將光及暗符石轉化為木符石<br>1 回合內<br>II. 自身及身旁人類成員<br>⇒ 以 25% 攻擊力追打水及火屬性攻擊各 1 次',
+                'tag': ['符石轉木', '光轉其他', '暗轉其他', '水屬追打', '火屬追打']
             }
         ],
         'team_skill': []
@@ -59900,7 +59900,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I.發動技能首回合時<br>⇒ 完全回復生命力<br>II. 每回合隨機鎖定 2 個位置<br><br>⓵ 移動符石時經過 1 個鎖定位置：<br>⇒ 該回合全隊攻擊力 1.5 倍<br>⇒ 自身攻擊力額外 1.5 倍<br><br>⓶ 移動符石時經過 2 個鎖定位置：<br>⇒ 則該回合全隊攻擊力 2.5 倍<br>⇒ 自身攻擊力額外 2.5 倍<br><br>經過鎖定位置可持續技能效果',
+                'description': 'I. 發動技能首回合時<br>⇒ 完全回復生命力<br>II. 每回合隨機鎖定 2 個位置<br><br>⓵ 移動符石時經過 1 個鎖定位置：<br>⇒ 該回合全隊攻擊力 1.5 倍<br>⇒ 自身攻擊力額外 1.5 倍<br><br>⓶ 移動符石時經過 2 個鎖定位置：<br>⇒ 則該回合全隊攻擊力 2.5 倍<br>⇒ 自身攻擊力額外 2.5 倍<br><br>經過鎖定位置可持續技能效果',
                 'tag': ['回血', ['增傷', -1], ['界王拳', -1]]
             }
         ],
@@ -72939,7 +72939,7 @@ const monster_data = [
         'race': '機械族',
         'star': 6,
         'monsterTag': ['競技場'],
-        'crossOver': false,
+        'crossOver': true,
         'skill': [
             {
                 'name': '對抗邪惡的心',
@@ -72948,6 +72948,555 @@ const monster_data = [
                 'num': 6,
                 'description': 'I. 引爆暗符石<br>⇒ 掉落暗以外符石<br>3 回合內<br>II. 暗符石掉落率降至 0<br>III. 將原有機率增加至<br>⇒ 心符石的掉落率<br>IV. 心符石兼具<br>⇒ 50% 屬性符石效果',
                 'tag': ['引爆', '暗符石引爆', '強制掉落', ['禁珠', 3], ['改變掉落機率', 3], ['符石兼具水', 3], ['符石兼具火', 3], ['符石兼具木', 3], ['符石兼具光', 3], ['符石兼具暗', 3]]
+            }
+        ],
+        'team_skill': []
+    },
+	{
+        'id': 2724,
+        'name': '銀鍛滑翔 ‧ 英格麗',
+        'attribute': '水',
+        'race': '人類',
+        'star': 6,
+        'monsterTag': ['夏日奔放'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '結索之縛',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 發動技能首回合時<br>⇒ 完全回復生命力<br>II. 每回合隨機鎖定 2 個位置<br>⓵ 移動符石時經過 1 個鎖定位置：<br>⇒ 該回合全隊攻擊力 1.5 倍<br>⇒ 自身攻擊力額外 1.5 倍<br>⓶ 移動符石時經過 2 個鎖定位置：<br>⇒ 則該回合全隊攻擊力 2.5 倍<br>⇒ 則自身攻擊力額外 2.5 倍<br><br>經過鎖定位置可持續技能效果',
+                'tag': ['回血', ['增傷', -1], ['界王拳', -1]]
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2725,
+        'name': '疾步飛撲 ‧ 艾莉亞',
+        'attribute': '光',
+        'race': '人類',
+        'star': 6,
+        'monsterTag': ['夏日奔放'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '夏日魅光',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': 'I. 將所有符石轉化為<br>⇒ 固定數量及位置的五屬及心符石<br>1 回合內<br>II. 將移動符石時觸碰的首 9 粒符石<br>⇒ 轉化為人族強化符石',
+                'tag': ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '五屬版面', '五屬心版面', '固定版面', '大幅轉版', '符石強化', '人族符石製造']
+            },
+            {
+                'name': '變身',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 8,
+                'transform': 2726,
+                'description': 'I. 變身<br>1 回合內<br>II. 全隊攻擊力及回復力 2 倍<br>III. 隊伍中每多 1 個人類成員<br>⇒ 額外增加 1 回合效果<br>⇒ 最多可持續 6 回合',
+                'tag': ['變身', ['增傷', 6], ['增回', 6]]
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2726,
+        'name': '明媚驕陽 ‧ 艾莉亞',
+        'attribute': '光',
+        'race': '人類',
+        'star': 6,
+        'monsterTag': ['夏日奔放'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '夏日魅光 ‧ 強',
+                'type': 'normal',
+                'charge': 'EP',
+                'num': 7,
+                'description': 'I. 將所有符石轉化為<br>⇒ 固定數量及位置的五屬及心符石<br>1 回合內<br>II. 將移動符石時觸碰的首 9 粒符石<br>⇒ 轉化為人族強化符石<br>III. 隊中有 ≥3 個光屬性人類<br>⇒ 將場上的符石變回原始模樣',
+                'tag': ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '五屬版面', '五屬心版面', '固定版面', '大幅轉版', '符石強化', '人族符石製造', '還原版面']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2727,
+        'name': '飛珠濺玉 ‧ 呂布',
+        'attribute': '木',
+        'race': '人類',
+        'star': 5,
+        'monsterTag': ['夏日奔放'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '驍猛倍擊',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': '於移動符石並消除符石後，根據首批消除的連擊 (Combo) 數目增加相同的連擊 (Combo) 數目，效果持續至達成 ≥15 連擊 (Combo)',
+                'tag': [['增加Combo', -1]]
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2728,
+        'name': '高壓秒殺 ‧ 哈迪婆婆',
+        'attribute': '光',
+        'race': '人類',
+        'star': 6,
+        'monsterTag': ['夏日奔放'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '哈迪婆婆的扣殺',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 1,
+                'description': '1 回合內，以累積戰鬥回合數 +1 的數量 (需消除符石)<br><br>⓵ 轉化光人族符石 (火、木及暗符石優先轉換)<br>⇒ 最多可轉化 5 粒光人族符石<br><br>⓶ 額外增加連擊 (Combo) 數目<br>⇒ 最多額外增加 5 連擊 (Combo)<br><br>⓷ 增加追打次數<br>⇒ 最多可以 50% 攻擊力追打光屬性攻擊 5 次<br><br>發動技能後將累積戰鬥回合數重置',
+                'tag': ['符石轉光', '人族符石製造', '增加Combo', '自身追打', '光屬追打']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2729,
+        'name': '熟成甜津 ‧ 夏侯惇',
+        'attribute': '光',
+        'race': '人類',
+        'star': 6,
+        'monsterTag': ['夏日奔放'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '惇之決殺',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': 'I. 引爆「光及暗以外」的符石<br>⇒ 掉落「光及暗」強化符石<br>1 回合內<br>II. 上述每引爆 1 粒符石<br>⇒ 自身攻擊力提升 500 點<br>III. 自身攻擊轉化為暗屬性<br>IV. 自身無視「指定形狀盾」',
+                'tag': ['引爆', '光外符石引爆', '暗外符石引爆', '強制掉落', '增傷', '界王拳', '攻擊轉屬', '無視拼圖盾']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2730,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2731,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2732,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2733,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2734,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2735,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2736,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2737,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2738,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2739,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2740,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2741,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2742,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2743,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2744,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2745,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2746,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2747,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2748,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2749,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 2750,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
             }
         ],
         'team_skill': []
