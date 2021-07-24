@@ -22,6 +22,12 @@ function init() {
         if ($(this).scrollTop() > 300) $('#toTop-btn').fadeIn(200);
         else $('#toTop-btn').stop().fadeOut(200);
     }).scroll();
+	
+	/*$(window).click((e) => {
+		if(!$(e.target).hasClass('skill_tooltip') && !$(e.target).hasClass('monster_img')) {
+			$('[data-toggle=popover]').popover('hide')
+		}
+    });*/
     
     $('#changeTheme-btn').click(() => { 
         changeTheme();
@@ -321,7 +327,7 @@ function renderTags(data, classType, postAppend = "") {
     
     [...data].forEach((element) => {
         tag_html += `
-            <div class="tag_wrapper">
+            <div class="col-12 col-sm-3 tag_wrapper">
                 <div class="${classType}_tag" title="${element}${postAppend}">${element}${postAppend}</div>
             </div>
         `;

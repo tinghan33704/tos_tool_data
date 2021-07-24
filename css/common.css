@@ -300,7 +300,7 @@ select {
     width: 90%;
 }
 .tag_wrapper {
-    width: 25%;
+    /* width: 25%; */
     padding: 5px;
 }
 .skill_tag, .tag_tag, .genre_tag {
