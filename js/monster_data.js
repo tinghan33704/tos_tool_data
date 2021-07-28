@@ -1,4 +1,4 @@
-// Last modified : 2021.07.22 23:42
+// Last modified : 2021.07.28 22:58
 
 const monster_data = [
     {
@@ -77392,6 +77392,422 @@ const monster_data = [
                 'relative': [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045]
             }
 		]
+    },
+    {
+        'id': 10046,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10047,
+        'name': '嬌憨龍娃 ‧ 爪娃諾',
+        'attribute': '光',
+        'race': '龍類',
+        'star': 6,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '耀芒魔法',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': 'I. 解除所有成員被封鎖的技能<br>(此技能無視封鎖技能)<br>II. 引爆心符石<br>⇒ 掉落光龍族符石<br>III. 上述每引爆 1 粒符石<br>⇒ 回復 5,000 點生命<br>1 回合內<br>IV. 全體敵人的攻擊力弱化 99%',
+                'tag': ['解鎖', '引爆', '心符石引爆', '強制掉落', '龍族符石製造', '回血', '敵方減攻']
+            }
+        ],
+        'team_skill': [
+			{
+                'description': 'I. 光屬性龍類成員<br>⇒ 進場 CD -8<br><br>II. 延長移動符石時間 3 秒<br><br>III. 光、暗、心符石<br>⇒ 分別兼具其他符石效果<br><br>IV. 發動角色符石時<br>⓵ 必然延長移動符石時間 4 秒<br>⓶ 無視「黏腐」敵技<br><br>V. 消除角色符石或種族符石<br>⇒ 增加 6 連擊 (Combo)<br><br>VI. 首批掉落的 8 粒符石<br>⇒ 必定為光強化符石',
+                'activate': '以「嬌憨龍娃 ‧ 爪娃諾」作隊長及戰友',
+                'skill_tag': ['進場減CD', '延長轉珠時間', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心', '無視黏腐', '增加Combo', '強制掉落'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [10047]
+            }
+		]
+    },
+    {
+        'id': 10048,
+        'name': '激濤獅心 ‧ 奎內塞',
+        'attribute': '水',
+        'race': '獸類',
+        'star': 6,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '碎土裂地拳',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 引爆所有符石<br>⇒ 掉落獸族強化符石<br><br>II. 自身及身旁成員攻擊力 3 倍<br>III. 擊中敵人後暈擊敵方<br>IV. 使受影響目標無法行動 1 回合<br>II - IV 效果持續至沒有消除獸族符石',
+                'tag': ['引爆', '整版引爆', '獸族符石製造', ['增傷', -1], ['界王拳', -1], '暈擊敵方', '無法行動']
+            }
+        ],
+        'team_skill': [
+			{
+                'description': 'I. 延長移動符石時間 2 秒<br><br>II. 水、火、木符石<br>⇒ 互相兼具 50% 效果<br><br>III. 每首批消除 1 組水、火、木或心符石<br>⇒ 掉落 3 粒水強化符石<br><br>IV. 消除 ≥9 粒水符石<br>⇒ 全隊攻擊力 4 倍<br><br>V.「激濤獅心 ‧ 奎內塞」<br>⇒ 對置身「暈擊」狀態目標的傷害額外 2 倍',
+                'activate': '以「激濤獅心 ‧ 奎內塞」作隊長及戰友',
+                'skill_tag': ['延長轉珠時間', '水兼具其他', '火兼具其他', '木兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '強制掉落', '增攻'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [10048]
+            }
+		]
+    },
+    {
+        'id': 10049,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10050,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10051,
+        'name': '破霜狐牙 ‧ 盧班',
+        'attribute': '水',
+        'race': '獸類',
+        'star': 5,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '武力狂潮',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': 'I. 將心及水符石附加為<br>⇒ 獸族符石<br>1 回合內<br>II. 自身及左旁的水屬性或獸類成員<br>⓵ 攻擊力 5 倍<br>⓶ 無視敵人防禦力',
+                'tag': ['獸族符石製造', '增傷', '界王拳', '破防']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10052,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10053,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10054,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10055,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10056,
+        'name': '奧術窺探 ‧ 比麗安',
+        'attribute': '光',
+        'race': '龍類',
+        'star': 6,
+        'monsterTag': ['地獄魔王'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '玄龍秘術',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 引爆電擊符石、敵人屬性符石及心符石<br>⇒ 掉落龍族強化符石<br>1 回合內<br>II. 龍類攻擊力 1.8 倍<br>III. 回合結束時，將光及心符石轉化為<br>⇒ 龍族強化符石',
+                'tag': ['引爆', '電擊符石處理', '心符石引爆', '龍族符石製造', '增傷', '符石強化', '符石轉光強化', '符石轉心強化']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10057,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10058,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10059,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10060,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10061,
+        'name': '藥到病除 ‧ 蓮南希',
+        'attribute': '木',
+        'race': '妖精類',
+        'star': 6,
+        'monsterTag': ['競技場'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '藥劑爆',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 將心及木符石<br>⇒ 轉化為木妖族符石<br>1 回合內<br>II. 每首批消除 1 粒木符石<br>⇒ 增加 1 連擊 (Combo)<br>III. 達至 ≥12 連擊 (Combo)<br>⇒ 該回合不會扣減技能持續回合',
+                'tag': ['符石轉木', '妖族符石製造', '增加Combo']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10062,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10063,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10064,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10065,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
     },
 	
 	
