@@ -1,4 +1,4 @@
-// Last modified : 2021.07.28 22:58
+// Last modified : 2021.08.02 22:16
 
 const monster_data = [
     {
@@ -77112,7 +77112,706 @@ const monster_data = [
         'team_skill': []
     },
 	
-	
+    {
+        'id': 10001,
+        'name': '瀧甲女兵',
+        'attribute': '水',
+        'race': '人類',
+        'star': 4,
+        'monsterTag': ['邪惡軍兵'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10002,
+        'name': '炙舞拳手',
+        'attribute': '火',
+        'race': '人類',
+        'star': 4,
+        'monsterTag': ['邪惡軍兵'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10003,
+        'name': '槍獵衝鋒',
+        'attribute': '木',
+        'race': '人類',
+        'star': 4,
+        'monsterTag': ['邪惡軍兵'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10004,
+        'name': '劍輝騎軍',
+        'attribute': '光',
+        'race': '人類',
+        'star': 4,
+        'monsterTag': ['邪惡軍兵'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10005,
+        'name': '暗鋼腿士卒',
+        'attribute': '暗',
+        'race': '人類',
+        'star': 4,
+        'monsterTag': ['邪惡軍兵'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10006,
+        'name': '泉湖之鹿',
+        'attribute': '水',
+        'race': '獸類',
+        'star': 4,
+        'monsterTag': ['放逐野獸'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10007,
+        'name': '凶炎狂狗',
+        'attribute': '火',
+        'race': '獸類',
+        'star': 4,
+        'monsterTag': ['放逐野獸'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10008,
+        'name': '碧紋野豬',
+        'attribute': '木',
+        'race': '獸類',
+        'star': 4,
+        'monsterTag': ['放逐野獸'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10009,
+        'name': '靈箭金鸚',
+        'attribute': '光',
+        'race': '獸類',
+        'star': 4,
+        'monsterTag': ['放逐野獸'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10010,
+        'name': '迅捷獵犬',
+        'attribute': '暗',
+        'race': '獸類',
+        'star': 4,
+        'monsterTag': ['放逐野獸'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10011,
+        'name': '水鄉幻妖',
+        'attribute': '水',
+        'race': '妖精類',
+        'star': 4,
+        'monsterTag': ['奇異幻妖'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10012,
+        'name': '炎境幻妖',
+        'attribute': '火',
+        'race': '妖精類',
+        'star': 4,
+        'monsterTag': ['奇異幻妖'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10013,
+        'name': '森域幻妖',
+        'attribute': '木',
+        'race': '妖精類',
+        'star': 4,
+        'monsterTag': ['奇異幻妖'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10014,
+        'name': '聖界幻妖',
+        'attribute': '光',
+        'race': '妖精類',
+        'star': 4,
+        'monsterTag': ['奇異幻妖'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10015,
+        'name': '冥土幻妖',
+        'attribute': '暗',
+        'race': '妖精類',
+        'star': 4,
+        'monsterTag': ['奇異幻妖'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10016,
+        'name': '霧象龍',
+        'attribute': '水',
+        'race': '龍類',
+        'star': 4,
+        'monsterTag': ['袖珍龍類'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10017,
+        'name': '炎牢龍',
+        'attribute': '火',
+        'race': '龍類',
+        'star': 4,
+        'monsterTag': ['袖珍龍類'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10018,
+        'name': '木笙龍',
+        'attribute': '木',
+        'race': '龍類',
+        'star': 4,
+        'monsterTag': ['袖珍龍類'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10019,
+        'name': '光刃龍',
+        'attribute': '光',
+        'race': '龍類',
+        'star': 4,
+        'monsterTag': ['袖珍龍類'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10020,
+        'name': '暗燈龍',
+        'attribute': '暗',
+        'race': '龍類',
+        'star': 4,
+        'monsterTag': ['袖珍龍類'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10021,
+        'name': '簾水神使',
+        'attribute': '水',
+        'race': '神族',
+        'star': 4,
+        'monsterTag': ['虔敬神使'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10022,
+        'name': '飛焰神使',
+        'attribute': '火',
+        'race': '神族',
+        'star': 4,
+        'monsterTag': ['虔敬神使'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10023,
+        'name': '碧岩神使',
+        'attribute': '木',
+        'race': '神族',
+        'star': 4,
+        'monsterTag': ['虔敬神使'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10024,
+        'name': '蛾光神使',
+        'attribute': '光',
+        'race': '神族',
+        'star': 4,
+        'monsterTag': ['虔敬神使'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10025,
+        'name': '死影神使',
+        'attribute': '暗',
+        'race': '神族',
+        'star': 4,
+        'monsterTag': ['虔敬神使'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10026,
+        'name': '水胖魔',
+        'attribute': '水',
+        'race': '魔族',
+        'star': 4,
+        'monsterTag': ['五色魔怪'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10027,
+        'name': '蠟焰魔',
+        'attribute': '火',
+        'race': '魔族',
+        'star': 4,
+        'monsterTag': ['五色魔怪'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10028,
+        'name': '翠毒魔',
+        'attribute': '木',
+        'race': '魔族',
+        'star': 4,
+        'monsterTag': ['五色魔怪'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10029,
+        'name': '耀瞳魔',
+        'attribute': '光',
+        'race': '魔族',
+        'star': 4,
+        'monsterTag': ['五色魔怪'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10030,
+        'name': '影空魔',
+        'attribute': '暗',
+        'race': '魔族',
+        'star': 4,
+        'monsterTag': ['五色魔怪'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10031,
+        'name': '冰晶機芯',
+        'attribute': '水',
+        'race': '機械族',
+        'star': 4,
+        'monsterTag': ['變異機芯'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10032,
+        'name': '火銘機芯',
+        'attribute': '火',
+        'race': '機械族',
+        'star': 4,
+        'monsterTag': ['變異機芯'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10033,
+        'name': '樹椏機芯',
+        'attribute': '木',
+        'race': '機械族',
+        'star': 4,
+        'monsterTag': ['變異機芯'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10034,
+        'name': '輝帛機芯',
+        'attribute': '光',
+        'race': '機械族',
+        'star': 4,
+        'monsterTag': ['變異機芯'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10035,
+        'name': '夜丑機芯',
+        'attribute': '暗',
+        'race': '機械族',
+        'star': 4,
+        'monsterTag': ['變異機芯'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '沒有技能',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '沒有技能',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
 	{
         'id': 10036,
         'name': '巧舌饞涎 ‧ 柯柯',
@@ -77395,19 +78094,19 @@ const monster_data = [
     },
     {
         'id': 10046,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '甜糯女孩',
+        'attribute': '火',
+        'race': '強化素材',
+        'star': 3,
+        'monsterTag': ['素材'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
@@ -77419,7 +78118,7 @@ const monster_data = [
         'attribute': '光',
         'race': '龍類',
         'star': 6,
-        'monsterTag': [],
+        'monsterTag': ['初次相遇'],
         'crossOver': false,
         'skill': [
             {
@@ -77447,7 +78146,7 @@ const monster_data = [
         'attribute': '水',
         'race': '獸類',
         'star': 6,
-        'monsterTag': [],
+        'monsterTag': ['初次相遇'],
         'crossOver': false,
         'skill': [
             {
@@ -77515,7 +78214,7 @@ const monster_data = [
         'attribute': '水',
         'race': '獸類',
         'star': 5,
-        'monsterTag': [],
+        'monsterTag': ['獅心武術館'],
         'crossOver': false,
         'skill': [
             {
