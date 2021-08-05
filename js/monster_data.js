@@ -1,4 +1,4 @@
-// Last modified : 2021.08.02 23:39
+// Last modified : 2021.08.05 19:40
 
 const monster_data = [
     {
@@ -73219,20 +73219,20 @@ const monster_data = [
     },
     {
         'id': 2736,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '水花女孩 ‧ 紅璦',
+        'attribute': '暗',
+        'race': '龍類',
+        'star': 6,
+        'monsterTag': ['公會任務'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '蔚藍派對',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 將隊長直行符石轉化為<br>⇒ 隊長屬性龍族符石<br>II. 將戰友直行符石轉化為<br>⇒ 心龍族符石<br>1 回合內<br>III. 每消除 1 粒龍族符石<br>⇒ 回復 10% 生命力<br>⇒ 最多可回復 100% 生命力',
+                'tag': ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '龍族符石製造', '回血']
             }
         ],
         'team_skill': []
