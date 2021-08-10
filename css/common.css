@@ -28,6 +28,7 @@
     --text_recall_tooltip_color_normal: #91DFF3;
     --text_charge_tooltip_color_normal: #FF6666;
     --text_charge_sort_color_normal: #343A40;
+	--text_board_label_color_normal: #82e8ff;
     --table_border_normal: #363636;
     --table_border_center_normal: #777777;
 	--text_monster_name_water_color_normal: #55A4D7;
@@ -66,6 +67,7 @@
     --text_recall_tooltip_color_dark: #70ADD1;
     --text_charge_tooltip_color_dark: #AA4444;
     --text_charge_sort_color_dark: #222222;
+	--text_board_label_color_dark: #2ba4bc;
     --table_border_dark: #AAAAAA;
     --table_border_center_dark: #888888;
 	--text_monster_name_water_color_dark: #5252AF;
@@ -104,6 +106,7 @@
     --text_recall_tooltip_color: var(--text_recall_tooltip_color_normal);
     --text_charge_tooltip_color: var(--text_charge_tooltip_color_normal);
     --text_charge_sort_color: var(--text_charge_sort_color_normal);
+    --text_board_label_color: var(--text_board_label_color_normal);
     --table_border: var(--table_border_normal);
     --table_border_center: var(--table_border_center_normal);
 	--text_monster_name_water_color: var(--text_monster_name_water_color_normal);
@@ -117,6 +120,7 @@ body {
     font-family: Microsoft JhengHei;
     background-color: var(--background_color);
     color: var(--text_color);
+	overflow-x: hidden;
 }
 .filter[type=checkbox] {
     display: none;
@@ -462,6 +466,37 @@ select {
 .skill_combine img, .skill_transform img {
     width: 50px;
     height: 50px;
+}
+.fixed_board_label {
+	color: var(--text_board_label_color);
+	cursor: pointer;
+}
+#fixedBoard {
+	display: none;
+	position: absolute;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.75);
+	border: 2px solid #333333;
+	z-index: 2000;
+}
+.board_table {
+	table-layout: fixed;
+}
+.rune_tr {
+}
+.rune_td {
+	position: relative;
+	border: 1px solid #555555;
+}
+.rune_img {
+	width: 40px;
+	height: 40px;
+}
+.race_img {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	right: 0;
 }
 
 /* adjust for modal */

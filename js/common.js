@@ -28,6 +28,20 @@ function init() {
 			$('[data-toggle=popover]').popover('hide')
 		}
     });*/
+	
+	$(document).on('mouseenter', '.fixed_board_label', () => {
+		$("#fixedBoard").css('display', 'block')
+	}).on('touchstart', '.fixed_board_label', () => {
+		$("#fixedBoard").css('display', 'block')
+	}).on('mouseleave', '.fixed_board_label', () => {
+		$("#fixedBoard").css('display', 'none')
+	}).on('touchend', '.fixed_board_label', () => {
+		$("#fixedBoard").css('display', 'none')
+	}).on('blur', '.monster_img', () => {
+		$("#fixedBoard").css('display', 'none')
+	}).on('touchleave touchcancel', '.monster_img', () => {
+		$("#fixedBoard").css('display', 'none')
+	});
     
     $('#changeTheme-btn').click(() => { 
         changeTheme();
@@ -564,6 +578,7 @@ function changeTheme()
         '--text_recall_tooltip_color', 
         '--text_charge_tooltip_color',
         '--text_charge_sort_color',
+        '--text_board_label_color',
         '--table_border',
         '--table_border_center',
 		'--text_monster_name_water_color',
