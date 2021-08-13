@@ -1,4 +1,4 @@
-// Last modified : 2021.08.14 00:38
+// Last modified : 2021.08.14 01:01
 
 const monster_data = [
     {
@@ -3773,7 +3773,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '敵方生命力 20% 以下時，即殺',
-                'tag': []
+                'tag': ['直傷', '無視技能直傷']
             }
         ],
         'team_skill': [
@@ -3801,7 +3801,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '敵方生命力 20% 以下時，即殺',
-                'tag': []
+                'tag': ['直傷', '無視技能直傷']
             }
         ],
         'team_skill': [
@@ -3829,7 +3829,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '敵方生命力 20% 以下時，即殺',
-                'tag': []
+                'tag': ['直傷', '無視技能直傷']
             }
         ],
         'team_skill': [
@@ -17799,7 +17799,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 12,
                 'description': '敵方生命力 20% 以下時，即殺',
-                'tag': []
+                'tag': ['直傷', '無視技能直傷']
             }
         ],
         'team_skill': [
@@ -64539,7 +64539,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 7,
                 'description': '敵方為人類，而且當前生命力為<br>⇒ 100 萬或以下，即殺',
-                'tag': []
+                'tag': ['直傷', '無視技能直傷']
             },
             {
                 'name': '連天和次元也要一併突破！',
