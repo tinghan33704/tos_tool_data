@@ -1,4 +1,4 @@
-// Last modified : 2021.08.14 01:01
+// Last modified : 2021.08.14 21:12
 
 const monster_data = [
     {
@@ -9,6 +9,7 @@ const monster_data = [
         'star': 0,
         'monsterTag': [],
         'crossOver': false,
+		'vrPair': -1,
         'skill': [
             {
                 'name': '',
@@ -26470,6 +26471,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['北歐神煉化'],
         'crossOver': false,
+		'vrPair': 1022,
         'skill': [
             {
                 'name': '符石強化 ‧ 水',
@@ -26554,6 +26556,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['北歐神幻化'],
         'crossOver': false,
+		'vrPair': 1021,
         'skill': [
             {
                 'name': '汪洋大號令',
@@ -26574,6 +26577,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['北歐神煉化'],
         'crossOver': false,
+		'vrPair': 1024,
         'skill': [
             {
                 'name': '符石強化 ‧ 火',
@@ -26658,6 +26662,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['北歐神幻化'],
         'crossOver': false,
+		'vrPair': 1023,
         'skill': [
             {
                 'name': '熾燃大號令',
@@ -26678,6 +26683,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['北歐神煉化'],
         'crossOver': false,
+		'vrPair': 1026,
         'skill': [
             {
                 'name': '符石強化 ‧ 木',
@@ -26762,6 +26768,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['北歐神幻化'],
         'crossOver': false,
+		'vrPair': 1025,
         'skill': [
             {
                 'name': '森野大號令',
@@ -26782,6 +26789,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['北歐神煉化'],
         'crossOver': false,
+		'vrPair': 1028,
         'skill': [
             {
                 'name': '符石強化 ‧ 光',
@@ -26866,6 +26874,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['北歐神幻化'],
         'crossOver': false,
+		'vrPair': 1027,
         'skill': [
             {
                 'name': '聖光大號令',
@@ -26886,6 +26895,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['北歐神煉化'],
         'crossOver': false,
+		'vrPair': 1030,
         'skill': [
             {
                 'name': '符石強化 ‧ 暗',
@@ -26970,6 +26980,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['北歐神幻化'],
         'crossOver': false,
+		'vrPair': 1029,
         'skill': [
             {
                 'name': '魅影大號令',
@@ -27845,7 +27856,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': 'I. 將所有符石轉化為龍族符石<br>II. 1 回合內<br>⇒ 所受傷害將會以龍類的數量而減少<br>⇒ 最多可減少 90%',
+                'description': 'I. 將所有符石添加為龍族符石<br>II. 1 回合內<br>⇒ 所受傷害將會以龍類的數量而減少<br>⇒ 最多可減少 90%',
                 'tag': ['減傷', '龍族符石製造']
             }
         ],
@@ -28185,6 +28196,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['中國神煉化'],
         'crossOver': false,
+		'vrPair': 1082,
         'skill': [
             {
                 'name': '浪濤敕令',
@@ -28228,6 +28240,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['中國神幻化'],
         'crossOver': false,
+		'vrPair': 1081,
         'skill': [
             {
                 'name': '海洋大號令 ‧ 加冕',
@@ -28264,6 +28277,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['中國神煉化'],
         'crossOver': false,
+		'vrPair': 1084,
         'skill': [
             {
                 'name': '燄火敕令',
@@ -28307,6 +28321,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['中國神幻化'],
         'crossOver': false,
+		'vrPair': 1083,
         'skill': [
             {
                 'name': '焚燒大號令 ‧ 加冕',
@@ -28350,6 +28365,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['中國神煉化'],
         'crossOver': false,
+		'vrPair': 1086,
         'skill': [
             {
                 'name': '森野敕令',
@@ -28393,6 +28409,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['中國神幻化'],
         'crossOver': false,
+		'vrPair': 1085,
         'skill': [
             {
                 'name': '自然大號令 ‧ 加冕',
@@ -28429,6 +28446,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['中國神煉化'],
         'crossOver': false,
+		'vrPair': 1088,
         'skill': [
             {
                 'name': '金睛火眼 ‧ 凝煉',
@@ -28473,6 +28491,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['中國神幻化'],
         'crossOver': false,
+		'vrPair': 1087,
         'skill': [
             {
                 'name': '點石成金',
@@ -28509,6 +28528,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['中國神煉化'],
         'crossOver': false,
+		'vrPair': 1090,
         'skill': [
             {
                 'name': '魅惑傾城 ‧ 強',
@@ -28551,6 +28571,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['中國神幻化'],
         'crossOver': false,
+		'vrPair': 1089,
         'skill': [
             {
                 'name': '回眸傾城',
@@ -34068,6 +34089,7 @@ const monster_data = [
         'star': 8,
         'monsterTag': ['封王'],
         'crossOver': false,
+		'vrPair': 1310,
         'skill': [
             {
                 'name': '終極一擊 ‧ 強',
@@ -34166,6 +34188,7 @@ const monster_data = [
         'star': 8,
         'monsterTag': ['封王'],
         'crossOver': false,
+		'vrPair': 1309,
         'skill': [
             {
                 'name': '主神之威',
@@ -34687,6 +34710,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['鮮紅恩典煉化'],
         'crossOver': false,
+		'vrPair': 1327,
         'skill': [
             {
                 'name': '狂魔之戾 ‧ 血誓',
@@ -34737,6 +34761,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['鮮紅恩典幻化'],
         'crossOver': false,
+		'vrPair': 1326,
         'skill': [
             {
                 'name': '幻象破滅 ‧ 水',
@@ -34758,6 +34783,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['鮮紅恩典煉化'],
         'crossOver': false,
+		'vrPair': 1329,
         'skill': [
             {
                 'name': '狂魔之戾 ‧ 血誓',
@@ -34808,6 +34834,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['鮮紅恩典幻化'],
         'crossOver': false,
+		'vrPair': 1328,
         'skill': [
             {
                 'name': '幻象破滅 ‧ 火',
@@ -34829,6 +34856,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['鮮紅恩典煉化'],
         'crossOver': false,
+		'vrPair': 1331,
         'skill': [
             {
                 'name': '狂魔之戾 ‧ 血誓',
@@ -34872,6 +34900,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['鮮紅恩典幻化'],
         'crossOver': false,
+		'vrPair': 1330,
         'skill': [
             {
                 'name': '幻象破滅 ‧ 木',
@@ -34893,6 +34922,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['鮮紅恩典煉化'],
         'crossOver': false,
+		'vrPair': 1333,
         'skill': [
             {
                 'name': '狂魔之戾 ‧ 血誓',
@@ -34929,6 +34959,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['鮮紅恩典幻化'],
         'crossOver': false,
+		'vrPair': 1332,
         'skill': [
             {
                 'name': '血祭狂屠 ‧ 光',
@@ -34950,6 +34981,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['鮮紅恩典煉化'],
         'crossOver': false,
+		'vrPair': 1335,
         'skill': [
             {
                 'name': '狂魔之戾 ‧ 血誓',
@@ -34986,6 +35018,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['鮮紅恩典幻化'],
         'crossOver': false,
+		'vrPair': 1334,
         'skill': [
             {
                 'name': '血祭狂屠 ‧ 暗',
@@ -35226,7 +35259,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '3 回合內，移動符石時觸碰的符石轉化為妖族符石，敵方所受傷害的 50% 分別擴散到其他敵人身上',
+                'description': '3 回合內，移動符石時觸碰的符石添加為妖族符石，敵方所受傷害的 50% 分別擴散到其他敵人身上',
                 'tag': [['妖族符石製造', 3]]
             }
         ],
@@ -35572,6 +35605,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['希臘神煉化'],
         'crossOver': false,
+		'vrPair': 1357,
         'skill': [
             {
                 'name': '印記之念 ‧ 水月',
@@ -35607,6 +35641,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['希臘神幻化'],
         'crossOver': false,
+		'vrPair': 1356,
         'skill': [
             {
                 'name': '神族符能 ‧ 浪濤陣',
@@ -35627,6 +35662,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['希臘神煉化'],
         'crossOver': false,
+		'vrPair': 1359,
         'skill': [
             {
                 'name': '印記之念 ‧ 火影',
@@ -35662,6 +35698,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['希臘神幻化'],
         'crossOver': false,
+		'vrPair': 1358,
         'skill': [
             {
                 'name': '神族符能 ‧ 熾燄陣',
@@ -35682,6 +35719,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['希臘神煉化'],
         'crossOver': false,
+		'vrPair': 1361,
         'skill': [
             {
                 'name': '印記之念 ‧ 木葉',
@@ -35717,6 +35755,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['希臘神幻化'],
         'crossOver': false,
+		'vrPair': 1360,
         'skill': [
             {
                 'name': '神族符能 ‧ 藤木陣',
@@ -35737,6 +35776,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['希臘神煉化'],
         'crossOver': false,
+		'vrPair': 1363,
         'skill': [
             {
                 'name': '印記之念 ‧ 光華',
@@ -35772,6 +35812,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['希臘神幻化'],
         'crossOver': false,
+		'vrPair': 1362,
         'skill': [
             {
                 'name': '神族符能 ‧ 玄光陣',
@@ -35792,6 +35833,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['希臘神煉化'],
         'crossOver': false,
+		'vrPair': 1365,
         'skill': [
             {
                 'name': '印記之念 ‧ 暗流',
@@ -35827,6 +35869,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['希臘神幻化'],
         'crossOver': false,
+		'vrPair': 1364,
         'skill': [
             {
                 'name': '神族符能 ‧ 幽冥陣',
@@ -35947,6 +35990,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['誓約之花'],
         'crossOver': false,
+		'vrPair': 1372,
         'skill': [
             {
                 'name': '誓約的泉源 ‧ 加冕',
@@ -35975,6 +36019,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['誓約之花'],
         'crossOver': false,
+		'vrPair': 1371,
         'skill': [
             {
                 'name': '疾速之浪',
@@ -35995,6 +36040,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['誓約之花'],
         'crossOver': false,
+		'vrPair': 1374,
         'skill': [
             {
                 'name': '熾熱的約定 ‧ 加冕',
@@ -36023,6 +36069,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['誓約之花'],
         'crossOver': false,
+		'vrPair': 1373,
         'skill': [
             {
                 'name': '綻放之焰',
@@ -36183,6 +36230,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['埃及神煉化'],
         'crossOver': false,
+		'vrPair': 1381,
         'skill': [
             {
                 'name': '極限解放 ‧ 浪濤',
@@ -36214,6 +36262,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['埃及神幻化'],
         'crossOver': false,
+		'vrPair': 1380,
         'skill': [
             {
                 'name': '終極之判 ‧ 水',
@@ -36234,6 +36283,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['埃及神煉化'],
         'crossOver': false,
+		'vrPair': 1383,
         'skill': [
             {
                 'name': '極限解放 ‧ 熾燄',
@@ -36265,6 +36315,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['埃及神幻化'],
         'crossOver': false,
+		'vrPair': 1382,
         'skill': [
             {
                 'name': '終極之判 ‧ 火',
@@ -36285,6 +36336,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['埃及神煉化'],
         'crossOver': false,
+		'vrPair': 1385,
         'skill': [
             {
                 'name': '極限解放 ‧ 藤木',
@@ -36316,6 +36368,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['埃及神幻化'],
         'crossOver': false,
+		'vrPair': 1384,
         'skill': [
             {
                 'name': '終極之判 ‧ 木',
@@ -36336,6 +36389,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['埃及神煉化'],
         'crossOver': false,
+		'vrPair': 1387,
         'skill': [
             {
                 'name': '極限解放 ‧ 玄光',
@@ -36367,6 +36421,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['埃及神幻化'],
         'crossOver': false,
+		'vrPair': 1386,
         'skill': [
             {
                 'name': '終極之判 ‧ 光',
@@ -36387,6 +36442,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['埃及神煉化'],
         'crossOver': false,
+		'vrPair': 1389,
         'skill': [
             {
                 'name': '極限解放 ‧ 幽冥',
@@ -36418,6 +36474,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['埃及神幻化'],
         'crossOver': false,
+		'vrPair': 1388,
         'skill': [
             {
                 'name': '終極之判 ‧ 暗',
@@ -37159,7 +37216,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '木符石轉化為木強化符石；若技能發動時場上沒有心符石，將所有符石轉化為獸族符石',
+                'description': '木符石轉化為木強化符石；若技能發動時場上沒有心符石，將所有符石添加為獸族符石',
                 'tag': ['符石強化', '符石轉木強化', '獸族符石製造']
             }
         ],
@@ -37268,7 +37325,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '將所有符石轉化為神族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 5 倍對其進行火屬性反擊，此傷害無視防禦力',
+                'description': '將所有符石添加為神族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 5 倍對其進行火屬性反擊，此傷害無視防禦力',
                 'tag': ['直傷', '破防直傷', '神族符石製造', '敵方傷害吸收']
             }
         ],
@@ -37288,7 +37345,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '將所有符石轉化為神族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 5 倍對其進行火屬性反擊，此傷害無視防禦力',
+                'description': '將所有符石添加為神族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 5 倍對其進行火屬性反擊，此傷害無視防禦力',
                 'tag': ['直傷', '破防直傷', '神族符石製造', '敵方傷害吸收']
             }
         ],
@@ -38061,7 +38118,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '水符石轉化為人族符石；2 回合內，每回合扣除 30% 總生命力，水屬性攻擊力 2.25 倍，若技能發動時隊伍回復為 0 時，則不會每回合扣除生命力',
+                'description': '水符石添加為人族符石；2 回合內，每回合扣除 30% 總生命力，水屬性攻擊力 2.25 倍，若技能發動時隊伍回復為 0 時，則不會每回合扣除生命力',
                 'tag': [['我方扣血', 2], ['增傷', 2], '人族符石製造']
             }
         ],
@@ -39917,7 +39974,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '光及暗符石轉化為強化符石。若隊伍中有 3 個或以上的獸類成員時，將強化符石轉化為獸族符石',
+                'description': '光及暗符石轉化為強化符石。若隊伍中有 3 個或以上的獸類成員時，將強化符石添加為獸族符石',
                 'tag': ['符石強化', '符石轉光強化', '符石轉暗強化', '獸族符石製造']
             }
         ],
@@ -40534,7 +40591,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '1 回合內，移動符石所觸碰的符石轉化為人類符石；並以 30% 自身攻擊力追打 20 次木屬性傷害',
+                'description': '1 回合內，移動符石所觸碰的符石添加為人族符石；並以 30% 自身攻擊力追打 20 次木屬性傷害',
                 'tag': ['自身追打', '木屬追打', '人族符石製造']
             }
         ],
@@ -40671,7 +40728,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '1 回合內，移動符石所觸碰的符石轉化為人類符石；並以 30% 自身攻擊力追打 20 次木屬性傷害',
+                'description': '1 回合內，移動符石所觸碰的符石添加為人族符石；並以 30% 自身攻擊力追打 20 次木屬性傷害',
                 'tag': ['自身追打', '木屬追打', '人族符石製造']
             }
         ],
@@ -41554,7 +41611,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '將火及心符石轉化為妖族符石。根據本回合的連擊 (Combo) 數目，下回合開始時將火及心以外的符石，轉化為該數目等值的火強化符石',
+                'description': '將火及心符石添加為妖族符石。根據本回合的連擊 (Combo) 數目，下回合開始時將火及心以外的符石，轉化為該數目等值的火強化符石',
                 'tag': ['符石轉火', '符石轉火強化', '妖族符石製造']
             }
         ],
@@ -42818,7 +42875,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': '3 回合內，發動技能及回合開始時將木符石轉化為神族符石；並將所有掉落的符石轉化為強化符石',
+                'description': '3 回合內，發動技能及回合開始時將木符石添加為神族符石；並將所有掉落的符石轉化為強化符石',
                 'tag': [['神族符石製造', 3]]
             }
         ],
@@ -43396,7 +43453,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '將水、火及木符石轉化為人族符石，並引爆所有光、暗及心符石，以掉落水、火及木符石',
+                'description': '將水、火及木符石添加為人族符石，並引爆所有光、暗及心符石，以掉落水、火及木符石',
                 'tag': ['引爆', '光符石引爆', '暗符石引爆', '心符石引爆', '強制掉落', '人族符石製造']
             }
         ],
@@ -44140,7 +44197,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': '2 回合內，可任意移動符石而不會發動消除；並將移動符石所觸碰的心符石轉化為妖族符石',
+                'description': '2 回合內，可任意移動符石而不會發動消除；並將移動符石所觸碰的心符石添加為妖族符石',
                 'tag': [['排珠', 2], ['妖族符石製造', 2]]
             }
         ],
@@ -45123,7 +45180,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '水及光屬性機械族成員的行動值提升至 100%。若此時全隊機械族成員的行動值達至 100%：將所有符石轉化為機械族符石；身旁的水屬性機械族及光屬性機械族成員攻擊力提升 2.5 倍；效果持續至沒有首批消除光符石',
+                'description': '水及光屬性機械族成員的行動值提升至 100%。若此時全隊機械族成員的行動值達至 100%：將所有符石添加為機械族符石；身旁的水屬性機械族及光屬性機械族成員攻擊力提升 2.5 倍；效果持續至沒有首批消除光符石',
                 'tag': ['行動值提升', ['增傷', -1], ['界王拳', -1], ['機械族符石製造', -1]]
             }
         ],
@@ -46808,7 +46865,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '木符石轉化為妖族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 50 倍對其進行木屬性反擊',
+                'description': '木符石添加為妖族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 50 倍對其進行木屬性反擊',
                 'tag': ['直傷', '敵方傷害吸收', '妖族符石製造']
             }
         ],
@@ -47052,7 +47109,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '所有符石轉化為魔族符石；1 回合內，消除符石的種類愈多，水屬性攻擊力提升愈多，最大提升至 2.2 倍',
+                'description': '所有符石添加為魔族符石；1 回合內，消除符石的種類愈多，水屬性攻擊力提升愈多，最大提升至 2.2 倍',
                 'tag': ['增傷', '魔族符石製造']
             }
         ],
@@ -47386,6 +47443,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['巴比倫主神煉化'],
         'crossOver': false,
+		'vrPair': 1822,
         'skill': [
             {
                 'name': '水刃煞陣 ‧ 掌時',
@@ -47428,6 +47486,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['巴比倫主神幻化'],
         'crossOver': false,
+		'vrPair': 1821,
         'skill': [
             {
                 'name': '水靈飄灑',
@@ -47448,6 +47507,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['巴比倫主神煉化'],
         'crossOver': false,
+		'vrPair': 1824,
         'skill': [
             {
                 'name': '燄刃煞陣 ‧ 掌時',
@@ -47490,6 +47550,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['巴比倫主神幻化'],
         'crossOver': false,
+		'vrPair': 1823,
         'skill': [
             {
                 'name': '火靈飄灑',
@@ -47510,6 +47571,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['巴比倫主神煉化'],
         'crossOver': false,
+		'vrPair': 1826,
         'skill': [
             {
                 'name': '藤刃煞陣 ‧ 掌時',
@@ -47552,6 +47614,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['巴比倫主神幻化'],
         'crossOver': false,
+		'vrPair': 1825,
         'skill': [
             {
                 'name': '木靈飄灑',
@@ -47572,6 +47635,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['巴比倫主神煉化'],
         'crossOver': false,
+		'vrPair': 1828,
         'skill': [
             {
                 'name': '光刃煞陣 ‧ 掌時',
@@ -47614,6 +47678,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['巴比倫主神幻化'],
         'crossOver': false,
+		'vrPair': 1827,
         'skill': [
             {
                 'name': '光靈飄灑',
@@ -47634,6 +47699,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['巴比倫主神煉化'],
         'crossOver': false,
+		'vrPair': 1830,
         'skill': [
             {
                 'name': '魅刃煞陣 ‧ 掌時',
@@ -47676,6 +47742,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['巴比倫主神幻化'],
         'crossOver': false,
+		'vrPair': 1829,
         'skill': [
             {
                 'name': '暗靈飄灑',
@@ -48367,7 +48434,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '水符石轉化為機械族符石',
+                'description': '水符石添加為機械族符石',
                 'tag': ['機械族符石製造']
             }
         ],
@@ -48387,7 +48454,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '火符石轉化為機械族符石',
+                'description': '火符石添加為機械族符石',
                 'tag': ['機械族符石製造']
             }
         ],
@@ -48407,7 +48474,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '木符石轉化為機械族符石',
+                'description': '木符石添加為機械族符石',
                 'tag': ['機械族符石製造']
             }
         ],
@@ -48427,7 +48494,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '光符石轉化為機械族符石',
+                'description': '光符石添加為機械族符石',
                 'tag': ['機械族符石製造']
             }
         ],
@@ -48447,7 +48514,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '暗符石轉化為機械族符石',
+                'description': '暗符石添加為機械族符石',
                 'tag': ['機械族符石製造']
             }
         ],
@@ -48507,7 +48574,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '獸類成員所在直行的符石轉化為獸族符石；1 回合內，獸類成員追打自身攻擊力 2.5 倍的光屬性攻擊 1 次',
+                'description': '獸類成員所在直行的符石添加為獸族符石；1 回合內，獸類成員追打自身攻擊力 2.5 倍的光屬性攻擊 1 次',
                 'tag': ['光屬追打', '增傷', '界王拳', '獸族符石製造']
             }
         ],
@@ -49513,7 +49580,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '2 回合內，隨機將 3 粒符石轉化為火強化符石，移動符石時觸碰的火符石轉化為獸族符石',
+                'description': '2 回合內，隨機將 3 粒符石轉化為火強化符石，移動符石時觸碰的火符石添加為獸族符石',
                 'tag': [['符石轉火', 2], ['符石轉火強化', 2], ['獸族符石製造', 2]]
             }
         ],
@@ -49533,7 +49600,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '木符石轉化為妖族符石。1 回合內，心符石兼具 50% 木符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2',
+                'description': '木符石添加為妖族符石。1 回合內，心符石兼具 50% 木符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2',
                 'tag': ['符石兼具木', '妖族符石製造', '減CD']
             }
         ],
@@ -49568,7 +49635,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '火符石轉化為妖族符石。1 回合內，心符石兼具 50% 火符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2',
+                'description': '火符石添加為妖族符石。1 回合內，心符石兼具 50% 火符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2',
                 'tag': ['符石兼具火', '妖族符石製造', '減CD']
             }
         ],
@@ -49603,7 +49670,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '光符石轉化為妖族符石。1 回合內，心符石兼具 50% 光符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2',
+                'description': '光符石添加為妖族符石。1 回合內，心符石兼具 50% 光符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2',
                 'tag': ['符石兼具光', '妖族符石製造', '減CD']
             }
         ],
@@ -50523,7 +50590,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '心符石轉化為強化符石，水、火及木符石轉化為獸族符石。1 回合內，將掉落的水、火及木符石以獸族強化符石代替',
+                'description': '心符石轉化為強化符石，水、火及木符石添加為獸族符石。1 回合內，將掉落的水、火及木符石以獸族強化符石代替',
                 'tag': ['符石強化', '符石轉心強化', '獸族符石製造']
             }
         ],
@@ -50597,6 +50664,7 @@ const monster_data = [
         'star': 8,
         'monsterTag': ['封王'],
         'crossOver': false,
+		'vrPair': 1947,
         'skill': [
             {
                 'name': '群魔共舞',
@@ -50633,13 +50701,14 @@ const monster_data = [
         'star': 8,
         'monsterTag': ['封王'],
         'crossOver': false,
+		'vrPair': 1946,
         'skill': [
             {
                 'name': '妖魅咒訣',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '隨機 2 個妖精類成員直行的符石轉化為妖族符石。1 回合內，消除妖族符石愈多，全隊攻擊力提升愈多，消除 25 粒可提升至最大 3 倍',
+                'description': '隨機 2 個妖精類成員直行的符石添加為妖族符石。1 回合內，消除妖族符石愈多，全隊攻擊力提升愈多，消除 25 粒可提升至最大 3 倍',
                 'tag': ['增傷', '妖族符石製造']
             },
             {
@@ -51292,7 +51361,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '5 回合內，將光符石轉化為妖族符石；全隊攻擊力 1.5 倍，「FAIRY TAIL 公會成員」(包括 FAIRY TAIL 石抽系列角色、梅比斯、馬卡羅夫、茱比亞及龐沙利利) 的攻擊力則 2.25 倍',
+                'description': '5 回合內，將光符石添加為妖族符石；全隊攻擊力 1.5 倍，「FAIRY TAIL 公會成員」(包括 FAIRY TAIL 石抽系列角色、梅比斯、馬卡羅夫、茱比亞及龐沙利利) 的攻擊力則 2.25 倍',
                 'tag': [['增傷', 5], ['妖族符石製造', 5]]
             }
         ],
@@ -53455,7 +53524,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '木符石轉化為妖族符石。1 回合內，隊伍成員攻擊次數 (不計炮擊) 愈多，所受傷害減少愈多，10 次攻擊可減少最多 100% 所受傷害',
+                'description': '木符石添加為妖族符石。1 回合內，隊伍成員攻擊次數 (不計炮擊) 愈多，所受傷害減少愈多，10 次攻擊可減少最多 100% 所受傷害',
                 'tag': ['減傷', '妖族符石製造']
             }
         ],
@@ -53606,7 +53675,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '1 回合內，移動符石時觸碰的符石轉化為魔族符石；攻擊力基值最高 (最左方) 的魔族成員追打自身攻擊 1 次',
+                'description': '1 回合內，移動符石時觸碰的符石添加為魔族符石；攻擊力基值最高 (最左方) 的魔族成員追打自身攻擊 1 次',
                 'tag': ['水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打', '魔族符石製造']
             }
         ],
@@ -54188,7 +54257,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': 'I. 引爆場上所有風化符石及凍結符石<br>II. 將所有符石轉化為魔族符石<br>III. 1 回合內，暗屬性攻擊力 2 倍，自身攻擊力額外提升 3 倍',
+                'description': 'I. 引爆場上所有風化符石及凍結符石<br>II. 將所有符石添加為魔族符石<br>III. 1 回合內，暗屬性攻擊力 2 倍，自身攻擊力額外提升 3 倍',
                 'tag': ['引爆', '風化符石處理', '凍結符石處理', '魔族符石製造', '增傷', '界王拳']
             }
         ],
@@ -54487,7 +54556,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 將神族成員直行的符石<br>⇒ 轉化為神族符石<br>1 回合內<br>II. 心符石兼具 50% 所有屬性符石效果<br>III. 每首批消除 1 粒神族符石<br>⇒ 必定掉落 1 粒心強化符石',
+                'description': 'I. 將神族成員直行的符石<br>⇒ 添加為神族符石<br>1 回合內<br>II. 心符石兼具 50% 所有屬性符石效果<br>III. 每首批消除 1 粒神族符石<br>⇒ 必定掉落 1 粒心強化符石',
                 'tag': ['神族符石製造', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '強制掉落']
             }
         ],
@@ -56158,7 +56227,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '隊伍中有 3 個或以上獸類成員時：<br>I. 發動此技能及回合結束時<br>⇒ 隨機將 3 粒符石轉化為獸族符石<br>II. 每消除 1 粒獸族符石<br>⇒ 減少 5% 所受傷害，最多可減少 30% 傷害<br>消除獸族或神族符石可維持效果',
+                'description': '隊伍中有 3 個或以上獸類成員時：<br>I. 發動此技能及回合結束時<br>⇒ 隨機將 3 粒符石添加為獸族符石<br>II. 每消除 1 粒獸族符石<br>⇒ 減少 5% 所受傷害，最多可減少 30% 傷害<br>消除獸族或神族符石可維持效果',
                 'tag': [['獸族符石製造', -1], ['減傷', -1]]
             }
         ],
@@ -56286,7 +56355,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': 'I. 將神族成員直行的暗符石<br>⇒ 轉化為神族符石<br>II. 將機械族成員直行的暗符石<br>⇒ 轉化為機械族符石<br>III. 1 回合內，每首批消除 1 組符石<br>⇒ 必定掉落 1 粒神族強化符石，最多 10 粒',
+                'description': 'I. 將神族成員直行的暗符石<br>⇒ 添加為神族符石<br>II. 將機械族成員直行的暗符石<br>⇒ 添加為機械族符石<br>III. 1 回合內，每首批消除 1 組符石<br>⇒ 必定掉落 1 粒神族強化符石，最多 10 粒',
                 'tag': ['神族符石製造', '機械族符石製造']
             }
         ],
@@ -56961,7 +57030,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 將暗符石轉化為魔族符石<br>II. 1 回合內，自身不會發動攻擊<br>⇒ 暗屬性成員以 2 倍攻擊力追打 1 次<br>⇒「侵略者」及「哥莫拉」則以 4 倍攻擊力追打 1 次',
+                'description': 'I. 將暗符石添加為魔族符石<br>II. 1 回合內，自身不會發動攻擊<br>⇒ 暗屬性成員以 2 倍攻擊力追打 1 次<br>⇒「侵略者」及「哥莫拉」則以 4 倍攻擊力追打 1 次',
                 'tag': ['魔族符石製造', '增傷', '界王拳', '限制成員攻擊', '水屬追打', '火屬追打', '光屬追打', '暗屬追打']
             },
             {
@@ -57258,7 +57327,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '3 回合內<br>I. 將光符石轉化為機械族符石<br>II. 若移動符石前場上有電擊符石<br>⇒ 該回合自身攻擊力 4 倍',
+                'description': '3 回合內<br>I. 將光符石添加為機械族符石<br>II. 若移動符石前場上有電擊符石<br>⇒ 該回合自身攻擊力 4 倍',
                 'tag': [['機械族符石製造', 3], ['增傷', 3], ['界王拳', 3]]
             }
         ],
@@ -57592,7 +57661,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 點選元素法陣上的 1 粒符石<br>⇒ 將該種符石引爆<br>⇒ 以掉落光強化符石<br>II. 將光符石隨機轉化為<br>⇒ 不同的種族符石',
+                'description': 'I. 點選元素法陣上的 1 粒符石<br>⇒ 將該種符石引爆<br>⇒ 以掉落光強化符石<br>II. 將光符石隨機添加為<br>⇒ 不同的種族符石',
                 'tag': ['引爆', '指定符石引爆', '強制掉落', '人族符石製造', '獸族符石製造', '妖族符石製造', '龍族符石製造', '神族符石製造', '魔族符石製造', '機械族符石製造']
             }
         ],
@@ -58321,7 +58390,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': 'I. 將人類及機械族成員直行的符石<br>⇒ 轉化為該直行成員的種族符石<br>II. 若隊伍中只有人類或機械族成員時<br>⇒ 則轉化為該直行成員屬性的種族符石',
+                'description': 'I. 將人類及機械族成員直行的符石<br>⇒ 添加為該直行成員的種族符石<br>II. 若隊伍中只有人類或機械族成員時<br>⇒ 則轉化為該直行成員屬性的種族符石',
                 'tag': ['人族符石製造', '機械族符石製造', '符石轉火']
             }
         ],
@@ -58386,7 +58455,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 8,
                 'transform': 2208,
-                'description': '變身；所有符石轉化為龍族符石',
+                'description': '變身；所有符石添加為龍族符石',
                 'tag': ['變身', '龍族符石製造']
             }
         ],
@@ -58544,6 +58613,7 @@ const monster_data = [
         'star': 8,
         'monsterTag': ['封王'],
         'crossOver': false,
+		'vrPair': 2215,
         'skill': [
             {
                 'name': '搶天奪日 ‧ 五源化靈',
@@ -58587,6 +58657,7 @@ const monster_data = [
         'star': 8,
         'monsterTag': ['封王'],
         'crossOver': false,
+		'vrPair': 2214,
         'skill': [
             {
                 'name': '五彩綻放',
@@ -59105,7 +59176,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 23,
-                'description': 'I. 將光符石轉化為強化符石<br>1 回合內<br>II. 連擊 (Combo) 數目固定為 23 (需消除符石)<br>III. 回合結束時<br>⇒ 將所有符石轉化為妖族符石',
+                'description': 'I. 將光符石轉化為強化符石<br>1 回合內<br>II. 連擊 (Combo) 數目固定為 23 (需消除符石)<br>III. 回合結束時<br>⇒ 將所有符石添加為妖族符石',
                 'tag': ['符石強化', '符石轉光強化', '增加Combo', '妖族符石製造']
             }
         ],
@@ -59213,7 +59284,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 將所有強化符石轉化為妖族強化符石<br>II. 將所有非強化符石轉化為強化符石<br>1 回合內<br>III. 消除 ≥10 粒妖族符石<br>⇒ 自身攻擊力 4 倍',
+                'description': 'I. 將所有強化符石添加為妖族強化符石<br>II. 將所有非強化符石轉化為強化符石<br>1 回合內<br>III. 消除 ≥10 粒妖族符石<br>⇒ 自身攻擊力 4 倍',
                 'tag': ['妖族符石製造', '符石強化', '增傷', '界王拳']
             }
         ],
@@ -59428,7 +59499,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 電擊敵方全體，持續 3 回合<br>II. 將所有符石<br>⇒ 轉化為龍族符石<br>1 回合內<br>III. 首批全部消除場上其中 1 種符石<br>⇒ 回合結束時，所有符石轉化為龍族符石',
+                'description': 'I. 電擊敵方全體，持續 3 回合<br>II. 將所有符石<br>⇒ 添加為龍族符石<br>1 回合內<br>III. 首批全部消除場上其中 1 種符石<br>⇒ 回合結束時，所有符石添加為龍族符石',
                 'tag': [['電擊敵方', 3], '龍族符石製造']
             }
         ],
@@ -60653,7 +60724,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 將所有符石轉化為人族符石<br>1 回合內<br>II. 延長移動符石時間至 10 秒<br>III. 受敵人反擊傷害減少 100%<br>IV. 下次發動主動技能二「來吧，讓我玩得開心」時<br>⇒ 必定獲得【JOKER】效果',
+                'description': 'I. 將所有符石添加為人族符石<br>1 回合內<br>II. 延長移動符石時間至 10 秒<br>III. 受敵人反擊傷害減少 100%<br>IV. 下次發動主動技能二「來吧，讓我玩得開心」時<br>⇒ 必定獲得【JOKER】效果',
                 'tag': ['人族符石製造', '延長轉珠時間', '防反擊']
             },
             {
@@ -61306,7 +61377,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 3,
-                'description': '隊長需為神族才能發動此技能：<br>I.「上古諸神」系列角色的「仙力」增加 5 點<br>II. 將神族成員的屬性符石<br>⇒ 轉化為神族符石<br>III. 下回合追加上回合的 Ex. Combo 數目',
+                'description': '隊長需為神族才能發動此技能：<br>I.「上古諸神」系列角色的「仙力」增加 5 點<br>II. 將神族成員的屬性符石<br>⇒ 添加為神族符石<br>III. 下回合追加上回合的 Ex. Combo 數目',
                 'tag': ['神族符石製造', '增加Ex.Combo']
             }
         ],
@@ -61528,7 +61599,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': '發動技能時生命力需為 50% 或以上：<br>I. 隨機 3 個龍類成員直行的符石<br>⇒ 轉化為龍族符石<br>II. 全隊回復力減至 0<br>III. 龍類攻擊力 2 倍<br>效果持續至我方生命力為 50% 以下',
+                'description': '發動技能時生命力需為 50% 或以上：<br>I. 隨機 3 個龍類成員直行的符石<br>⇒ 添加為龍族符石<br>II. 全隊回復力減至 0<br>III. 龍類攻擊力 2 倍<br>效果持續至我方生命力為 50% 以下',
                 'tag': [['龍族符石製造', -1], ['我方減回', -1], ['增傷', -1]]
             }
         ],
@@ -61705,7 +61776,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 3,
-                'description': '將最底 1 橫行的符石<br>⇒ 轉化為該直行成員種族的符石<br><br>發動此技能的次數愈多<br>⇒ 轉化橫行符石的數量愈多<br>⇒ 最多可轉化 5 橫行的符石',
+                'description': '將最底 1 橫行的符石<br>⇒ 添加為該直行成員種族的符石<br><br>發動此技能的次數愈多<br>⇒ 轉化橫行符石的數量愈多<br>⇒ 最多可轉化 5 橫行的符石',
                 'tag': ['人族符石製造', '獸族符石製造', '妖族符石製造', '龍族符石製造', '神族符石製造', '魔族符石製造', '機械族符石製造']
             }
         ],
@@ -61725,7 +61796,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': 'I. 引爆隊長及戰友直行的符石<br>⇒ 掉落火強化符石<br><br>1 回合內<br>II. 首批消除所有火符石<br>⇒ 下回合將所有符石<br>⇒ 轉化為獸族符石',
+                'description': 'I. 引爆隊長及戰友直行的符石<br>⇒ 掉落火強化符石<br><br>1 回合內<br>II. 首批消除所有火符石<br>⇒ 下回合將所有符石<br>⇒ 添加為獸族符石',
                 'tag': ['引爆', '直行引爆', '強制掉落', '獸族符石製造']
             }
         ],
@@ -61745,7 +61816,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': 'I. 隨機將 3 個神族成員直行的符石<br>⇒ 轉化為神族符石<br><br>1 回合內<br>II. 每消除 1 粒神族符石<br>⇒ 回復 2000 點生命力<br>⇒ 消除 30 粒可回復最多 60,000 點<br><br>III. 首批消除神族符石時<br>⇒ 效果 II 持續 2 回合',
+                'description': 'I. 隨機將 3 個神族成員直行的符石<br>⇒ 添加為神族符石<br><br>1 回合內<br>II. 每消除 1 粒神族符石<br>⇒ 回復 2000 點生命力<br>⇒ 消除 30 粒可回復最多 60,000 點<br><br>III. 首批消除神族符石時<br>⇒ 效果 II 持續 2 回合',
                 'tag': ['神族符石製造', ['回血', 2]]
             }
         ],
@@ -61801,7 +61872,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '1 回合內<br>I. 妖精攻擊力及回復力 1.6 倍<br>II. 將移動符石所觸碰的符石<br>⇒ 轉化為妖族符石<br>III. 若發動技能時隊伍中所有成員的回復力基值相同<br>⓵ 則移動符石所觸碰的符石<br>⇒ 轉化為妖族強化符石<br>⓶ I - III 效果持續 3 回合',
+                'description': '1 回合內<br>I. 妖精攻擊力及回復力 1.6 倍<br>II. 將移動符石所觸碰的符石<br>⇒ 添加為妖族符石<br>III. 若發動技能時隊伍中所有成員的回復力基值相同<br>⓵ 則移動符石所觸碰的符石<br>⇒ 轉化為妖族強化符石<br>⓶ I - III 效果持續 3 回合',
                 'tag': [['增傷', 3], ['增回', 3], ['妖族符石製造', 3], ['符石強化', 3]]
             }
         ],
@@ -62596,7 +62667,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 隊伍中每有 1 個魔族成員<br>⇒ 隨機將 3 粒符石轉化為魔族符石<br><br>1 回合內<br>II. 首批消除魔族符石愈多<br>⇒ 自身攻擊力提升愈多<br>⇒ 首批消除 12 粒可達至最大 7 倍',
+                'description': 'I. 隊伍中每有 1 個魔族成員<br>⇒ 隨機將 3 粒符石添加為魔族符石<br><br>1 回合內<br>II. 首批消除魔族符石愈多<br>⇒ 自身攻擊力提升愈多<br>⇒ 首批消除 12 粒可達至最大 7 倍',
                 'tag': ['魔族符石製造', '增傷', '界王拳']
             }
         ],
@@ -63626,7 +63697,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': 'I. 將所有符石轉化為<br>⇒ 魔族符石<br>1 回合內<br>II. 延長移動符石時間至 25 秒<br>III. 迴避暗屬性敵人攻擊<br>IV. 若有擊斃敵人，發動技能的「血紅野心 ‧ 魯利姆」及最左方的「心靈崩解 ‧ 撒達」<br>⇒ 技能 CD 減少 2',
+                'description': 'I. 將所有符石添加為<br>⇒ 魔族符石<br>1 回合內<br>II. 延長移動符石時間至 25 秒<br>III. 迴避暗屬性敵人攻擊<br>IV. 若有擊斃敵人，發動技能的「血紅野心 ‧ 魯利姆」及最左方的「心靈崩解 ‧ 撒達」<br>⇒ 技能 CD 減少 2',
                 'tag': ['魔族符石製造', '延長轉珠時間', '迴避', '減CD']
             }
         ],
@@ -64084,7 +64155,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': 'I. 額外增加 3 行符石<br>II. 延長移動符石時間至 10 秒<br>1 回合內<br>III.「大紅蓮團」成員<br>⇒ 攻擊力及回復力 2 倍<br>IV. 將移動符石時經過的符石<br>⇒ 轉化為機械族符石',
+                'description': 'I. 額外增加 3 行符石<br>II. 延長移動符石時間至 10 秒<br>1 回合內<br>III.「大紅蓮團」成員<br>⇒ 攻擊力及回復力 2 倍<br>IV. 將移動符石時經過的符石<br>⇒ 添加為機械族符石',
                 'tag': ['增加符石', '延長轉珠時間', '增傷', '增回', '機械族符石製造']
             },
             {
@@ -64414,7 +64485,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': 'I. 額外增加 3 行符石：<br>「火、木、心」強化符石各 6 粒<br>1 回合內<br>II. 延長移動符石時間至 12 秒<br>III.「大紅蓮團」成員<br>⇒ 攻擊力及回復力 2.5 倍<br>IV. 將移動符石時經過的符石<br>⇒ 轉化為機械族符石<br>V. 回合結束時，將所有符石<br>⇒ 轉化為機械族符石<br>(此技能無視封鎖技能)',
+                'description': 'I. 額外增加 3 行符石：<br>「火、木、心」強化符石各 6 粒<br>1 回合內<br>II. 延長移動符石時間至 12 秒<br>III.「大紅蓮團」成員<br>⇒ 攻擊力及回復力 2.5 倍<br>IV. 將移動符石時經過的符石<br>⇒ 添加為機械族符石<br>V. 回合結束時，將所有符石<br>⇒ 添加為機械族符石<br>(此技能無視封鎖技能)',
                 'tag': ['增加符石', '延長轉珠時間', '增傷', '增回', '機械族符石製造']
             }
         ],
@@ -65179,7 +65250,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '水符石轉化為妖族符石。1 回合內，心符石兼具 50% 水符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2',
+                'description': '水符石添加為妖族符石。1 回合內，心符石兼具 50% 水符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2',
                 'tag': ['符石兼具水', '妖族符石製造', '減CD']
             }
         ],
@@ -65214,7 +65285,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '暗符石轉化為妖族符石。1 回合內，心符石兼具 50% 暗符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2',
+                'description': '暗符石添加為妖族符石。1 回合內，心符石兼具 50% 暗符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2',
                 'tag': ['符石兼具暗', '妖族符石製造', '減CD']
             }
         ],
@@ -65317,7 +65388,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': 'I. 敵方全體點燃，持續 3 回合<br>II. 效果期間，敵方全體的防禦力減至 0<br>3 回合內<br>III. 將移動符石時觸碰的首 6 粒符石<br>⇒ 轉化為獸族符石<br>IV. 若隊中只有獸類或神族成員<br>⇒ 無視「燃燒」敵技<br>(不包括「煉獄之火」)',
+                'description': 'I. 敵方全體點燃，持續 3 回合<br>II. 效果期間，敵方全體的防禦力減至 0<br>3 回合內<br>III. 將移動符石時觸碰的首 6 粒符石<br>⇒ 添加為獸族符石<br>IV. 若隊中只有獸類或神族成員<br>⇒ 無視「燃燒」敵技<br>(不包括「煉獄之火」)',
                 'tag': [['點燃敵方', 3], ['破防', 3], ['獸族符石製造', 3], ['無視燃燒', 3]]
             }
         ],
@@ -65415,6 +65486,7 @@ const monster_data = [
         'star': 8,
         'monsterTag': ['封王'],
         'crossOver': false,
+		'vrPair': 2447,
         'skill': [
             {
                 'name': '符文交疊 ‧ 日',
@@ -65463,6 +65535,7 @@ const monster_data = [
         'star': 8,
         'monsterTag': ['封王'],
         'crossOver': false,
+		'vrPair': 2446,
         'skill': [
             {
                 'name': '雙生之光',
@@ -65477,7 +65550,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': 'I. 將光符石轉化為獸族符石<br>II. 電擊敵方全體<br>III. 使受影響目標無法行動，持續 3 回合<br>IV. 效果期間，每消除 1 組光或暗符石<br>⇒ 額外增加 2 連擊 (Combo)',
+                'description': 'I. 將光符石添加為獸族符石<br>II. 電擊敵方全體<br>III. 使受影響目標無法行動，持續 3 回合<br>IV. 效果期間，每消除 1 組光或暗符石<br>⇒ 額外增加 2 連擊 (Combo)',
                 'tag': ['獸族符石製造', ['電擊敵方', 3], ['無法行動', 3], ['增加Combo', 3]]
             }
         ],
@@ -65500,6 +65573,7 @@ const monster_data = [
         'star': 8,
         'monsterTag': ['封王'],
         'crossOver': false,
+		'vrPair': 2449,
         'skill': [
             {
                 'name': '符文交疊 ‧ 月',
@@ -65548,6 +65622,7 @@ const monster_data = [
         'star': 8,
         'monsterTag': ['封王'],
         'crossOver': false,
+		'vrPair': 2448,
         'skill': [
             {
                 'name': '雙生之暗',
@@ -65562,7 +65637,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': 'I. 將暗符石轉化為獸族符石<br>II. 將黑白符石變回原來色調<br>3 回合內<br>III. 自身及自身以外攻擊力最高的 1 個獸類成員追打各 2 次',
+                'description': 'I. 將暗符石添加為獸族符石<br>II. 將黑白符石變回原來色調<br>3 回合內<br>III. 自身及自身以外攻擊力最高的 1 個獸類成員追打各 2 次',
                 'tag': ['獸族符石製造', ['黑白還原', -1], ['暗屬追打', 3]]
             }
         ],
@@ -66150,7 +66225,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': 'I. 將黑白符石變回原來色調<br>II. 將所有符石<br>⇒ 轉化為神族符石<br>III. 若場上有魔族敵人時<br>⇒ 則將所有符石<br>⇒ 轉化為神族強化符石<br>1 回合內<br>IV. 首批掉落的 15 粒符石<br>⇒ 必定為光神族強化符石',
+                'description': 'I. 將黑白符石變回原來色調<br>II. 將所有符石<br>⇒ 添加為神族符石<br>III. 若場上有魔族敵人時<br>⇒ 則將所有符石<br>⇒ 轉化為神族強化符石<br>1 回合內<br>IV. 首批掉落的 15 粒符石<br>⇒ 必定為光神族強化符石',
                 'tag': [['黑白還原', -1], '神族符石製造', '符石強化', '強制掉落']
             }
         ],
@@ -66529,7 +66604,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': 'I. 將所有符石轉化為機械族符石<br>1 回合內<br>II. 記錄「移動符石時間完結一刻」場上的符石分佈<br>(包括強化符石、種族符石)<br>⇒ 首批掉落所記錄的符石',
+                'description': 'I. 將所有符石添加為機械族符石<br>1 回合內<br>II. 記錄「移動符石時間完結一刻」場上的符石分佈<br>(包括強化符石、種族符石)<br>⇒ 首批掉落所記錄的符石',
                 'tag': ['機械族符石製造', '強制掉落']
             }
         ],
@@ -66869,7 +66944,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 延長移動符石時間至 10 秒<br>II. 於移動符石時間內，可任意移動符石而不會發動消除<br>III. 敵方全體的防禦力減至 0<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 將所有符石轉化為神族符石<br>⓶ 將暗符石轉化為神族強化符石',
+                'description': 'I. 延長移動符石時間至 10 秒<br>II. 於移動符石時間內，可任意移動符石而不會發動消除<br>III. 敵方全體的防禦力減至 0<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 將所有符石添加為神族符石<br>⓶ 將暗符石轉化為神族強化符石',
                 'tag': [['排珠', -1], ['破防', -1], '隨時關閉', '神族符石製造', '符石強化', '符石轉暗強化']
             }
         ],
@@ -66924,7 +66999,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': 'I. 將 10 粒符石<br>⇒ 轉化為妖族符石<br>(非種族符石優先轉換)<br>1 回合內<br>II. 首批 2 粒相連的符石可發動消除',
+                'description': 'I. 將 10 粒符石<br>⇒ 添加為妖族符石<br>(非種族符石優先轉換)<br>1 回合內<br>II. 首批 2 粒相連的符石可發動消除',
                 'tag': ['妖族符石製造', '改變消除方式']
             }
         ],
@@ -67271,7 +67346,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': 'I. 引爆所有符石<br>⓵ <board 1>單數直行掉落木符石</board><br>⓶ <board 1>雙數直行掉落火符石</board><br>II. 隊伍中只有魔族成員時<br>⇒ <board 2>將所有符石轉化為魔族符石</board>',
+                'description': 'I. 引爆所有符石<br>⓵ <board 1>單數直行掉落木符石</board><br>⓶ <board 1>雙數直行掉落火符石</board><br>II. 隊伍中只有魔族成員時<br>⇒ <board 2>將所有符石添加為魔族符石</board>',
                 'tag': ['引爆', '整版引爆', '固定版面', '強制掉落', '魔族符石製造']
             }
         ],
@@ -68071,6 +68146,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['魔神戰'],
         'crossOver': true,
+		'vrPair': 2529,
         'skill': [
             {
                 'name': '加粒子炮',
@@ -68099,6 +68175,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['魔神戰'],
         'crossOver': true,
+		'vrPair': 2528,
         'skill': [
             {
                 'name': '帶電粒子炮',
@@ -68153,7 +68230,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 將所有符石轉化為神族符石<br>1 回合內<br>I. 左旁神族成員的攻擊力減至 0<br>II. 將減去攻擊力的 3.5 倍<br>⇒ 加入自身攻擊力<br>III. 自身攻擊無視敵人防禦力<br>IV. 若左旁成員為「明日香與EVA2號機」<br>⇒ 則效果持續 5 回合',
+                'description': 'I. 將所有符石添加為神族符石<br>1 回合內<br>I. 左旁神族成員的攻擊力減至 0<br>II. 將減去攻擊力的 3.5 倍<br>⇒ 加入自身攻擊力<br>III. 自身攻擊無視敵人防禦力<br>IV. 若左旁成員為「明日香與EVA2號機」<br>⇒ 則效果持續 5 回合',
                 'tag': ['神族符石製造', ['我方減攻', 5], ['我方攻擊力吸收', 5], ['增傷', 5], ['界王拳', 5], ['破防', 5]]
             }
         ],
@@ -69026,7 +69103,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '2 回合內<br>I. 將每直行首粒符石轉化為<br>⇒ 該直行成員的種族符石<br>II. 每回合扣除 15% 自身生命力<br>III. 敵方全體無法行動<br><br>效果會因自身生命力不足 15% 而消失',
+                'description': '2 回合內<br>I. 將每直行首粒符石添加為<br>⇒ 該直行成員的種族符石<br>II. 每回合扣除 15% 自身生命力<br>III. 敵方全體無法行動<br><br>效果會因自身生命力不足 15% 而消失',
                 'tag': [['魔族符石製造', 2], ['我方扣血', 2], ['無法行動', 2]]
             },
             {
@@ -70232,7 +70309,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': '1 回合內<br>I. 延長移動符石時間至 12 秒<br>II. 將移動符石時觸碰的<br>⇒「凍結符石」狀態解除<br>III. 將移動符石時觸碰的符石<br>⇒ 轉化為獸族符石<br>IV. 每首批消除 3 粒獸族符石<br>⇒ 連擊 (Combo) 數目增加 1',
+                'description': '1 回合內<br>I. 延長移動符石時間至 12 秒<br>II. 將移動符石時觸碰的<br>⇒「凍結符石」狀態解除<br>III. 將移動符石時觸碰的符石<br>⇒ 添加為獸族符石<br>IV. 每首批消除 3 粒獸族符石<br>⇒ 連擊 (Combo) 數目增加 1',
                 'tag': ['延長轉珠時間', '凍結符石處理', '獸族符石製造', '增加Combo']
             }
         ],
@@ -70260,7 +70337,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': '2 回合內<br>I. 妖精類攻擊力及回復力 1.6 倍<br>II. 無視「黏腐」敵技<br>III. 將移動符石時觸碰的符石<br>⇒ 轉化為妖族符石<br>IV. 若有擊斃敵人<br>⇒ 該回合不會扣減技能持續回合<br>V. 若隊中所有成員回復力基值相同時<br>⇒ 自身攻擊力 5 倍',
+                'description': '2 回合內<br>I. 妖精類攻擊力及回復力 1.6 倍<br>II. 無視「黏腐」敵技<br>III. 將移動符石時觸碰的符石<br>⇒ 添加為妖族符石<br>IV. 若有擊斃敵人<br>⇒ 該回合不會扣減技能持續回合<br>V. 若隊中所有成員回復力基值相同時<br>⇒ 自身攻擊力 5 倍',
                 'tag': [['增傷', 2], ['增回', 2], ['無視黏腐', 2], ['妖族符石製造', 2], ['界王拳', 2]]
             }
         ],
@@ -70342,6 +70419,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['龍僕煉化'],
         'crossOver': false,
+		'vrPair': 2602,
         'skill': [
             {
                 'name': '龍魂共鳴．速',
@@ -70370,6 +70448,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['龍僕幻化'],
         'crossOver': false,
+		'vrPair': 2601,
         'skill': [
             {
                 'name': '龍之寒息',
@@ -70398,6 +70477,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['龍僕煉化'],
         'crossOver': false,
+		'vrPair': 2604,
         'skill': [
             {
                 'name': '赤龍猛襲',
@@ -70433,6 +70513,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['龍僕幻化'],
         'crossOver': false,
+		'vrPair': 2603,
         'skill': [
             {
                 'name': '龍之熱燄',
@@ -70461,13 +70542,14 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['龍僕煉化'],
         'crossOver': false,
+		'vrPair': 2606,
         'skill': [
             {
                 'name': '群龍迫護．加冕',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': 'I. 將所有符石轉化為<br>⇒ 龍族符石<br>II. 若隊中只有龍類成員<br>⇒ 則轉化為龍族強化符石<br>1 回合內<br>III. 所受傷害將會以龍類的數量而減少<br>⇒ 最多可減少 100 %',
+                'description': 'I. 將所有符石添加為<br>⇒ 龍族符石<br>II. 若隊中只有龍類成員<br>⇒ 則轉化為龍族強化符石<br>1 回合內<br>III. 所受傷害將會以龍類的數量而減少<br>⇒ 最多可減少 100 %',
                 'tag': ['龍族符石製造', '符石強化', '減傷']
             }
         ],
@@ -70496,6 +70578,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['龍僕幻化'],
         'crossOver': false,
+		'vrPair': 2605,
         'skill': [
             {
                 'name': '龍嘯震天',
@@ -70524,6 +70607,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['龍僕煉化'],
         'crossOver': false,
+		'vrPair': 2608,
         'skill': [
             {
                 'name': '光龍猛襲',
@@ -70559,6 +70643,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['龍僕幻化'],
         'crossOver': false,
+		'vrPair': 2607,
         'skill': [
             {
                 'name': '光芒卍象',
@@ -70596,13 +70681,14 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['龍僕煉化'],
         'crossOver': false,
+		'vrPair': 2610,
         'skill': [
             {
                 'name': '龍力招來．狂傲',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 龍類攻擊力減至 0<br>II. 將龍類攻擊力的 1.5 倍<br>⇒ 加入自身攻擊力<br>III. 自身攻擊無視攻前盾<br>IV. 每回合開始時，隨機將 3 粒符石<br>⇒ 轉化為龍族符石<br>(效果會在再次發動此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 將「水及暗屬性」龍類成員直行符石轉化為龍族符石',
+                'description': 'I. 龍類攻擊力減至 0<br>II. 將龍類攻擊力的 1.5 倍<br>⇒ 加入自身攻擊力<br>III. 自身攻擊無視攻前盾<br>IV. 每回合開始時，隨機將 3 粒符石<br>⇒ 添加為龍族符石<br>(效果會在再次發動此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 將「水及暗屬性」龍類成員直行符石添加為龍族符石',
                 'tag': [['我方減攻', -1], ['增傷', -1], ['界王拳', -1], null, ['我方攻擊力吸收', -1], ['無視攻前盾', -1], ['龍族符石製造', -1], '隨時關閉']
             }
         ],
@@ -70624,13 +70710,14 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['龍僕幻化'],
         'crossOver': false,
+		'vrPair': 2609,
         'skill': [
             {
                 'name': '龍族本色',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 將黑白符石變回原來色調<br>1 回合內<br>II. 將移動符石時觸碰的符石<br>⇒ 轉化為龍族符石<br>III. 身旁成員追打<br>⇒ 暗屬性攻擊 2 次',
+                'description': 'I. 將黑白符石變回原來色調<br>1 回合內<br>II. 將移動符石時觸碰的符石<br>⇒ 添加為龍族符石<br>III. 身旁成員追打<br>⇒ 暗屬性攻擊 2 次',
                 'tag': [['黑白還原', -1], '龍族符石製造', '暗屬追打']
             }
         ],
@@ -70991,6 +71078,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['ROCKMAN X DiVE'],
         'crossOver': true,
+		'vrPair': 2621,
         'skill': [
             {
                 'name': '螺旋爆碎射擊 ‧ 漩渦',
@@ -71035,6 +71123,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['ROCKMAN X DiVE'],
         'crossOver': true,
+		'vrPair': 2620,
         'skill': [
             {
                 'name': '螺旋爆碎射擊 ‧ 雷光',
@@ -71120,7 +71209,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 將場上數量最多的 1 種符石<br>⇒ 轉化為機械族符石<br>1 回合內<br>II. 每消除 1 粒機械族符石，「霸法」及「霸法 (棕熊號)」<br>⓵ 追打 1 次，最多 10 次<br>⓶ 對置身電擊狀態的目標<br>⇒ 攻擊力額外 2.5 倍',
+                'description': 'I. 將場上數量最多的 1 種符石<br>⇒ 添加為機械族符石<br>1 回合內<br>II. 每消除 1 粒機械族符石，「霸法」及「霸法 (棕熊號)」<br>⓵ 追打 1 次，最多 10 次<br>⓶ 對置身電擊狀態的目標<br>⇒ 攻擊力額外 2.5 倍',
                 'tag': ['機械族符石製造', '暗屬追打', '自身追打', '增傷', '界王拳']
             }
         ],
@@ -71767,7 +71856,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 自身攻擊力 2.5 倍<br>II. 將自身直行符石<br>⇒ 轉化為獸族符石<br>III. 心符石兼具屬性符石效果<br><br>效果持續至沒有消除獸族符石',
+                'description': 'I. 自身攻擊力 2.5 倍<br>II. 將自身直行符石<br>⇒ 添加為獸族符石<br>III. 心符石兼具屬性符石效果<br><br>效果持續至沒有消除獸族符石',
                 'tag': [['增傷', -1], ['界王拳', -1], ['獸族符石製造', -1], ['符石兼具水', -1], ['符石兼具火', -1], ['符石兼具木', -1], ['符石兼具光', -1], ['符石兼具暗', -1]]
             }
         ],
@@ -71787,7 +71876,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 引爆水、木、光符石<br>⇒ 分別掉落「火、暗、心」強化符石<br>1 回合內<br>II. 可任意移動符石而不會發動消除<br>III. 若首批消除所有符石，於回合結束時<br>⇒ 將所有符石轉化為人族符石',
+                'description': 'I. 引爆水、木、光符石<br>⇒ 分別掉落「火、暗、心」強化符石<br>1 回合內<br>II. 可任意移動符石而不會發動消除<br>III. 若首批消除所有符石，於回合結束時<br>⇒ 將所有符石添加為人族符石',
                 'tag': ['引爆', '水符石引爆', '木符石引爆', '光符石引爆', '強制掉落', '排珠', '人族符石製造']
             }
         ],
@@ -74048,6 +74137,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['假面騎士'],
         'crossOver': true,
+		'vrPair': 2720,
         'skill': [
             {
                 'name': '我一定會阻止你！',
@@ -74092,6 +74182,7 @@ const monster_data = [
         'star': 7,
         'monsterTag': ['假面騎士'],
         'crossOver': true,
+		'vrPair': 2719,
         'skill': [
             {
                 'name': 'Perfect Conclusion Learning 5！',
@@ -74802,7 +74893,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 妖精類成員直行<br>⓵ 首粒及第 5 粒符石<br>⇒ 轉化為心強化符石<br>⓶ 第 2、3、4 粒符石<br>⇒ 轉化為該直行成員的屬性強化符石<br>1 回合內<br>II. 全隊攻擊力 2 倍<br>III. 若首批消除所有符石<br>⇒ 回合結束時，將所有符石轉化為妖族符石',
+                'description': 'I. 妖精類成員直行<br>⓵ 首粒及第 5 粒符石<br>⇒ 轉化為心強化符石<br>⓶ 第 2、3、4 粒符石<br>⇒ 轉化為該直行成員的屬性強化符石<br>1 回合內<br>II. 全隊攻擊力 2 倍<br>III. 若首批消除所有符石<br>⇒ 回合結束時，將所有符石添加為妖族符石',
                 'tag': ['符石轉心', '符石轉心強化', '符石轉暗', '符石轉暗強化', '增傷', '妖族符石製造']
             }
         ],
@@ -79282,7 +79373,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': 'I. 回復「龍類成員生命力 2 倍」的生命力<br>1 回合內<br>II. 延長移動符石時間至 12 秒<br>III. 可任意移動符石而不會發動消除<br>IV. 將移動符石時觸碰的符石<br>⇒ 附加為龍族符石',
+                'description': 'I. 回復「龍類成員生命力 2 倍」的生命力<br>1 回合內<br>II. 延長移動符石時間至 12 秒<br>III. 可任意移動符石而不會發動消除<br>IV. 將移動符石時觸碰的符石<br>⇒ 添加為龍族符石',
                 'tag': ['回血', '延長轉珠時間', '排珠', '龍族符石製造']
             }
         ],
@@ -79366,7 +79457,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': 'I. 將機械族成員屬性符石<br>⇒ 附加為機械族符石<br>II. 若發動技能時所有機械族成員行動值達至 100%<br>⇒ 則將機械族成員屬性符石轉化為機械族強化符石<br>1 回合內<br>III. 機械族成員無視敵人防禦力<br>IV. 每首批消除 1 粒機械族符石<br>⇒ 個人以 50% 攻擊力追打光屬性攻擊 1 次<br>⇒ 最多可追打 30 次',
+                'description': 'I. 將機械族成員屬性符石<br>⇒ 添加為機械族符石<br>II. 若發動技能時所有機械族成員行動值達至 100%<br>⇒ 則將機械族成員屬性符石轉化為機械族強化符石<br>1 回合內<br>III. 機械族成員無視敵人防禦力<br>IV. 每首批消除 1 粒機械族符石<br>⇒ 個人以 50% 攻擊力追打光屬性攻擊 1 次<br>⇒ 最多可追打 30 次',
                 'tag': ['機械族符石製造', '符石強化', '破防', '光屬追打', '自身追打']
             }
         ],
@@ -79538,7 +79629,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': 'I. 將心及水符石附加為<br>⇒ 獸族符石<br>1 回合內<br>II. 自身及左旁的水屬性或獸類成員<br>⓵ 攻擊力 5 倍<br>⓶ 無視敵人防禦力',
+                'description': 'I. 將心及水符石添加為<br>⇒ 獸族符石<br>1 回合內<br>II. 自身及左旁的水屬性或獸類成員<br>⓵ 攻擊力 5 倍<br>⓶ 無視敵人防禦力',
                 'tag': ['獸族符石製造', '增傷', '界王拳', '破防']
             }
         ],
