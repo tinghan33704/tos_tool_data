@@ -525,7 +525,7 @@ select {
     margin: 20px auto;
 }
 #uidPanel .modal-dialog {
-    width: 80% !important;
+    width: 60% !important;
     max-width: 80% !important;
     margin: 20px auto;
 }
@@ -586,12 +586,16 @@ select {
 }
 .uid-tag {
 	display: none;
+	vertical-align: middle;
+	width: 100%;
 	font-size: 0.6em;
 	color: gray;
 	padding: 0 10px;
+	text-align: center;
 }
 .use-inventory {
 	font-size: 0.6em;
+	padding: 5px;
 }
 
 .copyright {

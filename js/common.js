@@ -696,7 +696,7 @@ function inventorySwitch()
 	useInventory = !useInventory
 	renderResult()
 	$("#use-inventory").text(useInventory ? '我的背包' : '全部結果')
-	$("#uid-tag").css({'display': useInventory ? 'inline' : 'none'})
+	$("#uid-tag").css({'display': useInventory ? 'inline-block' : 'none'})
 }
 
 function changeTheme()
