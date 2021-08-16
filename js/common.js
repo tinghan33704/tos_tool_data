@@ -43,10 +43,6 @@ function init() {
 		$("#fixedBoard").css('display', 'none')
 	});
     
-    $('#changeTheme-btn').click(() => { 
-        changeTheme();
-    });
-    
     $('.side_navigation').html(() => {
         return createSideNavigation();
     })
@@ -124,7 +120,15 @@ function init() {
     $("#optionPanel").length && $('#optionPanel').on('hide.bs.modal', recordOption);
     $("#switch_display").length && $('#switch_display').on("click", displaySwitch);
     $("#close_notification").length && $('#close_notification').on("click", closeNotification);
+    $("#use-inventory").length && $('#use-inventory').on("click", inventorySwitch);
     
+	playerData = JSON.parse(localStorage.getItem('PLAYER_DATA')) ?? {uid: '', card: []}
+	$("#uid-tag").text(`UID: ${playerData.uid}`)
+    
+    $("#inventory-btn").length && $('#inventory-btn').click(() => { 
+        openUidInputPanel();
+    });
+	
     $("#option-btn").length && $('#option-btn').click(() => {
         let hasSelectedSkill = false;
         $(".filter-row .filter").each(function() {
@@ -136,6 +140,10 @@ function init() {
         });
         if(hasSelectedSkill) openOptionPanel();
         else errorAlert(2);
+    });
+    
+    $('#changeTheme-btn').click(() => { 
+        changeTheme();
     });
 }
 
@@ -396,6 +404,15 @@ function errorAlert(index)
         case 4:
             alert("[Error Code "+paddingZeros(index, 2)+"] 技能關鍵字數量不得超過 "+input_maxlength);
         break;
+        case 5:
+            alert("[Error Code "+paddingZeros(index, 2)+"] 請輸入 UID");
+        break;
+        case 6:
+            alert("[Error Code "+paddingZeros(index, 2)+"] 未發現背包資料，請先匯入背包");
+        break;
+        case 7:
+            alert("[Error Code "+paddingZeros(index, 2)+"] 請輸入驗證碼");
+        break;
         default:
             
     }
@@ -403,7 +420,7 @@ function errorAlert(index)
 
 function textSanitizer(text)
 {
-    return text.replace(/<br>/g,'').replace(/\s/g,'').toLowerCase();
+    return text.replace(/<board\s*(\d*)>(.*?)<\/board>/g, `$2`).replace(/<br>/g,'').replace(/\s/g,'').toLowerCase();
 }
 
 
@@ -547,6 +564,141 @@ function readUrl()
     window.history.pushState(null, null, location.pathname);    // clear search parameters
 }
 
+async function getPlayerInventory(prefix) 
+{
+	const playerId = $(`#${prefix}-uid-input`).val().toString()
+	const playerVeri = $(`#${prefix}-veri-input`)?.val()?.toString()
+	const verb = prefix === 'load' ? '匯入' : '更新'
+	
+	if(playerId.length === 0) {
+		errorAlert(5);
+		return ;
+	}
+	else if(prefix === 'update' && playerVeri.length === 0) {
+		errorAlert(7);
+		return ;
+	}
+	
+	$(`#${prefix}-uid-input`).attr('disabled', true)
+	
+	$(`#${prefix}-uid-status`).html(`<span class='waiting'><i class='fa fa-download'></i>&nbsp;&nbsp;正在${verb} ${playerId} 的背包...</span>`)
+	
+	const uid = prefix == 'update' ? playerId : atob(myAuth).substring(0, 9)
+	const auth = prefix == 'update' ? playerVeri : atob(myAuth).substring(9, 15)
+	const token_obj = await $.post(`https://website-api.tosgame.com/api/checkup/login?token=&uid=${uid}&auth=${auth}`).fail(() => {
+		console.log('Fail to get token')
+		$(`#${prefix}-uid-status`).html(`<span class='fail'><i class='fa fa-times'></i>&nbsp;&nbsp;${verb}失敗</span>`)
+	}).promise()
+	
+	const token = token_obj?.token ?? ''
+	
+	const inventory_data = await $.get(`https://website-api.tosgame.com/api/checkup/getUserProfile?targetUid=${playerId}&token=${token}`).fail(() => {
+		console.log('Fail to get inventory data')
+		$(`#${prefix}-uid-status`).html(`<span class='fail'><i class='fa fa-times'></i>&nbsp;&nbsp;${verb}失敗</span>`)
+		$(`#${prefix}-uid-input`).attr('disabled', false)
+	}).promise()
+	
+	if(inventory_data) {
+		const card_set = new Set()
+	
+		inventory_data?.userData?.cards.forEach(card => {
+			card_set.add(card.id)
+		})
+		
+		setPlayerData(prefix, playerId, [...card_set].sort((a, b) => a - b))
+	}
+}
+
+function setPlayerData(prefix, uid, card)
+{
+	const verb = prefix === 'load' ? '匯入' : '更新'
+	
+	playerData.uid = uid;
+	playerData.card = addCombinedCard(addTransformedCard(addVirtualRebirthCard(card)));
+	
+	$(`#${prefix}-uid-status`).html(`<span class='success'><i class='fa fa-check'></i>&nbsp;&nbsp;${verb}完成</span>`)
+	
+	renderResult()
+	$(`#${prefix}-confirm-uid`).css({'display': 'none'})
+	$(`#${prefix}-save-inventory`).css({'display': 'block'})
+}
+
+function addVirtualRebirthCard(allCard)
+{
+	const virtualRebirth = new Set();
+	
+	$.each(allCard, (card_index, card) => {
+		const vrId = monster_data.find((monster) => monster.id === card)?.vrPair
+		virtualRebirth.add(vrId)
+	})
+	
+	return allCard.concat(Array.from(virtualRebirth))
+}
+
+function addTransformedCard(allCard)
+{
+	let allCards = allCard;
+	let transformed = [];
+	let currentStage = allCard;
+	
+	// need to check multiple stage transform monster
+	while(currentStage.length > 0) {
+		$.each(currentStage, (card_index, card) => {
+			const transform_skill = monster_data.find((monster) => monster.id === card)?.skill?.filter((skill) => 'transform' in skill)
+			$.each(transform_skill, (skill_index, skill) => {
+				transformed.push(skill.transform)
+			})
+		})
+		currentStage = transformed;
+		allCards = allCards.concat(transformed);
+		transformed = [];
+	}
+	
+	return allCards
+}
+
+function addCombinedCard(allCard)
+{
+	const combined = new Set();
+	
+	$.each(allCard, (card_index, card) => {
+		const combine_skill = monster_data.find((monster) => monster.id === card)?.skill?.filter((skill) => 'combine' in skill)
+		$.each(combine_skill, (skill_index, skill) => {
+			const members = skill.combine.member
+			let canCombine = true
+			$.each(members, (member_index, member) => {
+				if(!allCard.includes(member)) {
+					canCombine = false;
+					return false;
+				}
+			})
+			canCombine && combined.add(skill.combine.out)
+		})
+	})
+	
+	return allCard.concat(Array.from(combined))
+}
+
+function savePlayerInventory(prefix)
+{
+	localStorage.setItem('PLAYER_DATA', JSON.stringify(playerData))
+	$(`#${prefix}-uid-status`).html(`<span class='success'><i class='fa fa-check'></i>&nbsp;&nbsp;儲存背包完成</span>`)
+	renderResult()
+}
+
+function inventorySwitch()
+{
+	if(!useInventory && playerData?.card.length === 0) {
+		errorAlert(6);
+		return ;
+	}
+	
+	useInventory = !useInventory
+	renderResult()
+	$("#use-inventory").text(useInventory ? '我的背包' : '全部結果')
+	$("#uid-tag").css({'display': useInventory ? 'inline' : 'none'})
+}
+
 function changeTheme()
 {
     let theme_string = [
@@ -579,6 +731,7 @@ function changeTheme()
         '--text_charge_tooltip_color',
         '--text_charge_sort_color',
         '--text_board_label_color',
+		'--text_input_color',
         '--table_border',
         '--table_border_center',
 		'--text_monster_name_water_color',

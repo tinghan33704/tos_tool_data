@@ -29,6 +29,7 @@
     --text_charge_tooltip_color_normal: #FF6666;
     --text_charge_sort_color_normal: #343A40;
 	--text_board_label_color_normal: #82e8ff;
+	--text_input_color_normal: black;
     --table_border_normal: #363636;
     --table_border_center_normal: #777777;
 	--text_monster_name_water_color_normal: #55A4D7;
@@ -69,6 +70,7 @@
     --text_charge_sort_color_dark: #222222;
 	--text_board_label_color_dark: #2ba4bc;
     --table_border_dark: #AAAAAA;
+	--text_input_color_dark: #888888;
     --table_border_center_dark: #888888;
 	--text_monster_name_water_color_dark: #5252AF;
 	--text_monster_name_fire_color_dark: #AC3724;
@@ -107,6 +109,7 @@
     --text_charge_tooltip_color: var(--text_charge_tooltip_color_normal);
     --text_charge_sort_color: var(--text_charge_sort_color_normal);
     --text_board_label_color: var(--text_board_label_color_normal);
+	--text_input_color: var(--text_input_color_normal);
     --table_border: var(--table_border_normal);
     --table_border_center: var(--table_border_center_normal);
 	--text_monster_name_water_color: var(--text_monster_name_water_color_normal);
@@ -218,7 +221,7 @@ select {
 .and_or_mode {
     color: var(--text_color);
 }
-.start-btn {
+.start-btn, .load-uid-btn {
     color: var(--text_color_anti);
 }
 .btn-primary {
@@ -325,18 +328,22 @@ select {
 .genre_tag {
     background-color: var(--button_other_color_checked);
 }
-.monster_img {
+.monster_img, .monster_img_gray {
     width: 100%;
     cursor: pointer;
+}
+.monster_img_gray {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%) opacity(30%);
 }
 .relative_img {
     max-width: 6%;
     margin: 2px 0;
 }
-.monster_img:focus {
+.monster_img:focus, .monster_img_gray:focus {
     outline: 3.5px #FF6666 dashed;
 }
-.monsterId {
+.monsterId, .monsterId_gray {
     width: 100%;
     text-align: center;
     background-color: var(--monsterid_color);
@@ -344,7 +351,11 @@ select {
     font-weight: bold;
     font-size: 1em;
 }
-.monsterId a {
+.monsterId_gray {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%) opacity(30%);
+}
+.monsterId a, .monsterId_gray a {
     text-decoration: none;
     color: var(--text_monsterid_color);
 }
@@ -513,11 +524,19 @@ select {
     max-width: 80% !important;
     margin: 20px auto;
 }
-#optionPanel .modal-content {
+#uidPanel .modal-dialog {
+    width: 50% !important;
+    max-width: 50% !important;
+    margin: 20px auto;
+}
+#optionPanel .modal-content, #uidPanel .modal-content {
     background-color: var(--background_color);
 }
 #optionPanel .row {
     padding: 5px 15px 0px 15px;
+}
+#uidPanel .row {
+    padding: 5px 60px 0px 60px;
 }
 
 .option-text {
@@ -532,6 +551,48 @@ select {
     background-color: var(--button_filter_color_checked); 
     color: var(--button_text_color_checked); 
     font-weight: bold;
+}
+
+.uid-row {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: var(--text_color);
+	text-align: center;
+	padding: 0 40px;
+}
+.uid-nav {
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+.uid-nav-active {
+	background-color: #888888;
+	color: white;
+}
+.uid-tab {
+	padding: 20px 30px 0 30px;
+}
+.uid-status {
+    font-weight: bold;
+	padding: 20px 40px;
+}
+.uid-status .waiting {
+	color: #4169E1;
+}
+.uid-status .success {
+	color: green;
+}
+.uid-status .fail {
+	color: red;
+}
+.uid-tag {
+	display: none;
+	font-size: 0.6em;
+	color: gray;
+	padding: 0 10px;
+}
+.use-inventory {
+	font-size: 0.6em;
 }
 
 .copyright {
@@ -581,9 +642,8 @@ select {
 
 
 
-
-.option {
-    width: 3rem;
+.inventory, .option, .changeTheme {
+	width: 3rem;
     height: 3rem;
     padding: 0;
     margin: 0;
@@ -596,39 +656,26 @@ select {
     position:fixed;
     font-size: 1.8rem;
     left: 1rem;
-    bottom: 5rem;
     display: inline-block;
     z-index: 1;
 }
-.option:focus {
+.inventory:focus, .option:focus, .changeTheme:focus {
     outline: none;
+}
+.inventory {
+    bottom: 9rem;
+}
+.option {
+    bottom: 5rem;
 }
 .changeTheme {
-    width: 3rem;
-    height: 3rem;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    border-radius: 20%;
-    opacity: 0.6;
-    background: #000;
-    color: white;
-    cursor: pointer;
-    position:fixed;
-    font-size: 1.8rem;
-    left: 1rem;
     bottom: 1rem;
-    display: inline-block;
-    z-index: 1;
-}
-.changeTheme:focus {
-    outline: none;
 }
 
-#keyword-input {
+#keyword-input, .uid-input {
     font-size: 1em;
     font-weight: normal;
-    color: black;
+	color: var(--text_input_color);
     text-align: center;
     border: 1px solid var(--button_keyword_color_input_unable);
     background-color: var(--button_keyword_color_input_unable);

@@ -124,7 +124,10 @@ const race_zh_to_en = {'人類': 'human', '獸類': 'beast', '妖精類': 'elf',
 const attr_color = {'水': '#3E85D6', '火': '#FC2F28', '木': '#0F9611', '光': '#F8C50E', '暗': '#9B08CA'};
 
 const input_maxlength = 50;
-const uuid_maxlength = 11;
+const uid_maxlength = 11;
+const veri_maxlength = 6;
 
 const monster_notification = ''
 const craft_notification = ''
+
+const myAuth = 'NTk1NjM2MzUxOTQ5NjQw'
