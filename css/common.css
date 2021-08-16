@@ -525,8 +525,8 @@ select {
     margin: 20px auto;
 }
 #uidPanel .modal-dialog {
-    width: 50% !important;
-    max-width: 50% !important;
+    width: 80% !important;
+    max-width: 80% !important;
     margin: 20px auto;
 }
 #optionPanel .modal-content, #uidPanel .modal-content {
@@ -536,7 +536,7 @@ select {
     padding: 5px 15px 0px 15px;
 }
 #uidPanel .row {
-    padding: 5px 60px 0px 60px;
+    padding: 5px 15px 0px 15px;
 }
 
 .option-text {
@@ -558,7 +558,6 @@ select {
     font-weight: normal;
     color: var(--text_color);
 	text-align: center;
-	padding: 0 40px;
 }
 .uid-nav {
 	border-radius: 5px;
@@ -570,7 +569,7 @@ select {
 	color: white;
 }
 .uid-tab {
-	padding: 20px 30px 0 30px;
+	padding: 20px 0 0 0;
 }
 .uid-status {
     font-weight: bold;
