@@ -1,4 +1,4 @@
-// Last modified : 2021.08.14 21:12
+// Last modified : 2021.08.18 21:41
 
 const monster_data = [
     {
@@ -64910,13 +64910,20 @@ const monster_data = [
             }
         ],
 		'board': [
-			[
-				'Wm', 'Fm', 'Em', 'Lm', 'Dm', 'Hm', 
-				'Wm', 'Fm', 'Em', 'Lm', 'Dm', 'Hm', 
-				'Wm', 'Fm', 'Em', 'Lm', 'Dm', 'Hm', 
-				'-' , '-' , '-' , '-' , '-' , '-' , 
-				'-' , '-' , '-' , '-' , '-' , '-' , 
-			]
+			{
+				'row': 8,
+				'column': 6,
+				'board': [
+					'Wm', 'Fm', 'Em', 'Lm', 'Dm', 'Hm', 
+					'Wm', 'Fm', 'Em', 'Lm', 'Dm', 'Hm', 
+					'Wm', 'Fm', 'Em', 'Lm', 'Dm', 'Hm', 
+					'-' , '-' , '-' , '-' , '-' , '-' , 
+					'-' , '-' , '-' , '-' , '-' , '-' , 
+					'-' , '-' , '-' , '-' , '-' , '-' , 
+					'-' , '-' , '-' , '-' , '-' , '-' , 
+					'-' , '-' , '-' , '-' , '-' , '-' , 
+				]
+			}
 		]
     },
     {
@@ -79577,43 +79584,72 @@ const monster_data = [
     },
     {
         'id': 10049,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '導火指令 ‧ 珞答以',
+        'attribute': '火',
+        'race': '妖精類',
+        'star': 6,
+        'monsterTag': ['初次相遇'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '無束紅蓮',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '2 回合內<br>I. 妖精類成員不會被封鎖主動技能<br>II. 自身攻擊力 4 倍<br>III. 妖精類成員<br>⓵ 無視「指定形狀盾」<br>⓶ 無視敵人防禦力<br>IV. 隊長為妖精類時<br>⇒ 所受火屬性傷害減至 1<br>(包括「喋血屠刀」、「一擊必殺」等扣除召喚師指定 % 生命力的敵技所造成的傷害)',
+                'tag': [['防鎖', 2], ['增傷', 2], ['界王拳', 2], ['無視拼圖盾', 2], ['破防', 2], ['減傷', 2]]
             }
         ],
-        'team_skill': []
+        'team_skill': [
+			{
+                'description': 'I. 獲得 60,000 點護盾<br><br>II. 每回合以回血溢出值的 1.5%<br>⇒ 回復護盾<br><br>III. 必然延長移動符石時間 5 秒<br><br>IV. 火及心符石分別兼具<br>⇒ 其他符石效果<br><br>V. 所有成員的回復力基值<br>⇒ 跟隨回復力基值最高的成員<br>(不包括受主動技能影響的基值)<br><br>VI. 回血溢出時<br>⇒ 對敵方全體造成隊伍回復力 10 倍的無屬性傷害<br><br>VII. 首批消除「5 的倍數」組數的符石<br>⓵ 所有成員追打五屬攻擊各 1 次<br>⓶ 所有成員無視「三屬盾」',
+                'activate': '以「導火指令 ‧ 珞答以」作隊長及戰友，且隊中只有妖精類成員',
+                'skill_tag': ['護盾', '延長轉珠時間', '火兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心', '回復力共鳴', '溢補攻擊', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打', '無視三屬盾'],
+                'activate_tag': ['指定雙隊長', '指定種族成員'],
+                'relative': [10049]
+            }
+		]
     },
     {
         'id': 10050,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '秉公處理 ‧ 朗羅',
+        'attribute': '暗',
+        'race': '人類',
+        'star': 6,
+        'monsterTag': ['初次相遇'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '唯我滅擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 4,
+                'description': 'I. <board>引爆身旁成員直行符石<br>⇒ 掉落固定數量及位置的「暗及心」強化符石</board><br>II. <board>引爆自身直行符石<br>⇒ 掉落固定數量及位置的「光及心」強化符石</board><br>1 回合內<br>III. 增加 10 連擊 (Combo)',
+                'tag': ['引爆', '直行引爆', '強制掉落', '增加Combo']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+			{
+                'description': 'I. 延長移動符石時間 4 秒<br><br>II. 消除暗符石的組數愈多<br>⇒ 全隊攻擊力提升愈多<br>⇒ 消除 1 組暗符石 2 倍<br>⇒ 3 組可達至最大 6 倍<br><br>III. 光及暗符石<br>⇒ 互相兼具 150% 符石效果<br><br>IV. 全隊無視「連擊相等盾」<br><br>V. 全隊無視「五屬盾」',
+                'activate': '以「秉公處理 ‧ 朗羅」作隊長及戰友',
+                'skill_tag': ['延長轉珠時間', '增攻', '光兼具其他', '暗兼具其他', '符石兼具光', '符石兼具暗', '無視連擊相等盾', '無視五屬盾'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [10050]
+            }
+		],
+		'board': [
+			{
+				'row': 5, 
+				'column': 3,
+				'board': [
+					'D', 'L', 'D',
+					'D', 'L', 'D',
+					'H', 'H', 'H',
+					'D', 'L', 'D',
+					'D', 'L', 'D',
+				]
+			}
+		]
     },
     {
         'id': 10051,
@@ -79697,20 +79733,20 @@ const monster_data = [
     },
     {
         'id': 10055,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '獸鳴鎮林 ‧ 科普蘭',
+        'attribute': '木',
+        'race': '獸類',
+        'star': 6,
+        'monsterTag': ['地獄魔王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '霸荊斬',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 引爆敵人屬性符石<br>⇒ 掉落木獸族符石<br>1 回合內<br>II. 全隊攻擊力 2 倍<br>III. 發動技能時若生命力全滿<br>⇒ 獸類攻擊力額外 1.5 倍<br>IV. 隊中每多 1 個獸類成員<br>⇒ 回合結束時，自身 CD -1 (最多 -3)',
+                'tag': ['引爆', '強制掉落', '獸族符石製造', '增傷', '減CD']
             }
         ],
         'team_skill': []
@@ -79757,20 +79793,20 @@ const monster_data = [
     },
     {
         'id': 10058,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '靈猴覺行 ‧ 孫悟以',
+        'attribute': '光',
+        'race': '獸類',
+        'star': 7,
+        'monsterTag': ['討伐戰'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '喚日訣',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 點選元素法陣上的 1 粒符石<br>⇒ 將該種符石引爆<br>⇒ 掉落光獸族強化符石<br>1 回合內<br>II. 上述引爆的符石愈多<br>⇒ 所受傷害減少愈多<br>⇒ 引爆 10 粒可減少最多 100% 傷害',
+                'tag': ['引爆', '指定符石引爆', '強制掉落', '獸族符石製造', '減傷']
             }
         ],
         'team_skill': []
