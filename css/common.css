@@ -190,7 +190,7 @@ select {
 .btn-shell {
     padding: 3px;
 }
-.filter-btn, .tag-btn, .attr-btn, .race-btn, .star-btn, .charge-btn, .activate-btn, .keyword-btn, .option-btn {
+.filter-btn, .tag-btn, .attr-btn, .race-btn, .star-btn, .charge-btn, .activate-btn, .keyword-btn, .option-btn, .copy-btn {
     font-size: 1.2em;
     font-weight: normal;
     color: var(--text_color);
@@ -221,7 +221,7 @@ select {
 .and_or_mode {
     color: var(--text_color);
 }
-.start-btn, .load-uid-btn {
+.start-btn, .load-uid-btn, .copy-btn {
     color: var(--text_color_anti);
 }
 .btn-primary {

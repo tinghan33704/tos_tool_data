@@ -413,6 +413,9 @@ function errorAlert(index)
         case 7:
             alert("[Error Code "+paddingZeros(index, 2)+"] 請輸入驗證碼");
         break;
+        case 8:
+            alert("[Error Code "+paddingZeros(index, 2)+"] 請先選擇龍刻");
+        break;
         default:
             
     }
