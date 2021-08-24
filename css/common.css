@@ -32,11 +32,14 @@
 	--text_input_color_normal: black;
     --table_border_normal: #363636;
     --table_border_center_normal: #777777;
+	--table_td_selected_background_normal: #27B821;
 	--text_monster_name_water_color_normal: #55A4D7;
 	--text_monster_name_fire_color_normal: #F75856;
 	--text_monster_name_earth_color_normal: #76CA00;
 	--text_monster_name_light_color_normal: #F8CC2F;
 	--text_monster_name_dark_color_normal: #CB80D5;
+	--div_selector_result_background_normal: #ECFFFF;
+	--div_selector_result_success_background_normal: #e2ffe9;
     
     
     /* dark theme */
@@ -70,6 +73,7 @@
     --text_charge_sort_color_dark: #222222;
 	--text_board_label_color_dark: #2ba4bc;
     --table_border_dark: #AAAAAA;
+	--table_td_selected_background_dark: #046300;
 	--text_input_color_dark: #888888;
     --table_border_center_dark: #888888;
 	--text_monster_name_water_color_dark: #5252AF;
@@ -77,6 +81,8 @@
 	--text_monster_name_earth_color_dark: #1F7400;
 	--text_monster_name_light_color_dark: #C18F3A;
 	--text_monster_name_dark_color_dark: #7B02B0;
+	--div_selector_result_background_dark: rgba(236, 255, 255, 0.5);
+	--div_selector_result_success_background_dark: rgba(226, 255, 233, 0.5);
 
     
     /* theme replacing */
@@ -112,11 +118,14 @@
 	--text_input_color: var(--text_input_color_normal);
     --table_border: var(--table_border_normal);
     --table_border_center: var(--table_border_center_normal);
+	--table_td_selected_background: var(--table_td_selected_background_normal);
 	--text_monster_name_water_color: var(--text_monster_name_water_color_normal);
 	--text_monster_name_fire_color: var(--text_monster_name_fire_color_normal);
 	--text_monster_name_earth_color: var(--text_monster_name_earth_color_normal);
 	--text_monster_name_light_color: var(--text_monster_name_light_color_normal);
 	--text_monster_name_dark_color: var(--text_monster_name_dark_color_normal);
+	--div_selector_result_background: var(--div_selector_result_background_normal);
+	--div_selector_result_success_background: var(--div_selector_result_success_background_normal)
 }
 
 body {
