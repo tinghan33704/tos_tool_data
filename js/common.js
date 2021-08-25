@@ -142,8 +142,12 @@ function init() {
         else errorAlert(2);
     });
     
-    $('#changeTheme-btn').click(() => { 
+    $("#changeTheme-btn").length && $('#changeTheme-btn').click(() => { 
         changeTheme();
+    });
+    
+    $("#inputData-btn").length && $('#inputData-btn').click(() => { 
+        openDataInputPanel();
     });
 }
 
@@ -415,6 +419,9 @@ function errorAlert(index)
         break;
         case 8:
             alert("[Error Code "+paddingZeros(index, 2)+"] 請先選擇龍刻");
+        break;
+        case 9:
+            alert("[Error Code "+paddingZeros(index, 2)+"] 輸入格式錯誤 (僅接受數字及空格)");
         break;
         default:
             
