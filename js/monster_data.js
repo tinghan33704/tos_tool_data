@@ -1,4 +1,4 @@
-// Last modified : 2021.08.18 21:41
+// Last modified : 2021.08.26 17:41
 
 const monster_data = [
     {
@@ -73478,7 +73478,7 @@ const monster_data = [
                 'charge': 'EP',
                 'num': 4,
                 'description': '引爆自身直行符石<br>⇒ 掉落五屬強化符石',
-                'tag': ['引爆', '直行引爆', '強制掉落']
+                'tag': ['引爆', '直行引爆', '強制掉落', '五屬版面']
             },
             {
                 'name': '2000 種技能擁有者',
@@ -79693,40 +79693,40 @@ const monster_data = [
     },
     {
         'id': 10053,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '獵牙追捕 ‧ 沐沐',
+        'attribute': '木',
+        'race': '人類',
+        'star': 5,
+        'monsterTag': ['獅心武術館'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '脫身咒',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': '1 回合內<br>I. 延長移動符石時間至 12 秒<br>II. 無視「燃燒」敵技<br>(不包括「煉獄之火」)<br>III. 無視「黏腐」敵技<br>IV. 隊長為獸類或龍類時<br>⇒ 效果則持續 3 回合',
+                'tag': [['延長轉珠時間', 3], ['無視燃燒', 3], ['無視黏腐', 3]]
             }
         ],
         'team_skill': []
     },
     {
         'id': 10054,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '三焰合舞 ‧ 風花葉',
+        'attribute': '火',
+        'race': '妖精類',
+        'star': 6,
+        'monsterTag': ['地獄魔王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '幻變流火',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 點選場上的符石 3 次<br>II. 將該符石直行及橫行的符石<br>⇒ 分別轉化為所點選的符石<br>(包括強化符石、種族符石)<br>III. 若點選的符石為妖族符石<br>⇒ 3 回合內<br>⓵ 自身攻擊力及回復力 3 倍<br>⓶ 自身無視敵人防禦力',
+                'tag': ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '符石轉心強化', '增傷', '增回', '破防']
             }
         ],
         'team_skill': []
@@ -79833,20 +79833,28 @@ const monster_data = [
     },
     {
         'id': 10060,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '戰縫鬥服 ‧ 暹諾德',
+        'attribute': '水',
+        'race': '妖精類',
+        'star': 7,
+        'monsterTag': ['迴廊之主'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '絕塵訣',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 點選元素法陣上的 1 粒符石<br>⇒ 引爆所有符石<br>⇒ 掉落該種符石以外的妖族符石<br>2 回合內<br>II. 該種符石掉落率降至 0<br>III. 水屬性及妖精類成員<br>⇒ 以 30% 攻擊力追打 2 次',
+                'tag': ['引爆', '整版引爆', '強制掉落', '妖族符石製造', ['禁珠', 2], ['改變掉落機率', 2], ['水屬追打', 2], ['火屬追打', 2], ['木屬追打', 2], ['光屬追打', 2], ['暗屬追打', 2]]
+            },
+            {
+                'name': '絕靈暴',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 引爆所有符石<br>⇒ 掉落五屬妖族符石<br>1 回合內<br>II. 心符石掉落率降至 0<br>III. 我方回復力減至 0<br>IV. 將每個成員減去回復力的 4 倍<br>⇒ 各自加入自身攻擊力',
+                'tag': ['引爆', '整版引爆', '強制掉落', '五屬版面', '妖族符石製造', '禁珠', '改變掉落機率', '我方減回', '增傷']
             }
         ],
         'team_skill': []
@@ -79873,23 +79881,31 @@ const monster_data = [
     },
     {
         'id': 10062,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'name': '環光聖戰 ‧ 涅索伊',
+        'attribute': '光',
+        'race': '神族',
+        'star': 7,
         'monsterTag': [],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '絕靈聖槍',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 心符石的掉落率降至 0<br>II. 將原有機率增加至<br>⇒ 光符石的掉落率<br>III. 掉落的光符石<br>⇒ 以光強化符石代替<br>IV. 發動技能首回合及每回合結束時<br>⇒ 將木符石轉為暗強化符石<br>V. 首批消除所有符石時<br>⇒ 光屬性「神族及妖精類」成員 CD -1<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>2 回合內<br>⓵ 光屬性「神族及妖精類」<br>⇒ 進入亢奮狀態',
+                'tag': [['禁珠', -1], ['改變掉落機率', -1], ['木轉其他', -1], ['符石轉暗', -1], ['符石轉暗強化', -1], ['減CD', -1], '隨時關閉', ['增傷', 2]]
             }
         ],
-        'team_skill': []
+        'team_skill': [
+			{
+                'description': 'I.「燃燒」敵技的傷害<br>⇒ 轉化為我方生命力<br><br>II.「環光聖戰 ‧ 涅索伊」<br>⇒ 進場 CD -6<br><br>III. 受到擁有「首消粒數盾」敵人的攻擊傷害減少 50%<br><br>IV. 水、火、光、暗符石<br>⇒ 互相兼具效果<br><br>V. 光及暗符石兼具<br>⇒ 50% 心符石效果<br><br>VI. 根據場上附加效果的數量獲得以下效果：<br>▋≥1：全隊攻擊力 1.5 倍<br>▋≥2：增加 5 連擊 (Combo)<br>▋≥3：神族及妖精類成員<br> ⇒ 無視「固定連擊盾」<br>▋≥4：神族及妖精類成員<br> ⇒ 無視「三屬盾」及「五屬盾」<br>▋≥5：增加 8 Ex. Combo',
+                'activate': '以「環光聖戰 ‧ 涅索伊」作隊長及戰友',
+                'skill_tag': ['無視燃燒', '進場減CD', '減傷', '水兼具其他', '火兼具其他', '光兼具其他', '暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具光', '符石兼具暗', '符石兼具心', '增攻', '增加Combo', '無視固定連擊盾', '無視三屬盾', '無視五屬盾', '增加Ex.Combo'],
+                'activate_tag': ['指定雙隊長'],
+                'relative': [10062]
+            }
+		]
     },
     {
         'id': 10063,
