@@ -1,4 +1,4 @@
-// Last modified : 2021.08.26 17:41
+// Last modified : 2021.08.29 15:30
 
 const monster_data = [
     {
@@ -79885,7 +79885,7 @@ const monster_data = [
         'attribute': '光',
         'race': '神族',
         'star': 7,
-        'monsterTag': [],
+        'monsterTag': ['輝煌英雄'],
         'crossOver': false,
         'skill': [
             {
