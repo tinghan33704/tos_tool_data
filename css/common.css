@@ -3,6 +3,7 @@
     --background_color_normal: white;
     --text_color_normal: black;
     --text_color_anti_normal: white;
+    --text_color_uid_normal: yellow;
     --button_color_normal: white;
     --button_text_color_checked_normal: white;
     --button_filter_color_checked_normal: rgb(100, 100, 255);
@@ -40,12 +41,17 @@
 	--text_monster_name_dark_color_normal: #CB80D5;
 	--div_selector_result_background_normal: #ECFFFF;
 	--div_selector_result_success_background_normal: #e2ffe9;
+	--div_nav_active_background_normal: #888888;
+	--div_series_genre_background_normal: #eeeeee;
+	--div_series_genre_all_background_normal: #fff7db;
+	--text_series_genre_all_normal: #ffaa00;
     
     
     /* dark theme */
     --background_color_dark: #363636;
     --text_color_dark: #AAAAAA;
     --text_color_anti_dark: #AAAAAA;
+    --text_color_uid_dark: #c4c400;
     --button_color_dark: white;
     --button_text_color_checked_dark: #AAAAAA;
     --button_filter_color_checked_dark: rgb(100, 100, 255, 0.6);
@@ -83,12 +89,17 @@
 	--text_monster_name_dark_color_dark: #7B02B0;
 	--div_selector_result_background_dark: rgba(236, 255, 255, 0.5);
 	--div_selector_result_success_background_dark: rgba(226, 255, 233, 0.5);
+	--div_nav_active_background_dark: #666666;
+	--div_series_genre_background_dark: #666666;
+	--div_series_genre_all_background_dark: rgba(224, 204, 139, 0.3);
+	--text_series_genre_all_dark: rgba(234, 141, 88, 0.6);
 
     
     /* theme replacing */
     --background_color: var(--background_color_normal);
     --text_color: var(--text_color_normal);
     --text_color_anti: var(--text_color_anti_normal);
+    --text_color_uid: var(--text_color_uid_normal);
     --button_color: var(--button_color_normal);
     --button_text_color_checked: var(--button_text_color_checked_normal);
     --button_filter_color_checked: var(--button_filter_color_checked_normal);
@@ -125,7 +136,11 @@
 	--text_monster_name_light_color: var(--text_monster_name_light_color_normal);
 	--text_monster_name_dark_color: var(--text_monster_name_dark_color_normal);
 	--div_selector_result_background: var(--div_selector_result_background_normal);
-	--div_selector_result_success_background: var(--div_selector_result_success_background_normal)
+	--div_selector_result_success_background: var(--div_selector_result_success_background_normal);
+	--div_nav_active_background: var(--div_nav_active_background_normal);
+	--div_series_genre_background: var(--div_series_genre_background_normal);
+	--div_series_genre_all_background: var(--div_series_genre_all_background_normal);
+	--text_series_genre_all: var(--text_series_genre_all_normal);
 }
 
 body {
@@ -187,8 +202,11 @@ select {
     border-radius: 5px;
 }
 
-#tool_title {
-    text-align: center;
+
+@media (max-width: 992px) {
+	#tool_title {
+		text-align: center;
+	}
 }
 .row_title {
     font-size: 2.6em;
@@ -230,7 +248,7 @@ select {
 .and_or_mode {
     color: var(--text_color);
 }
-.start-btn, .load-uid-btn, .copy-btn {
+.start-btn, .load-uid-btn, .copy-btn, .uid-btn {
     color: var(--text_color_anti);
 }
 .btn-primary {
@@ -559,20 +577,20 @@ select {
     font-weight: bold;
 }
 
-.uid-row, .data-input-row {
+.uid-row, .data-input-row, .seal-row {
     font-size: 1.2em;
     font-weight: normal;
     color: var(--text_color);
 	text-align: center;
 }
-.uid-nav {
+.uid-nav, .seal-nav {
 	border-radius: 5px;
 	padding: 10px;
 	cursor: pointer;
 }
-.uid-nav-active {
-	background-color: #888888;
-	color: white;
+.uid-nav-active, .seal-nav-active {
+	background-color: var(--div_nav_active_background);
+	color: var(--text_color_anti);
 }
 .uid-tab {
 	padding: 20px 0 0 0;

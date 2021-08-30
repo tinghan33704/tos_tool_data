@@ -179,6 +179,7 @@ function createSideNavigation() {
         <a ${tool_id === 'active_skill' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_skill_filter/tos_skill_filter.html"` }>主動技搜尋器</a>
         <a ${tool_id === 'team_skill' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_team_skill_filter/tos_team_skill_filter.html"` }>隊伍技搜尋器</a>
         <a ${tool_id === 'craft' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_craft_filter/tos_craft_filter.html"` }>龍刻搜尋器</a>
+		<!-- <a ${tool_id === 'backpack' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_backpack_viewer/tos_backpack_viewer.html"` }>卡匣檢視器</a>-->
     `
 }
 
@@ -631,6 +632,8 @@ function setPlayerData(prefix, uid, card)
 	renderResult()
 	$(`#${prefix}-confirm-uid`).css({'display': 'none'})
 	$(`#${prefix}-save-inventory`).css({'display': 'block'})
+	
+	$('.uid-banner').length && $('.uid-banner').html(playerData?.uid ? `UID: ${playerData.uid}` : '')
 }
 
 function addVirtualRebirthCard(allCard)
@@ -715,6 +718,7 @@ function changeTheme()
         '--background_color', 
         '--text_color', 
         '--text_color_anti', 
+        '--text_color_uid', 
         '--button_color', 
         '--button_text_color_checked', 
         '--button_filter_color_checked', 
@@ -751,7 +755,11 @@ function changeTheme()
 		'--text_monster_name_light_color',
 		'--text_monster_name_dark_color',
 		'--div_selector_result_background',
-		'--div_selector_result_success_background'
+		'--div_selector_result_success_background',
+		'--div_nav_active_background',
+		'--div_series_genre_background',
+		'--div_series_genre_all_background',
+		'--text_series_genre_all',
     ];
     
     theme = (theme == 'normal') ? 'dark' : 'normal';
