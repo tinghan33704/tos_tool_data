@@ -611,21 +611,31 @@ async function getPlayerInventory(prefix)
 	
 	if(inventory_data) {
 		const card_set = new Set()
+		const card_info = {}
 	
 		inventory_data?.userData?.cards.forEach(card => {
 			card_set.add(card.id)
+			
+			if(card_info?.[card.id]) {
+				card_info[card.id].number = card_info[card.id].number + 1
+			}
+			else {
+				card_info[card.id] = {number: 1}
+			}
+			
 		})
 		
-		setPlayerData(prefix, playerId, [...card_set].sort((a, b) => a - b))
+		setPlayerData(prefix, playerId, [...card_set].sort((a, b) => a - b), card_info)
 	}
 }
 
-function setPlayerData(prefix, uid, card)
+function setPlayerData(prefix, uid, card , info)
 {
 	const verb = prefix === 'load' ? '匯入' : '更新'
 	
-	playerData.uid = uid;
-	playerData.card = addCombinedCard(addTransformedCard(addVirtualRebirthCard(card)));
+	playerData.uid = uid
+	playerData.card = addCombinedCard(addTransformedCard(addVirtualRebirthCard(card)))
+	playerData.info = info
 	
 	$(`#${prefix}-uid-status`).html(`<span class='success'><i class='fa fa-check'></i>&nbsp;&nbsp;${verb}完成</span>`)
 	
