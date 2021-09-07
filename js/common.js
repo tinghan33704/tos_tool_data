@@ -122,7 +122,7 @@ function init() {
     $("#close_notification").length && $('#close_notification').on("click", closeNotification);
     $("#use-inventory").length && $('#use-inventory').on("click", inventorySwitch);
     
-	playerData = JSON.parse(localStorage.getItem('PLAYER_DATA')) ?? {uid: '', card: []}
+	playerData = localStorage.getItem('PLAYER_DATA') ? JSON.parse(localStorage.getItem('PLAYER_DATA')) : {uid: '', card: []}
 	$("#uid-tag").text(`UID: ${playerData.uid}`)
     
     $("#inventory-btn").length && $('#inventory-btn').click(() => { 
