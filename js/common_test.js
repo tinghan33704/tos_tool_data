@@ -8,7 +8,6 @@ $(window).resize(() => {
 });
 
 function init() {
-	alert('init')
     $(".row.result-row").hide();
 	
 	setNotification();
@@ -19,7 +18,6 @@ function init() {
         }, 300);
     });
     
-	alert('bp 1')
     $(window).scroll(() => {
         if ($(this).scrollTop() > 300) $('#toTop-btn').fadeIn(200);
         else $('#toTop-btn').stop().fadeOut(200);
@@ -31,8 +29,6 @@ function init() {
 		}
     });*/
 	
-    
-	alert('bp 2')
 	$(document).on('mouseenter', '.fixed_board_label', () => {
 		$("#fixedBoard").css('display', 'block')
 	}).on('touchstart', '.fixed_board_label', () => {
@@ -55,9 +51,9 @@ function init() {
             top: (parseInt($('#top-bar').css('height'))-20)+'px'
         }
     );
+	
+	console.log(tool_id)
     
-    
-	alert('bp 3')
     switch(tool_id) {
         case 'active_skill':
             createFilterButtonRow("filter", skill_type_string);
@@ -109,8 +105,6 @@ function init() {
         return "Copyright © 2019-" + year + " 蒼曜"
     });
     
-    
-	alert('bp 4')
     $("#start_filter").length && $("#start_filter").on("click", startFilter);
     $("#and_or_filter").length && $("#and_or_filter").on("click", andOrChange);
     $("#sort_by_result").length && $("#sort_by_result").on("click", sortByChange);
@@ -137,8 +131,6 @@ function init() {
         openUidInputPanel();
     });
 	
-    
-	alert('bp 5')
     $("#option-btn").length && $('#option-btn').click(() => {
         let hasSelectedSkill = false;
         $(".filter-row .filter").each(function() {
@@ -159,8 +151,6 @@ function init() {
     $("#inputData-btn").length && $('#inputData-btn').click(() => { 
         openDataInputPanel();
     });
-    
-	alert('init success')
 }
 
 function setNotification() {
@@ -196,6 +186,7 @@ function createSideNavigation() {
 }
 
 function createFilterButtonRow(name, data, postAppend = '') {
+	console.log(name)
     $(`.${name}-row`).html(() =>
     {
         let str = $(`.${name}-row`).html();
