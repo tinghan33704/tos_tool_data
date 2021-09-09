@@ -619,7 +619,7 @@ async function getPlayerInventory(prefix)
 		inventory_data.userData.cards.forEach(card => {
 			card_set.add(card.id)
 			
-			if(card_info.[card.id]) {
+			if(card_info[card.id]) {
 				card_info[card.id].number = card_info[card.id].number + 1
 			}
 			else {
