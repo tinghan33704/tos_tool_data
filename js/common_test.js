@@ -581,7 +581,7 @@ function readUrl()
 async function getPlayerInventory(prefix) 
 {
 	const playerId = $(`#${prefix}-uid-input`).val().toString()
-	const playerVeri = $(`#${prefix}-veri-input`)?.val()?.toString()
+	const playerVeri = $(`#${prefix}-veri-input`).val().toString()
 	const verb = prefix === 'load' ? '匯入' : '更新'
 	
 	if(playerId.length === 0) {
@@ -604,7 +604,7 @@ async function getPlayerInventory(prefix)
 		$(`#${prefix}-uid-status`).html(`<span class='fail'><i class='fa fa-times'></i>&nbsp;&nbsp;${verb}失敗</span>`)
 	}).promise()
 	
-	const token = token_obj?.token ?? ''
+	const token = token in token_obj ? token_obj.token : ''
 	
 	const inventory_data = await $.get(`https://website-api.tosgame.com/api/checkup/getUserProfile?targetUid=${playerId}&token=${token}`).fail(() => {
 		console.log('Fail to get inventory data')
@@ -616,10 +616,10 @@ async function getPlayerInventory(prefix)
 		const card_set = new Set()
 		const card_info = {}
 	
-		inventory_data?.userData?.cards.forEach(card => {
+		inventory_data.userData.cards.forEach(card => {
 			card_set.add(card.id)
 			
-			if(card_info?.[card.id]) {
+			if(card_info.[card.id]) {
 				card_info[card.id].number = card_info[card.id].number + 1
 			}
 			else {
@@ -646,7 +646,7 @@ function setPlayerData(prefix, uid, card , info)
 	$(`#${prefix}-confirm-uid`).css({'display': 'none'})
 	$(`#${prefix}-save-inventory`).css({'display': 'block'})
 	
-	$('.uid-banner').length && $('.uid-banner').html(playerData?.uid ? `UID: ${playerData.uid}` : '')
+	$('.uid-banner').length && $('.uid-banner').html(playerData.uid ? `UID: ${playerData.uid}` : '')
 }
 
 function addVirtualRebirthCard(allCard)
@@ -654,7 +654,7 @@ function addVirtualRebirthCard(allCard)
 	const virtualRebirth = new Set();
 	
 	$.each(allCard, (card_index, card) => {
-		const vrId = monster_data.find((monster) => monster.id === card)?.vrPair
+		const vrId = monster_data.find((monster) => monster.id === card).vrPair
 		virtualRebirth.add(vrId)
 	})
 	
@@ -670,7 +670,7 @@ function addTransformedCard(allCard)
 	// need to check multiple stage transform monster
 	while(currentStage.length > 0) {
 		$.each(currentStage, (card_index, card) => {
-			const transform_skill = monster_data.find((monster) => monster.id === card)?.skill?.filter((skill) => 'transform' in skill)
+			const transform_skill = monster_data.find((monster) => monster.id === card).skill.filter((skill) => 'transform' in skill)
 			$.each(transform_skill, (skill_index, skill) => {
 				transformed.push(skill.transform)
 			})
@@ -688,7 +688,7 @@ function addCombinedCard(allCard)
 	const combined = new Set();
 	
 	$.each(allCard, (card_index, card) => {
-		const combine_skill = monster_data.find((monster) => monster.id === card)?.skill?.filter((skill) => 'combine' in skill)
+		const combine_skill = monster_data.find((monster) => monster.id === card).skill.filter((skill) => 'combine' in skill)
 		$.each(combine_skill, (skill_index, skill) => {
 			const members = skill.combine.member
 			let canCombine = true
@@ -714,7 +714,7 @@ function savePlayerInventory(prefix)
 
 function inventorySwitch()
 {
-	if(!useInventory && playerData?.card.length === 0) {
+	if(!useInventory && playerData.card.length === 0) {
 		errorAlert(6);
 		return ;
 	}
