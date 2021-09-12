@@ -70415,16 +70415,16 @@ const monster_data = [
         'name': '破壞與創造 ‧ 姆姆',
         'attribute': '木',
         'race': '神族',
-        'star': 0,
+        'star': 8,
         'monsterTag': ['封王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],

@@ -424,6 +424,9 @@ function errorAlert(index)
         case 9:
             alert("[Error Code "+paddingZeros(index, 2)+"] 輸入格式錯誤 (僅接受數字及空格)");
         break;
+        case 10:
+            alert("[Error Code "+paddingZeros(index, 2)+"] 無法取得背包資料");
+        break;
         default:
             
     }
@@ -575,9 +578,9 @@ function readUrl()
     window.history.pushState(null, null, location.pathname);    // clear search parameters
 }
 
-async function getPlayerInventory(prefix) 
+async function getPlayerInventory(prefix, id = null) 
 {
-	const playerId = $(`#${prefix}-uid-input`).val().toString()
+	const playerId = id ?? $(`#${prefix}-uid-input`).val().toString()
 	const playerVeri = $(`#${prefix}-veri-input`)?.val()?.toString()
 	const verb = prefix === 'load' ? '匯入' : '更新'
 	
@@ -596,40 +599,46 @@ async function getPlayerInventory(prefix)
 	
 	const uid = prefix == 'update' ? playerId : atob(myAuth).substring(0, 9)
 	const auth = prefix == 'update' ? playerVeri : atob(myAuth).substring(9, 15)
-	const token_obj = await $.post(`https://website-api.tosgame.com/api/checkup/login?token=&uid=${uid}&auth=${auth}`).fail(() => {
-		console.log('Fail to get token')
-		$(`#${prefix}-uid-status`).html(`<span class='fail'><i class='fa fa-times'></i>&nbsp;&nbsp;${verb}失敗</span>`)
-	}).promise()
 	
-	const token = token_obj?.token ?? ''
-	
-	const inventory_data = await $.get(`https://website-api.tosgame.com/api/checkup/getUserProfile?targetUid=${playerId}&token=${token}`).fail(() => {
-		console.log('Fail to get inventory data')
+	try {
+		const token_obj = await $.post(`https://website-api.tosgame.com/api/checkup/login?token=&uid=${uid}&auth=${auth}`).fail(() => {
+			console.log('Fail to get token')
+		}).promise()
+		
+		const token = token_obj?.token ?? ''
+		
+		const inventory_data = await $.get(`https://website-api.tosgame.com/api/checkup/getUserProfile?targetUid=${playerId}&token=${token}`).fail(() => {
+			console.log('Fail to get inventory data')
+		}).promise()
+		
+		if(inventory_data) {
+			const card_set = new Set()
+			const card_info = {}
+		
+			inventory_data?.userData?.cards.forEach(card => {
+				card_set.add(card.id)
+				
+				if(card_info?.[card.id]) {
+					card_info[card.id].number = card_info[card.id].number + 1
+				}
+				else {
+					card_info[card.id] = {number: 1}
+				}
+				
+			})
+			
+			setPlayerData(prefix, playerId, [...card_set].sort((a, b) => a - b), card_info)
+		}
+	} catch {
 		$(`#${prefix}-uid-status`).html(`<span class='fail'><i class='fa fa-times'></i>&nbsp;&nbsp;${verb}失敗</span>`)
 		$(`#${prefix}-uid-input`).attr('disabled', false)
-	}).promise()
-	
-	if(inventory_data) {
-		const card_set = new Set()
-		const card_info = {}
-	
-		inventory_data?.userData?.cards.forEach(card => {
-			card_set.add(card.id)
-			
-			if(card_info?.[card.id]) {
-				card_info[card.id].number = card_info[card.id].number + 1
-			}
-			else {
-				card_info[card.id] = {number: 1}
-			}
-			
-		})
 		
-		setPlayerData(prefix, playerId, [...card_set].sort((a, b) => a - b), card_info)
+		showSeal && showSeal(currentSeal)
+		id && errorAlert(10)
 	}
 }
 
-function setPlayerData(prefix, uid, card , info)
+function setPlayerData(prefix, uid, card, info)
 {
 	const verb = prefix === 'load' ? '匯入' : '更新'
 	
@@ -644,6 +653,11 @@ function setPlayerData(prefix, uid, card , info)
 	$(`#${prefix}-save-inventory`).css({'display': 'block'})
 	
 	$('.uid-banner').length && $('.uid-banner').html(playerData?.uid ? `UID: ${playerData.uid}` : '')
+	
+	if(tool_id === 'backpack') {
+		const uidStr = `?uid=${playerData.uid}`
+		window.history.pushState(null, null, uidStr)
+	}
 }
 
 function addVirtualRebirthCard(allCard)
