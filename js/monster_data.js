@@ -1,4 +1,4 @@
-// Last modified : 2021.09.17 15:20
+// Last modified : 2021.09.17 17:46
 
 const monster_data = [
     {
@@ -65534,22 +65534,30 @@ const monster_data = [
     {
         'id': 2445,
         'name': '嬌美白蛇 · 堇犽',
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'attribute': '暗',
+        'race': '獸類',
+        'star': 5,
         'monsterTag': ['慌失失瑞獸團'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '白蛇之魅',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': '3 回合內<br>I. 將移動符石時觸碰的暗符石⇒ 轉化為獸族強化符石<br>II. 若隊伍中只有獸類成員<br>⇒ 則將移動符石時觸碰的符石轉化為獸族強化符石',
+                'tag': [['符石強化', 3], ['符石轉暗強化', 3], ['獸族符石製造', 3]]
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': '進入關卡後，「慌失失瑞獸團」角色<br>⇒ 技能 CD 減少 8',
+                'activate': '以 ≥2 個「慌失失瑞獸團」角色作成員',
+                'skill_tag': ['進場減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [2441, 2442, 2443, 2444, 2445]
+            }
+        ]
     },
     {
         'id': 2446,
