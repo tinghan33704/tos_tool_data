@@ -1,4 +1,4 @@
-// Last modified : 2021.09.17 17:46
+// Last modified : 2021.09.18 01:05
 
 const monster_data = [
     {
@@ -75655,12 +75655,12 @@ const monster_data = [
         'crossOver': false,
         'skill': [
             {
-                'name': '五星同源',
+                'name': '五星同源 ‧ 念',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '1 回合內，所有符石兼具其他屬性符石 50% 效果',
-                'tag': ['符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗']
+                'description': '1 回合內，所有符石兼具 50% 其他屬性符石效果；「遊俠」系列成員的主動技能 CD 減少 2',
+                'tag': ['符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '減CD']
             }
         ],
         'team_skill': [
