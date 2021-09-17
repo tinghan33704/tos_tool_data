@@ -1,4 +1,4 @@
-// Last modified : 2021.09.16 20:45
+// Last modified : 2021.09.17 15:20
 
 const monster_data = [
     {
@@ -74940,19 +74940,19 @@ const monster_data = [
     },
     {
         'id': 2738,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'name': '團圓相聚．命運三姊妹',
+        'attribute': '水',
+        'race': '神族',
+        'star': 5,
         'monsterTag': [],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
