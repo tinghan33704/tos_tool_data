@@ -1,4 +1,4 @@
-// Last modified : 2021.09.18 21:47
+// Last modified : 2021.09.18 23:38
 
 const monster_data = [
     {
@@ -49349,7 +49349,7 @@ const monster_data = [
                 'charge': 'CD',
                 'num': 5,
                 'description': '對 1 個人類敵人施以詛咒：每回合消耗敵人 15% 總生命力，效果持續至受到敵人攻擊',
-                'tag': []
+                'tag': ['直傷', '無視技能直傷']
             }
         ],
         'team_skill': []
