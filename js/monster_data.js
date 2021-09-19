@@ -1,4 +1,4 @@
-// Last modified : 2021.09.18 23:38
+// Last modified : 2021.09.19 22:40
 
 const monster_data = [
     {
@@ -24964,12 +24964,12 @@ const monster_data = [
                 'tag': ['增傷', '延長轉珠時間']
             },
             {
-                'name': '元素展變 ‧ 水',
+                'name': '元素展變 ‧ 浪濤',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '隨機將一橫行的符石轉化為水符石',
-                'tag': ['符石轉水']
+                'description': '點選 1 橫行的符石，並將該橫行的符石轉化為水強化符石',
+                'tag': ['符石轉水', '符石轉水強化']
             }
         ],
         'team_skill': []
@@ -24992,12 +24992,12 @@ const monster_data = [
                 'tag': ['增傷', '延長轉珠時間']
             },
             {
-                'name': '元素展變 ‧ 火',
+                'name': '元素展變 ‧ 熾燄',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '隨機將一橫行的符石轉化為火符石',
-                'tag': ['符石轉火']
+                'description': '點選 1 橫行的符石，並將該橫行的符石轉化為火強化符石',
+                'tag': ['符石轉火', '符石轉火強化']
             }
         ],
         'team_skill': []
@@ -25020,12 +25020,12 @@ const monster_data = [
                 'tag': ['增傷', '延長轉珠時間']
             },
             {
-                'name': '元素展變 ‧ 木',
+                'name': '元素展變 ‧ 藤木',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '隨機將一橫行的符石轉化為木符石',
-                'tag': ['符石轉木']
+                'description': '點選 1 橫行的符石，並將該橫行的符石轉化為木強化符石',
+                'tag': ['符石轉木', '符石轉木強化']
             }
         ],
         'team_skill': []
@@ -25048,12 +25048,12 @@ const monster_data = [
                 'tag': ['增傷', '延長轉珠時間']
             },
             {
-                'name': '元素展變 ‧ 光',
+                'name': '元素展變 ‧ 玄光',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '隨機將一橫行的符石轉化為光符石',
-                'tag': ['符石轉光']
+                'description': '點選 1 橫行的符石，並將該橫行的符石轉化為光強化符石',
+                'tag': ['符石轉光', '符石轉光強化']
             }
         ],
         'team_skill': []
@@ -25076,12 +25076,12 @@ const monster_data = [
                 'tag': ['增傷', '延長轉珠時間']
             },
             {
-                'name': '元素展變 ‧ 暗',
+                'name': '元素展變 ‧ 幽冥',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
-                'description': '隨機將一橫行的符石轉化為暗符石',
-                'tag': ['符石轉暗']
+                'description': '點選 1 橫行的符石，並將該橫行的符石轉化為暗強化符石',
+                'tag': ['符石轉暗', '符石轉暗強化']
             }
         ],
         'team_skill': []
@@ -81283,7 +81283,7 @@ const monster_data = [
     },
     {
         'id': 60021,
-        'name': '',
+        'name': '以諾、英格麗、妹妹',
         'attribute': '暗',
         'race': '人類',
         'star': 5,
