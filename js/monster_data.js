@@ -1,4 +1,4 @@
-// Last modified : 2021.09.22 00:41
+// Last modified : 2021.09.23 18:42
 
 const monster_data = [
     {
@@ -81068,6 +81068,26 @@ const monster_data = [
         'team_skill': []
     },
     {
+        'id': 10081,
+        'name': '天英星 ‧ 羅尼',
+        'attribute': '火',
+        'race': '人類',
+        'star': 5,
+        'monsterTag': ['地妖星與天英星'],
+        'crossOver': true,
+        'skill': [
+            {
+                'name': '火焰絞繩',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': '1 回合內<br>I. 個人以 30% 攻擊力<br>⇒ 追打火屬性攻擊 9 次<br>II. 攻擊敵方時點燃敵方<br>⇒ 效果持續至敵人死亡<br>III. 隊中每多 1 個【冥鬥士】<br>⇒ 額外增加 1 回合效果<br>⇒ 最多持續 5 回合',
+                'tag': [['火屬追打', 5], ['自身追打', 5], ['點燃敵方', -1]]
+            }
+        ],
+        'team_skill': []
+    },
+    {
         'id': 10082,
         'name': '冥王 ‧ 瞬',
         'attribute': '暗',
@@ -81131,6 +81151,34 @@ const monster_data = [
                 'num': 6,
                 'description': 'I. 點選 1 直行的符石<br>⇒ 轉化為木人族符石<br>1 回合內<br>II. 自身攻擊力 3 倍<br>III. 自身無視「三屬盾」<br>IV. 隊中有 ≥3 個【聖鬥士】<br>⇒ 回合結束時，自身 CD -2',
                 'tag': ['符石轉木', '人族符石製造', '增傷', '界王拳', '無視三屬盾', '減CD']
+            }
+        ],
+        'team_skill': [
+            {
+                'description': '組合技能：雅典娜之感嘆 ‧ 撒卡<br><br>隊中沒有「雅典娜 ‧ 城戶沙織」或「智慧與戰爭女神 ‧ 雅典娜」才能發動此技能<br><br>I. 消除所有附加效果<br>1 回合內<br>II. 發動此技能的成員<br>⓵ 攻擊力 3 倍<br>⓶ 其直行符石轉化為相應屬性的人族強化符石<br>III. 水、木、暗符石<br>⇒ 互相兼具效果',
+                'activate': '以「冥衣水瓶座 ‧ 卡妙」、「冥衣摩羯座 ‧ 修羅」及「冥衣雙子座 ‧ 撒卡」作成員 (召喚獸等級達 50 或以上)',
+                'skill_tag': ['組合技能'],
+                'activate_tag': ['指定成員', '等級下限'],
+                'relative': [10083, 10084, 10085]
+            },
+		]
+    },
+    {
+        'id': 10085,
+        'name': '冥衣雙子座 ‧ 撒卡',
+        'attribute': '暗',
+        'race': '人類',
+        'star': 6,
+        'monsterTag': ['冥界使者'],
+        'crossOver': true,
+        'skill': [
+            {
+                'name': '銀河<span style=\'color: #2488DF;\'>星</span><span style=\'color: #555555;\'>爆</span>！(撒卡)',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': 'I. 點選元素法陣上的符石 3 次<br>⇒ 將該種符石引爆<br>⇒ 掉落暗符石<br>1 回合內<br>II. 個人追打 3 次<br>III. 隊中有 ≥3 個【聖鬥士】<br>⇒ 自身無視「指定形狀盾」',
+                'tag': ['引爆', '指定符石引爆', '強制掉落', '暗屬追打', '自身追打', '無視拼圖盾']
             }
         ],
         'team_skill': [
@@ -81224,6 +81272,62 @@ const monster_data = [
                 'skill_tag': ['增攻', '增血'],
                 'activate_tag': ['指定成員'],
                 'relative': [10087, 10088, 10089]
+            },
+		]
+    },
+    {
+        'id': 10090,
+        'name': '睡神 ‧ 休普諾斯',
+        'attribute': '光',
+        'race': '神族',
+        'star': 6,
+        'monsterTag': ['地獄魔王'],
+        'crossOver': true,
+        'skill': [
+            {
+                'name': '永恆的睡眠',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 凍結符石轉化為可消除的狀態<br>II. 將左方 3 直行的符石轉化為<br>⇒ 固定數量及位置的光及暗符石<br>1 回合內<br>III. 光屬性及神族<br>⇒ 攻擊力及回復力 1.8 倍',
+                'tag': ['凍結符石處理', '符石轉光', '符石轉暗', '固定版面', '增傷', '增回']
+            }
+        ],
+        'team_skill': [
+            {
+                'description': '「睡神 ‧ 休普諾斯」或「死神 ‧ 塔納托斯」發動技能時<br>⇒「睡神 ‧ 休普諾斯」及「死神 ‧ 塔納托斯」技能 CD -1',
+                'activate': '以「睡神 ‧ 休普諾斯」及「死神 ‧ 塔納托斯」作成員',
+                'skill_tag': ['開技減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [10090, 10092]
+            },
+		]
+    },
+    {
+        'id': 10092,
+        'name': '死神 ‧ 塔納托斯',
+        'attribute': '暗',
+        'race': '神族',
+        'star': 6,
+        'monsterTag': ['魔神戰'],
+        'crossOver': true,
+        'skill': [
+            {
+                'name': '恐怖天命',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 解除石化符石狀態<br>II. 將右方 3 直行符石轉化為<br>⇒ 固定數量及位置的光及暗符石<br>1 回合內<br>III. 暗屬性及神族成員<br>⇒ 以 40% 攻擊力追打 1 次',
+                'tag': ['石化符石處理', '符石轉光', '符石轉暗', '固定版面', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打']
+            }
+        ],
+        'team_skill': [
+            {
+                'description': '「睡神 ‧ 休普諾斯」或「死神 ‧ 塔納托斯」發動技能時<br>⇒「睡神 ‧ 休普諾斯」及「死神 ‧ 塔納托斯」技能 CD -1',
+                'activate': '以「睡神 ‧ 休普諾斯」及「死神 ‧ 塔納托斯」作成員',
+                'skill_tag': ['開技減CD'],
+                'activate_tag': ['指定成員'],
+                'relative': [10090, 10092]
             },
 		]
     },
