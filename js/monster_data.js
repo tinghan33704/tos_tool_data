@@ -1,4 +1,4 @@
-// Last modified : 2021.10.05 14:00
+// Last modified : 2021.10.07 19:42
 
 const monster_data = [
     {
@@ -65153,9 +65153,9 @@ const monster_data = [
         ],
         'team_skill': [
             {
-                'description': 'I. 每消除 1 粒自身屬性神族符石<br>⇒ 回復 3,000 點生命力<br><br>II. 每個連擊 (Combo)<br>⇒ 額外計算多 1 Ex. Combo<br>(加乘不受其他技能影響)<br><br>III. 獲得【究極融煉能力】<br><br>⓵ 解除黑白符石的狀態<br>1 回合內<br>⓶ 將所有符石轉化為<br>⇒ 神族強化符石<br>⓷ 無視「燃燒」敵技<br>(不包括「煉獄之火」)<br>⓸ 無視「黏腐」敵技<br><br>於回合開始時點擊已儲滿的龍脈儀可觸發此能力<br>(需消耗 100% 龍脈儀能量)',
+                'description': 'I. 每消除 1 粒自身屬性神族符石<br>⇒ 回復 3,000 點生命力<br><br>II. 每消除 1 連擊 (Combo)<br>⇒ 額外計算多 1 Ex. Combo<br><br>III. 必然延長移動符石時間 2 秒<br><br>IV. 每消除 5 組符石<br>⇒ 將產生 2 粒自身屬性強化符石<br>⇒ 最多產生 16 粒<br>(主動技能 -「元素轉移 ‧ 光」將不能發動)<br><br>V. 獲得【究極融煉能力】<br><br>⓵ 解除黑白符石的狀態<br>1 回合內<br>⓶ 將所有符石轉化為<br>⇒ 神族強化符石<br>⓷ 無視「燃燒」敵技<br>(不包括「煉獄之火」)<br>⓸ 無視「黏腐」敵技<br><br>於回合開始時點擊已儲滿的龍脈儀可觸發此能力<br>(需消耗 100% 龍脈儀能量)',
                 'activate': '以相同屬性的「究極希臘神」角色作隊長及戰友',
-                'skill_tag': ['回血', '增加Ex.Combo', '龍脈儀能力'],
+                'skill_tag': ['回血', '增加Ex.Combo', '延長轉珠時間', '龍脈儀能力'],
                 'activate_tag': ['指定雙隊長'],
                 'relative': [2431]
             }
@@ -65189,9 +65189,9 @@ const monster_data = [
         ],
         'team_skill': [
             {
-                'description': 'I. 每消除 1 粒自身屬性神族符石<br>⇒ 回復 3,000 點生命力<br><br>II. 每個連擊 (Combo)<br>⇒ 額外計算多 1 Ex. Combo<br>(加乘不受其他技能影響)<br><br>III. 獲得【究極融煉能力】<br><br>⓵ 解除黑白符石的狀態<br>1 回合內<br>⓶ 將所有符石轉化為<br>⇒ 神族強化符石<br>⓷ 無視「燃燒」敵技<br>(不包括「煉獄之火」)<br>⓸ 無視「黏腐」敵技<br><br>於回合開始時點擊已儲滿的龍脈儀可觸發此能力<br>(需消耗 100% 龍脈儀能量)',
+                'description': 'I. 每消除 1 粒自身屬性神族符石<br>⇒ 回復 3,000 點生命力<br><br>II. 每消除 1 連擊 (Combo)<br>⇒ 額外計算多 1 Ex. Combo<br><br>III. 必然延長移動符石時間 2 秒<br><br>IV. 每消除 5 組符石<br>⇒ 將產生 2 粒自身屬性強化符石<br>⇒ 最多產生 16 粒<br>(主動技能 -「元素轉移 ‧ 光」將不能發動)<br><br>V. 獲得【究極融煉能力】<br><br>⓵ 解除黑白符石的狀態<br>1 回合內<br>⓶ 將所有符石轉化為<br>⇒ 神族強化符石<br>⓷ 無視「燃燒」敵技<br>(不包括「煉獄之火」)<br>⓸ 無視「黏腐」敵技<br><br>於回合開始時點擊已儲滿的龍脈儀可觸發此能力<br>(需消耗 100% 龍脈儀能量)',
                 'activate': '以相同屬性的「究極希臘神」角色作隊長及戰友',
-                'skill_tag': ['回血', '增加Ex.Combo', '龍脈儀能力'],
+                'skill_tag': ['回血', '增加Ex.Combo', '延長轉珠時間', '龍脈儀能力'],
                 'activate_tag': ['指定雙隊長'],
                 'relative': [2432]
             }
@@ -65225,9 +65225,9 @@ const monster_data = [
         ],
         'team_skill': [
             {
-                'description': 'I. 每消除 1 粒自身屬性神族符石<br>⇒ 回復 3,000 點生命力<br><br>II. 每個連擊 (Combo)<br>⇒ 額外計算多 1 Ex. Combo<br>(加乘不受其他技能影響)<br><br>III. 獲得【究極融煉能力】<br><br>⓵ 解除黑白符石的狀態<br>1 回合內<br>⓶ 將所有符石轉化為<br>⇒ 神族強化符石<br>⓷ 無視「燃燒」敵技<br>(不包括「煉獄之火」)<br>⓸ 無視「黏腐」敵技<br><br>於回合開始時點擊已儲滿的龍脈儀可觸發此能力<br>(需消耗 100% 龍脈儀能量)',
+                'description': 'I. 每消除 1 粒自身屬性神族符石<br>⇒ 回復 3,000 點生命力<br><br>II. 每消除 1 連擊 (Combo)<br>⇒ 額外計算多 1 Ex. Combo<br><br>III. 必然延長移動符石時間 2 秒<br><br>IV. 每消除 5 組符石<br>⇒ 將產生 2 粒自身屬性強化符石<br>⇒ 最多產生 16 粒<br>(主動技能 -「元素轉移 ‧ 光」將不能發動)<br><br>V. 獲得【究極融煉能力】<br><br>⓵ 解除黑白符石的狀態<br>1 回合內<br>⓶ 將所有符石轉化為<br>⇒ 神族強化符石<br>⓷ 無視「燃燒」敵技<br>(不包括「煉獄之火」)<br>⓸ 無視「黏腐」敵技<br><br>於回合開始時點擊已儲滿的龍脈儀可觸發此能力<br>(需消耗 100% 龍脈儀能量)',
                 'activate': '以相同屬性的「究極希臘神」角色作隊長及戰友',
-                'skill_tag': ['回血', '增加Ex.Combo', '龍脈儀能力'],
+                'skill_tag': ['回血', '增加Ex.Combo', '延長轉珠時間', '龍脈儀能力'],
                 'activate_tag': ['指定雙隊長'],
                 'relative': [2433]
             }
@@ -65261,9 +65261,9 @@ const monster_data = [
         ],
         'team_skill': [
             {
-                'description': 'I. 每消除 1 粒自身屬性神族符石<br>⇒ 回復 3,000 點生命力<br><br>II. 每個連擊 (Combo)<br>⇒ 額外計算多 1 Ex. Combo<br>(加乘不受其他技能影響)<br><br>III. 獲得【究極融煉能力】<br><br>⓵ 解除黑白符石的狀態<br>1 回合內<br>⓶ 將所有符石轉化為<br>⇒ 神族強化符石<br>⓷ 無視「燃燒」敵技<br>(不包括「煉獄之火」)<br>⓸ 無視「黏腐」敵技<br><br>於回合開始時點擊已儲滿的龍脈儀可觸發此能力<br>(需消耗 100% 龍脈儀能量)',
+                'description': 'I. 每消除 1 粒自身屬性神族符石<br>⇒ 回復 3,000 點生命力<br><br>II. 每消除 1 連擊 (Combo)<br>⇒ 額外計算多 1 Ex. Combo<br><br>III. 必然延長移動符石時間 2 秒<br><br>IV. 每消除 5 組符石<br>⇒ 將產生 2 粒自身屬性強化符石<br>⇒ 最多產生 16 粒<br>(主動技能 -「元素轉移 ‧ 光」將不能發動)<br><br>V. 獲得【究極融煉能力】<br><br>⓵ 解除黑白符石的狀態<br>1 回合內<br>⓶ 將所有符石轉化為<br>⇒ 神族強化符石<br>⓷ 無視「燃燒」敵技<br>(不包括「煉獄之火」)<br>⓸ 無視「黏腐」敵技<br><br>於回合開始時點擊已儲滿的龍脈儀可觸發此能力<br>(需消耗 100% 龍脈儀能量)',
                 'activate': '以相同屬性的「究極希臘神」角色作隊長及戰友',
-                'skill_tag': ['回血', '增加Ex.Combo', '龍脈儀能力'],
+                'skill_tag': ['回血', '增加Ex.Combo', '延長轉珠時間', '龍脈儀能力'],
                 'activate_tag': ['指定雙隊長'],
                 'relative': [2434]
             }
@@ -65297,9 +65297,9 @@ const monster_data = [
         ],
         'team_skill': [
             {
-                'description': 'I. 每消除 1 粒自身屬性神族符石<br>⇒ 回復 3,000 點生命力<br><br>II. 每個連擊 (Combo)<br>⇒ 額外計算多 1 Ex. Combo<br>(加乘不受其他技能影響)<br><br>III. 獲得【究極融煉能力】<br><br>⓵ 解除黑白符石的狀態<br>1 回合內<br>⓶ 將所有符石轉化為<br>⇒ 神族強化符石<br>⓷ 無視「燃燒」敵技<br>(不包括「煉獄之火」)<br>⓸ 無視「黏腐」敵技<br><br>於回合開始時點擊已儲滿的龍脈儀可觸發此能力<br>(需消耗 100% 龍脈儀能量)',
+                'description': 'I. 每消除 1 粒自身屬性神族符石<br>⇒ 回復 3,000 點生命力<br><br>II. 每消除 1 連擊 (Combo)<br>⇒ 額外計算多 1 Ex. Combo<br><br>III. 必然延長移動符石時間 2 秒<br><br>IV. 每消除 5 組符石<br>⇒ 將產生 2 粒自身屬性強化符石<br>⇒ 最多產生 16 粒<br>(主動技能 -「元素轉移 ‧ 光」將不能發動)<br><br>V. 獲得【究極融煉能力】<br><br>⓵ 解除黑白符石的狀態<br>1 回合內<br>⓶ 將所有符石轉化為<br>⇒ 神族強化符石<br>⓷ 無視「燃燒」敵技<br>(不包括「煉獄之火」)<br>⓸ 無視「黏腐」敵技<br><br>於回合開始時點擊已儲滿的龍脈儀可觸發此能力<br>(需消耗 100% 龍脈儀能量)',
                 'activate': '以相同屬性的「究極希臘神」角色作隊長及戰友',
-                'skill_tag': ['回血', '增加Ex.Combo', '龍脈儀能力'],
+                'skill_tag': ['回血', '增加Ex.Combo', '延長轉珠時間', '龍脈儀能力'],
                 'activate_tag': ['指定雙隊長'],
                 'relative': [2435]
             }
@@ -80327,19 +80327,19 @@ const monster_data = [
     },
     {
         'id': 10064,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '焦蜜女孩',
+        'attribute': '光',
+        'race': '強化素材',
+        'star': 3,
+        'monsterTag': ['素材'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
@@ -81461,6 +81461,571 @@ const monster_data = [
         ],
         'team_skill': []
     },
+	{
+        'id': 10094,
+        'name': '柔情似水 ‧ 嘉蘭諾德',
+        'attribute': '水',
+        'race': '妖精類',
+        'star': 5,
+        'monsterTag': ['七輪會職員'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '擾敵',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': 'I. 發動技能及回合結束時<br>⇒ 將所有符石轉化為強化符石<br>1 回合內<br>II. 敵方互相或自我進行 1 次攻擊',
+                'tag': ['符石強化', '魅惑敵方']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10095,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10096,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10097,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10098,
+        'name': '亡命燭火 ‧ 比夫隆',
+        'attribute': '暗',
+        'race': '妖精類',
+        'star': 7,
+        'monsterTag': ['討伐戰'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '幽暗領域',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. <board>引爆第 4、5、6 直行符石<br>⇒ 掉落暗強化符石</board><br>II. 將第 1、2、3 直行的暗符石<br>⇒ 轉化為暗以外的強化符石<br>III. 隊長為妖精類成員<br>⇒ 自身 CD -2',
+                'tag': ['引爆', '直行引爆', '強制掉落', '固定版面', '暗轉其他', '符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉心', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉心強化', '減CD']
+            }
+        ],
+        'team_skill': [],
+		'board': [
+			[
+				'-', '-', '-', 'D', 'D', 'D', 
+				'-', '-', '-', 'D', 'D', 'D', 
+				'-', '-', '-', 'D', 'D', 'D', 
+				'-', '-', '-', 'D', 'D', 'D', 
+				'-', '-', '-', 'D', 'D', 'D', 
+			]
+		]
+    },
+    {
+        'id': 10099,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10100,
+        'name': '傲然綻光 ‧ 烏瑞亞',
+        'attribute': '光',
+        'race': '神族',
+        'star': 6,
+        'monsterTag': ['並肩夥伴'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '雙刀百裂',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 引爆「傲然綻光 ‧ 烏瑞亞」直行的符石<br>⇒ 掉落光神族符石<br><br>II. 全隊攻擊力 1.5 倍<br>III. 每消除 1 組 ≥5 粒屬性符石<br>⇒ 個人以 25% 攻擊力追打該屬性攻擊 1 次<br>(每種屬性最多追打 5 次)<br>IV. 回合結束時，將心符石轉化為屬性符石，每轉化 1 粒回復 20% 生命力<br>(不能溢補)<br>(II - IV 效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 引爆所有符石<br>⇒ 掉落該直行成員屬性的種族符石',
+                'tag': ['引爆', '直行引爆', '強制掉落', '神族符石製造', ['增傷', -1], ['水屬追打', -1], ['火屬追打', -1], ['木屬追打', -1], ['光屬追打', -1], ['暗屬追打', -1], ['心轉其他', -1], ['符石轉水', -1], ['符石轉火', -1], ['符石轉木', -1], ['符石轉光', -1], ['符石轉暗', -1], ['回血', -1], '隨時關閉', '整版引爆', '人族符石製造', '獸族符石製造', '妖族符石製造', '龍族符石製造', '魔族符石製造', '機械族符石製造']
+            }
+        ],
+        'team_skill': [
+            {
+                'description': 'I. 必然延長移動符石時間 5 秒<br><br>II. 心符石兼具光符石效果<br><br>III. 所有屬性符石兼具<br>⇒ 其他屬性符石效果<br><br>IV. 隊伍成員屬性符石兼具<br>⇒ 25% 心符石效果<br><br>V. 直行消除 ≥5 粒符石時<br>⇒ 該直行首批掉落五屬符石<br><br>VI. 以角色符石移動時<br>⓵ 無視「燃燒」敵技<br>⓶ 無視「黏腐」敵技<br><br>VII. 首批消除隊長或戰友直行所有符石<br>⇒「傲然綻光 ‧ 烏瑞亞」攻擊力 4 倍<br><br>VIII. 首批消除隊長及戰友直行所有符石<br>⇒「傲然綻光 ‧ 烏瑞亞」攻擊力額外 1.5 倍',
+                'activate': '以「傲然綻光 ‧ 烏瑞亞」作隊長',
+                'skill_tag': ['延長轉珠時間', '心兼具其他', '符石兼具光', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具暗', '符石兼具心', '強制掉落', '無視燃燒', '無視黏腐', '增攻'],
+                'activate_tag': ['指定隊長'],
+                'relative': [10100]
+            },
+		]
+    },
+    {
+        'id': 10101,
+        'name': '博愛源魔 ‧ 瓦斐森',
+        'attribute': '水',
+        'race': '魔族',
+        'star': 6,
+        'monsterTag': ['並肩夥伴'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '源魔之時',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': '2 回合內<br>I. 延長移動符石時間至 10 秒<br>II. 可任意移動符石而不會發動消除<br>III. 自身及身旁成員以 50% 攻擊力追打 3 次<br>IV. 首批消除 ≥5 粒魔族符石<br>⇒ 該回合不會扣減技能持續回合',
+                'tag': [['延長轉珠時間', 2], ['排珠', 2], ['水屬追打', 2], ['火屬追打', 2], ['木屬追打', 2], ['光屬追打', 2], ['暗屬追打', 2]]
+            }
+        ],
+        'team_skill': [
+            {
+                'description': 'I. 延長移動符石時間 3 秒<br><br>II. 將移動符石時觸碰的水、光、心符石轉化為<br>⇒ 魔族強化符石<br><br>III. 消除屬性種族符石時<br>⇒ 所有成員以 50% 攻擊力追打該屬性攻擊 1 次<br><br>IV. 消除心種族符石時<br>⇒ 減少 50% 所受傷害<br><br>V. 場上有附加效果時<br>⇒ 全隊攻擊力 2 倍<br><br>VI. 以「博愛源魔 ‧ 瓦斐森」角色符石移動時觸碰的「凍結符石」狀態解除',
+                'activate': '以「博愛源魔 ‧ 瓦斐森」作隊長',
+                'skill_tag': ['延長轉珠時間', '符石強化', '符石轉水強化', '符石轉光強化', '符石轉心強化', '魔族符石製造', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打', '減傷', '增攻', '凍結符石處理'],
+                'activate_tag': ['指定隊長'],
+                'relative': [10101]
+            },
+		]
+    },
+    {
+        'id': 10102,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10103,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10104,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10105,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10106,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10107,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10108,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10109,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10110,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10111,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10112,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10113,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10114,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10115,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10116,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10117,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10118,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10119,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10120,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
 	
 	
     {
@@ -81511,6 +82076,58 @@ const monster_data = [
                 'num': 5,
                 'description': 'I. 解除自身被封鎖的技能<br>(此技能無視封鎖技能)<br>II. 消除所有附加效果<br>III. 完全回復生命力',
                 'tag': ['解鎖', '附加消除', '回血']
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 20002,
+        'name': '雪萊 ‧ 沙古迪',
+        'attribute': '光',
+        'race': '人類',
+        'star': 5,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '解除束縛 ‧ 心之源',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 解除自身及右旁成員被封鎖的技能<br>(此技能無視封鎖技能)<br>II. 右旁成員 CD -1<br>1 回合內<br>III. 心符石兼具 150% 屬性符石效果',
+                'tag': ['解鎖', '減CD', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗']
+            },
+            {
+                'name': '解除束縛 ‧ 引爆',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 解除自身及右旁成員被封鎖的技能<br>(此技能無視封鎖技能)<br>II. 右旁成員 CD -1<br>III. 引爆自身及右旁成員直行的符石',
+                'tag': ['解鎖', '減CD', '引爆', '直行引爆']
+            },
+            {
+                'name': '解除束縛 ‧ 護守',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 解除自身及右旁成員被封鎖的技能<br>(此技能無視封鎖技能)<br>II. 右旁成員 CD -1<br>1 回合內<br>III. 減少 80% 所受傷害',
+                'tag': ['解鎖', '減CD', '減傷']
+            },
+            {
+                'name': '解除束縛 ‧ 五屬追擊',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 解除自身及右旁成員被封鎖的技能<br>(此技能無視封鎖技能)<br>II. 右旁成員 CD -1<br>1 回合內<br>III. 自身右旁成員<br>⇒ 追打五屬攻擊各 1 次',
+                'tag': ['解鎖', '減CD', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打']
+            },
+            {
+                'name': '解除束縛 ‧ 亢奮',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 解除自身及右旁成員被封鎖的技能<br>(此技能無視封鎖技能)<br>II. 右旁成員 CD -1<br>3 回合內<br>III. 自身及右旁成員進入亢奮狀態',
+                'tag': ['解鎖', '減CD', ['增傷', 3]]
             }
         ],
         'team_skill': []
