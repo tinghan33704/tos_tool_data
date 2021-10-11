@@ -1,4 +1,4 @@
-// Last modified : 2021.10.09 15:23
+// Last modified : 2021.10.11 18:49
 
 const monster_data = [
     {
@@ -55542,7 +55542,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': 'I. 回復相等於隊伍中所有「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力總和<br>II.「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的攻擊力提升 2.5 倍及主動技能 CD 減少 2',
+                'description': 'I. 回復相等於隊伍中所有「聖鬥士星矢」第一彈合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力總和<br>II.「聖鬥士星矢」第一彈合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的攻擊力提升 2.5 倍及主動技能 CD 減少 2',
                 'tag': ['回血', '增傷', '減CD']
             }
         ],
@@ -81466,7 +81466,7 @@ const monster_data = [
         'name': '柔情似水 ‧ 嘉蘭諾德',
         'attribute': '水',
         'race': '妖精類',
-        'star': 5,
+        'star': 6,
         'monsterTag': ['七輪會職員'],
         'crossOver': false,
         'skill': [
@@ -81546,7 +81546,7 @@ const monster_data = [
         'name': '亡命燭火 ‧ 比夫隆',
         'attribute': '暗',
         'race': '妖精類',
-        'star': 7,
+        'star': 6,
         'monsterTag': ['討伐戰'],
         'crossOver': false,
         'skill': [
