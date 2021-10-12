@@ -733,7 +733,7 @@ select {
     overflow-x: hidden;
     padding-top: 20px;
     transition: 0.5s;
-    z-index: 1;
+    z-index: 2;
 }
 
 .side_navigation a {
@@ -750,6 +750,11 @@ select {
 
 .side_navigation a:hover {
     background-color: #666666;
+}
+
+.side_navigation hr {
+    border-top: 1.5px solid #ffffff;
+    width: 96%;
 }
 
 @media (max-width:450px) {
