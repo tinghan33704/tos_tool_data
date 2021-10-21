@@ -1,4 +1,4 @@
-// Last modified : 2021.10.13 17:29
+// Last modified : 2021.10.21 17:31
 
 const monster_data = [
     {
@@ -19711,7 +19711,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '下一回合的自身攻擊力與此回合相同',
+                'description': '下回合的自身攻擊力與此回合相同',
                 'tag': ['增傷', '界王拳']
             },
             {
@@ -19720,7 +19720,7 @@ const monster_data = [
                 'refine': 4,
                 'charge': 'CD',
                 'num': 10,
-                'description': '下一回合的自身攻擊力為此回合全隊總攻擊力',
+                'description': '下回合的自身攻擊力為此回合全隊總攻擊力',
                 'tag': ['增傷', '界王拳']
             }
         ],
@@ -20197,7 +20197,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 10,
-                'description': '下一回合的自身攻擊力與此回合相同',
+                'description': '下回合的自身攻擊力與此回合相同',
                 'tag': ['增傷', '界王拳']
             }
         ],
@@ -74944,20 +74944,28 @@ const monster_data = [
     },
     {
         'id': 2737,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '萬蛛聖夜 ‧ 伊莎貝爾',
+        'attribute': '木',
+        'race': '妖精類',
+        'star': 6,
+        'monsterTag': ['公會任務'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '惑',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': '1 回合內，敵方互相或自我進行 1 次攻擊',
+                'tag': ['魅惑敵方']
+            },
+            {
+                'name': '極大回復',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': 'I. 完全回復生命力<br>1 回合內<br>II. 全隊攻擊力變 0<br>III. 將我方所受傷害的 200%<br>⇒ 轉化為我方生命力',
+                'tag': ['回血', '我方減攻', '敵方傷害吸收']
             }
         ],
         'team_skill': []
@@ -81483,20 +81491,20 @@ const monster_data = [
     },
     {
         'id': 10095,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '百鍊警戒 ‧ 高賓羅',
+        'attribute': '木',
+        'race': '獸類',
+        'star': 6,
+        'monsterTag': ['七輪會職員'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '堅守',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': '1 回合內<br>I. 減少 80% 所受傷害<br>II. 回合結束時，若我方生命力 ≥50%<br>⇒ 獸類成員 CD -2',
+                'tag': ['減傷', '減CD']
             }
         ],
         'team_skill': []
@@ -81575,7 +81583,7 @@ const monster_data = [
         'name': '殘暴凶戾 ‧ 本耶普',
         'attribute': '火',
         'race': '獸類',
-        'star': 7,
+        'star': 6,
         'monsterTag': ['迴廊之主'],
         'crossOver': false,
         'skill': [
