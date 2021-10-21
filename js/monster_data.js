@@ -1,4 +1,4 @@
-// Last modified : 2021.10.21 17:31
+// Last modified : 2021.10.21 17:41
 
 const monster_data = [
     {
@@ -36565,6 +36565,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 5,
+                'reduce': 4,
                 'description': '1 回合內，木屬性及獸類攻擊力 1.5 倍，木屬性獸類攻擊力則提升至 1.8 倍',
                 'tag': ['增傷']
             },
@@ -36573,6 +36574,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 12,
+                'reduce': 4,
                 'description': '完全回復生命力。1 回合內，迴避所有攻擊；2 回合內，所有符石兼具隊伍中獸類成員屬性效果',
                 'tag': [['符石兼具木', 2], '回血', '迴避']
             }
