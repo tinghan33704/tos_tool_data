@@ -1,4 +1,4 @@
-// Last modified : 2021.10.21 17:41
+// Last modified : 2021.10.28 17:25
 
 const monster_data = [
     {
@@ -75381,12 +75381,20 @@ const monster_data = [
         'crossOver': false,
         'skill': [
             {
-                'name': '沒有技能',
+                'name': '狂暴神力',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '沒有技能',
-                'tag': []
+                'num': 10,
+                'description': '2 回合內<br>I. 神族攻擊力 3 倍<br>II. 神族無視<br>⓵「攻前盾」<br>⓶ 敵人防禦力<br>III. 首批消除 ≥10 粒神族符石<br>⇒ 本回合所受傷害不會使你死亡<br>IV. 發動技能時，若龍脈儀存量為 0 (需有龍脈儀)<br>⓵ 神族攻擊力額外 2 倍<br>⓶ 神族無視「指定形狀盾」及「五屬盾」',
+                'tag': [['增傷', 2], ['無視攻前盾', 2], ['破防', 2], ['意志', 2], ['無視拼圖盾', 2], ['無視五屬盾', 2]]
+            },
+            {
+                'name': '英雄失序',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 將敵人屬性的符石轉化為<br>⇒ 暗神族強化符石<br>1 回合內<br>II. 首批不會掉落敵人屬性符石<br>III. 首批消除所有暗符石時<br>⇒ 回合結束時，自身 CD -2',
+                'tag': ['符石轉暗', '符石轉暗強化', '神族符石製造', '水轉其他', '火轉其他', '木轉其他', '光轉其他', '強制掉落', '減CD']
             }
         ],
         'team_skill': [
@@ -75396,7 +75404,14 @@ const monster_data = [
                 'skill_tag': ['延長轉珠時間', '符石強化'],
                 'activate_tag': ['指定成員'],
                 'relative': [3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010]
-            }
+            },
+            {
+                'description': '場上有黑白符石時<br>⇒ 將移動符石時觸碰的符石轉化為神族強化符石',
+                'activate': '以「理智失序 ‧ 奧丁」作成員',
+                'skill_tag': ['符石強化', '神族符石製造'],
+                'activate_tag': [],
+                'relative': [3003]
+            },
 		]
     },
     {
@@ -81513,20 +81528,20 @@ const monster_data = [
     },
     {
         'id': 10096,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '真摰無瑕．芳荼',
+        'attribute': '木',
+        'race': '龍類',
+        'star': 6,
+        'monsterTag': ['地獄魔王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '元素龍念',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '1 回合內<br>I. 所有屬性符石兼具其他屬性符石效果<br>II. 回合結束時，將所有符石轉化為<br>⇒ 轉珠結束時放手的符石',
+                'tag': ['符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '大幅轉版', '固定版面']
             }
         ],
         'team_skill': []
@@ -81658,43 +81673,59 @@ const monster_data = [
     },
     {
         'id': 10102,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '專業兔醫 ‧ 比涅希',
+        'attribute': '木',
+        'race': '獸類',
+        'star': 6,
+        'monsterTag': ['並肩夥伴'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '仁心療法',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 完全回復生命力<br>II. 點選元素法陣上的符石<br>⇒ 引爆該種符石<br>⇒ 掉落心符石<br>1 回合內<br>III. 若有擊斃敵人，回合結束時<br>⓵ 扣除 5% 現有生命力<br>⓶ 自身 CD -5',
+                'tag': ['回血', '引爆', '指定符石引爆', '強制掉落', '我方扣血', '減CD']
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 必然延長移動符石時間 3 秒<br><br>II. 當前生命力愈高，全隊攻擊力愈高<br>⇒ 生命力全滿時可達最大 6 倍<br><br>III. 當前生命力全滿時<br>⇒ 全隊無視「攻前盾」<br><br>IV. 心符石兼屬性符石效果<br><br>V. 回合結束時若生命力未滿<br>⇒ 所有成員 CD -1<br><br>VI. 以【十】形首批消除符石<br>⓵ 所有成員無視「二屬盾」、「三屬盾」、「四屬盾」、「五屬盾」<br>⓶ 所有成員追打 2 次',
+                'activate': '以「專業兔醫 ‧ 比涅希」作隊長',
+                'skill_tag': ['延長轉珠時間', '增攻', '無視攻前盾', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '其他減CD', '無視二屬盾', '無視三屬盾', '無視四屬盾', '無視五屬盾', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打'],
+                'activate_tag': ['指定隊長'],
+                'relative': [10102]
+            },
+		]
     },
     {
         'id': 10103,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '財迷美夢 ‧ 青金石',
+        'attribute': '水',
+        'race': '妖精類',
+        'star': 6,
+        'monsterTag': ['並肩夥伴'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '深度分析',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '1 回合內<br>I. 全隊攻擊力 2 倍<br>II. 根據累計發動「深度分析」技能次數<br>⇒ 減少所受傷害<br>⇒ 累計發動 5 次可減少最多 100% 傷害<br>III. 根據累計發動「深度分析」技能次數<br>⇒ 獲得以下效果：<br>▋≥2 次：連擊 (Combo) 固定為 15<br>▋≥3 次：全隊無視「指定形狀盾」<br>▋≥4 次：效果持續 2 回合',
+                'tag': [['增傷', 2], ['減傷', 2], ['增加Combo', 2], ['無視拼圖盾', 2]]
             }
         ],
-        'team_skill': []
+        'team_skill': [
+            {
+                'description': 'I. 延長移動符石時間 3 秒<br><br>II. 將每個妖精類成員回復力基值的 3 倍各自加入自身攻擊力基值<br><br>III. 回合結束時若生命力未滿<br>⇒「財迷美夢 ‧ 青金石」CD -1<br><br>IV. 消除 ≥3 種符石<br>⇒ 妖精類成員無視「攻前盾」',
+                'activate': '以「財迷美夢 ‧ 青金石」作隊長',
+                'skill_tag': ['延長轉珠時間', '增攻', '其他減CD', '無視攻前盾'],
+                'activate_tag': ['指定隊長'],
+                'relative': [10103]
+            },
+		]
     },
     {
         'id': 10104,
