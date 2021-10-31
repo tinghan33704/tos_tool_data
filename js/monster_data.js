@@ -1,4 +1,4 @@
-// Last modified : 2021.10.29 22:42
+// Last modified : 2021.10.31 11:35
 
 const monster_data = [
     {
@@ -81631,6 +81631,7 @@ const monster_data = [
         'star': 6,
         'monsterTag': ['並肩夥伴'],
         'crossOver': false,
+		'specialImage': true,
         'skill': [
             {
                 'name': '雙刀百裂',
