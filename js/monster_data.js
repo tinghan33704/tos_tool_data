@@ -1,4 +1,4 @@
-// Last modified : 2021.11.03 17:17
+// Last modified : 2021.11.04 17:31
 
 const monster_data = [
     {
@@ -81738,23 +81738,32 @@ const monster_data = [
     },
     {
         'id': 10104,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '接待機體序號7208',
+        'attribute': '水',
+        'race': '機械族',
+        'star': 6,
+        'monsterTag': ['智能機械'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '7208 技能指令',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 引爆水符石及凍結符石<br>II. <board>將最頂 1 橫行符石<br>⇒ 轉化為水強化符石</board><br>2 回合內<br>III. 自身以外成員進入亢奮狀態',
+                'tag': ['引爆', '水符石引爆', '凍結符石處理', '符石轉水', '符石轉水強化', '固定版面', ['增傷', 2]]
             }
         ],
-        'team_skill': []
+        'team_skill': [],
+		'board': [
+			[
+				'W', 'W', 'W', 'W', 'W', 'W', 
+				'-', '-', '-', '-', '-', '-', 
+				'-', '-', '-', '-', '-', '-', 
+				'-', '-', '-', '-', '-', '-', 
+				'-', '-', '-', '-', '-', '-', 
+			]
+		]
     },
     {
         'id': 10105,
@@ -81778,20 +81787,20 @@ const monster_data = [
     },
     {
         'id': 10106,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '全速運送 ‧ 珼菈伽',
+        'attribute': '木',
+        'race': '龍類',
+        'star': 6,
+        'monsterTag': ['競技場'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '巨力壓制',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 移動符石後回復 50% 生命力 (不會溢補)<br>II. 掉落的木符石以木龍族符石代替<br>III. 龍類隊長攻擊力 3 倍<br>(效果會在關閉此技能或死亡後消失)<br><br>關閉技能時：<br>⓵ 引爆所有符石<br>⓶ 回復 50% 生命力 (不會溢補)',
+                'tag': [['回血', -1], ['龍族符石製造', -1], ['增傷', -1], ['界王拳', -1], '引爆', '整版引爆']
             }
         ],
         'team_skill': []
@@ -81818,20 +81827,20 @@ const monster_data = [
     },
     {
         'id': 10108,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '終身契守 ‧ 和謹',
+        'attribute': '火',
+        'race': '人類',
+        'star': 6,
+        'monsterTag': ['地獄魔王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '守龍之燄',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 點選場上 1 粒符石，將該符石直行及橫行的符石<br>⇒ 轉化為所點選的符石<br>1 回合內<br>II. 身旁成員攻擊力 2 倍<br>III. 身旁成員無視「固定連擊盾」<br>IV. 隊中每有 1 個龍類成員<br>⇒ 回合結束時，自身技能 CD -1',
+                'tag': ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '增傷', '界王拳', '無視固定連擊盾', '減CD']
             }
         ],
         'team_skill': []
@@ -81898,100 +81907,108 @@ const monster_data = [
     },
     {
         'id': 10112,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '絕世可愛 ‧ 雪萊',
+        'attribute': '水',
+        'race': '人類',
+        'star': 6,
+        'monsterTag': ['暢遊校園'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '逆襲的美',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': '每次只能選取 1 個效果。<br><br>效果1：<br>I. 引爆自身、隊長及戰友直行符石<br>1 回合內<br>II. 若場上有其他附加效果時<br>⇒ 全隊攻擊力 2 倍<br><br>效果2：<br>I. 點選元素法陣上的 1 粒符石<br>⇒ 將該種符石引爆<br>⇒ 掉落該種符石以外的符石<br>1 回合內<br>II. 若場上有其他附加效果時<br>⇒ 全隊攻擊力 2.5 倍<br>',
+                'tag': ['引爆', '直行引爆', '增傷', '指定符石引爆', '強制掉落']
             }
         ],
         'team_skill': []
     },
     {
         'id': 10113,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '章魚小姐 ‧ 爪娃諾',
+        'attribute': '火',
+        'race': '龍類',
+        'star': 6,
+        'monsterTag': ['暢遊校園'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '彈丸攻擊',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 發動技能及每回合結束時<br>⓵ 將光符石轉化為火強化符石<br>⓶ 將暗符石轉化為心強化符石<br>II. 隊長攻擊力 3 倍<br>III. 首批消除所有符石時<br>⇒ 龍類成員 CD -1<br>IV. 於發動攻擊前<br>⇒ 對單一敵人造成 200 萬無屬性傷害<br>(需消除符石、此傷害無視敵人防禦力及「強化突破」敵技)<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 將所有符石轉化為五屬強化符石各 6 粒',
+                'tag': [['符石轉火', -1], ['符石轉心', -1], ['符石轉火強化', -1], ['符石轉心強化', -1], ['光轉其他', -1], ['暗轉其他', -1], ['增傷', -1], ['界王拳', -1], ['減CD', -1], ['直傷', -1], ['破防直傷', -1], ['破強化直傷', -1], '隨時關閉', '符石轉水', '符石轉木', '符石轉光', '符石轉暗', '符石轉水強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '五屬版面', '大幅轉版']
             }
         ],
         'team_skill': []
     },
     {
         'id': 10114,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '嚴格執行 ‧ 珞答以',
+        'attribute': '木',
+        'race': '妖精類',
+        'star': 6,
+        'monsterTag': ['暢遊校園'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '妖言惑眾',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': 'I. 將木符石添加為妖族符石<br>1 回合內<br>II. 吸收本回合敵人首次攻擊傷害<br>III. 以所吸收攻擊力的 50 倍<br>⇒ 對其進行木屬性反擊',
+                'tag': ['妖族符石製造', '敵方傷害吸收', '直傷']
             }
         ],
         'team_skill': []
     },
     {
         'id': 10115,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '心動時刻 ‧ 莫莉安娜',
+        'attribute': '光',
+        'race': '人類',
+        'star': 6,
+        'monsterTag': ['暢遊校園'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '旋律法則',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. 以 200 倍自身攻擊力基值<br>⇒ 對敵方全體造成無屬性傷害<br>II. 若隊中有 ≥4 個光屬性人類成員<br>⇒ 此傷害無視敵人技能及我方技能加乘',
+                'tag': ['直傷', '無視技能直傷']
             }
         ],
         'team_skill': []
     },
     {
         'id': 10116,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '震盪舞台 ‧ 烏瑞亞及涅索伊',
+        'attribute': '暗',
+        'race': '神族',
+        'star': 6,
+        'monsterTag': ['暢遊校園'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '天籟無束',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 7,
+                'description': 'I. 解除所有神族成員被封鎖的技能<br>(此技能無視封鎖技能)<br>1 回合內<br>II. 全隊攻擊力 2 倍<br>III. 連擊 (Combo) 數目固定為 13',
+                'tag': ['解鎖', '增傷', '增加Combo']
+            },
+            {
+                'name': '動人神曲',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 5,
+                'description': 'I. 點選 2 直行的符石並引爆<br>⇒ 掉落該直行成員屬性強化符石<br>II. 使用後有 40% 機率<br>⇒ 使當前技能 CD 變為 0<br>(每層最多觸發 1 次)<br>(此技能無視封鎖技能)',
+                'tag': ['引爆', '直行引爆', '強制掉落', '減CD']
             }
         ],
         'team_skill': []
@@ -82072,6 +82089,34 @@ const monster_data = [
                 'num': 0,
                 'description': '',
                 'tag': []
+            }
+        ],
+        'team_skill': []
+    },
+    {
+        'id': 10200,
+        'name': '一曲傾心 ‧ 莫莉安娜',
+        'attribute': '水',
+        'race': '人類',
+        'star': 6,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '暖心樂韻',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 8,
+                'description': '1 回合內<br>I. 自身攻擊力 4 倍<br>II. 延長移動符石時間至 25 秒<br>III. 將移動符石時觸碰的「凍結符石」狀態解除',
+                'tag': ['增傷', '界王拳', '延長轉珠時間', '凍結符石處理']
+            },
+            {
+                'name': '旋律領域',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 8,
+                'description': 'I. 引爆所有符石及石化符石<br>⇒ 掉落五屬強化符石<br>2 回合內<br>II. 自身攻擊力 3 倍<br>III. 消除屬性符石時<br>⇒ 個人追打該屬性攻擊 1 次<br>IV. 消除 ≥3 種屬性符石時<br>⇒ 自身無視「指定形狀盾」',
+                'tag': ['引爆', '整版引爆', '石化符石處理', '強制掉落', '五屬版面', ['增傷', 2], ['界王拳', 2], ['水屬追打', 2], ['火屬追打', 2], ['木屬追打', 2], ['光屬追打', 2], ['暗屬追打', 2], ['自身追打', 2], ['無視拼圖盾', 2]]
             }
         ],
         'team_skill': []

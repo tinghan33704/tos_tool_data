@@ -100,7 +100,7 @@ function init() {
 
     $(".copyright").length && $(".copyright").html(() =>  {
         let year = new Date().getFullYear();
-        return "Copyright © 2019-" + year + " 蒼曜"
+        return "Copyright © 2019-" + year + " 蒼曜(tinghan33704)"
     });
     
     $("#start_filter").length && $("#start_filter").on("click", startFilter);
