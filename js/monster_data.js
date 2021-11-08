@@ -1,4 +1,4 @@
-// Last modified : 2021.11.04 17:31
+// Last modified : 2021.11.09 00:08
 
 const monster_data = [
     {
@@ -81600,7 +81600,7 @@ const monster_data = [
         'name': '殘暴凶戾 ‧ 本耶普',
         'attribute': '火',
         'race': '獸類',
-        'star': 6,
+        'star': 7,
         'monsterTag': ['迴廊之主'],
         'crossOver': false,
         'skill': [
@@ -81617,7 +81617,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 2,
-                'description': 'I. 以累積戰鬥回合數 x4 的數量 (需消除符石)<br>⇒ 轉化心獸族強化符石 (隊伍成員屬性以外符石優先轉換)<br>⇒ 最多可轉化 30 粒<br>II. 當累積至最多 30 粒時發動技能<br>⇒ 1 回合內，獸類攻擊力及回復力 2.5 倍<br>發動技能後累積戰鬥回合數減半',
+                'description': 'I. 以累積戰鬥回合數 x4 的數量 (需消除符石)<br>⇒ 轉化心獸族強化符石<br>(隊伍成員屬性以外符石優先轉換)<br>⇒ 最多可轉化 30 粒<br>II. 當累積至最多 30 粒時發動技能<br>⇒ 1 回合內，獸類攻擊力及回復力 2.5 倍<br><br>發動技能後累積戰鬥回合數減半',
                 'tag': ['符石轉心', '符石轉心強化', '獸族符石製造', '增傷', '增回']
             }
         ],
@@ -81911,7 +81911,7 @@ const monster_data = [
         'attribute': '水',
         'race': '人類',
         'star': 6,
-        'monsterTag': ['暢遊校園'],
+        'monsterTag': ['校園物語'],
         'crossOver': false,
         'skill': [
             {
@@ -81931,7 +81931,7 @@ const monster_data = [
         'attribute': '火',
         'race': '龍類',
         'star': 6,
-        'monsterTag': ['暢遊校園'],
+        'monsterTag': ['校園物語'],
         'crossOver': false,
         'skill': [
             {
@@ -81951,7 +81951,7 @@ const monster_data = [
         'attribute': '木',
         'race': '妖精類',
         'star': 6,
-        'monsterTag': ['暢遊校園'],
+        'monsterTag': ['校園物語'],
         'crossOver': false,
         'skill': [
             {
@@ -81971,7 +81971,7 @@ const monster_data = [
         'attribute': '光',
         'race': '人類',
         'star': 6,
-        'monsterTag': ['暢遊校園'],
+        'monsterTag': ['校園物語'],
         'crossOver': false,
         'skill': [
             {
@@ -81991,7 +81991,7 @@ const monster_data = [
         'attribute': '暗',
         'race': '神族',
         'star': 6,
-        'monsterTag': ['暢遊校園'],
+        'monsterTag': ['校園物語'],
         'crossOver': false,
         'skill': [
             {
@@ -82098,8 +82098,8 @@ const monster_data = [
         'name': '一曲傾心 ‧ 莫莉安娜',
         'attribute': '水',
         'race': '人類',
-        'star': 6,
-        'monsterTag': [],
+        'star': 7,
+        'monsterTag': ['一曲傾心'],
         'crossOver': false,
         'skill': [
             {
