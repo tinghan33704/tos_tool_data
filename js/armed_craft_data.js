@@ -1,4 +1,4 @@
-// Last modified : 2021.11.04 16:52
+// Last modified : 2021.11.11 13:43
 
 const armed_craft_data = [
     {
@@ -12575,6 +12575,22 @@ const armed_craft_data = [
         'skill_description': ['1 回合內，對單一敵人造成 2020 點無屬性傷害', '1 回合內，無視攻前盾'],
         'skill_tag': [],
         'armed_description': ['此召喚獸發動技能的回合，自身攻擊力提升 1.1 倍', '消除 15 粒或以上符石，自身攻擊力提升 1.1 倍'],
+        'armed_tag': [],
+    },
+    {
+        'id': 9010,
+        'name': '【9010】 章魚丸龍印',
+        'mode': '轉動龍印',
+        'attribute': '沒有限制',
+        'race': '沒有限制',
+        'star': 2,
+        'charge': '消除符石',
+        'add_hp': 1,
+        'add_atk': 1,
+        'add_rec': 1,
+        'skill_description': ['對全體敵人造成 500000 點火屬性傷害，此傷害無視防禦力', '隊長及戰友的技能 CD 減少 1'],
+        'skill_tag': [],
+        'armed_description': ['延長移動符石時間 1 秒', '消除 4 粒或以上的心符石，回復 1.5 倍隊伍回復力等值的生命力'],
         'armed_tag': [],
     },
 ]

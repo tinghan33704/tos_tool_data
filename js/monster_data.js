@@ -1,4 +1,4 @@
-// Last modified : 2021.11.09 00:08
+// Last modified : 2021.11.11 13:47
 
 const monster_data = [
     {
@@ -75630,6 +75630,26 @@ const monster_data = [
         ],
         'team_skill': []
     },
+    {
+        'id': 3012,
+        'name': '雪偶 ‧ 小霞',
+        'attribute': '水',
+        'race': '機械族',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': []
+    },
 	
 	
 	
@@ -82015,10 +82035,10 @@ const monster_data = [
     },
     {
         'id': 10117,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'name': '天道炎旌 ‧ 刻琿',
+        'attribute': '火',
+        'race': '龍類',
+        'star': 7,
         'monsterTag': [],
         'crossOver': false,
         'skill': [
