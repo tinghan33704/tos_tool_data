@@ -1,4 +1,4 @@
-// Last modified : 2021.11.12 20:23
+// Last modified : 2021.11.15 23:30
 
 const monster_data = [
     {
@@ -81800,7 +81800,7 @@ const monster_data = [
         'name': '接待機體序號7208',
         'attribute': '水',
         'race': '機械族',
-        'star': 6,
+        'star': 5,
         'monsterTag': ['智能機械'],
         'crossOver': false,
         'skill': [
@@ -82086,7 +82086,7 @@ const monster_data = [
         'attribute': '火',
         'race': '龍類',
         'star': 7,
-        'monsterTag': [],
+        'monsterTag': ['天道炎旌'],
         'crossOver': false,
         'skill': [
             {
