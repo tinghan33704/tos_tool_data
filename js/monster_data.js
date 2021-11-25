@@ -1,4 +1,4 @@
-// Last modified : 2021.11.18 19:45
+// Last modified : 2021.11.25 22:14
 
 const monster_data = [
     {
@@ -45547,7 +45547,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'EP',
                 'num': 10,
-                'description': '引爆木以外的符石；所有符石轉化為強化符石。1 回合內，自身攻擊力 30 倍，其他成員不能發動攻擊，此傷害無視防禦力。全隊回復力 1.6 倍；於發動攻擊前以 30 倍自身攻擊力對敵方全體造成木屬性傷害。回合結束時，自身進入 2 回合瀕死狀態',
+                'description': '引爆木以外的符石；所有符石轉化為強化符石。1 回合內，自身攻擊力 30 倍，其他成員不能發動攻擊，此傷害無視防禦力。全隊回復力 1.6 倍；於發動攻擊前以 30 倍自身攻擊力對敵方全體造成木屬性傷害。回合結束時，自身進入 2 回合瀕死狀態 (疲憊狀態)',
                 'tag': ['破防', '引爆', '木外符石引爆', '直傷', '增傷', '界王拳', '增回', '符石強化', ['限制成員攻擊', 2]]
             }
         ],
@@ -64521,7 +64521,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '需儲滿龍脈儀才可發動此技能：<br>I. 消耗 100% 龍脈儀能量<br>1 回合內<br>II. 自身攻擊力 10 倍<br>III. 回合結束時<br>⇒ 自身進入 2 回合瀕死狀態',
+                'description': '需儲滿龍脈儀才可發動此技能：<br>I. 消耗 100% 龍脈儀能量<br>1 回合內<br>II. 自身攻擊力 10 倍<br>III. 回合結束時<br>⇒ 自身進入 2 回合瀕死狀態 (疲憊狀態)',
                 'tag': ['增傷', '界王拳', ['限制成員攻擊', 2]]
             },
             {
@@ -64973,7 +64973,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': 'I. 額外增加 3 行符石：<br><board>分別為直行「五屬及心」機械族強化符石各 3 粒</board><br>1 回合內<br>II. 延長移動符石時間至 15 秒<br>III. 個人追打 4 次<br>(此追打無視「指定形狀盾」及「固定連擊盾」敵技)<br>IV. 回合結束時<br>⇒ 自身進入 1 回合瀕死狀態',
+                'description': 'I. 額外增加 3 行符石：<br><board>分別為直行「五屬及心」機械族強化符石各 3 粒</board><br>1 回合內<br>II. 延長移動符石時間至 15 秒<br>III. 個人追打 4 次<br>(此追打無視「指定形狀盾」及「固定連擊盾」敵技)<br>IV. 回合結束時<br>⇒ 自身進入 1 回合瀕死狀態 (疲憊狀態)',
                 'tag': ['增加符石', '固定版面', '五屬版面', '五屬心版面', '機械族符石製造', '延長轉珠時間', '火屬追打', '自身追打', '無視拼圖盾', '無視固定連擊盾', '限制成員攻擊']
             }
         ],
@@ -69690,7 +69690,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '1 回合內<br>I. 心符石兼具<br>⇒ 200% 屬性符石效果<br>II. 2 粒符石即可發動消除，效果持續至消除 1 種符石達 25 粒<br>III. 回合結束時<br>⇒ 自身進入 2 回合瀕死狀態',
+                'description': '1 回合內<br>I. 心符石兼具<br>⇒ 200% 屬性符石效果<br>II. 2 粒符石即可發動消除，效果持續至消除 1 種符石達 25 粒<br>III. 回合結束時<br>⇒ 自身進入 2 回合瀕死狀態 (疲憊狀態)',
                 'tag': ['符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '改變消除方式', '限制成員攻擊']
             }
         ],
@@ -75679,11 +75679,11 @@ const monster_data = [
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '沒有技能',
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 0,
-                'description': '',
+                'description': '沒有技能',
                 'tag': []
             }
         ],
@@ -81923,20 +81923,20 @@ const monster_data = [
     },
     {
         'id': 10109,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '特殊機體序號2234',
+        'attribute': '暗',
+        'race': '機械族',
+        'star': 6,
+        'monsterTag': ['地獄魔王'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '2234 攻擊指令',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 3,
+                'description': 'I. 全隊行動值提升 20%<br>II. 將自身直行符石<br>⇒ 添加為機械族符石<br>III. 對敵方全體造成 300 萬無屬性傷害<br>IV. 若發動技能時自身行動值達至 100%<br>⇒ 2 回合內<br>⓵ 自身攻擊力 3 倍<br>⓶ 增加 3 連擊 (Combo)',
+                'tag': ['行動值提升', '機械族符石製造', '直傷', ['增傷', 2], ['界王拳', 2], ['增加Combo', 2]]
             }
         ],
         'team_skill': []
@@ -81963,20 +81963,20 @@ const monster_data = [
     },
     {
         'id': 10111,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '察明虛偽 ‧ 安杜馬利烏士',
+        'attribute': '木',
+        'race': '神族',
+        'star': 7,
+        'monsterTag': ['討伐戰'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '吞燄化毒',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 8,
+                'description': '2 回合內<br>I. 所受中毒、燃燒傷害<br>⇒ 轉化為我方生命力<br>II. 可任意移動符石而不會發動消除<br>III. 隊中只有木屬性成員時<br>⇒ 隊伍不會被封鎖主動技能',
+                'tag': [['防毒', 2], ['無視燃燒', 2], ['排珠', 2], ['防鎖', 2]]
             }
         ],
         'team_skill': []
