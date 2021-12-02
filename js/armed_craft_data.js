@@ -1,4 +1,4 @@
-// Last modified : 2021.11.25 22:29
+// Last modified : 2021.12.02 00:26
 
 const armed_craft_data = [
     {
@@ -12442,8 +12442,8 @@ const armed_craft_data = [
         'star': 2,
         'charge': '消除符石',
         'add_hp': 0,
-        'add_atk': 0,
-        'add_rec': 0,
+        'add_atk': 5,
+        'add_rec': 5,
         'skill_description': ['1 回合內，神族成員的攻擊力提升 25%', '1 回合內，完全回復生命力'],
         'skill_tag': [],
         'armed_description': ['進入關卡後，自身主動技能 CD 減少 1', '進入關卡後，自身主動技能 CD 減少 1'],
