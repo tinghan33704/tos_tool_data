@@ -439,7 +439,25 @@ function textSanitizer(text)
     return text.replace(/<board\s*(\d*)>(.*?)<\/board>/g, `$2`).replace(/<br>/g,'').replace(/\s/g,'').toLowerCase();
 }
 
+function stringToUnicode(str)
+{
+	let unicodeStr = ""
+	str.split('').forEach((c) => {
+		unicodeStr += "u" + c.charCodeAt(0).toString(16)
+	})
+	
+	return unicodeStr
+}
 
+function unicodeToString(str)
+{
+	let textStr = ""
+	str.split("u").slice(1).forEach((c) => {
+		textStr += String.fromCharCode(parseInt(c, 16))
+	})
+	
+	return textStr
+}
 
 function encode(type)
 {
@@ -521,7 +539,7 @@ function setInputFromUrl(element, data)
 function changeUrl()
 {
     let search_str = (isTypeSelected(".filter-row") && !keyword_search) ? `search=${encode(".filter-row")}&` : ''
-    let keyword_str = (encodeURIComponent(textSanitizer($('#keyword-input').val())).length > 0 && keyword_search) ? `keyword=${encodeURIComponent(textSanitizer($('#keyword-input').val()))}&` : ''
+    let keyword_str = (stringToUnicode(textSanitizer($('#keyword-input').val())).length > 0 && keyword_search) ? `keyword=${stringToUnicode(textSanitizer($('#keyword-input').val()))}&` : ''
     let attr_str = isTypeSelected(".attr-row") ? `attr=${encode(".attr-row")}&` : ''
     let race_str = isTypeSelected(".race-row") ? `race=${encode(".race-row")}&` : ''
     let star_str = isTypeSelected(".star-row") ? `star=${encode(".star-row")}&` : ''
@@ -559,7 +577,7 @@ function readUrl()
 		setButtonFromUrl(".filter-row", decode(inputQuery['search']), clearFilterButtonRow('filter'));
 	}
     else if('keyword' in inputQuery) {
-		setInputFromUrl(".keyword-input", decodeURIComponent(inputQuery['keyword']));
+		setInputFromUrl(".keyword-input", unicodeToString(inputQuery['keyword']));
         
         $("#keyword-switch").click();
         keywordSwitch();
