@@ -521,7 +521,7 @@ function setInputFromUrl(element, data)
 function changeUrl()
 {
     let search_str = (isTypeSelected(".filter-row") && !keyword_search) ? `search=${encode(".filter-row")}&` : ''
-    let keyword_str = (escape(textSanitizer($('#keyword-input').val())).length > 0 && keyword_search) ? `keyword=${escape(textSanitizer($('#keyword-input').val()))}&` : ''
+    let keyword_str = (encodeURIComponent(textSanitizer($('#keyword-input').val())).length > 0 && keyword_search) ? `keyword=${encodeURIComponent(textSanitizer($('#keyword-input').val()))}&` : ''
     let attr_str = isTypeSelected(".attr-row") ? `attr=${encode(".attr-row")}&` : ''
     let race_str = isTypeSelected(".race-row") ? `race=${encode(".race-row")}&` : ''
     let star_str = isTypeSelected(".star-row") ? `star=${encode(".star-row")}&` : ''
@@ -538,7 +538,6 @@ function changeUrl()
 						`?${queryStr}`
 						
 				: ''
-	
     window.history.pushState(null, null, queryStr);
 }
 
@@ -560,7 +559,7 @@ function readUrl()
 		setButtonFromUrl(".filter-row", decode(inputQuery['search']), clearFilterButtonRow('filter'));
 	}
     else if('keyword' in inputQuery) {
-		setInputFromUrl(".keyword-input", unescape(inputQuery['keyword']));
+		setInputFromUrl(".keyword-input", decodeURIComponent(inputQuery['keyword']));
         
         $("#keyword-switch").click();
         keywordSwitch();
