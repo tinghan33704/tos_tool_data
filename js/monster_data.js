@@ -1,4 +1,4 @@
-// Last modified : 2021.12.13 14:01
+// Last modified : 2021.12.14 21:52
 
 const monster_data = [
     {
@@ -82466,7 +82466,7 @@ const monster_data = [
         'attribute': '水',
         'race': '人類',
         'star': 6,
-        'monsterTag': ['雄英高校'],
+        'monsterTag': ['雄英高校', '雄英高校生'],
         'crossOver': true,
         'skill': [
             {
@@ -82501,7 +82501,7 @@ const monster_data = [
         'attribute': '火',
         'race': '人類',
         'star': 6,
-        'monsterTag': ['雄英高校'],
+        'monsterTag': ['雄英高校', '雄英高校生'],
         'crossOver': true,
         'skill': [
             {
@@ -82543,7 +82543,7 @@ const monster_data = [
         'attribute': '木',
         'race': '人類',
         'star': 6,
-        'monsterTag': ['雄英高校'],
+        'monsterTag': ['雄英高校', '雄英高校生'],
         'crossOver': true,
         'skill': [
             {
@@ -82602,7 +82602,7 @@ const monster_data = [
         'attribute': '光',
         'race': '人類',
         'star': 6,
-        'monsterTag': ['雄英高校'],
+        'monsterTag': ['雄英高校', '雄英高校生'],
         'crossOver': true,
         'skill': [
             {
@@ -82637,7 +82637,7 @@ const monster_data = [
         'attribute': '暗',
         'race': '人類',
         'star': 6,
-        'monsterTag': ['雄英高校'],
+        'monsterTag': ['雄英高校', '雄英高校生'],
         'crossOver': true,
         'skill': [
             {
@@ -82665,7 +82665,7 @@ const monster_data = [
         'attribute': '木',
         'race': '人類',
         'star': 6,
-        'monsterTag': ['雄英高校'],
+        'monsterTag': ['雄英高校', '雄英高校生'],
         'crossOver': true,
         'skill': [
             {
@@ -82701,7 +82701,7 @@ const monster_data = [
         'attribute': '火',
         'race': '人類',
         'star': 6,
-        'monsterTag': ['雄英高校'],
+        'monsterTag': ['雄英高校', '雄英高校生'],
         'crossOver': true,
         'skill': [
             {
@@ -82745,7 +82745,7 @@ const monster_data = [
         'attribute': '水',
         'race': '人類',
         'star': 6,
-        'monsterTag': ['雄英高校'],
+        'monsterTag': ['雄英高校', '雄英高校生'],
         'crossOver': true,
         'skill': [
             {
@@ -82773,7 +82773,7 @@ const monster_data = [
         'attribute': '光',
         'race': '人類',
         'star': 6,
-        'monsterTag': ['雄英高校'],
+        'monsterTag': ['雄英高校', '雄英高校生'],
         'crossOver': true,
         'skill': [
             {
@@ -82817,7 +82817,7 @@ const monster_data = [
         'attribute': '暗',
         'race': '人類',
         'star': 6,
-        'monsterTag': ['雄英高校'],
+        'monsterTag': ['雄英高校', '抹消磁頭'],
         'crossOver': true,
         'skill': [
             {
@@ -82845,7 +82845,7 @@ const monster_data = [
         'attribute': '光',
         'race': '人類',
         'star': 6,
-        'monsterTag': ['敵聯合'],
+        'monsterTag': ['敵聯合', '渡我被身子'],
         'crossOver': true,
         'skill': [
             {
