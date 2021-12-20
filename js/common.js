@@ -292,6 +292,8 @@ function clearAll()
     clearFilterButtonRow('star')();
     clearFilterButtonRow('charge')();
     clearFilterButtonRow('tag')();
+    clearFilterButtonRow('activate')();
+    clearFilterButtonRow('mode')();
     clearKeyword();
 }
 
