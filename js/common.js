@@ -641,9 +641,23 @@ async function getPlayerInventory(prefix, id = null)
 				
 				if(card_info?.[card.id]) {
 					card_info[card.id].number = card_info[card.id].number + 1
+					
+					if(	card_info[card.id]?.level < card.level || 
+						card_info[card.id]?.skillLevel < card.skillLevel || 
+						card_info[card.id]?.enhanceLevel < card.enhanceLevel
+					) {
+						card_info[card.id].level = card.level
+						card_info[card.id].skillLevel = card.skillLevel
+						card_info[card.id].enhanceLevel = card.enhanceLevel
+					}
 				}
 				else {
-					card_info[card.id] = {number: 1}
+					card_info[card.id] = {
+						number: 1, 
+						level: card?.level || 0, 
+						skillLevel: card?.skillLevel || 0, 
+						enhanceLevel: card?.enhanceLevel || 0
+					}
 				}
 				
 			})
