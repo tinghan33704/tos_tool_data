@@ -193,7 +193,7 @@ function createFilterButtonRow(name, data, postAppend = '') {
         if(!$.isArray(data[0])) {
             $.each(data, (index, skill) => {
                 str += 
-                `<div class='col-6 col-md-4 col-lg-2 btn-shell'>
+                `<div class='col-6 col-md-4 col-lg-2 btn-shell' title='${skill}${postAppend}'>
                     <input type='checkbox' class='filter' id='${name}-${index}'>
                     <label class='p-1 w-100 text-center ${name}-btn' for='${name}-${index}'>${skill}${postAppend}</label>
                 </div>`;
@@ -204,7 +204,7 @@ function createFilterButtonRow(name, data, postAppend = '') {
                 str += "<div class='col-12 my-2'></div>";
                 $.each(group, (index, skill) => {
                     str += 
-                    `<div class='col-6 col-md-4 col-lg-2 btn-shell'>
+                    `<div class='col-6 col-md-4 col-lg-2 btn-shell' title='${skill}${postAppend}'>
                         <input type='checkbox' class='filter' id='${name}-${index_group}-${index}'>
                         <label class='p-1 w-100 text-center ${name}-btn' for='${name}-${index_group}-${index}'>${skill}${postAppend}</label>
                     </div>`;
@@ -332,9 +332,9 @@ function keywordSwitch()
 }
 
 function getSelectedButton(name, getFirstOnly = false) {
-    let result_set = new Set();
+    const result_set = new Set();
     let hasSelected = false;
-    
+	
     $(`.${name}-row .filter`).each(function() {
         if($(this).prop('checked'))
         {
@@ -430,6 +430,9 @@ function errorAlert(index)
         break;
         case 10:
             alert("[Error Code "+paddingZeros(index, 2)+"] 無法取得背包資料");
+        break;
+        case 11:
+            alert("[Error Code "+paddingZeros(index, 2)+"] 請先選擇標籤");
         break;
         default:
             

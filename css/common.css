@@ -162,12 +162,14 @@ body {
     color: var(--button_text_color_checked); 
     font-weight: bold;
 }
-.filter[type=checkbox]:checked + label.tag-btn {
+.filter[type=checkbox]:checked + label.tag-btn, 
+.filter[type=checkbox]:checked + label.extra-tag-btn, 
+.filter[type=checkbox]:checked + label.version-tag-btn {
     background-color: var(--button_tag_color_checked); 
     color: var(--button_text_color_checked); 
     font-weight: bold;
 }
-.filter[type=checkbox]:checked + label:not(.filter-btn):not(.keyword-btn):not(.tag-btn) {
+.filter[type=checkbox]:checked + label:not(.filter-btn):not(.keyword-btn):not(.tag-btn):not(.extra-tag-btn):not(.version-tag-btn) {
     background-color: var(--button_other_color_checked); 
     color: var(--button_text_color_checked); 
     font-weight: bold;
@@ -217,7 +219,7 @@ select {
 .btn-shell {
     padding: 3px;
 }
-.filter-btn, .tag-btn, .attr-btn, .race-btn, .star-btn, .charge-btn, .activate-btn, .keyword-btn, .option-btn, .copy-btn {
+.filter-btn, .attr-btn, .race-btn, .star-btn, .charge-btn, .activate-btn, .keyword-btn, .tag-btn, .extra-tag-btn, .version-tag-btn, .option-btn, .copy-btn {
     font-size: 1.2em;
     font-weight: normal;
     color: var(--text_color);

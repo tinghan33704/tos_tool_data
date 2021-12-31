@@ -19,7 +19,7 @@ const monster_data = [
                 "description": "",
                 "tag": []
             },
-		    {
+            {
                 "name": "",
                 "type": "normal",
                 "charge": "",
@@ -39,7 +39,8 @@ const monster_data = [
         ],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 1,
@@ -70,7 +71,8 @@ const monster_data = [
         ],
         "maxLevel": 5,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 2,
@@ -101,7 +103,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 3,
@@ -132,7 +135,8 @@ const monster_data = [
         ],
         "maxLevel": 35,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 4,
@@ -163,7 +167,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 5,
@@ -194,7 +199,8 @@ const monster_data = [
         ],
         "maxLevel": 5,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 6,
@@ -225,7 +231,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 7,
@@ -256,7 +263,8 @@ const monster_data = [
         ],
         "maxLevel": 35,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 8,
@@ -287,7 +295,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 9,
@@ -318,7 +327,8 @@ const monster_data = [
         ],
         "maxLevel": 5,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 10,
@@ -349,7 +359,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 11,
@@ -380,7 +391,8 @@ const monster_data = [
         ],
         "maxLevel": 35,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 12,
@@ -411,7 +423,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 13,
@@ -442,7 +455,8 @@ const monster_data = [
         ],
         "maxLevel": 5,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 14,
@@ -473,7 +487,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 15,
@@ -504,7 +519,8 @@ const monster_data = [
         ],
         "maxLevel": 35,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 16,
@@ -535,7 +551,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 17,
@@ -566,7 +583,8 @@ const monster_data = [
         ],
         "maxLevel": 5,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 18,
@@ -597,7 +615,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 19,
@@ -628,7 +647,8 @@ const monster_data = [
         ],
         "maxLevel": 35,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 20,
@@ -659,7 +679,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 21,
@@ -682,7 +703,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 10,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 22,
@@ -705,7 +727,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 23,
@@ -728,7 +751,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 35,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 24,
@@ -751,7 +775,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 25,
@@ -774,7 +799,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 10,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 26,
@@ -797,7 +823,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 27,
@@ -820,7 +847,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 35,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 28,
@@ -843,7 +871,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 29,
@@ -866,7 +895,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 10,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 30,
@@ -889,7 +919,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 31,
@@ -912,7 +943,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 35,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 32,
@@ -935,7 +967,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 33,
@@ -958,7 +991,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 10,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 34,
@@ -981,7 +1015,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 35,
@@ -1004,7 +1039,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 35,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 36,
@@ -1027,7 +1063,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 37,
@@ -1050,7 +1087,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 10,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 38,
@@ -1073,7 +1111,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 39,
@@ -1096,7 +1135,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 35,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 40,
@@ -1119,7 +1159,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 41,
@@ -1150,7 +1191,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 42,
@@ -1181,7 +1223,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 43,
@@ -1219,7 +1262,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 44,
@@ -1250,7 +1294,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 45,
@@ -1281,7 +1326,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 46,
@@ -1319,7 +1365,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 47,
@@ -1350,7 +1397,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 48,
@@ -1381,7 +1429,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 49,
@@ -1419,7 +1468,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 50,
@@ -1450,7 +1500,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 51,
@@ -1481,7 +1532,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 52,
@@ -1519,7 +1571,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 53,
@@ -1550,7 +1603,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 54,
@@ -1581,7 +1635,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 55,
@@ -1619,7 +1674,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 56,
@@ -1642,7 +1698,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 57,
@@ -1673,7 +1730,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 58,
@@ -1696,7 +1754,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 59,
@@ -1727,7 +1786,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 60,
@@ -1750,7 +1810,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 61,
@@ -1781,7 +1842,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 62,
@@ -1804,7 +1866,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 63,
@@ -1835,7 +1898,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 64,
@@ -1858,7 +1922,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 65,
@@ -1889,7 +1954,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 66,
@@ -1920,7 +1986,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 67,
@@ -1951,7 +2018,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 68,
@@ -1982,7 +2050,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 69,
@@ -2013,7 +2082,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 70,
@@ -2044,7 +2114,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 71,
@@ -2075,7 +2146,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 72,
@@ -2106,7 +2178,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 73,
@@ -2137,7 +2210,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 74,
@@ -2168,7 +2242,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 75,
@@ -2199,7 +2274,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 76,
@@ -2222,7 +2298,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 77,
@@ -2245,7 +2322,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 78,
@@ -2268,7 +2346,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 79,
@@ -2291,7 +2370,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 80,
@@ -2314,7 +2394,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 81,
@@ -2337,7 +2418,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 82,
@@ -2360,7 +2442,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 83,
@@ -2383,7 +2466,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 84,
@@ -2406,7 +2490,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 85,
@@ -2429,7 +2514,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 86,
@@ -2460,7 +2546,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 87,
@@ -2491,7 +2578,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 88,
@@ -2522,7 +2610,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 89,
@@ -2553,7 +2642,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 90,
@@ -2584,7 +2674,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 91,
@@ -2615,7 +2706,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 92,
@@ -2646,7 +2738,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 93,
@@ -2677,7 +2770,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 94,
@@ -2708,7 +2802,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 95,
@@ -2739,7 +2834,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 96,
@@ -2770,7 +2866,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 97,
@@ -2801,7 +2898,8 @@ const monster_data = [
         ],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 98,
@@ -2832,7 +2930,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 99,
@@ -2863,7 +2962,8 @@ const monster_data = [
         ],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 100,
@@ -2894,7 +2994,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 101,
@@ -2925,7 +3026,8 @@ const monster_data = [
         ],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 102,
@@ -2956,7 +3058,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 103,
@@ -2987,7 +3090,8 @@ const monster_data = [
         ],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 104,
@@ -3018,7 +3122,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 105,
@@ -3049,7 +3154,8 @@ const monster_data = [
         ],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 106,
@@ -3072,7 +3178,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 107,
@@ -3095,7 +3202,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 108,
@@ -3118,7 +3226,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 109,
@@ -3141,7 +3250,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 110,
@@ -3164,7 +3274,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 111,
@@ -3187,7 +3298,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 112,
@@ -3210,7 +3322,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 113,
@@ -3233,7 +3346,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 114,
@@ -3256,7 +3370,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 115,
@@ -3279,7 +3394,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 116,
@@ -3310,7 +3426,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 117,
@@ -3341,7 +3458,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 118,
@@ -3386,7 +3504,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 119,
@@ -3417,7 +3536,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 120,
@@ -3448,7 +3568,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 121,
@@ -3493,7 +3614,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 122,
@@ -3524,7 +3646,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 123,
@@ -3555,7 +3678,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 124,
@@ -3600,7 +3724,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 125,
@@ -3631,7 +3756,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 126,
@@ -3662,7 +3788,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 127,
@@ -3707,7 +3834,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 128,
@@ -3738,7 +3866,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 129,
@@ -3769,7 +3898,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 130,
@@ -3814,7 +3944,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 131,
@@ -3845,7 +3976,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 132,
@@ -3876,7 +4008,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 133,
@@ -3907,7 +4040,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 134,
@@ -3938,7 +4072,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 135,
@@ -3969,7 +4104,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 136,
@@ -4000,7 +4136,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 137,
@@ -4031,7 +4168,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 138,
@@ -4062,7 +4200,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 139,
@@ -4093,7 +4232,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 140,
@@ -4124,7 +4264,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 141,
@@ -4155,7 +4296,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 142,
@@ -4186,7 +4328,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 143,
@@ -4217,7 +4360,8 @@ const monster_data = [
         ],
         "maxLevel": 15,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 144,
@@ -4248,7 +4392,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 145,
@@ -4279,7 +4424,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 146,
@@ -4302,7 +4448,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 147,
@@ -4325,7 +4472,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 148,
@@ -4360,7 +4508,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 149,
@@ -4383,7 +4532,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 150,
@@ -4406,7 +4556,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 151,
@@ -4441,7 +4592,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 152,
@@ -4464,7 +4616,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 153,
@@ -4487,7 +4640,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 154,
@@ -4522,7 +4676,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 155,
@@ -4545,7 +4700,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 156,
@@ -4568,7 +4724,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 157,
@@ -4603,7 +4760,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 158,
@@ -4626,7 +4784,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 159,
@@ -4649,7 +4808,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 160,
@@ -4684,7 +4844,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 161,
@@ -4707,7 +4868,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 162,
@@ -4730,7 +4892,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 163,
@@ -4773,7 +4936,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 164,
@@ -4796,7 +4960,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 165,
@@ -4819,7 +4984,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 166,
@@ -4862,7 +5028,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 167,
@@ -4885,7 +5052,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 168,
@@ -4908,7 +5076,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 169,
@@ -4951,7 +5120,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 170,
@@ -4974,7 +5144,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 171,
@@ -4997,7 +5168,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 172,
@@ -5040,7 +5212,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 173,
@@ -5063,7 +5236,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 174,
@@ -5086,7 +5260,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 175,
@@ -5129,7 +5304,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 176,
@@ -5152,7 +5328,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 177,
@@ -5175,7 +5352,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 178,
@@ -5198,7 +5376,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 179,
@@ -5221,7 +5400,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 180,
@@ -5244,7 +5424,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 181,
@@ -5267,7 +5448,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 182,
@@ -5290,7 +5472,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 183,
@@ -5313,7 +5496,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 184,
@@ -5336,7 +5520,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 185,
@@ -5359,7 +5544,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 186,
@@ -5382,7 +5568,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 187,
@@ -5405,7 +5592,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 188,
@@ -5428,7 +5616,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 189,
@@ -5451,7 +5640,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 190,
@@ -5474,7 +5664,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 191,
@@ -5497,7 +5688,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 192,
@@ -5535,7 +5727,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 193,
@@ -5558,7 +5751,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 194,
@@ -5596,7 +5790,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 195,
@@ -5619,7 +5814,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 196,
@@ -5657,7 +5853,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 197,
@@ -5680,7 +5877,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 198,
@@ -5718,7 +5916,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 199,
@@ -5741,7 +5940,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 200,
@@ -5779,7 +5979,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 201,
@@ -5802,7 +6003,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 202,
@@ -5840,7 +6042,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 203,
@@ -5863,7 +6066,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 204,
@@ -5901,7 +6105,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 205,
@@ -5924,7 +6129,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 206,
@@ -5962,7 +6168,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 207,
@@ -5985,7 +6192,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 208,
@@ -6023,7 +6231,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 209,
@@ -6046,7 +6255,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 210,
@@ -6084,7 +6294,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 211,
@@ -6107,7 +6318,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 212,
@@ -6130,7 +6342,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 213,
@@ -6153,7 +6366,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 214,
@@ -6176,7 +6390,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 215,
@@ -6199,7 +6414,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 216,
@@ -6222,7 +6438,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 217,
@@ -6245,7 +6462,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 218,
@@ -6268,7 +6486,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 219,
@@ -6291,7 +6510,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 220,
@@ -6314,7 +6534,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 221,
@@ -6338,7 +6559,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 222,
@@ -6362,7 +6584,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 223,
@@ -6394,7 +6617,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 224,
@@ -6426,7 +6650,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 225,
@@ -6450,7 +6675,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 226,
@@ -6474,7 +6700,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 227,
@@ -6506,7 +6733,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 228,
@@ -6538,7 +6766,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 229,
@@ -6561,7 +6790,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 230,
@@ -6584,7 +6814,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v1.00"
     },
     {
         "id": 231,
@@ -6607,7 +6838,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 232,
@@ -6638,7 +6870,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 233,
@@ -6661,7 +6894,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 234,
@@ -6692,7 +6926,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 235,
@@ -6715,7 +6950,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 236,
@@ -6746,7 +6982,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 237,
@@ -6769,7 +7006,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 238,
@@ -6800,7 +7038,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 239,
@@ -6823,7 +7062,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 240,
@@ -6854,7 +7094,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 241,
@@ -6877,7 +7118,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 242,
@@ -6900,7 +7142,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 243,
@@ -6923,7 +7166,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 244,
@@ -6946,7 +7190,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 245,
@@ -6969,7 +7214,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 246,
@@ -6992,7 +7238,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 247,
@@ -7015,7 +7262,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 248,
@@ -7038,7 +7286,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 249,
@@ -7061,7 +7310,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 250,
@@ -7084,7 +7334,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 251,
@@ -7107,7 +7358,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 252,
@@ -7130,7 +7382,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 253,
@@ -7153,7 +7406,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 254,
@@ -7176,7 +7430,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 255,
@@ -7199,7 +7454,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 256,
@@ -7222,7 +7478,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 257,
@@ -7245,7 +7502,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 258,
@@ -7268,7 +7526,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 259,
@@ -7291,7 +7550,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 260,
@@ -7314,7 +7574,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 261,
@@ -7337,7 +7598,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 262,
@@ -7360,7 +7622,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 263,
@@ -7383,7 +7646,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 264,
@@ -7406,7 +7670,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 265,
@@ -7429,7 +7694,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 266,
@@ -7452,7 +7718,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 267,
@@ -7475,7 +7742,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 268,
@@ -7498,7 +7766,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 269,
@@ -7521,7 +7790,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 270,
@@ -7544,7 +7814,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 271,
@@ -7567,7 +7838,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 272,
@@ -7590,7 +7862,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 273,
@@ -7613,7 +7886,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 274,
@@ -7636,7 +7910,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 275,
@@ -7659,7 +7934,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 276,
@@ -7682,7 +7958,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 277,
@@ -7705,7 +7982,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 278,
@@ -7728,7 +8006,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 279,
@@ -7751,7 +8030,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 280,
@@ -7774,7 +8054,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 281,
@@ -7797,7 +8078,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 282,
@@ -7820,7 +8102,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 283,
@@ -7843,7 +8126,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 284,
@@ -7866,7 +8150,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 285,
@@ -7911,7 +8196,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 286,
@@ -7934,7 +8220,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 287,
@@ -7979,7 +8266,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 288,
@@ -8010,7 +8298,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 289,
@@ -8041,7 +8330,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 290,
@@ -8064,7 +8354,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v1.00"
     },
     {
         "id": 291,
@@ -8087,7 +8378,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 292,
@@ -8110,7 +8402,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 293,
@@ -8148,7 +8441,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 294,
@@ -8171,7 +8465,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 295,
@@ -8194,7 +8489,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 296,
@@ -8255,7 +8551,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.00"
     },
     {
         "id": 297,
@@ -8278,7 +8575,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 298,
@@ -8301,7 +8599,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 299,
@@ -8353,7 +8652,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.00"
     },
     {
         "id": 300,
@@ -8376,7 +8676,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 301,
@@ -8399,7 +8700,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 302,
@@ -8460,7 +8762,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.00"
     },
     {
         "id": 303,
@@ -8483,7 +8786,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 304,
@@ -8506,7 +8810,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 305,
@@ -8567,7 +8872,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.00"
     },
     {
         "id": 306,
@@ -8590,7 +8896,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 307,
@@ -8613,7 +8920,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 308,
@@ -8665,7 +8973,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.00"
     },
     {
         "id": 309,
@@ -8696,7 +9005,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 310,
@@ -8734,7 +9044,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.00"
     },
     {
         "id": 311,
@@ -8765,7 +9076,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 312,
@@ -8803,7 +9115,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.00"
     },
     {
         "id": 313,
@@ -8834,7 +9147,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 314,
@@ -8872,7 +9186,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.00"
     },
     {
         "id": 315,
@@ -8903,7 +9218,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 316,
@@ -8941,7 +9257,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.00"
     },
     {
         "id": 317,
@@ -8972,7 +9289,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 318,
@@ -9010,7 +9328,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.00"
     },
     {
         "id": 319,
@@ -9033,7 +9352,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 320,
@@ -9056,7 +9376,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 321,
@@ -9079,7 +9400,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 322,
@@ -9102,7 +9424,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 323,
@@ -9125,7 +9448,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 324,
@@ -9148,7 +9472,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 325,
@@ -9171,7 +9496,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 326,
@@ -9194,7 +9520,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 327,
@@ -9217,7 +9544,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 328,
@@ -9240,7 +9568,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 329,
@@ -9278,7 +9607,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 330,
@@ -9316,7 +9646,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 331,
@@ -9354,7 +9685,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 332,
@@ -9392,7 +9724,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 333,
@@ -9430,7 +9763,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 334,
@@ -9461,7 +9795,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 335,
@@ -9492,7 +9827,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 336,
@@ -9523,7 +9859,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 337,
@@ -9554,7 +9891,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 338,
@@ -9585,7 +9923,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 339,
@@ -9608,7 +9947,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 340,
@@ -9631,7 +9971,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 341,
@@ -9654,7 +9995,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 342,
@@ -9677,7 +10019,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 343,
@@ -9700,7 +10043,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.00"
     },
     {
         "id": 344,
@@ -9723,7 +10067,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.50"
     },
     {
         "id": 345,
@@ -9746,7 +10091,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.50"
     },
     {
         "id": 346,
@@ -9769,7 +10115,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.50"
     },
     {
         "id": 347,
@@ -9792,7 +10139,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.50"
     },
     {
         "id": 348,
@@ -9815,7 +10163,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.50"
     },
     {
         "id": 349,
@@ -9838,7 +10187,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2.50"
     },
     {
         "id": 350,
@@ -9869,7 +10219,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.50"
     },
     {
         "id": 351,
@@ -9900,7 +10251,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.50"
     },
     {
         "id": 352,
@@ -9931,7 +10283,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.50"
     },
     {
         "id": 353,
@@ -9962,7 +10315,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.50"
     },
     {
         "id": 354,
@@ -9993,7 +10347,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2.50"
     },
     {
         "id": 355,
@@ -10024,7 +10379,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 356,
@@ -10055,7 +10411,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 357,
@@ -10095,7 +10452,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 358,
@@ -10135,7 +10493,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 359,
@@ -10166,7 +10525,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 360,
@@ -10197,7 +10557,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 361,
@@ -10237,7 +10598,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 362,
@@ -10277,7 +10639,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 363,
@@ -10317,7 +10680,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 364,
@@ -10357,7 +10721,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 365,
@@ -10388,7 +10753,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 366,
@@ -10419,7 +10785,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 367,
@@ -10450,7 +10817,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 13,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 368,
@@ -10488,7 +10856,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 369,
@@ -10519,7 +10888,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 370,
@@ -10550,7 +10920,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 371,
@@ -10590,7 +10961,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 372,
@@ -10630,7 +11002,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 373,
@@ -10661,7 +11034,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 374,
@@ -10692,7 +11066,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 375,
@@ -10732,7 +11107,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 376,
@@ -10772,7 +11148,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 377,
@@ -10803,7 +11180,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 378,
@@ -10834,7 +11212,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 379,
@@ -10857,7 +11236,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.00"
     },
     {
         "id": 380,
@@ -10880,7 +11260,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.00"
     },
     {
         "id": 381,
@@ -10903,7 +11284,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.00"
     },
     {
         "id": 382,
@@ -10926,7 +11308,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.00"
     },
     {
         "id": 383,
@@ -10949,7 +11332,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.00"
     },
     {
         "id": 384,
@@ -10972,7 +11356,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.00"
     },
     {
         "id": 385,
@@ -10995,7 +11380,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.00"
     },
     {
         "id": 386,
@@ -11018,7 +11404,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.00"
     },
     {
         "id": 387,
@@ -11041,7 +11428,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.00"
     },
     {
         "id": 388,
@@ -11064,7 +11452,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 389,
@@ -11114,7 +11503,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 390,
@@ -11137,7 +11527,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 391,
@@ -11187,7 +11578,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 392,
@@ -11210,7 +11602,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 393,
@@ -11253,7 +11646,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 394,
@@ -11276,7 +11670,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 395,
@@ -11319,7 +11714,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 396,
@@ -11351,7 +11747,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 397,
@@ -11410,7 +11807,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.00"
     },
     {
         "id": 398,
@@ -11433,7 +11831,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.00"
     },
     {
         "id": 399,
@@ -11464,7 +11863,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.00"
     },
     {
         "id": 400,
@@ -11487,7 +11887,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.00"
     },
     {
         "id": 401,
@@ -11510,7 +11911,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.00"
     },
     {
         "id": 402,
@@ -11533,7 +11935,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.00"
     },
     {
         "id": 403,
@@ -11556,7 +11959,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.10"
     },
     {
         "id": 404,
@@ -11579,7 +11983,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.10"
     },
     {
         "id": 405,
@@ -11602,7 +12007,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.10"
     },
     {
         "id": 406,
@@ -11625,7 +12031,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.10"
     },
     {
         "id": 407,
@@ -11648,7 +12055,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.10"
     },
     {
         "id": 408,
@@ -11707,7 +12115,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 409,
@@ -11766,7 +12175,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 410,
@@ -11825,7 +12235,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 411,
@@ -11884,7 +12295,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 412,
@@ -11943,7 +12355,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 413,
@@ -11966,7 +12379,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 414,
@@ -11997,7 +12411,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 415,
@@ -12020,7 +12435,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 416,
@@ -12051,7 +12467,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 417,
@@ -12074,7 +12491,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 418,
@@ -12105,7 +12523,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 419,
@@ -12128,7 +12547,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 420,
@@ -12159,7 +12579,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 421,
@@ -12182,7 +12603,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 422,
@@ -12213,7 +12635,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.10"
     },
     {
         "id": 423,
@@ -12236,7 +12659,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.10"
     },
     {
         "id": 424,
@@ -12259,7 +12683,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.10"
     },
     {
         "id": 425,
@@ -12282,7 +12707,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 5,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.10"
     },
     {
         "id": 426,
@@ -12305,7 +12731,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.60"
     },
     {
         "id": 427,
@@ -12328,7 +12755,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.60"
     },
     {
         "id": 428,
@@ -12351,7 +12779,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.60"
     },
     {
         "id": 429,
@@ -12374,7 +12803,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.10"
     },
     {
         "id": 430,
@@ -12397,7 +12827,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.50"
     },
     {
         "id": 431,
@@ -12420,7 +12851,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.10"
     },
     {
         "id": 432,
@@ -12443,7 +12875,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.20"
     },
     {
         "id": 433,
@@ -12466,7 +12899,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.20"
     },
     {
         "id": 434,
@@ -12489,7 +12923,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.20"
     },
     {
         "id": 435,
@@ -12512,7 +12947,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.20"
     },
     {
         "id": 436,
@@ -12535,7 +12971,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.20"
     },
     {
         "id": 437,
@@ -12558,7 +12995,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v3.20"
     },
     {
         "id": 438,
@@ -12596,7 +13034,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.20"
     },
     {
         "id": 439,
@@ -12634,7 +13073,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.20"
     },
     {
         "id": 440,
@@ -12672,7 +13112,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.20"
     },
     {
         "id": 441,
@@ -12710,7 +13151,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.20"
     },
     {
         "id": 442,
@@ -12748,7 +13190,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.20"
     },
     {
         "id": 443,
@@ -12771,7 +13214,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.20"
     },
     {
         "id": 444,
@@ -12794,7 +13238,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.20"
     },
     {
         "id": 445,
@@ -12817,7 +13262,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.20"
     },
     {
         "id": 446,
@@ -12840,7 +13286,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.20"
     },
     {
         "id": 447,
@@ -12863,7 +13310,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.20"
     },
     {
         "id": 448,
@@ -12894,7 +13342,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v3.20"
     },
     {
         "id": 449,
@@ -12917,7 +13366,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 450,
@@ -12962,7 +13412,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 451,
@@ -13000,7 +13451,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 452,
@@ -13038,7 +13490,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 453,
@@ -13076,7 +13529,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 454,
@@ -13114,7 +13568,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 455,
@@ -13152,7 +13607,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 456,
@@ -13183,7 +13639,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 457,
@@ -13214,7 +13671,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 458,
@@ -13245,7 +13703,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 459,
@@ -13276,7 +13735,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 460,
@@ -13307,7 +13767,8 @@ const monster_data = [
         ],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 461,
@@ -13330,7 +13791,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 462,
@@ -13353,7 +13815,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 463,
@@ -13376,7 +13839,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 464,
@@ -13399,7 +13863,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 465,
@@ -13422,7 +13887,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 466,
@@ -13446,7 +13912,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.00"
     },
     {
         "id": 467,
@@ -13470,7 +13937,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.00"
     },
     {
         "id": 468,
@@ -13494,7 +13962,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.00"
     },
     {
         "id": 469,
@@ -13518,7 +13987,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.00"
     },
     {
         "id": 470,
@@ -13542,7 +14012,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.00"
     },
     {
         "id": 471,
@@ -13566,7 +14037,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.00"
     },
     {
         "id": 472,
@@ -13590,7 +14062,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.00"
     },
     {
         "id": 473,
@@ -13614,7 +14087,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.00"
     },
     {
         "id": 474,
@@ -13638,7 +14112,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.00"
     },
     {
         "id": 475,
@@ -13662,7 +14137,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.00"
     },
     {
         "id": 476,
@@ -13700,7 +14176,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 477,
@@ -13738,7 +14215,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 478,
@@ -13776,7 +14254,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 479,
@@ -13807,7 +14286,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.00"
     },
     {
         "id": 480,
@@ -13830,7 +14310,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.50"
     },
     {
         "id": 481,
@@ -13875,7 +14356,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.50"
     },
     {
         "id": 482,
@@ -13920,7 +14402,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.50"
     },
     {
         "id": 483,
@@ -13965,7 +14448,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.50"
     },
     {
         "id": 484,
@@ -14010,7 +14494,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.50"
     },
     {
         "id": 485,
@@ -14062,7 +14547,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.50"
     },
     {
         "id": 486,
@@ -14085,7 +14571,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.50"
     },
     {
         "id": 487,
@@ -14108,7 +14595,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.50"
     },
     {
         "id": 488,
@@ -14131,7 +14619,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.50"
     },
     {
         "id": 489,
@@ -14154,7 +14643,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.50"
     },
     {
         "id": 490,
@@ -14177,7 +14667,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.50"
     },
     {
         "id": 491,
@@ -14200,7 +14691,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.50"
     },
     {
         "id": 492,
@@ -14223,7 +14715,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.50"
     },
     {
         "id": 493,
@@ -14246,7 +14739,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.50"
     },
     {
         "id": 494,
@@ -14269,7 +14763,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.50"
     },
     {
         "id": 495,
@@ -14292,7 +14787,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.50"
     },
     {
         "id": 496,
@@ -14315,7 +14811,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.50"
     },
     {
         "id": 497,
@@ -14338,7 +14835,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.50"
     },
     {
         "id": 498,
@@ -14361,7 +14859,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.50"
     },
     {
         "id": 499,
@@ -14384,7 +14883,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.50"
     },
     {
         "id": 500,
@@ -14407,7 +14907,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.50"
     },
     {
         "id": 501,
@@ -14430,7 +14931,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.50"
     },
     {
         "id": 502,
@@ -14453,7 +14955,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 503,
@@ -14476,7 +14979,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 504,
@@ -14499,7 +15003,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 505,
@@ -14522,7 +15027,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.50"
     },
     {
         "id": 506,
@@ -14581,7 +15087,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.60"
     },
     {
         "id": 507,
@@ -14640,7 +15147,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.60"
     },
     {
         "id": 508,
@@ -14699,7 +15207,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.60"
     },
     {
         "id": 509,
@@ -14758,7 +15267,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.60"
     },
     {
         "id": 510,
@@ -14817,7 +15327,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v4.60"
     },
     {
         "id": 511,
@@ -14840,7 +15351,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 512,
@@ -14863,7 +15375,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 513,
@@ -14886,7 +15399,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 514,
@@ -14909,7 +15423,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 515,
@@ -14932,7 +15447,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 516,
@@ -14955,7 +15471,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 517,
@@ -14978,7 +15495,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 518,
@@ -15001,7 +15519,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 519,
@@ -15024,7 +15543,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 520,
@@ -15047,7 +15567,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 521,
@@ -15070,7 +15591,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 522,
@@ -15093,7 +15615,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 523,
@@ -15116,7 +15639,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 524,
@@ -15139,7 +15663,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 525,
@@ -15162,7 +15687,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 526,
@@ -15185,7 +15711,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 527,
@@ -15208,7 +15735,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 528,
@@ -15231,7 +15759,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 529,
@@ -15254,7 +15783,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 530,
@@ -15277,7 +15807,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 531,
@@ -15300,7 +15831,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 532,
@@ -15323,7 +15855,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 533,
@@ -15346,7 +15879,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 534,
@@ -15369,7 +15903,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 535,
@@ -15392,7 +15927,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 536,
@@ -15415,7 +15951,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 537,
@@ -15438,7 +15975,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 538,
@@ -15461,7 +15999,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 539,
@@ -15484,7 +16023,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 540,
@@ -15507,7 +16047,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v5.00"
     },
     {
         "id": 541,
@@ -15530,7 +16071,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 542,
@@ -15551,12 +16093,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w"]
-        ],
+        "board": [["w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v4.60"
     },
     {
         "id": 543,
@@ -15601,7 +16142,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 544,
@@ -15624,7 +16166,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.10"
     },
     {
         "id": 545,
@@ -15647,7 +16190,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 546,
@@ -15670,7 +16214,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 547,
@@ -15693,7 +16238,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 548,
@@ -15716,7 +16262,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 549,
@@ -15739,7 +16286,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 550,
@@ -15762,7 +16310,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 551,
@@ -15785,7 +16334,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 552,
@@ -15808,7 +16358,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 553,
@@ -15831,7 +16382,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 554,
@@ -15854,7 +16406,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 555,
@@ -15877,7 +16430,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 556,
@@ -15900,7 +16454,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 557,
@@ -15923,7 +16478,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 558,
@@ -15946,7 +16502,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 559,
@@ -15969,7 +16526,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 560,
@@ -15992,7 +16550,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 561,
@@ -16015,7 +16574,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 562,
@@ -16038,7 +16598,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v5.00"
     },
     {
         "id": 563,
@@ -16069,7 +16630,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.10"
     },
     {
         "id": 564,
@@ -16092,7 +16654,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 565,
@@ -16115,7 +16678,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 566,
@@ -16138,7 +16702,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 567,
@@ -16161,7 +16726,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 568,
@@ -16184,7 +16750,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 569,
@@ -16207,7 +16774,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 570,
@@ -16230,7 +16798,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 571,
@@ -16269,7 +16838,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 572,
@@ -16322,7 +16892,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 573,
@@ -16375,7 +16946,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 574,
@@ -16427,7 +16999,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 575,
@@ -16465,7 +17038,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 576,
@@ -16488,7 +17062,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 577,
@@ -16511,7 +17086,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 578,
@@ -16534,7 +17110,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 579,
@@ -16579,7 +17156,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 580,
@@ -16600,12 +17178,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d"]
-        ],
+        "board": [["d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 581,
@@ -16628,7 +17205,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 582,
@@ -16651,7 +17229,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 583,
@@ -16674,7 +17253,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 584,
@@ -16697,7 +17277,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 585,
@@ -16720,7 +17301,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 586,
@@ -16741,12 +17323,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h"]
-        ],
+        "board": [["h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 587,
@@ -16769,7 +17350,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 588,
@@ -16793,7 +17375,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.10"
     },
     {
         "id": 589,
@@ -16817,7 +17400,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.10"
     },
     {
         "id": 590,
@@ -16838,12 +17422,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e"]
-        ],
+        "board": [["e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 591,
@@ -16867,7 +17450,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 592,
@@ -16899,7 +17483,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 593,
@@ -16923,7 +17508,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 594,
@@ -16955,7 +17541,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 595,
@@ -16986,7 +17573,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 596,
@@ -17009,7 +17597,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 597,
@@ -17052,7 +17641,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 598,
@@ -17075,7 +17665,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 599,
@@ -17118,7 +17709,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 600,
@@ -17141,7 +17733,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 601,
@@ -17184,7 +17777,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 602,
@@ -17207,7 +17801,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 603,
@@ -17250,7 +17845,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 604,
@@ -17273,7 +17869,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 605,
@@ -17316,7 +17913,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.00"
     },
     {
         "id": 606,
@@ -17339,7 +17937,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 607,
@@ -17362,7 +17961,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 608,
@@ -17385,7 +17985,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 609,
@@ -17408,7 +18009,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 610,
@@ -17431,7 +18033,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 611,
@@ -17454,7 +18057,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 612,
@@ -17477,7 +18081,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 613,
@@ -17500,7 +18105,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 614,
@@ -17523,7 +18129,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 615,
@@ -17546,7 +18153,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.00"
     },
     {
         "id": 616,
@@ -17577,7 +18185,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 617,
@@ -17600,7 +18209,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 618,
@@ -17645,7 +18255,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 619,
@@ -17668,7 +18279,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 620,
@@ -17699,7 +18311,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 40,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.20"
     },
     {
         "id": 621,
@@ -17722,7 +18335,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 35,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 622,
@@ -17745,7 +18359,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 623,
@@ -17768,7 +18383,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.10"
     },
     {
         "id": 624,
@@ -17791,7 +18407,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 35,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 625,
@@ -17814,7 +18431,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 626,
@@ -17837,7 +18455,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.10"
     },
     {
         "id": 627,
@@ -17860,7 +18479,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 35,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 628,
@@ -17883,7 +18503,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 629,
@@ -17906,7 +18527,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.10"
     },
     {
         "id": 630,
@@ -17929,7 +18551,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 35,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 631,
@@ -17952,7 +18575,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 632,
@@ -17975,7 +18599,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.10"
     },
     {
         "id": 633,
@@ -17998,7 +18623,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 35,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 634,
@@ -18021,7 +18647,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 635,
@@ -18044,7 +18671,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.10"
     },
     {
         "id": 636,
@@ -18067,7 +18695,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 637,
@@ -18090,7 +18719,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 638,
@@ -18113,7 +18743,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 639,
@@ -18136,7 +18767,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 640,
@@ -18159,7 +18791,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.10"
     },
     {
         "id": 641,
@@ -18193,7 +18826,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 642,
@@ -18227,7 +18861,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 643,
@@ -18261,7 +18896,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 644,
@@ -18295,7 +18931,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 645,
@@ -18329,7 +18966,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 646,
@@ -18352,7 +18990,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.20"
     },
     {
         "id": 647,
@@ -18375,7 +19014,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.20"
     },
     {
         "id": 648,
@@ -18398,7 +19038,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.20"
     },
     {
         "id": 649,
@@ -18421,7 +19062,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.20"
     },
     {
         "id": 650,
@@ -18444,7 +19086,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.20"
     },
     {
         "id": 651,
@@ -18487,7 +19130,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v7.20"
     },
     {
         "id": 652,
@@ -18530,7 +19174,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v7.20"
     },
     {
         "id": 653,
@@ -18573,7 +19218,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v7.20"
     },
     {
         "id": 654,
@@ -18616,7 +19262,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v7.20"
     },
     {
         "id": 655,
@@ -18659,7 +19306,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v7.20"
     },
     {
         "id": 656,
@@ -18699,7 +19347,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 24,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 657,
@@ -18739,7 +19388,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 24,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 658,
@@ -18779,7 +19429,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 24,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 659,
@@ -18819,7 +19470,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 24,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 660,
@@ -18859,7 +19511,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 24,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 661,
@@ -18894,7 +19547,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.20"
     },
     {
         "id": 662,
@@ -18929,7 +19583,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.20"
     },
     {
         "id": 663,
@@ -18964,7 +19619,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.20"
     },
     {
         "id": 664,
@@ -18999,7 +19655,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.20"
     },
     {
         "id": 665,
@@ -19034,7 +19691,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.20"
     },
     {
         "id": 666,
@@ -19065,7 +19723,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 667,
@@ -19096,7 +19755,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 668,
@@ -19127,7 +19787,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 669,
@@ -19158,7 +19819,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 670,
@@ -19189,7 +19851,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 671,
@@ -19212,7 +19875,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.20"
     },
     {
         "id": 672,
@@ -19235,7 +19899,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.20"
     },
     {
         "id": 673,
@@ -19258,7 +19923,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.20"
     },
     {
         "id": 674,
@@ -19311,7 +19977,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.20"
     },
     {
         "id": 675,
@@ -19334,7 +20001,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 676,
@@ -19357,7 +20025,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 677,
@@ -19397,7 +20066,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.30"
     },
     {
         "id": 678,
@@ -19420,7 +20090,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 679,
@@ -19460,7 +20131,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.30"
     },
     {
         "id": 680,
@@ -19483,7 +20155,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 681,
@@ -19523,7 +20196,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.30"
     },
     {
         "id": 682,
@@ -19546,7 +20220,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 683,
@@ -19586,7 +20261,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.30"
     },
     {
         "id": 684,
@@ -19609,7 +20285,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 685,
@@ -19649,7 +20326,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.30"
     },
     {
         "id": 686,
@@ -19694,7 +20372,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.30"
     },
     {
         "id": 687,
@@ -19739,7 +20418,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.30"
     },
     {
         "id": 688,
@@ -19784,7 +20464,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.30"
     },
     {
         "id": 689,
@@ -19829,7 +20510,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.30"
     },
     {
         "id": 690,
@@ -19874,7 +20556,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.30"
     },
     {
         "id": 691,
@@ -19897,7 +20580,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 692,
@@ -19920,7 +20604,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 693,
@@ -19943,7 +20628,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 694,
@@ -19966,7 +20652,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 695,
@@ -19989,7 +20676,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 696,
@@ -20012,7 +20700,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 697,
@@ -20035,7 +20724,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 698,
@@ -20058,7 +20748,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 699,
@@ -20081,7 +20772,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 700,
@@ -20104,7 +20796,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 701,
@@ -20127,7 +20820,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 702,
@@ -20150,7 +20844,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.30"
     },
     {
         "id": 703,
@@ -20208,7 +20903,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.30"
     },
     {
         "id": 704,
@@ -20266,7 +20962,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.30"
     },
     {
         "id": 705,
@@ -20295,12 +20992,11 @@ const monster_data = [
                 "relative": [479, 705]
             }
         ],
-        "board": [
-            ["f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f"]
-        ],
+        "board": [["f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.50"
     },
     {
         "id": 706,
@@ -20323,7 +21019,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.50"
     },
     {
         "id": 707,
@@ -20346,7 +21043,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.50"
     },
     {
         "id": 708,
@@ -20369,7 +21067,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.50"
     },
     {
         "id": 709,
@@ -20392,7 +21091,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.50"
     },
     {
         "id": 710,
@@ -20415,7 +21115,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.50"
     },
     {
         "id": 711,
@@ -20468,7 +21169,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 712,
@@ -20521,7 +21223,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 713,
@@ -20567,7 +21270,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 714,
@@ -20606,7 +21310,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 715,
@@ -20645,7 +21350,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 716,
@@ -20681,7 +21387,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 717,
@@ -20717,7 +21424,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 718,
@@ -20760,7 +21468,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 719,
@@ -20803,7 +21512,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 720,
@@ -20839,7 +21549,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 721,
@@ -20880,7 +21591,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 722,
@@ -20921,7 +21633,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 723,
@@ -20960,7 +21673,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 724,
@@ -21008,7 +21722,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 725,
@@ -21059,7 +21774,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 726,
@@ -21082,7 +21798,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 727,
@@ -21105,7 +21822,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 728,
@@ -21138,7 +21856,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 729,
@@ -21171,7 +21890,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 730,
@@ -21203,7 +21923,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 731,
@@ -21235,7 +21956,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 732,
@@ -21258,7 +21980,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 733,
@@ -21281,7 +22004,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 734,
@@ -21304,7 +22028,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 735,
@@ -21327,7 +22052,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 736,
@@ -21350,7 +22076,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.50"
     },
     {
         "id": 737,
@@ -21381,7 +22108,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.50"
     },
     {
         "id": 738,
@@ -21404,7 +22132,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v7.50"
     },
     {
         "id": 739,
@@ -21477,7 +22206,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v7.50"
     },
     {
         "id": 740,
@@ -21522,7 +22252,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 741,
@@ -21545,7 +22276,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.10"
     },
     {
         "id": 742,
@@ -21612,7 +22344,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.10"
     },
     {
         "id": 743,
@@ -21635,7 +22368,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 744,
@@ -21658,7 +22392,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 745,
@@ -21681,7 +22416,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 746,
@@ -21704,7 +22440,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 747,
@@ -21744,7 +22481,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.00"
     },
     {
         "id": 748,
@@ -21767,7 +22505,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 749,
@@ -21807,7 +22546,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.00"
     },
     {
         "id": 750,
@@ -21830,7 +22570,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 751,
@@ -21861,7 +22602,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.00"
     },
     {
         "id": 752,
@@ -21884,7 +22626,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 753,
@@ -21907,7 +22650,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.00"
     },
     {
         "id": 754,
@@ -21930,7 +22674,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 755,
@@ -21970,7 +22715,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.00"
     },
     {
         "id": 756,
@@ -21993,7 +22739,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 757,
@@ -22025,7 +22772,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.00"
     },
     {
         "id": 758,
@@ -22048,7 +22796,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 759,
@@ -22088,7 +22837,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.00"
     },
     {
         "id": 760,
@@ -22111,7 +22861,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 761,
@@ -22142,7 +22893,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.00"
     },
     {
         "id": 762,
@@ -22163,12 +22915,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l"]
-        ],
+        "board": [["l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l"]],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 763,
@@ -22197,12 +22948,11 @@ const monster_data = [
                 "relative": [763, 780]
             }
         ],
-        "board": [
-            ["l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l"]
-        ],
+        "board": [["l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.00"
     },
     {
         "id": 764,
@@ -22225,7 +22975,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 765,
@@ -22248,7 +22999,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.00"
     },
     {
         "id": 766,
@@ -22271,7 +23023,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 767,
@@ -22303,7 +23056,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.00"
     },
     {
         "id": 768,
@@ -22326,7 +23080,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 769,
@@ -22349,7 +23104,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 770,
@@ -22372,7 +23128,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 771,
@@ -22395,7 +23152,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 772,
@@ -22418,7 +23176,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 773,
@@ -22441,7 +23200,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 774,
@@ -22464,7 +23224,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 775,
@@ -22487,7 +23248,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 776,
@@ -22510,7 +23272,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 777,
@@ -22533,7 +23296,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 778,
@@ -22556,7 +23320,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 779,
@@ -22579,7 +23344,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 780,
@@ -22610,7 +23376,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 781,
@@ -22641,7 +23408,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 782,
@@ -22664,7 +23432,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 783,
@@ -22687,7 +23456,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.00"
     },
     {
         "id": 784,
@@ -22710,7 +23480,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.10"
     },
     {
         "id": 785,
@@ -22742,7 +23513,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.10"
     },
     {
         "id": 786,
@@ -22765,7 +23537,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.10"
     },
     {
         "id": 787,
@@ -22797,7 +23570,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.10"
     },
     {
         "id": 788,
@@ -22820,7 +23594,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.10"
     },
     {
         "id": 789,
@@ -22852,7 +23627,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.10"
     },
     {
         "id": 790,
@@ -22876,7 +23652,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.10"
     },
     {
         "id": 791,
@@ -22908,7 +23685,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.10"
     },
     {
         "id": 792,
@@ -22932,7 +23710,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.10"
     },
     {
         "id": 793,
@@ -22964,7 +23743,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.10"
     },
     {
         "id": 794,
@@ -22987,7 +23767,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.10"
     },
     {
         "id": 795,
@@ -23018,7 +23799,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.10"
     },
     {
         "id": 796,
@@ -23041,7 +23823,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.10"
     },
     {
         "id": 797,
@@ -23064,7 +23847,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.10"
     },
     {
         "id": 798,
@@ -23088,7 +23872,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.10"
     },
     {
         "id": 799,
@@ -23112,7 +23897,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v8.10"
     },
     {
         "id": 800,
@@ -23135,7 +23921,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v8.10"
     },
     {
         "id": 801,
@@ -23158,7 +23945,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.00"
     },
     {
         "id": 802,
@@ -23203,7 +23991,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.00"
     },
     {
         "id": 803,
@@ -23226,7 +24015,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.00"
     },
     {
         "id": 804,
@@ -23271,7 +24061,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.00"
     },
     {
         "id": 805,
@@ -23294,7 +24085,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.00"
     },
     {
         "id": 806,
@@ -23339,7 +24131,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.00"
     },
     {
         "id": 807,
@@ -23362,7 +24155,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.00"
     },
     {
         "id": 808,
@@ -23407,7 +24201,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.00"
     },
     {
         "id": 809,
@@ -23430,7 +24225,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.00"
     },
     {
         "id": 810,
@@ -23475,7 +24271,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.00"
     },
     {
         "id": 811,
@@ -23498,7 +24295,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 812,
@@ -23521,7 +24319,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 813,
@@ -23544,7 +24343,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 814,
@@ -23567,7 +24367,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 815,
@@ -23590,7 +24391,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 816,
@@ -23643,7 +24445,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v9.00"
     },
     {
         "id": 817,
@@ -23690,7 +24493,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v9.00"
     },
     {
         "id": 818,
@@ -23728,7 +24532,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v9.00"
     },
     {
         "id": 819,
@@ -23790,7 +24595,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v9.00"
     },
     {
         "id": 820,
@@ -23837,7 +24643,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v9.00"
     },
     {
         "id": 821,
@@ -23882,7 +24689,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v9.00"
     },
     {
         "id": 822,
@@ -23927,7 +24735,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v9.00"
     },
     {
         "id": 823,
@@ -23972,7 +24781,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v9.00"
     },
     {
         "id": 824,
@@ -24019,7 +24829,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v9.00"
     },
     {
         "id": 825,
@@ -24057,7 +24868,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v9.00"
     },
     {
         "id": 826,
@@ -24119,7 +24931,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v9.00"
     },
     {
         "id": 827,
@@ -24157,7 +24970,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v9.00"
     },
     {
         "id": 828,
@@ -24188,7 +25002,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 829,
@@ -24219,7 +25034,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 830,
@@ -24250,7 +25066,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 831,
@@ -24273,7 +25090,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 832,
@@ -24296,7 +25114,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 833,
@@ -24319,7 +25138,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 834,
@@ -24342,7 +25162,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 835,
@@ -24365,7 +25186,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 836,
@@ -24388,7 +25210,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 837,
@@ -24411,7 +25234,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 838,
@@ -24434,7 +25258,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 839,
@@ -24457,7 +25282,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 840,
@@ -24480,7 +25306,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 841,
@@ -24503,7 +25330,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 842,
@@ -24526,7 +25354,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 843,
@@ -24549,7 +25378,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 844,
@@ -24572,7 +25402,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 845,
@@ -24595,7 +25426,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 846,
@@ -24618,7 +25450,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 847,
@@ -24641,7 +25474,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 848,
@@ -24664,7 +25498,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 849,
@@ -24687,7 +25522,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 850,
@@ -24733,7 +25569,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 851,
@@ -24756,7 +25593,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 852,
@@ -24779,7 +25617,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 853,
@@ -24802,7 +25641,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 854,
@@ -24825,7 +25665,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 855,
@@ -24848,7 +25689,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 856,
@@ -24871,7 +25713,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 857,
@@ -24894,7 +25737,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 858,
@@ -24917,7 +25761,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 859,
@@ -24940,7 +25785,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 860,
@@ -24963,7 +25809,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 861,
@@ -24986,7 +25833,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 862,
@@ -25031,7 +25879,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 863,
@@ -25055,7 +25904,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 864,
@@ -25101,7 +25951,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 865,
@@ -25124,7 +25975,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 866,
@@ -25169,7 +26021,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 867,
@@ -25193,7 +26046,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 868,
@@ -25239,7 +26093,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 869,
@@ -25262,7 +26117,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 870,
@@ -25307,7 +26163,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.10"
     },
     {
         "id": 871,
@@ -25330,7 +26187,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 872,
@@ -25353,7 +26211,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 873,
@@ -25376,7 +26235,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 874,
@@ -25399,7 +26259,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 875,
@@ -25422,7 +26283,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 876,
@@ -25467,7 +26329,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.10"
     },
     {
         "id": 877,
@@ -25503,12 +26366,11 @@ const monster_data = [
                 "relative": [877, 878]
             }
         ],
-        "board": [
-            ["e", "h", "e", "-", "-", "-", "h", "e", "h", "-", "-", "-", "h", "e", "e", "-", "-", "-", "f", "h", "e", "-", "-", "-", "f", "f", "h", "-", "-", "-"]
-        ],
+        "board": [["e", "h", "e", "-", "-", "-", "h", "e", "h", "-", "-", "-", "h", "e", "e", "-", "-", "-", "f", "h", "e", "-", "-", "-", "f", "f", "h", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.20"
     },
     {
         "id": 878,
@@ -25544,12 +26406,11 @@ const monster_data = [
                 "relative": [878, 877]
             }
         ],
-        "board": [
-            ["-", "-", "-", "w", "h", "w", "-", "-", "-", "h", "w", "h", "-", "-", "-", "w", "w", "h", "-", "-", "-", "w", "h", "f", "-", "-", "-", "h", "f", "f"]
-        ],
+        "board": [["-", "-", "-", "w", "h", "w", "-", "-", "-", "h", "w", "h", "-", "-", "-", "w", "w", "h", "-", "-", "-", "w", "h", "f", "-", "-", "-", "h", "f", "f"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.20"
     },
     {
         "id": 879,
@@ -25572,7 +26433,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.20"
     },
     {
         "id": 880,
@@ -25595,7 +26457,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 881,
@@ -25618,7 +26481,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.20"
     },
     {
         "id": 882,
@@ -25641,7 +26505,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.20"
     },
     {
         "id": 883,
@@ -25664,7 +26529,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.20"
     },
     {
         "id": 884,
@@ -25687,7 +26553,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.20"
     },
     {
         "id": 885,
@@ -25711,7 +26578,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.20"
     },
     {
         "id": 886,
@@ -25735,7 +26603,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.20"
     },
     {
         "id": 887,
@@ -25758,7 +26627,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.20"
     },
     {
         "id": 888,
@@ -25781,7 +26651,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.20"
     },
     {
         "id": 889,
@@ -25805,7 +26676,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.20"
     },
     {
         "id": 890,
@@ -25829,7 +26701,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.20"
     },
     {
         "id": 891,
@@ -25852,7 +26725,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 892,
@@ -25884,7 +26758,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.25"
     },
     {
         "id": 893,
@@ -25907,7 +26782,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 894,
@@ -25947,7 +26823,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.25"
     },
     {
         "id": 895,
@@ -25970,7 +26847,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 896,
@@ -26001,7 +26879,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.25"
     },
     {
         "id": 897,
@@ -26024,7 +26903,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 898,
@@ -26056,7 +26936,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.25"
     },
     {
         "id": 899,
@@ -26079,7 +26960,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 900,
@@ -26103,7 +26985,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.25"
     },
     {
         "id": 901,
@@ -26126,7 +27009,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 902,
@@ -26157,7 +27041,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.25"
     },
     {
         "id": 903,
@@ -26180,7 +27065,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 904,
@@ -26212,7 +27098,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.25"
     },
     {
         "id": 905,
@@ -26235,7 +27122,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 906,
@@ -26273,7 +27161,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.25"
     },
     {
         "id": 907,
@@ -26296,7 +27185,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 908,
@@ -26328,7 +27218,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.25"
     },
     {
         "id": 909,
@@ -26351,7 +27242,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 910,
@@ -26383,7 +27275,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.25"
     },
     {
         "id": 911,
@@ -26406,7 +27299,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 912,
@@ -26429,7 +27323,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.25"
     },
     {
         "id": 913,
@@ -26452,7 +27347,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 914,
@@ -26476,7 +27372,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.25"
     },
     {
         "id": 915,
@@ -26499,7 +27396,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 916,
@@ -26523,7 +27421,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.25"
     },
     {
         "id": 917,
@@ -26554,7 +27453,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 918,
@@ -26577,7 +27477,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 919,
@@ -26600,7 +27501,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 920,
@@ -26623,7 +27525,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 921,
@@ -26646,7 +27549,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 922,
@@ -26669,7 +27573,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 923,
@@ -26707,7 +27612,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 924,
@@ -26730,7 +27636,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 925,
@@ -26753,7 +27660,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 926,
@@ -26776,7 +27684,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 927,
@@ -26799,7 +27708,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 928,
@@ -26822,7 +27732,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 929,
@@ -26845,7 +27756,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 930,
@@ -26868,7 +27780,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 931,
@@ -26891,7 +27804,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 932,
@@ -26914,7 +27828,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 933,
@@ -26937,7 +27852,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 934,
@@ -26960,7 +27876,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 935,
@@ -26983,7 +27900,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 936,
@@ -27006,7 +27924,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 937,
@@ -27029,7 +27948,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 938,
@@ -27052,7 +27972,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 939,
@@ -27075,7 +27996,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 940,
@@ -27098,7 +28020,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 941,
@@ -27150,7 +28073,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 942,
@@ -27202,7 +28126,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 943,
@@ -27254,7 +28179,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 944,
@@ -27306,7 +28232,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 945,
@@ -27358,7 +28285,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 946,
@@ -27382,7 +28310,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 947,
@@ -27406,7 +28335,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 948,
@@ -27430,7 +28360,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 949,
@@ -27454,7 +28385,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 950,
@@ -27478,7 +28410,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 951,
@@ -27502,7 +28435,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 952,
@@ -27526,7 +28460,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 953,
@@ -27550,7 +28485,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 954,
@@ -27574,7 +28510,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 955,
@@ -27598,7 +28535,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v9.30"
     },
     {
         "id": 956,
@@ -27633,7 +28571,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 957,
@@ -27668,7 +28607,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 958,
@@ -27703,7 +28643,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 959,
@@ -27738,7 +28679,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 960,
@@ -27773,7 +28715,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 961,
@@ -27804,7 +28747,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 27,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 962,
@@ -27835,7 +28779,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 27,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 963,
@@ -27866,7 +28811,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 27,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 964,
@@ -27897,7 +28843,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 27,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 965,
@@ -27928,7 +28875,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 27,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 966,
@@ -27951,7 +28899,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 967,
@@ -27974,7 +28923,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 968,
@@ -27997,7 +28947,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 969,
@@ -28020,7 +28971,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 970,
@@ -28043,7 +28995,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 971,
@@ -28066,7 +29019,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 972,
@@ -28089,7 +29043,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 973,
@@ -28112,7 +29067,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 974,
@@ -28135,7 +29091,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 975,
@@ -28158,7 +29115,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 976,
@@ -28249,7 +29207,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 977,
@@ -28272,7 +29231,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 978,
@@ -28310,7 +29270,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 979,
@@ -28341,7 +29302,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 980,
@@ -28364,7 +29326,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 981,
@@ -28387,7 +29350,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 982,
@@ -28410,7 +29374,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 983,
@@ -28433,7 +29398,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 984,
@@ -28456,7 +29422,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 985,
@@ -28479,7 +29446,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 986,
@@ -28502,7 +29470,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 987,
@@ -28540,7 +29509,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 988,
@@ -28563,7 +29533,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 989,
@@ -28601,7 +29572,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 990,
@@ -28624,7 +29596,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 991,
@@ -28662,7 +29635,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 992,
@@ -28685,7 +29659,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 993,
@@ -28723,7 +29698,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 994,
@@ -28746,7 +29722,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 995,
@@ -28784,7 +29761,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 996,
@@ -28815,7 +29793,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 997,
@@ -28838,7 +29817,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.10"
     },
     {
         "id": 998,
@@ -28905,7 +29885,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.10"
     },
     {
         "id": 999,
@@ -28928,7 +29909,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.25"
     },
     {
         "id": 1000,
@@ -28951,7 +29933,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.30"
     },
     {
         "id": 1001,
@@ -28974,7 +29957,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 1002,
@@ -28997,7 +29981,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 1003,
@@ -29020,7 +30005,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 1004,
@@ -29043,7 +30029,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 1005,
@@ -29066,7 +30053,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 1006,
@@ -29089,7 +30077,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.10"
     },
     {
         "id": 1007,
@@ -29112,7 +30101,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.10"
     },
     {
         "id": 1008,
@@ -29135,7 +30125,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.10"
     },
     {
         "id": 1009,
@@ -29158,7 +30149,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.10"
     },
     {
         "id": 1010,
@@ -29181,7 +30173,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.10"
     },
     {
         "id": 1011,
@@ -29204,7 +30197,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.10"
     },
     {
         "id": 1012,
@@ -29227,7 +30221,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 1013,
@@ -29250,7 +30245,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 1014,
@@ -29273,7 +30269,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 1015,
@@ -29296,7 +30293,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 1016,
@@ -29319,7 +30317,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 1017,
@@ -29386,7 +30385,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 1018,
@@ -29409,7 +30409,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 1019,
@@ -29432,7 +30433,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.20"
     },
     {
         "id": 1020,
@@ -29470,7 +30472,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.10"
     },
     {
         "id": 1021,
@@ -29558,7 +30561,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 1022,
@@ -29582,7 +30586,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 1023,
@@ -29670,7 +30675,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 1024,
@@ -29694,7 +30700,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 1025,
@@ -29782,7 +30789,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 1026,
@@ -29806,7 +30814,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 1027,
@@ -29894,7 +30903,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 1028,
@@ -29918,7 +30928,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 1029,
@@ -30006,7 +31017,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 1030,
@@ -30030,7 +31042,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.00"
     },
     {
         "id": 1031,
@@ -30053,7 +31066,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.10"
     },
     {
         "id": 1032,
@@ -30076,7 +31090,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.10"
     },
     {
         "id": 1033,
@@ -30099,7 +31114,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.10"
     },
     {
         "id": 1034,
@@ -30122,7 +31138,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.10"
     },
     {
         "id": 1035,
@@ -30145,7 +31162,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.10"
     },
     {
         "id": 1036,
@@ -30168,7 +31186,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.10"
     },
     {
         "id": 1037,
@@ -30191,7 +31210,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.10"
     },
     {
         "id": 1038,
@@ -30214,7 +31234,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.10"
     },
     {
         "id": 1039,
@@ -30237,7 +31258,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.10"
     },
     {
         "id": 1040,
@@ -30260,7 +31282,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.10"
     },
     {
         "id": 1041,
@@ -30291,7 +31314,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v10.10"
     },
     {
         "id": 1042,
@@ -30329,7 +31353,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v10.10"
     },
     {
         "id": 1043,
@@ -30367,7 +31392,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v10.10"
     },
     {
         "id": 1044,
@@ -30398,7 +31424,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v10.10"
     },
     {
         "id": 1045,
@@ -30421,7 +31448,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v10.10"
     },
     {
         "id": 1046,
@@ -30444,7 +31472,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.10"
     },
     {
         "id": 1047,
@@ -30475,7 +31504,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.10"
     },
     {
         "id": 1048,
@@ -30498,7 +31528,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.10"
     },
     {
         "id": 1049,
@@ -30529,7 +31560,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.10"
     },
     {
         "id": 1050,
@@ -30552,7 +31584,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.20"
     },
     {
         "id": 1051,
@@ -30575,7 +31608,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.20"
     },
     {
         "id": 1052,
@@ -30598,7 +31632,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.20"
     },
     {
         "id": 1053,
@@ -30621,7 +31656,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.20"
     },
     {
         "id": 1054,
@@ -30652,7 +31688,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.10"
     },
     {
         "id": 1055,
@@ -30683,7 +31720,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.10"
     },
     {
         "id": 1056,
@@ -30706,7 +31744,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1057,
@@ -30729,7 +31768,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1058,
@@ -30752,7 +31792,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1059,
@@ -30775,7 +31816,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1060,
@@ -30798,7 +31840,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1061,
@@ -30821,7 +31864,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1062,
@@ -30844,7 +31888,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1063,
@@ -30875,7 +31920,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1064,
@@ -30898,7 +31944,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1065,
@@ -30921,7 +31968,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1066,
@@ -30952,7 +32000,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1067,
@@ -30990,7 +32039,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1068,
@@ -31035,7 +32085,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1069,
@@ -31073,7 +32124,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1070,
@@ -31104,7 +32156,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v10.20"
     },
     {
         "id": 1071,
@@ -31127,7 +32180,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.20"
     },
     {
         "id": 1072,
@@ -31158,7 +32212,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.20"
     },
     {
         "id": 1073,
@@ -31181,7 +32236,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.20"
     },
     {
         "id": 1074,
@@ -31204,7 +32260,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.20"
     },
     {
         "id": 1075,
@@ -31227,7 +32284,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.20"
     },
     {
         "id": 1076,
@@ -31250,7 +32308,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.20"
     },
     {
         "id": 1077,
@@ -31281,7 +32340,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1078,
@@ -31304,7 +32364,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.00"
     },
     {
         "id": 1079,
@@ -31333,12 +32394,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d"]
-        ],
+        "board": [["d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d", "d"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.00"
     },
     {
         "id": 1080,
@@ -31369,7 +32429,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.00"
     },
     {
         "id": 1081,
@@ -31416,7 +32477,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1082,
@@ -31456,7 +32518,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1083,
@@ -31503,7 +32566,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1084,
@@ -31550,7 +32614,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1085,
@@ -31597,7 +32662,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1086,
@@ -31637,7 +32703,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1087,
@@ -31685,7 +32752,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1088,
@@ -31725,7 +32793,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1089,
@@ -31771,7 +32840,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1090,
@@ -31810,7 +32880,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1091,
@@ -31831,12 +32902,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["h", "-", "-", "-", "-", "-", "h", "-", "-", "-", "-", "-", "h", "-", "-", "-", "-", "-", "h", "-", "-", "-", "-", "-", "w", "w", "w", "w", "w", "w"]
-        ],
+        "board": [["h", "-", "-", "-", "-", "-", "h", "-", "-", "-", "-", "-", "h", "-", "-", "-", "-", "-", "h", "-", "-", "-", "-", "-", "w", "w", "w", "w", "w", "w"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1092,
@@ -31859,7 +32929,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1093,
@@ -31882,7 +32953,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1094,
@@ -31903,12 +32975,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "l", "l", "-", "-", "-", "-", "l", "l", "-", "-", "l", "l", "l", "l", "l", "l", "-", "-", "l", "l", "-", "-", "-", "-", "l", "l", "-", "-"]
-        ],
+        "board": [["-", "-", "l", "l", "-", "-", "-", "-", "l", "l", "-", "-", "l", "l", "l", "l", "l", "l", "-", "-", "l", "l", "-", "-", "-", "-", "l", "l", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1095,
@@ -31931,7 +33002,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1096,
@@ -31954,7 +33026,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1097,
@@ -31983,12 +33056,11 @@ const monster_data = [
                 "relative": [1097]
             }
         ],
-        "board": [
-            ["d", "d", "h", "h", "d", "d", "d", "h", "d", "d", "h", "d", "h", "h", "d", "d", "h", "h", "d", "h", "d", "d", "h", "d", "d", "d", "h", "h", "d", "d"]
-        ],
+        "board": [["d", "d", "h", "h", "d", "d", "d", "h", "d", "d", "h", "d", "h", "h", "d", "d", "h", "h", "d", "h", "d", "d", "h", "d", "d", "d", "h", "h", "d", "d"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.00"
     },
     {
         "id": 1098,
@@ -32011,7 +33083,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.00"
     },
     {
         "id": 1099,
@@ -32034,7 +33107,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1100,
@@ -32079,7 +33153,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1101,
@@ -32102,7 +33177,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.10"
     },
     {
         "id": 1102,
@@ -32140,7 +33216,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.10"
     },
     {
         "id": 1103,
@@ -32163,7 +33240,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.10"
     },
     {
         "id": 1104,
@@ -32201,7 +33279,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.10"
     },
     {
         "id": 1105,
@@ -32224,7 +33303,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.10"
     },
     {
         "id": 1106,
@@ -32262,7 +33342,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.10"
     },
     {
         "id": 1107,
@@ -32285,7 +33366,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.10"
     },
     {
         "id": 1108,
@@ -32323,7 +33405,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.10"
     },
     {
         "id": 1109,
@@ -32346,7 +33429,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.10"
     },
     {
         "id": 1110,
@@ -32391,7 +33475,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v11.10"
     },
     {
         "id": 1111,
@@ -32414,7 +33499,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1112,
@@ -32437,7 +33523,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1113,
@@ -32460,7 +33547,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1114,
@@ -32483,7 +33571,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1115,
@@ -32506,7 +33595,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1116,
@@ -32529,7 +33619,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1117,
@@ -32552,7 +33643,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1118,
@@ -32575,7 +33667,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1119,
@@ -32598,7 +33691,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1120,
@@ -32621,7 +33715,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1121,
@@ -32644,7 +33739,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1122,
@@ -32667,7 +33763,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1123,
@@ -32690,7 +33787,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1124,
@@ -32713,7 +33811,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1125,
@@ -32736,7 +33835,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1126,
@@ -32759,7 +33859,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v11.10"
     },
     {
         "id": 1127,
@@ -32792,7 +33893,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v11.10"
     },
     {
         "id": 1128,
@@ -32824,7 +33926,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v11.10"
     },
     {
         "id": 1129,
@@ -32847,7 +33950,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v11.10"
     },
     {
         "id": 1130,
@@ -32870,7 +33974,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v11.10"
     },
     {
         "id": 1131,
@@ -32893,7 +33998,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 1132,
@@ -32931,7 +34037,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1133,
@@ -32976,7 +34083,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1134,
@@ -32999,7 +34107,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1135,
@@ -33030,7 +34139,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1136,
@@ -33053,7 +34163,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.00"
     },
     {
         "id": 1137,
@@ -33084,7 +34195,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.00"
     },
     {
         "id": 1138,
@@ -33107,7 +34219,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.00"
     },
     {
         "id": 1139,
@@ -33138,7 +34251,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.00"
     },
     {
         "id": 1140,
@@ -33161,7 +34275,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.00"
     },
     {
         "id": 1141,
@@ -33192,7 +34307,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.00"
     },
     {
         "id": 1142,
@@ -33215,7 +34331,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.00"
     },
     {
         "id": 1143,
@@ -33246,7 +34363,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.00"
     },
     {
         "id": 1144,
@@ -33269,7 +34387,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.00"
     },
     {
         "id": 1145,
@@ -33300,7 +34419,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.00"
     },
     {
         "id": 1146,
@@ -33323,7 +34443,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1147,
@@ -33346,7 +34467,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1148,
@@ -33369,7 +34491,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1149,
@@ -33392,7 +34515,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1150,
@@ -33415,7 +34539,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1151,
@@ -33438,7 +34563,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1152,
@@ -33461,7 +34587,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1153,
@@ -33484,7 +34611,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1154,
@@ -33507,7 +34635,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1155,
@@ -33530,7 +34659,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1156,
@@ -33553,7 +34683,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1157,
@@ -33576,7 +34707,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1158,
@@ -33599,7 +34731,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1159,
@@ -33622,7 +34755,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1160,
@@ -33645,7 +34779,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1161,
@@ -33668,7 +34803,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1162,
@@ -33691,7 +34827,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 1163,
@@ -33714,7 +34851,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1164,
@@ -33737,7 +34875,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1165,
@@ -33760,7 +34899,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1166,
@@ -33792,7 +34932,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1167,
@@ -33823,7 +34964,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1168,
@@ -33855,7 +34997,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1169,
@@ -33884,12 +35027,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["F", "F", "F", "h", "h", "F", "h", "h", "F", "h", "h", "F", "F", "F", "F", "F", "F", "F", "F", "h", "h", "F", "h", "h", "F", "h", "h", "F", "F", "F"]
-        ],
+        "board": [["F", "F", "F", "h", "h", "F", "h", "h", "F", "h", "h", "F", "F", "F", "F", "F", "F", "F", "F", "h", "h", "F", "h", "h", "F", "h", "h", "F", "F", "F"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1170,
@@ -33921,7 +35063,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1171,
@@ -33952,7 +35095,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1172,
@@ -33984,7 +35128,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1173,
@@ -34015,7 +35160,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1174,
@@ -34047,7 +35193,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1175,
@@ -34076,12 +35223,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["D", "D", "D", "h", "h", "D", "h", "h", "D", "h", "h", "D", "D", "D", "D", "D", "D", "D", "D", "h", "h", "D", "h", "h", "D", "h", "h", "D", "D", "D"]
-        ],
+        "board": [["D", "D", "D", "h", "h", "D", "h", "h", "D", "h", "h", "D", "D", "D", "D", "D", "D", "D", "D", "h", "h", "D", "h", "h", "D", "h", "h", "D", "D", "D"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1176,
@@ -34104,7 +35250,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1177,
@@ -34127,7 +35274,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1178,
@@ -34150,7 +35298,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1179,
@@ -34173,7 +35322,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1180,
@@ -34196,7 +35346,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1181,
@@ -34228,7 +35379,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1182,
@@ -34260,7 +35412,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1183,
@@ -34291,7 +35444,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1184,
@@ -34322,7 +35476,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1185,
@@ -34346,7 +35501,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.10"
     },
     {
         "id": 1186,
@@ -34369,7 +35525,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1187,
@@ -34392,7 +35549,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1188,
@@ -34452,7 +35610,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1189,
@@ -34483,7 +35642,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1190,
@@ -34514,7 +35674,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1191,
@@ -34566,7 +35727,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.20"
     },
     {
         "id": 1192,
@@ -34619,7 +35781,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.20"
     },
     {
         "id": 1193,
@@ -34671,7 +35834,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.20"
     },
     {
         "id": 1194,
@@ -34724,7 +35888,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.20"
     },
     {
         "id": 1195,
@@ -34776,7 +35941,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.20"
     },
     {
         "id": 1196,
@@ -34799,7 +35965,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.20"
     },
     {
         "id": 1197,
@@ -34822,7 +35989,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.20"
     },
     {
         "id": 1198,
@@ -34845,7 +36013,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.20"
     },
     {
         "id": 1199,
@@ -34868,7 +36037,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.20"
     },
     {
         "id": 1200,
@@ -34891,7 +36061,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.20"
     },
     {
         "id": 1201,
@@ -34914,7 +36085,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.20"
     },
     {
         "id": 1202,
@@ -34937,7 +36109,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.20"
     },
     {
         "id": 1203,
@@ -34969,7 +36142,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.20"
     },
     {
         "id": 1204,
@@ -34992,7 +36166,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.20"
     },
     {
         "id": 1205,
@@ -35015,7 +36190,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.20"
     },
     {
         "id": 1206,
@@ -35047,7 +36223,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.20"
     },
     {
         "id": 1207,
@@ -35078,7 +36255,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.20"
     },
     {
         "id": 1208,
@@ -35101,7 +36279,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.20"
     },
     {
         "id": 1209,
@@ -35124,7 +36303,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.20"
     },
     {
         "id": 1210,
@@ -35147,7 +36327,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.20"
     },
     {
         "id": 1211,
@@ -35170,7 +36351,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.20"
     },
     {
         "id": 1212,
@@ -35193,7 +36375,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.20"
     },
     {
         "id": 1213,
@@ -35216,7 +36399,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1214,
@@ -35239,7 +36423,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.30"
     },
     {
         "id": 1215,
@@ -35262,7 +36447,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.30"
     },
     {
         "id": 1216,
@@ -35307,7 +36493,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.30"
     },
     {
         "id": 1217,
@@ -35352,7 +36539,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.30"
     },
     {
         "id": 1218,
@@ -35397,7 +36585,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.30"
     },
     {
         "id": 1219,
@@ -35442,7 +36631,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.30"
     },
     {
         "id": 1220,
@@ -35487,7 +36677,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.30"
     },
     {
         "id": 1221,
@@ -35510,7 +36701,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v12.30"
     },
     {
         "id": 1222,
@@ -35533,7 +36725,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v12.30"
     },
     {
         "id": 1223,
@@ -35556,7 +36749,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v12.30"
     },
     {
         "id": 1224,
@@ -35577,12 +36771,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["f", "-", "-", "f", "-", "-", "-", "f", "-", "-", "f", "-", "-", "-", "f", "-", "-", "f", "f", "-", "-", "f", "-", "-", "-", "f", "-", "-", "f", "-"]
-        ],
+        "board": [["f", "-", "-", "f", "-", "-", "-", "f", "-", "-", "f", "-", "-", "-", "f", "-", "-", "f", "f", "-", "-", "f", "-", "-", "-", "f", "-", "-", "f", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v12.30"
     },
     {
         "id": 1225,
@@ -35605,7 +36798,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v12.30"
     },
     {
         "id": 1226,
@@ -35636,7 +36830,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v12.30"
     },
     {
         "id": 1227,
@@ -35659,7 +36854,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v12.30"
     },
     {
         "id": 1228,
@@ -35690,7 +36886,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v12.30"
     },
     {
         "id": 1229,
@@ -35713,7 +36910,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v12.30"
     },
     {
         "id": 1230,
@@ -35736,7 +36934,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v12.30"
     },
     {
         "id": 1231,
@@ -35759,7 +36958,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.30"
     },
     {
         "id": 1232,
@@ -35782,7 +36982,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.30"
     },
     {
         "id": 1233,
@@ -35805,7 +37006,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.30"
     },
     {
         "id": 1234,
@@ -35828,7 +37030,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.30"
     },
     {
         "id": 1235,
@@ -35851,7 +37054,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.30"
     },
     {
         "id": 1236,
@@ -35874,7 +37078,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1237,
@@ -35905,7 +37110,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.40"
     },
     {
         "id": 1238,
@@ -35928,7 +37134,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1239,
@@ -35959,7 +37166,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.40"
     },
     {
         "id": 1240,
@@ -35982,7 +37190,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1241,
@@ -36005,7 +37214,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.40"
     },
     {
         "id": 1242,
@@ -36028,7 +37238,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1243,
@@ -36051,7 +37262,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.40"
     },
     {
         "id": 1244,
@@ -36074,7 +37286,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1245,
@@ -36105,7 +37318,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.40"
     },
     {
         "id": 1246,
@@ -36128,7 +37342,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1247,
@@ -36151,7 +37366,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.40"
     },
     {
         "id": 1248,
@@ -36174,7 +37390,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1249,
@@ -36205,7 +37422,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.40"
     },
     {
         "id": 1250,
@@ -36228,7 +37446,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1251,
@@ -36251,7 +37470,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.40"
     },
     {
         "id": 1252,
@@ -36274,7 +37494,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1253,
@@ -36297,7 +37518,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1254,
@@ -36320,7 +37542,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1255,
@@ -36351,7 +37574,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1256,
@@ -36389,7 +37613,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1257,
@@ -36427,7 +37652,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1258,
@@ -36450,7 +37676,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1259,
@@ -36473,7 +37700,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1260,
@@ -36496,7 +37724,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 1261,
@@ -36520,7 +37749,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.40"
     },
     {
         "id": 1262,
@@ -36544,7 +37774,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.40"
     },
     {
         "id": 1263,
@@ -36568,7 +37799,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.40"
     },
     {
         "id": 1264,
@@ -36592,7 +37824,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.40"
     },
     {
         "id": 1265,
@@ -36616,7 +37849,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v12.40"
     },
     {
         "id": 1266,
@@ -36639,7 +37873,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1267,
@@ -36662,7 +37897,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1268,
@@ -36686,7 +37922,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1269,
@@ -36709,7 +37946,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1270,
@@ -36733,7 +37971,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1271,
@@ -36756,7 +37995,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1272,
@@ -36779,7 +38019,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1273,
@@ -36802,7 +38043,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1274,
@@ -36825,7 +38067,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1275,
@@ -36848,7 +38091,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1276,
@@ -36871,7 +38115,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1277,
@@ -36923,7 +38168,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1278,
@@ -36946,7 +38192,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1279,
@@ -36975,12 +38222,11 @@ const monster_data = [
                 "relative": [1279]
             }
         ],
-        "board": [
-            ["-", "f", "f", "-", "-", "-", "-", "-", "-", "-", "-", "f", "f", "-", "-", "-", "-", "f", "f", "-", "-", "-", "-", "-", "-", "-", "-", "f", "f", "-"]
-        ],
+        "board": [["-", "f", "f", "-", "-", "-", "-", "-", "-", "-", "-", "f", "f", "-", "-", "-", "-", "f", "f", "-", "-", "-", "-", "-", "-", "-", "-", "f", "f", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1280,
@@ -37003,7 +38249,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1281,
@@ -37041,7 +38288,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1282,
@@ -37064,7 +38312,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1283,
@@ -37087,7 +38336,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1284,
@@ -37110,7 +38360,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1285,
@@ -37133,7 +38384,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1286,
@@ -37156,7 +38408,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1287,
@@ -37199,12 +38452,11 @@ const monster_data = [
                 "relative": [1287, 1672]
             }
         ],
-        "board": [
-            ["w", "-", "-", "-", "-", "l", "w", "-", "-", "-", "-", "l", "w", "-", "-", "-", "-", "l", "w", "-", "-", "-", "-", "l", "w", "-", "-", "-", "-", "l"]
-        ],
+        "board": [["w", "-", "-", "-", "-", "l", "w", "-", "-", "-", "-", "l", "w", "-", "-", "-", "-", "l", "w", "-", "-", "-", "-", "l", "w", "-", "-", "-", "-", "l"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1288,
@@ -37227,7 +38479,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1289,
@@ -37265,7 +38518,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1290,
@@ -37288,7 +38542,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1291,
@@ -37319,7 +38574,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1292,
@@ -37357,7 +38613,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1293,
@@ -37395,7 +38652,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1294,
@@ -37433,7 +38691,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1295,
@@ -37456,7 +38715,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1296,
@@ -37494,7 +38754,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1297,
@@ -37532,7 +38793,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1298,
@@ -37591,7 +38853,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1299,
@@ -37614,7 +38877,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1300,
@@ -37637,7 +38901,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.00"
     },
     {
         "id": 1301,
@@ -37658,12 +38923,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["w", "w", "-", "-", "w", "w", "w", "-", "-", "-", "-", "w", "-", "-", "-", "-", "-", "-", "w", "-", "-", "-", "-", "w", "w", "w", "-", "-", "w", "w"]
-        ],
+        "board": [["w", "w", "-", "-", "w", "w", "w", "-", "-", "-", "-", "w", "-", "-", "-", "-", "-", "-", "w", "-", "-", "-", "-", "w", "w", "w", "-", "-", "w", "w"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1302,
@@ -37684,12 +38948,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["f", "f", "-", "-", "f", "f", "f", "-", "-", "-", "-", "f", "-", "-", "-", "-", "-", "-", "f", "-", "-", "-", "-", "f", "f", "f", "-", "-", "f", "f"]
-        ],
+        "board": [["f", "f", "-", "-", "f", "f", "f", "-", "-", "-", "-", "f", "-", "-", "-", "-", "-", "-", "f", "-", "-", "-", "-", "f", "f", "f", "-", "-", "f", "f"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1303,
@@ -37710,12 +38973,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["e", "e", "-", "-", "e", "e", "e", "-", "-", "-", "-", "e", "-", "-", "-", "-", "-", "-", "e", "-", "-", "-", "-", "e", "e", "e", "-", "-", "e", "e"]
-        ],
+        "board": [["e", "e", "-", "-", "e", "e", "e", "-", "-", "-", "-", "e", "-", "-", "-", "-", "-", "-", "e", "-", "-", "-", "-", "e", "e", "e", "-", "-", "e", "e"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1304,
@@ -37736,12 +38998,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["l", "l", "-", "-", "l", "l", "l", "-", "-", "-", "-", "l", "-", "-", "-", "-", "-", "-", "l", "-", "-", "-", "-", "l", "l", "l", "-", "-", "l", "l"]
-        ],
+        "board": [["l", "l", "-", "-", "l", "l", "l", "-", "-", "-", "-", "l", "-", "-", "-", "-", "-", "-", "l", "-", "-", "-", "-", "l", "l", "l", "-", "-", "l", "l"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1305,
@@ -37762,12 +39023,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["d", "d", "-", "-", "d", "d", "d", "-", "-", "-", "-", "d", "-", "-", "-", "-", "-", "-", "d", "-", "-", "-", "-", "d", "d", "d", "-", "-", "d", "d"]
-        ],
+        "board": [["d", "d", "-", "-", "d", "d", "d", "-", "-", "-", "-", "d", "-", "-", "-", "-", "-", "-", "d", "-", "-", "-", "-", "d", "d", "d", "-", "-", "d", "d"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1306,
@@ -37802,7 +39062,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1307,
@@ -37837,7 +39098,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1308,
@@ -37868,7 +39130,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1309,
@@ -37970,7 +39233,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1310,
@@ -38080,7 +39344,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.00"
     },
     {
         "id": 1311,
@@ -38118,7 +39383,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.20"
     },
     {
         "id": 1312,
@@ -38156,7 +39422,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.20"
     },
     {
         "id": 1313,
@@ -38194,7 +39461,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.20"
     },
     {
         "id": 1314,
@@ -38232,7 +39500,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.20"
     },
     {
         "id": 1315,
@@ -38270,7 +39539,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.20"
     },
     {
         "id": 1316,
@@ -38301,7 +39571,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1317,
@@ -38332,7 +39603,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1318,
@@ -38363,7 +39635,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1319,
@@ -38394,7 +39667,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1320,
@@ -38425,7 +39699,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1321,
@@ -38448,7 +39723,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.40"
     },
     {
         "id": 1322,
@@ -38471,7 +39747,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.40"
     },
     {
         "id": 1323,
@@ -38494,7 +39771,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.40"
     },
     {
         "id": 1324,
@@ -38517,7 +39795,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.40"
     },
     {
         "id": 1325,
@@ -38540,7 +39819,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.40"
     },
     {
         "id": 1326,
@@ -38594,7 +39874,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.00"
     },
     {
         "id": 1327,
@@ -38619,7 +39900,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.00"
     },
     {
         "id": 1328,
@@ -38673,7 +39955,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.00"
     },
     {
         "id": 1329,
@@ -38698,7 +39981,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.00"
     },
     {
         "id": 1330,
@@ -38745,7 +40029,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.00"
     },
     {
         "id": 1331,
@@ -38770,7 +40055,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.00"
     },
     {
         "id": 1332,
@@ -38810,7 +40096,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.00"
     },
     {
         "id": 1333,
@@ -38835,7 +40122,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.00"
     },
     {
         "id": 1334,
@@ -38875,7 +40163,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.00"
     },
     {
         "id": 1335,
@@ -38900,7 +40189,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.00"
     },
     {
         "id": 1336,
@@ -38923,7 +40213,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v14.10"
     },
     {
         "id": 1337,
@@ -38946,7 +40237,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v14.10"
     },
     {
         "id": 1338,
@@ -38969,7 +40261,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v14.10"
     },
     {
         "id": 1339,
@@ -39000,7 +40293,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v14.10"
     },
     {
         "id": 1340,
@@ -39023,7 +40317,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v14.10"
     },
     {
         "id": 1341,
@@ -39061,7 +40356,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.20"
     },
     {
         "id": 1342,
@@ -39099,7 +40395,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.20"
     },
     {
         "id": 1343,
@@ -39137,7 +40434,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.20"
     },
     {
         "id": 1344,
@@ -39175,7 +40473,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.20"
     },
     {
         "id": 1345,
@@ -39213,7 +40512,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.20"
     },
     {
         "id": 1346,
@@ -39236,7 +40536,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1347,
@@ -39259,7 +40560,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1348,
@@ -39282,7 +40584,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1349,
@@ -39305,7 +40608,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1350,
@@ -39328,7 +40632,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1351,
@@ -39366,7 +40671,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.30"
     },
     {
         "id": 1352,
@@ -39404,7 +40710,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.30"
     },
     {
         "id": 1353,
@@ -39442,7 +40749,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.30"
     },
     {
         "id": 1354,
@@ -39480,7 +40788,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.30"
     },
     {
         "id": 1355,
@@ -39525,7 +40834,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.30"
     },
     {
         "id": 1356,
@@ -39564,7 +40874,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1357,
@@ -39588,7 +40899,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1358,
@@ -39627,7 +40939,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1359,
@@ -39651,7 +40964,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1360,
@@ -39690,7 +41004,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1361,
@@ -39714,7 +41029,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1362,
@@ -39753,7 +41069,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1363,
@@ -39777,7 +41094,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1364,
@@ -39816,7 +41134,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1365,
@@ -39840,7 +41159,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1366,
@@ -39863,7 +41183,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1367,
@@ -39886,7 +41207,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1368,
@@ -39909,7 +41231,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1369,
@@ -39932,7 +41255,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1370,
@@ -39955,7 +41279,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1371,
@@ -39994,7 +41319,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1372,
@@ -40018,7 +41344,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1373,
@@ -40050,7 +41377,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1374,
@@ -40074,7 +41402,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1375,
@@ -40105,7 +41434,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.10"
     },
     {
         "id": 1376,
@@ -40136,7 +41466,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.10"
     },
     {
         "id": 1377,
@@ -40167,7 +41498,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.10"
     },
     {
         "id": 1378,
@@ -40198,7 +41530,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.10"
     },
     {
         "id": 1379,
@@ -40229,7 +41562,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.10"
     },
     {
         "id": 1380,
@@ -40264,7 +41598,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1381,
@@ -40288,7 +41623,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1382,
@@ -40323,7 +41659,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1383,
@@ -40347,7 +41684,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1384,
@@ -40382,7 +41720,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1385,
@@ -40406,7 +41745,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1386,
@@ -40441,7 +41781,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1387,
@@ -40465,7 +41806,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1388,
@@ -40500,7 +41842,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1389,
@@ -40524,7 +41867,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1390,
@@ -40547,7 +41891,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v15.40"
     },
     {
         "id": 1391,
@@ -40576,12 +41921,11 @@ const monster_data = [
                 "relative": [1391]
             }
         ],
-        "board": [
-            ["F", "-", "-", "F", "-", "-", "-", "F", "-", "-", "F", "-", "-", "-", "F", "-", "-", "F", "F", "-", "-", "F", "-", "-", "-", "F", "-", "-", "F", "-"]
-        ],
+        "board": [["F", "-", "-", "F", "-", "-", "-", "F", "-", "-", "F", "-", "-", "-", "F", "-", "-", "F", "F", "-", "-", "F", "-", "-", "-", "F", "-", "-", "F", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v15.40"
     },
     {
         "id": 1392,
@@ -40614,7 +41958,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v15.40"
     },
     {
         "id": 1393,
@@ -40645,7 +41990,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v15.40"
     },
     {
         "id": 1394,
@@ -40668,7 +42014,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 5
+        "maxRefine": 5,
+        "version": "v15.40"
     },
     {
         "id": 1395,
@@ -40713,7 +42060,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1396,
@@ -40736,7 +42084,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1397,
@@ -40795,7 +42144,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1398,
@@ -40818,7 +42168,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1399,
@@ -40841,7 +42192,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.20"
     },
     {
         "id": 1400,
@@ -40864,7 +42216,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 1401,
@@ -40887,7 +42240,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 1,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.20"
     },
     {
         "id": 1402,
@@ -40910,7 +42264,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 1,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.20"
     },
     {
         "id": 1403,
@@ -40933,7 +42288,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 1,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.20"
     },
     {
         "id": 1404,
@@ -40962,12 +42318,11 @@ const monster_data = [
                 "relative": [1081, 1083, 1085, 1087, 1089, 1082, 1084, 1086, 1088, 1090, 1404]
             }
         ],
-        "board": [
-            ["e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e"]
-        ],
+        "board": [["e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1405,
@@ -40998,7 +42353,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.00"
     },
     {
         "id": 1406,
@@ -41021,7 +42377,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1407,
@@ -41044,7 +42401,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1408,
@@ -41067,7 +42425,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1409,
@@ -41090,7 +42449,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1410,
@@ -41113,7 +42473,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1411,
@@ -41136,7 +42497,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.10"
     },
     {
         "id": 1412,
@@ -41159,7 +42521,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.10"
     },
     {
         "id": 1413,
@@ -41182,7 +42545,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.10"
     },
     {
         "id": 1414,
@@ -41205,7 +42569,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.10"
     },
     {
         "id": 1415,
@@ -41228,7 +42593,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.10"
     },
     {
         "id": 1416,
@@ -41251,7 +42617,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1417,
@@ -41274,7 +42641,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1418,
@@ -41297,7 +42665,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1419,
@@ -41320,7 +42689,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1420,
@@ -41343,7 +42713,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1421,
@@ -41366,7 +42737,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1422,
@@ -41389,7 +42761,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1423,
@@ -41410,12 +42783,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "L", "L", "L", "L", "L", "L"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "L", "L", "L", "L", "L", "L"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1424,
@@ -41438,7 +42810,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1425,
@@ -41461,7 +42834,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1426,
@@ -41484,7 +42858,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1427,
@@ -41515,7 +42890,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1428,
@@ -41536,12 +42912,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E"]
-        ],
+        "board": [["E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E"]],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1429,
@@ -41570,12 +42945,11 @@ const monster_data = [
                 "relative": [1429]
             }
         ],
-        "board": [
-            ["E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E"]
-        ],
+        "board": [["E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E", "h", "h", "E", "E"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1430,
@@ -41598,7 +42972,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1431,
@@ -41621,7 +42996,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.10"
     },
     {
         "id": 1432,
@@ -41644,7 +43020,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.10"
     },
     {
         "id": 1433,
@@ -41667,7 +43044,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.10"
     },
     {
         "id": 1434,
@@ -41690,7 +43068,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.10"
     },
     {
         "id": 1435,
@@ -41713,7 +43092,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.10"
     },
     {
         "id": 1436,
@@ -41736,7 +43116,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.10"
     },
     {
         "id": 1437,
@@ -41759,7 +43140,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.10"
     },
     {
         "id": 1438,
@@ -41797,7 +43179,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.10"
     },
     {
         "id": 1439,
@@ -41828,7 +43211,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1440,
@@ -41851,7 +43235,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1441,
@@ -41874,7 +43259,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1442,
@@ -41897,7 +43283,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1443,
@@ -41920,7 +43307,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1444,
@@ -41943,7 +43331,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1445,
@@ -41966,7 +43355,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1446,
@@ -41997,7 +43387,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1447,
@@ -42028,7 +43419,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1448,
@@ -42059,7 +43451,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1449,
@@ -42090,7 +43483,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1450,
@@ -42121,7 +43515,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1451,
@@ -42152,7 +43547,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1452,
@@ -42183,7 +43579,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1453,
@@ -42221,7 +43618,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1454,
@@ -42252,7 +43650,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1455,
@@ -42291,7 +43690,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1456,
@@ -42322,7 +43722,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1457,
@@ -42353,7 +43754,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1458,
@@ -42384,7 +43786,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1459,
@@ -42415,7 +43818,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1460,
@@ -42446,7 +43850,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1461,
@@ -42477,7 +43882,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1462,
@@ -42500,7 +43906,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1463,
@@ -42523,7 +43930,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1464,
@@ -42546,7 +43954,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1465,
@@ -42569,7 +43978,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1466,
@@ -42600,7 +44010,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.20"
     },
     {
         "id": 1467,
@@ -42623,7 +44034,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1468,
@@ -42646,7 +44058,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1469,
@@ -42669,7 +44082,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1470,
@@ -42700,7 +44114,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1471,
@@ -42723,7 +44138,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1472,
@@ -42746,7 +44162,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1473,
@@ -42769,7 +44186,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1474,
@@ -42800,7 +44218,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1475,
@@ -42823,7 +44242,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1476,
@@ -42854,7 +44274,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1477,
@@ -42877,7 +44298,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1478,
@@ -42908,7 +44330,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1479,
@@ -42931,7 +44354,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1480,
@@ -42954,7 +44378,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1481,
@@ -42977,7 +44402,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1482,
@@ -43000,7 +44426,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1483,
@@ -43023,7 +44450,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1484,
@@ -43054,7 +44482,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1485,
@@ -43077,7 +44506,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1486,
@@ -43100,7 +44530,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1487,
@@ -43123,7 +44554,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1488,
@@ -43154,7 +44586,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1489,
@@ -43177,7 +44610,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1490,
@@ -43200,7 +44634,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1491,
@@ -43223,7 +44658,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1492,
@@ -43246,7 +44682,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1493,
@@ -43269,7 +44706,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1494,
@@ -43292,7 +44730,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.30"
     },
     {
         "id": 1495,
@@ -43315,7 +44754,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.35"
     },
     {
         "id": 1496,
@@ -43338,7 +44778,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.35"
     },
     {
         "id": 1497,
@@ -43361,7 +44802,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.35"
     },
     {
         "id": 1498,
@@ -43384,7 +44826,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.35"
     },
     {
         "id": 1499,
@@ -43407,7 +44850,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.35"
     },
     {
         "id": 1500,
@@ -43430,7 +44874,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1501,
@@ -43453,7 +44898,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1502,
@@ -43476,7 +44922,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1503,
@@ -43499,7 +44946,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1504,
@@ -43522,7 +44970,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1505,
@@ -43545,7 +44994,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1506,
@@ -43576,7 +45026,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.40"
     },
     {
         "id": 1507,
@@ -43599,7 +45050,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.40"
     },
     {
         "id": 1508,
@@ -43630,7 +45082,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.40"
     },
     {
         "id": 1509,
@@ -43661,7 +45114,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.40"
     },
     {
         "id": 1510,
@@ -43715,7 +45169,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.40"
     },
     {
         "id": 1511,
@@ -43746,7 +45201,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.40"
     },
     {
         "id": 1512,
@@ -43769,7 +45225,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.40"
     },
     {
         "id": 1513,
@@ -43792,7 +45249,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v13.40"
     },
     {
         "id": 1514,
@@ -43823,7 +45281,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1515,
@@ -43854,7 +45313,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1516,
@@ -43885,7 +45345,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1517,
@@ -43908,7 +45369,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1518,
@@ -43931,7 +45393,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1519,
@@ -43954,7 +45417,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1520,
@@ -43977,7 +45441,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1521,
@@ -44000,7 +45465,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1522,
@@ -44031,7 +45497,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 30,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v13.40"
     },
     {
         "id": 1523,
@@ -44054,7 +45521,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1524,
@@ -44077,7 +45545,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1525,
@@ -44115,7 +45584,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1526,
@@ -44138,7 +45608,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1527,
@@ -44161,7 +45632,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1528,
@@ -44184,7 +45656,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1529,
@@ -44207,7 +45680,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1530,
@@ -44230,7 +45704,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1531,
@@ -44253,7 +45728,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1532,
@@ -44276,7 +45752,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1533,
@@ -44299,7 +45776,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1534,
@@ -44322,7 +45800,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1535,
@@ -44345,7 +45824,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1536,
@@ -44376,7 +45856,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1537,
@@ -44414,7 +45895,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1538,
@@ -44445,7 +45927,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1539,
@@ -44476,7 +45959,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1540,
@@ -44507,7 +45991,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1541,
@@ -44545,7 +46030,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1542,
@@ -44576,7 +46062,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1543,
@@ -44607,7 +46094,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1544,
@@ -44638,7 +46126,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1545,
@@ -44683,7 +46172,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1546,
@@ -44714,7 +46204,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1547,
@@ -44745,7 +46236,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1548,
@@ -44776,7 +46268,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1549,
@@ -44807,7 +46300,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1550,
@@ -44838,7 +46332,8 @@ const monster_data = [
         ],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1551,
@@ -44869,7 +46364,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1552,
@@ -44892,7 +46388,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1553,
@@ -44915,7 +46412,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1554,
@@ -44938,7 +46436,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1555,
@@ -44969,7 +46468,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1556,
@@ -44992,7 +46492,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1557,
@@ -45023,7 +46524,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1558,
@@ -45046,7 +46548,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1559,
@@ -45069,7 +46572,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1560,
@@ -45092,7 +46596,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1561,
@@ -45115,7 +46620,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1562,
@@ -45153,7 +46659,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1563,
@@ -45176,7 +46683,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1564,
@@ -45199,7 +46707,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.00"
     },
     {
         "id": 1565,
@@ -45222,7 +46731,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1566,
@@ -45245,7 +46755,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1567,
@@ -45268,7 +46779,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1568,
@@ -45291,7 +46803,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1569,
@@ -45314,7 +46827,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1570,
@@ -45337,7 +46851,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1571,
@@ -45375,7 +46890,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.10"
     },
     {
         "id": 1572,
@@ -45420,7 +46936,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.10"
     },
     {
         "id": 1573,
@@ -45451,7 +46968,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.10"
     },
     {
         "id": 1574,
@@ -45482,7 +47000,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.10"
     },
     {
         "id": 1575,
@@ -45527,7 +47046,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.10"
     },
     {
         "id": 1576,
@@ -45563,12 +47083,11 @@ const monster_data = [
                 "relative": [1572, 1575, 1576]
             }
         ],
-        "board": [
-            ["H", "H", "H", "F", "E", "D", "F", "E", "D", "F", "E", "D", "F", "E", "D", "F", "E", "D", "F", "E", "D", "F", "E", "D", "F", "E", "D", "H", "H", "H"]
-        ],
+        "board": [["H", "H", "H", "F", "E", "D", "F", "E", "D", "F", "E", "D", "F", "E", "D", "F", "E", "D", "F", "E", "D", "F", "E", "D", "F", "E", "D", "H", "H", "H"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.10"
     },
     {
         "id": 1577,
@@ -45599,7 +47118,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.10"
     },
     {
         "id": 1578,
@@ -45637,7 +47157,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v14.10"
     },
     {
         "id": 1579,
@@ -45668,7 +47189,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1580,
@@ -45699,7 +47221,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1581,
@@ -45737,7 +47260,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1582,
@@ -45768,7 +47292,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1583,
@@ -45799,7 +47324,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1584,
@@ -45830,7 +47356,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1585,
@@ -45859,12 +47386,11 @@ const monster_data = [
                 "relative": [1571, 1572, 1573, 1574, 1575, 1576, 1577, 1578, 1579, 1580, 1581, 1582, 1583, 1584, 1585, 1590, 1591]
             }
         ],
-        "board": [
-            ["W", "-", "-", "-", "-", "W", "W", "-", "-", "-", "-", "W", "W", "-", "-", "-", "-", "W", "-", "W", "-", "-", "W", "-", "-", "-", "W", "W", "-", "-"]
-        ],
+        "board": [["W", "-", "-", "-", "-", "W", "W", "-", "-", "-", "-", "W", "W", "-", "-", "-", "-", "W", "-", "W", "-", "-", "W", "-", "-", "-", "W", "W", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1586,
@@ -45887,7 +47413,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1587,
@@ -45910,7 +47437,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1588,
@@ -45933,7 +47461,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1589,
@@ -45971,7 +47500,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1590,
@@ -46002,7 +47532,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1591,
@@ -46040,7 +47571,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.10"
     },
     {
         "id": 1592,
@@ -46063,7 +47595,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1593,
@@ -46086,7 +47619,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1594,
@@ -46109,7 +47643,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1595,
@@ -46132,7 +47667,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1596,
@@ -46155,7 +47691,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1597,
@@ -46193,7 +47730,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1598,
@@ -46231,7 +47769,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1599,
@@ -46269,7 +47808,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1600,
@@ -46292,7 +47832,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1601,
@@ -46315,7 +47856,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1602,
@@ -46361,7 +47903,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1603,
@@ -46384,7 +47927,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1604,
@@ -46429,7 +47973,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1605,
@@ -46452,7 +47997,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1606,
@@ -46490,7 +48036,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1607,
@@ -46513,7 +48060,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1608,
@@ -46551,7 +48099,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1609,
@@ -46574,7 +48123,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1610,
@@ -46619,7 +48169,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1611,
@@ -46642,7 +48193,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1612,
@@ -46680,7 +48232,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1613,
@@ -46703,7 +48256,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1614,
@@ -46741,7 +48295,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1615,
@@ -46764,7 +48319,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1616,
@@ -46802,7 +48358,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1617,
@@ -46825,7 +48382,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1618,
@@ -46848,7 +48406,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1619,
@@ -46871,7 +48430,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1620,
@@ -46894,7 +48454,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1621,
@@ -46917,7 +48478,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1622,
@@ -46940,7 +48502,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1623,
@@ -46971,7 +48534,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1624,
@@ -47009,7 +48573,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1625,
@@ -47040,7 +48605,8 @@ const monster_data = [
         ],
         "maxLevel": 5,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1626,
@@ -47078,7 +48644,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.20"
     },
     {
         "id": 1627,
@@ -47109,7 +48676,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1628,
@@ -47132,7 +48700,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1629,
@@ -47155,7 +48724,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1630,
@@ -47178,7 +48748,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1631,
@@ -47201,7 +48772,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1632,
@@ -47224,7 +48796,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1633,
@@ -47247,7 +48820,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1634,
@@ -47270,7 +48844,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1635,
@@ -47293,7 +48868,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1636,
@@ -47316,7 +48892,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1637,
@@ -47339,7 +48916,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1638,
@@ -47362,7 +48940,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1639,
@@ -47393,7 +48972,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1640,
@@ -47416,7 +48996,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1641,
@@ -47439,7 +49020,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1642,
@@ -47462,7 +49044,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1643,
@@ -47500,7 +49083,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1644,
@@ -47523,7 +49107,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1645,
@@ -47554,7 +49139,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1646,
@@ -47577,7 +49163,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1647,
@@ -47600,7 +49187,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1648,
@@ -47623,7 +49211,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1649,
@@ -47646,7 +49235,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1650,
@@ -47669,7 +49259,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1651,
@@ -47692,7 +49283,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1652,
@@ -47715,7 +49307,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1653,
@@ -47738,7 +49331,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1654,
@@ -47761,7 +49355,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1655,
@@ -47784,7 +49379,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1656,
@@ -47807,7 +49403,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1657,
@@ -47830,7 +49427,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1658,
@@ -47853,7 +49451,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1659,
@@ -47876,7 +49475,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v14.30"
     },
     {
         "id": 1660,
@@ -47899,7 +49499,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1661,
@@ -47922,7 +49523,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1662,
@@ -47945,7 +49547,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1663,
@@ -47968,7 +49571,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1664,
@@ -47991,7 +49595,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1665,
@@ -48014,7 +49619,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1666,
@@ -48050,12 +49656,11 @@ const monster_data = [
                 "relative": [1666, 1982]
             }
         ],
-        "board": [
-            ["W", "W", "W", "h", "h", "W", "h", "h", "W", "h", "h", "W", "W", "W", "W", "W", "W", "W", "W", "h", "h", "W", "h", "h", "W", "h", "h", "W", "W", "W"]
-        ],
+        "board": [["W", "W", "W", "h", "h", "W", "h", "h", "W", "h", "h", "W", "W", "W", "W", "W", "W", "W", "W", "h", "h", "W", "h", "h", "W", "h", "h", "W", "W", "W"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1667,
@@ -48078,7 +49683,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1668,
@@ -48116,7 +49722,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1669,
@@ -48139,7 +49746,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1670,
@@ -48162,7 +49770,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1671,
@@ -48185,7 +49794,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1672,
@@ -48223,7 +49833,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1673,
@@ -48246,7 +49857,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1674,
@@ -48277,7 +49889,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1675,
@@ -48300,7 +49913,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1676,
@@ -48323,7 +49937,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1677,
@@ -48346,7 +49961,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1678,
@@ -48377,7 +49993,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1679,
@@ -48400,7 +50017,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1680,
@@ -48431,7 +50049,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1681,
@@ -48454,7 +50073,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1682,
@@ -48485,7 +50105,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1683,
@@ -48508,7 +50129,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1684,
@@ -48539,7 +50161,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1685,
@@ -48562,7 +50185,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1686,
@@ -48585,7 +50209,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.00"
     },
     {
         "id": 1687,
@@ -48623,7 +50248,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1688,
@@ -48661,7 +50287,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1689,
@@ -48684,7 +50311,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1690,
@@ -48729,7 +50357,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1691,
@@ -48752,7 +50381,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1692,
@@ -48790,7 +50420,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1693,
@@ -48813,7 +50444,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1694,
@@ -48844,7 +50476,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1695,
@@ -48867,7 +50500,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1696,
@@ -48890,7 +50524,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1697,
@@ -48913,7 +50548,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1698,
@@ -48936,7 +50572,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1699,
@@ -48967,7 +50604,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1700,
@@ -48990,7 +50628,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.00"
     },
     {
         "id": 1701,
@@ -49021,7 +50660,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1702,
@@ -49052,7 +50692,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1703,
@@ -49090,7 +50731,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1704,
@@ -49128,7 +50770,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1705,
@@ -49166,7 +50809,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1706,
@@ -49197,7 +50841,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1707,
@@ -49228,7 +50873,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1708,
@@ -49259,7 +50905,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1709,
@@ -49282,7 +50929,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1710,
@@ -49305,7 +50953,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1711,
@@ -49336,7 +50985,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1712,
@@ -49359,7 +51009,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1713,
@@ -49382,7 +51033,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1714,
@@ -49405,7 +51057,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1715,
@@ -49428,7 +51081,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1716,
@@ -49474,7 +51128,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1717,
@@ -49497,7 +51152,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1718,
@@ -49520,7 +51176,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 1719,
@@ -49556,12 +51213,11 @@ const monster_data = [
                 "relative": [1719]
             }
         ],
-        "board": [
-            ["F", "W", "E", "F", "F", "F", "F", "W", "E", "W", "E", "F", "F", "W", "E", "W", "E", "F", "F", "W", "E", "W", "E", "F", "F", "F", "F", "W", "E", "F"]
-        ],
+        "board": [["F", "W", "E", "F", "F", "F", "F", "W", "E", "W", "E", "F", "F", "W", "E", "W", "E", "F", "F", "W", "E", "W", "E", "F", "F", "F", "F", "W", "E", "F"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.28"
     },
     {
         "id": 1720,
@@ -49596,7 +51252,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.28"
     },
     {
         "id": 1721,
@@ -49617,12 +51274,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H"], ["F", "-", "-", "-", "-", "H", "F", "-", "-", "-", "-", "H", "F", "-", "-", "-", "-", "H", "F", "-", "-", "-", "-", "H", "F", "-", "-", "-", "-", "H"]
-        ],
+        "board": [["F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H", "F", "H"], ["F", "-", "-", "-", "-", "H", "F", "-", "-", "-", "-", "H", "F", "-", "-", "-", "-", "H", "F", "-", "-", "-", "-", "H", "F", "-", "-", "-", "-", "H"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.28"
     },
     {
         "id": 1722,
@@ -49645,7 +51301,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.28"
     },
     {
         "id": 1723,
@@ -49680,7 +51337,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.28"
     },
     {
         "id": 1724,
@@ -49703,7 +51361,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.28"
     },
     {
         "id": 1725,
@@ -49734,7 +51393,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 20,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.28"
     },
     {
         "id": 1726,
@@ -49765,7 +51425,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1727,
@@ -49788,7 +51449,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1728,
@@ -49826,7 +51488,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1729,
@@ -49857,7 +51520,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1730,
@@ -49880,7 +51544,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1731,
@@ -49903,7 +51568,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1732,
@@ -49926,7 +51592,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1733,
@@ -49949,7 +51616,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1734,
@@ -49972,7 +51640,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.20"
     },
     {
         "id": 1735,
@@ -49995,7 +51664,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1736,
@@ -50018,7 +51688,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1737,
@@ -50041,7 +51712,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1738,
@@ -50064,7 +51736,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1739,
@@ -50087,7 +51760,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1740,
@@ -50110,7 +51784,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1741,
@@ -50133,7 +51808,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1742,
@@ -50156,7 +51832,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1743,
@@ -50179,7 +51856,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1744,
@@ -50202,7 +51880,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1745,
@@ -50233,7 +51912,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1746,
@@ -50256,7 +51936,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1747,
@@ -50279,7 +51960,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1748,
@@ -50302,7 +51984,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1749,
@@ -50325,7 +52008,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1750,
@@ -50348,7 +52032,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1751,
@@ -50371,7 +52056,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1752,
@@ -50394,7 +52080,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.20"
     },
     {
         "id": 1753,
@@ -50415,12 +52102,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w"]
-        ],
+        "board": [["w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w"]],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1754,
@@ -50465,7 +52151,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1755,
@@ -50486,12 +52173,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e"]
-        ],
+        "board": [["e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e"]],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1756,
@@ -50514,7 +52200,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1757,
@@ -50537,7 +52224,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1758,
@@ -50560,7 +52248,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1759,
@@ -50583,7 +52272,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.30"
     },
     {
         "id": 1760,
@@ -50615,7 +52305,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.30"
     },
     {
         "id": 1761,
@@ -50646,7 +52337,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.30"
     },
     {
         "id": 1762,
@@ -50721,7 +52413,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.30"
     },
     {
         "id": 1763,
@@ -50802,7 +52495,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.30"
     },
     {
         "id": 1764,
@@ -50856,7 +52550,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.30"
     },
     {
         "id": 1765,
@@ -50909,7 +52604,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.30"
     },
     {
         "id": 1766,
@@ -50991,7 +52687,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.30"
     },
     {
         "id": 1767,
@@ -51079,7 +52776,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.30"
     },
     {
         "id": 1768,
@@ -51117,7 +52815,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.30"
     },
     {
         "id": 1769,
@@ -51140,7 +52839,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.30"
     },
     {
         "id": 1770,
@@ -51178,7 +52878,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1771,
@@ -51237,7 +52938,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1772,
@@ -51268,7 +52970,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1773,
@@ -51299,7 +53002,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1774,
@@ -51320,12 +53024,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["Wh", "Wh", "Wh", "Wh", "Wh", "Wh", "Wh", "-", "-", "-", "-", "Wh", "Wh", "-", "-", "-", "-", "Wh", "Wh", "-", "-", "-", "-", "Wh", "Wh", "Wh", "Wh", "Wh", "Wh", "Wh"]
-        ],
+        "board": [["Wh", "Wh", "Wh", "Wh", "Wh", "Wh", "Wh", "-", "-", "-", "-", "Wh", "Wh", "-", "-", "-", "-", "Wh", "Wh", "-", "-", "-", "-", "Wh", "Wh", "Wh", "Wh", "Wh", "Wh", "Wh"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1775,
@@ -51348,7 +53051,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1776,
@@ -51371,7 +53075,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1777,
@@ -51394,7 +53099,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1778,
@@ -51417,7 +53123,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1779,
@@ -51440,7 +53147,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1780,
@@ -51471,7 +53179,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1781,
@@ -51502,7 +53211,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1782,
@@ -51533,7 +53243,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1783,
@@ -51564,7 +53275,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1784,
@@ -51595,7 +53307,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 1785,
@@ -51618,7 +53331,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.30"
     },
     {
         "id": 1786,
@@ -51672,7 +53386,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.40"
     },
     {
         "id": 1787,
@@ -51718,7 +53433,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.40"
     },
     {
         "id": 1788,
@@ -51758,7 +53474,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.40"
     },
     {
         "id": 1789,
@@ -51797,7 +53514,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.40"
     },
     {
         "id": 1790,
@@ -51858,7 +53576,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.40"
     },
     {
         "id": 1791,
@@ -51911,7 +53630,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.40"
     },
     {
         "id": 1792,
@@ -51942,7 +53662,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.40"
     },
     {
         "id": 1793,
@@ -51996,7 +53717,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.40"
     },
     {
         "id": 1794,
@@ -52042,7 +53764,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.40"
     },
     {
         "id": 1795,
@@ -52087,7 +53810,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.40"
     },
     {
         "id": 1796,
@@ -52118,7 +53842,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.40"
     },
     {
         "id": 1797,
@@ -52141,7 +53866,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v15.40"
     },
     {
         "id": 1798,
@@ -52179,7 +53905,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1799,
@@ -52217,7 +53944,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1800,
@@ -52240,7 +53968,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1801,
@@ -52263,7 +53992,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1802,
@@ -52294,7 +54024,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1803,
@@ -52334,7 +54065,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1804,
@@ -52373,7 +54105,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1805,
@@ -52396,7 +54129,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1806,
@@ -52419,7 +54153,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1807,
@@ -52450,7 +54185,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1808,
@@ -52481,7 +54217,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1809,
@@ -52519,7 +54256,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1810,
@@ -52542,7 +54280,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1811,
@@ -52573,7 +54312,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 1812,
@@ -52604,7 +54344,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 1813,
@@ -52635,7 +54376,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 1814,
@@ -52666,7 +54408,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 1815,
@@ -52697,7 +54440,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 1816,
@@ -52720,7 +54464,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1817,
@@ -52752,7 +54497,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 1818,
@@ -52783,7 +54529,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1819,
@@ -52806,7 +54553,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1820,
@@ -52829,7 +54577,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1821,
@@ -52875,7 +54624,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1822,
@@ -52899,7 +54649,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1823,
@@ -52945,7 +54696,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1824,
@@ -52969,7 +54721,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1825,
@@ -53015,7 +54768,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1826,
@@ -53039,7 +54793,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1827,
@@ -53085,7 +54840,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1828,
@@ -53109,7 +54865,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1829,
@@ -53155,7 +54912,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1830,
@@ -53179,7 +54937,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1831,
@@ -53202,7 +54961,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1832,
@@ -53233,7 +54993,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1833,
@@ -53264,7 +55025,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1834,
@@ -53287,7 +55049,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1835,
@@ -53310,7 +55073,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.00"
     },
     {
         "id": 1836,
@@ -53333,7 +55097,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1837,
@@ -53364,7 +55129,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1838,
@@ -53387,7 +55153,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1839,
@@ -53418,7 +55185,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1840,
@@ -53441,7 +55209,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1841,
@@ -53472,7 +55241,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1842,
@@ -53495,7 +55265,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1843,
@@ -53526,7 +55297,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1844,
@@ -53549,7 +55321,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1845,
@@ -53580,7 +55353,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1846,
@@ -53603,7 +55377,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1847,
@@ -53634,7 +55409,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1848,
@@ -53657,7 +55433,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1849,
@@ -53688,7 +55465,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1850,
@@ -53711,7 +55489,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1851,
@@ -53742,7 +55521,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1852,
@@ -53773,7 +55553,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1853,
@@ -53796,7 +55577,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1854,
@@ -53817,12 +55599,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "-", "lg", "lg", "lg", "-", "-", "-", "-", "-", "lg", "-", "-", "-", "-", "-", "lg", "-", "-", "-", "-", "-", "lg", "-", "-", "-", "-", "-", "lg"]
-        ],
+        "board": [["-", "-", "-", "lg", "lg", "lg", "-", "-", "-", "-", "-", "lg", "-", "-", "-", "-", "-", "lg", "-", "-", "-", "-", "-", "lg", "-", "-", "-", "-", "-", "lg"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1855,
@@ -53845,7 +55626,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1856,
@@ -53868,7 +55650,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1857,
@@ -53899,7 +55682,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1858,
@@ -53922,7 +55706,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1859,
@@ -53945,7 +55730,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1860,
@@ -53968,7 +55754,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1861,
@@ -53991,7 +55778,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1862,
@@ -54014,7 +55802,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1863,
@@ -54037,7 +55826,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1864,
@@ -54060,7 +55850,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1865,
@@ -54083,7 +55874,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1866,
@@ -54106,7 +55898,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1867,
@@ -54129,7 +55922,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1868,
@@ -54160,7 +55954,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1869,
@@ -54191,7 +55986,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 1870,
@@ -54222,7 +56018,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1871,
@@ -54253,7 +56050,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1872,
@@ -54276,7 +56074,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1873,
@@ -54299,7 +56098,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1874,
@@ -54322,7 +56122,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1875,
@@ -54345,7 +56146,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1876,
@@ -54368,7 +56170,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1877,
@@ -54391,7 +56194,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 1878,
@@ -54426,7 +56230,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1879,
@@ -54461,7 +56266,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1880,
@@ -54496,7 +56302,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1881,
@@ -54527,7 +56334,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1882,
@@ -54601,7 +56409,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.10"
     },
     {
         "id": 1883,
@@ -54639,7 +56448,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.10"
     },
     {
         "id": 1884,
@@ -54684,7 +56494,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.10"
     },
     {
         "id": 1885,
@@ -54729,7 +56540,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.10"
     },
     {
         "id": 1886,
@@ -54767,7 +56579,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.10"
     },
     {
         "id": 1887,
@@ -54805,7 +56618,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.10"
     },
     {
         "id": 1888,
@@ -54843,7 +56657,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.10"
     },
     {
         "id": 1889,
@@ -54881,7 +56696,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.10"
     },
     {
         "id": 1890,
@@ -54904,7 +56720,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1891,
@@ -54927,7 +56744,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1892,
@@ -54950,7 +56768,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1893,
@@ -54973,7 +56792,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1894,
@@ -54996,7 +56816,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1895,
@@ -55019,7 +56840,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1896,
@@ -55042,7 +56864,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1897,
@@ -55065,7 +56888,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1898,
@@ -55088,7 +56912,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1899,
@@ -55111,7 +56936,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1900,
@@ -55134,7 +56960,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1901,
@@ -55157,7 +56984,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1902,
@@ -55180,7 +57008,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1903,
@@ -55203,7 +57032,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1904,
@@ -55226,7 +57056,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1905,
@@ -55264,7 +57095,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1906,
@@ -55302,7 +57134,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1907,
@@ -55340,7 +57173,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 1908,
@@ -55363,7 +57197,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1909,
@@ -55386,7 +57221,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1910,
@@ -55409,7 +57245,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1911,
@@ -55432,7 +57269,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 1912,
@@ -55455,7 +57293,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 1913,
@@ -55478,7 +57317,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 1914,
@@ -55501,7 +57341,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 1915,
@@ -55524,7 +57365,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 1916,
@@ -55555,7 +57397,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 1917,
@@ -55586,7 +57429,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 1918,
@@ -55617,7 +57461,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 1919,
@@ -55648,7 +57493,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1920,
@@ -55677,12 +57523,11 @@ const monster_data = [
                 "relative": [1916, 1917, 1918, 1919, 1920, 2244]
             }
         ],
-        "board": [
-            ["d", "-", "-", "-", "-", "d", "d", "-", "-", "-", "-", "d", "d", "-", "-", "-", "-", "d", "d", "-", "-", "-", "-", "d", "l", "l", "l", "h", "h", "h"], ["Dg", "-", "-", "-", "-", "Dg", "Dg", "-", "-", "-", "-", "Dg", "Dg", "-", "-", "-", "-", "Dg", "Dg", "-", "-", "-", "-", "Dg", "Lg", "Lg", "Lg", "Hg", "Hg", "Hg"]
-        ],
+        "board": [["d", "-", "-", "-", "-", "d", "d", "-", "-", "-", "-", "d", "d", "-", "-", "-", "-", "d", "d", "-", "-", "-", "-", "d", "l", "l", "l", "h", "h", "h"], ["Dg", "-", "-", "-", "-", "Dg", "Dg", "-", "-", "-", "-", "Dg", "Dg", "-", "-", "-", "-", "Dg", "Dg", "-", "-", "-", "-", "Dg", "Lg", "Lg", "Lg", "Hg", "Hg", "Hg"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1921,
@@ -55705,7 +57550,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1922,
@@ -55743,7 +57589,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1923,
@@ -55766,7 +57613,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1924,
@@ -55804,7 +57652,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1925,
@@ -55827,7 +57676,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1926,
@@ -55872,7 +57722,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1927,
@@ -55895,7 +57746,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1928,
@@ -55940,7 +57792,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1929,
@@ -55963,7 +57816,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1930,
@@ -56008,7 +57862,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1931,
@@ -56031,7 +57886,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1932,
@@ -56069,7 +57925,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1933,
@@ -56092,7 +57949,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1934,
@@ -56130,7 +57988,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1935,
@@ -56153,7 +58012,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1936,
@@ -56191,7 +58051,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1937,
@@ -56222,7 +58083,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1938,
@@ -56245,7 +58107,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1939,
@@ -56268,7 +58131,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1940,
@@ -56291,7 +58155,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1941,
@@ -56314,7 +58179,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1942,
@@ -56337,7 +58203,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1943,
@@ -56360,7 +58227,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1944,
@@ -56383,7 +58251,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1945,
@@ -56406,7 +58275,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1946,
@@ -56446,7 +58316,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1947,
@@ -56479,7 +58350,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1948,
@@ -56511,7 +58383,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1949,
@@ -56542,7 +58415,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1950,
@@ -56565,7 +58439,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1951,
@@ -56588,7 +58463,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1952,
@@ -56611,7 +58487,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1953,
@@ -56634,7 +58511,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1954,
@@ -56657,7 +58535,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.20"
     },
     {
         "id": 1955,
@@ -56695,7 +58574,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.30"
     },
     {
         "id": 1956,
@@ -56755,7 +58635,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.30"
     },
     {
         "id": 1957,
@@ -56793,7 +58674,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.30"
     },
     {
         "id": 1958,
@@ -56838,7 +58720,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.30"
     },
     {
         "id": 1959,
@@ -56869,7 +58752,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.30"
     },
     {
         "id": 1960,
@@ -56900,7 +58784,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.30"
     },
     {
         "id": 1961,
@@ -56931,7 +58816,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.30"
     },
     {
         "id": 1962,
@@ -56954,7 +58840,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.30"
     },
     {
         "id": 1963,
@@ -56983,12 +58870,11 @@ const monster_data = [
                 "relative": [1963, 1958]
             }
         ],
-        "board": [
-            ["w", "f", "e", "l", "d", "w", "w", "f", "e", "l", "d", "w", "w", "f", "e", "l", "d", "w", "w", "f", "e", "l", "d", "w", "h", "h", "h", "h", "h", "h"]
-        ],
+        "board": [["w", "f", "e", "l", "d", "w", "w", "f", "e", "l", "d", "w", "w", "f", "e", "l", "d", "w", "w", "f", "e", "l", "d", "w", "h", "h", "h", "h", "h", "h"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1964,
@@ -57011,7 +58897,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1965,
@@ -57034,7 +58921,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1966,
@@ -57057,7 +58945,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1967,
@@ -57080,7 +58969,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1968,
@@ -57101,12 +58991,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["E", "E", "E", "E", "E", "E", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["E", "E", "E", "E", "E", "E", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1969,
@@ -57137,7 +59026,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1970,
@@ -57160,7 +59050,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1971,
@@ -57191,7 +59082,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1972,
@@ -57214,7 +59106,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1973,
@@ -57237,7 +59130,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1974,
@@ -57260,7 +59154,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1975,
@@ -57283,7 +59178,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1976,
@@ -57306,7 +59202,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1977,
@@ -57329,7 +59226,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1978,
@@ -57352,7 +59250,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1979,
@@ -57375,7 +59274,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1980,
@@ -57398,7 +59298,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1981,
@@ -57427,12 +59328,11 @@ const monster_data = [
                 "relative": [1981, 1081, 1083, 1085, 1087, 1089, 1082, 1084, 1086, 1088, 1090, 2181, 2182, 2183, 2184, 2185]
             }
         ],
-        "board": [
-            ["E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E"]
-        ],
+        "board": [["E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.30"
     },
     {
         "id": 1982,
@@ -57470,7 +59370,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v16.30"
     },
     {
         "id": 1983,
@@ -57508,7 +59409,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1984,
@@ -57531,7 +59433,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1985,
@@ -57554,7 +59457,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1986,
@@ -57575,12 +59479,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l"]
-        ],
+        "board": [["l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l"]],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.30"
     },
     {
         "id": 1987,
@@ -57611,7 +59514,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.83"
     },
     {
         "id": 1988,
@@ -57642,7 +59546,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.83"
     },
     {
         "id": 1989,
@@ -57673,7 +59578,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.83"
     },
     {
         "id": 1990,
@@ -57696,7 +59602,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 1991,
@@ -57719,7 +59626,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.00"
     },
     {
         "id": 1992,
@@ -57742,7 +59650,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.00"
     },
     {
         "id": 1993,
@@ -57765,7 +59674,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.00"
     },
     {
         "id": 1994,
@@ -57788,7 +59698,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.00"
     },
     {
         "id": 1995,
@@ -57811,7 +59722,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.00"
     },
     {
         "id": 1996,
@@ -57834,7 +59746,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 1997,
@@ -57857,7 +59770,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 1998,
@@ -57888,7 +59802,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 1999,
@@ -57911,7 +59826,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2000,
@@ -57934,7 +59850,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2001,
@@ -57994,7 +59911,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.00"
     },
     {
         "id": 2002,
@@ -58054,7 +59972,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.00"
     },
     {
         "id": 2003,
@@ -58114,7 +60033,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.00"
     },
     {
         "id": 2004,
@@ -58167,7 +60087,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.00"
     },
     {
         "id": 2005,
@@ -58227,7 +60148,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.00"
     },
     {
         "id": 2006,
@@ -58250,7 +60172,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2007,
@@ -58281,7 +60204,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2008,
@@ -58304,7 +60228,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2009,
@@ -58327,7 +60252,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2010,
@@ -58350,7 +60276,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2011,
@@ -58381,7 +60308,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2012,
@@ -58404,7 +60332,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2013,
@@ -58427,7 +60356,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2014,
@@ -58450,7 +60380,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2015,
@@ -58481,7 +60412,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2016,
@@ -58504,7 +60436,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2017,
@@ -58527,7 +60460,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2018,
@@ -58550,7 +60484,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2019,
@@ -58581,7 +60516,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2020,
@@ -58604,7 +60540,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2021,
@@ -58627,7 +60564,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2022,
@@ -58658,7 +60596,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2023,
@@ -58679,12 +60618,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["L", "L", "L", "L", "L", "L", "L", "d", "d", "d", "d", "L", "L", "d", "d", "d", "d", "L", "L", "d", "d", "d", "d", "L", "L", "L", "L", "L", "L", "L"]
-        ],
+        "board": [["L", "L", "L", "L", "L", "L", "L", "d", "d", "d", "d", "L", "L", "d", "d", "d", "d", "L", "L", "d", "d", "d", "d", "L", "L", "L", "L", "L", "L", "L"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2024,
@@ -58715,7 +60653,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2025,
@@ -58738,7 +60677,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2026,
@@ -58761,7 +60701,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2027,
@@ -58784,7 +60725,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2028,
@@ -58807,7 +60749,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2029,
@@ -58830,7 +60773,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2030,
@@ -58853,7 +60797,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2031,
@@ -58876,7 +60821,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2032,
@@ -58899,7 +60845,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2033,
@@ -58922,7 +60869,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.00"
     },
     {
         "id": 2034,
@@ -58945,7 +60893,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2035,
@@ -58976,7 +60925,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2036,
@@ -58999,7 +60949,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2037,
@@ -59022,7 +60973,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2038,
@@ -59045,7 +60997,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2039,
@@ -59068,7 +61021,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.20"
     },
     {
         "id": 2040,
@@ -59091,7 +61045,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2041,
@@ -59123,7 +61078,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.10"
     },
     {
         "id": 2042,
@@ -59154,7 +61110,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.10"
     },
     {
         "id": 2043,
@@ -59186,7 +61143,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.10"
     },
     {
         "id": 2044,
@@ -59215,12 +61173,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["F", "F", "F", "H", "H", "F", "H", "H", "F", "H", "H", "F", "F", "F", "F", "F", "F", "F", "F", "H", "H", "F", "H", "H", "F", "H", "H", "F", "F", "F"]
-        ],
+        "board": [["F", "F", "F", "H", "H", "F", "H", "H", "F", "H", "H", "F", "F", "F", "F", "F", "F", "F", "F", "H", "H", "F", "H", "H", "F", "H", "H", "F", "F", "F"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.10"
     },
     {
         "id": 2045,
@@ -59252,7 +61209,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.10"
     },
     {
         "id": 2046,
@@ -59283,7 +61241,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.10"
     },
     {
         "id": 2047,
@@ -59315,7 +61274,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.10"
     },
     {
         "id": 2048,
@@ -59346,7 +61306,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.10"
     },
     {
         "id": 2049,
@@ -59378,7 +61339,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.10"
     },
     {
         "id": 2050,
@@ -59407,12 +61369,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["D", "D", "D", "H", "H", "D", "H", "H", "D", "H", "H", "D", "D", "D", "D", "D", "D", "D", "D", "H", "H", "D", "H", "H", "D", "H", "H", "D", "D", "D"]
-        ],
+        "board": [["D", "D", "D", "H", "H", "D", "H", "H", "D", "H", "H", "D", "D", "D", "D", "D", "D", "D", "D", "H", "H", "D", "H", "H", "D", "H", "H", "D", "D", "D"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.10"
     },
     {
         "id": 2051,
@@ -59435,7 +61396,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2052,
@@ -59466,7 +61428,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2053,
@@ -59489,7 +61452,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2054,
@@ -59556,7 +61520,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2055,
@@ -59579,7 +61544,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2056,
@@ -59610,7 +61576,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2057,
@@ -59633,7 +61600,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2058,
@@ -59664,7 +61632,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2059,
@@ -59687,7 +61656,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2060,
@@ -59725,7 +61695,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2061,
@@ -59748,7 +61719,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2062,
@@ -59779,7 +61751,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2063,
@@ -59802,7 +61775,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2064,
@@ -59833,7 +61807,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2065,
@@ -59856,7 +61831,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2066,
@@ -59887,7 +61863,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2067,
@@ -59910,7 +61887,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2068,
@@ -59933,7 +61911,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2069,
@@ -59954,12 +61933,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["W", "W", "W", "-", "-", "-", "F", "F", "F", "-", "-", "-", "E", "E", "E", "-", "-", "-", "L", "L", "L", "-", "-", "-", "D", "D", "D", "-", "-", "-"]
-        ],
+        "board": [["W", "W", "W", "-", "-", "-", "F", "F", "F", "-", "-", "-", "E", "E", "E", "-", "-", "-", "L", "L", "L", "-", "-", "-", "D", "D", "D", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2070,
@@ -59982,7 +61960,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2071,
@@ -60005,7 +61984,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2072,
@@ -60028,7 +62008,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2073,
@@ -60051,7 +62032,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2074,
@@ -60074,7 +62056,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2075,
@@ -60097,7 +62080,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2076,
@@ -60120,7 +62104,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2077,
@@ -60143,7 +62128,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2078,
@@ -60166,7 +62152,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2079,
@@ -60197,7 +62184,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2080,
@@ -60220,7 +62208,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2081,
@@ -60272,7 +62261,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.10"
     },
     {
         "id": 2082,
@@ -60303,7 +62293,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.30"
     },
     {
         "id": 2083,
@@ -60350,7 +62341,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.30"
     },
     {
         "id": 2084,
@@ -60381,7 +62373,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.30"
     },
     {
         "id": 2085,
@@ -60412,7 +62405,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2086,
@@ -60443,7 +62437,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2087,
@@ -60474,7 +62469,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2088,
@@ -60512,7 +62508,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2089,
@@ -60543,7 +62540,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.30"
     },
     {
         "id": 2090,
@@ -60566,7 +62564,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.20"
     },
     {
         "id": 2091,
@@ -60589,7 +62588,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.20"
     },
     {
         "id": 2092,
@@ -60628,7 +62628,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2093,
@@ -60651,7 +62652,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2094,
@@ -60682,7 +62684,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2095,
@@ -60713,7 +62716,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2096,
@@ -60744,7 +62748,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2097,
@@ -60775,7 +62780,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2098,
@@ -60804,12 +62810,11 @@ const monster_data = [
                 "relative": [2094, 2095, 2096, 2097, 2098]
             }
         ],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h"], ["d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h"], ["d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "d", "h", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2099,
@@ -60847,7 +62852,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.20"
     },
     {
         "id": 2100,
@@ -60878,7 +62884,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2101,
@@ -60944,12 +62951,11 @@ const monster_data = [
                 "relative": [2101, 2102]
             }
         ],
-        "board": [
-            ["-", "-", "-", "wh", "wh", "-", "wh", "-", "-", "-", "-", "-", "wh", "-", "-", "-", "-", "wh", "-", "-", "-", "-", "-", "wh", "-", "wh", "wh", "-", "-", "-"]
-        ],
+        "board": [["-", "-", "-", "wh", "wh", "-", "wh", "-", "-", "-", "-", "-", "wh", "-", "-", "-", "-", "wh", "-", "-", "-", "-", "-", "wh", "-", "wh", "wh", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2102,
@@ -61007,12 +63013,11 @@ const monster_data = [
                 "relative": [2101, 2102]
             }
         ],
-        "board": [
-            ["fh", "fh", "-", "-", "wh", "wh", "fh", "-", "-", "-", "-", "wh", "-", "-", "-", "-", "-", "-", "wh", "-", "-", "-", "-", "fh", "wh", "wh", "-", "-", "fh", "fh"]
-        ],
+        "board": [["fh", "fh", "-", "-", "wh", "wh", "fh", "-", "-", "-", "-", "wh", "-", "-", "-", "-", "-", "-", "wh", "-", "-", "-", "-", "fh", "wh", "wh", "-", "-", "fh", "fh"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2103,
@@ -61059,7 +63064,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2104,
@@ -61105,7 +63111,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2105,
@@ -61166,7 +63173,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2106,
@@ -61226,7 +63234,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2107,
@@ -61278,12 +63287,11 @@ const monster_data = [
                 "relative": [2107, 2108]
             }
         ],
-        "board": [
-            ["-", "L", "-", "-", "-", "L", "L", "-", "L", "L", "L", "-", "-", "-", "L", "L", "-", "-", "-", "L", "-", "-", "L", "-", "L", "-", "-", "L", "-", "-"]
-        ],
+        "board": [["-", "L", "-", "-", "-", "L", "L", "-", "L", "L", "L", "-", "-", "-", "L", "L", "-", "-", "-", "L", "-", "-", "L", "-", "L", "-", "-", "L", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2108,
@@ -61334,12 +63342,11 @@ const monster_data = [
                 "relative": [2107, 2108]
             }
         ],
-        "board": [
-            ["H", "Lh", "H", "H", "H", "Lh", "Lh", "H", "Lh", "Lh", "Lh", "H", "H", "H", "Lh", "Lh", "H", "H", "H", "Lh", "H", "H", "Lh", "H", "Lh", "H", "H", "Lh", "H", "H"]
-        ],
+        "board": [["H", "Lh", "H", "H", "H", "Lh", "Lh", "H", "Lh", "Lh", "Lh", "H", "H", "H", "Lh", "Lh", "H", "H", "H", "Lh", "H", "H", "Lh", "H", "Lh", "H", "H", "Lh", "H", "H"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2109,
@@ -61386,7 +63393,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2110,
@@ -61430,12 +63438,11 @@ const monster_data = [
                 "relative": [2109, 2110]
             }
         ],
-        "board": [
-            ["d", "d", "d", "d", "d", "d", "d", "-", "-", "-", "-", "d", "d", "-", "-", "-", "-", "d", "d", "-", "-", "-", "-", "d", "d", "d", "d", "d", "d", "d"]
-        ],
+        "board": [["d", "d", "d", "d", "d", "d", "d", "-", "-", "-", "-", "d", "d", "-", "-", "-", "-", "d", "d", "-", "-", "-", "-", "d", "d", "d", "d", "d", "d", "d"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2111,
@@ -61492,12 +63499,11 @@ const monster_data = [
                 "relative": [2111, 2112, 2121]
             }
         ],
-        "board": [
-            ["-", "-", "W", "W", "-", "-", "-", "-", "W", "W", "-", "-", "-", "-", "W", "W", "-", "-", "-", "-", "W", "W", "-", "-", "-", "-", "W", "W", "-", "-"]
-        ],
+        "board": [["-", "-", "W", "W", "-", "-", "-", "-", "W", "W", "-", "-", "-", "-", "W", "W", "-", "-", "-", "-", "W", "W", "-", "-", "-", "-", "W", "W", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2112,
@@ -61542,7 +63548,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2113,
@@ -61587,7 +63594,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.20"
     },
     {
         "id": 2114,
@@ -61625,7 +63633,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v17.20"
     },
     {
         "id": 2115,
@@ -61663,7 +63672,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v17.20"
     },
     {
         "id": 2116,
@@ -61686,7 +63696,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.20"
     },
     {
         "id": 2117,
@@ -61722,12 +63733,11 @@ const monster_data = [
                 "relative": [2117]
             }
         ],
-        "board": [
-            ["-", "-", "D", "D", "-", "-", "-", "D", "-", "-", "D", "-", "D", "-", "-", "-", "-", "D", "-", "D", "-", "-", "D", "-", "-", "-", "D", "D", "-", "-"]
-        ],
+        "board": [["-", "-", "D", "D", "-", "-", "-", "D", "-", "-", "D", "-", "D", "-", "-", "-", "-", "D", "-", "D", "-", "-", "D", "-", "-", "-", "D", "D", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v17.20"
     },
     {
         "id": 2118,
@@ -61772,7 +63782,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v17.20"
     },
     {
         "id": 2119,
@@ -61795,7 +63806,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.20"
     },
     {
         "id": 2120,
@@ -61833,7 +63845,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v17.20"
     },
     {
         "id": 2121,
@@ -61878,7 +63891,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v17.20"
     },
     {
         "id": 2122,
@@ -61923,7 +63937,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v17.20"
     },
     {
         "id": 2123,
@@ -61968,7 +63983,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v17.20"
     },
     {
         "id": 2124,
@@ -62020,7 +64036,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v17.20"
     },
     {
         "id": 2125,
@@ -62058,7 +64075,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v17.20"
     },
     {
         "id": 2126,
@@ -62081,7 +64099,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.20"
     },
     {
         "id": 2127,
@@ -62104,7 +64123,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.20"
     },
     {
         "id": 2128,
@@ -62127,7 +64147,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.20"
     },
     {
         "id": 2129,
@@ -62158,7 +64179,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2130,
@@ -62196,7 +64218,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2131,
@@ -62234,7 +64257,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2132,
@@ -62272,7 +64296,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2133,
@@ -62303,7 +64328,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2134,
@@ -62334,7 +64360,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2135,
@@ -62365,7 +64392,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2136,
@@ -62396,7 +64424,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2137,
@@ -62427,7 +64456,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2138,
@@ -62458,7 +64488,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2139,
@@ -62489,7 +64520,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2140,
@@ -62512,7 +64544,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2141,
@@ -62535,7 +64568,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2142,
@@ -62566,7 +64600,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2143,
@@ -62589,7 +64624,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2144,
@@ -62612,7 +64648,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2145,
@@ -62635,7 +64672,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2146,
@@ -62658,7 +64696,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2147,
@@ -62689,7 +64728,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2148,
@@ -62720,7 +64760,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2149,
@@ -62758,7 +64799,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.30"
     },
     {
         "id": 2150,
@@ -62803,12 +64845,11 @@ const monster_data = [
                 "relative": [2150, 2151]
             }
         ],
-        "board": [
-            ["-", "-", "-", "-", "-", "W", "-", "-", "-", "-", "-", "W", "-", "-", "-", "-", "-", "W", "-", "-", "-", "-", "-", "W", "W", "W", "W", "W", "W", "W"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "W", "-", "-", "-", "-", "-", "W", "-", "-", "-", "-", "-", "W", "-", "-", "-", "-", "-", "W", "W", "W", "W", "W", "W", "W"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.40"
     },
     {
         "id": 2151,
@@ -62852,12 +64893,11 @@ const monster_data = [
                 "relative": [2150, 2151]
             }
         ],
-        "board": [
-            ["Dg", "-", "-", "-", "-", "Wg", "Dg", "-", "-", "-", "-", "Wg", "Dg", "-", "-", "-", "-", "Wg", "Dg", "-", "-", "-", "-", "Wg", "Wg", "Wg", "Wg", "Dg", "Dg", "Dg"]
-        ],
+        "board": [["Dg", "-", "-", "-", "-", "Wg", "Dg", "-", "-", "-", "-", "Wg", "Dg", "-", "-", "-", "-", "Wg", "Dg", "-", "-", "-", "-", "Wg", "Wg", "Wg", "Wg", "Dg", "Dg", "Dg"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.40"
     },
     {
         "id": 2152,
@@ -62878,12 +64918,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "-", "F", "F", "F", "-", "-", "-", "E", "E", "E", "-", "-", "-", "L", "L", "L", "-", "-", "-", "D", "D", "D", "-", "-", "-", "W", "W", "W"]
-        ],
+        "board": [["-", "-", "-", "F", "F", "F", "-", "-", "-", "E", "E", "E", "-", "-", "-", "L", "L", "L", "-", "-", "-", "D", "D", "D", "-", "-", "-", "W", "W", "W"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.40"
     },
     {
         "id": 2153,
@@ -62914,7 +64953,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.40"
     },
     {
         "id": 2154,
@@ -62978,12 +65018,11 @@ const monster_data = [
                 "relative": [2154, 60009, 2162, 2163]
             }
         ],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "Wg", "Fg", "Eg", "Lg", "Dg", "Hg", "Wg", "Fg", "Eg", "Lg", "Dg", "Hg", "Wg", "Fg", "Eg", "Lg", "Dg", "Hg"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "Wg", "Fg", "Eg", "Lg", "Dg", "Hg", "Wg", "Fg", "Eg", "Lg", "Dg", "Hg", "Wg", "Fg", "Eg", "Lg", "Dg", "Hg"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.40"
     },
     {
         "id": 60006,
@@ -63006,7 +65045,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 60007,
@@ -63027,12 +65067,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f"]
-        ],
+        "board": [["f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f"]],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 60008,
@@ -63055,7 +65094,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 60009,
@@ -63076,12 +65116,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "l", "l", "l", "l", "l", "l", "d", "d", "d", "d", "d", "d", "h", "h", "h", "h", "h", "h", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "l", "l", "l", "l", "l", "l", "d", "d", "d", "d", "d", "d", "h", "h", "h", "h", "h", "h", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2155,
@@ -63112,7 +65151,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.40"
     },
     {
         "id": 2156,
@@ -63135,7 +65175,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.40"
     },
     {
         "id": 2157,
@@ -63180,12 +65221,11 @@ const monster_data = [
                 "relative": [2157, 2158]
             }
         ],
-        "board": [
-            ["h", "d", "w", "e", "f", "h", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "d", "w", "e", "f", "l", "l"]
-        ],
+        "board": [["h", "d", "w", "e", "f", "h", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "d", "w", "e", "f", "l", "l"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.40"
     },
     {
         "id": 2158,
@@ -63221,12 +65261,11 @@ const monster_data = [
                 "relative": [2157, 2158]
             }
         ],
-        "board": [
-            ["h", "d", "w", "e", "f", "h", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "d", "w", "e", "f", "l", "l"]
-        ],
+        "board": [["h", "d", "w", "e", "f", "h", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "d", "w", "e", "f", "l", "l"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.40"
     },
     {
         "id": 2159,
@@ -63257,7 +65296,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v17.40"
     },
     {
         "id": 2160,
@@ -63286,12 +65326,11 @@ const monster_data = [
                 "relative": [2160]
             }
         ],
-        "board": [
-            ["Fb", "-", "-", "-", "-", "Fb", "Fb", "-", "-", "-", "-", "Fb", "Fb", "-", "-", "-", "-", "Fb", "Fb", "-", "-", "-", "-", "Fb", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["Fb", "-", "-", "-", "-", "Fb", "Fb", "-", "-", "-", "-", "Fb", "Fb", "-", "-", "-", "-", "Fb", "Fb", "-", "-", "-", "-", "Fb", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2161,
@@ -63312,12 +65351,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "d", "d", "-", "-", "-", "d", "d", "d", "d", "-", "d", "d", "d", "d", "d", "d", "d", "d", "-", "-", "d", "d", "d", "-", "-", "-", "-", "d"]
-        ],
+        "board": [["-", "-", "d", "d", "-", "-", "-", "d", "d", "d", "d", "-", "d", "d", "d", "d", "d", "d", "d", "d", "-", "-", "d", "d", "d", "-", "-", "-", "-", "d"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2162,
@@ -63357,7 +65395,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v17.40"
     },
     {
         "id": 2163,
@@ -63394,12 +65433,11 @@ const monster_data = [
                 "relative": [2162, 2163, 2160, 2161, 2164, 2165, 2166, 2167, 2168]
             }
         ],
-        "board": [
-            ["Dd", "Dd", "Dd", "Dd", "Dd", "Dd", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "Dd", "Dd", "Dd", "Dd", "Dd", "Dd"]
-        ],
+        "board": [["Dd", "Dd", "Dd", "Dd", "Dd", "Dd", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "Dd", "Dd", "Dd", "Dd", "Dd", "Dd"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v17.40"
     },
     {
         "id": 2164,
@@ -63422,7 +65460,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2165,
@@ -63445,7 +65484,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2166,
@@ -63468,7 +65508,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2167,
@@ -63491,7 +65532,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2168,
@@ -63512,12 +65554,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "lm", "-", "-", "lm", "-", "-", "lm", "-", "-", "lm", "-", "-", "lm", "-", "-", "lm", "-", "-", "lm", "-", "-", "lm", "-", "-", "lm", "-", "-", "lm", "-"]
-        ],
+        "board": [["-", "lm", "-", "-", "lm", "-", "-", "lm", "-", "-", "lm", "-", "-", "lm", "-", "-", "lm", "-", "-", "lm", "-", "-", "lm", "-", "-", "lm", "-", "-", "lm", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2169,
@@ -63546,12 +65587,11 @@ const monster_data = [
                 "relative": [2169, 60010, 2150, 2151]
             }
         ],
-        "board": [
-            ["-", "-", "dg", "dg", "-", "-", "-", "-", "dg", "dg", "-", "-", "dg", "dg", "dg", "dg", "dg", "dg", "-", "-", "dg", "dg", "-", "-", "-", "-", "dg", "dg", "-", "-"]
-        ],
+        "board": [["-", "-", "dg", "dg", "-", "-", "-", "-", "dg", "dg", "-", "-", "dg", "dg", "dg", "dg", "dg", "dg", "-", "-", "dg", "dg", "-", "-", "-", "-", "dg", "dg", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 2
+        "maxRefine": 2,
+        "version": "v17.40"
     },
     {
         "id": 60010,
@@ -63572,12 +65612,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "wg", "wg", "-", "-", "-", "-", "wg", "wg", "-", "-", "wg", "wg", "wg", "wg", "wg", "wg", "-", "-", "wg", "wg", "-", "-", "-", "-", "wg", "wg", "-", "-"]
-        ],
+        "board": [["-", "-", "wg", "wg", "-", "-", "-", "-", "wg", "wg", "-", "-", "wg", "wg", "wg", "wg", "wg", "wg", "-", "-", "wg", "wg", "-", "-", "-", "-", "wg", "wg", "-", "-"]],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2170,
@@ -63600,7 +65639,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2171,
@@ -63623,7 +65663,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2172,
@@ -63646,7 +65687,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2173,
@@ -63669,7 +65711,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2174,
@@ -63692,7 +65735,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2175,
@@ -63715,7 +65759,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2176,
@@ -63746,7 +65791,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2177,
@@ -63777,7 +65823,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 2178,
@@ -63815,7 +65862,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2179,
@@ -63838,7 +65886,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2180,
@@ -63861,7 +65910,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2181,
@@ -63900,7 +65950,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.00"
     },
     {
         "id": 2182,
@@ -63946,7 +65997,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.00"
     },
     {
         "id": 2183,
@@ -63985,7 +66037,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.00"
     },
     {
         "id": 2184,
@@ -64031,7 +66084,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.00"
     },
     {
         "id": 2185,
@@ -64084,7 +66138,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.00"
     },
     {
         "id": 2186,
@@ -64127,12 +66182,11 @@ const monster_data = [
                 "relative": [2186, 2187, 2188, 2189, 2190, 2191, 2192, 2193, 2194, 2195, 2196, 2197, 2198, 2199, 2203]
             }
         ],
-        "board": [
-            ["H", "H", "H", "W", "W", "W", "W", "W", "H", "W", "H", "W", "H", "H", "H", "W", "W", "W", "W", "W", "H", "H", "H", "W", "H", "H", "H", "W", "W", "W"]
-        ],
+        "board": [["H", "H", "H", "W", "W", "W", "W", "W", "H", "W", "H", "W", "H", "H", "H", "W", "W", "W", "W", "W", "H", "H", "H", "W", "H", "H", "H", "W", "W", "W"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.00"
     },
     {
         "id": 2187,
@@ -64170,7 +66224,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.00"
     },
     {
         "id": 2188,
@@ -64215,7 +66270,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.00"
     },
     {
         "id": 2189,
@@ -64260,7 +66316,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.00"
     },
     {
         "id": 2190,
@@ -64298,7 +66355,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.00"
     },
     {
         "id": 2191,
@@ -64336,7 +66394,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.00"
     },
     {
         "id": 2192,
@@ -64374,7 +66433,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.00"
     },
     {
         "id": 2193,
@@ -64412,7 +66472,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.00"
     },
     {
         "id": 2194,
@@ -64450,7 +66511,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2195,
@@ -64488,7 +66550,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2196,
@@ -64526,7 +66589,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2197,
@@ -64564,7 +66628,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2198,
@@ -64600,12 +66665,11 @@ const monster_data = [
                 "relative": [2186, 2187, 2188, 2189, 2190, 2191, 2192, 2193, 2194, 2195, 2196, 2197, 2198, 2199, 2203]
             }
         ],
-        "board": [
-            ["e", "-", "-", "-", "-", "e", "e", "-", "-", "-", "-", "e", "e", "-", "-", "-", "-", "e", "e", "-", "-", "-", "-", "e", "h", "-", "-", "-", "-", "h"]
-        ],
+        "board": [["e", "-", "-", "-", "-", "e", "e", "-", "-", "-", "-", "e", "e", "-", "-", "-", "-", "e", "e", "-", "-", "-", "-", "e", "h", "-", "-", "-", "-", "h"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2199,
@@ -64643,7 +66707,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2200,
@@ -64666,7 +66731,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2201,
@@ -64689,7 +66755,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2202,
@@ -64712,7 +66779,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2203,
@@ -64750,7 +66818,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2204,
@@ -64773,7 +66842,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2205,
@@ -64796,7 +66866,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2206,
@@ -64817,12 +66888,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l"], ["h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h"]
-        ],
+        "board": [["l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l", "l"], ["h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2207,
@@ -64862,7 +66932,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2208,
@@ -64901,7 +66972,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2209,
@@ -64924,7 +66996,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2210,
@@ -64947,7 +67020,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2211,
@@ -64970,7 +67044,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2212,
@@ -64993,7 +67068,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2213,
@@ -65016,7 +67092,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.00"
     },
     {
         "id": 2214,
@@ -65063,7 +67140,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2215,
@@ -65095,7 +67173,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2216,
@@ -65118,7 +67197,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2217,
@@ -65149,7 +67229,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2218,
@@ -65172,7 +67253,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2219,
@@ -65208,12 +67290,11 @@ const monster_data = [
                 "relative": [2219]
             }
         ],
-        "board": [
-            ["Fe", "Fe", "He", "He", "Fe", "Fe", "He", "He", "Fe", "Fe", "He", "He", "Fe", "Fe", "He", "He", "Fe", "Fe", "He", "He", "Fe", "Fe", "He", "He", "Fe", "Fe", "He", "He", "Fe", "Fe"]
-        ],
+        "board": [["Fe", "Fe", "He", "He", "Fe", "Fe", "He", "He", "Fe", "Fe", "He", "He", "Fe", "Fe", "He", "He", "Fe", "Fe", "He", "He", "Fe", "Fe", "He", "He", "Fe", "Fe", "He", "He", "Fe", "Fe"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2220,
@@ -65236,7 +67317,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2221,
@@ -65267,7 +67349,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2222,
@@ -65290,7 +67373,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2223,
@@ -65356,7 +67440,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2224,
@@ -65379,7 +67464,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2225,
@@ -65410,7 +67496,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2226,
@@ -65433,7 +67520,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2227,
@@ -65464,7 +67552,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2228,
@@ -65487,7 +67576,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2229,
@@ -65518,7 +67608,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2230,
@@ -65541,7 +67632,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2231,
@@ -65572,7 +67664,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2232,
@@ -65593,12 +67686,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["fe", "he", "le", "he", "we", "he", "fe", "ee", "le", "de", "we", "fe", "fe", "ee", "le", "de", "we", "fe", "fe", "ee", "le", "de", "we", "fe", "he", "ee", "he", "de", "he", "fe"]
-        ],
+        "board": [["fe", "he", "le", "he", "we", "he", "fe", "ee", "le", "de", "we", "fe", "fe", "ee", "le", "de", "we", "fe", "fe", "ee", "le", "de", "we", "fe", "he", "ee", "he", "de", "he", "fe"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2233,
@@ -65621,7 +67713,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2234,
@@ -65652,7 +67745,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2235,
@@ -65675,7 +67769,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2236,
@@ -65698,7 +67793,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2237,
@@ -65721,7 +67817,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2238,
@@ -65744,7 +67841,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2239,
@@ -65767,7 +67865,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2240,
@@ -65790,7 +67889,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2241,
@@ -65813,7 +67913,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2242,
@@ -65836,7 +67937,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2243,
@@ -65859,7 +67961,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2244,
@@ -65897,7 +68000,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2245,
@@ -65920,7 +68024,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2246,
@@ -65943,7 +68048,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2247,
@@ -65966,7 +68072,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2248,
@@ -65989,7 +68096,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2249,
@@ -66012,7 +68120,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2250,
@@ -66035,7 +68144,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2251,
@@ -66058,7 +68168,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2252,
@@ -66081,7 +68192,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2253,
@@ -66104,7 +68216,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2254,
@@ -66127,7 +68240,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2255,
@@ -66150,7 +68264,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2256,
@@ -66188,7 +68303,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2257,
@@ -66226,7 +68342,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2258,
@@ -66249,7 +68366,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.10"
     },
     {
         "id": 2259,
@@ -66315,7 +68433,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.20"
     },
     {
         "id": 2260,
@@ -66367,7 +68486,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2261,
@@ -66419,7 +68539,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.20"
     },
     {
         "id": 2262,
@@ -66457,7 +68578,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.20"
     },
     {
         "id": 2263,
@@ -66495,7 +68617,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.30"
     },
     {
         "id": 2264,
@@ -66540,7 +68663,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.30"
     },
     {
         "id": 2265,
@@ -66585,7 +68709,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.30"
     },
     {
         "id": 2266,
@@ -66637,7 +68762,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.30"
     },
     {
         "id": 2267,
@@ -66696,7 +68822,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2268,
@@ -66755,7 +68882,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.40"
     },
     {
         "id": 2269,
@@ -66805,12 +68933,11 @@ const monster_data = [
                 "relative": [2268, 2269, 2270, 2271, 2272, 2265, 1690]
             }
         ],
-        "board": [
-            ["-", "F", "F", "-", "-", "-", "-", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "-", "-", "-", "-", "F", "F", "-"]
-        ],
+        "board": [["-", "F", "F", "-", "-", "-", "-", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "-", "-", "-", "-", "F", "F", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.40"
     },
     {
         "id": 2270,
@@ -66862,7 +68989,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2271,
@@ -66907,7 +69035,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.40"
     },
     {
         "id": 2272,
@@ -66959,7 +69088,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.40"
     },
     {
         "id": 2273,
@@ -67004,7 +69134,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.00"
     },
     {
         "id": 2274,
@@ -67047,12 +69178,11 @@ const monster_data = [
                 "relative": [2274, 2277]
             }
         ],
-        "board": [
-            ["W", "-", "-", "-", "-", "L", "W", "-", "-", "-", "-", "L", "W", "-", "-", "-", "-", "L", "W", "-", "-", "-", "-", "L", "W", "-", "-", "-", "-", "L"]
-        ],
+        "board": [["W", "-", "-", "-", "-", "L", "W", "-", "-", "-", "-", "L", "W", "-", "-", "-", "-", "L", "W", "-", "-", "-", "-", "L", "W", "-", "-", "-", "-", "L"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.00"
     },
     {
         "id": 2275,
@@ -67097,7 +69227,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.00"
     },
     {
         "id": 2276,
@@ -67142,7 +69273,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.00"
     },
     {
         "id": 2277,
@@ -67187,7 +69319,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.00"
     },
     {
         "id": 2278,
@@ -67210,7 +69343,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2279,
@@ -67233,7 +69367,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2280,
@@ -67256,7 +69391,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2281,
@@ -67301,7 +69437,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.20"
     },
     {
         "id": 2282,
@@ -67361,7 +69498,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.20"
     },
     {
         "id": 2283,
@@ -67392,7 +69530,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.20"
     },
     {
         "id": 2284,
@@ -67423,7 +69562,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.20"
     },
     {
         "id": 2285,
@@ -67473,12 +69613,11 @@ const monster_data = [
                 "relative": [2285]
             }
         ],
-        "board": [
-            ["Dh", "-", "-", "-", "-", "Dh", "Dh", "-", "-", "-", "-", "Dh", "Dh", "-", "-", "-", "-", "Dh", "Dh", "-", "-", "-", "-", "Dh", "Dh", "-", "-", "-", "-", "Dh"]
-        ],
+        "board": [["Dh", "-", "-", "-", "-", "Dh", "Dh", "-", "-", "-", "-", "Dh", "Dh", "-", "-", "-", "-", "Dh", "Dh", "-", "-", "-", "-", "Dh", "Dh", "-", "-", "-", "-", "Dh"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.20"
     },
     {
         "id": 2286,
@@ -67514,12 +69653,11 @@ const monster_data = [
                 "relative": [2286]
             }
         ],
-        "board": [
-            ["e", "e", "e", "e", "e", "e", "e", "-", "-", "-", "-", "e", "e", "-", "-", "-", "-", "e", "e", "-", "-", "-", "-", "e", "e", "e", "e", "e", "e", "e"]
-        ],
+        "board": [["e", "e", "e", "e", "e", "e", "e", "-", "-", "-", "-", "e", "e", "-", "-", "-", "-", "e", "e", "-", "-", "-", "-", "e", "e", "e", "e", "e", "e", "e"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.20"
     },
     {
         "id": 2287,
@@ -67550,7 +69688,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.20"
     },
     {
         "id": 2288,
@@ -67581,7 +69720,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.20"
     },
     {
         "id": 2289,
@@ -67612,7 +69752,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.20"
     },
     {
         "id": 2290,
@@ -67635,7 +69776,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2291,
@@ -67666,7 +69808,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2292,
@@ -67697,7 +69840,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2293,
@@ -67728,7 +69872,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2294,
@@ -67759,7 +69904,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2295,
@@ -67782,7 +69928,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2296,
@@ -67813,7 +69960,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2297,
@@ -67844,7 +69992,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2298,
@@ -67875,7 +70024,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2299,
@@ -67898,7 +70048,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2300,
@@ -67951,7 +70102,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2301,
@@ -67982,7 +70134,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2302,
@@ -68005,7 +70158,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.20"
     },
     {
         "id": 2303,
@@ -68028,7 +70182,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2304,
@@ -68051,7 +70206,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2305,
@@ -68096,7 +70252,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2306,
@@ -68136,7 +70293,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2307,
@@ -68174,7 +70332,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2308,
@@ -68197,7 +70356,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2309,
@@ -68220,7 +70380,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2310,
@@ -68251,7 +70412,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2311,
@@ -68274,7 +70436,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2312,
@@ -68297,7 +70460,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2313,
@@ -68320,7 +70484,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2314,
@@ -68343,7 +70508,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2315,
@@ -68374,7 +70540,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2316,
@@ -68397,7 +70564,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2317,
@@ -68418,12 +70586,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "-", "Db", "-", "Db", "-", "Db", "Db", "-", "Db", "-", "Db", "-", "-", "Db", "-", "Db", "-", "Db", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "-", "Db", "-", "Db", "-", "Db", "Db", "-", "Db", "-", "Db", "-", "-", "Db", "-", "Db", "-", "Db", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2318,
@@ -68446,7 +70613,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2319,
@@ -68469,7 +70637,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2320,
@@ -68492,7 +70661,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2321,
@@ -68523,7 +70693,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2322,
@@ -68554,7 +70725,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2323,
@@ -68585,7 +70757,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2324,
@@ -68616,7 +70789,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2325,
@@ -68647,7 +70821,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2326,
@@ -68678,7 +70853,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2327,
@@ -68701,7 +70877,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2328,
@@ -68724,7 +70901,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2329,
@@ -68755,7 +70933,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2330,
@@ -68778,7 +70957,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2331,
@@ -68801,7 +70981,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2332,
@@ -68824,7 +71005,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2333,
@@ -68847,7 +71029,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2334,
@@ -68870,7 +71053,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2335,
@@ -68893,7 +71077,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2336,
@@ -68916,7 +71101,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.40"
     },
     {
         "id": 2337,
@@ -68973,7 +71159,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.40"
     },
     {
         "id": 2338,
@@ -69037,7 +71224,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.40"
     },
     {
         "id": 2339,
@@ -69101,7 +71289,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.40"
     },
     {
         "id": 2340,
@@ -69132,7 +71321,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.40"
     },
     {
         "id": 2341,
@@ -69175,7 +71365,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.40"
     },
     {
         "id": 2342,
@@ -69206,7 +71397,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.40"
     },
     {
         "id": 2343,
@@ -69237,7 +71429,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.40"
     },
     {
         "id": 2344,
@@ -69297,7 +71490,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 24,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.40"
     },
     {
         "id": 2345,
@@ -69350,7 +71544,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 24,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v18.40"
     },
     {
         "id": 2346,
@@ -69373,7 +71568,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2347,
@@ -69396,7 +71592,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2348,
@@ -69427,7 +71624,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2349,
@@ -69450,7 +71648,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2350,
@@ -69481,7 +71680,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2351,
@@ -69504,7 +71704,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2352,
@@ -69527,7 +71728,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2353,
@@ -69548,12 +71750,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "E", "E", "-", "-", "E", "-", "-", "-", "-", "E", "E", "-", "-", "-", "-", "E", "-", "-", "-", "-", "-", "-", "E", "E", "-", "-", "E", "E"]
-        ],
+        "board": [["-", "-", "E", "E", "-", "-", "E", "-", "-", "-", "-", "E", "E", "-", "-", "-", "-", "E", "-", "-", "-", "-", "-", "-", "E", "E", "-", "-", "E", "E"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2354,
@@ -69576,7 +71777,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2355,
@@ -69599,7 +71801,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2356,
@@ -69622,7 +71825,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2357,
@@ -69645,7 +71849,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2358,
@@ -69668,7 +71873,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2359,
@@ -69691,7 +71897,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2360,
@@ -69714,7 +71921,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2361,
@@ -69752,7 +71960,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2362,
@@ -69790,7 +71999,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2363,
@@ -69828,7 +72038,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2364,
@@ -69866,7 +72077,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2365,
@@ -69904,7 +72116,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2366,
@@ -69927,7 +72140,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2367,
@@ -69950,7 +72164,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2368,
@@ -69973,7 +72188,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2369,
@@ -69996,7 +72212,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2370,
@@ -70019,7 +72236,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2371,
@@ -70042,7 +72260,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2372,
@@ -70065,7 +72284,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2373,
@@ -70088,7 +72308,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2374,
@@ -70111,7 +72332,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2375,
@@ -70134,7 +72356,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.40"
     },
     {
         "id": 2376,
@@ -70157,7 +72380,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 2377,
@@ -70203,7 +72427,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2378,
@@ -70226,7 +72451,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2379,
@@ -70264,7 +72490,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2380,
@@ -70309,7 +72536,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2381,
@@ -70340,7 +72568,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2382,
@@ -70363,7 +72592,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2383,
@@ -70401,7 +72631,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2384,
@@ -70424,7 +72655,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2385,
@@ -70462,7 +72694,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2386,
@@ -70485,7 +72718,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2387,
@@ -70508,7 +72742,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2388,
@@ -70531,7 +72766,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2389,
@@ -70554,7 +72790,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2390,
@@ -70577,7 +72814,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2391,
@@ -70608,7 +72846,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2392,
@@ -70629,12 +72868,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["H", "D", "L", "E", "F", "W", "H", "D", "L", "E", "F", "W", "H", "D", "L", "E", "F", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["H", "D", "L", "E", "F", "W", "H", "D", "L", "E", "F", "W", "H", "D", "L", "E", "F", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2393,
@@ -70657,7 +72895,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2394,
@@ -70678,12 +72917,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["wr", "hr", "wr", "-", "-", "-", "wr", "hr", "wr", "-", "-", "-", "wr", "hr", "wr", "-", "-", "-", "wr", "hr", "wr", "-", "-", "-", "wr", "hr", "wr", "-", "-", "-"], ["-", "-", "-", "W", "F", "E", "-", "-", "-", "W", "F", "E", "-", "-", "-", "W", "F", "E", "-", "-", "-", "W", "F", "E", "-", "-", "-", "W", "F", "E"]
-        ],
+        "board": [["wr", "hr", "wr", "-", "-", "-", "wr", "hr", "wr", "-", "-", "-", "wr", "hr", "wr", "-", "-", "-", "wr", "hr", "wr", "-", "-", "-", "wr", "hr", "wr", "-", "-", "-"], ["-", "-", "-", "W", "F", "E", "-", "-", "-", "W", "F", "E", "-", "-", "-", "W", "F", "E", "-", "-", "-", "W", "F", "E", "-", "-", "-", "W", "F", "E"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2395,
@@ -70706,7 +72944,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2396,
@@ -70729,7 +72968,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2397,
@@ -70760,7 +73000,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2398,
@@ -70783,7 +73024,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.83"
     },
     {
         "id": 2399,
@@ -70806,7 +73048,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2400,
@@ -70829,7 +73072,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.83"
     },
     {
         "id": 2401,
@@ -70860,7 +73104,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2402,
@@ -70891,7 +73136,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2403,
@@ -70922,7 +73168,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.00"
     },
     {
         "id": 2404,
@@ -70951,12 +73198,11 @@ const monster_data = [
                 "relative": [2401, 2402, 2403, 2404, 2405]
             }
         ],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "L", "-", "-", "-", "-", "L", "L", "-", "-", "-", "-", "L", "L", "-", "-", "-", "-", "L", "L", "-", "-", "-", "-", "L"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "L", "-", "-", "-", "-", "L", "L", "-", "-", "-", "-", "L", "L", "-", "-", "-", "-", "L", "L", "-", "-", "-", "-", "L"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2405,
@@ -70987,7 +73233,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.00"
     },
     {
         "id": 2406,
@@ -71018,7 +73265,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.10"
     },
     {
         "id": 2407,
@@ -71061,7 +73309,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.10"
     },
     {
         "id": 2408,
@@ -71104,7 +73353,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.10"
     },
     {
         "id": 2409,
@@ -71133,12 +73383,11 @@ const monster_data = [
                 "relative": [2411, 2406, 2407, 2408, 2409, 2410, 2412, 2413, 2414, 2422, 2423, 2424, 2425, 2426]
             }
         ],
-        "board": [
-            ["h", "h", "e", "e", "h", "h", "h", "h", "e", "e", "h", "h", "e", "e", "e", "e", "e", "e", "h", "h", "e", "e", "h", "h", "h", "h", "e", "e", "h", "h"], ["l", "l", "f", "f", "l", "l", "l", "l", "f", "f", "l", "l", "f", "f", "f", "f", "f", "f", "l", "l", "f", "f", "l", "l", "l", "l", "f", "f", "l", "l"]
-        ],
+        "board": [["h", "h", "e", "e", "h", "h", "h", "h", "e", "e", "h", "h", "e", "e", "e", "e", "e", "e", "h", "h", "e", "e", "h", "h", "h", "h", "e", "e", "h", "h"], ["l", "l", "f", "f", "l", "l", "l", "l", "f", "f", "l", "l", "f", "f", "f", "f", "f", "f", "l", "l", "f", "f", "l", "l", "l", "l", "f", "f", "l", "l"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.10"
     },
     {
         "id": 2410,
@@ -71188,7 +73437,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.10"
     },
     {
         "id": 24101,
@@ -71211,7 +73461,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2411,
@@ -71273,7 +73524,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.10"
     },
     {
         "id": 2412,
@@ -71340,7 +73592,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.10"
     },
     {
         "id": 2413,
@@ -71391,7 +73644,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.10"
     },
     {
         "id": 2414,
@@ -71430,7 +73684,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.10"
     },
     {
         "id": 2415,
@@ -71453,7 +73708,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2416,
@@ -71476,7 +73732,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2417,
@@ -71507,7 +73764,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2418,
@@ -71530,7 +73788,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2419,
@@ -71573,7 +73832,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2420,
@@ -71604,7 +73864,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2421,
@@ -71635,7 +73896,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2422,
@@ -71707,12 +73969,11 @@ const monster_data = [
                 "relative": [2422, 2410, 2411, 2412, 2419]
             }
         ],
-        "board": [
-            ["W", "W", "W", "L", "L", "L", "F", "F", "F", "D", "D", "D", "E", "E", "E", "H", "H", "H", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["W", "W", "W", "L", "L", "L", "F", "F", "F", "D", "D", "D", "E", "E", "E", "H", "H", "H", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.10"
     },
     {
         "id": 2423,
@@ -71756,12 +74017,11 @@ const monster_data = [
                 "relative": [2423, 2407, 2422, 2408]
             }
         ],
-        "board": [
-            ["W", "W", "W", "L", "L", "L", "F", "F", "F", "D", "D", "D", "E", "E", "E", "H", "H", "H", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["W", "W", "W", "L", "L", "L", "F", "F", "F", "D", "D", "D", "E", "E", "E", "H", "H", "H", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 24,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.10"
     },
     {
         "id": 2424,
@@ -71805,12 +74065,11 @@ const monster_data = [
                 "relative": [2424]
             }
         ],
-        "board": [
-            ["W", "W", "W", "L", "L", "L", "F", "F", "F", "D", "D", "D", "E", "E", "E", "H", "H", "H", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["W", "W", "W", "L", "L", "L", "F", "F", "F", "D", "D", "D", "E", "E", "E", "H", "H", "H", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 48,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.10"
     },
     {
         "id": 2425,
@@ -71854,8 +74113,7 @@ const monster_data = [
                 "relative": [2425]
             }
         ],
-        "board": [
-            {
+        "board": [{
                 "row": 8,
                 "column": 6,
                 "board": ["Wm", "Fm", "Em", "Lm", "Dm", "Hm", "Wm", "Fm", "Em", "Lm", "Dm", "Hm", "Wm", "Fm", "Em", "Lm", "Dm", "Hm", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
@@ -71863,7 +74121,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 60,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.10"
     },
     {
         "id": 2426,
@@ -71892,12 +74151,11 @@ const monster_data = [
                 "relative": [2411, 2406, 2407, 2408, 2409, 2410, 2412, 2413, 2414, 2422, 2423, 2424, 2425, 2426]
             }
         ],
-        "board": [
-            ["h", "h", "l", "l", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "l", "h", "h", "h", "h", "l", "l", "l", "h", "h", "l", "l"]
-        ],
+        "board": [["h", "h", "l", "l", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "l", "h", "h", "h", "h", "l", "l", "l", "h", "h", "l", "l"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2427,
@@ -71920,7 +74178,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2428,
@@ -71943,7 +74202,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2429,
@@ -71966,7 +74226,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2430,
@@ -71989,7 +74250,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2431,
@@ -72028,7 +74290,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2432,
@@ -72067,7 +74330,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2433,
@@ -72106,7 +74370,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2434,
@@ -72145,7 +74410,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2435,
@@ -72184,7 +74450,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2436,
@@ -72207,7 +74474,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2437,
@@ -72245,7 +74513,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2438,
@@ -72283,7 +74552,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2439,
@@ -72306,7 +74576,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.10"
     },
     {
         "id": 2440,
@@ -72329,7 +74600,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2441,
@@ -72360,7 +74632,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2442,
@@ -72391,7 +74664,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2443,
@@ -72422,7 +74696,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2444,
@@ -72453,7 +74728,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2445,
@@ -72484,7 +74760,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.66"
     },
     {
         "id": 2446,
@@ -72536,7 +74813,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2447,
@@ -72566,12 +74844,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["L", "L", "L", "-", "-", "-", "-", "-", "-", "-", "-", "-", "L", "L", "L", "-", "-", "-", "-", "-", "-", "-", "-", "-", "L", "L", "L", "-", "-", "-"]
-        ],
+        "board": [["L", "L", "L", "-", "-", "-", "-", "-", "-", "-", "-", "-", "L", "L", "L", "-", "-", "-", "-", "-", "-", "-", "-", "-", "L", "L", "L", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2448,
@@ -72623,7 +74900,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2449,
@@ -72653,12 +74931,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "-", "D", "D", "D", "-", "-", "-", "-", "-", "-", "-", "-", "-", "D", "D", "D", "-", "-", "-", "-", "-", "-", "-", "-", "-", "D", "D", "D"]
-        ],
+        "board": [["-", "-", "-", "D", "D", "D", "-", "-", "-", "-", "-", "-", "-", "-", "-", "D", "D", "D", "-", "-", "-", "-", "-", "-", "-", "-", "-", "D", "D", "D"]],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2450,
@@ -72704,7 +74981,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 30,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2451,
@@ -72749,7 +75027,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2452,
@@ -72823,12 +75102,11 @@ const monster_data = [
                 "relative": [2452, 2459]
             }
         ],
-        "board": [
-            ["H", "L", "L", "L", "L", "H", "H", "L", "L", "L", "L", "H", "Ee", "H", "L", "L", "H", "Ee", "Ee", "H", "H", "H", "H", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee"]
-        ],
+        "board": [["H", "L", "L", "L", "L", "H", "H", "L", "L", "L", "L", "H", "Ee", "H", "L", "L", "H", "Ee", "Ee", "H", "H", "H", "H", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2453,
@@ -72859,7 +75137,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2454,
@@ -72906,7 +75185,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2455,
@@ -72952,7 +75232,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2456,
@@ -72983,7 +75264,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2457,
@@ -73014,7 +75296,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2458,
@@ -73050,12 +75333,11 @@ const monster_data = [
                 "relative": [2458, 2460, 2461]
             }
         ],
-        "board": [
-            ["D", "-", "-", "-", "-", "D", "D", "-", "-", "-", "-", "D", "D", "-", "-", "-", "-", "D", "D", "-", "-", "-", "-", "D", "D", "-", "-", "-", "-", "D"]
-        ],
+        "board": [["D", "-", "-", "-", "-", "D", "D", "-", "-", "-", "-", "D", "D", "-", "-", "-", "-", "D", "D", "-", "-", "-", "-", "D", "D", "-", "-", "-", "-", "D"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2459,
@@ -73086,7 +75368,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2460,
@@ -73133,7 +75416,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2461,
@@ -73179,7 +75463,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.20"
     },
     {
         "id": 2462,
@@ -73202,7 +75487,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2463,
@@ -73247,7 +75533,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2464,
@@ -73270,7 +75557,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2465,
@@ -73299,12 +75587,11 @@ const monster_data = [
                 "relative": [2465, 2466]
             }
         ],
-        "board": [
-            ["E", "-", "-", "-", "-", "E", "E", "-", "-", "-", "-", "E", "E", "-", "-", "-", "-", "E", "E", "-", "-", "-", "-", "E", "E", "-", "-", "-", "-", "E"]
-        ],
+        "board": [["E", "-", "-", "-", "-", "E", "E", "-", "-", "-", "-", "E", "E", "-", "-", "-", "-", "E", "E", "-", "-", "-", "-", "E", "E", "-", "-", "-", "-", "E"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2466,
@@ -73335,7 +75622,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2467,
@@ -73364,12 +75652,11 @@ const monster_data = [
                 "relative": [2467]
             }
         ],
-        "board": [
-            ["dd", "dd", "dd", "dd", "dd", "dd", "dd", "-", "-", "-", "-", "dd", "dd", "-", "-", "-", "-", "dd", "dd", "-", "-", "-", "-", "dd", "dd", "dd", "dd", "dd", "dd", "dd"]
-        ],
+        "board": [["dd", "dd", "dd", "dd", "dd", "dd", "dd", "-", "-", "-", "-", "dd", "dd", "-", "-", "-", "-", "dd", "dd", "-", "-", "-", "-", "dd", "dd", "dd", "dd", "dd", "dd", "dd"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2468,
@@ -73400,7 +75687,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2469,
@@ -73429,12 +75717,11 @@ const monster_data = [
                 "relative": [2469]
             }
         ],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "-", "Dd", "Dd", "Dd", "Dd", "-", "-", "Dd", "Dd", "Dd", "Dd", "-", "-", "Dd", "Dd", "Dd", "Dd", "-", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "-", "Dd", "Dd", "Dd", "Dd", "-", "-", "Dd", "Dd", "Dd", "Dd", "-", "-", "Dd", "Dd", "Dd", "Dd", "-", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2470,
@@ -73465,7 +75752,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2471,
@@ -73488,7 +75776,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2472,
@@ -73511,7 +75800,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2473,
@@ -73542,7 +75832,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2474,
@@ -73565,7 +75856,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.20"
     },
     {
         "id": 2475,
@@ -73596,7 +75888,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2476,
@@ -73619,7 +75912,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2477,
@@ -73650,7 +75944,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2478,
@@ -73673,7 +75968,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2479,
@@ -73704,7 +76000,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 14,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2480,
@@ -73771,7 +76068,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2481,
@@ -73802,7 +76100,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.30"
     },
     {
         "id": 2482,
@@ -73833,7 +76132,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.30"
     },
     {
         "id": 2483,
@@ -73864,7 +76164,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.30"
     },
     {
         "id": 2484,
@@ -73893,12 +76194,11 @@ const monster_data = [
                 "relative": [2484]
             }
         ],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "L", "L", "L", "L", "L", "L"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "L", "L", "L", "L", "L", "L"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.30"
     },
     {
         "id": 2485,
@@ -73929,7 +76229,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.30"
     },
     {
         "id": 2486,
@@ -73967,7 +76268,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.30"
     },
     {
         "id": 2487,
@@ -74003,12 +76305,11 @@ const monster_data = [
                 "relative": [2487]
             }
         ],
-        "board": [
-            ["Eg", "Eg", "H", "H", "Eg", "Eg", "H", "H", "Eg", "Eg", "H", "H", "Eg", "Eg", "H", "H", "Eg", "Eg", "H", "H", "Eg", "Eg", "H", "H", "Eg", "Eg", "H", "H", "Eg", "Eg"]
-        ],
+        "board": [["Eg", "Eg", "H", "H", "Eg", "Eg", "H", "H", "Eg", "Eg", "H", "H", "Eg", "Eg", "H", "H", "Eg", "Eg", "H", "H", "Eg", "Eg", "H", "H", "Eg", "Eg", "H", "H", "Eg", "Eg"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.30"
     },
     {
         "id": 2488,
@@ -74046,7 +76347,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.30"
     },
     {
         "id": 2489,
@@ -74069,7 +76371,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2490,
@@ -74092,7 +76395,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2491,
@@ -74115,7 +76419,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2492,
@@ -74138,7 +76443,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2493,
@@ -74161,7 +76467,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.66"
     },
     {
         "id": 2494,
@@ -74184,7 +76491,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2495,
@@ -74207,7 +76515,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2496,
@@ -74230,7 +76539,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2497,
@@ -74268,7 +76578,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2498,
@@ -74313,7 +76624,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2499,
@@ -74358,7 +76670,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2500,
@@ -74381,7 +76694,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2501,
@@ -74404,7 +76718,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2502,
@@ -74435,7 +76750,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2503,
@@ -74458,7 +76774,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2504,
@@ -74487,12 +76804,11 @@ const monster_data = [
                 "relative": [2504, 2480]
             }
         ],
-        "board": [
-            ["e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f"], ["ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd"]
-        ],
+        "board": [["e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f", "e", "f"], ["ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd", "ed", "fd"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2505,
@@ -74515,7 +76831,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2506,
@@ -74546,7 +76863,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2507,
@@ -74569,7 +76887,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2508,
@@ -74592,7 +76911,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2509,
@@ -74615,7 +76935,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 15,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 2510,
@@ -74646,7 +76967,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2511,
@@ -74669,7 +76991,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 2512,
@@ -74692,7 +77015,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 2513,
@@ -74715,7 +77039,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 2514,
@@ -74738,7 +77063,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 2515,
@@ -74761,7 +77087,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 2516,
@@ -74829,7 +77156,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.40"
     },
     {
         "id": 2517,
@@ -74903,7 +77231,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.40"
     },
     {
         "id": 2518,
@@ -74960,12 +77289,11 @@ const monster_data = [
                 "relative": [2516, 2517, 2518, 2519, 2520, 2521, 2522, 2523, 2524, 2536, 2537, 2538, 2540, 2541]
             }
         ],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "Wg", "Fg", "Eg", "Lg", "Dg", "Hg", "Wg", "Fg", "Eg", "Lg", "Dg", "Hg", "Wg", "Fg", "Eg", "Lg", "Dg", "Hg", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "Wg", "Fg", "Eg", "Lg", "Dg", "Hg", "Wg", "Fg", "Eg", "Lg", "Dg", "Hg", "Wg", "Fg", "Eg", "Lg", "Dg", "Hg", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.40"
     },
     {
         "id": 2519,
@@ -75003,7 +77331,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.40"
     },
     {
         "id": 2520,
@@ -75070,7 +77399,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.40"
     },
     {
         "id": 2521,
@@ -75106,12 +77436,11 @@ const monster_data = [
                 "relative": [2516, 2517, 2518, 2519, 2520, 2521, 2522, 2523, 2524, 2536, 2537, 2538, 2540, 2541]
             }
         ],
-        "board": [
-            ["W", "W", "-", "-", "E", "E", "W", "-", "-", "-", "-", "E", "-", "-", "-", "-", "-", "-", "F", "-", "-", "-", "-", "L", "F", "F", "-", "-", "L", "L"]
-        ],
+        "board": [["W", "W", "-", "-", "E", "E", "W", "-", "-", "-", "-", "E", "-", "-", "-", "-", "-", "-", "F", "-", "-", "-", "-", "L", "F", "F", "-", "-", "L", "L"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.40"
     },
     {
         "id": 2522,
@@ -75149,7 +77478,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.40"
     },
     {
         "id": 2523,
@@ -75187,7 +77517,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.40"
     },
     {
         "id": 2524,
@@ -75225,7 +77556,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.40"
     },
     {
         "id": 2525,
@@ -75248,7 +77580,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2526,
@@ -75269,12 +77602,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["F", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "F"]
-        ],
+        "board": [["F", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "F"]],
         "maxLevel": 99,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2527,
@@ -75305,7 +77637,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2528,
@@ -75337,7 +77670,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2529,
@@ -75369,7 +77703,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2530,
@@ -75392,7 +77727,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2531,
@@ -75423,7 +77759,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2532,
@@ -75463,7 +77800,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2533,
@@ -75502,7 +77840,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2534,
@@ -75533,7 +77872,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2535,
@@ -75556,7 +77896,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2536,
@@ -75624,7 +77965,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.40"
     },
     {
         "id": 2537,
@@ -75682,12 +78024,11 @@ const monster_data = [
                 "relative": [2516, 2517, 2518, 2519, 2520, 2521, 2522, 2523, 2524, 2536, 2537, 2538, 2540, 2541]
             }
         ],
-        "board": [
-            ["Fg", "h", "Fg", "h", "Fg", "h", "h", "Fg", "h", "Fg", "h", "Fg", "Fg", "h", "Fg", "h", "Fg", "h", "h", "Fg", "h", "Fg", "h", "Fg", "Fg", "h", "Fg", "h", "Fg", "h"]
-        ],
+        "board": [["Fg", "h", "Fg", "h", "Fg", "h", "h", "Fg", "h", "Fg", "h", "Fg", "Fg", "h", "Fg", "h", "Fg", "h", "h", "Fg", "h", "Fg", "h", "Fg", "Fg", "h", "Fg", "h", "Fg", "h"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.40"
     },
     {
         "id": 2538,
@@ -75732,7 +78073,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.40"
     },
     {
         "id": 2539,
@@ -75763,7 +78105,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2540,
@@ -75801,7 +78144,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2541,
@@ -75861,7 +78205,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.40"
     },
     {
         "id": 2542,
@@ -75884,7 +78229,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2543,
@@ -75915,7 +78261,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2544,
@@ -75938,7 +78285,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2545,
@@ -75984,7 +78332,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.40"
     },
     {
         "id": 2546,
@@ -76027,7 +78376,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2547,
@@ -76070,7 +78420,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2548,
@@ -76113,7 +78464,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2549,
@@ -76156,7 +78508,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2550,
@@ -76199,7 +78552,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2551,
@@ -76242,7 +78596,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2552,
@@ -76285,7 +78640,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2553,
@@ -76328,7 +78684,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2554,
@@ -76371,7 +78728,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2555,
@@ -76414,7 +78772,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2556,
@@ -76453,7 +78812,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2557,
@@ -76492,7 +78852,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2558,
@@ -76531,7 +78892,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2559,
@@ -76570,7 +78932,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2560,
@@ -76609,7 +78972,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2561,
@@ -76632,7 +78996,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2562,
@@ -76655,7 +79020,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2563,
@@ -76678,7 +79044,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2564,
@@ -76701,7 +79068,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2565,
@@ -76724,7 +79092,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2566,
@@ -76747,7 +79116,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2567,
@@ -76783,12 +79153,11 @@ const monster_data = [
                 "relative": [2567, 2377]
             }
         ],
-        "board": [
-            ["Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr"]
-        ],
+        "board": [["Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr", "Fr", "Wr"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2568,
@@ -76826,7 +79195,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2569,
@@ -76857,7 +79227,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2570,
@@ -76903,7 +79274,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2571,
@@ -76926,7 +79298,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2572,
@@ -76957,7 +79330,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2573,
@@ -76980,7 +79354,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2574,
@@ -77011,7 +79386,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2575,
@@ -77042,7 +79418,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2576,
@@ -77071,12 +79448,11 @@ const monster_data = [
                 "relative": [2576, 2566, 2567, 2568, 2569, 2570, 2571, 2572, 2573]
             }
         ],
-        "board": [
-            ["D", "-", "D", "-", "D", "-", "-", "D", "-", "D", "-", "D", "D", "-", "D", "-", "D", "-", "-", "D", "-", "D", "-", "D", "D", "-", "D", "-", "D", "-"]
-        ],
+        "board": [["D", "-", "D", "-", "D", "-", "-", "D", "-", "D", "-", "D", "D", "-", "D", "-", "D", "-", "-", "D", "-", "D", "-", "D", "D", "-", "D", "-", "D", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2577,
@@ -77099,7 +79475,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2578,
@@ -77122,7 +79499,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2579,
@@ -77145,7 +79523,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2580,
@@ -77168,7 +79547,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2581,
@@ -77191,7 +79571,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2582,
@@ -77212,12 +79593,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "Db", "Db", "Db", "Lb", "Lb", "Lb", "-", "-", "-", "-", "-", "-", "Db", "Db", "Db", "Lb", "Lb", "Lb", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "Db", "Db", "Db", "Lb", "Lb", "Lb", "-", "-", "-", "-", "-", "-", "Db", "Db", "Db", "Lb", "Lb", "Lb", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2583,
@@ -77240,7 +79620,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 1,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2584,
@@ -77306,7 +79687,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2585,
@@ -77358,7 +79740,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.50"
     },
     {
         "id": 2586,
@@ -77381,7 +79764,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2587,
@@ -77404,7 +79788,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2588,
@@ -77435,7 +79820,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2589,
@@ -77458,7 +79844,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2590,
@@ -77481,7 +79868,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.50"
     },
     {
         "id": 2591,
@@ -77504,7 +79892,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.66"
     },
     {
         "id": 2592,
@@ -77527,7 +79916,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.66"
     },
     {
         "id": 2593,
@@ -77550,7 +79940,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.66"
     },
     {
         "id": 2594,
@@ -77573,7 +79964,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2595,
@@ -77610,12 +80002,11 @@ const monster_data = [
                 "relative": [2595]
             }
         ],
-        "board": [
-            ["f", "f", "f", "e", "f", "w", "e", "f", "w", "e", "f", "w", "e", "f", "w", "e", "f", "w", "e", "f", "w", "e", "f", "w", "e", "f", "w", "f", "f", "f"], ["f", "f", "f", "l", "h", "d", "w", "f", "e", "l", "h", "d", "w", "f", "e", "l", "h", "d", "w", "f", "e", "l", "h", "d", "w", "f", "e", "f", "f", "f"], ["l", "l", "l", "h", "h", "h", "d", "l", "d", "l", "d", "l", "d", "l", "d", "l", "d", "l", "d", "l", "d", "l", "d", "l", "h", "h", "h", "d", "d", "d"], ["f", "f", "f", "h", "h", "h", "e", "e", "e", "w", "w", "w", "d", "d", "d", "l", "l", "l", "w", "w", "w", "e", "e", "e", "h", "h", "h", "f", "f", "f"]
-        ],
+        "board": [["f", "f", "f", "e", "f", "w", "e", "f", "w", "e", "f", "w", "e", "f", "w", "e", "f", "w", "e", "f", "w", "e", "f", "w", "e", "f", "w", "f", "f", "f"], ["f", "f", "f", "l", "h", "d", "w", "f", "e", "l", "h", "d", "w", "f", "e", "l", "h", "d", "w", "f", "e", "l", "h", "d", "w", "f", "e", "f", "f", "f"], ["l", "l", "l", "h", "h", "h", "d", "l", "d", "l", "d", "l", "d", "l", "d", "l", "d", "l", "d", "l", "d", "l", "d", "l", "h", "h", "h", "d", "d", "d"], ["f", "f", "f", "h", "h", "h", "e", "e", "e", "w", "w", "w", "d", "d", "d", "l", "l", "l", "w", "w", "w", "e", "e", "e", "h", "h", "h", "f", "f", "f"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.66"
     },
     {
         "id": 2596,
@@ -77646,7 +80037,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.66"
     },
     {
         "id": 2597,
@@ -77677,7 +80069,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2598,
@@ -77700,7 +80093,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2599,
@@ -77723,7 +80117,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.60"
     },
     {
         "id": 2600,
@@ -77746,7 +80141,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.60"
     },
     {
         "id": 2601,
@@ -77778,7 +80174,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.66"
     },
     {
         "id": 2602,
@@ -77810,7 +80207,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.66"
     },
     {
         "id": 2603,
@@ -77849,7 +80247,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.66"
     },
     {
         "id": 2604,
@@ -77881,7 +80280,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.66"
     },
     {
         "id": 2605,
@@ -77920,7 +80320,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.66"
     },
     {
         "id": 2606,
@@ -77952,7 +80353,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.66"
     },
     {
         "id": 2607,
@@ -77991,7 +80393,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.66"
     },
     {
         "id": 2608,
@@ -78021,12 +80424,11 @@ const monster_data = [
                 "relative": [420, 1069, 2607, 2608, 316, 574]
             }
         ],
-        "board": [
-            ["L", "L", "L", "H", "H", "L", "H", "H", "L", "H", "H", "L", "L", "L", "L", "L", "L", "L", "L", "H", "H", "L", "H", "H", "L", "H", "H", "L", "L", "L"]
-        ],
+        "board": [["L", "L", "L", "H", "H", "L", "H", "H", "L", "H", "H", "L", "L", "L", "L", "L", "L", "L", "L", "H", "H", "L", "H", "H", "L", "H", "H", "L", "L", "L"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.66"
     },
     {
         "id": 2609,
@@ -78058,7 +80460,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.66"
     },
     {
         "id": 2610,
@@ -78090,7 +80493,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.66"
     },
     {
         "id": 2611,
@@ -78135,7 +80539,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.60"
     },
     {
         "id": 2612,
@@ -78196,7 +80601,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.60"
     },
     {
         "id": 2613,
@@ -78256,7 +80662,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.60"
     },
     {
         "id": 2614,
@@ -78287,7 +80694,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.60"
     },
     {
         "id": 2615,
@@ -78318,7 +80726,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.60"
     },
     {
         "id": 2616,
@@ -78363,7 +80772,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.60"
     },
     {
         "id": 2617,
@@ -78394,7 +80804,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.60"
     },
     {
         "id": 2618,
@@ -78425,7 +80836,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.60"
     },
     {
         "id": 2619,
@@ -78456,7 +80868,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.60"
     },
     {
         "id": 2620,
@@ -78493,12 +80906,11 @@ const monster_data = [
                 "relative": [2620, 2611, 2621, 2622]
             }
         ],
-        "board": [
-            ["W", "W", "W", "H", "H", "H", "H", "H", "H", "W", "W", "W", "W", "W", "W", "H", "H", "H", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["W", "W", "W", "H", "H", "H", "H", "H", "H", "W", "W", "W", "W", "W", "W", "H", "H", "H", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.60"
     },
     {
         "id": 2621,
@@ -78535,12 +80947,11 @@ const monster_data = [
                 "relative": [2621, 2611, 2620, 2622]
             }
         ],
-        "board": [
-            ["L", "L", "L", "H", "H", "H", "H", "H", "H", "L", "L", "L", "L", "L", "L", "H", "H", "H", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["L", "L", "L", "H", "H", "H", "H", "H", "H", "L", "L", "L", "L", "L", "L", "H", "H", "H", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v19.60"
     },
     {
         "id": 2622,
@@ -78578,7 +80989,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.60"
     },
     {
         "id": 2623,
@@ -78616,7 +81028,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.60"
     },
     {
         "id": 2624,
@@ -78654,7 +81067,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.60"
     },
     {
         "id": 2625,
@@ -78685,7 +81099,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.60"
     },
     {
         "id": 2626,
@@ -78716,7 +81131,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.60"
     },
     {
         "id": 2627,
@@ -78747,7 +81163,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.60"
     },
     {
         "id": 2628,
@@ -78786,7 +81203,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.60"
     },
     {
         "id": 2629,
@@ -78815,12 +81233,11 @@ const monster_data = [
                 "relative": [2611, 2612, 2613, 2614, 2615, 2616, 2617, 2618, 2619, 2620, 2621, 2622, 2623, 2624, 2625, 2626, 2627, 2628, 2629, 2630, 2631, 2632]
             }
         ],
-        "board": [
-            ["f", "f", "f", "f", "f", "f", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["f", "f", "f", "f", "f", "f", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.60"
     },
     {
         "id": 2630,
@@ -78851,7 +81268,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.60"
     },
     {
         "id": 2631,
@@ -78882,7 +81300,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.60"
     },
     {
         "id": 2632,
@@ -78920,7 +81339,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.60"
     },
     {
         "id": 2633,
@@ -78943,7 +81363,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.60"
     },
     {
         "id": 2634,
@@ -78979,12 +81400,11 @@ const monster_data = [
                 "relative": [2634]
             }
         ],
-        "board": [
-            ["F", "W", "E", "F", "F", "F", "F", "W", "E", "W", "E", "F", "F", "W", "E", "W", "E", "F", "F", "W", "E", "W", "E", "F", "F", "F", "F", "W", "E", "F"]
-        ],
+        "board": [["F", "W", "E", "F", "F", "F", "F", "W", "E", "W", "E", "F", "F", "W", "E", "W", "E", "F", "F", "W", "E", "W", "E", "F", "F", "F", "F", "W", "E", "F"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2635,
@@ -79007,7 +81427,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2636,
@@ -79030,7 +81451,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2637,
@@ -79069,7 +81491,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2638,
@@ -79090,12 +81513,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "Ee", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2639,
@@ -79134,7 +81556,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2640,
@@ -79173,7 +81596,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2641,
@@ -79196,7 +81620,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2642,
@@ -79219,7 +81644,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2643,
@@ -79242,7 +81668,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2644,
@@ -79273,7 +81700,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2645,
@@ -79296,7 +81724,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2646,
@@ -79319,7 +81748,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2647,
@@ -79342,7 +81772,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2648,
@@ -79373,7 +81804,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2649,
@@ -79404,7 +81836,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2650,
@@ -79427,7 +81860,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2651,
@@ -79450,7 +81884,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2652,
@@ -79473,7 +81908,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2653,
@@ -79496,7 +81932,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2654,
@@ -79519,7 +81956,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2655,
@@ -79542,7 +81980,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2656,
@@ -79565,7 +82004,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 2657,
@@ -79596,7 +82036,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2658,
@@ -79619,7 +82060,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2659,
@@ -79642,7 +82084,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2660,
@@ -79685,12 +82128,11 @@ const monster_data = [
                 "relative": [2660]
             }
         ],
-        "board": [
-            ["H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H"]
-        ],
+        "board": [["H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H", "H"]],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2661,
@@ -79763,12 +82205,11 @@ const monster_data = [
                 "relative": [2661, 2662, 2664, 2665, 2666, 2667, 2668, 2669]
             }
         ],
-        "board": [
-            ["W", "W", "W", "F", "F", "F", "F", "F", "F", "W", "W", "W", "W", "W", "W", "F", "F", "F", "F", "F", "F", "W", "W", "W", "W", "W", "W", "F", "F", "F"]
-        ],
+        "board": [["W", "W", "W", "F", "F", "F", "F", "F", "F", "W", "W", "W", "W", "W", "W", "F", "F", "F", "F", "F", "F", "W", "W", "W", "W", "W", "W", "F", "F", "F"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": ""
     },
     {
         "id": 2662,
@@ -79835,7 +82276,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": ""
     },
     {
         "id": 2663,
@@ -79894,7 +82336,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": ""
     },
     {
         "id": 2664,
@@ -79946,7 +82389,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": ""
     },
     {
         "id": 2665,
@@ -79996,12 +82440,11 @@ const monster_data = [
                 "relative": [2661, 2662, 2664, 2665, 2666, 2667, 2668, 2669]
             }
         ],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "-", "Lh", "-", "-", "-", "-", "Lh", "Lh", "Lh", "Lh", "Lh", "Lh", "-", "Lh", "-", "Lh", "-", "-", "-", "Lh", "-", "Lh", "Lh", "Lh"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "-", "Lh", "-", "-", "-", "-", "Lh", "Lh", "Lh", "Lh", "Lh", "Lh", "-", "Lh", "-", "Lh", "-", "-", "-", "Lh", "-", "Lh", "Lh", "Lh"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": ""
     },
     {
         "id": 2666,
@@ -80039,7 +82482,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": ""
     },
     {
         "id": 2667,
@@ -80082,12 +82526,11 @@ const monster_data = [
                 "relative": [2661, 2662, 2664, 2665, 2666, 2667, 2668, 2669]
             }
         ],
-        "board": [
-            ["w", "w", "w", "w", "w", "w", "w", "-", "-", "-", "-", "w", "w", "-", "-", "-", "-", "w", "w", "-", "-", "-", "-", "w", "w", "w", "w", "w", "w", "w"]
-        ],
+        "board": [["w", "w", "w", "w", "w", "w", "w", "-", "-", "-", "-", "w", "w", "-", "-", "-", "-", "w", "w", "-", "-", "-", "-", "w", "w", "w", "w", "w", "w", "w"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": ""
     },
     {
         "id": 2668,
@@ -80132,7 +82575,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": ""
     },
     {
         "id": 2669,
@@ -80184,7 +82628,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": ""
     },
     {
         "id": 2670,
@@ -80207,7 +82652,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": ""
     },
     {
         "id": 2671,
@@ -80238,7 +82684,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2672,
@@ -80267,12 +82714,11 @@ const monster_data = [
                 "relative": [2671, 2661, 2667, 2672]
             }
         ],
-        "board": [
-            ["W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "H", "H", "H", "H", "H", "H"]
-        ],
+        "board": [["W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "H", "H", "H", "H", "H", "H"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2673,
@@ -80293,12 +82739,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h"]
-        ],
+        "board": [["h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2674,
@@ -80321,7 +82766,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2675,
@@ -80342,12 +82788,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "-", "f", "-", "-", "-", "-", "f", "e", "f", "-", "f", "-", "e", "e", "e", "f", "e", "-", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e"]
-        ],
+        "board": [["-", "-", "-", "f", "-", "-", "-", "-", "f", "e", "f", "-", "f", "-", "e", "e", "e", "f", "e", "-", "e", "e", "e", "e", "e", "e", "e", "e", "e", "e"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2676,
@@ -80370,7 +82815,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2677,
@@ -80393,7 +82839,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2678,
@@ -80416,7 +82863,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2679,
@@ -80439,7 +82887,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2680,
@@ -80468,12 +82917,11 @@ const monster_data = [
                 "relative": [2680]
             }
         ],
-        "board": [
-            ["F", "F", "F", "E", "E", "E", "W", "W", "F", "E", "W", "W", "L", "L", "W", "W", "D", "D", "W", "W", "E", "F", "W", "W", "E", "E", "E", "F", "F", "F"], ["f", "f", "f", "e", "e", "e", "w", "w", "f", "e", "w", "w", "l", "l", "w", "w", "d", "d", "w", "w", "e", "f", "w", "w", "e", "e", "e", "f", "f", "f"]
-        ],
+        "board": [["F", "F", "F", "E", "E", "E", "W", "W", "F", "E", "W", "W", "L", "L", "W", "W", "D", "D", "W", "W", "E", "F", "W", "W", "E", "E", "E", "F", "F", "F"], ["f", "f", "f", "e", "e", "e", "w", "w", "f", "e", "w", "w", "l", "l", "w", "w", "d", "d", "w", "w", "e", "f", "w", "w", "e", "e", "e", "f", "f", "f"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 2681,
@@ -80496,7 +82944,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.83"
     },
     {
         "id": 2682,
@@ -80519,7 +82968,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.83"
     },
     {
         "id": 2683,
@@ -80542,7 +82992,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2684,
@@ -80565,7 +83016,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2685,
@@ -80588,7 +83040,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2686,
@@ -80611,7 +83064,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2687,
@@ -80642,7 +83096,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2688,
@@ -80680,7 +83135,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2689,
@@ -80718,7 +83174,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2690,
@@ -80756,7 +83213,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2691,
@@ -80779,7 +83237,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2692,
@@ -80810,7 +83269,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2693,
@@ -80833,7 +83293,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2694,
@@ -80856,7 +83317,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 1,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2695,
@@ -80877,12 +83339,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "wr", "wr", "wr", "wr", "wr", "wr"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "wr", "wr", "wr", "wr", "wr", "wr"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2696,
@@ -80905,7 +83366,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 2697,
@@ -80928,7 +83390,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 1,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2698,
@@ -80951,7 +83414,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 1,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2699,
@@ -80991,7 +83455,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2700,
@@ -81030,7 +83495,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2701,
@@ -81073,12 +83539,11 @@ const monster_data = [
                 "relative": [2701, 2719]
             }
         ],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "E", "E", "E", "E", "E", "E"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "E", "E", "E", "E", "E", "E"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2702,
@@ -81123,12 +83588,11 @@ const monster_data = [
                 "relative": [2715, 2702, 2703]
             }
         ],
-        "board": [
-            ["l", "l", "l", "l", "l", "l", "d", "d", "d", "d", "d", "d", "f", "f", "f", "f", "f", "f", "d", "d", "d", "d", "d", "d", "l", "l", "l", "l", "l", "l"]
-        ],
+        "board": [["l", "l", "l", "l", "l", "l", "d", "d", "d", "d", "d", "d", "f", "f", "f", "f", "f", "f", "d", "d", "d", "d", "d", "d", "l", "l", "l", "l", "l", "l"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2703,
@@ -81179,12 +83643,11 @@ const monster_data = [
                 "relative": [2703, 2702]
             }
         ],
-        "board": [
-            ["l", "l", "l", "d", "d", "d", "l", "d", "l", "d", "d", "d", "l", "d", "l", "l", "d", "l", "l", "d", "l", "d", "l", "d", "d", "d", "l", "l", "d", "l"]
-        ],
+        "board": [["l", "l", "l", "d", "d", "d", "l", "d", "l", "d", "d", "d", "l", "d", "l", "l", "d", "l", "l", "d", "l", "d", "l", "d", "d", "d", "l", "l", "d", "l"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2704,
@@ -81231,7 +83694,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2705,
@@ -81277,7 +83741,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2706,
@@ -81298,12 +83763,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["F", "F", "F", "F", "F", "F", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"], ["F", "F", "F", "F", "F", "F", "F", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "F", "F", "F", "F", "F", "F", "F"]
-        ],
+        "board": [["F", "F", "F", "F", "F", "F", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"], ["F", "F", "F", "F", "F", "F", "F", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "F", "F", "-", "-", "-", "-", "F", "F", "F", "F", "F", "F", "F"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2707,
@@ -81334,7 +83798,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2708,
@@ -81357,7 +83822,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2709,
@@ -81386,12 +83852,11 @@ const monster_data = [
                 "relative": [2709, 2717, 2712]
             }
         ],
-        "board": [
-            ["-", "-", "-", "h", "h", "h", "-", "-", "-", "l", "l", "l", "-", "-", "-", "h", "h", "h", "-", "-", "-", "l", "l", "l", "-", "-", "-", "h", "h", "h"]
-        ],
+        "board": [["-", "-", "-", "h", "h", "h", "-", "-", "-", "l", "l", "l", "-", "-", "-", "h", "h", "h", "-", "-", "-", "l", "l", "l", "-", "-", "-", "h", "h", "h"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2710,
@@ -81422,7 +83887,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2711,
@@ -81445,7 +83911,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2712,
@@ -81476,7 +83943,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2713,
@@ -81499,7 +83967,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2714,
@@ -81546,7 +84015,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2715,
@@ -81575,12 +84045,11 @@ const monster_data = [
                 "relative": [2715, 2702, 2703]
             }
         ],
-        "board": [
-            ["e", "e", "l", "e", "e", "l", "e", "e", "e", "l", "l", "e", "e", "e", "f", "f", "l", "l", "e", "f", "f", "e", "e", "e", "f", "f", "e", "e", "e", "e"]
-        ],
+        "board": [["e", "e", "l", "e", "e", "l", "e", "e", "e", "l", "l", "e", "e", "e", "f", "f", "l", "l", "e", "f", "f", "e", "e", "e", "f", "f", "e", "e", "e", "e"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2716,
@@ -81603,7 +84072,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2717,
@@ -81655,7 +84125,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2718,
@@ -81678,7 +84149,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 1,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2719,
@@ -81715,12 +84187,11 @@ const monster_data = [
                 "relative": [2719, 2701]
             }
         ],
-        "board": [
-            ["E", "E", "E", "E", "E", "E", "E", "-", "E", "-", "-", "E", "E", "-", "E", "E", "E", "E", "E", "-", "E", "E", "-", "-", "E", "E", "E", "E", "E", "E"]
-        ],
+        "board": [["E", "E", "E", "E", "E", "E", "E", "-", "E", "-", "-", "E", "E", "-", "E", "E", "E", "E", "E", "-", "E", "E", "-", "-", "E", "E", "E", "E", "E", "E"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2720,
@@ -81752,7 +84223,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2721,
@@ -81783,7 +84255,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2722,
@@ -81829,7 +84302,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2723,
@@ -81852,7 +84326,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.10"
     },
     {
         "id": 2724,
@@ -81875,7 +84350,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2725,
@@ -81905,12 +84381,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["h", "d", "w", "e", "f", "h", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "d", "w", "e", "f", "l", "l"]
-        ],
+        "board": [["h", "d", "w", "e", "f", "h", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "d", "w", "e", "f", "l", "l"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2726,
@@ -81931,12 +84406,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["h", "d", "w", "e", "f", "h", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "d", "w", "e", "f", "l", "l"]
-        ],
+        "board": [["h", "d", "w", "e", "f", "h", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "h", "d", "w", "e", "f", "l", "d", "w", "e", "f", "l", "l"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2727,
@@ -81959,7 +84433,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2728,
@@ -81982,7 +84457,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2729,
@@ -82005,7 +84481,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v20.10"
     },
     {
         "id": 2730,
@@ -82036,7 +84513,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 2731,
@@ -82110,7 +84588,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.10"
     },
     {
         "id": 2732,
@@ -82184,7 +84663,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.10"
     },
     {
         "id": 2733,
@@ -82258,7 +84738,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.10"
     },
     {
         "id": 2734,
@@ -82332,7 +84813,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.10"
     },
     {
         "id": 2735,
@@ -82406,7 +84888,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.10"
     },
     {
         "id": 2736,
@@ -82429,7 +84912,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 2737,
@@ -82460,7 +84944,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 2738,
@@ -82483,7 +84968,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 2739,
@@ -82521,7 +85007,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 2740,
@@ -82552,7 +85039,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.30"
     },
     {
         "id": 2741,
@@ -82583,7 +85071,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.30"
     },
     {
         "id": 2742,
@@ -82628,7 +85117,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.30"
     },
     {
         "id": 2743,
@@ -82674,7 +85164,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.30"
     },
     {
         "id": 2744,
@@ -82705,7 +85196,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.30"
     },
     {
         "id": 2745,
@@ -82736,7 +85228,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.30"
     },
     {
         "id": 2746,
@@ -82773,12 +85266,11 @@ const monster_data = [
                 "relative": [2746]
             }
         ],
-        "board": [
-            ["L", "F", "E", "W", "D", "H", "L", "F", "E", "W", "D", "H", "L", "F", "E", "W", "D", "H", "L", "F", "E", "W", "D", "H", "L", "F", "E", "W", "D", "H"]
-        ],
+        "board": [["L", "F", "E", "W", "D", "H", "L", "F", "E", "W", "D", "H", "L", "F", "E", "W", "D", "H", "L", "F", "E", "W", "D", "H", "L", "F", "E", "W", "D", "H"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.30"
     },
     {
         "id": 2747,
@@ -82809,7 +85301,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.30"
     },
     {
         "id": 2748,
@@ -82855,7 +85348,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.30"
     },
     {
         "id": 2749,
@@ -82894,7 +85388,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.30"
     },
     {
         "id": 2750,
@@ -82917,7 +85412,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.304"
     },
     {
         "id": 3001,
@@ -82977,7 +85473,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 3002,
@@ -83028,12 +85525,11 @@ const monster_data = [
                 "relative": [3002]
             }
         ],
-        "board": [
-            ["L", "D", "L", "-", "-", "-", "L", "D", "L", "-", "-", "-", "L", "D", "L", "-", "-", "-", "L", "D", "L", "-", "-", "-", "L", "D", "L", "-", "-", "-"], ["-", "-", "-", "D", "L", "D", "-", "-", "-", "D", "L", "D", "-", "-", "-", "D", "L", "D", "-", "-", "-", "D", "L", "D", "-", "-", "-", "D", "L", "D"]
-        ],
+        "board": [["L", "D", "L", "-", "-", "-", "L", "D", "L", "-", "-", "-", "L", "D", "L", "-", "-", "-", "L", "D", "L", "-", "-", "-", "L", "D", "L", "-", "-", "-"], ["-", "-", "-", "D", "L", "D", "-", "-", "-", "D", "L", "D", "-", "-", "-", "D", "L", "D", "-", "-", "-", "D", "L", "D", "-", "-", "-", "D", "L", "D"]],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 3003,
@@ -83079,7 +85575,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 3004,
@@ -83110,7 +85607,8 @@ const monster_data = [
         ],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 3005,
@@ -83141,7 +85639,8 @@ const monster_data = [
         ],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 3006,
@@ -83172,7 +85671,8 @@ const monster_data = [
         ],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 3007,
@@ -83203,7 +85703,8 @@ const monster_data = [
         ],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 3008,
@@ -83234,7 +85735,8 @@ const monster_data = [
         ],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 3009,
@@ -83265,7 +85767,8 @@ const monster_data = [
         ],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 3010,
@@ -83296,7 +85799,8 @@ const monster_data = [
         ],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 3011,
@@ -83319,7 +85823,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 3012,
@@ -83342,7 +85847,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7001,
@@ -83365,7 +85871,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 7002,
@@ -83396,7 +85903,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 7003,
@@ -83419,7 +85927,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 7004,
@@ -83457,7 +85966,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.00"
     },
     {
         "id": 7005,
@@ -83480,7 +85990,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.20"
     },
     {
         "id": 7006,
@@ -83503,7 +86014,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v10.10"
     },
     {
         "id": 7007,
@@ -83526,7 +86038,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.00"
     },
     {
         "id": 7008,
@@ -83549,7 +86062,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v11.10"
     },
     {
         "id": 7009,
@@ -83572,7 +86086,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 7010,
@@ -83595,7 +86110,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.00"
     },
     {
         "id": 7011,
@@ -83618,7 +86134,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.10"
     },
     {
         "id": 7012,
@@ -83641,7 +86158,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.30"
     },
     {
         "id": 7013,
@@ -83664,7 +86182,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v12.40"
     },
     {
         "id": 7014,
@@ -83687,7 +86206,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.10"
     },
     {
         "id": 7015,
@@ -83710,7 +86230,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v15.40"
     },
     {
         "id": 7016,
@@ -83731,12 +86252,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["h", "h", "h", "h", "h", "h", "-", "-", "-", "-", "-", "we", "-", "-", "-", "-", "-", "we", "-", "-", "-", "-", "-", "we", "-", "-", "-", "-", "-", "we"]
-        ],
+        "board": [["h", "h", "h", "h", "h", "h", "-", "-", "-", "-", "-", "we", "-", "-", "-", "-", "-", "we", "-", "-", "-", "-", "-", "we", "-", "-", "-", "-", "-", "we"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 7017,
@@ -83759,7 +86279,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 7018,
@@ -83790,7 +86311,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.30"
     },
     {
         "id": 7019,
@@ -83821,7 +86343,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v19.70"
     },
     {
         "id": 7020,
@@ -83852,7 +86375,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 7021,
@@ -83891,7 +86415,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7022,
@@ -83930,7 +86455,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7023,
@@ -83969,7 +86495,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7024,
@@ -84008,7 +86535,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7025,
@@ -84045,12 +86573,11 @@ const monster_data = [
                 "relative": [7021, 7022, 7023, 7024, 7025]
             }
         ],
-        "board": [
-            ["h", "h", "h", "h", "h", "h", "h", "l", "l", "l", "l", "h", "h", "h", "h", "h", "h", "h", "h", "d", "h", "h", "d", "h", "d", "h", "h", "h", "h", "d"]
-        ],
+        "board": [["h", "h", "h", "h", "h", "h", "h", "l", "l", "l", "l", "h", "h", "h", "h", "h", "h", "h", "h", "d", "h", "h", "d", "h", "d", "h", "h", "h", "h", "d"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7026,
@@ -84073,7 +86600,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7027,
@@ -84096,7 +86624,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 1,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7028,
@@ -84134,7 +86663,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 7029,
@@ -84157,7 +86687,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 7030,
@@ -84180,7 +86711,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 7031,
@@ -84216,12 +86748,11 @@ const monster_data = [
                 "relative": [7031, 7028]
             }
         ],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "H", "H", "H", "H", "H", "H"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "H", "H", "H", "H", "H", "H"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 7032,
@@ -84250,12 +86781,11 @@ const monster_data = [
                 "relative": [7032]
             }
         ],
-        "board": [
-            ["l", "l", "-", "-", "d", "d", "l", "l", "-", "-", "d", "d", "l", "l", "-", "-", "d", "d", "l", "l", "-", "-", "d", "d", "l", "l", "-", "-", "d", "d"]
-        ],
+        "board": [["l", "l", "-", "-", "d", "d", "l", "l", "-", "-", "d", "d", "l", "l", "-", "-", "d", "d", "l", "l", "-", "-", "d", "d", "l", "l", "-", "-", "d", "d"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 7033,
@@ -84276,12 +86806,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "lm", "lm", "lm", "lm", "lm", "lm", "-", "-", "-", "-", "-", "-", "dm", "dm", "dm", "dm", "dm", "dm", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "lm", "lm", "lm", "lm", "lm", "lm", "-", "-", "-", "-", "-", "-", "dm", "dm", "dm", "dm", "dm", "dm", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 7034,
@@ -84304,7 +86833,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 1,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v20.00"
     },
     {
         "id": 7035,
@@ -84327,7 +86857,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7036,
@@ -84350,7 +86881,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7037,
@@ -84373,7 +86905,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7038,
@@ -84396,7 +86929,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7039,
@@ -84419,7 +86953,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7040,
@@ -84442,7 +86977,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7041,
@@ -84465,7 +87001,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7042,
@@ -84488,7 +87025,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7043,
@@ -84511,7 +87049,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7044,
@@ -84534,7 +87073,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7045,
@@ -84557,7 +87097,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7046,
@@ -84580,7 +87121,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7047,
@@ -84603,7 +87145,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7048,
@@ -84626,7 +87169,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7049,
@@ -84649,7 +87193,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 7050,
@@ -84672,7 +87217,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 8001,
@@ -84704,7 +87250,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8002,
@@ -84736,7 +87283,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8003,
@@ -84768,7 +87316,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8004,
@@ -84800,7 +87349,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8005,
@@ -84823,7 +87373,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8006,
@@ -84854,7 +87405,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8007,
@@ -84877,7 +87429,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8008,
@@ -84900,7 +87453,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8009,
@@ -84923,7 +87477,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8010,
@@ -84946,7 +87501,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8011,
@@ -84969,7 +87525,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8012,
@@ -84992,7 +87549,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8013,
@@ -85015,7 +87573,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8014,
@@ -85038,7 +87597,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8015,
@@ -85061,7 +87621,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8016,
@@ -85084,7 +87645,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8017,
@@ -85107,7 +87669,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8018,
@@ -85130,7 +87693,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8019,
@@ -85153,7 +87717,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8020,
@@ -85176,7 +87741,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8021,
@@ -85199,7 +87765,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8022,
@@ -85222,7 +87789,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8023,
@@ -85253,7 +87821,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8024,
@@ -85276,7 +87845,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 5,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8025,
@@ -85299,7 +87869,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 5,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8026,
@@ -85322,7 +87893,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 5,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8027,
@@ -85345,7 +87917,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 5,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8028,
@@ -85368,7 +87941,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 5,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8029,
@@ -85391,7 +87965,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 5,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8030,
@@ -85414,7 +87989,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 5,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 8031,
@@ -85437,7 +88013,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 10,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8032,
@@ -85460,7 +88037,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8033,
@@ -85483,7 +88061,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 10,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8034,
@@ -85506,7 +88085,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8035,
@@ -85529,7 +88109,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 10,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8036,
@@ -85552,7 +88133,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8037,
@@ -85575,7 +88157,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 10,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8038,
@@ -85598,7 +88181,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8039,
@@ -85621,7 +88205,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 10,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8040,
@@ -85644,7 +88229,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8041,
@@ -85667,7 +88253,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8042,
@@ -85690,7 +88277,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8043,
@@ -85713,7 +88301,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 30,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8044,
@@ -85736,7 +88325,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v6.00"
     },
     {
         "id": 8045,
@@ -85759,7 +88349,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 8046,
@@ -85782,7 +88373,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 8047,
@@ -85805,7 +88397,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 8048,
@@ -85828,7 +88421,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 8049,
@@ -85851,7 +88445,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 8050,
@@ -85874,7 +88469,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.00"
     },
     {
         "id": 9001,
@@ -85906,7 +88502,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 9002,
@@ -85938,7 +88535,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 9003,
@@ -85970,7 +88568,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 9004,
@@ -86002,7 +88601,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 9005,
@@ -86025,7 +88625,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 9006,
@@ -86048,7 +88649,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 9007,
@@ -86071,7 +88673,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 9008,
@@ -86094,7 +88697,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 9009,
@@ -86117,7 +88721,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 9010,
@@ -86140,7 +88745,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 9011,
@@ -86163,7 +88769,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 9012,
@@ -86186,7 +88793,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 9013,
@@ -86209,7 +88817,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 50,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 9014,
@@ -86232,7 +88841,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v6.00"
     },
     {
         "id": 9015,
@@ -86263,7 +88873,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 9016,
@@ -86286,7 +88897,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v9.00"
     },
     {
         "id": 9017,
@@ -86309,7 +88921,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v16.10"
     },
     {
         "id": 9018,
@@ -86330,12 +88943,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "dg", "dg", "-", "-", "-", "-", "dg", "dg", "-", "-", "dg", "dg", "dg", "dg", "dg", "dg", "-", "-", "dg", "dg", "-", "-", "-", "-", "dg", "dg", "-", "-"]
-        ],
+        "board": [["-", "-", "dg", "dg", "-", "-", "-", "-", "dg", "dg", "-", "-", "dg", "dg", "dg", "dg", "dg", "dg", "-", "-", "dg", "dg", "-", "-", "-", "-", "dg", "dg", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v17.40"
     },
     {
         "id": 9019,
@@ -86358,7 +88970,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v18.30"
     },
     {
         "id": 9020,
@@ -86381,7 +88994,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9021,
@@ -86404,7 +89018,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9022,
@@ -86427,7 +89042,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9023,
@@ -86450,7 +89066,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9024,
@@ -86473,7 +89090,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9025,
@@ -86496,7 +89114,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9026,
@@ -86519,7 +89138,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9027,
@@ -86542,7 +89162,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9028,
@@ -86565,7 +89186,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9029,
@@ -86588,7 +89210,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9030,
@@ -86611,7 +89234,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9031,
@@ -86634,7 +89258,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9032,
@@ -86657,7 +89282,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9033,
@@ -86680,7 +89306,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9034,
@@ -86703,7 +89330,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9035,
@@ -86726,7 +89354,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9036,
@@ -86749,7 +89378,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9037,
@@ -86772,7 +89402,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9038,
@@ -86795,7 +89426,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9039,
@@ -86818,7 +89450,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9040,
@@ -86841,7 +89474,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9041,
@@ -86864,7 +89498,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9042,
@@ -86887,7 +89522,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9043,
@@ -86910,7 +89546,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9044,
@@ -86933,7 +89570,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9045,
@@ -86956,7 +89594,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9046,
@@ -86979,7 +89618,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9047,
@@ -87002,7 +89642,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9048,
@@ -87025,7 +89666,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9049,
@@ -87048,7 +89690,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 9050,
@@ -87071,7 +89714,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 10001,
@@ -87094,7 +89738,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10002,
@@ -87117,7 +89762,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10003,
@@ -87140,7 +89786,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10004,
@@ -87163,7 +89810,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10005,
@@ -87186,7 +89834,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10006,
@@ -87209,7 +89858,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10007,
@@ -87232,7 +89882,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10008,
@@ -87255,7 +89906,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10009,
@@ -87278,7 +89930,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10010,
@@ -87301,7 +89954,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10011,
@@ -87324,7 +89978,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10012,
@@ -87347,7 +90002,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10013,
@@ -87370,7 +90026,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10014,
@@ -87393,7 +90050,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10015,
@@ -87416,7 +90074,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10016,
@@ -87439,7 +90098,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10017,
@@ -87462,7 +90122,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10018,
@@ -87485,7 +90146,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10019,
@@ -87508,7 +90170,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10020,
@@ -87531,7 +90194,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10021,
@@ -87554,7 +90218,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10022,
@@ -87577,7 +90242,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10023,
@@ -87600,7 +90266,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10024,
@@ -87623,7 +90290,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10025,
@@ -87646,7 +90314,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10026,
@@ -87669,7 +90338,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10027,
@@ -87692,7 +90362,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10028,
@@ -87715,7 +90386,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10029,
@@ -87738,7 +90410,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10030,
@@ -87761,7 +90434,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10031,
@@ -87784,7 +90458,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10032,
@@ -87807,7 +90482,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10033,
@@ -87830,7 +90506,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10034,
@@ -87853,7 +90530,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10035,
@@ -87876,7 +90554,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 70,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10036,
@@ -87907,7 +90586,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10037,
@@ -87938,7 +90618,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10038,
@@ -87969,7 +90650,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10039,
@@ -88000,7 +90682,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10040,
@@ -88031,7 +90714,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10041,
@@ -88062,7 +90746,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10042,
@@ -88093,7 +90778,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10043,
@@ -88124,7 +90810,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10044,
@@ -88155,7 +90842,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10045,
@@ -88186,7 +90874,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10046,
@@ -88209,7 +90898,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10047,
@@ -88240,7 +90930,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10048,
@@ -88271,7 +90962,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10049,
@@ -88302,7 +90994,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10050,
@@ -88331,8 +91024,7 @@ const monster_data = [
                 "relative": [10050]
             }
         ],
-        "board": [
-            {
+        "board": [{
                 "row": 5,
                 "column": 3,
                 "board": ["D", "L", "D", "D", "L", "D", "H", "H", "H", "D", "L", "D", "D", "L", "D"]
@@ -88340,7 +91032,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10051,
@@ -88363,7 +91056,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10052,
@@ -88386,7 +91080,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10053,
@@ -88409,7 +91104,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10054,
@@ -88432,7 +91128,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10055,
@@ -88455,7 +91152,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10056,
@@ -88478,7 +91176,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10057,
@@ -88501,7 +91200,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 10058,
@@ -88524,7 +91224,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10059,
@@ -88547,7 +91248,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10060,
@@ -88578,7 +91280,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 15,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10061,
@@ -88601,7 +91304,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10062,
@@ -88632,7 +91336,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.10"
     },
     {
         "id": 10063,
@@ -88655,7 +91360,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10064,
@@ -88678,7 +91384,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10065,
@@ -88701,7 +91408,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10066,
@@ -88755,7 +91463,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.20"
     },
     {
         "id": 10067,
@@ -88813,8 +91522,7 @@ const monster_data = [
                 "relative": [10070, 10071, 10066, 10067]
             }
         ],
-        "board": [
-            {
+        "board": [{
                 "row": 5,
                 "column": 3,
                 "board": ["W", "W", "W", "H", "H", "H", "W", "W", "W", "H", "H", "H", "W", "W", "W"]
@@ -88822,7 +91530,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.20"
     },
     {
         "id": 10068,
@@ -88876,7 +91585,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.20"
     },
     {
         "id": 10069,
@@ -88936,7 +91646,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.20"
     },
     {
         "id": 10070,
@@ -89003,12 +91714,11 @@ const monster_data = [
                 "relative": [10070]
             }
         ],
-        "board": [
-            ["-", "E", "E", "-", "-", "E", "-", "E", "-", "E", "-", "-", "-", "E", "-", "E", "-", "E", "-", "-", "E", "-", "E", "-", "E", "-", "E", "-", "E", "E"]
-        ],
+        "board": [["-", "E", "E", "-", "-", "E", "-", "E", "-", "E", "-", "-", "-", "E", "-", "E", "-", "E", "-", "-", "E", "-", "E", "-", "E", "-", "E", "-", "E", "E"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.20"
     },
     {
         "id": 10071,
@@ -89068,7 +91778,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.20"
     },
     {
         "id": 10072,
@@ -89142,12 +91853,11 @@ const monster_data = [
                 "relative": [10072, 10079]
             }
         ],
-        "board": [
-            ["H", "L", "W", "W", "W", "L", "L", "H", "L", "L", "L", "F", "H", "H", "L", "L", "F", "F", "H", "L", "E", "E", "L", "D", "L", "H", "E", "L", "D", "D"]
-        ],
+        "board": [["H", "L", "W", "W", "W", "L", "L", "H", "L", "L", "L", "F", "H", "H", "L", "L", "F", "F", "H", "L", "E", "E", "L", "D", "L", "H", "E", "L", "D", "D"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.20"
     },
     {
         "id": 10073,
@@ -89205,12 +91915,11 @@ const monster_data = [
                 "relative": [10072, 10073]
             }
         ],
-        "board": [
-            ["Hh", "Lh", "Wh", "Wh", "Wh", "Lh", "Lh", "Hh", "Lh", "Lh", "Lh", "Fh", "Hh", "Hh", "Lh", "Lh", "Fh", "Fh", "Hh", "Lh", "Eh", "Eh", "Lh", "Dh", "Lh", "Hh", "Eh", "Lh", "Dh", "Dh"]
-        ],
+        "board": [["Hh", "Lh", "Wh", "Wh", "Wh", "Lh", "Lh", "Hh", "Lh", "Lh", "Lh", "Fh", "Hh", "Hh", "Lh", "Lh", "Fh", "Fh", "Hh", "Lh", "Eh", "Eh", "Lh", "Dh", "Lh", "Hh", "Eh", "Lh", "Dh", "Dh"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.20"
     },
     {
         "id": 10074,
@@ -89264,7 +91973,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.20"
     },
     {
         "id": 10075,
@@ -89324,7 +92034,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.20"
     },
     {
         "id": 10076,
@@ -89347,7 +92058,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.20"
     },
     {
         "id": 10077,
@@ -89378,7 +92090,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.20"
     },
     {
         "id": 10078,
@@ -89401,7 +92114,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.20"
     },
     {
         "id": 10079,
@@ -89430,8 +92144,7 @@ const monster_data = [
                 "relative": [10072, 10079]
             }
         ],
-        "board": [
-            {
+        "board": [{
                 "row": 5,
                 "column": 1,
                 "board": ["W", "F", "E", "L", "D"]
@@ -89439,7 +92152,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10080,
@@ -89462,7 +92176,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10081,
@@ -89485,7 +92200,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10082,
@@ -89508,7 +92224,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10083,
@@ -89539,7 +92256,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10084,
@@ -89570,7 +92288,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10085,
@@ -89601,7 +92320,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10086,
@@ -89624,7 +92344,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10087,
@@ -89655,7 +92376,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10088,
@@ -89686,7 +92408,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10089,
@@ -89717,7 +92440,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10090,
@@ -89746,12 +92470,11 @@ const monster_data = [
                 "relative": [10090, 10092]
             }
         ],
-        "board": [
-            ["l", "l", "l", "-", "-", "-", "d", "d", "d", "-", "-", "-", "l", "l", "l", "-", "-", "-", "d", "d", "d", "-", "-", "-", "l", "l", "l", "-", "-", "-"]
-        ],
+        "board": [["l", "l", "l", "-", "-", "-", "d", "d", "d", "-", "-", "-", "l", "l", "l", "-", "-", "-", "d", "d", "d", "-", "-", "-", "l", "l", "l", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10091,
@@ -89782,7 +92505,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10092,
@@ -89811,12 +92535,11 @@ const monster_data = [
                 "relative": [10090, 10092]
             }
         ],
-        "board": [
-            ["-", "-", "-", "Dg", "Dg", "Dg", "-", "-", "-", "Lg", "Lg", "Lg", "-", "-", "-", "Dg", "Dg", "Dg", "-", "-", "-", "Lg", "Lg", "Lg", "-", "-", "-", "Dg", "Dg", "Dg"]
-        ],
+        "board": [["-", "-", "-", "Dg", "Dg", "Dg", "-", "-", "-", "Lg", "Lg", "Lg", "-", "-", "-", "Dg", "Dg", "Dg", "-", "-", "-", "Lg", "Lg", "Lg", "-", "-", "-", "Dg", "Dg", "Dg"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10093,
@@ -89839,7 +92562,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10094,
@@ -89862,7 +92586,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10095,
@@ -89885,7 +92610,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10096,
@@ -89908,7 +92634,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10097,
@@ -89931,7 +92658,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10098,
@@ -89952,12 +92680,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "-", "D", "D", "D", "-", "-", "-", "D", "D", "D", "-", "-", "-", "D", "D", "D", "-", "-", "-", "D", "D", "D", "-", "-", "-", "D", "D", "D"]
-        ],
+        "board": [["-", "-", "-", "D", "D", "D", "-", "-", "-", "D", "D", "D", "-", "-", "-", "D", "D", "D", "-", "-", "-", "D", "D", "D", "-", "-", "-", "D", "D", "D"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10099,
@@ -89988,7 +92715,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10100,
@@ -90020,7 +92748,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10101,
@@ -90051,7 +92780,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10102,
@@ -90082,7 +92812,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10103,
@@ -90113,7 +92844,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.20"
     },
     {
         "id": 10104,
@@ -90134,12 +92866,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
-        ],
+        "board": [["W", "W", "W", "W", "W", "W", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.30"
     },
     {
         "id": 10105,
@@ -90160,12 +92891,11 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "F", "F", "F", "F", "F", "F"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "F", "F", "F", "F", "F", "F"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.30"
     },
     {
         "id": 10106,
@@ -90188,7 +92918,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.30"
     },
     {
         "id": 10107,
@@ -90211,7 +92942,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 10108,
@@ -90242,7 +92974,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.30"
     },
     {
         "id": 10109,
@@ -90265,7 +92998,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.30"
     },
     {
         "id": 10110,
@@ -90288,7 +93022,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.30"
     },
     {
         "id": 10111,
@@ -90311,7 +93046,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.30"
     },
     {
         "id": 10112,
@@ -90334,7 +93070,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.30"
     },
     {
         "id": 10113,
@@ -90357,7 +93094,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.30"
     },
     {
         "id": 10114,
@@ -90380,7 +93118,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.30"
     },
     {
         "id": 10115,
@@ -90403,7 +93142,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.30"
     },
     {
         "id": 10116,
@@ -90434,7 +93174,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 13,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.30"
     },
     {
         "id": 10117,
@@ -90477,8 +93218,7 @@ const monster_data = [
                 "relative": [10117, 10108]
             }
         ],
-        "board": [
-            {
+        "board": [{
                 "row": 8,
                 "column": 6,
                 "board": ["Wr", "Fr", "Er", "Lr", "Dr", "Hr", "Wr", "Fr", "Er", "Lr", "Dr", "Hr", "Wr", "Fr", "Er", "Lr", "Dr", "Hr", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
@@ -90486,7 +93226,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 10,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.30"
     },
     {
         "id": 10118,
@@ -90517,7 +93258,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.30"
     },
     {
         "id": 10119,
@@ -90548,7 +93290,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.30"
     },
     {
         "id": 10120,
@@ -90571,7 +93314,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 1,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.304"
     },
     {
         "id": 10121,
@@ -90609,7 +93353,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.304"
     },
     {
         "id": 10122,
@@ -90652,8 +93397,7 @@ const monster_data = [
                 "relative": [10121, 10122, 10123, 10124, 10125, 10126, 10127, 10128, 10129, 10130]
             }
         ],
-        "board": [
-            {
+        "board": [{
                 "row": 3,
                 "column": 3,
                 "board": ["W", "W", "W", "E", "E", "E", "F", "F", "F"]
@@ -90661,7 +93405,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.304"
     },
     {
         "id": 10123,
@@ -90712,12 +93457,11 @@ const monster_data = [
                 "relative": [10121, 10122, 10123, 10124, 10125, 10126, 10127, 10128, 10129, 10130]
             }
         ],
-        "board": [
-            ["W", "F", "L", "D", "H", "E", "W", "F", "L", "D", "H", "E", "W", "F", "L", "D", "H", "E", "W", "F", "L", "D", "H", "E", "E", "E", "E", "E", "E", "E"]
-        ],
+        "board": [["W", "F", "L", "D", "H", "E", "W", "F", "L", "D", "H", "E", "W", "F", "L", "D", "H", "E", "W", "F", "L", "D", "H", "E", "E", "E", "E", "E", "E", "E"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.304"
     },
     {
         "id": 10124,
@@ -90755,7 +93499,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.304"
     },
     {
         "id": 10125,
@@ -90786,7 +93531,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.304"
     },
     {
         "id": 10126,
@@ -90825,7 +93571,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.304"
     },
     {
         "id": 10127,
@@ -90861,12 +93608,11 @@ const monster_data = [
                 "relative": [10121, 10122, 10123, 10124, 10125, 10126, 10127, 10128, 10129, 10130]
             }
         ],
-        "board": [
-            ["f", "f", "f", "f", "f", "f", "f", "-", "-", "-", "-", "f", "f", "-", "-", "-", "-", "f", "f", "-", "-", "-", "-", "f", "f", "f", "f", "f", "f", "f"]
-        ],
+        "board": [["f", "f", "f", "f", "f", "f", "f", "-", "-", "-", "-", "f", "f", "-", "-", "-", "-", "f", "f", "-", "-", "-", "-", "f", "f", "f", "f", "f", "f", "f"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.304"
     },
     {
         "id": 10128,
@@ -90897,7 +93643,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 4
+        "maxRefine": 4,
+        "version": "v2021.304"
     },
     {
         "id": 10129,
@@ -90933,12 +93680,11 @@ const monster_data = [
                 "relative": [10121, 10122, 10123, 10124, 10125, 10126, 10127, 10128, 10129, 10130]
             }
         ],
-        "board": [
-            ["-", "-", "-", "-", "-", "-", "-", "Wh", "Fh", "Eh", "Dh", "Lh", "-", "Wh", "Fh", "Eh", "Dh", "Lh", "-", "Wh", "Fh", "Eh", "Dh", "Lh", "-", "Lh", "Lh", "Lh", "Lh", "Lh"]
-        ],
+        "board": [["-", "-", "-", "-", "-", "-", "-", "Wh", "Fh", "Eh", "Dh", "Lh", "-", "Wh", "Fh", "Eh", "Dh", "Lh", "-", "Wh", "Fh", "Eh", "Dh", "Lh", "-", "Lh", "Lh", "Lh", "Lh", "Lh"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.304"
     },
     {
         "id": 10130,
@@ -90969,7 +93715,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.304"
     },
     {
         "id": 10131,
@@ -91000,7 +93747,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.304"
     },
     {
         "id": 10132,
@@ -91023,7 +93771,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.304"
     },
     {
         "id": 10133,
@@ -91046,7 +93795,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.304"
     },
     {
         "id": 10134,
@@ -91069,7 +93819,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.304"
     },
     {
         "id": 10135,
@@ -91100,7 +93851,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.304"
     },
     {
         "id": 10136,
@@ -91131,7 +93883,8 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.304"
     },
     {
         "id": 10137,
@@ -91148,30 +93901,23 @@ const monster_data = [
                 "charge": "CD",
                 "num": 7,
                 "description": "I. 引爆所有符石、凍結及石化符石<br>⇒ <board>掉落 3 橫行固定數量及位置的五屬魔族強化符石</board><br>II. 刷新護盾<br>1 回合內<br>III. 每首批消除 1 組屬性符石<br>⇒ 個人以 50% 攻擊力追打該屬性攻擊 1 次<br>⇒ 每個屬性最多可追打 4 次<br>IV. 自身無視敵人防禦力<br>V. 自身無視「固定連擊盾」",
-                "tag": ['引爆', '整版引爆', '凍結符石處理', '石化符石處理', '強制掉落', '魔族符石製造', '五屬版面', '固定版面', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打', '五屬追打', '自身追打', '破防', '無視固定連擊盾']
+                "tag": ["引爆", "整版引爆", "凍結符石處理", "石化符石處理", "強制掉落", "魔族符石製造", "五屬版面", "固定版面", "水屬追打", "火屬追打", "木屬追打", "光屬追打", "暗屬追打", "五屬追打", "自身追打", "破防", "無視固定連擊盾"]
             }
         ],
         "team_skill": [
             {
                 "description": "◆ 進場時，將「夢域飛馳 ‧ 斑」直行符石添加為魔族符石<br><br>◆ 於左下角 (└形 3 粒) 的符石首次起手轉珠<br>⇒ 回合結束時：<br>⓵ 將水符石轉化為光強化符石<br>⓶ 將火符石轉化為暗強化符石<br>⓷ 將木及心符石轉化為魔族強化符石<br><br>◆ 於右下角 (┘形 3 粒) 的符石首次起手轉珠<br>⇒ 回合結束時：<br>⓵ 將光符石轉化為水強化符石<br>⓶ 將暗符石轉化為火強化符石<br>⓷ 將木及心符石轉化為魔族強化符石<br><br>◆ 消除 ≥3 種符石<br>⓵ 全隊攻擊力 2.6 倍<br>⓶「夢域飛馳 ‧ 斑」技能 CD -1<br><br>◆ 獲得 30,000 點護盾<br><br>◆ 護盾 ≥1 時<br>⇒ 可抵擋 1 次「大於現時護盾數值」的傷害<br>⇒ 抵擋後護盾變為 0 點",
                 "activate": "以「夢域飛馳 ‧ 斑」作隊長",
-                "skill_tag": ['魔族符石製造', '符石轉光', '符石轉暗', '符石轉光強化', '符石轉暗強化', '符石轉水', '符石轉火', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉心強化', '增攻', '其他減CD', '護盾'],
+                "skill_tag": ["魔族符石製造", "符石轉光", "符石轉暗", "符石轉光強化", "符石轉暗強化", "符石轉水", "符石轉火", "符石轉水強化", "符石轉火強化", "符石轉木強化", "符石轉心強化", "增攻", "其他減CD", "護盾"],
                 "activate_tag": ["指定隊長"],
                 "relative": [10137]
             }
         ],
-		"board": [
-			[
-				'Ed', 'Ed', 'Ed', 'Ed', 'Ed', 'Ed', 
-				'Wd', 'Wd', 'Wd', 'Fd', 'Fd', 'Fd', 
-				'Ld', 'Ld', 'Ld', 'Dd', 'Dd', 'Dd', 
-				'-' , '-' , '-' , '-' , '-' , '-' , 
-				'-' , '-' , '-' , '-' , '-' , '-' , 
-			]
-		],
+        "board": [["Ed", "Ed", "Ed", "Ed", "Ed", "Ed", "Wd", "Wd", "Wd", "Fd", "Fd", "Fd", "Ld", "Ld", "Ld", "Dd", "Dd", "Dd", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 10138,
@@ -91188,701 +93934,722 @@ const monster_data = [
                 "charge": "CD",
                 "num": 6,
                 "description": "I. <board>將最底 2 橫行的符石轉化為<br>⇒ 固定數量及位置的「五屬及心」強化符石</board><br>II. 凍結敵方全體，使受影響目標<br>⓵ 轉為水屬性<br>⓶ 防禦力減至 0<br>效果持續 3 回合<br>1 回合內<br>III. 隊伍不受中毒技能影響<br>IV. 符石首批 2 粒相連<br>⇒ 即可發動消除<br>V. 若發動技能時所有機械族成員的行動值達至 100%<br>⇒ III、IV 效果持續 3 回合",
-                "tag": ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '符石轉心強化', '五屬版面', '五屬心版面', '固定版面', ['凍結敵方', 3], ['敵方轉水', 3], ['破防', 3], ['防毒', 3], ['改變消除方式', 3]]
+                "tag": ["符石轉水", "符石轉火", "符石轉木", "符石轉光", "符石轉暗", "符石轉心", "符石轉水強化", "符石轉火強化", "符石轉木強化", "符石轉光強化", "符石轉暗強化", "符石轉心強化", "五屬版面", "五屬心版面", "固定版面", ["凍結敵方", 3], ["敵方轉水", 3], ["破防", 3], ["防毒", 3], ["改變消除方式", 3]]
             }
         ],
         "team_skill": [
             {
                 "description": "◆ 將移動符石時觸碰的首 15 粒符石<br>⇒ 添加為機械族符石<br><br>◆ 每消除 1 組符石<br>⇒ 增加 5 Ex. Combo<br>⇒ 消除 6 組可增加最多 30 Ex. Combo<br><br>◆ 每消除 1 粒機械族符石<br>⇒ 回復 5% 生命力",
                 "activate": "以「雛型倒轉 ‧ 歐幾里得」作隊長",
-                "skill_tag": ['機械族符石製造', '增加Ex.Combo', '回血'],
+                "skill_tag": ["機械族符石製造", "增加Ex.Combo", "回血"],
                 "activate_tag": ["指定隊長"],
                 "relative": [10138]
             },
             {
                 "description": "◆ 進場時，儲滿龍脈儀<br><br>◆「雛型倒轉 ‧ 歐幾里得」<br>⇒ 生命力基值 2.5 倍",
                 "activate": "以機械族成員作隊長及戰友，並以「雛型倒轉 ‧ 歐幾里得」作成員",
-                "skill_tag": ['龍脈儀蓄能', '增血'],
-                "activate_tag": ["指定隊長戰友", '指定種族成員'],
+                "skill_tag": ["龍脈儀蓄能", "增血"],
+                "activate_tag": ["指定隊長戰友", "指定種族成員"],
                 "relative": [10138]
             }
         ],
-		"board": [
-			[
-				'-', '-', '-', '-', '-', '-', 
-				'-', '-', '-', '-', '-', '-', 
-				'-', '-', '-', '-', '-', '-', 
-				'L', 'L', 'W', 'W', 'D', 'D', 
-				'F', 'F', 'H', 'H', 'E', 'E', 
-			]
-		],
+        "board": [["-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "L", "L", "W", "W", "D", "D", "F", "F", "H", "H", "E", "E"]],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10139,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10139,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10140,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10140,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10141,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10141,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10142,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10142,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10143,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10143,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10144,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10144,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10145,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10145,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10146,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10146,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10147,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10147,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10148,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10148,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10149,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10149,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10150,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10150,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10151,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10151,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10152,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10152,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10153,
-        'name': '美的暴力 ‧ 內蒂',
-        'attribute': '光',
-        'race': '人類',
-        'star': 6,
-        'monsterTag': ["地獄魔王"],
-        'crossOver': false,
-        'skill': [
+        "id": 10153,
+        "name": "美的暴力 ‧ 內蒂",
+        "attribute": "光",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ["地獄魔王"],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '暴入暈眩',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 8,
-                'description': 'I. 引爆風化及石化符石<br>II. 暈擊敵方全體，使受影響目標無法行動 2 回合，效果會因受到攻擊而消失<br>2 回合內<br>III. 自身攻擊力 4 倍<br>IV. 若敵人身上有附加效果<br>⇒ 自身無視該敵人的「指定形狀盾」',
-                'tag': ['引爆', '風化符石處理', '石化符石處理', ['暈擊敵方', 2], ['無法行動', 2], ['增傷', 2], ['界王拳', 2], ['無視拼圖盾', 2]]
+                "name": "暴入暈眩",
+                "type": "normal",
+                "charge": "CD",
+                "num": 8,
+                "description": "I. 引爆風化及石化符石<br>II. 暈擊敵方全體，使受影響目標無法行動 2 回合，效果會因受到攻擊而消失<br>2 回合內<br>III. 自身攻擊力 4 倍<br>IV. 若敵人身上有附加效果<br>⇒ 自身無視該敵人的「指定形狀盾」",
+                "tag": ["引爆", "風化符石處理", "石化符石處理", ["暈擊敵方", 2], ["無法行動", 2], ["增傷", 2], ["界王拳", 2], ["無視拼圖盾", 2]]
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10154,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10154,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10155,
-        'name': '理性機率 ‧ 伊娃',
-        'attribute': '木',
-        'race': '機械族',
-        'star': 5,
-        'monsterTag': ["仿魂導師"],
-        'crossOver': false,
-        'skill': [
+        "id": 10155,
+        "name": "理性機率 ‧ 伊娃",
+        "attribute": "木",
+        "race": "機械族",
+        "star": 5,
+        "monsterTag": ["仿魂導師"],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '機械訓練 ‧ 木',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 3,
-                'description': 'I. 將木及心符石轉化為<br>⇒ 機械族強化符石<br>II. 機械族成員行動值提升 25%<br>1 回合內<br>III. 若發動技能時所有機械族成員的行動值達至 100%<br>⇒ 心符石兼具 150% 木符石效果',
-                'tag': ['符石轉木強化', '符石轉心強化', '符石強化', '機械族符石製造', '行動值提升', '符石兼具木']
+                "name": "機械訓練 ‧ 木",
+                "type": "normal",
+                "charge": "CD",
+                "num": 3,
+                "description": "I. 將木及心符石轉化為<br>⇒ 機械族強化符石<br>II. 機械族成員行動值提升 25%<br>1 回合內<br>III. 若發動技能時所有機械族成員的行動值達至 100%<br>⇒ 心符石兼具 150% 木符石效果",
+                "tag": ["符石轉木強化", "符石轉心強化", "符石強化", "機械族符石製造", "行動值提升", "符石兼具木"]
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10156,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10156,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10157,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10157,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10158,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10158,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10159,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10159,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10160,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10160,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10161,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10161,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10162,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10162,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10163,
-        'name': '率領演化 ‧ 馬丁',
-        'attribute': '光',
-        'race': '妖精類',
-        'star': 6,
-        'monsterTag': ["競技場"],
-        'crossOver': false,
-        'skill': [
+        "id": 10163,
+        "name": "率領演化 ‧ 馬丁",
+        "attribute": "光",
+        "race": "妖精類",
+        "star": 6,
+        "monsterTag": ["競技場"],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '同化訣',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 5,
-                'description': 'I. 發動技能及回合結束時，將隊伍成員屬性符石以外的符石<br>⇒ 隨機轉化為隊伍成員的屬性種族符石<br>II.「薩魯曼」技能 CD -10',
-                'tag': ['水轉其他', '火轉其他', '木轉其他', '暗轉其他', '心轉其他', '符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '人族符石製造', '獸族符石製造', '妖族符石製造', '龍族符石製造', '神族符石製造', '魔族符石製造', '機械族符石製造', '減CD']
+                "name": "同化訣",
+                "type": "normal",
+                "charge": "CD",
+                "num": 5,
+                "description": "I. 發動技能及回合結束時，將隊伍成員屬性符石以外的符石<br>⇒ 隨機轉化為隊伍成員的屬性種族符石<br>II.「薩魯曼」技能 CD -10",
+                "tag": ["水轉其他", "火轉其他", "木轉其他", "暗轉其他", "心轉其他", "符石轉水", "符石轉火", "符石轉木", "符石轉光", "符石轉暗", "人族符石製造", "獸族符石製造", "妖族符石製造", "龍族符石製造", "神族符石製造", "魔族符石製造", "機械族符石製造", "減CD"]
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10164,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10164,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10165,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10165,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10166,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10166,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10167,
-        'name': '破海龍刃 ‧ 敖聲聞',
-        'attribute': '水',
-        'race': '龍類',
-        'star': 6,
-        'monsterTag': ["召喚師候選者"],
-        'crossOver': false,
-        'skill': [
+        "id": 10167,
+        "name": "破海龍刃 ‧ 敖聲聞",
+        "attribute": "水",
+        "race": "龍類",
+        "star": 6,
+        "monsterTag": ["召喚師候選者"],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '碎裂無蹤',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 8,
-                'description': 'I. 還原隊長及戰友直行「碎裂」位置<br>II. 石化敵方全體，使受影響目標無法行動並轉為木屬性，持續 2 回合',
-                'tag': ['碎裂還原', ['石化敵方', 2], ['無法行動', 2], ['敵方轉木', 2]]
+                "name": "碎裂無蹤",
+                "type": "normal",
+                "charge": "CD",
+                "num": 8,
+                "description": "I. 還原隊長及戰友直行「碎裂」位置<br>II. 石化敵方全體，使受影響目標無法行動並轉為木屬性，持續 2 回合",
+                "tag": ["碎裂還原", ["石化敵方", 2], ["無法行動", 2], ["敵方轉木", 2]]
             }
         ],
-        'team_skill': [
+        "team_skill": [
             {
                 "description": "I. 延長移動符石時間 1.5 秒<br><br>II. 隊長屬性符石<br>⇒ 兼具 50% 心符石效果<br><br>III. 心符石兼具<br>⇒ 200% 隊長屬性符石效果",
                 "activate": "以「召喚師候選者」系列角色作隊長",
@@ -91890,30 +94657,31 @@ const monster_data = [
                 "activate_tag": ["指定隊長"],
                 "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045, 10167, 10168]
             }
-		],
+        ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10168,
-        'name': '鶴立史群 ‧ 大力姆',
-        'attribute': '光',
-        'race': '妖精類',
-        'star': 6,
-        'monsterTag': ["召喚師候選者"],
-        'crossOver': false,
-        'skill': [
+        "id": 10168,
+        "name": "鶴立史群 ‧ 大力姆",
+        "attribute": "光",
+        "race": "妖精類",
+        "star": 6,
+        "monsterTag": ["召喚師候選者"],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '元素召喚',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 6,
-                'description': 'I. 將所有符石轉化為<br>⇒ 固定數量的「五屬及心」強化符石各 5 粒<br>1 回合內<br>II. 可任意移動符石而不會發動消除',
-                'tag': ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '符石轉心強化', '五屬版面', '五屬心版面', '大幅轉版', '排珠']
+                "name": "元素召喚",
+                "type": "normal",
+                "charge": "CD",
+                "num": 6,
+                "description": "I. 將所有符石轉化為<br>⇒ 固定數量的「五屬及心」強化符石各 5 粒<br>1 回合內<br>II. 可任意移動符石而不會發動消除",
+                "tag": ["符石轉水", "符石轉火", "符石轉木", "符石轉光", "符石轉暗", "符石轉心", "符石轉水強化", "符石轉火強化", "符石轉木強化", "符石轉光強化", "符石轉暗強化", "符石轉心強化", "五屬版面", "五屬心版面", "大幅轉版", "排珠"]
             }
         ],
-        'team_skill': [
+        "team_skill": [
             {
                 "description": "I. 延長移動符石時間 1.5 秒<br><br>II. 隊長屬性符石<br>⇒ 兼具 50% 心符石效果<br><br>III. 心符石兼具<br>⇒ 200% 隊長屬性符石效果",
                 "activate": "以「召喚師候選者」系列角色作隊長",
@@ -91921,723 +94689,755 @@ const monster_data = [
                 "activate_tag": ["指定隊長"],
                 "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045, 10167, 10168]
             }
-		],
+        ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10169,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10169,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10170,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10170,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10171,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10171,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10172,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10172,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10173,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10173,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10174,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10174,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10175,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10175,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10176,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10176,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10177,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10177,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10178,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10178,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10179,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10179,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10180,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10180,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10181,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10181,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10182,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10182,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10183,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10183,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10184,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10184,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10185,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10185,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10186,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10186,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10187,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10187,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10188,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10188,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10189,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10189,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10190,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10190,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10191,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10191,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10192,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10192,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10193,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10193,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10194,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10194,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10195,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10195,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10196,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10196,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10197,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10197,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10198,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10198,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
-        'id': 10199,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
-        'crossOver': false,
-        'skill': [
+        "id": 10199,
+        "name": "",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
             {
-                'name': '',
-                'type': 'normal',
-                'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
             }
         ],
-        'team_skill': [],
+        "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 10200,
@@ -92668,7 +95468,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 99,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": "v2021.30"
     },
     {
         "id": 20001,
@@ -92723,7 +95524,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 20002,
@@ -92778,7 +95580,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     },
     {
         "id": 60021,
@@ -92801,6 +95604,8 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
-        "maxRefine": 0
+        "maxRefine": 0,
+        "version": ""
     }
 ]
+
