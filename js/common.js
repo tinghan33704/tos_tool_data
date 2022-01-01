@@ -181,6 +181,7 @@ function createSideNavigation() {
         <a ${tool_id === 'craft' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_craft_filter/tos_craft_filter.html"` }>龍刻搜尋器</a>
 		<a ${tool_id === 'backpack' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_backpack_viewer/tos_backpack_viewer.html"` }>卡匣檢視器</a>
 		<hr />
+		<a ${tool_id === 'monster_selector' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_monster_selector/tos_monster_selector.html"` }>召喚獸編號生成器</a>
 		<a ${tool_id === 'id_selector' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_id_selector/tos_id_selector.html"` }>龍刻編號生成器</a>
     `
 }
