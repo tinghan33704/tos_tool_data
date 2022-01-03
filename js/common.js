@@ -141,6 +141,9 @@ function init() {
         if(hasSelectedSkill) openOptionPanel();
         else errorAlert(2);
     });
+	
+	theme = localStorage.getItem('TOOL_THEME') || 'normal'
+	setTheme(theme)
     
     $("#changeTheme-btn").length && $('#changeTheme-btn').click(() => { 
         changeTheme();
@@ -775,59 +778,65 @@ function inventorySwitch()
 	$("#uid-tag").css({'display': useInventory ? 'inline-block' : 'none'})
 }
 
-function changeTheme()
+const theme_string = [
+	'--background_color', 
+	'--text_color', 
+	'--text_color_anti', 
+	'--text_color_uid', 
+	'--button_color', 
+	'--button_text_color_checked', 
+	'--button_filter_color_checked', 
+	'--button_keyword_color_checked', 
+	'--button_keyword_color_unable', 
+	'--button_keyword_color_input_able', 
+	'--button_keyword_color_input_unable', 
+	'--button_tag_color_checked', 
+	'--button_other_color_checked', 
+	'--button_sortby', 
+	'--button_primary',
+	'--button_warning',
+	'--button_danger',
+	'--button_success',
+	'--button_secondary',
+	'--text_tag_color', 
+	'--monsterid_color', 
+	'--text_monsterid_color', 
+	'--tooltip_color', 
+	'--text_tooltip_color', 
+	'--text_name_tooltip_color', 
+	'--text_refine_tooltip_color', 
+	'--text_recall_tooltip_color', 
+	'--text_charge_tooltip_color',
+	'--text_charge_sort_color',
+	'--text_board_label_color',
+	'--text_input_color',
+	'--table_border',
+	'--table_border_center',
+	'--table_td_selected_background',
+	'--text_monster_name_water_color',
+	'--text_monster_name_fire_color',
+	'--text_monster_name_earth_color',
+	'--text_monster_name_light_color',
+	'--text_monster_name_dark_color',
+	'--div_selector_result_background',
+	'--div_selector_result_success_background',
+	'--div_nav_active_background',
+	'--div_series_genre_background',
+	'--div_series_genre_all_background',
+	'--text_series_genre_all',
+];
+
+function setTheme(theme)
 {
-    let theme_string = [
-        '--background_color', 
-        '--text_color', 
-        '--text_color_anti', 
-        '--text_color_uid', 
-        '--button_color', 
-        '--button_text_color_checked', 
-        '--button_filter_color_checked', 
-        '--button_keyword_color_checked', 
-        '--button_keyword_color_unable', 
-        '--button_keyword_color_input_able', 
-        '--button_keyword_color_input_unable', 
-        '--button_tag_color_checked', 
-        '--button_other_color_checked', 
-        '--button_sortby', 
-        '--button_primary',
-        '--button_warning',
-        '--button_danger',
-        '--button_success',
-        '--button_secondary',
-        '--text_tag_color', 
-        '--monsterid_color', 
-        '--text_monsterid_color', 
-        '--tooltip_color', 
-        '--text_tooltip_color', 
-        '--text_name_tooltip_color', 
-        '--text_refine_tooltip_color', 
-        '--text_recall_tooltip_color', 
-        '--text_charge_tooltip_color',
-        '--text_charge_sort_color',
-        '--text_board_label_color',
-		'--text_input_color',
-        '--table_border',
-        '--table_border_center',
-		'--table_td_selected_background',
-		'--text_monster_name_water_color',
-		'--text_monster_name_fire_color',
-		'--text_monster_name_earth_color',
-		'--text_monster_name_light_color',
-		'--text_monster_name_dark_color',
-		'--div_selector_result_background',
-		'--div_selector_result_success_background',
-		'--div_nav_active_background',
-		'--div_series_genre_background',
-		'--div_series_genre_all_background',
-		'--text_series_genre_all',
-    ];
-    
-    theme = (theme == 'normal') ? 'dark' : 'normal';
-    
-    $.each(theme_string, (index, name) => {
+	$.each(theme_string, (index, name) => {
         document.documentElement.style.setProperty(name, `var(${name}_${theme})`);
     });
+}
+
+function changeTheme()
+{
+    theme = (theme == 'normal') ? 'dark' : 'normal';
+    localStorage.setItem('TOOL_THEME', theme)
+    
+    setTheme(theme)
 }

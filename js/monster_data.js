@@ -1,4 +1,4 @@
-// Last modified : 2021.12.31 23:11
+// Last modified : 2022.01.03 17:11
 
 const monster_data = [
 	{
@@ -76976,7 +76976,7 @@ const monster_data = [
         "attribute": "水",
         "race": "人類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['救世主角'],
         "crossOver": false,
         "skill": [
             {
@@ -77000,7 +77000,7 @@ const monster_data = [
         "attribute": "火",
         "race": "人類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['救世主角'],
         "crossOver": false,
         "skill": [
             {
@@ -77024,7 +77024,7 @@ const monster_data = [
         "attribute": "木",
         "race": "人類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['救世主角'],
         "crossOver": false,
         "skill": [
             {
@@ -77048,7 +77048,7 @@ const monster_data = [
         "attribute": "光",
         "race": "人類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['救世主角'],
         "crossOver": false,
         "skill": [
             {
@@ -77072,7 +77072,7 @@ const monster_data = [
         "attribute": "暗",
         "race": "人類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['救世主角'],
         "crossOver": false,
         "skill": [
             {
@@ -90581,7 +90581,7 @@ const monster_data = [
                 "activate": "以「召喚師候選者」系列角色作隊長",
                 "skill_tag": ["延長轉珠時間", "符石兼具水", "符石兼具心", "水兼具其他", "心兼具其他"],
                 "activate_tag": ["指定隊長"],
-                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045, 10167, 10168]
+                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045]
             }
         ],
         "maxLevel": 99,
@@ -90613,7 +90613,7 @@ const monster_data = [
                 "activate": "以「召喚師候選者」系列角色作隊長",
                 "skill_tag": ["延長轉珠時間", "符石兼具火", "符石兼具心", "火兼具其他", "心兼具其他"],
                 "activate_tag": ["指定隊長"],
-                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045, 10167, 10168]
+                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045]
             }
         ],
         "maxLevel": 99,
@@ -90645,7 +90645,7 @@ const monster_data = [
                 "activate": "以「召喚師候選者」系列角色作隊長",
                 "skill_tag": ["延長轉珠時間", "符石兼具木", "符石兼具心", "木兼具其他", "心兼具其他"],
                 "activate_tag": ["指定隊長"],
-                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045, 10167, 10168]
+                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045]
             }
         ],
         "maxLevel": 99,
@@ -90677,7 +90677,7 @@ const monster_data = [
                 "activate": "以「召喚師候選者」系列角色作隊長",
                 "skill_tag": ["延長轉珠時間", "符石兼具光", "符石兼具心", "光兼具其他", "心兼具其他"],
                 "activate_tag": ["指定隊長"],
-                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045, 10167, 10168]
+                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045]
             }
         ],
         "maxLevel": 99,
@@ -90709,7 +90709,7 @@ const monster_data = [
                 "activate": "以「召喚師候選者」系列角色作隊長",
                 "skill_tag": ["延長轉珠時間", "符石兼具暗", "符石兼具心", "暗兼具其他", "心兼具其他"],
                 "activate_tag": ["指定隊長"],
-                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045, 10167, 10168]
+                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045]
             }
         ],
         "maxLevel": 99,
@@ -90741,7 +90741,7 @@ const monster_data = [
                 "activate": "以「召喚師候選者」系列角色作隊長",
                 "skill_tag": ["延長轉珠時間", "符石兼具暗", "符石兼具心", "暗兼具其他", "心兼具其他"],
                 "activate_tag": ["指定隊長"],
-                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045, 10167, 10168]
+                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045]
             }
         ],
         "maxLevel": 99,
@@ -90773,7 +90773,7 @@ const monster_data = [
                 "activate": "以「召喚師候選者」系列角色作隊長",
                 "skill_tag": ["延長轉珠時間", "符石兼具火", "符石兼具心", "火兼具其他", "心兼具其他"],
                 "activate_tag": ["指定隊長"],
-                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045, 10167, 10168]
+                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045]
             }
         ],
         "maxLevel": 99,
@@ -90805,7 +90805,7 @@ const monster_data = [
                 "activate": "以「召喚師候選者」系列角色作隊長",
                 "skill_tag": ["延長轉珠時間", "符石兼具木", "符石兼具心", "木兼具其他", "心兼具其他"],
                 "activate_tag": ["指定隊長"],
-                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045, 10167, 10168]
+                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045]
             }
         ],
         "maxLevel": 99,
@@ -90837,7 +90837,7 @@ const monster_data = [
                 "activate": "以「召喚師候選者」系列角色作隊長",
                 "skill_tag": ["延長轉珠時間", "符石兼具光", "符石兼具心", "光兼具其他", "心兼具其他"],
                 "activate_tag": ["指定隊長"],
-                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045, 10167, 10168]
+                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045]
             }
         ],
         "maxLevel": 99,
@@ -90869,7 +90869,7 @@ const monster_data = [
                 "activate": "以「召喚師候選者」系列角色作隊長",
                 "skill_tag": ["延長轉珠時間", "符石兼具暗", "符石兼具心", "暗兼具其他", "心兼具其他"],
                 "activate_tag": ["指定隊長"],
-                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045, 10167, 10168]
+                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045]
             }
         ],
         "maxLevel": 99,
@@ -93917,7 +93917,7 @@ const monster_data = [
         "maxLevel": 99,
         "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.100"
     },
     {
         "id": 10138,
@@ -93957,7 +93957,7 @@ const monster_data = [
         "maxLevel": 99,
         "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.100"
     },
     {
         "id": 10139,
@@ -94177,19 +94177,19 @@ const monster_data = [
     },
     {
         "id": 10148,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "透心女孩",
+        "attribute": "水",
+        "race": "強化素材",
+        "star": 3,
+        "monsterTag": ['素材'],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "沒有技能",
                 "type": "normal",
                 "charge": "CD",
                 "num": 0,
-                "description": "",
+                "description": "沒有技能",
                 "tag": []
             }
         ],
@@ -94197,7 +94197,7 @@ const monster_data = [
         "maxLevel": 0,
         "maxSkill": 0,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.100"
     },
     {
         "id": 10149,
@@ -94317,7 +94317,7 @@ const monster_data = [
         "maxLevel": 99,
         "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.100"
     },
     {
         "id": 10154,
@@ -94365,7 +94365,7 @@ const monster_data = [
         "maxLevel": 99,
         "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.100"
     },
     {
         "id": 10156,
@@ -94557,7 +94557,7 @@ const monster_data = [
         "maxLevel": 99,
         "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.100"
     },
     {
         "id": 10164,
@@ -94637,7 +94637,7 @@ const monster_data = [
         "attribute": "水",
         "race": "龍類",
         "star": 6,
-        "monsterTag": ["召喚師候選者"],
+        "monsterTag": ["芸芸眾生"],
         "crossOver": false,
         "skill": [
             {
@@ -94649,19 +94649,11 @@ const monster_data = [
                 "tag": ["碎裂還原", ["石化敵方", 2], ["無法行動", 2], ["敵方轉木", 2]]
             }
         ],
-        "team_skill": [
-            {
-                "description": "I. 延長移動符石時間 1.5 秒<br><br>II. 隊長屬性符石<br>⇒ 兼具 50% 心符石效果<br><br>III. 心符石兼具<br>⇒ 200% 隊長屬性符石效果",
-                "activate": "以「召喚師候選者」系列角色作隊長",
-                "skill_tag": ["延長轉珠時間", "符石兼具暗", "符石兼具心", "暗兼具其他", "心兼具其他"],
-                "activate_tag": ["指定隊長"],
-                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045, 10167, 10168]
-            }
-        ],
+        "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.100"
     },
     {
         "id": 10168,
@@ -94669,7 +94661,7 @@ const monster_data = [
         "attribute": "光",
         "race": "妖精類",
         "star": 6,
-        "monsterTag": ["召喚師候選者"],
+        "monsterTag": ["芸芸眾生"],
         "crossOver": false,
         "skill": [
             {
@@ -94681,19 +94673,11 @@ const monster_data = [
                 "tag": ["符石轉水", "符石轉火", "符石轉木", "符石轉光", "符石轉暗", "符石轉心", "符石轉水強化", "符石轉火強化", "符石轉木強化", "符石轉光強化", "符石轉暗強化", "符石轉心強化", "五屬版面", "五屬心版面", "大幅轉版", "排珠"]
             }
         ],
-        "team_skill": [
-            {
-                "description": "I. 延長移動符石時間 1.5 秒<br><br>II. 隊長屬性符石<br>⇒ 兼具 50% 心符石效果<br><br>III. 心符石兼具<br>⇒ 200% 隊長屬性符石效果",
-                "activate": "以「召喚師候選者」系列角色作隊長",
-                "skill_tag": ["延長轉珠時間", "符石兼具暗", "符石兼具心", "暗兼具其他", "心兼具其他"],
-                "activate_tag": ["指定隊長"],
-                "relative": [10036, 10037, 10038, 10039, 10040, 10041, 10042, 10043, 10044, 10045, 10167, 10168]
-            }
-        ],
+        "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.100"
     },
     {
         "id": 10169,
