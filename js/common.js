@@ -809,6 +809,7 @@ const theme_string = [
 	'--text_charge_tooltip_color',
 	'--text_charge_sort_color',
 	'--text_board_label_color',
+	'--text_multiple_color',
 	'--text_input_color',
 	'--table_border',
 	'--table_border_center',

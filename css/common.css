@@ -30,6 +30,7 @@
     --text_charge_tooltip_color_normal: #FF6666;
     --text_charge_sort_color_normal: #343A40;
 	--text_board_label_color_normal: #82e8ff;
+	--text_multiple_color_normal: #FFA500;
 	--text_input_color_normal: black;
     --table_border_normal: #363636;
     --table_border_center_normal: #777777;
@@ -78,6 +79,7 @@
     --text_charge_tooltip_color_dark: #AA4444;
     --text_charge_sort_color_dark: #222222;
 	--text_board_label_color_dark: #2ba4bc;
+	--text_multiple_color_dark: #af7716;
     --table_border_dark: #AAAAAA;
 	--table_td_selected_background_dark: #046300;
 	--text_input_color_dark: #888888;
@@ -126,6 +128,7 @@
     --text_charge_tooltip_color: var(--text_charge_tooltip_color_normal);
     --text_charge_sort_color: var(--text_charge_sort_color_normal);
     --text_board_label_color: var(--text_board_label_color_normal);
+	--text_multiple_color: var(--text_multiple_color_normal);
 	--text_input_color: var(--text_input_color_normal);
     --table_border: var(--table_border_normal);
     --table_border_center: var(--table_border_center_normal);
@@ -510,6 +513,12 @@ select {
 .fixed_board_label {
 	color: var(--text_board_label_color);
 	cursor: pointer;
+}
+.multiple_effect_tag {
+	color: var(--text_multiple_color);
+}
+.annotation_tag {
+	opacity: 0.55;
 }
 #fixedBoard {
 	display: none;
