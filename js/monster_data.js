@@ -1,4 +1,4 @@
-// Last modified : 2022.01.06 21:55
+// Last modified : 2022.01.08 03:01
 
 const monster_data = [
 	{
@@ -33091,7 +33091,7 @@ const monster_data = [
                 "type": "normal",
                 "charge": "CD",
                 "num": 10,
-                "description": "1 回合內，敵方全體轉為光屬性，並大幅提升暗屬性對光屬性目標的攻擊力",
+                "description": "1 回合內，敵方全體轉為光屬性，並提升暗屬性對光屬性目標的攻擊力",
                 "tag": ["敵方轉光", "增傷"]
             }
         ],
@@ -83502,7 +83502,7 @@ const monster_data = [
         "attribute": "火",
         "race": "進化素材",
         "star": 7,
-        "monsterTag": ["素材"],
+        "monsterTag": ["魂寵"],
         "crossOver": false,
         "skill": [
             {
@@ -83526,7 +83526,7 @@ const monster_data = [
         "attribute": "暗",
         "race": "進化素材",
         "star": 7,
-        "monsterTag": ["素材"],
+        "monsterTag": ["魂寵"],
         "crossOver": false,
         "skill": [
             {
@@ -85545,10 +85545,10 @@ const monster_data = [
     {
         "id": 2754,
         "name": "妖之魂寵",
-        "attribute": "光",
+        "attribute": "木",
         "race": "進化素材",
         "star": 7,
-        "monsterTag": ["素材"],
+        "monsterTag": ["魂寵"],
         "crossOver": false,
         "skill": [
             {
@@ -94118,6 +94118,7 @@ const monster_data = [
         "star": 7,
         "monsterTag": ["怪物彈珠 ‧ 英雄", "怪物彈珠"],
         "crossOver": true,
+        "specialImage": true,
         "skill": [
             {
                 "name": "絕對之水",
@@ -94166,6 +94167,7 @@ const monster_data = [
         "star": 7,
         "monsterTag": ["怪物彈珠 ‧ 英雄", "怪物彈珠"],
         "crossOver": true,
+        "specialImage": true,
         "skill": [
             {
                 "name": "聖魔共鳴之炎劍",
@@ -94212,6 +94214,7 @@ const monster_data = [
         "star": 7,
         "monsterTag": ["怪物彈珠 ‧ 英雄", "怪物彈珠"],
         "crossOver": true,
+        "specialImage": true,
         "skill": [
             {
                 "name": "命之繼承、希望之創造",
@@ -94251,6 +94254,7 @@ const monster_data = [
         "star": 7,
         "monsterTag": ["怪物彈珠 ‧ 英雄", "怪物彈珠"],
         "crossOver": true,
+        "specialImage": true,
         "skill": [
             {
                 "name": "王者之劍聖光",
@@ -94290,6 +94294,7 @@ const monster_data = [
         "star": 7,
         "monsterTag": ["怪物彈珠 ‧ 英雄", "怪物彈珠"],
         "crossOver": true,
+        "specialImage": true,
         "skill": [
             {
                 "name": "靈魂殘骸 ‧ 極速獵魂",
@@ -94329,6 +94334,7 @@ const monster_data = [
         "star": 7,
         "monsterTag": ["怪物彈珠 ‧ 英雄", "怪物彈珠"],
         "crossOver": true,
+        "specialImage": true,
         "skill": [
             {
                 "name": "九界蒼穹之光",
@@ -94368,6 +94374,7 @@ const monster_data = [
         "star": 7,
         "monsterTag": ["怪物彈珠 ‧ 英雄", "怪物彈珠"],
         "crossOver": true,
+        "specialImage": true,
         "skill": [
             {
                 "name": "新約 ‧ 憐憫惡魔之歌",
