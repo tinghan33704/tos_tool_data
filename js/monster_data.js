@@ -1,4 +1,4 @@
-// Last modified : 2022.01.08 03:01
+// Last modified : 2022.01.13 23:02
 
 const monster_data = [
 	{
@@ -67027,7 +67027,7 @@ const monster_data = [
         "attribute": "木",
         "race": "龍類",
         "star": 7,
-        "monsterTag": ["夢幻聖物"],
+        "monsterTag": ["夢幻聖物", '紋龍'],
         "crossOver": false,
         "skill": [
             {
@@ -67068,7 +67068,7 @@ const monster_data = [
         "attribute": "木",
         "race": "龍類",
         "star": 7,
-        "monsterTag": ["夢幻聖物"],
+        "monsterTag": ["夢幻聖物", '紋龍'],
         "crossOver": false,
         "skill": [
             {
@@ -70370,11 +70370,18 @@ const monster_data = [
                 "relative": [2305]
             },
             {
-                "description": "I. 隊長及戰友的隊長技能「無雙之霸」變為「蓋世之氣」：<br>⓵ 全隊攻擊力 6 倍、生命力及回復力 1.3 倍<br>⓶ 必然延長移動符石時間 2 秒<br>⓷ 首批掉落該直行成員的屬性強化符石<br>* 其後部分掉落的符石會順序排列<br><br>II. 隊伍成員屬性符石<br>⇒ 互相兼具效果",
+                "description": "◆ 隊伍成員屬性符石<br>⇒ 互相兼具效果<br><br>◆ 隊長及戰友的隊長技能「無雙之霸」變為「蓋世之氣」<br><br>I. 全隊攻擊力 9 倍、生命力及回復力 1.6 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 消除 ≥3 種符石時<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 首批掉落該直行成員的屬性強化符石<br> * 其後部分掉落的符石會順序排列",
                 "activate": "以「破陣無雙 ‧ 項羽」作隊長及戰友；且隊伍中有 ≥4 種屬性成員",
-                "skill_tag": ["隊長技改變", "符石兼具光", "光兼具其他"],
+                "skill_tag": ["隊長技改變", '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他'],
                 "activate_tag": ["指定雙隊長"],
                 "relative": [2305]
+            },
+            {
+                "description": "◆ 若「楚顏殺姬 ‧ 虞姬」為左方起第 2 位成員<br>⇒「楚顏殺姬 ‧ 虞姬」轉換為「破陣無雙 ‧ 項羽」的屬性<br><br>◆「破陣無雙 ‧ 項羽」及「楚顏殺姬 ‧ 虞姬」<br>⓵ 技能 CD -3<br>⓶「生命力及攻擊力」基值 2 倍",
+                "activate": "以「破陣無雙 ‧ 項羽」作隊長，並以「楚顏殺姬 ‧ 虞姬」作成員",
+                "skill_tag": ['永久減CD', '增攻', '增血'],
+                "activate_tag": ["指定隊長", '指定成員'],
+                "relative": [2305, 2430]
             }
         ],
         "maxLevel": 99,
@@ -70388,7 +70395,7 @@ const monster_data = [
         "attribute": "水",
         "race": "龍類",
         "star": 6,
-        "monsterTag": ["遙古三族"],
+        "monsterTag": ["遙古三族", '紋龍'],
         "crossOver": false,
         "skill": [
             {
@@ -70492,7 +70499,7 @@ const monster_data = [
         "attribute": "光",
         "race": "龍類",
         "star": 6,
-        "monsterTag": ["遙古三族"],
+        "monsterTag": ["遙古三族", '紋龍'],
         "crossOver": false,
         "skill": [
             {
@@ -70548,7 +70555,7 @@ const monster_data = [
         "attribute": "水",
         "race": "龍類",
         "star": 6,
-        "monsterTag": ["遙古三族"],
+        "monsterTag": ["遙古三族", '紋龍'],
         "crossOver": false,
         "skill": [
             {
@@ -70572,7 +70579,7 @@ const monster_data = [
         "attribute": "火",
         "race": "龍類",
         "star": 6,
-        "monsterTag": ["遙古三族"],
+        "monsterTag": ["遙古三族", '紋龍'],
         "crossOver": false,
         "skill": [
             {
@@ -70620,7 +70627,7 @@ const monster_data = [
         "attribute": "火",
         "race": "龍類",
         "star": 6,
-        "monsterTag": ["地獄魔王"],
+        "monsterTag": ["地獄魔王", '紋龍'],
         "crossOver": false,
         "skill": [
             {
@@ -72516,7 +72523,7 @@ const monster_data = [
         "attribute": "水",
         "race": "龍類",
         "star": 6,
-        "monsterTag": ["遙古三族"],
+        "monsterTag": ["遙古三族", '紋龍'],
         "crossOver": false,
         "skill": [
             {
@@ -74374,7 +74381,15 @@ const monster_data = [
                 "tag": ["符石強化", "人族符石製造", "無視拼圖盾", "無視燃燒", "增傷"]
             }
         ],
-        "team_skill": [],
+        "team_skill": [
+            {
+                "description": "◆ 若「楚顏殺姬 ‧ 虞姬」為左方起第 2 位成員<br>⇒「楚顏殺姬 ‧ 虞姬」轉換為「破陣無雙 ‧ 項羽」的屬性<br><br>◆「破陣無雙 ‧ 項羽」及「楚顏殺姬 ‧ 虞姬」<br>⓵ 技能 CD -3<br>⓶「生命力及攻擊力」基值 2 倍",
+                "activate": "以「破陣無雙 ‧ 項羽」作隊長，並以「楚顏殺姬 ‧ 虞姬」作成員",
+                "skill_tag": ['召喚獸轉光', '永久減CD', '增攻', '增血'],
+                "activate_tag": ["指定隊長"],
+                "relative": [2305, 2430]
+            }
+		],
         "maxLevel": 99,
         "maxSkill": 12,
         "maxRefine": 0,
@@ -79252,7 +79267,7 @@ const monster_data = [
         "attribute": "火",
         "race": "龍類",
         "star": 6,
-        "monsterTag": ["魔法閣沙蘿耶"],
+        "monsterTag": ["魔法閣沙蘿耶", '紋龍'],
         "crossOver": false,
         "skill": [
             {
@@ -85024,7 +85039,7 @@ const monster_data = [
         "attribute": "暗",
         "race": "龍類",
         "star": 6,
-        "monsterTag": ["公會任務"],
+        "monsterTag": ["公會任務", '紋龍'],
         "crossOver": false,
         "skill": [
             {
@@ -85541,6 +85556,106 @@ const monster_data = [
         "maxSkill": 12,
         "maxRefine": 0,
         "version": "v2021.304"
+    },
+    {
+        "id": 2752,
+        "name": "霸權傾軋 ‧ 秦始皇",
+        "attribute": "暗",
+        "race": "魔族",
+        "star": 8,
+        "monsterTag": ["神話創世"],
+        "crossOver": false,
+        "skill": [
+            {
+                "name": "焚書坑儒 ‧ 毀",
+                "type": "normal",
+                "charge": "CD",
+                "num": 8,
+                "description": "I. 移除所有符石<br>II. 點擊元素法陣上的符石 3 次<br>⇒ 將固定位置的符石轉化為所點擊的強化符石",
+                "tag": ['移除符石', "符石轉水", "符石轉水強化", "符石轉火", "符石轉火強化", "符石轉木", "符石轉木強化", "符石轉光", "符石轉光強化", "符石轉暗", "符石轉暗強化", "符石轉心", "符石轉心強化", "大幅轉版"]
+            }
+        ],
+        "team_skill": [
+            {
+                "description": "◆ 魔族成員<br>⇒「生命力、攻擊力及回復力」基值 2 倍",
+                "activate": "以「霸權傾軋 ‧ 秦始皇」或「魔身吞佔 ‧ 秦始皇」作隊長及戰友，且隊中有 ≥3 個魔族成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ["指定隊長戰友", "指定種族成員"],
+                "relative": [2752, 2753]
+            },
+            {
+                "description": "◆ 隊長獲得主動技能二「吞併天下」：<br><br>I. 吞併右旁成員及該成員的「生命力、攻擊力、回復力」基值<br>(無法吞併合體角色)<br>II. 消除被吞併角色所發動的技能效果<br><br>◆ 暗符石兼具魔族成員屬性符石效果<br><br>◆「燃燒」傷害<br>⇒ 轉化為我方生命力<br><br>◆「霸權傾軋 ‧ 秦始皇」及「魔身吞佔 ‧ 秦始皇」<br>⇒ 技能 CD -2<br><br>◆ 每首批消除 1 粒屬性符石，將產生 1 粒暗強化符石，最多 15 粒；暗符石兼具心符石效果<br><br>◆ 當前生命力全滿時，減少 40% 所受傷害",
+                "activate": "以「霸權傾軋 ‧ 秦始皇」或「魔身吞佔 ‧ 秦始皇」作隊長及戰友",
+                "skill_tag": ['主動技改變', '暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '無視燃燒', "回血", "永久減CD", '強制掉落', '符石兼具心', "減傷"],
+                "activate_tag": ["指定隊長戰友"],
+                "relative": [2752, 2753]
+            },
+            {
+                "description": "◆「霸權傾軋 ‧ 秦始皇」、「魔身吞佔 ‧ 秦始皇」及【紋龍】成員<br>⓵ 攻擊力 2 倍<br>⓶ 生命力及回復力 5 倍<br><br>◆「霸權傾軋 ‧ 秦始皇」及「魔身吞佔 ‧ 秦始皇」<br>⇒ 對龍類目標的傷害額外 3 倍<br><br>◆ 暗符石兼具<br>⇒【紋龍】成員屬性符石效果<br><br>◆ 掉落的符石<br>⇒ 以龍族符石代替",
+                "activate": "以「霸權傾軋 ‧ 秦始皇」或「魔身吞佔 ‧ 秦始皇」作隊長及戰友，並以 ≥2 個【紋龍】角色作成員",
+                "skill_tag": ['增攻', '增回', '增血', '對龍類增傷', '暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '龍族符石製造'],
+                "activate_tag": ["指定隊長戰友", '指定成員'],
+                "relative": [2752, 2753, 2207, 2208, 2306, 2309, 2311, 2312, 2314, 2377, 2567, 2736, 10110, 10117]
+            }
+		],
+        "maxLevel": 99,
+        "maxSkill": 10,
+        "maxRefine": 0,
+        "version": "v2022.10"
+    },
+    {
+        "id": 2753,
+        "name": "魔身吞佔 ‧ 秦始皇",
+        "attribute": "暗",
+        "race": "魔族",
+        "star": 8,
+        "monsterTag": ["神話創世"],
+        "crossOver": false,
+        "skill": [
+            {
+                "name": "焚書坑儒 ‧ 滅",
+                "type": "normal",
+                "charge": "CD",
+                "num": 8,
+                "description": "I. 移除所有符石<br>II. 點擊元素法陣上的符石 6 次<br>⇒ 將固定位置的符石轉化為所點擊的強化符石",
+                "tag": ['移除符石', "符石轉水", "符石轉水強化", "符石轉火", "符石轉火強化", "符石轉木", "符石轉木強化", "符石轉光", "符石轉光強化", "符石轉暗", "符石轉暗強化", "符石轉心", "符石轉心強化", "大幅轉版"]
+            },
+            {
+                "name": "開疆闢土 ‧ 征",
+                "type": "normal",
+                "charge": "CD",
+                "num": 4,
+                "description": "1 回合內<br>I. 發動技能及回合結束時<br>⓵ 將自身左直行的符石<br>⇒ 添加為魔族符石<br>⓶ 將自身右直行的符石<br>⇒ 添加為龍族符石<br>II. 每消除 1 粒暗符石<br>⇒ 增加 1 連擊 (Combo)<br>⇒ 最多可增加 15 連擊 (Combo)",
+                "tag": ['魔族符石製造', '龍族符石製造', '增加Combo']
+            }
+        ],
+        "team_skill": [
+            {
+                "description": "◆ 魔族成員<br>⇒「生命力、攻擊力及回復力」基值 2 倍",
+                "activate": "以「霸權傾軋 ‧ 秦始皇」或「魔身吞佔 ‧ 秦始皇」作隊長及戰友，且隊中有 ≥3 個魔族成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ["指定隊長戰友", "指定種族成員"],
+                "relative": [2752, 2753]
+            },
+            {
+                "description": "◆ 隊長獲得主動技能二「吞併天下」：<br><br>I. 吞併右旁成員及該成員的「生命力、攻擊力、回復力」基值<br>(無法吞併合體角色)<br>II. 消除被吞併角色所發動的技能效果<br><br>◆ 暗符石兼具魔族成員屬性符石效果<br><br>◆「燃燒」傷害<br>⇒ 轉化為我方生命力<br><br>◆「霸權傾軋 ‧ 秦始皇」及「魔身吞佔 ‧ 秦始皇」<br>⇒ 技能 CD -2<br><br>◆ 每首批消除 1 粒屬性符石，將產生 1 粒暗強化符石，最多 15 粒；暗符石兼具心符石效果<br><br>◆ 當前生命力全滿時，減少 40% 所受傷害",
+                "activate": "以「霸權傾軋 ‧ 秦始皇」或「魔身吞佔 ‧ 秦始皇」作隊長及戰友",
+                "skill_tag": ['主動技改變', '暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '無視燃燒', "回血", "永久減CD", '強制掉落', '符石兼具心', "減傷"],
+                "activate_tag": ["指定隊長戰友"],
+                "relative": [2752, 2753]
+            },
+            {
+                "description": "◆「霸權傾軋 ‧ 秦始皇」、「魔身吞佔 ‧ 秦始皇」及【紋龍】成員<br>⓵ 攻擊力 2 倍<br>⓶ 生命力及回復力 5 倍<br><br>◆「霸權傾軋 ‧ 秦始皇」及「魔身吞佔 ‧ 秦始皇」<br>⇒ 對龍類目標的傷害額外 3 倍<br><br>◆ 暗符石兼具<br>⇒【紋龍】成員屬性符石效果<br><br>◆ 掉落的符石<br>⇒ 以龍族符石代替",
+                "activate": "以「霸權傾軋 ‧ 秦始皇」或「魔身吞佔 ‧ 秦始皇」作隊長及戰友，並以 ≥2 個【紋龍】角色作成員",
+                "skill_tag": ['增攻', '增回', '增血', '對龍類增傷', '暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '龍族符石製造'],
+                "activate_tag": ["指定隊長戰友", '指定成員'],
+                "relative": [2752, 2753, 2207, 2208, 2306, 2309, 2311, 2312, 2314, 2377, 2567, 2736, 10110, 10117]
+            }
+		],
+        "maxLevel": 99,
+        "maxSkill": 10,
+        "maxRefine": 0,
+        "version": "v2022.10"
     },
     {
         "id": 2754,
@@ -93158,7 +93273,7 @@ const monster_data = [
         "attribute": "光",
         "race": "龍類",
         "star": 7,
-        "monsterTag": ["魔神戰"],
+        "monsterTag": ["魔神戰", '紋龍'],
         "crossOver": false,
         "skill": [
             {
@@ -93334,7 +93449,7 @@ const monster_data = [
         "attribute": "火",
         "race": "龍類",
         "star": 7,
-        "monsterTag": ["天道炎旌"],
+        "monsterTag": ["天道炎旌", '紋龍'],
         "crossOver": false,
         "skill": [
             {
@@ -94544,27 +94659,27 @@ const monster_data = [
     },
     {
         "id": 10151,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "奧羅茲守城機體",
+        "attribute": "水",
+        "race": "機械族",
+        "star": 6,
+        "monsterTag": ['地獄魔王'],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "機械爆破",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 7,
+                "description": "I. 引爆所有符石<br>⇒ 掉落強化符石<br>II. 隊中只有機械族成員時<br>⇒ 則掉落隊長屬性強化符石<br>1 回合內<br>III. 增加 5 連擊 (Combo)<br>IV. 若發動技能時自身行動值達至 100%<br>⓵ 則增加 10 連擊 (Combo)<br>⓶ 回合結束時，自身 CD -2",
+                "tag": ['引爆', '整版引爆', '強制掉落', '增加Combo', '減CD']
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.10"
     },
     {
         "id": 10152,
@@ -94664,27 +94779,27 @@ const monster_data = [
     },
     {
         "id": 10156,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "殺虐天性 ‧ 鮑威",
+        "attribute": "光",
+        "race": "獸類",
+        "star": 5,
+        "monsterTag": ['碩荒獸兄弟'],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "碩荒獸獵 ‧ 殺",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 7,
+                "description": "I. 解除自身及獸類隊長被封鎖的技能 (此技能無視封鎖技能)<br>2 回合內<br>II. 自身及獸類隊長<br>⓵ 攻擊力 3 倍<br>⓶ 無視「攻前盾」",
+                "tag": ['解鎖', ['增傷', 2], ['界王拳', 2], ['無視攻前盾', 2]]
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.10"
     },
     {
         "id": 10157,
