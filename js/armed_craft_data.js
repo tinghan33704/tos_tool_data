@@ -1,4 +1,4 @@
-// Last modified : 2021.12.30 22:14
+// Last modified : 2022.01.20 18:02
 
 const armed_craft_data = [
     {
@@ -13751,6 +13751,22 @@ const armed_craft_data = [
         'skill_description': ['對全體敵人造成 500000 點火屬性傷害，此傷害無視防禦力', '隊長及戰友的技能 CD 減少 1'],
         'skill_tag': [],
         'armed_description': ['延長移動符石時間 1 秒', '消除 4 粒或以上的心符石，回復 1.5 倍隊伍回復力等值的生命力'],
+        'armed_tag': [],
+    },
+    {
+        'id': 9011,
+        'name': '【9011】 週年蛋糕龍璃',
+        'mode': '落影龍璃',
+        'attribute': '沒有限制',
+        'race': '沒有限制',
+        'star': 2,
+        'charge': '消除符石',
+        'add_hp': 1,
+        'add_atk': 1,
+        'add_rec': 1,
+        'skill_description': ['1 回合內，完全回復生命力', '1 回合內，隊伍攻擊力及回復力提升 20%'],
+        'skill_tag': [],
+        'armed_description': ['延長移動符石時間 1 秒', '進入關卡後，自身主動技能 CD 減少 1'],
         'armed_tag': [],
     },
 ]

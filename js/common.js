@@ -42,6 +42,20 @@ function init() {
 	}).on('touchleave touchcancel', '.monster_img', () => {
 		$("#fixedBoard").css('display', 'none')
 	});
+	
+	$(document).on('mouseenter', '.desc_note_label', () => {
+		$("#descriptionNote").css('display', 'block')
+	}).on('touchstart', '.desc_note_label', () => {
+		$("#descriptionNote").css('display', 'block')
+	}).on('mouseleave', '.desc_note_label', () => {
+		$("#descriptionNote").css('display', 'none')
+	}).on('touchend', '.desc_note_label', () => {
+		$("#descriptionNote").css('display', 'none')
+	}).on('blur', '.monster_img', () => {
+		$("#descriptionNote").css('display', 'none')
+	}).on('touchleave touchcancel', '.monster_img', () => {
+		$("#descriptionNote").css('display', 'none')
+	});
     
     $('.side_navigation').html(() => {
         return createSideNavigation();

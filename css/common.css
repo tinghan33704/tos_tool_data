@@ -510,7 +510,7 @@ select {
     width: 50px;
     height: 50px;
 }
-.fixed_board_label {
+.fixed_board_label, .desc_note_label {
 	color: var(--text_board_label_color);
 	cursor: pointer;
 }
@@ -526,6 +526,16 @@ select {
 	text-align: center;
 	background-color: rgba(255, 255, 255, 0.75);
 	border: 2px solid #333333;
+	z-index: 2000;
+}
+#descriptionNote {
+	display: none;
+	position: absolute;
+	color: var(--text_board_label_color);
+	background-color: rgba(120, 120, 120, 0.85);
+	border: 2px solid #333333;
+    font-size: 1em;
+	padding: 10px;
 	z-index: 2000;
 }
 .board_table {
