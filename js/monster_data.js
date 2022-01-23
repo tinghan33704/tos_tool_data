@@ -1,4 +1,4 @@
-// Last modified : 2022.01.20 18:02
+// Last modified : 2022.01.23 14:38
 
 const monster_data = [
 	{
@@ -84636,7 +84636,7 @@ const monster_data = [
         ],
         "team_skill": [],
         "maxLevel": 99,
-        "maxSkill": 12,
+        "maxSkill": 15,
         "maxRefine": 4,
         "version": "v20.10"
     },
