@@ -46,6 +46,8 @@
 	--div_series_genre_background_normal: #eeeeee;
 	--div_series_genre_all_background_normal: #fff7db;
 	--text_series_genre_all_normal: #ffaa00;
+	--div_series_genre_must_get_background_normal: #c1ffba;
+	--text_series_genre_must_get_normal: #15d800;
     
     
     /* dark theme */
@@ -95,6 +97,8 @@
 	--div_series_genre_background_dark: #666666;
 	--div_series_genre_all_background_dark: rgba(224, 204, 139, 0.3);
 	--text_series_genre_all_dark: rgba(234, 141, 88, 0.6);
+	--div_series_genre_must_get_background_dark: rgba(173, 235, 166, 0.3);
+	--text_series_genre_must_get_dark: rgba(41, 236, 0, 0.6);
 
     
     /* theme replacing */
@@ -144,6 +148,8 @@
 	--div_series_genre_background: var(--div_series_genre_background_normal);
 	--div_series_genre_all_background: var(--div_series_genre_all_background_normal);
 	--text_series_genre_all: var(--text_series_genre_all_normal);
+	--div_series_genre_must_get_background: var(--div_series_genre_must_get_background_normal);
+	--text_series_genre_must_get: var(--text_series_genre_must_get_normal);
 }
 
 body {
@@ -690,7 +696,7 @@ select {
 
 
 
-.inventory, .option, .changeTheme, .inputData {
+.inventory, .option, .changeTheme, .inputData, .reverseMode {
 	width: 3rem;
     height: 3rem;
     padding: 0;
@@ -707,7 +713,7 @@ select {
     display: inline-block;
     z-index: 1;
 }
-.inventory:focus, .option:focus, .changeTheme:focus, .inputData:focus {
+.inventory:focus, .option:focus, .changeTheme:focus, .inputData:focus, .reverseMode:focus {
     outline: none;
 }
 .inventory {
