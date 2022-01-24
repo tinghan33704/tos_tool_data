@@ -213,10 +213,14 @@ select {
     border-radius: 5px;
 }
 
-
+#tool_title {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
 @media (max-width: 992px) {
 	#tool_title {
-		text-align: center;
+		justify-content: center;
 	}
 }
 .row_title {
@@ -287,16 +291,16 @@ select {
 	cursor: pointer;
 }
 .tag-collapse-div[aria-expanded="false"] .collapse-close {
-  display: inline;
+	display: inline;
 }
 .tag-collapse-div[aria-expanded="false"] .collapse-open {
-  display: none;
+	display: none;
 }
 .tag-collapse-div[aria-expanded="true"] .collapse-close {
-  display: none;
+	display: none;
 }
 .tag-collapse-div[aria-expanded="true"] .collapse-open {
-  display: inline;
+	display: inline;
 }
 .result {
     margin: 8px 0;

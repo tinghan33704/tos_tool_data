@@ -136,8 +136,9 @@ function init() {
     $("#close_notification").length && $('#close_notification').on("click", closeNotification);
     $("#use-inventory").length && $('#use-inventory').on("click", inventorySwitch);
     
-	playerData = localStorage.getItem('PLAYER_DATA') ? JSON.parse(localStorage.getItem('PLAYER_DATA')) : {uid: '', card: []}
+	playerData = localStorage.getItem('PLAYER_DATA') ? JSON.parse(localStorage.getItem('PLAYER_DATA')) : {uid: '', card: [], lastUpdated: null}
 	$("#uid-tag").text(`UID: ${playerData.uid}`)
+	$('.update-banner').length && $('.update-banner').html( `上次更新: ${ playerData?.lastUpdated || '---'}`)
     
     $("#inventory-btn").length && $('#inventory-btn').click(() => { 
         openUidInputPanel();
@@ -683,7 +684,7 @@ async function getPlayerInventory(prefix, id = null)
 				
 			})
 			
-			setPlayerData(prefix, playerId, [...card_set].sort((a, b) => a - b), card_info)
+			setPlayerData(prefix, playerId, [...card_set].sort((a, b) => a - b), card_info, inventory_data?.userData?.cardsUpdatedAt)
 		}
 	} catch {
 		$(`#${prefix}-uid-status`).html(`<span class='fail'><i class='fa fa-times'></i>&nbsp;&nbsp;${verb}失敗${verb === '匯入' ? '，請嘗試使用更新背包功能' : ''}</span>`)
@@ -694,13 +695,15 @@ async function getPlayerInventory(prefix, id = null)
 	}
 }
 
-function setPlayerData(prefix, uid, card, info)
+function setPlayerData(prefix, uid, card, info, lastUpdated)
 {
 	const verb = prefix === 'load' ? '匯入' : '更新'
 	
 	playerData.uid = uid
 	playerData.card = addCombinedCard(addTransformedCard(addVirtualRebirthCard(card)))
 	playerData.info = info
+	playerData.lastUpdated = lastUpdated ? new Date(new Date(lastUpdated) - new Date().getTimezoneOffset()).toLocaleString() : null
+	
 	
 	$(`#${prefix}-uid-status`).html(`<span class='success'><i class='fa fa-check'></i>&nbsp;&nbsp;${verb}完成</span>`)
 	
@@ -708,6 +711,7 @@ function setPlayerData(prefix, uid, card, info)
 	$(`#${prefix}-confirm-uid`).css({'display': 'none'})
 	$(`#${prefix}-save-inventory`).css({'display': 'block'})
 	
+	$('.update-banner').length && $('.update-banner').html( `上次更新: ${ playerData?.lastUpdated || '---'}`)
 	$('.uid-banner').length && $('.uid-banner').html(playerData?.uid ? `UID: ${playerData.uid}` : '')
 	
 	if(tool_id === 'backpack') {
