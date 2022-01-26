@@ -700,7 +700,7 @@ select {
 
 
 
-.inventory, .option, .changeTheme, .inputData, .reverseMode {
+.inventory, .option, .changeTheme, .inputData, .reverseMode, .compressMode {
 	width: 3rem;
     height: 3rem;
     padding: 0;
@@ -717,7 +717,7 @@ select {
     display: inline-block;
     z-index: 1;
 }
-.inventory:focus, .option:focus, .changeTheme:focus, .inputData:focus, .reverseMode:focus {
+.inventory:focus, .option:focus, .changeTheme:focus, .inputData:focus, .reverseMode:focus, .compressMode:focus {
     outline: none;
 }
 .inventory {
