@@ -1,4 +1,4 @@
-// Last modified : 2022.01.24 17:14
+// Last modified : 2022.01.27 21:48
 
 const monster_data = [
 	{
@@ -85868,12 +85868,20 @@ const monster_data = [
         "crossOver": false,
         "skill": [
             {
-                "name": "沒有技能",
+                "name": "灼熱之靈",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "沒有技能",
-                "tag": []
+                "num": 6,
+                "description": "I. 將所有符石轉化為<br>⇒ 「火及心」強化符石<br>II. 若隊長為妖精類成員<br>⓵ 則將場上的符石<br>⇒ 變回原始模樣<br>⓶ <board>將固定位置的符石轉化為<br>⇒「火及心」妖族強化符石</board>",
+                "tag": ['符石轉火', '符石轉心', '符石轉火強化', '符石轉心強化', '大幅轉版', '還原版面', '固定版面', '妖族符石製造']
+            },
+            {
+                "name": "獄炎領域",
+                "type": "normal",
+                "charge": "CD",
+                "num": 4,
+                "description": "I. 點燃敵方全體，使受影響目標轉為火屬性，持續 3 回合<br>II. 每有 1 個敵人於「點燃」狀態下被擊斃<br>⇒ 自身技能 CD -2",
+                "tag": [['點燃敵方', 3], ['敵方轉火', 3], ['減CD', 3]]
             }
         ],
         "team_skill": [
@@ -85885,10 +85893,19 @@ const monster_data = [
                 "relative": ['侵蝕 ‧ 封王']
             }
         ],
-        "maxLevel": 0,
-        "maxSkill": 0,
+		"board": [
+			[
+				'Fe', 'Fe', 'Fe', 'Fe', 'Fe', 'Fe', 
+				'He', 'He', 'He', 'He', 'He', 'He', 
+				'Fe', 'Fe', 'Fe', 'Fe', 'Fe', 'Fe', 
+				'He', 'He', 'He', 'He', 'He', 'He', 
+				'Fe', 'Fe', 'Fe', 'Fe', 'Fe', 'Fe', 
+			]
+		],
+        "maxLevel": 99,
+        "maxSkill": 15,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.10"
     },
     {
         "id": 3005,
@@ -86129,6 +86146,30 @@ const monster_data = [
         "maxSkill": 0,
         "maxRefine": 0,
         "version": ""
+    },
+    {
+        "id": 3014,
+        "name": "虎頭正太",
+        "attribute": "光",
+        "race": "",
+        "star": 0,
+        "monsterTag": ["素材"],
+        "crossOver": false,
+        "skill": [
+            {
+                "name": "沒有技能",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "沒有技能",
+                "tag": []
+            }
+        ],
+        "team_skill": [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": "v2022.10"
     },
     {
         "id": 7001,
@@ -94679,27 +94720,50 @@ const monster_data = [
     },
     {
         "id": 10150,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "最初的仿魂 ‧ 莉莉絲",
+        "attribute": "水",
+        "race": "機械族",
+        "star": 7,
+        "monsterTag": ['虛擬仿魂'],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "融魂 ‧ 共鳴 ‧ 模式",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "選擇【融魂模式】或【共鳴模式】形態<br>⇒ 所有「最初的仿魂 ‧ 莉莉絲」轉換為所選擇的形態<br><br>【融魂模式】<br>▋引爆所有符石<br>⇒ 掉落「五屬及心」機械族符石各 5 粒<br><br>【共嗚模式】<br>▋移除所有符石<br>⇒ 掉落強化符石",
+                "tag": ['引爆', '整版引爆', '強制掉落', '五屬版面', '五屬心版面', '機械族符石製造', '移除符石']
+            },
+            {
+                "name": "奪命凶器",
+                "type": "normal",
+                "charge": "CD",
+                "num": 6,
+                "description": "I. 還原所有「碎裂」的位置<br>II. 將場上的符石<br>⇒ 變回原始模樣<br>III. 將所有符石<br>⇒ 添加為機械族符石<br>IV. 對敵方全體造成 5000 萬的水屬性傷害 4 次<br>1 回合內<br>V. 所有成員無視<br>⓵ 敵人防禦力<br>⓶「連擊相等盾」<br>⓷「強化突破」<br>⓸「固定連擊盾」",
+                "tag": ['碎裂還原', '還原版面', '機械族符石製造', '直傷', '破防直傷', '破連擊相等直傷', '破強化直傷', '破固定連擊直傷', '破防', '無視連擊相等盾', '無視強化盾', '無視固定連擊盾']
             }
         ],
-        "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "team_skill": [
+			{
+                "description": "◆ 進場時，機械族成員的行動值<br>⇒ 提升至 100%<br><br>◆ 吸收每個敵人「首次攻擊以外」的『攻擊傷害、「喋血屠刀」等扣除召喚師指定 % 生命力的敵技所造成的傷害』<br>⇒ 以所吸收攻擊力對敵方進行相剋屬性反擊<br><br>◆ 所有符石兼具<br>⇒ 機械族成員屬性及心符石效果<br><br>◆ 觸碰「電擊符石」時仍可移動符石<br><br>◆ 無視「燃燒」<br><br>◆ 無視「黏腐」<br><br>◆ 發動角色符石及於「最初的仿魂 ‧ 莉莉絲」直行最後結束轉珠<br>⇒ 該「最初的仿魂 ‧ 莉莉絲」CD -1<br><br>◆ 根據最後結束轉珠時放手的符石種類<br>⇒ 首批掉落該種強化符石<br><br>◆ 消除 1 組 ≥10 粒符石<br>⇒ 完全回復生命力<br><br>◆ 獲得「數據運算」能力：<br>▋將所有符石轉化為強化符石<br>▋將水符石由右下方開始向左排列<br><br>於回合開始時點擊已儲滿的龍脈儀<br>⇒ 可觸發「數據運算」能力<br>(每回合最多可使用 1 次)<br><br>◆「最初的仿魂 ‧ 莉莉絲」為以下形態時，可獲得以下效果：<br><br>【共鳴模式】<br>⓵「幽閉空間」效果只影響 4 個角落的 4 格位置<br>⓶「最初的仿魂 ‧ 莉莉絲」的攻擊力基值<br>⇒ 跟隨攻擊力基值最高的成員<br><br>【融魂模式】<br>⓵ 全隊回復力變 0<br>⓶ 回合結束時，「最初的仿魂 ‧ 莉莉絲」技能 CD -1",
+                "activate": "以「最初的仿魂 ‧ 莉莉絲」作隊長及戰友",
+                "skill_tag": ['行動值提升', '敵方傷害吸收', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心', '無視電擊', '無視燃燒', '無視黏腐', '其他減CD', '強制掉落', '回血', '龍脈儀能力', '黑白還原', '攻擊力共鳴', '我方減回'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [10150]
+            },
+			{
+                "description": "◆「最初的仿魂 ‧ 莉莉絲」<br>⇒ 獲得【融魂模式】及【共鳴模式】2 種形態",
+                "activate": "以「最初的仿魂 ‧ 莉莉絲」作成員",
+                "skill_tag": [],
+                "activate_tag": [],
+                "relative": [10150]
+            },
+		],
+        "maxLevel": 99,
+        "maxSkill": 10,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.10"
     },
     {
         "id": 10151,
@@ -94847,27 +94911,27 @@ const monster_data = [
     },
     {
         "id": 10157,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "蹦跳獵食 ‧ 波特",
+        "attribute": "暗",
+        "race": "獸類",
+        "star": 5,
+        "monsterTag": ['碩荒獸兄弟'],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "碩荒獸獵 ‧ 戮",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 7,
+                "description": "I. 解除自身及獸類隊長被封鎖的技能<br>(此技能無視封鎖技能)<br>1 回合內<br>II. 隊長以外成員不能發動攻擊<br>III. 隊長攻擊力 3 倍<br>IV. 獸類隊長攻擊力額外 2 倍<br>V. 隊長無視「固定連擊盾」",
+                "tag": ['解鎖', '限制成員攻擊', '增傷', '界王拳', '無視固定連擊盾']
             }
         ],
         "team_skill": [],
         "maxLevel": 0,
         "maxSkill": 0,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.10"
     },
     {
         "id": 10158,
@@ -95031,7 +95095,7 @@ const monster_data = [
     },
     {
         "id": 10164,
-        "name": "",
+        "name": "嬌豔純愛 ‧ 列蒂西雅",
         "attribute": "",
         "race": "",
         "star": 0,
@@ -95151,27 +95215,36 @@ const monster_data = [
     },
     {
         "id": 10169,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "恭賀新禧 ‧ 利哥與福妹",
+        "attribute": "火",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['公會任務'],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "如意吉祥",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "I. <board>將最頂 1 橫行的符石<br>⇒ 轉化為火人族強化符石</board><br>II. <board>將最底 1 橫行的符石<br>⇒ 轉化為「水、火、木」人族強化符石、「光、暗」強化符石、心符石</board><br>1 回合內<br>III. 隊長攻擊力 3 倍",
+                "tag": ['符石轉火', '符石轉火強化', '人族符石製造', '符石轉水', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '符石轉水強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '五屬版面', '五屬心版面', '增傷', '界王拳']
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+		"board": [
+			[
+				'Fh', 'Fh', 'Fh', 'Fh', 'Fh', 'Fh', 
+				'-' , '-' , '-' , '-' , '-' , '-' , 
+				'-' , '-' , '-' , '-' , '-' , '-' , 
+				'-' , '-' , '-' , '-' , '-' , '-' , 
+				'Wh', 'Fh', 'Eh', 'L' , 'D' , 'h' ,
+			]
+		],
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.10"
     },
     {
         "id": 10170,
