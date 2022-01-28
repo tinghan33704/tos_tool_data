@@ -1,4 +1,4 @@
-// Last modified : 2022.01.28 10:33
+// Last modified : 2022.01.28 11:13
 
 const monster_data = [
 	{
@@ -94700,7 +94700,7 @@ const monster_data = [
         "attribute": "光",
         "race": "獸類",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['活力盟友'],
         "crossOver": false,
         "skill": [
             {
