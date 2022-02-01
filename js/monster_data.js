@@ -1,4 +1,4 @@
-// Last modified : 2022.01.28 11:13
+// Last modified : 2022.02.01 17:41
 
 const monster_data = [
 	{
@@ -86142,17 +86142,17 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
+        "maxLevel": 1,
         "maxSkill": 0,
         "maxRefine": 0,
         "version": ""
     },
     {
-        "id": 3014,
-        "name": "虎頭正太",
-        "attribute": "光",
-        "race": "",
-        "star": 0,
+        "id": 3013,
+        "name": "魔法信使 ‧ 拉芙",
+        "attribute": "木",
+        "race": "人類",
+        "star": 3,
         "monsterTag": ["素材"],
         "crossOver": false,
         "skill": [
@@ -86166,7 +86166,31 @@ const monster_data = [
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
+        "maxLevel": 1,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": "v2022.10"
+    },
+    {
+        "id": 3014,
+        "name": "虎頭正太",
+        "attribute": "光",
+        "race": "強化素材",
+        "star": 4,
+        "monsterTag": ["素材"],
+        "crossOver": false,
+        "skill": [
+            {
+                "name": "沒有技能",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "沒有技能",
+                "tag": []
+            }
+        ],
+        "team_skill": [],
+        "maxLevel": 1,
         "maxSkill": 0,
         "maxRefine": 0,
         "version": "v2022.10"
@@ -94999,51 +95023,51 @@ const monster_data = [
     },
     {
         "id": 10160,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "六識通悟 ‧ 孫悟識",
+        "attribute": "光",
+        "race": "獸類",
+        "star": 6,
+        "monsterTag": ['戰慄級'],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "悟道靈智",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 7,
+                "description": "3 回合內<br>I. 首 9 粒掉落的符石<br>⇒ 必定為光獸族符石<br>II. 將敵方全體轉為<br>⇒ 被隊長克制的屬性，持續 3 回合",
+                "tag": [['強制掉落', 3], ['獸族符石製造', 3], ['敵方轉水', 3], ['敵方轉火', 3], ['敵方轉木', 3], ['敵方轉光', 3], ['敵方轉暗', 3]]
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.10"
     },
     {
         "id": 10161,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "凶獸馴化 ‧ 小魔女薇薇亞",
+        "attribute": "暗",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['武術大賽'],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "萌之暴打",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 7,
+                "description": "I. 將木符石轉化為<br>⇒ 暗強化符石<br>II. 對敵方全體造成<br>⇒ 24 次暗屬性傷害<br>1 回合內<br>⇒ 增加 24 Ex. Combo",
+                "tag": ['木轉其他', '符石轉暗', '符石轉暗強化', '直傷', '增加Ex.Combo']
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.10"
     },
     {
         "id": 10162,
