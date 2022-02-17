@@ -1,4 +1,4 @@
-// Last modified : 2022.02.01 17:41
+// Last modified : 2022.02.17 17:26
 
 const armed_craft_data = [
     {
@@ -13735,6 +13735,22 @@ const armed_craft_data = [
         'skill_description': ['1 回合內，隊伍攻擊力及回復力提升 40%', '隊長及戰友的技能 CD 減少 3', '1 回合內，無視指定形狀盾'],
         'skill_tag': [],
         'armed_description': ['必然延長移動符石時間 1 秒', '消除 1 組 8 粒或以上符石，自身攻擊力 2 倍', '機械族攻擊力基值 1.05 倍'],
+        'armed_tag': [],
+    },
+    {
+        'id': 7089,
+        'name': '【7089】 鴉首棋龍紋',
+        'mode': '連鎖龍紋',
+        'attribute': '光',
+		'race': '魔族',
+        'star': 2,
+        'charge': '4 Combo以上',
+        'add_hp': 5,
+        'add_atk': 5,
+        'add_rec': 0,
+        'skill_description': ['1 回合內，魔族成員的攻擊力提升 25%', '1 回合內，80% 的攻擊傷害無視五屬盾'],
+        'skill_tag': [],
+        'armed_description': ['延長移動符石時間 1.5 秒', '消除 1 組 5 粒或以上的光符石，自身攻擊力 1.3 倍'],
         'armed_tag': [],
     },
     {

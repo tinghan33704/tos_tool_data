@@ -1,4 +1,4 @@
-// Last modified : 2022.02.12 03:51
+// Last modified : 2022.02.17 17:26
 
 const monster_data = [
 	{
@@ -94823,27 +94823,27 @@ const monster_data = [
     },
     {
         "id": 10152,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "九面惡獸 ‧ 開明獸",
+        "attribute": "木",
+        "race": "獸類",
+        "star": 6,
+        "monsterTag": ["地獄魔王"],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "殺意四濺",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 4,
+                "description": "I. 回復 20% 生命力<br>1 回合內<br>II. 全隊攻擊力 1.2 倍<br>III. 點選場上的符石 2 次，將該符石四周的符石<br>⇒ 轉化為所點選的符石 (並加強為強化符石)",
+                "tag": ['回血', '增傷', '符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '符石轉心強化']
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.10"
     },
     {
         "id": 10153,
@@ -94967,27 +94967,27 @@ const monster_data = [
     },
     {
         "id": 10158,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "鴉首掌控 ‧ 哈帕斯",
+        "attribute": "光",
+        "race": "魔族",
+        "star": 7,
+        "monsterTag": ["討伐戰"],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "惡魂枯骨",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "I. 身旁成員攻擊力 2.5 倍<br>II. 若身旁成員為魔族時<br>⇒ 則該成員攻擊力 3.5 倍<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>1 回合內<br>⓵ 身旁成員<br>⇒ 無視「固定連擊盾」",
+                "tag": [['增傷', -1], ['界王拳', -1], '隨時關閉', '無視固定連擊盾']
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.10"
     },
     {
         "id": 10159,
