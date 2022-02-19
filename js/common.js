@@ -113,8 +113,10 @@ function init() {
     keyword_search = false;
 
     $(".copyright").length && $(".copyright").html(() =>  {
-        let year = new Date().getFullYear();
-        return "Copyright © 2019-" + year + " 蒼曜(tinghan33704)"
+        const currYear = new Date().getFullYear()
+		const startYear = tool_id === 'active_skill' || tool_id === 'craft' ? '2019' : 
+						  tool_id === 'team_skill' ? '2020' : '2021'
+        return `Copyright © ${startYear}-${currYear} 蒼曜(tinghan33704)`
     });
     
     $("#start_filter").length && $("#start_filter").on("click", startFilter);
