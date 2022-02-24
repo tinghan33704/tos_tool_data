@@ -1,4 +1,4 @@
-// Last modified : 2022.02.24 23:00
+// Last modified : 2022.02.25 01:47
 
 const monster_data = [
 	{
@@ -96253,7 +96253,7 @@ const monster_data = [
         "attribute": "水",
         "race": "人類",
         "star": 6,
-        "monsterTag": ['銀魂', '萬事屋'],
+        "monsterTag": ['銀魂', '大江戶', '萬事屋'],
         "crossOver": true,
         "skill": [
             {
@@ -96317,7 +96317,7 @@ const monster_data = [
         "attribute": "火",
         "race": "人類",
         "star": 6,
-        "monsterTag": ['銀魂', '萬事屋'],
+        "monsterTag": ['銀魂', '大江戶', '萬事屋'],
         "crossOver": true,
         "skill": [
             {
@@ -96370,7 +96370,7 @@ const monster_data = [
         "attribute": "木",
         "race": "人類",
         "star": 6,
-        "monsterTag": ['銀魂'],
+        "monsterTag": ['銀魂', '大江戶'],
         "crossOver": true,
         "skill": [
             {
@@ -96394,7 +96394,7 @@ const monster_data = [
         "attribute": "光",
         "race": "獸類",
         "star": 6,
-        "monsterTag": ['銀魂', '萬事屋'],
+        "monsterTag": ['銀魂', '大江戶', '萬事屋'],
         "crossOver": true,
         "skill": [
             {
@@ -96426,7 +96426,7 @@ const monster_data = [
         "attribute": "暗",
         "race": "人類",
         "star": 6,
-        "monsterTag": ['銀魂', '萬事屋'],
+        "monsterTag": ['銀魂', '大江戶', '萬事屋'],
         "crossOver": true,
         "skill": [
             {
@@ -96479,7 +96479,7 @@ const monster_data = [
         "attribute": "水",
         "race": "人類",
         "star": 6,
-        "monsterTag": ['銀魂'],
+        "monsterTag": ['銀魂', '大江戶'],
         "crossOver": true,
         "skill": [
             {
@@ -96503,7 +96503,7 @@ const monster_data = [
         "attribute": "光",
         "race": "人類",
         "star": 6,
-        "monsterTag": ['銀魂'],
+        "monsterTag": ['銀魂', '大江戶'],
         "crossOver": true,
         "skill": [
             {
@@ -96527,7 +96527,7 @@ const monster_data = [
         "attribute": "暗",
         "race": "人類",
         "star": 6,
-        "monsterTag": ['銀魂'],
+        "monsterTag": ['銀魂', '大江戶'],
         "crossOver": true,
         "skill": [
             {
