@@ -1,4 +1,4 @@
-// Last modified : 2022.02.25 01:47
+// Last modified : 2022.02.25 10:14
 
 const monster_data = [
 	{
@@ -95405,195 +95405,301 @@ const monster_data = [
     },
     {
         "id": 10172,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "坂田銀時",
+        "attribute": "水",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂', '大江戶', '萬事屋'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "堅定不移的守護",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 8,
+                "description": "I. 點選其中 1 個圖像<br>⇒ 將所有符石轉化為該固定版面符石<br><br>▋<board 1>【水心強化】</board><br>▋<board 2>【水火強化】</board><br>▋<board 3>【五屬及心】</board><br><br>1 回合內<br>II. 自身攻擊力 4 倍<br>III. 自身無視<br>⓵ 敵人防禦力<br>⓶「連擊相等盾」",
+                "tag": ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '符石轉水強化', '符石轉火強化', '符石轉心強化', '五屬版面', '五屬心版面', '大幅轉版', '固定版面', '增傷', '界王拳', '破防', '無視連擊相等盾']
+            },
+        ],
+        "team_skill": [
+            {
+                "description": "◆ 必然延長移動符石時間 4 秒<br><br>◆ 水符石兼具其他符石效果<br><br>◆ 進場及每回合結束時，將【銀魂】成員直行最頂 1 粒及最底 1 粒符石<br>⇒ 轉化為水人族強化符石<br><br>◆ 移動的步數愈少<br>⇒ 全隊攻擊力提升愈多<br>⇒ 移動 ≤10 步可提升至最大 5 倍<br><br>◆ 移動的步數為 ≤5 時<br>⇒【萬事屋】成員<br>⓵ 攻擊力額外 4 倍<br>⓶ 無視「固定連擊盾」<br><br>◆ 移動 >5 步<br>⓵ 減少 50% 所受傷害<br>⓶【銀魂】成員技能 CD -1<br><br>＊不作 1 回合計算的「任意移動符石」效果不計算移動步數",
+                "activate": "以「坂田銀時」作隊長，並以【萬事屋】成員作戰友",
+                "skill_tag": ['延長轉珠時間', '水兼具其他', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心', '符石轉水', '符石轉水強化', '人族符石製造', '增攻', '無視固定連擊盾', '減傷', '其他減CD'],
+                "activate_tag": ['指定隊長戰友'],
+                "relative": [10172, '萬事屋']
+            },
+            {
+                "description": "◆ 火符石兼具其他符石效果",
+                "activate": "以「坂田銀時」作隊長，以【萬事屋】成員作戰友，並以「神樂」作成員",
+                "skill_tag": ['火兼具其他', '符石兼具水', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心'],
+                "activate_tag": ['指定隊長戰友', '指定成員'],
+                "relative": [10172, 10173, '萬事屋']
+            },
+            {
+                "description": "◆ 暗符石兼具其他符石效果",
+                "activate": "以「坂田銀時」作隊長，以【萬事屋】成員作戰友，並以「志村新八」作成員",
+                "skill_tag": ['暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心'],
+                "activate_tag": ['指定隊長戰友', '指定成員'],
+                "relative": [10172, 10176, '萬事屋']
+            },
+            {
+                "description": "◆【萬事屋】成員<br>⓵「生命力、攻擊力及回復力」基值 1.6 倍<br>⓶ 進場 CD -4",
+                "activate": "以 ≥3 個【萬事屋】角色作成員",
+                "skill_tag": ['暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心', '增攻', '增回', '增血', '進場減CD'],
+                "activate_tag": ['指定成員'],
+                "relative": ['萬事屋']
             }
         ],
-        "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+		"board": [
+			[],
+			[],
+			[
+				'w', 'f', 'e', 'l', 'd', 'w', 
+				'w', 'f', 'e', 'l', 'd', 'w', 
+				'w', 'f', 'e', 'l', 'd', 'w', 
+				'w', 'f', 'e', 'l', 'd', 'w', 
+				'h', 'h', 'h', 'h', 'h', 'h', 
+			]
+		],
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
-    {
+	{
         "id": 10173,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "神樂",
+        "attribute": "火",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂', '大江戶', '萬事屋'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "致命的力量",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "I. 將場上的符石<br>⇒ 變回原始模樣<br>1 回合內<br>II. 自身攻擊力 5 倍<br>III. 回合結束時，自身進入 1 回合疲憊狀態<br>IV. 觸碰「暴風」或「連環光牢」射擊位置時<br>⇒ 仍可移動符石<br>V. 無視「黏腐」",
+                "tag": ['還原版面', '增傷', '界王拳', '疲憊狀態', '我方減攻', '無視暴風', '無視射擊', '無視黏腐']
+            },
+        ],
+        "team_skill": [
+            {
+                "description": "◆ 必然延長移動符石時間 1 秒<br><br>◆ 火屬性以外的【銀魂】成員<br>⇒ 轉換為火屬性<br><br>◆ 其他符石兼具 25% 火符石效果<br><br>◆ 火符石兼具 50% 心符石效果<br><br>◆ 消除符石後隊長及戰友直行首批掉落<br>⇒ 火人族強化符石<br><br>◆ 消除符石後「神樂」以外的【萬事屋】隊員直行首批掉落<br>⇒ 該成員原屬性種族的符石<br><br>◆ 每消除 5 粒火符石<br>⇒「神樂」以 150% 攻擊力追打 1 次，最多 5 次<br><br>◆ 發動角色符石時<br>⇒ 減少 20% 所受傷害",
+                "activate": "以「神樂」作隊長，並以【萬事屋】成員作戰友",
+                "skill_tag": ['延長轉珠時間', '水兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具火', '火兼具其他', '符石兼具心', '強制掉落', '人族符石製造', '獸族符石製造', '火屬追打', '減傷'],
+                "activate_tag": ['指定隊長戰友'],
+                "relative": [10173, '萬事屋']
+            },
+            {
+                "description": "◆「神樂」、「志村妙」、「柳生九兵衛」、「猿飛菖蒲」、「月詠」<br>⓵ 進場 CD -7<br>⓶ 每次發動主動技能後<br>⇒ 該成員以外的「神樂」、「志村妙」、「柳生九兵衛」、「猿飛菖蒲」、「月詠」當前 CD -1",
+                "activate": "以「神樂」、「志村妙」、「柳生九兵衛」、「猿飛菖蒲」或「月詠」作隊長",
+                "skill_tag": ['進場減CD', '其他減CD'],
+                "activate_tag": ['指定隊長'],
+                "relative": [10173, '?-12', '?-13', '?-14', '?-15']
+            },
+            {
+                "description": "◆ 火符石兼具其他符石效果",
+                "activate": "以「坂田銀時」作隊長，以【萬事屋】成員作戰友，並以「神樂」作成員",
+                "skill_tag": ['火兼具其他', '符石兼具水', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心'],
+                "activate_tag": ['指定隊長戰友', '指定成員'],
+                "relative": [10172, 10173, '萬事屋']
+            },
+            {
+                "description": "◆【萬事屋】成員<br>⓵「生命力、攻擊力及回復力」基值 1.6 倍<br>⓶ 進場 CD -4",
+                "activate": "以 ≥3 個【萬事屋】角色作成員",
+                "skill_tag": ['暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心', '增攻', '增回', '增血', '進場減CD'],
+                "activate_tag": ['指定成員'],
+                "relative": ['萬事屋']
             }
         ],
-        "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
-    {
+	{
         "id": 10174,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "坂本辰馬",
+        "attribute": "木",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂', '大江戶'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "和平共存的冀願",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
+                "num": 6,
+                "description": "I. 消耗現有 60% 生命力<br>II. 對敵方全體造成自身攻擊力基值 6000 倍的木屬性傷害<br>1 回合內<br>III. 隊長攻擊力 4 倍<br>IV. 連擊 (Combo) 時攻擊力提升 50%",
+                "tag": ['我方扣血', '直傷', '增傷', '界王拳']
+            },
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
-    {
+	{
         "id": 10175,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "定春",
+        "attribute": "光",
+        "race": "獸類",
+        "star": 6,
+        "monsterTag": ['銀魂', '大江戶', '萬事屋'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "嗚～",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
+                "num": 6,
+                "description": "1 回合內<br>I. 隊中只有獸類成員時<br>⓵ 全隊攻擊力 2 倍<br>⓶ 全隊無視「指定形狀盾」<br>II. 反之，符石首批 2 粒相連<br>⇒ 即可發動消除<br>III. 隊中有「神樂」<br>⇒ 同時獲得 I、II 效果",
+                "tag": ['增傷', '無視拼圖盾', '改變消除方式']
+            },
         ],
-        "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "team_skill": [
+            {
+                "description": "◆【萬事屋】成員<br>⓵「生命力、攻擊力及回復力」基值 1.6 倍<br>⓶ 進場 CD -4",
+                "activate": "以 ≥3 個【萬事屋】角色作成員",
+                "skill_tag": ['暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心', '增攻', '增回', '增血', '進場減CD'],
+                "activate_tag": ['指定成員'],
+                "relative": ['萬事屋']
+            }
+		],
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
-    {
+	{
         "id": 10176,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "志村新八",
+        "attribute": "暗",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂', '大江戶', '萬事屋'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "堅守武士精神",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "I. 若隊長為【銀魂】成員<br>⇒ 還原所有「碎裂」的位置<br>II. 點選 2 直行<br>⇒ 引爆該直行符石<br>⇒ 掉落該直行成員的屬性種族強化符石<br>1 回合內<br>III. 增加 8 連擊 (Combo)<br>IV.【萬事屋】成員<br>⇒ 以 80% 攻擊力追打 8 次<br>V. 若發動技能時我方生命力為 ≤80%<br>⇒ 回合結束時，自身技能 CD -3",
+                "tag": ['碎裂還原', '引爆', '直行引爆', '強制掉落', '人族符石製造', '獸族符石製造', '妖族符石製造', '龍族符石製造', '神族符石製造', '魔族符石製造', '機械族符石製造', '增加Combo', '水屬追打', '火屬追打', '光屬追打', '暗屬追打', '減CD']
+            },
+        ],
+        "team_skill": [
+            {
+                "description": "◆ 必然延長移動符石時間 2 秒<br><br>◆ 暗符石兼具其他符石效果<br><br>◆ 隊伍成員屬性符石及心符石兼具暗符石效果<br><br>◆ 消除 ≥3 組符石<br>⇒【萬事屋】及人類成員<br>⓵ 攻擊力 4 倍<br>⓶ 無視「固定連擊盾」<br><br>◆ 隊中有「志村妙」<br>⓵「志村妙」攻擊力基值 2 倍<br>⓶ 所受中毒傷害<br>⇒ 轉化為我方生命力<br><br>◆ 發動「志村新八」角色符石時<br>⇒ 該「志村新八」進入「眼鏡」狀態",
+                "activate": "以「志村新八」作隊長及戰友",
+                "skill_tag": ['延長轉珠時間', '暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '符石兼具暗', '增攻', '無視固定連擊盾', '防毒', '回血'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [10176, '?-12']
+            },
+            {
+                "description": "◆ 每進入下一層數 (Wave) 時<br>⇒「志村新八」有一定機率進入「眼鏡」狀態<br><br>◆ 每回合每個「眼鏡」狀態的「志村新八」根據以下機率觸發效果：<br>▋95%：該「志村新八」<br>⇒ 攻擊力 2 倍<br>▋3%：回合結束時<br>⓵ 回復 15,000 點生命力<br>⓶ 將 3 粒水符石轉化為<br>⇒ 人族強化符石<br>▋2%：沒有事情發生<br><br>◆「志村新八」發動主動技能後<br>⇒ 解除「眼鏡」狀態",
+                "activate": "以「志村新八」作成員",
+                "skill_tag": ['增攻', '回血', '符石轉水強化', '人族符石製造', '符石強化'],
+                "activate_tag": [],
+                "relative": [10176]
+            },
+            {
+                "description": "◆ 暗符石兼具其他符石效果",
+                "activate": "以「坂田銀時」作隊長，以【萬事屋】成員作戰友，並以「志村新八」作成員",
+                "skill_tag": ['暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心'],
+                "activate_tag": ['指定隊長戰友', '指定成員'],
+                "relative": [10172, 10176, '萬事屋']
+            },
+            {
+                "description": "◆【萬事屋】成員<br>⓵「生命力、攻擊力及回復力」基值 1.6 倍<br>⓶ 進場 CD -4",
+                "activate": "以 ≥3 個【萬事屋】角色作成員",
+                "skill_tag": ['暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心', '增攻', '增回', '增血', '進場減CD'],
+                "activate_tag": ['指定成員'],
+                "relative": ['萬事屋']
             }
         ],
-        "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
-    {
+	{
         "id": 10177,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "伊麗莎白",
+        "attribute": "水",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂', '大江戶'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "神秘宇宙生物之襲",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
+                "num": 6,
+                "description": "2 回合內<br>I. 將移動符石時觸碰的首 10 粒符石轉化為<br>⇒ 隊長屬性符石<br>II. 若隊長為「桂小太郎」或【萬事屋】成員<br>⓵ 則額外轉化為人族強化符石<br>⓶ 則 I、II 效果持續 3 回合",
+                "tag": [['符石轉水', 3], ['符石轉火', 3], ['符石轉木', 3], ['符石轉光', 3], ['符石轉暗', 3], ['符石轉水強化', 3], ['符石轉火強化', 3], ['符石轉木強化', 3], ['符石轉光強化', 3], ['符石轉暗強化', 3], ['人族符石製造', 3]]
+            },
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
-    {
+	{
         "id": 10178,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "桂小太郎",
+        "attribute": "光",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂', '大江戶'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "桂之小炸彈",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
+                "num": 5,
+                "description": "I. 連續引爆最底 2 橫行符石 3 次<br>⇒ 掉落屬性人族符石<br>3 回合內<br>II. 每回合敵方所受傷害的 150% 再爆發 (不包括無屬性傷害)，此傷害無視屬性及防禦力",
+                "tag": ['引爆', '橫行引爆', '多次引爆', '強制掉落', '人族符石製造', ['直傷', 3], ['破防直傷', 3]]
+            },
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
-    {
+	{
         "id": 10179,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "高杉晉助",
+        "attribute": "暗",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂', '大江戶'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "腐朽滅絕",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
+                "num": 7,
+                "description": "I. 10 秒內，可任意移動符石<br>(此移動不會造成任何消除，並不會作 1 回合計算)<br>1 回合內<br>II. 暗符石兼具其他符石效果<br>III. 自身攻擊力 2 倍<br>IV. 個人以 40% 攻擊力追打 6 次<br>V. 自身無視「指定形狀盾」",
+                "tag": ['排珠', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心', '增傷', '界王拳', '暗屬追打', '無視拼圖盾']
+            },
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
     {
         "id": 10180,
@@ -95643,53 +95749,61 @@ const monster_data = [
         "maxRefine": 0,
         "version": ""
     },
-    {
+	{
         "id": 10182,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "沖田總悟",
+        "attribute": "光",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂', '真選組', '迎擊戰'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "壓倒性的戰鬥能力",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
+                "num": 8,
+                "description": "1 回合內<br>I. 自身攻擊力 12 倍<br>(攻擊力不可與其他成員共享)<br>II. 自身無視<br>⓵「指定形狀盾」<br>⓶「攻前盾」<br>III. 若有擊斃敵人<br>⇒ 自身技能 CD -2",
+                "tag": ['增傷', '界王拳', '無視拼圖盾', '無視攻前盾', '減CD']
+            },
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
-    {
+	{
         "id": 10183,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "近藤勳",
+        "attribute": "暗",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂', '真選組', '迎擊戰'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "剷除攘夷武士",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
+                "num": 8,
+                "description": "1 回合內<br>I. 所受傷害減至 4,000<br>(包括「喋血屠刀」等扣除召喚師指定 % 生命力的敵技所造成的傷害)<br>II. 人類成員<br>⓵ 傷害可克制敵人<br>⓶ 追打 1 次<br>III. 消除符石時<br>⇒ 所有成員無視「固定連擊盾」",
+                "tag": ['減傷', '屬性剋制改變', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打', '無視固定連擊盾']
+            },
         ],
-        "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "team_skill": [
+            {
+                "description": "◆【萬事屋】成員進場 CD -4<br><br>◆【真選組】成員 CD -3<br><br>◆【真選組】成員發動技能後<br>⇒ 該成員進入 2 回合亢奮狀態<br><br>◆ 消除角色符石<br>⇒ 該角色攻擊力 7 倍<br><br>◆ 同 1 回合發動主動技能 ≥2 次<br>⇒ 全隊攻擊力額外 7 倍",
+                "activate": "以「近藤勳」作隊長，並以【真選組】成員作戰友",
+                "skill_tag": ['進場減CD', '永久減CD', '增攻'],
+                "activate_tag": ['指定隊長戰友'],
+                "relative": [10183, '真選組', '萬事屋']
+            }
+		],
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
     {
         "id": 10184,
@@ -95907,38 +96021,38 @@ const monster_data = [
         "maxRefine": 0,
         "version": ""
     },
-    {
+	{
         "id": 10193,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "登勢大嬸",
+        "attribute": "暗",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "房租催促",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
+                "num": 8,
+                "description": "1 回合內<br>I.【銀魂】及人類成員<br>⇒ 攻擊力及回復力 1.6 倍<br>II. 前獲得的金幣數量愈多<br>⇒ 效果持續愈多回合<br>⇒ 當前獲得 24,000 金幣可持續最多 4 回合",
+                "tag": [['增傷', 4], ['增回', 4]]
+            },
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
-    {
+	{
         "id": 10194,
-        "name": "",
+        "name": "傑士塔威",
         "attribute": "",
         "race": "",
         "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "monsterTag": ['銀魂'],
+        "crossOver": true,
         "skill": [
             {
                 "name": "",
@@ -95947,13 +96061,13 @@ const monster_data = [
                 "num": 0,
                 "description": "",
                 "tag": []
-            }
+            },
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
     {
         "id": 10195,
@@ -96247,384 +96361,7 @@ const monster_data = [
 	
 	
 	
-    {
-        "id": '?-1',
-        "name": "坂田銀時",
-        "attribute": "水",
-        "race": "人類",
-        "star": 6,
-        "monsterTag": ['銀魂', '大江戶', '萬事屋'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "堅定不移的守護",
-                "type": "normal",
-                "charge": "CD",
-                "num": 8,
-                "description": "I. 點選其中 1 個圖像<br>⇒ 將所有符石轉化為該固定版面符石<br><br>▋<board 1>【水心強化】</board><br>▋<board 2>【水火強化】</board><br>▋<board 3>【五屬及心】</board><br><br>1 回合內<br>II. 自身攻擊力 4 倍<br>III. 自身無視<br>⓵ 敵人防禦力<br>⓶「連擊相等盾」",
-                "tag": ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '符石轉水強化', '符石轉火強化', '符石轉心強化', '五屬版面', '五屬心版面', '大幅轉版', '固定版面', '增傷', '界王拳', '破防', '無視連擊相等盾']
-            },
-        ],
-        "team_skill": [
-            {
-                "description": "◆ 必然延長移動符石時間 4 秒<br><br>◆ 水符石兼具其他符石效果<br><br>◆ 進場及每回合結束時，將【銀魂】成員直行最頂 1 粒及最底 1 粒符石<br>⇒ 轉化為水人族強化符石<br><br>◆ 移動的步數愈少<br>⇒ 全隊攻擊力提升愈多<br>⇒ 移動 ≤10 步可提升至最大 5 倍<br><br>◆ 移動的步數為 ≤5 時<br>⇒【萬事屋】成員<br>⓵ 攻擊力額外 4 倍<br>⓶ 無視「固定連擊盾」<br><br>◆ 移動 >5 步<br>⓵ 減少 50% 所受傷害<br>⓶【銀魂】成員技能 CD -1<br><br>＊不作 1 回合計算的「任意移動符石」效果不計算移動步數",
-                "activate": "以「坂田銀時」作隊長，並以【萬事屋】成員作戰友",
-                "skill_tag": ['延長轉珠時間', '水兼具其他', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心', '符石轉水', '符石轉水強化', '人族符石製造', '增攻', '無視固定連擊盾', '減傷', '其他減CD'],
-                "activate_tag": ['指定隊長戰友'],
-                "relative": ['?-1', '萬事屋']
-            },
-            {
-                "description": "◆ 火符石兼具其他符石效果",
-                "activate": "以「坂田銀時」作隊長，以【萬事屋】成員作戰友，並以「神樂」作成員",
-                "skill_tag": ['火兼具其他', '符石兼具水', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心'],
-                "activate_tag": ['指定隊長戰友', '指定成員'],
-                "relative": ['?-1', '?-2', '萬事屋']
-            },
-            {
-                "description": "◆ 暗符石兼具其他符石效果",
-                "activate": "以「坂田銀時」作隊長，以【萬事屋】成員作戰友，並以「志村新八」作成員",
-                "skill_tag": ['暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心'],
-                "activate_tag": ['指定隊長戰友', '指定成員'],
-                "relative": ['?-1', '?-5', '萬事屋']
-            },
-            {
-                "description": "◆【萬事屋】成員<br>⓵「生命力、攻擊力及回復力」基值 1.6 倍<br>⓶ 進場 CD -4",
-                "activate": "以 ≥3 個【萬事屋】角色作成員",
-                "skill_tag": ['暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心', '增攻', '增回', '增血', '進場減CD'],
-                "activate_tag": ['指定成員'],
-                "relative": ['萬事屋']
-            }
-        ],
-		"board": [
-			[],
-			[],
-			[
-				'w', 'f', 'e', 'l', 'd', 'w', 
-				'w', 'f', 'e', 'l', 'd', 'w', 
-				'w', 'f', 'e', 'l', 'd', 'w', 
-				'w', 'f', 'e', 'l', 'd', 'w', 
-				'h', 'h', 'h', 'h', 'h', 'h', 
-			]
-		],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-2',
-        "name": "神樂",
-        "attribute": "火",
-        "race": "人類",
-        "star": 6,
-        "monsterTag": ['銀魂', '大江戶', '萬事屋'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "致命的力量",
-                "type": "normal",
-                "charge": "CD",
-                "num": 6,
-                "description": "I. 將場上的符石<br>⇒ 變回原始模樣<br>1 回合內<br>II. 自身攻擊力 5 倍<br>III. 回合結束時，自身進入 1 回合疲憊狀態<br>IV. 觸碰「暴風」或「連環光牢」射擊位置時<br>⇒ 仍可移動符石<br>V. 無視「黏腐」",
-                "tag": ['還原版面', '增傷', '界王拳', '疲憊狀態', '我方減攻', '無視暴風', '無視射擊', '無視黏腐']
-            },
-        ],
-        "team_skill": [
-            {
-                "description": "◆ 必然延長移動符石時間 1 秒<br><br>◆ 火屬性以外的【銀魂】成員<br>⇒ 轉換為火屬性<br><br>◆ 其他符石兼具 25% 火符石效果<br><br>◆ 火符石兼具 50% 心符石效果<br><br>◆ 消除符石後隊長及戰友直行首批掉落<br>⇒ 火人族強化符石<br><br>◆ 消除符石後「神樂」以外的【萬事屋】隊員直行首批掉落<br>⇒ 該成員原屬性種族的符石<br><br>◆ 每消除 5 粒火符石<br>⇒「神樂」以 150% 攻擊力追打 1 次，最多 5 次<br><br>◆ 發動角色符石時<br>⇒ 減少 20% 所受傷害",
-                "activate": "以「神樂」作隊長，並以【萬事屋】成員作戰友",
-                "skill_tag": ['延長轉珠時間', '水兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具火', '火兼具其他', '符石兼具心', '強制掉落', '人族符石製造', '獸族符石製造', '火屬追打', '減傷'],
-                "activate_tag": ['指定隊長戰友'],
-                "relative": ['?-2', '萬事屋']
-            },
-            {
-                "description": "◆「神樂」、「志村妙」、「柳生九兵衛」、「猿飛菖蒲」、「月詠」<br>⓵ 進場 CD -7<br>⓶ 每次發動主動技能後<br>⇒ 該成員以外的「神樂」、「志村妙」、「柳生九兵衛」、「猿飛菖蒲」、「月詠」當前 CD -1",
-                "activate": "以「神樂」、「志村妙」、「柳生九兵衛」、「猿飛菖蒲」或「月詠」作隊長",
-                "skill_tag": ['進場減CD', '其他減CD'],
-                "activate_tag": ['指定隊長'],
-                "relative": ['?-2', '?-12', '?-13', '?-14', '?-15']
-            },
-            {
-                "description": "◆ 火符石兼具其他符石效果",
-                "activate": "以「坂田銀時」作隊長，以【萬事屋】成員作戰友，並以「神樂」作成員",
-                "skill_tag": ['火兼具其他', '符石兼具水', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心'],
-                "activate_tag": ['指定隊長戰友', '指定成員'],
-                "relative": ['?-1', '?-2', '萬事屋']
-            },
-            {
-                "description": "◆【萬事屋】成員<br>⓵「生命力、攻擊力及回復力」基值 1.6 倍<br>⓶ 進場 CD -4",
-                "activate": "以 ≥3 個【萬事屋】角色作成員",
-                "skill_tag": ['暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心', '增攻', '增回', '增血', '進場減CD'],
-                "activate_tag": ['指定成員'],
-                "relative": ['萬事屋']
-            }
-        ],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-3',
-        "name": "坂本辰馬",
-        "attribute": "木",
-        "race": "人類",
-        "star": 6,
-        "monsterTag": ['銀魂', '大江戶'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "和平共存的冀願",
-                "type": "normal",
-                "charge": "CD",
-                "num": 6,
-                "description": "I. 消耗現有 60% 生命力<br>II. 對敵方全體造成自身攻擊力基值 6000 倍的木屬性傷害<br>1 回合內<br>III. 隊長攻擊力 4 倍<br>IV. 連擊 (Combo) 時攻擊力提升 50%",
-                "tag": ['我方扣血', '直傷', '增傷', '界王拳']
-            },
-        ],
-        "team_skill": [],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-4',
-        "name": "定春",
-        "attribute": "光",
-        "race": "獸類",
-        "star": 6,
-        "monsterTag": ['銀魂', '大江戶', '萬事屋'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "嗚～",
-                "type": "normal",
-                "charge": "CD",
-                "num": 6,
-                "description": "1 回合內<br>I. 隊中只有獸類成員時<br>⓵ 全隊攻擊力 2 倍<br>⓶ 全隊無視「指定形狀盾」<br>II. 反之，符石首批 2 粒相連<br>⇒ 即可發動消除<br>III. 隊中有「神樂」<br>⇒ 同時獲得 I、II 效果",
-                "tag": ['增傷', '無視拼圖盾', '改變消除方式']
-            },
-        ],
-        "team_skill": [
-            {
-                "description": "◆【萬事屋】成員<br>⓵「生命力、攻擊力及回復力」基值 1.6 倍<br>⓶ 進場 CD -4",
-                "activate": "以 ≥3 個【萬事屋】角色作成員",
-                "skill_tag": ['暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心', '增攻', '增回', '增血', '進場減CD'],
-                "activate_tag": ['指定成員'],
-                "relative": ['萬事屋']
-            }
-		],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-5',
-        "name": "志村新八",
-        "attribute": "暗",
-        "race": "人類",
-        "star": 6,
-        "monsterTag": ['銀魂', '大江戶', '萬事屋'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "堅守武士精神",
-                "type": "normal",
-                "charge": "CD",
-                "num": 6,
-                "description": "I. 若隊長為【銀魂】成員<br>⇒ 還原所有「碎裂」的位置<br>II. 點選 2 直行<br>⇒ 引爆該直行符石<br>⇒ 掉落該直行成員的屬性種族強化符石<br>1 回合內<br>III. 增加 8 連擊 (Combo)<br>IV.【萬事屋】成員<br>⇒ 以 80% 攻擊力追打 8 次<br>V. 若發動技能時我方生命力為 ≤80%<br>⇒ 回合結束時，自身技能 CD -3",
-                "tag": ['碎裂還原', '引爆', '直行引爆', '強制掉落', '人族符石製造', '獸族符石製造', '妖族符石製造', '龍族符石製造', '神族符石製造', '魔族符石製造', '機械族符石製造', '增加Combo', '水屬追打', '火屬追打', '光屬追打', '暗屬追打', '減CD']
-            },
-        ],
-        "team_skill": [
-            {
-                "description": "◆ 必然延長移動符石時間 2 秒<br><br>◆ 暗符石兼具其他符石效果<br><br>◆ 隊伍成員屬性符石及心符石兼具暗符石效果<br><br>◆ 消除 ≥3 組符石<br>⇒【萬事屋】及人類成員<br>⓵ 攻擊力 4 倍<br>⓶ 無視「固定連擊盾」<br><br>◆ 隊中有「志村妙」<br>⓵「志村妙」攻擊力基值 2 倍<br>⓶ 所受中毒傷害<br>⇒ 轉化為我方生命力<br><br>◆ 發動「志村新八」角色符石時<br>⇒ 該「志村新八」進入「眼鏡」狀態",
-                "activate": "以「志村新八」作隊長及戰友",
-                "skill_tag": ['延長轉珠時間', '暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '符石兼具暗', '增攻', '無視固定連擊盾', '防毒', '回血'],
-                "activate_tag": ['指定雙隊長'],
-                "relative": ['?-5', '?-12']
-            },
-            {
-                "description": "◆ 每進入下一層數 (Wave) 時<br>⇒「志村新八」有一定機率進入「眼鏡」狀態<br><br>◆ 每回合每個「眼鏡」狀態的「志村新八」根據以下機率觸發效果：<br>▋95%：該「志村新八」<br>⇒ 攻擊力 2 倍<br>▋3%：回合結束時<br>⓵ 回復 15,000 點生命力<br>⓶ 將 3 粒水符石轉化為<br>⇒ 人族強化符石<br>▋2%：沒有事情發生<br><br>◆「志村新八」發動主動技能後<br>⇒ 解除「眼鏡」狀態",
-                "activate": "以「志村新八」作成員",
-                "skill_tag": ['增攻', '回血', '符石轉水強化', '人族符石製造', '符石強化'],
-                "activate_tag": [],
-                "relative": ['?-5']
-            },
-            {
-                "description": "◆ 暗符石兼具其他符石效果",
-                "activate": "以「坂田銀時」作隊長，以【萬事屋】成員作戰友，並以「志村新八」作成員",
-                "skill_tag": ['暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心'],
-                "activate_tag": ['指定隊長戰友', '指定成員'],
-                "relative": ['?-1', '?-5', '萬事屋']
-            },
-            {
-                "description": "◆【萬事屋】成員<br>⓵「生命力、攻擊力及回復力」基值 1.6 倍<br>⓶ 進場 CD -4",
-                "activate": "以 ≥3 個【萬事屋】角色作成員",
-                "skill_tag": ['暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心', '增攻', '增回', '增血', '進場減CD'],
-                "activate_tag": ['指定成員'],
-                "relative": ['萬事屋']
-            }
-        ],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-6',
-        "name": "伊麗莎白",
-        "attribute": "水",
-        "race": "人類",
-        "star": 6,
-        "monsterTag": ['銀魂', '大江戶'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "神秘宇宙生物之襲",
-                "type": "normal",
-                "charge": "CD",
-                "num": 6,
-                "description": "2 回合內<br>I. 將移動符石時觸碰的首 10 粒符石轉化為<br>⇒ 隊長屬性符石<br>II. 若隊長為「桂小太郎」或【萬事屋】成員<br>⓵ 則額外轉化為人族強化符石<br>⓶ 則 I、II 效果持續 3 回合",
-                "tag": [['符石轉水', 3], ['符石轉火', 3], ['符石轉木', 3], ['符石轉光', 3], ['符石轉暗', 3], ['符石轉水強化', 3], ['符石轉火強化', 3], ['符石轉木強化', 3], ['符石轉光強化', 3], ['符石轉暗強化', 3], ['人族符石製造', 3]]
-            },
-        ],
-        "team_skill": [],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-7',
-        "name": "桂小太郎",
-        "attribute": "光",
-        "race": "人類",
-        "star": 6,
-        "monsterTag": ['銀魂', '大江戶'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "桂之小炸彈",
-                "type": "normal",
-                "charge": "CD",
-                "num": 5,
-                "description": "I. 連續引爆最底 2 橫行符石 3 次<br>⇒ 掉落屬性人族符石<br>3 回合內<br>II. 每回合敵方所受傷害的 150% 再爆發 (不包括無屬性傷害)，此傷害無視屬性及防禦力",
-                "tag": ['引爆', '橫行引爆', '多次引爆', '強制掉落', '人族符石製造', ['直傷', 3], ['破防直傷', 3]]
-            },
-        ],
-        "team_skill": [],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-8',
-        "name": "高杉晉助",
-        "attribute": "暗",
-        "race": "人類",
-        "star": 6,
-        "monsterTag": ['銀魂', '大江戶'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "腐朽滅絕",
-                "type": "normal",
-                "charge": "CD",
-                "num": 7,
-                "description": "I. 10 秒內，可任意移動符石<br>(此移動不會造成任何消除，並不會作 1 回合計算)<br>1 回合內<br>II. 暗符石兼具其他符石效果<br>III. 自身攻擊力 2 倍<br>IV. 個人以 40% 攻擊力追打 6 次<br>V. 自身無視「指定形狀盾」",
-                "tag": ['排珠', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心', '增傷', '界王拳', '暗屬追打', '無視拼圖盾']
-            },
-        ],
-        "team_skill": [],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-9',
-        "name": "近藤勳",
-        "attribute": "暗",
-        "race": "人類",
-        "star": 6,
-        "monsterTag": ['銀魂', '真選組', '迎擊戰'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "剷除攘夷武士",
-                "type": "normal",
-                "charge": "CD",
-                "num": 8,
-                "description": "1 回合內<br>I. 所受傷害減至 4,000<br>(包括「喋血屠刀」等扣除召喚師指定 % 生命力的敵技所造成的傷害)<br>II. 人類成員<br>⓵ 傷害可克制敵人<br>⓶ 追打 1 次<br>III. 消除符石時<br>⇒ 所有成員無視「固定連擊盾」",
-                "tag": ['減傷', '屬性剋制改變', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打', '無視固定連擊盾']
-            },
-        ],
-        "team_skill": [
-            {
-                "description": "◆【萬事屋】成員進場 CD -4<br><br>◆【真選組】成員 CD -3<br><br>◆【真選組】成員發動技能後<br>⇒ 該成員進入 2 回合亢奮狀態<br><br>◆ 消除角色符石<br>⇒ 該角色攻擊力 7 倍<br><br>◆ 同 1 回合發動主動技能 ≥2 次<br>⇒ 全隊攻擊力額外 7 倍",
-                "activate": "以「近藤勳」作隊長，並以【真選組】成員作戰友",
-                "skill_tag": ['進場減CD', '永久減CD', '增攻'],
-                "activate_tag": ['指定隊長戰友'],
-                "relative": ['?-9', '真選組', '萬事屋']
-            }
-		],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-10',
-        "name": "沖田總悟",
-        "attribute": "光",
-        "race": "人類",
-        "star": 6,
-        "monsterTag": ['銀魂', '真選組', '迎擊戰'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "壓倒性的戰鬥能力",
-                "type": "normal",
-                "charge": "CD",
-                "num": 8,
-                "description": "1 回合內<br>I. 自身攻擊力 12 倍<br>(攻擊力不可與其他成員共享)<br>II. 自身無視<br>⓵「指定形狀盾」<br>⓶「攻前盾」<br>III. 若有擊斃敵人<br>⇒ 自身技能 CD -2",
-                "tag": ['增傷', '界王拳', '無視拼圖盾', '無視攻前盾', '減CD']
-            },
-        ],
-        "team_skill": [],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-11',
-        "name": "登勢大嬸",
-        "attribute": "暗",
-        "race": "人類",
-        "star": 6,
-        "monsterTag": ['銀魂'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "房租催促",
-                "type": "normal",
-                "charge": "CD",
-                "num": 8,
-                "description": "1 回合內<br>I.【銀魂】及人類成員<br>⇒ 攻擊力及回復力 1.6 倍<br>II. 前獲得的金幣數量愈多<br>⇒ 效果持續愈多回合<br>⇒ 當前獲得 24,000 金幣可持續最多 4 回合",
-                "tag": [['增傷', 4], ['增回', 4]]
-            },
-        ],
-        "team_skill": [],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
+    
 	{
         "id": '?-12',
         "name": "志村妙",
@@ -96796,30 +96533,6 @@ const monster_data = [
 	{
         "id": '?-19',
         "name": "山崎退",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": ['銀魂'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            },
-        ],
-        "team_skill": [],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-20',
-        "name": "傑士塔威",
         "attribute": "",
         "race": "",
         "star": 0,
