@@ -1,4 +1,4 @@
-// Last modified : 2022.02.27 02:19
+// Last modified : 2022.02.28 15:30
 
 const monster_data = [
 	{
@@ -85580,6 +85580,31 @@ const monster_data = [
         "version": "v2021.304"
     },
     {
+        "id": 2751,
+        "name": "成神少女 ‧ 伊登",
+        "attribute": "暗",
+        "race": "",
+        "star": 0,
+        "monsterTag": [],
+        "crossOver": false,
+        "specialImage": true,
+        "skill": [
+            {
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
+            }
+        ],
+        "team_skill": [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ""
+    },
+    {
         "id": 2752,
         "name": "霸權傾軋 ‧ 秦始皇",
         "attribute": "暗",
@@ -95236,6 +95261,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ['堅毅氣魄'],
         "crossOver": false,
+        "specialImage": true,
         "skill": [
             {
                 "name": "伊影玲瓏",
@@ -95510,7 +95536,7 @@ const monster_data = [
                 "activate": "以「神樂」、「志村妙」、「柳生九兵衛」、「猿飛菖蒲」或「月詠」作隊長",
                 "skill_tag": ['進場減CD', '其他減CD'],
                 "activate_tag": ['指定隊長'],
-                "relative": [10173, '?-12', '?-13', '?-14', '?-15']
+                "relative": [10173, 10188, 10189, 10190, 10191]
             },
             {
                 "description": "◆ 火符石兼具其他符石效果",
@@ -95596,6 +95622,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ['銀魂', '大江戶', '萬事屋'],
         "crossOver": true,
+        "specialImage": true,
         "skill": [
             {
                 "name": "堅守武士精神",
@@ -95612,7 +95639,7 @@ const monster_data = [
                 "activate": "以「志村新八」作隊長及戰友",
                 "skill_tag": ['延長轉珠時間', '暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '符石兼具暗', '增攻', '無視固定連擊盾', '防毒', '回血'],
                 "activate_tag": ['指定雙隊長'],
-                "relative": [10176, '?-12']
+                "relative": [10176, 10188]
             },
             {
                 "description": "◆ 每進入下一層數 (Wave) 時<br>⇒「志村新八」有一定機率進入「眼鏡」狀態<br><br>◆ 每回合每個「眼鏡」狀態的「志村新八」根據以下機率觸發效果：<br>▋95%：該「志村新八」<br>⇒ 攻擊力 2 倍<br>▋3%：回合結束時<br>⓵ 回復 15,000 點生命力<br>⓶ 將 3 粒水符石轉化為<br>⇒ 人族強化符石<br>▋2%：沒有事情發生<br><br>◆「志村新八」發動主動技能後<br>⇒ 解除「眼鏡」狀態",
@@ -95769,6 +95796,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ['銀魂', '真選組', '迎擊戰'],
         "crossOver": true,
+        "specialImage": true,
         "skill": [
             {
                 "name": "壓倒性的戰鬥能力",
@@ -95793,6 +95821,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ['銀魂', '真選組', '迎擊戰'],
         "crossOver": true,
+        "specialImage": true,
         "skill": [
             {
                 "name": "剷除攘夷武士",
@@ -95915,12 +95944,12 @@ const monster_data = [
     },
     {
         "id": 10188,
-        "name": "",
+        "name": "志村妙",
         "attribute": "",
         "race": "",
         "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "monsterTag": ['銀魂'],
+        "crossOver": true,
         "skill": [
             {
                 "name": "",
@@ -95929,22 +95958,22 @@ const monster_data = [
                 "num": 0,
                 "description": "",
                 "tag": []
-            }
+            },
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
-    {
+	{
         "id": 10189,
-        "name": "",
+        "name": "柳生九兵衛",
         "attribute": "",
         "race": "",
         "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "monsterTag": ['銀魂'],
+        "crossOver": true,
         "skill": [
             {
                 "name": "",
@@ -95953,22 +95982,22 @@ const monster_data = [
                 "num": 0,
                 "description": "",
                 "tag": []
-            }
+            },
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
-    {
+	{
         "id": 10190,
-        "name": "",
+        "name": "猿飛菖蒲",
         "attribute": "",
         "race": "",
         "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "monsterTag": ['銀魂'],
+        "crossOver": true,
         "skill": [
             {
                 "name": "",
@@ -95977,22 +96006,22 @@ const monster_data = [
                 "num": 0,
                 "description": "",
                 "tag": []
-            }
+            },
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
-    {
+	{
         "id": 10191,
-        "name": "",
+        "name": "月詠",
         "attribute": "",
         "race": "",
         "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "monsterTag": ['銀魂'],
+        "crossOver": true,
         "skill": [
             {
                 "name": "",
@@ -96001,13 +96030,13 @@ const monster_data = [
                 "num": 0,
                 "description": "",
                 "tag": []
-            }
+            },
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
     {
         "id": 10192,
@@ -96374,102 +96403,7 @@ const monster_data = [
 	
 	
     
-	{
-        "id": '?-12',
-        "name": "志村妙",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": ['銀魂'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            },
-        ],
-        "team_skill": [],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-13',
-        "name": "柳生九兵衛",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": ['銀魂'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            },
-        ],
-        "team_skill": [],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-14',
-        "name": "猿飛菖蒲",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": ['銀魂'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            },
-        ],
-        "team_skill": [],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-15',
-        "name": "月詠",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": ['銀魂'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            },
-        ],
-        "team_skill": [],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
+	
 	{
         "id": '?-16',
         "name": "神威",
@@ -96545,6 +96479,30 @@ const monster_data = [
 	{
         "id": '?-19',
         "name": "山崎退",
+        "attribute": "",
+        "race": "",
+        "star": 0,
+        "monsterTag": ['銀魂'],
+        "crossOver": true,
+        "skill": [
+            {
+                "name": "",
+                "type": "normal",
+                "charge": "CD",
+                "num": 0,
+                "description": "",
+                "tag": []
+            },
+        ],
+        "team_skill": [],
+        "maxLevel": 99,
+        "maxSkill": 12,
+        "maxRefine": 0,
+        "version": "v2022.20"
+    },
+	{
+        "id": '?-20',
+        "name": "玉子",
         "attribute": "",
         "race": "",
         "star": 0,
