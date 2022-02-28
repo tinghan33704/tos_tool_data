@@ -1,4 +1,4 @@
-// Last modified : 2022.02.28 15:30
+// Last modified : 2022.02.28 22:35
 
 const monster_data = [
 	{
@@ -95945,8 +95945,8 @@ const monster_data = [
     {
         "id": 10188,
         "name": "志村妙",
-        "attribute": "",
-        "race": "",
+        "attribute": "火",
+        "race": "人類",
         "star": 0,
         "monsterTag": ['銀魂'],
         "crossOver": true,
@@ -95969,8 +95969,8 @@ const monster_data = [
 	{
         "id": 10189,
         "name": "柳生九兵衛",
-        "attribute": "",
-        "race": "",
+        "attribute": "木",
+        "race": "人類",
         "star": 0,
         "monsterTag": ['銀魂'],
         "crossOver": true,
@@ -95993,8 +95993,8 @@ const monster_data = [
 	{
         "id": 10190,
         "name": "猿飛菖蒲",
-        "attribute": "",
-        "race": "",
+        "attribute": "暗",
+        "race": "人類",
         "star": 0,
         "monsterTag": ['銀魂'],
         "crossOver": true,
@@ -96017,8 +96017,8 @@ const monster_data = [
 	{
         "id": 10191,
         "name": "月詠",
-        "attribute": "",
-        "race": "",
+        "attribute": "火",
+        "race": "人類",
         "star": 0,
         "monsterTag": ['銀魂'],
         "crossOver": true,
@@ -96089,24 +96089,24 @@ const monster_data = [
 	{
         "id": 10194,
         "name": "傑士塔威",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": ['銀魂'],
+        "attribute": "光",
+        "race": "強化素材",
+        "star": 3,
+        "monsterTag": ['銀魂', '素材'],
         "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "沒有技能",
                 "type": "normal",
                 "charge": "CD",
                 "num": 0,
-                "description": "",
+                "description": "沒有技能",
                 "tag": []
             },
         ],
         "team_skill": [],
-        "maxLevel": 99,
-        "maxSkill": 12,
+        "maxLevel": 1,
+        "maxSkill": 0,
         "maxRefine": 0,
         "version": "v2022.20"
     },
