@@ -1,4 +1,4 @@
-// Last modified : 2022.02.28 16:46
+// Last modified : 2022.03.01 12:07
 
 const armed_craft_data = [
     {
@@ -14693,13 +14693,13 @@ const armed_craft_data = [
         'id': 7098,
         'name': '【7098】 花鳥藤籃龍印',
         'mode': '轉動龍印',
-        'attribute': '',
-        'race': '',
+        'attribute': '暗',
+        'race': '人類',
         'star': 3,
-        'charge': '',
-        'add_hp': 0,
-        'add_atk': 0,
-        'add_rec': 0,
+        'charge': '消除符石',
+        'add_hp': 5,
+        'add_atk': 5,
+        'add_rec': 5,
         'skill_description': [],
         'skill_tag': [],
         'armed_description': [],
