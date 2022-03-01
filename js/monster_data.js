@@ -1,4 +1,4 @@
-// Last modified : 2022.02.28 22:35
+// Last modified : 2022.02.28 19:38
 
 const monster_data = [
 	{
@@ -96068,7 +96068,7 @@ const monster_data = [
         "attribute": "暗",
         "race": "人類",
         "star": 6,
-        "monsterTag": ['銀魂'],
+        "monsterTag": ['銀魂', '登勢居酒屋'],
         "crossOver": true,
         "skill": [
             {
