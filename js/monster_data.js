@@ -1,4 +1,4 @@
-// Last modified : 2022.02.28 19:38
+// Last modified : 2022.03.03 00:45
 
 const monster_data = [
 	{
@@ -85583,26 +85583,26 @@ const monster_data = [
         "id": 2751,
         "name": "成神少女 ‧ 伊登",
         "attribute": "暗",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['珍念時光'],
         "crossOver": false,
         "specialImage": true,
         "skill": [
             {
-                "name": "",
+                "name": "幽魂契",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 7,
+                "description": "I. 增加 3 連擊 (Combo)<br>II. 自身及身旁的暗屬性成員<br>⇒ 攻擊力 2 倍<br>III. 首批消除 ≥6 粒暗符石<br>⇒ 自身及身旁成員無視「二屬盾」及「三屬盾」<br><br>效果持續至首批沒有消除 ≥6 粒暗或心符石",
+                "tag": [['增加Combo', -1], ['增傷', -1], ['界王拳', -1], ['無視二屬盾', -1], ['無視三屬盾', -1]]
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
     {
         "id": 2752,
@@ -95502,7 +95502,7 @@ const monster_data = [
 		],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0,
+        "maxRefine": 4,
         "version": "v2022.20"
     },
 	{
@@ -95555,7 +95555,7 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0,
+        "maxRefine": 4,
         "version": "v2022.20"
     },
 	{
@@ -95579,7 +95579,7 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0,
+        "maxRefine": 4,
         "version": "v2022.20"
     },
 	{
@@ -95611,7 +95611,7 @@ const monster_data = [
 		],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0,
+        "maxRefine": 4,
         "version": "v2022.20"
     },
 	{
@@ -95665,7 +95665,7 @@ const monster_data = [
         ],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0,
+        "maxRefine": 4,
         "version": "v2022.20"
     },
 	{
@@ -95689,7 +95689,7 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0,
+        "maxRefine": 4,
         "version": "v2022.20"
     },
 	{
@@ -95713,7 +95713,7 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0,
+        "maxRefine": 4,
         "version": "v2022.20"
     },
 	{
@@ -95737,7 +95737,7 @@ const monster_data = [
         "team_skill": [],
         "maxLevel": 99,
         "maxSkill": 12,
-        "maxRefine": 0,
+        "maxRefine": 4,
         "version": "v2022.20"
     },
     {
