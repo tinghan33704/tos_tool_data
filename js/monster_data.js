@@ -1,4 +1,4 @@
-// Last modified : 2022.03.03 00:45
+// Last modified : 2022.03.03 21:42
 
 const monster_data = [
 	{
@@ -36134,7 +36134,7 @@ const monster_data = [
                 "charge": "CD",
                 "num": 8,
                 "description": "1 回合內，全隊攻擊力 2 倍。回合結束時將場上的符石變回發動技能時的分佈",
-                "tag": ["增傷", "大幅轉版"]
+                "tag": ['記錄版面', '增傷', '大幅轉版']
             }
         ],
         "team_skill": [],
@@ -53587,7 +53587,7 @@ const monster_data = [
                 "num": 8,
                 "transform": 1789,
                 "description": "變身；回合結束時將場上的符石變回發動技能時的火及心符石分佈",
-                "tag": ["變身"]
+                "tag": ["變身", '記錄版面']
             }
         ],
         "team_skill": [
@@ -60699,7 +60699,7 @@ const monster_data = [
                 "charge": "CD",
                 "num": 8,
                 "description": "於下回合開始時將場上的符石變回發動技能時的分佈 (包括強化符石、種族符石)，效果持續 2 回合",
-                "tag": [["大幅轉版", 2]]
+                "tag": [['記錄版面', 2], ['大幅轉版', 2]]
             }
         ],
         "team_skill": [],
@@ -60956,7 +60956,7 @@ const monster_data = [
                 "charge": "CD",
                 "num": 7,
                 "description": "發動技能時記錄火符石的分佈；此技能可隨時關閉，關閉時，引爆所記錄位置的符石造成敵方全體無屬性傷害",
-                "tag": ["引爆", "直傷", "隨時關閉"]
+                "tag": ['記錄版面', "隨時關閉", "引爆", "直傷"]
             }
         ],
         "team_skill": [],
@@ -64050,7 +64050,7 @@ const monster_data = [
                 "charge": "CD",
                 "num": 8,
                 "description": "I. 將所有符石轉化為人族強化符石<br>II. 1 回合內，記錄「移動符石時間完結一刻」場上的符石分佈 (包括強化符石、種族符石)，並首批掉落所記錄的符石",
-                "tag": ["符石強化", "強制掉落", "人族符石製造"]
+                "tag": ["符石強化", '記錄版面', "強制掉落", "人族符石製造"]
             }
         ],
         "team_skill": [
@@ -76118,7 +76118,7 @@ const monster_data = [
                 "charge": "CD",
                 "num": 8,
                 "description": "I. 將所有符石添加為機械族符石<br>1 回合內<br>II. 記錄「移動符石時間完結一刻」場上的符石分佈<br>(包括強化符石、種族符石)<br>⇒ 首批掉落所記錄的符石",
-                "tag": ["機械族符石製造", "強制掉落"]
+                "tag": ["機械族符石製造", '記錄版面', "強制掉落"]
             }
         ],
         "team_skill": [],
@@ -77513,7 +77513,7 @@ const monster_data = [
                 "charge": "CD",
                 "num": 8,
                 "description": "隊伍中其中 1 個「碇真嗣與EVA覺醒初號機」當前 EP ≥8 才能發動此技能：<br>I. 發動技能時<br>⓵ 隊中 EP 最低的「碇真嗣與EVA覺醒初號機」<br>⇒ EP 減至 0<br>⓶ 所有「綾波零與EVA零號機」<br>⇒ 技能重置<br>II. 敵方全體<br>⓵ 攻擊力減少 50%<br>⓶ 防禦力減至 0<br>III. 引爆所有符石、凍結符石、石化符石<br>⇒ 分別掉落橫行五屬強化符石<br>1 回合內<br>IV.「碇真嗣與EVA覺醒初號機」以外成員不能發動攻擊<br>V. 所有屬性符石兼具<br>⇒ 200% 其他屬性符石效果<br>VI. 記錄「移動符石時間完結一刻」<br>場上的符石分佈<br>(包括強化符石、種族符石)<br>⇒ 首批掉落所記錄的符石<br>VII.「碇真嗣與EVA覺醒初號機」的攻擊無視敵人防禦力及「指定形狀盾」敵技",
-                "tag": ["敵方減攻", "破防", "引爆", "整版引爆", "凍結符石處理", "石化符石處理", "五屬版面", "強制掉落", "限制成員攻擊", "符石兼具水", "符石兼具火", "符石兼具木", "符石兼具光", "符石兼具暗", "無視拼圖盾"]
+                "tag": ["敵方減攻", "破防", "引爆", "整版引爆", "凍結符石處理", "石化符石處理", "五屬版面", "強制掉落", "限制成員攻擊", "符石兼具水", "符石兼具火", "符石兼具木", "符石兼具光", "符石兼具暗", '記錄版面', "無視拼圖盾"]
             }
         ],
         "team_skill": [
@@ -84405,7 +84405,7 @@ const monster_data = [
                 "charge": "CD",
                 "num": 7,
                 "description": "I. 20 秒內，可任意移動符石<br>(此移動不會造成任何消除，並不會作 1 回合計算)<br>2 回合內<br>II.「假面騎士Zi-O」及「假面騎士逢魔Zi-O」<br>⇒ 無視敵人防禦力<br>III. 記錄「移動符石時間完結一刻」場上的符石分佈 (包括強化符石、種族符石)<br>⇒ 回合結束時，將場上的符石變回已記錄的符石分佈",
-                "tag": ["排珠", "破防"]
+                "tag": ["排珠", "破防", '記錄版面', '大幅轉版']
             }
         ],
         "team_skill": [
@@ -94247,7 +94247,7 @@ const monster_data = [
                 "charge": "CD",
                 "num": 8,
                 "description": "I. 將場上的符石變回原始模樣<br>II.「All For One」以外【敵聯合】成員技能 CD -2<br>2 回合內<br>III. 全隊攻擊力基值減至 0<br>IV. 將被減去攻擊力基值的 2 倍<br>⇒ 加入自身攻擊力基值<br>V. 回合結束時，將場上的符石變回「移動符石時間完結一刻」的符石分佈<br>(包括強化符石、種族符石)",
-                "tag": ["還原版面", "減CD", ["我方減攻", 2], ["我方攻擊力吸收", 2], ["增傷", 2], ["界王拳", 2]]
+                "tag": ["還原版面", "減CD", ["我方減攻", 2], ["我方攻擊力吸收", 2], ["增傷", 2], ["界王拳", 2], ['記錄版面', 2], ['大幅轉版', 2]]
             }
         ],
         "team_skill": [
@@ -95576,7 +95576,15 @@ const monster_data = [
                 "tag": ['我方扣血', '直傷', '增傷', '界王拳']
             },
         ],
-        "team_skill": [],
+        "team_skill": [
+            {
+                "description": "◆『「白夜叉 (坂田銀時)」、「桂小太郎」、「高杉晉助」、「坂本辰馬」』<br>⓵「生命力、攻擊力及回復力」基值 1.5 倍<br>⓶ 進場 CD -4",
+                "activate": "以「白夜叉 (坂田銀時)」、「桂小太郎」、「高杉晉助」及「坂本辰馬」作成員",
+                "skill_tag": ['增攻', '增回', '增血', '進場減CD'],
+                "activate_tag": ['指定成員'],
+                "relative": [10184, 10178, 10179, 10174]
+            }
+		],
         "maxLevel": 99,
         "maxSkill": 12,
         "maxRefine": 4,
@@ -95710,7 +95718,15 @@ const monster_data = [
                 "tag": ['引爆', '橫行引爆', '多次引爆', '強制掉落', '人族符石製造', ['直傷', 3], ['破防直傷', 3]]
             },
         ],
-        "team_skill": [],
+        "team_skill": [
+            {
+                "description": "◆『「白夜叉 (坂田銀時)」、「桂小太郎」、「高杉晉助」、「坂本辰馬」』<br>⓵「生命力、攻擊力及回復力」基值 1.5 倍<br>⓶ 進場 CD -4",
+                "activate": "以「白夜叉 (坂田銀時)」、「桂小太郎」、「高杉晉助」及「坂本辰馬」作成員",
+                "skill_tag": ['增攻', '增回', '增血', '進場減CD'],
+                "activate_tag": ['指定成員'],
+                "relative": [10184, 10178, 10179, 10174]
+            }
+		],
         "maxLevel": 99,
         "maxSkill": 12,
         "maxRefine": 4,
@@ -95734,7 +95750,15 @@ const monster_data = [
                 "tag": ['排珠', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具心', '增傷', '界王拳', '暗屬追打', '自身追打', '無視拼圖盾']
             },
         ],
-        "team_skill": [],
+        "team_skill": [
+            {
+                "description": "◆『「白夜叉 (坂田銀時)」、「桂小太郎」、「高杉晉助」、「坂本辰馬」』<br>⓵「生命力、攻擊力及回復力」基值 1.5 倍<br>⓶ 進場 CD -4",
+                "activate": "以「白夜叉 (坂田銀時)」、「桂小太郎」、「高杉晉助」及「坂本辰馬」作成員",
+                "skill_tag": ['增攻', '增回', '增血', '進場減CD'],
+                "activate_tag": ['指定成員'],
+                "relative": [10184, 10178, 10179, 10174]
+            }
+		],
         "maxLevel": 99,
         "maxSkill": 12,
         "maxRefine": 4,
@@ -95764,29 +95788,37 @@ const monster_data = [
         "maxRefine": 0,
         "version": ""
     },
-    {
+	{
         "id": 10181,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "土方十四郎",
+        "attribute": "暗",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂', '真選組', '迎擊戰'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "為信念而戰",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            }
+                "num": 8,
+                "description": "I. 解除【真選組】及【萬事屋】成員被封鎖的技能<br>(此技能無視封鎖技能)<br>1 回合內<br>II. 延長移動符石時間至 14 秒<br>III. 增加 14 連擊 (Combo)",
+                "tag": ['解鎖', '延長轉珠時間', '增加Combo']
+            },
         ],
-        "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "team_skill": [
+            {
+                "description": "◆「土方十四郎」每次進入疲憊狀態時<br>⇒「沖田總悟」進入亢奮狀態",
+                "activate": "以「土方十四郎」及「沖田總悟」作成員",
+                "skill_tag": [],
+                "activate_tag": ['指定成員'],
+                "relative": [10181, 10182]
+            }
+		],
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
 	{
         "id": 10182,
@@ -95807,7 +95839,15 @@ const monster_data = [
                 "tag": ['增傷', '界王拳', '無視拼圖盾', '無視攻前盾', '減CD']
             },
         ],
-        "team_skill": [],
+        "team_skill": [
+            {
+                "description": "◆「土方十四郎」每次進入疲憊狀態時<br>⇒「沖田總悟」進入亢奮狀態",
+                "activate": "以「土方十四郎」及「沖田總悟」作成員",
+                "skill_tag": ['增攻'],
+                "activate_tag": ['指定成員'],
+                "relative": [10181, 10182]
+            }
+		],
         "maxLevel": 99,
         "maxSkill": 12,
         "maxRefine": 0,
@@ -95848,49 +95888,64 @@ const monster_data = [
     },
     {
         "id": 10184,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "白夜叉 (坂田銀時)",
+        "attribute": "水",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂', '大江戶'],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "全力拼戰",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 7,
+                "description": "I. 發動技能時<br>⇒ 記錄場上的符石分佈<br>II. 全隊回復力變 0<br>III.「燃燒」、「一步一傷」<br>⇒ 傷害減至 1<br>IV.「白夜叉 (坂田銀時)」<br>⇒ 追打無屬性攻擊 1 次<br>V. 回合結束時，將所有符石轉化為<br>⇒ 五屬及心符石<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 引爆所有符石<br>⇒ 掉落所記錄的符石<br>⓶ 當前生命力變為<br>⇒ 總生命力 40%",
+                "tag": ['記錄版面', ['我方減回', -1], ['無視燃燒', -1], ['無視致命步伐', -1], ['無屬追打', -1], ['自身追打', -1], ['符石轉水', -1], ['符石轉火', -1], ['符石轉木', -1], ['符石轉光', -1], ['符石轉暗', -1], ['符石轉心', -1], ['五屬版面', -1], ['五屬心版面', -1], ['大幅轉版', -1], '隨時關閉', '引爆', '整版引爆', '強制掉落', '回血', '我方扣血']
             }
         ],
-        "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
-        "maxRefine": 0,
-        "version": ""
+        "team_skill": [
+            {
+                "description": "◆ 必然延長移動符石時間 7 秒<br><br>◆ 將移動符石時觸碰的符石<br>⇒ 轉化為強化符石<br><br>◆ 所有符石分別兼具<br>⇒ 其他屬性符石效果<br><br>◆ 每回合首次所受傷害<br>⇒ 不會使你死亡<br><br>◆ 移動符石後若我方生命力 <50%<br>⓵「白夜叉 (坂田銀時)」攻擊力 1.7 倍<br>⓶ 增加 17 連擊 (Combo)<br><br>◆ 若移動符石前我方生命力為 1<br>⇒ 該回合消除 6 種符石時迴避每個敵人的首次攻擊",
+                "activate": "以「白夜叉 (坂田銀時)」作隊長及戰友",
+                "skill_tag": ['延長轉珠時間', '符石強化', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '符石轉心強化', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '意志', '增攻', '增加Combo', '迴避'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [10184]
+            },
+            {
+                "description": "◆『「白夜叉 (坂田銀時)」、「桂小太郎」、「高杉晉助」、「坂本辰馬」』<br>⓵「生命力、攻擊力及回復力」基值 1.5 倍<br>⓶ 進場 CD -4",
+                "activate": "以「白夜叉 (坂田銀時)」、「桂小太郎」、「高杉晉助」及「坂本辰馬」作成員",
+                "skill_tag": ['增攻', '增回', '增血', '進場減CD'],
+                "activate_tag": ['指定成員'],
+                "relative": [10184, 10178, 10179, 10174]
+            }
+		],
+        "maxLevel": 99,
+        "maxSkill": 12,
+        "maxRefine": 4,
+        "version": "v2022.20"
     },
     {
         "id": 10185,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "河上萬齊",
+        "attribute": "木",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂', '地獄魔王'],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "聆聽靈魂的旋律",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 7,
+                "description": "I. 敵方全體無法行動及所受傷害額外 1.5 倍，持續 1 回合<br>II. 將所有符石轉化為<br>⇒「五屬及心」強化符石",
+                "tag": ['無法行動', '增傷', '符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '符石轉心強化', '五屬版面', '五屬心版面', '大幅轉版']
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
         "version": ""
     },
@@ -96112,27 +96167,35 @@ const monster_data = [
     },
     {
         "id": 10195,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "長谷川泰三",
+        "attribute": "水",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "努力向上",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 3,
+                "description": "I. 回復 3 點生命力<br>II. 將右下角的 3 粒符石<br>⇒ 轉化為強化符石<br>III. 使用後有 30% 機率<br>⇒ 可即時再次發動技能",
+                "tag": ['回血', '符石強化', '減CD']
             }
         ],
-        "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "team_skill": [
+            {
+                "description": "◆ 獲得 3 點護盾<br><br>◆ 當前生命力全滿時<br>⇒ 下一次所受傷害減至 1<br>(包括「喋血屠刀」等扣除召喚師指定 % 生命力的敵技所造成的傷害)",
+                "activate": "以「長谷川泰三」作隊長及戰友",
+                "skill_tag": ['護盾', '減傷'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [10195]
+            }
+		],
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
     {
         "id": 10196,
@@ -96405,7 +96468,7 @@ const monster_data = [
     
 	
 	{
-        "id": '?-16',
+        "id": '?-1',
         "name": "神威",
         "attribute": "",
         "race": "",
@@ -96429,69 +96492,21 @@ const monster_data = [
         "version": "v2022.20"
     },
 	{
-        "id": '?-17',
-        "name": "河上萬齊",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": ['銀魂'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            },
-        ],
-        "team_skill": [],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-18',
-        "name": "土方十四郎",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": ['銀魂'],
-        "crossOver": true,
-        "skill": [
-            {
-                "name": "",
-                "type": "normal",
-                "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
-            },
-        ],
-        "team_skill": [],
-        "maxLevel": 99,
-        "maxSkill": 12,
-        "maxRefine": 0,
-        "version": "v2022.20"
-    },
-	{
-        "id": '?-19',
+        "id": '?-2',
         "name": "山崎退",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": ['銀魂'],
+        "attribute": "火",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": ['銀魂', '真選組', '迎擊戰'],
         "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "紅豆包紅豆包紅豆包",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 8,
+                "description": "引爆【真選組】及【萬事屋】成員直行符石<br>⇒ 掉落該直行成員的屬性人族強化符石",
+                "tag": ['引爆', '直行引爆', '強制掉落', '人族符石製造']
             },
         ],
         "team_skill": [],
@@ -96501,7 +96516,7 @@ const monster_data = [
         "version": "v2022.20"
     },
 	{
-        "id": '?-20',
+        "id": '?-3',
         "name": "玉子",
         "attribute": "",
         "race": "",
