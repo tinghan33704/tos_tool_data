@@ -1,4 +1,4 @@
-// Last modified : 2022.03.11 17:13
+// Last modified : 2022.03.11 17:31
 
 const monster_data = [
 	{
@@ -96924,7 +96924,7 @@ const monster_data = [
                 "type": "normal",
                 "charge": "CD",
                 "num": 7,
-                "description": "I. 人類攻擊力 <font color='#666666'><s>2.5</s></font> 2 倍<br>II. 人類無視「二屬盾」、「三屬盾」、「四屬盾」、「五屬盾」<br>效果持續至沒有達成 ≥6 連擊 (Combo)",
+                "description": "I. 人類攻擊力 <font color='#666666' title='2022/3/10 GNN 誤植' style='cursor: help;'><s>2.5</s></font> 2 倍<br>II. 人類無視「二屬盾」、「三屬盾」、「四屬盾」、「五屬盾」<br>效果持續至沒有達成 ≥6 連擊 (Combo)",
                 "tag": [['增傷', -1], ['無視二屬盾', -1], ['無視三屬盾', -1], ['無視四屬盾', -1], ['無視五屬盾', -1]]
             },
         ],
