@@ -140,7 +140,7 @@ function init() {
     
 	playerData = localStorage.getItem('PLAYER_DATA') ? JSON.parse(localStorage.getItem('PLAYER_DATA')) : {uid: '', card: [], lastUpdated: null}
 	$("#uid-tag").text(`UID: ${playerData.uid}`)
-	$('.update-banner').length && $('.update-banner').html( `上次更新: ${ playerData?.lastUpdated || '---'}`)
+	setUpdateBanner()
     
     $("#inventory-btn").length && $('#inventory-btn').click(() => { 
         openUidInputPanel();
@@ -694,6 +694,7 @@ async function getPlayerInventory(prefix, id = null)
 		
 		id && errorAlert(10)
 		playerData = {uid: '', card: [], info: {}}
+		setUpdateBanner()
 		showSeal && showSeal(currentSeal)
 	}
 }
@@ -714,13 +715,18 @@ function setPlayerData(prefix, uid, card, info, lastUpdated)
 	$(`#${prefix}-confirm-uid`).css({'display': 'none'})
 	$(`#${prefix}-save-inventory`).css({'display': 'block'})
 	
-	$('.update-banner').length && $('.update-banner').html( `上次更新: ${ playerData?.lastUpdated || '---'}`)
+	setUpdateBanner()
 	$('.uid-banner').length && $('.uid-banner').html(playerData?.uid ? `UID: ${playerData.uid}` : '')
 	
 	if(tool_id === 'backpack') {
 		const uidStr = `?uid=${playerData.uid}`
 		window.history.pushState(null, null, uidStr)
 	}
+}
+
+function setUpdateBanner()
+{
+	$('.update-banner').length && $('.update-banner').html( `上次更新: ${ playerData?.lastUpdated || '---'}`)
 }
 
 function addVirtualRebirthCard(allCard)
