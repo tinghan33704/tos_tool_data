@@ -692,8 +692,9 @@ async function getPlayerInventory(prefix, id = null)
 		$(`#${prefix}-uid-status`).html(`<span class='fail'><i class='fa fa-times'></i>&nbsp;&nbsp;${verb}失敗${verb === '匯入' ? '，請嘗試使用更新背包功能' : ''}</span>`)
 		$(`#${prefix}-uid-input`).attr('disabled', false)
 		
-		showSeal && showSeal(currentSeal)
 		id && errorAlert(10)
+		playerData = {uid: '', card: [], info: {}}
+		showSeal && showSeal(currentSeal)
 	}
 }
 
