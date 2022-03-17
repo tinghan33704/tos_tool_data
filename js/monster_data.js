@@ -1,4 +1,4 @@
-// Last modified : 2022.03.16 13:13
+// Last modified : 2022.03.17 20:55
 
 const monster_data = [
 	{
@@ -96936,27 +96936,44 @@ const monster_data = [
     },
     {
         "id": 10187,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
+        "name": "虛",
+        "attribute": "光",
+        "race": "人類",
+        "star": 7,
+        "monsterTag": ['銀魂', '地獄魔王'],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "無盡的殺戮",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "每次只能選取 1 個效果。<br><br>效果1：<br>1 回合內，隊長<br>⓵ 攻擊力 3 倍<br>⓶ 追打五屬攻擊各 1 次<br>⓷ 無視「固定連擊盾」<br><br>效果2：<br>I. 引爆所有符石<br>⇒ <board>分別掉落橫行光、暗、水、火、木符石</board><br>1 回合內<br>II. 增加 8 連擊 (Combo)",
+                "tag": ['增傷', '界王拳', '水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打', '五屬追打', '無視固定連擊盾', '引爆', '整版引爆', '強制掉落', '固定版面', '五屬版面', '增加Combo']
             }
         ],
-        "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
-        "maxRefine": 0,
-        "version": ""
+		"board": [
+			[
+				'l', 'l', 'l', 'l', 'l', 'l', 
+				'd', 'd', 'd', 'd', 'd', 'd', 
+				'w', 'w', 'w', 'w', 'w', 'w', 
+				'f', 'f', 'f', 'f', 'f', 'f', 
+				'e', 'e', 'e', 'e', 'e', 'e', 
+			]
+		],
+        "team_skill": [
+            {
+                "description": "◆ 人類成員進場 CD -6<br><br>◆ 每首批消除 1 組水、火或木符石<br>⓵ 左方 3 直行<br>⇒ 首批掉落 3 粒暗強化符石<br>⇒ 最多可掉落 9 粒<br>⓶ 右方 3 直行<br>⇒ 首批掉落 3 粒光強化符石<br>⇒ 最多可掉落 9 粒<br><br>◆ 合計消除 ≥6 粒光或暗符石<br>⇒ 全隊攻擊力 3 倍<br><br>◆ 合計消除 ≥12 粒光或暗符石<br>⇒ 全隊攻擊力額外 3 倍<br><br>◆ 水、火、木符石分別兼具<br>⇒ 光及暗符石效果<br><br>◆「燃燒」傷害<br>⇒ 轉化為我方生命力<br><br>◆ 所受傷害不會使你死亡 (每層最多觸發 1 次)<br><br>◆ 觸發後，「虛」<br>⓵ 攻擊力及回復力 6 倍<br>⓶ 對人類目標的傷害額外 2 倍<br>效果會在進入下一層數 (Wave) 時消失",
+                "activate": "以「虛」作隊長及戰友",
+                "skill_tag": ['進場減CD', '強制掉落', '增攻', '水兼具其他', '火兼具其他', '木兼具其他', '符石兼具光', '符石兼具暗', '無視燃燒', '意志', '增回', '對人類增傷'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [10187]
+            }
+		],
+        "maxLevel": 99,
+        "maxSkill": 12,
+        "maxRefine": 4,
+        "version": "v2022.20"
     },
     {
         "id": 10188,
@@ -97000,12 +97017,12 @@ const monster_data = [
         "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "劍術絕殺",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 7,
+                "description": "I. 將木符石添加為人族符石<br>1 回合內<br>II. 增加 9 連擊 (Combo)<br>III. 隊伍不受中毒技能影響",
+                "tag": ['人族符石製造', '增加Combo', '防毒']
             },
         ],
         "team_skill": [
@@ -97032,12 +97049,12 @@ const monster_data = [
         "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "納豆攻擊",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 7,
+                "description": "I. <board>將 18 個固定位置的符石<br>⇒ 轉化為暗強化符石</board><br>II. 自身進入 1 回合疲憊狀態<br>III. 全體敵人的攻擊力減至 0，持續 1 回合",
+                "tag": ['符石轉暗', '符石轉暗強化', '大幅轉版', '固定版面', '疲憊狀態', '我方減攻', '敵方減攻']
             },
         ],
         "team_skill": [
@@ -97048,6 +97065,15 @@ const monster_data = [
                 "activate_tag": ['指定隊長'],
                 "relative": [10173, 10188, 10189, 10190, 10191]
             }
+		],
+		"board": [
+			[
+				'-', 'D', '-', '-', 'D', '-', 
+				'D', 'D', 'D', 'D', 'D', 'D', 
+				'-', 'D', '-', '-', 'D', '-', 
+				'D', 'D', 'D', 'D', 'D', 'D', 
+				'-', 'D', '-', '-', 'D', '-', 
+			]
 		],
         "maxLevel": 99,
         "maxSkill": 12,
@@ -97192,27 +97218,27 @@ const monster_data = [
     },
     {
         "id": 10196,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
-        "monsterTag": [],
-        "crossOver": false,
+        "name": "哈達王子",
+        "attribute": "火",
+        "race": "神族",
+        "star": 6,
+        "monsterTag": ['銀魂', '戰慄級'],
+        "crossOver": true,
         "skill": [
             {
-                "name": "",
+                "name": "愛與和平",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "I. 將 12 個固定位置的符石<br>⇒ 轉化為心強化符石<br>1 回合內<br>II. 所有符石分別兼具<br>⇒ 其他屬性符石效果<br>III. 心符石效果提升 100%<br>IV. 回合結束時，將 8 個固定位置的符石<br>⇒ 轉化為火強化符石",
+                "tag": ['符石轉心', '符石轉心強化', '固定版面', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石轉火', '符石轉火強化']
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
     {
         "id": 10197,
