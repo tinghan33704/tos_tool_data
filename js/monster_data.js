@@ -1,4 +1,4 @@
-// Last modified : 2022.03.27 21:58
+// Last modified : 2022.03.28 17:59
 
 const monster_data = [
 	{
@@ -96620,7 +96620,7 @@ const monster_data = [
                 "type": "normal",
                 "charge": "CD",
                 "num": 1,
-                "description": "消耗 1 片「羽毛」以發動技能：<br>I. 點選元素法陣上的 1 種符石<br>⇒ 引爆所有符石及石化符石<br>⇒ 掉落該種符石以外的神族強化符石<br>II. 將最頂 1 橫行的符石<br>⇒ 添加為「加護符石」<br>1 回合內<br>III. 該種符石的掉落率降至 0<br>IV. 妖精類及神族成員<br>⇒ 攻擊力及回復力 2 倍<br>V. 無視「燃燒」",
+                "description": "消耗 1 片「羽毛」以發動技能：<br>I. 點選場上 1 粒符石<br>⇒ 引爆所有符石及石化符石<br>⇒ 掉落該種符石以外的神族強化符石<br>II. 將最頂 1 橫行的符石<br>⇒ 添加為「加護符石」<br>1 回合內<br>III. 該種符石的掉落率降至 0<br>IV. 妖精類及神族成員<br>⇒ 攻擊力及回復力 2 倍<br>V. 無視「燃燒」",
                 "tag": ['引爆', '整版引爆', '石化符石處理', '強制掉落', '神族符石製造', '禁珠', '改變掉落機率', '增傷', '增回', '無視燃燒']
             }
         ],
@@ -97620,7 +97620,7 @@ const monster_data = [
         "id": 10201,
         "name": "叛世的神王 ‧ 宙斯",
         "attribute": "暗",
-        "race": "",
+        "race": "神族",
         "star": 0,
         "monsterTag": [],
         "crossOver": false,
@@ -97644,7 +97644,7 @@ const monster_data = [
         "id": 10202,
         "name": "大蠕蟲之主 ‧ 修德",
         "attribute": "暗",
-        "race": "",
+        "race": "魔族",
         "star": 0,
         "monsterTag": [],
         "crossOver": false,
