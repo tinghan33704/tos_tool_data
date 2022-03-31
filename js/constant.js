@@ -863,4 +863,4 @@ const veri_maxlength = 6;
 const monster_notification = ''
 const craft_notification = ''
 
-const myAuth = 'NTk1NjM2MzUxOTE2ODk2'
+const myAuth = 'NTk1NjM2MzUxNTkzMjE5'
