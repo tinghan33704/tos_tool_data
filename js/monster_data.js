@@ -1,4 +1,4 @@
-// Last modified : 2022.03.28 22:46
+// Last modified : 2022.03.31 20:11
 
 const monster_data = [
 	{
@@ -97643,26 +97643,26 @@ const monster_data = [
     {
         "id": 10202,
         "name": "大蠕蟲之主 ‧ 修德",
-        "attribute": "暗",
+        "attribute": "火",
         "race": "魔族",
-        "star": 0,
-        "monsterTag": [],
+        "star": 6,
+        "monsterTag": ['地獄魔王'],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "喋血獄燄",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "I. 引爆自身直行符石<br>⇒ 掉落火魔族強化符石<br>II. 引爆暗屬性魔族成員直行符石<br>⇒ 掉落暗魔族強化符石<br>1 回合內<br>III. 無視「燃燒」<br>(不包括「煉獄之火」)<br>IV. 消除符石後，首批掉落的 12 粒符石<br>⇒ 必定為火魔族符石",
+                "tag": ['引爆', '直行引爆', '魔族符石製造', '強制掉落', '無視燃燒']
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
     {
         "id": 10203,
@@ -97762,27 +97762,36 @@ const monster_data = [
     },
     {
         'id': 10207,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '祈願貴公子 ‧ 系爾',
+        'attribute': '木',
+        'race': '人類',
+        'star': 7,
+        'monsterTag': ['討伐戰'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '飛馬之軌',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 6,
+                'description': 'I. <board>將單數橫行的符石<br>⇒ 轉化為木強化符石</board><br>II. 將雙數橫行的符石<br>⇒ 轉化為隊長屬性強化符石<br>1 回合內<br>III. 自身不能發動攻擊',
+                'tag': ['符石轉木', '符石轉木強化', '符石轉水', '符石轉火', '符石轉光', '符石轉暗', '符石轉水強化', '符石轉火強化', '符石轉光強化', '符石轉暗強化', '大幅轉版', '固定版面', '限制成員攻擊']
             }
         ],
         'team_skill': [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+		'board': [
+			[
+				'E', 'E', 'E', 'E', 'E', 'E', 
+				'-', '-', '-', '-', '-', '-', 
+				'E', 'E', 'E', 'E', 'E', 'E', 
+				'-', '-', '-', '-', '-', '-', 
+				'E', 'E', 'E', 'E', 'E', 'E'
+			]
+		],
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ''
+        "version": "v2022.20"
     },
     {
         'id': 10208,
