@@ -1,4 +1,4 @@
-// Last modified : 2022.03.31 20:11
+// Last modified : 2022.04.07 18:15
 
 const monster_data = [
 	{
@@ -35221,6 +35221,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["地獄魔王"],
         "crossOver": false,
+		"specialImage": true,
         "skill": [
             {
                 "name": "同仇念",
@@ -35996,6 +35997,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["地獄魔王"],
         "crossOver": false,
+		"specialImage": true,
         "skill": [
             {
                 "name": "勇武之力 ‧ 水",
@@ -37155,6 +37157,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["地獄魔王"],
         "crossOver": false,
+		"specialImage": true,
         "skill": [
             {
                 "name": "魔靈的印記",
@@ -48770,6 +48773,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["戰慄級", "拳皇"],
         "crossOver": true,
+		"specialImage": true,
         "skill": [
             {
                 "name": "熱力驅動",
@@ -78438,7 +78442,7 @@ const monster_data = [
                 "charge": "CD",
                 "num": 8,
                 "description": "1 回合內<br>I. 自身攻擊力 4 倍<br>II. 延長移動符石時間至 25 秒<br>III. 將移動符石時觸碰的「凍結符石」狀態解除<br>IV. 若隊中有 ≥3 個「EVA 駕駛員」<br>⇒ 刷新「絕對領域」",
-                "tag": ["增傷", "界王拳", "延長轉珠時間", "凍結符石處理"]
+                "tag": ["增傷", "界王拳", "延長轉珠時間", "凍結符石處理", '刷新護盾']
             },
             {
                 "name": "變身 ‧ 覺醒初號機",
@@ -78507,7 +78511,7 @@ const monster_data = [
                 "charge": "EP",
                 "num": 8,
                 "description": "I. 引爆所有符石及石化符石<br>⇒ 掉落五屬強化符石<br>2 回合內<br>II. 自身攻擊力 3 倍<br>III. 消除屬性符石時<br>⇒ 個人追打該屬性攻擊 1 次<br>IV. 消除 ≥3 種屬性符石時<br>⇒ 自身攻擊無視「指定形狀盾」<br>V. 若隊中有 ≥3 個「EVA 駕駛員」<br>⇒ 刷新「絕對領域」",
-                "tag": ["引爆", "整版引爆", "石化符石處理", "強制掉落", "五屬版面", ["增傷", 2], ["界王拳", 2], ["水屬追打", 2], ["火屬追打", 2], ["木屬追打", 2], ["光屬追打", 2], ["暗屬追打", 2], ["五屬追打", 2], ["自身追打", 2], ["無視拼圖盾", 2]]
+                "tag": ["引爆", "整版引爆", "石化符石處理", "強制掉落", "五屬版面", ["增傷", 2], ["界王拳", 2], ["水屬追打", 2], ["火屬追打", 2], ["木屬追打", 2], ["光屬追打", 2], ["暗屬追打", 2], ["五屬追打", 2], ["自身追打", 2], ["無視拼圖盾", 2], ['刷新護盾', 2]]
             },
             {
                 "name": "堅定信念",
@@ -78582,7 +78586,7 @@ const monster_data = [
                 "charge": "CD",
                 "num": 7,
                 "description": "I. 將敵方全體轉為木屬性，持續 2 回合<br>II. 將最頂及最底橫行符石<br>⇒ 轉化為神族強化符石<br>III. <board>將中間 3 橫行符石<br>⇒ 分別轉化為直行「五屬及心」神族強化符石</board><br>1 回合內<br>IV. 首批掉落的 10 粒符石<br>⇒ 必定為火強化符石<br>V. 若隊中有 ≥3 個「EVA 駕駛員」<br>⇒ 刷新「絕對領域」",
-                "tag": [["敵方轉木", 2], "符石強化", "神族符石製造", "符石轉水", "符石轉火", "符石轉木", "符石轉光", "符石轉暗", "符石轉心", "符石轉水強化", "符石轉火強化", "符石轉木強化", "符石轉光強化", "符石轉暗強化", "符石轉心強化", "五屬版面", "五屬心版面", "大幅轉版", "固定版面", "強制掉落"]
+                "tag": [["敵方轉木", 2], "符石強化", "神族符石製造", "符石轉水", "符石轉火", "符石轉木", "符石轉光", "符石轉暗", "符石轉心", "符石轉水強化", "符石轉火強化", "符石轉木強化", "符石轉光強化", "符石轉暗強化", "符石轉心強化", "五屬版面", "五屬心版面", "大幅轉版", "固定版面", "強制掉落", '刷新護盾']
             }
         ],
         "team_skill": [
@@ -79247,7 +79251,7 @@ const monster_data = [
                 "charge": "CD",
                 "num": 5,
                 "description": "1 回合內<br>I. 延長移動符石時間 7 秒<br>II. 將移動符石時觸碰的首 7 粒符石轉化為<br>⇒ 神族強化符石<br>III. 神族攻擊力及回復力 2.7 倍<br>IV. 若隊中有 ≥3 個「EVA 駕駛員」<br>⇒ 刷新「絕對領域」",
-                "tag": ["延長轉珠時間", "符石強化", "神族符石製造", '軌跡轉化', "增傷", "增回"]
+                "tag": ["延長轉珠時間", "符石強化", "神族符石製造", '軌跡轉化', "增傷", "增回", '刷新護盾']
             },
             {
                 "name": "變身 ‧ Code 777",
@@ -79256,7 +79260,7 @@ const monster_data = [
                 "num": 7,
                 "transform": 2537,
                 "description": "I. 變身<br>II. 自身陷入 7 回合殞命輪迴<br>7 回合內<br>III. 自身攻擊力及回復力 3.7 倍<br>IV. 每回合刷新「絕對領域」<br>(III、IV 效果會在死亡後消失)",
-                "tag": ["變身", ["增傷", 7], ["界王拳", 7], ["增回", 7]]
+                "tag": ["變身", ["增傷", 7], ["界王拳", 7], ["增回", 7], ['刷新護盾', 7]]
             }
         ],
         "team_skill": [
@@ -80971,7 +80975,7 @@ const monster_data = [
                 "charge": "CD",
                 "num": 7,
                 "description": "I. 對敵方全體造成<br>⇒ 6,666 萬無屬性傷害<br>(此傷害無視敵人防禦力、「強化突破」、「攻前盾」)<br>1 回合內<br>II. 自身攻擊力提升至 6,666<br>III.「魔權在握 ‧ 巴力」的攻擊<br>⇒ 無視「符石連擊零化」、「指定連擊法印」<br>IV. 若隊長為「魔權在握 ‧ 巴力」<br>⇒ 刷新護盾",
-                "tag": ["直傷", "破防直傷", "破強化直傷", "破攻前直傷", "增傷", "無視追擊零化", "無視連擊法印"]
+                "tag": ["直傷", "破防直傷", "破強化直傷", "破攻前直傷", "增傷", "無視追擊零化", "無視連擊法印", '刷新護盾']
             }
         ],
         "team_skill": [
@@ -84416,6 +84420,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["丹心魂夢"],
         "crossOver": false,
+		"specialImage": true,
         "skill": [
             {
                 "name": "赤獸活殺",
@@ -84448,6 +84453,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["丹心魂夢"],
         "crossOver": false,
+		"specialImage": true,
         "skill": [
             {
                 "name": "龍咒狂暴",
@@ -84487,6 +84493,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["丹心魂夢"],
         "crossOver": false,
+		"specialImage": true,
         "skill": [
             {
                 "name": "猛獸極襲",
@@ -84526,6 +84533,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["丹心魂夢"],
         "crossOver": false,
+		"specialImage": true,
         "skill": [
             {
                 "name": "龍息暴發",
@@ -84589,6 +84597,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["丹心魂夢"],
         "crossOver": false,
+		"specialImage": true,
         "skill": [
             {
                 "name": "凶獸絕電",
@@ -84847,6 +84856,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["假面騎士"],
         "crossOver": true,
+		"specialImage": true,
         "skill": [
             {
                 "name": "人的夢想可沒那麼簡單！",
@@ -86904,6 +86914,794 @@ const monster_data = [
         "maxSkill": 1,
         "maxRefine": 0,
         "version": "v2022.10"
+    },
+    {
+        'id': 2755,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2756,
+        'name': '穢土魔魂 ‧ 阿撒兹勒',
+        'attribute': '水',
+        'race': '魔族',
+        'star': 8,
+        'monsterTag': ['究極魔族始源'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '元素歸一 ‧ 浪濤襲',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': '1 回合內<br>I. 延長移動符石時間至 15 秒<br>II. 其他符石兼具<br>⇒ 200% 水符石效果<br>III. 消除的符石種類愈多<br>⇒ 水屬性及魔族成員攻擊力提升愈多<br>⇒ 最大 3.5 倍',
+                'tag': ['延長轉珠時間', '符石兼具水', '增傷']
+            },
+            {
+                'name': '寒冰魔境',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 凍結敵方全體，使受影響目標<br>⓵ 無法行動<br>⓶ 轉為水屬性<br>持續 1 回合<br>1 回合內<br>II. 若隊長為魔族<br>⇒ 發動技能及回合結束時刷新護盾',
+                'tag': ['凍結敵方', '無法行動', '敵方轉水', '刷新護盾']
+            }
+        ],
+        'team_skill': [
+            {
+                "description": "◆ 獲得「究極融煉」能力：<br><br>⓵ 解除所有成員的疲憊狀態<br>⓶ 刷新護盾<br>⓷ 將所有符石轉化為<br>⇒ 魔族強化符石<br>1 回合內<br>⓸ 魔族成員攻擊力 2 倍<br><br>於回合開始時點擊已儲滿的龍脈儀<br>⇒ 可觸發此能力<br>(需消耗 100% 龍脈儀能量)<br><br>◆ 魔族成員增加 1,600 點攻擊力基值<br><br>◆ 獲得 66,666 點護盾<br><br>◆ 護盾 ≥1 時<br>⇒ 將移動符石時觸碰的電擊、凍結、弱化、化血、石化符石狀態解除<br>⇒ 並添加為魔族符石<br><br>◆ 魔族成員無視「指定形狀盾」",
+                "activate": "以「穢土魔魂 ‧ 阿撒兹勒」作隊長及戰友",
+                "skill_tag": ['龍脈儀能力', '增攻', '護盾', '電擊符石處理', '凍結符石處理', '弱化符石處理', '化血符石處理', '石化符石處理', '魔族符石製造', '無視拼圖盾'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [2756]
+            },
+            {
+                "description": "◆ 進場及每回合結束時<br>⇒ 將最底 1 橫行的符石添加為魔族符石",
+                "activate": "隊長及戰友為魔族成員，並以 8 星「究極魔族始源」系列的角色作成員",
+                "skill_tag": ['魔族符石製造'],
+                "activate_tag": ['指定隊長戰友', '指定種族成員'],
+                "relative": ['究極魔族始源']
+            },
+            {
+                "description": "◆「復仇魔君 ‧ 貝利爾」<br>⓵ 轉換為隊長的屬性<br>⓶ 以 50% 攻擊力追打自身屬性以外的屬性攻擊各 1 次<br><br>◆ 魔族成員<br>⇒「生命力、攻擊力及回復力」基值 1.8 倍",
+                "activate": "以「穢土魔魂 ‧ 阿撒兹勒」作隊長及戰友，並以「復仇魔君 ‧ 貝利爾」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ['指定雙隊長', '指定成員'],
+                "relative": [2756, 1100]
+            }
+		],
+        "maxLevel": 99,
+        "maxSkill": 12,
+        "maxRefine": 4,
+        "version": 'v2022.20'
+    },
+    {
+        'id': 2757,
+        'name': '絕響愛炎 ‧ 亞巴頓',
+        'attribute': '火',
+        'race': '魔族',
+        'star': 8,
+        'monsterTag': ['究極魔族始源'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '元素歸一 ‧ 熾燄襲',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': '1 回合內<br>I. 延長移動符石時間至 15 秒<br>II. 其他符石兼具<br>⇒ 200% 火符石效果<br>III. 消除的符石種類愈多<br>⇒ 火屬性及魔族成員攻擊力提升愈多<br>⇒ 最大 3.5 倍',
+                'tag': ['延長轉珠時間', '符石兼具火', '增傷']
+            },
+            {
+                'name': '獄燄魔境',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 點燃敵方全體，使受影響目標<br>⓵ 無法行動<br>⓶ 轉為火屬性<br>持續 1 回合<br>1 回合內<br>II. 若隊長為魔族<br>⇒ 發動技能及回合結束時刷新護盾',
+                'tag': ['點燃敵方', '無法行動', '敵方轉火', '刷新護盾']
+            }
+        ],
+        'team_skill': [
+            {
+                "description": "◆ 獲得「究極融煉」能力：<br><br>⓵ 解除所有成員的疲憊狀態<br>⓶ 刷新護盾<br>⓷ 將所有符石轉化為<br>⇒ 魔族強化符石<br>1 回合內<br>⓸ 魔族成員攻擊力 2 倍<br><br>於回合開始時點擊已儲滿的龍脈儀<br>⇒ 可觸發此能力<br>(需消耗 100% 龍脈儀能量)<br><br>◆ 魔族成員增加 1,600 點攻擊力基值<br><br>◆ 獲得 66,666 點護盾<br><br>◆ 護盾 ≥1 時<br>⇒ 將移動符石時觸碰的電擊、凍結、弱化、化血、石化符石狀態解除<br>⇒ 並添加為魔族符石<br><br>◆ 魔族成員無視「指定形狀盾」",
+                "activate": "以「絕響愛炎 ‧ 亞巴頓」作隊長及戰友",
+                "skill_tag": ['龍脈儀能力', '增攻', '護盾', '電擊符石處理', '凍結符石處理', '弱化符石處理', '化血符石處理', '石化符石處理', '魔族符石製造', '無視拼圖盾'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [2757]
+            },
+            {
+                "description": "◆ 進場及每回合結束時<br>⇒ 將最底 1 橫行的符石添加為魔族符石",
+                "activate": "隊長及戰友為魔族成員，並以 8 星「究極魔族始源」系列的角色作成員",
+                "skill_tag": ['魔族符石製造'],
+                "activate_tag": ['指定隊長戰友', '指定種族成員'],
+                "relative": ['究極魔族始源']
+            },
+            {
+                "description": "◆「復仇魔君 ‧ 貝利爾」<br>⓵ 轉換為隊長的屬性<br>⓶ 以 50% 攻擊力追打自身屬性以外的屬性攻擊各 1 次<br><br>◆ 魔族成員<br>⇒「生命力、攻擊力及回復力」基值 1.8 倍",
+                "activate": "以「絕響愛炎 ‧ 亞巴頓」作隊長及戰友，並以「復仇魔君 ‧ 貝利爾」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ['指定雙隊長', '指定成員'],
+                "relative": [2757, 1100]
+            }
+		],
+        "maxLevel": 99,
+        "maxSkill": 12,
+        "maxRefine": 4,
+        "version": 'v2022.20'
+    },
+    {
+        'id': 2758,
+        'name': '孤星蒼儡 ‧ 薩麥爾',
+        'attribute': '木',
+        'race': '魔族',
+        'star': 8,
+        'monsterTag': ['究極魔族始源'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '元素歸一 ‧ 藤木襲',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': '1 回合內<br>I. 延長移動符石時間至 15 秒<br>II. 其他符石兼具<br>⇒ 200% 木符石效果<br>III. 消除的符石種類愈多<br>⇒ 木屬性及魔族成員攻擊力提升愈多<br>⇒ 最大 3.5 倍',
+                'tag': ['延長轉珠時間', '符石兼具木', '增傷']
+            },
+            {
+                'name': '森石魔境',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': 'I. 石化敵方全體，使受影響目標<br>⓵ 無法行動<br>⓶ 轉為木屬性<br>持續 1 回合<br>1 回合內<br>II. 若隊長為魔族<br>⇒ 發動技能及回合結束時刷新護盾',
+                'tag': ['石化敵方', '無法行動', '敵方轉木', '刷新護盾']
+            }
+        ],
+        'team_skill': [
+            {
+                "description": "◆ 獲得「究極融煉」能力：<br><br>⓵ 解除所有成員的疲憊狀態<br>⓶ 刷新護盾<br>⓷ 將所有符石轉化為<br>⇒ 魔族強化符石<br>1 回合內<br>⓸ 魔族成員攻擊力 2 倍<br><br>於回合開始時點擊已儲滿的龍脈儀<br>⇒ 可觸發此能力<br>(需消耗 100% 龍脈儀能量)<br><br>◆ 魔族成員增加 1,600 點攻擊力基值<br><br>◆ 獲得 66,666 點護盾<br><br>◆ 護盾 ≥1 時<br>⇒ 將移動符石時觸碰的電擊、凍結、弱化、化血、石化符石狀態解除<br>⇒ 並添加為魔族符石<br><br>◆ 魔族成員無視「指定形狀盾」",
+                "activate": "以「孤星蒼儡 ‧ 薩麥爾」作隊長及戰友",
+                "skill_tag": ['龍脈儀能力', '增攻', '護盾', '電擊符石處理', '凍結符石處理', '弱化符石處理', '化血符石處理', '石化符石處理', '魔族符石製造', '無視拼圖盾'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [2758]
+            },
+            {
+                "description": "◆ 進場及每回合結束時<br>⇒ 將最底 1 橫行的符石添加為魔族符石",
+                "activate": "隊長及戰友為魔族成員，並以 8 星「究極魔族始源」系列的角色作成員",
+                "skill_tag": ['魔族符石製造'],
+                "activate_tag": ['指定隊長戰友', '指定種族成員'],
+                "relative": ['究極魔族始源']
+            },
+            {
+                "description": "◆「復仇魔君 ‧ 貝利爾」<br>⓵ 轉換為隊長的屬性<br>⓶ 以 50% 攻擊力追打自身屬性以外的屬性攻擊各 1 次<br><br>◆ 魔族成員<br>⇒「生命力、攻擊力及回復力」基值 1.8 倍",
+                "activate": "以「孤星蒼儡 ‧ 薩麥爾」作隊長及戰友，並以「復仇魔君 ‧ 貝利爾」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ['指定雙隊長', '指定成員'],
+                "relative": [2758, 1100]
+            }
+		],
+        "maxLevel": 99,
+        "maxSkill": 12,
+        "maxRefine": 4,
+        "version": 'v2022.20'
+    },
+    {
+        'id': 2759,
+        'name': '蠅中婚禮 ‧ 別西卜',
+        'attribute': '光',
+        'race': '魔族',
+        'star': 8,
+        'monsterTag': ['究極魔族始源'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '玄光結界 ‧ 魔之加冕',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': '1 回合內<br>I. 無視「黏腐」<br>II. 每首批消除 1 組 ≥4 粒符石<br>⇒ 掉落 5 粒光魔族強化符石<br>⇒ 首批消除 6 組可掉落最多 30 粒',
+                'tag': ['無視黏腐', '強制掉落', '魔族符石製造']
+            },
+            {
+                'name': '烈毒魔境',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': 'I. 敵人全體身中烈毒：每回合將受到自身攻擊力基值 1000 倍的無屬性傷害，此傷害無視防禦力並持續到死亡<br>II. 若隊長為魔族<br>⇒ 發動技能及回合結束時刷新護盾',
+                'tag': [['敵方中毒', -1], '刷新護盾']
+            }
+        ],
+        'team_skill': [
+            {
+                "description": "◆ 獲得「究極融煉」能力：<br><br>⓵ 解除所有成員的疲憊狀態<br>⓶ 刷新護盾<br>⓷ 將所有符石轉化為<br>⇒ 魔族強化符石<br>1 回合內<br>⓸ 魔族成員攻擊力 2 倍<br><br>於回合開始時點擊已儲滿的龍脈儀<br>⇒ 可觸發此能力<br>(需消耗 100% 龍脈儀能量)<br><br>◆ 魔族成員增加 1,600 點攻擊力基值<br><br>◆ 獲得 66,666 點護盾<br><br>◆ 護盾 ≥1 時<br>⇒ 將移動符石時觸碰的電擊、凍結、弱化、化血、石化符石狀態解除<br>⇒ 並添加為魔族符石<br><br>◆ 魔族成員無視「指定形狀盾」",
+                "activate": "以「蠅中婚禮 ‧ 別西卜」作隊長及戰友",
+                "skill_tag": ['龍脈儀能力', '增攻', '護盾', '電擊符石處理', '凍結符石處理', '弱化符石處理', '化血符石處理', '石化符石處理', '魔族符石製造', '無視拼圖盾'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [2759]
+            },
+            {
+                "description": "◆ 進場及每回合結束時<br>⇒ 將最底 1 橫行的符石添加為魔族符石",
+                "activate": "隊長及戰友為魔族成員，並以 8 星「究極魔族始源」系列的角色作成員",
+                "skill_tag": ['魔族符石製造'],
+                "activate_tag": ['指定隊長戰友', '指定種族成員'],
+                "relative": ['究極魔族始源']
+            },
+            {
+                "description": "◆「復仇魔君 ‧ 貝利爾」<br>⓵ 轉換為隊長的屬性<br>⓶ 以 50% 攻擊力追打自身屬性以外的屬性攻擊各 1 次<br><br>◆ 魔族成員<br>⇒「生命力、攻擊力及回復力」基值 1.8 倍",
+                "activate": "以「蠅中婚禮 ‧ 別西卜」作隊長及戰友，並以「復仇魔君 ‧ 貝利爾」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ['指定雙隊長', '指定成員'],
+                "relative": [2759, 1100]
+            },
+            {
+                "description": "◆ 每消除 1 組 ≥5 粒隊長屬性符石<br>⇒ 回合結束時，將 3 粒隊長屬性以外的符石轉化為隊長屬性魔族強化符石<br>⇒ 消除 3 組可轉化最多 9 粒<br><br>◆ 每消除 1 組 ≥5 粒隊長屬性以外的符石<br>⇒ 回合結束時，將 2 粒隊長屬性以外的符石轉化為隊長屬性強化符石<br>⇒ 消除 3 組可轉化最多 6 粒",
+                "activate": "以「蠅中婚禮 ‧ 別西卜」作隊長及戰友",
+                "skill_tag": ['符石轉光', '符石轉光強化', '魔族符石製造'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [2759]
+            }
+		],
+        "maxLevel": 99,
+        "maxSkill": 12,
+        "maxRefine": 4,
+        "version": 'v2022.20'
+    },
+    {
+        'id': 2760,
+        'name': '仇戮穿心 ‧ 莫斯提馬',
+        'attribute': '暗',
+        'race': '魔族',
+        'star': 8,
+        'monsterTag': ['究極魔族始源'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '幽冥結界 ‧ 魔之加冕',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 6,
+                'description': '1 回合內<br>I. 無視「黏腐」<br>II. 每首批消除 1 組 ≥4 粒符石<br>⇒ 掉落 5 粒暗魔族強化符石<br>⇒ 首批消除 6 組可掉落最多 30 粒',
+                'tag': ['無視黏腐', '強制掉落', '魔族符石製造']
+            },
+            {
+                'name': '烈毒魔境',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': 'I. 敵人全體身中烈毒：每回合將受到自身攻擊力基值 1000 倍的無屬性傷害，此傷害無視防禦力並持續到死亡<br>II. 若隊長為魔族<br>⇒ 發動技能及回合結束時刷新護盾',
+                'tag': [['敵方中毒', -1], '刷新護盾']
+            }
+        ],
+        'team_skill': [
+            {
+                "description": "◆ 獲得「究極融煉」能力：<br><br>⓵ 解除所有成員的疲憊狀態<br>⓶ 刷新護盾<br>⓷ 將所有符石轉化為<br>⇒ 魔族強化符石<br>1 回合內<br>⓸ 魔族成員攻擊力 2 倍<br><br>於回合開始時點擊已儲滿的龍脈儀<br>⇒ 可觸發此能力<br>(需消耗 100% 龍脈儀能量)<br><br>◆ 魔族成員增加 1,600 點攻擊力基值<br><br>◆ 獲得 66,666 點護盾<br><br>◆ 護盾 ≥1 時<br>⇒ 將移動符石時觸碰的電擊、凍結、弱化、化血、石化符石狀態解除<br>⇒ 並添加為魔族符石<br><br>◆ 魔族成員無視「指定形狀盾」",
+                "activate": "以「仇戮穿心 ‧ 莫斯提馬」作隊長及戰友",
+                "skill_tag": ['龍脈儀能力', '增攻', '護盾', '電擊符石處理', '凍結符石處理', '弱化符石處理', '化血符石處理', '石化符石處理', '魔族符石製造', '無視拼圖盾'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [2760]
+            },
+            {
+                "description": "◆ 進場及每回合結束時<br>⇒ 將最底 1 橫行的符石添加為魔族符石",
+                "activate": "隊長及戰友為魔族成員，並以 8 星「究極魔族始源」系列的角色作成員",
+                "skill_tag": ['魔族符石製造'],
+                "activate_tag": ['指定隊長戰友', '指定種族成員'],
+                "relative": ['究極魔族始源']
+            },
+            {
+                "description": "◆「復仇魔君 ‧ 貝利爾」<br>⓵ 轉換為隊長的屬性<br>⓶ 以 50% 攻擊力追打自身屬性以外的屬性攻擊各 1 次<br><br>◆ 魔族成員<br>⇒「生命力、攻擊力及回復力」基值 1.8 倍",
+                "activate": "以「仇戮穿心 ‧ 莫斯提馬」作隊長及戰友，並以「復仇魔君 ‧ 貝利爾」作成員",
+                "skill_tag": ['增攻', '增回', '增血'],
+                "activate_tag": ['指定雙隊長', '指定成員'],
+                "relative": [2760, 1100]
+            },
+            {
+                "description": "◆ 每消除 1 組 ≥5 粒隊長屬性符石<br>⇒ 回合結束時，將 3 粒隊長屬性以外的符石轉化為隊長屬性魔族強化符石<br>⇒ 消除 3 組可轉化最多 9 粒<br><br>◆ 每消除 1 組 ≥5 粒隊長屬性以外的符石<br>⇒ 回合結束時，將 2 粒隊長屬性以外的符石轉化為隊長屬性強化符石<br>⇒ 消除 3 組可轉化最多 6 粒",
+                "activate": "以「仇戮穿心 ‧ 莫斯提馬」作隊長及戰友",
+                "skill_tag": ['符石轉暗', '符石轉暗強化', '魔族符石製造'],
+                "activate_tag": ['指定雙隊長'],
+                "relative": [2760]
+            }
+		],
+        "maxLevel": 99,
+        "maxSkill": 12,
+        "maxRefine": 4,
+        "version": 'v2022.20'
+    },
+    {
+        'id': 2761,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2762,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2763,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2764,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2765,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2766,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2767,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2768,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2769,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2770,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2771,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2772,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2773,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2774,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2775,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2776,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2777,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2778,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2779,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 2780,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
     },
     {
         "id": 3001,
@@ -93096,6 +93894,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["聖鬥士星矢冥界篇", "聖鬥士"],
         "crossOver": true,
+        "specialImage": true,
         "skill": [
             {
                 "name": "鳳翼天翔！",
@@ -93151,6 +93950,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["聖鬥士星矢冥界篇", "聖鬥士"],
         "crossOver": true,
+        "specialImage": true,
         "skill": [
             {
                 "name": "鳳翼天翔！！",
@@ -95209,6 +96009,7 @@ const monster_data = [
         "star": 6,
         "monsterTag": ["雄英高校", "雄英高校生"],
         "crossOver": true,
+		"specialImage": true,
         "skill": [
             {
                 "name": "底特律爆碎風",
@@ -95456,7 +96257,7 @@ const monster_data = [
                 "charge": "CD",
                 "num": 7,
                 "description": "I. 引爆所有符石、凍結及石化符石<br>⇒ <board>掉落 3 橫行固定數量及位置的五屬魔族強化符石</board><br>II. 刷新護盾<br>1 回合內<br>III. 每首批消除 1 組屬性符石<br>⇒ 個人以 50% 攻擊力追打該屬性攻擊 1 次<br>⇒ 每個屬性最多可追打 4 次<br>IV. 自身無視敵人防禦力<br>V. 自身無視「固定連擊盾」",
-                "tag": ["引爆", "整版引爆", "凍結符石處理", "石化符石處理", "強制掉落", "魔族符石製造", "五屬版面", "固定版面", "水屬追打", "火屬追打", "木屬追打", "光屬追打", "暗屬追打", "五屬追打", "自身追打", "破防", "無視固定連擊盾"]
+                "tag": ["引爆", "整版引爆", "凍結符石處理", "石化符石處理", "強制掉落", "魔族符石製造", "五屬版面", "固定版面", '刷新護盾', "水屬追打", "火屬追打", "木屬追打", "光屬追打", "暗屬追打", "五屬追打", "自身追打", "破防", "無視固定連擊盾"]
             }
         ],
         "team_skill": [
@@ -97621,24 +98422,24 @@ const monster_data = [
         "name": "叛世的神王 ‧ 宙斯",
         "attribute": "暗",
         "race": "神族",
-        "star": 0,
-        "monsterTag": [],
+        "star": 6,
+        "monsterTag": ['地獄魔王'],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "神王之訓",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
-                "description": "",
-                "tag": []
+                "num": 6,
+                "description": "I. 隊中只有神族成員時<br>⓵ 將所有符石轉化為<br>⇒ 神族強化符石<br>1 回合內<br>⓶ 神族成員<br>▋攻擊力 2 倍<br>▋無視「攻前盾」<br>▋無視敵人防禦力<br>II. 反之，1 回合內，<br>⓵ 將神族以外成員的攻擊力基值減至 0<br>⓶ 將被減去攻擊力基值的 3 倍<br>⇒ 加入自身攻擊力基值<br>⓷ 自身無視「三屬盾」、「四屬盾」、「五屬盾」",
+                "tag": ['符石強化', '神族符石製造', '增傷', '無視攻前盾', '破防', '我方減攻', '我方攻擊力吸收', '界王拳', '無視三屬盾', '無視四屬盾', '無視五屬盾']
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.20"
     },
     {
         "id": 10202,
@@ -97690,27 +98491,27 @@ const monster_data = [
     },
     {
         'id': 10204,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
-        'monsterTag': [],
+        'name': '刻骨銘愛 ‧ 米蘭達',
+        'attribute': '光',
+        'race': '妖精類',
+        'star': 5,
+        'monsterTag': ['尤加利王國'],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '因愛之名',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
-                'description': '',
-                'tag': []
+                'num': 5,
+                'description': 'I. 引爆所有符石<br>⇒ 掉落屬性符石<br>II. 全隊進入 1 回合亢奮狀態<br>III. 若隊中有 ≥3 個妖精類成員<br>⇒ 則全隊進入 3 回合亢奮狀態',
+                "tag": ['引爆', '整版引爆', '強制掉落', ['亢奮狀態', 3], ['增傷', 3]]
             }
         ],
         'team_skill': [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ''
+        "version": "v2022.20"
     },
     {
         'id': 10205,
