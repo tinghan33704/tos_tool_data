@@ -1,4 +1,4 @@
-// Last modified : 2022.04.13 20:41
+// Last modified : 2022.04.16 22:13
 
 const monster_data = [
 	{
@@ -8139,7 +8139,7 @@ const monster_data = [
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "大地攻擊",
                 "type": "normal",
                 "charge": "CD",
                 "num": 5,
@@ -12095,7 +12095,7 @@ const monster_data = [
         "race": "神族",
         "star": 6,
         "monsterTag": ["星詠之歌姬"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "聖言詠歌",
@@ -12119,7 +12119,7 @@ const monster_data = [
         "race": "魔族",
         "star": 6,
         "monsterTag": ["星詠之歌姬"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "夜言鳴曲",
@@ -17675,7 +17675,7 @@ const monster_data = [
         "race": "神族",
         "star": 7,
         "monsterTag": ["星詠之歌姬"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "聖言詠歌",
@@ -17700,7 +17700,7 @@ const monster_data = [
         "race": "魔族",
         "star": 7,
         "monsterTag": ["星詠之歌姬"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "夜言鳴曲",
@@ -24012,7 +24012,7 @@ const monster_data = [
         "race": "神族",
         "star": 6,
         "monsterTag": ["星詠之歌姬"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "元素精煉 ‧ 水",
@@ -24036,7 +24036,7 @@ const monster_data = [
         "race": "神族",
         "star": 7,
         "monsterTag": ["星詠之歌姬"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "元素精煉 ‧ 水",
@@ -24104,7 +24104,7 @@ const monster_data = [
         "race": "魔族",
         "star": 6,
         "monsterTag": ["星詠之歌姬"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "元素精煉 ‧ 火",
@@ -24128,7 +24128,7 @@ const monster_data = [
         "race": "魔族",
         "star": 7,
         "monsterTag": ["星詠之歌姬"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "元素精煉 ‧ 火",
@@ -24203,7 +24203,7 @@ const monster_data = [
         "race": "神族",
         "star": 6,
         "monsterTag": ["星詠之歌姬"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "元素精煉 ‧ 木",
@@ -24227,7 +24227,7 @@ const monster_data = [
         "race": "神族",
         "star": 7,
         "monsterTag": ["星詠之歌姬"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "元素精煉 ‧ 木",
@@ -36784,7 +36784,7 @@ const monster_data = [
         "race": "神族",
         "star": 7,
         "monsterTag": ["誓約之花"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "信誓的泉源",
@@ -36816,7 +36816,7 @@ const monster_data = [
         "race": "神族",
         "star": 7,
         "monsterTag": ["誓約之花"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "熾熱的約定",
@@ -37550,7 +37550,7 @@ const monster_data = [
         "race": "神族",
         "star": 6,
         "monsterTag": ["地獄魔王"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "隱世之念 ‧ 木",
@@ -42504,7 +42504,7 @@ const monster_data = [
         "race": "神族",
         "star": 7,
         "monsterTag": ["誓約之花"],
-        "crossOver": false,
+        "crossOver": true,
         "vrPair": 1372,
         "skill": [
             {
@@ -42537,7 +42537,7 @@ const monster_data = [
         "race": "神族",
         "star": 7,
         "monsterTag": ["誓約之花"],
-        "crossOver": false,
+        "crossOver": true,
         "vrPair": 1371,
         "skill": [
             {
@@ -42562,7 +42562,7 @@ const monster_data = [
         "race": "神族",
         "star": 7,
         "monsterTag": ["誓約之花"],
-        "crossOver": false,
+        "crossOver": true,
         "vrPair": 1374,
         "skill": [
             {
@@ -42595,7 +42595,7 @@ const monster_data = [
         "race": "神族",
         "star": 7,
         "monsterTag": ["誓約之花"],
-        "crossOver": false,
+        "crossOver": true,
         "vrPair": 1373,
         "skill": [
             {
@@ -54382,7 +54382,7 @@ const monster_data = [
         "race": "強化素材",
         "star": 6,
         "monsterTag": ["強化素材"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "沒有技能",
@@ -60785,7 +60785,7 @@ const monster_data = [
         "race": "人類",
         "star": 7,
         "monsterTag": ["希冀"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "玄光圍城之勢",
@@ -61154,7 +61154,7 @@ const monster_data = [
         "race": "強化素材",
         "star": 6,
         "monsterTag": ["瘋頭"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "凍結",
@@ -64176,7 +64176,7 @@ const monster_data = [
         "race": "人類",
         "star": 6,
         "monsterTag": ["神魔天后"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "燃解心鎖",
@@ -67074,7 +67074,7 @@ const monster_data = [
         "race": "人類",
         "star": 6,
         "monsterTag": ["自然之花"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "清逸之流",
@@ -67098,7 +67098,7 @@ const monster_data = [
         "race": "人類",
         "star": 6,
         "monsterTag": ["自然之花"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "清逸之森",
@@ -67122,7 +67122,7 @@ const monster_data = [
         "race": "神族",
         "star": 7,
         "monsterTag": ["幻變之花"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "神之弓",
@@ -67154,7 +67154,7 @@ const monster_data = [
         "race": "神族",
         "star": 7,
         "monsterTag": ["幻變之花"],
-        "crossOver": false,
+        "crossOver": true,
         "skill": [
             {
                 "name": "神之幻術",

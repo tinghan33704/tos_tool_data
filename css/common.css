@@ -232,6 +232,11 @@ select {
 .btn-shell {
     padding: 3px;
 }
+@media (max-width: 576px) {
+	.top-btn-shell {
+		margin-bottom: 0.25rem;
+	}
+}
 .filter-btn, .attr-btn, .race-btn, .star-btn, .charge-btn, .activate-btn, .keyword-btn, .tag-btn, .extra-tag-btn, .version-tag-btn, .option-btn, .copy-btn {
     font-size: 1.2em;
     font-weight: normal;
@@ -654,7 +659,7 @@ select {
 }
 .use-inventory {
 	font-size: 0.6em;
-	padding: 5px;
+	margin: 5px 0;
 }
 
 .copyright {
