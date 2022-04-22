@@ -1,4 +1,4 @@
-// Last modified : 2022.04.16 22:13
+// Last modified : 2022.04.22 10:18
 
 const monster_data = [
 	{
@@ -99136,6 +99136,146 @@ const monster_data = [
         "maxSkill": 0,
         "maxRefine": 0,
         "version": ""
+    },
+	
+	
+    {
+        "id": '?-1',
+        "name": "至萌團寵 ‧ 卑彌呼",
+        "attribute": "水",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
+            {
+                "name": "聲壓眾生",
+                "type": "normal",
+                "charge": "CD",
+                "num": 7,
+                "description": "I. 將場上的符石變回原始模樣<br>II. <board>將外側符石轉化為水符石</board><br>1 回合內<br>III. 所受傷害減至 0<br>(包括「喋血屠刀」、「一擊必殺」等扣除召喚師指定 % 生命力的敵技所造成的傷害)<br>下回合<br>IV. 將移動符石時觸碰的符石<br>⇒ 轉化為人族強化符石<br>V. 全隊攻擊力 2.2 倍<br>VI. 自身對魔族目標<br>⇒ 攻擊力額外 5 倍",
+                "tag": ["還原版面", "符石轉水", "大幅轉版", "固定版面", "減傷", "符石強化", "人族符石製造", '軌跡轉化', "增傷", "對魔族增傷", "界王拳"]
+            }
+        ],
+        "team_skill": [
+            {
+                "description": "◆ 移動符石後首批掉落的符石<br>⇒ 必定為水強化符石<br><br>◆ 水及心符石互相兼具效果<br><br>◆ 首批消除所有水或心符石時<br>⇒ 水屬性及人類攻擊力額外 2.5 倍<br><br>◆ 所受水屬性傷害 50% (不包括敵技傷害)<br>⇒ 轉化為我方生命力<br><br>◆ 消除 1 組 ≥18 粒水符石<br>⇒ 增加 8 連擊 (Combo)<br><br>◆ 無視「黏腐」敵技<br><br>◆ 無視「蜘蛛網」敵技",
+                "activate": "以「至萌團寵 ‧ 卑彌呼」作隊長及戰友",
+                "skill_tag": ["強制掉落", "符石兼具水", "符石兼具心", "水兼具其他", "心兼具其他", "增攻", "敵方傷害吸收", "增加Combo", "無視黏腐"],
+                "activate_tag": ["指定雙隊長"],
+                "relative": ['?-1']
+            }
+        ],
+        "board": [["w", "w", "w", "w", "w", "w", "w", "-", "-", "-", "-", "w", "w", "-", "-", "-", "-", "w", "w", "-", "-", "-", "-", "w", "w", "w", "w", "w", "w", "w"]],
+        "maxLevel": 99,
+        "maxSkill": 12,
+        "maxRefine": 0,
+        "version": "v2022.30"
+    },
+    {
+        "id": '?-2',
+        "name": "魄力領舞 ‧ 烏瑞亞",
+        "attribute": "火",
+        "race": "神族",
+        "star": 6,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
+            {
+                "name": "神之舞靈",
+                "type": "normal",
+                "charge": "CD",
+                "num": 7,
+                "description": "I. <board>將最右方 3 直行的符石轉化為<br>⇒ 固定數量及位置的「火、木、光、暗、水」強化符石</board><br>II. 隊伍中有 3 個或以上神族成員時<br>⇒ 將最右方 3 直行的符石轉化為神族符石",
+                "tag": ["符石轉水", "符石轉水強化", "符石轉火", "符石轉火強化", "符石轉木", "符石轉木強化", "符石轉光", "符石轉光強化", "符石轉暗", "符石轉暗強化", "五屬版面", "固定版面", "神族符石製造"]
+            }
+        ],
+        "team_skill": [],
+        "board": [["-", "-", "-", "F", "F", "F", "-", "-", "-", "E", "E", "E", "-", "-", "-", "L", "L", "L", "-", "-", "-", "D", "D", "D", "-", "-", "-", "W", "W", "W"]],
+        "maxLevel": 99,
+        "maxSkill": 12,
+        "maxRefine": 0,
+        "version": "v2022.30"
+    },
+    {
+        "id": '?-3',
+        "name": "閃亮領唱 ‧ 維珍尼亞",
+        "attribute": "木",
+        "race": "機械族",
+        "star": 6,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
+            {
+                "name": "偶像契約",
+                "type": "normal",
+                "charge": "CD",
+                "num": 4,
+                "description": "1 回合內<br>I. 減少 80% 所受傷害<br>II. 自身無視敵人防禦力<br>III. 可任意移動符石而不會發動消除<br>IV. 將移動符石時觸碰的符石<br>⇒ 轉化為強化符石<br>V. 若發動技能時所有機械族成員的行動值達至 100%<br>⇒ 效果持續 3 回合",
+                "tag": [["減傷", 3], ["破防", 3], ["排珠", 3], ["符石強化", 3], ['軌跡轉化', 3]]
+            }
+        ],
+        "team_skill": [],
+        "maxLevel": 99,
+        "maxSkill": 12,
+        "maxRefine": 0,
+        "version": "v2022.30"
+    },
+    {
+        "id": '?-4',
+        "name": "壓台主音 ‧ 艾莉亞",
+        "attribute": "光",
+        "race": "人類",
+        "star": 6,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
+            {
+                "name": "艾莉亞的光芒",
+                "type": "normal",
+                "charge": "CD",
+                "num": 6,
+                "description": "I. 將光符石<br>⇒ 轉化為人族強化符石<br>1 回合內<br>II. 合計消除 ≥6 粒光或暗符石時<br>⇒ 個人追打自身攻擊力 2 倍的暗屬性攻擊 5 次<br>III. 敵方所受攻擊傷害的 50%<br>⇒ 分別擴散到其他敵人身上",
+                "tag": ["符石強化", "符石轉光強化", "人族符石製造", "自身追打", "暗屬追打", "增傷", "界王拳"]
+            },
+            {
+                "name": "艾莉亞的親和",
+                "type": "normal",
+                "charge": "CD",
+                "num": 8,
+                "description": "1 回合內，消除所有附加效果，每消除 1 個效果<br>⇒ 減少 50% 所受傷害<br>⇒ 最多減少 100%",
+                "tag": ["減傷", "附加消除"]
+            }
+        ],
+        "team_skill": [],
+        "maxLevel": 99,
+        "maxSkill": 12,
+        "maxRefine": 0,
+        "version": "v2022.30"
+    },
+    {
+        "id": '?-5',
+        "name": "天團領袖 ‧ 珞答以",
+        "attribute": "暗",
+        "race": "妖精類",
+        "star": 6,
+        "monsterTag": [],
+        "crossOver": false,
+        "skill": [
+            {
+                "name": "震撼全場",
+                "type": "normal",
+                "charge": "CD",
+                "num": 6,
+                "description": "點選元素法陣上的 1 粒符石<br>I. 引爆所有符石<br>⇒ 掉落該種符石以外的符石<br>2 回合內<br>II. 該種符石掉落率減至 0<br>III. 自身攻擊力 3 倍",
+                "tag": ["引爆", "整版引爆", "強制掉落", ["禁珠", 2], ["改變掉落機率", 2], ["增傷", 2], ["界王拳", 2]]
+            }
+        ],
+        "team_skill": [],
+        "maxLevel": 99,
+        "maxSkill": 12,
+        "maxRefine": 0,
+        "version": "v2022.30"
     },
 	
 	
