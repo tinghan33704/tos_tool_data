@@ -1,4 +1,4 @@
-// Last modified : 2022.04.22 21:34
+// Last modified : 2022.04.23 19:51
 
 const monster_data = [
 	{
@@ -86950,27 +86950,27 @@ const monster_data = [
     },
     {
         'id': 2755,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'name': '水舞劍神 ‧ 瑪德琳',
+        'attribute': '光',
+        'race': '人類',
+        'star': 6,
         'monsterTag': [],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '禦敵之盾',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
+                'num': 8,
                 'description': '',
-                'tag': []
+                'tag': [['減傷', -1], '隨時關閉', '符石強化', '人族符石製造']
             }
         ],
         'team_skill': [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ''
+        "version": 'v2022.30'
     },
     {
         'id': 2756,
@@ -95319,27 +95319,27 @@ const monster_data = [
     },
     {
         "id": 10107,
-        "name": "",
-        "attribute": "",
-        "race": "",
-        "star": 0,
+        "name": "裙下殺意 ‧ 朱莉",
+        "attribute": "水",
+        "race": "魔族",
+        "star": 6,
         "monsterTag": [],
         "crossOver": false,
         "skill": [
             {
-                "name": "",
+                "name": "絕命魔弒",
                 "type": "normal",
                 "charge": "CD",
-                "num": 0,
+                "num": 6,
                 "description": "",
-                "tag": []
+                "tag": ['無視黏腐', '無視燃燒', '刷新護盾', '魔族符石製造', '符石轉水']
             }
         ],
         "team_skill": [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ""
+        "version": "v2022.30"
     },
     {
         "id": 10108,
@@ -99195,27 +99195,27 @@ const monster_data = [
     },
     {
         'id': 10229,
-        'name': '',
-        'attribute': '',
-        'race': '',
-        'star': 0,
+        'name': '狂熱粉絲三人組',
+        'attribute': '火',
+        'race': '人類',
+        'star': 6,
         'monsterTag': [],
         'crossOver': false,
         'skill': [
             {
-                'name': '',
+                'name': '極致的膜拜',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 0,
+                'num': 6,
                 'description': '',
-                'tag': []
+                'tag': ['光轉其他', '暗轉其他', '心轉其他', '符石轉水', '符石轉火', '符石轉木', '減CD', ['亢奮狀態', 3], ['增傷', 3], ['界王拳', 3], '水轉其他', '火轉其他', '木轉其他', '符石轉光', '符石轉暗', '符石轉心']
             }
         ],
         'team_skill': [],
-        "maxLevel": 0,
-        "maxSkill": 0,
+        "maxLevel": 99,
+        "maxSkill": 12,
         "maxRefine": 0,
-        "version": ''
+        "version": "v2022.30"
     },
     {
         "id": 10230,
@@ -99354,6 +99354,870 @@ const monster_data = [
         "maxSkill": 12,
         "maxRefine": 4,
         "version": "v2022.30"
+    },
+    {
+        'id': 10235,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10236,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10237,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10238,
+        'name': '重義情全 ‧ 西奧',
+        'attribute': '木',
+        'race': '人類',
+        'star': 5,
+        'monsterTag': ['法理部'],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '無視黏腐的法則',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 7,
+                'description': '',
+                'tag': ['引爆', '暗符石引爆', '風化符石處理', '強制掉落', ['無視黏腐', 3], ['符石兼具木', 3], ['符石兼具心', 3]]
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 99,
+        "maxSkill": 12,
+        "maxRefine": 0,
+        "version": 'v2022.30'
+    },
+    {
+        'id': 10239,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10240,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10241,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10242,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10243,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10244,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10245,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10246,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10247,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10248,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10249,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10250,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10251,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10252,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10253,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10254,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10255,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10256,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10257,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10258,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10259,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10260,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10261,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10262,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10263,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10264,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10265,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10266,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10267,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10268,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10269,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
+    },
+    {
+        'id': 10270,
+        'name': '',
+        'attribute': '',
+        'race': '',
+        'star': 0,
+        'monsterTag': [],
+        'crossOver': false,
+        'skill': [
+            {
+                'name': '',
+                'type': 'normal',
+                'charge': 'CD',
+                'num': 0,
+                'description': '',
+                'tag': []
+            }
+        ],
+        'team_skill': [],
+        "maxLevel": 0,
+        "maxSkill": 0,
+        "maxRefine": 0,
+        "version": ''
     },
     {
         "id": 20001,
