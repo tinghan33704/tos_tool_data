@@ -1,4 +1,4 @@
-// Last modified : 2022.04.23 19:51
+// Last modified : 2022.04.25 13:26
 
 const monster_data = [
 	{
@@ -86954,7 +86954,7 @@ const monster_data = [
         'attribute': '光',
         'race': '人類',
         'star': 6,
-        'monsterTag': [],
+        'monsterTag': ['珍念時光'],
         'crossOver': false,
         'skill': [
             {
@@ -86962,7 +86962,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 8,
-                'description': '',
+                'description': 'I. 減少 20% 所受傷害<br>II. 每次受到敵人攻擊<br>⇒ 減傷效果提升 10%<br>⇒ 最多可減少 40% 傷害<br>(效果會在關閉此技能或死亡後消失)<br><br>此技能可隨時關閉，關閉時：<br>⓵ 將所有符石轉化為<br>⇒ 人族強化符石',
                 'tag': [['減傷', -1], '隨時關閉', '符石強化', '人族符石製造']
             }
         ],
@@ -95323,7 +95323,7 @@ const monster_data = [
         "attribute": "水",
         "race": "魔族",
         "star": 6,
-        "monsterTag": [],
+        "monsterTag": ['裙下殺意'],
         "crossOver": false,
         "skill": [
             {
@@ -95331,7 +95331,7 @@ const monster_data = [
                 "type": "normal",
                 "charge": "CD",
                 "num": 6,
-                "description": "",
+                "description": "1 回合內<br>I. 無視「黏腐」<br>II. 燃燒傷害轉化為我方生命力<br>III. 刷新護盾<br>IV. 隊長為魔族成員時<br>⓵ 將魔族成員直行符石<br>⇒ 添加為魔族符石<br>⓶ 將水屬性魔族成員直行最底 1 粒符石<br>⇒ 轉化為水符石",
                 "tag": ['無視黏腐', '無視燃燒', '刷新護盾', '魔族符石製造', '符石轉水']
             }
         ],
@@ -99199,7 +99199,7 @@ const monster_data = [
         'attribute': '火',
         'race': '人類',
         'star': 6,
-        'monsterTag': [],
+        'monsterTag': ['狂熱粉絲'],
         'crossOver': false,
         'skill': [
             {
@@ -99207,7 +99207,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 6,
-                'description': '',
+                'description': '每次只能選取 1 個效果。<br><br>效果1：<br>I. 將光符石轉化為水符石<br>II. 將暗符石轉化為火符石<br>III. 將心符石轉化為木符石<br>1 回合內<br>IV. 若首批消除所有符石<br>⇒ 回合結束時<br>⓵ 自身技能 CD - 3<br>⓶ 自身進入 3 回合亢奮狀態<br><br>效果2：<br>I. 將水符石轉化為光符石<br>II. 將火符石轉化為暗符石<br>III. 將木符石轉化為心符石<br>IV. 若首批消除所有符石<br>⇒ 回合結束時<br>⓵ 自身技能 CD - 3<br>⓶ 自身進入 3 回合亢奮狀態',
                 'tag': ['光轉其他', '暗轉其他', '心轉其他', '符石轉水', '符石轉火', '符石轉木', '減CD', ['亢奮狀態', 3], ['增傷', 3], ['界王拳', 3], '水轉其他', '火轉其他', '木轉其他', '符石轉光', '符石轉暗', '符石轉心']
             }
         ],
@@ -99441,7 +99441,7 @@ const monster_data = [
                 'type': 'normal',
                 'charge': 'CD',
                 'num': 7,
-                'description': '',
+                'description': 'I. 引爆暗符石及風化符石<br>⇒ 掉落木及心符石<br>1 回合內<br>II. 無視「黏腐」<br>III. 所有符石分別兼具<br>⇒ 50% 木及心符石效果<br>IV. 若隊中有 ≥2 種族成員<br>⇒ 額外增加 2 回合效果',
                 'tag': ['引爆', '暗符石引爆', '風化符石處理', '強制掉落', ['無視黏腐', 3], ['符石兼具木', 3], ['符石兼具心', 3]]
             }
         ],

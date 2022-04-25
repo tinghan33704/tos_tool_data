@@ -1,4 +1,4 @@
-// Last modified : 2022.04.14 21:36
+// Last modified : 2022.04.25 13:26
 
 const armed_craft_data = [
     {
@@ -15031,9 +15031,25 @@ const armed_craft_data = [
         'add_hp': 5,
         'add_atk': 5,
         'add_rec': 5,
-        'skill_description': [],
+        'skill_description': ['1 回合內，隊伍攻擊力提升 25%', '1 回合內，完全回復生命力', '完成龍刻脈動後，隨機把 1 直行的符石轉化為心符石'],
         'skill_tag': [],
-        'armed_description': [],
+        'armed_description': ['進入關卡後，自身主動技能 CD 減少 1', '每回合回復 6000 點生命力', '同時消除暗及心符石時，自身攻擊力 1.2 倍'],
+        'armed_tag': [],
+    },
+    {
+        'id': 7099,
+        'name': '【7099】 澄麗雙劍龍咒',
+        'mode': '破碎龍咒',
+        'attribute': '光',
+        'race': '人類',
+        'star': 3,
+        'charge': '消除符石',
+        'add_hp': 5,
+        'add_atk': 5,
+        'add_rec': 5,
+        'skill_description': ['1 回合內，隊伍攻擊力提升 25%', '隊長及戰友的技能 CD 減少 3', '1 回合內，減少 100% 所受傷害'],
+        'skill_tag': [],
+        'armed_description': ['必然延長移動符石時間 1 秒', '進入關卡後，自身主動技能 CD 減少 1', '同時消除水及光符石，自身攻擊力 1.5 倍'],
         'armed_tag': [],
     },
     {
