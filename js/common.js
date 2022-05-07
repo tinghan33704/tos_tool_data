@@ -132,7 +132,6 @@ function init() {
     $("#reset_tag").length && $("#reset_tag").on("click", clearFilterButtonRow('tag'));
     $("#reset_mode").length && $("#reset_mode").on("click", clearFilterButtonRow('mode'));
     $("#reset_keyword").length && $("#reset_keyword").on("click", clearKeyword);
-    $("#keyword-switch").length && $("#keyword-switch").on("click", keywordSwitch);
     $("#optionPanel").length && $('#optionPanel').on('hide.bs.modal', recordOption);
     $("#switch_display").length && $('#switch_display').on("click", displaySwitch);
     $("#close_notification").length && $('#close_notification').on("click", closeNotification);
@@ -248,12 +247,8 @@ function createKeywordRow() {
         let str = $(".keyword-row").html();
         str += `
         <div class='col-12 my-2'></div>
-        <div class='col-12 col-md-4 col-lg-2 btn-shell'>
-            <input type='checkbox' class='filter' id='keyword-switch'>
-            <label class='p-1 w-100 text-center keyword-btn' for='keyword-switch'>關鍵字搜尋</label>
-        </div>
-        <div class='col-12 col-md-8 col-lg-10 btn-shell'>
-            <input type='text' class='form-control keyword-input' id='keyword-input' placeholder='輸入技能關鍵字' maxlength=${input_maxlength} disabled>
+        <div class='col-12 btn-shell'>
+            <input type='text' class='form-control keyword-input' id='keyword-input' placeholder='輸入技能關鍵字' maxlength=${input_maxlength}>
         </div>`;
         return str;
     });
@@ -270,12 +265,7 @@ function checkKeyword() {
     /* keyword input check */
     let keyword_group = textSanitizer($('#keyword-input').val());
         
-    if(keyword_group.length <= 0)
-    {
-        errorAlert(3);
-        return;
-    }
-    else if(keyword_group.length > input_maxlength)
+    if(keyword_group.length > input_maxlength)
     {
         errorAlert(4);
         return;
@@ -290,12 +280,6 @@ function checkKeyword() {
     $.each(keywords, (index, keyword) => {
         if(keyword.length > 0 && keyword.length <= input_maxlength) keyword_set.add(keyword);
     });
-    
-    if(keyword_set.size <= 0)
-    {
-        errorAlert(3);
-        return;
-    }
     
     return keyword_set;
 }
@@ -316,40 +300,6 @@ function clearAll()
     clearFilterButtonRow('activate')();
     clearFilterButtonRow('mode')();
     clearKeyword();
-}
-
-function keywordSwitch()
-{
-    let useKeyword = $("#keyword-switch").prop('checked')
-    
-    keyword_search = useKeyword;
-    $('#keyword-input').attr('disabled', !useKeyword);
-    
-    $('#keyword-input').css(
-        { 
-            borderColor: useKeyword ? 'var(--text_color)' : 'var(--button_keyword_color_input_unable)',
-            backgroundColor: useKeyword ? 'var(--button_keyword_color_input_able)' : 'var(--button_keyword_color_input_unable)'
-        }
-    );
-    
-    $(".filter-row .filter").each(function() {
-        $(this).attr('disabled', useKeyword);
-        
-        if(useKeyword) {
-            $(this).next().css(
-                {
-                    border: '1px solid var(--button_keyword_color_unable)', 
-                    color: '#AAAAAA', 
-                    backgroundColor: 'var(--button_keyword_color_unable)', 
-                    cursor: 'default', 
-                    fontWeight: 'normal'
-                }
-            );
-        }
-        else {
-            $(this).next().removeAttr('style');
-        }
-    });
 }
 
 function getSelectedButton(name, getFirstOnly = false) {
@@ -564,8 +514,8 @@ function setInputFromUrl(element, data)
 
 function changeUrl()
 {
-    let search_str = (isTypeSelected(".filter-row") && !keyword_search) ? `search=${encode(".filter-row")}&` : ''
-    let keyword_str = (stringToUnicode(textSanitizer($('#keyword-input').val())).length > 0 && keyword_search) ? `keyword=${stringToUnicode(textSanitizer($('#keyword-input').val()))}&` : ''
+    let search_str = isTypeSelected(".filter-row") ? `search=${encode(".filter-row")}&` : ''
+    let keyword_str = stringToUnicode(textSanitizer($('#keyword-input').val())).length > 0 ? `keyword=${stringToUnicode(textSanitizer($('#keyword-input').val()))}&` : ''
     let attr_str = isTypeSelected(".attr-row") ? `attr=${encode(".attr-row")}&` : ''
     let race_str = isTypeSelected(".race-row") ? `race=${encode(".race-row")}&` : ''
     let star_str = isTypeSelected(".star-row") ? `star=${encode(".star-row")}&` : ''
@@ -593,21 +543,8 @@ function readUrl()
 	let inputQuery = {};
 	location.search.split("?")[1].split("&").forEach(query => inputQuery[query.split('=')[0]] = query.split('=')[1])
     
-    if('search' in inputQuery && 'keyword' in inputQuery)
-    {
-        errorAlert(1);
-        return;
-    }
-    
-    if('search' in inputQuery) {
-		setButtonFromUrl(".filter-row", decode(inputQuery['search']), clearFilterButtonRow('filter'));
-	}
-    else if('keyword' in inputQuery) {
-		setInputFromUrl(".keyword-input", unicodeToString(inputQuery['keyword']));
-        
-        $("#keyword-switch").click();
-        keywordSwitch();
-	}
+	inputQuery['search'] && setButtonFromUrl(".filter-row", decode(inputQuery['search']), clearFilterButtonRow('filter'));
+	inputQuery['keyword'] && setInputFromUrl(".keyword-input", unicodeToString(inputQuery['keyword']));
     
 	'attr' in inputQuery && setButtonFromUrl(".attr-row", decode(inputQuery['attr']), clearFilterButtonRow('attr'));
 	'race' in inputQuery && setButtonFromUrl(".race-row", decode(inputQuery['race']), clearFilterButtonRow('race'));
