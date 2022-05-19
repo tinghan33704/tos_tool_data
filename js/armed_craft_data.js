@@ -1,4 +1,4 @@
-// Last modified : 2022.05.09 21:50
+// Last modified : 2022.05.19 18:33
 
 const armed_craft_data = [
     {
@@ -15470,6 +15470,22 @@ const armed_craft_data = [
         'skill_description': ['1 回合內，隊伍攻擊力提升 25%', '隊長及戰友的技能 CD 減少 3', '1 回合內，減少 100% 所受傷害'],
         'skill_tag': [],
         'armed_description': ['必然延長移動符石時間 1 秒', '進入關卡後，自身主動技能 CD 減少 1', '同時消除水及光符石，自身攻擊力 1.5 倍'],
+        'armed_tag': [],
+    },
+    {
+        'id': 7100,
+        'name': '【7100】 噬靈巨鐮龍符',
+        'mode': '映照龍符',
+        'attribute': '水',
+        'race': '獸類',
+        'star': 3,
+        'charge': '消除符石',
+        'add_hp': 5,
+        'add_atk': 5,
+        'add_rec': 5,
+        'skill_description': ['1 回合內，隊伍攻擊力提升 25%', '1 回合內，無視攻前盾', '1 回合內，隊長以 50% 攻擊力追打五屬攻擊各 1 次'],
+        'skill_tag': [],
+        'armed_description': ['進入關卡後，自身主動技能 CD 減少 2', '此召喚獸發動技能的回合，自身攻擊力 1.5 倍', '消除獸族符石時，自身攻擊力 1.3 倍'],
         'armed_tag': [],
     },
     {
