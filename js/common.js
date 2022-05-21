@@ -185,6 +185,12 @@ function setNotification() {
 				$("#notification").css({'display': 'block'})
 			}
         break;
+        case 'backpack':
+			if(backpack_notification.length) {
+				$("#notification_text").html(backpack_notification)
+				$("#notification").css({'display': 'block'})
+			}
+        break;
     }
 	
 }
