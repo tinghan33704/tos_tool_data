@@ -873,6 +873,6 @@ const endDate2 = new Date('2022-05-31T23:59:59+0800').getTime();
 const diffTime1 = endDate1 - currentDate > 1000 * 60 * 60 * 24 ? ` ${Math.floor((endDate1 - currentDate) / (1000 * 60 * 60 * 24))} 天` : endDate1 - currentDate > 1000 * 60 * 60 ? ` ${Math.floor((endDate1 - currentDate) / (1000 * 60 * 60))} 小時` :  ` ${Math.floor((endDate1 - currentDate) / (1000 * 60))} 分鐘`
 const diffTime2 = endDate2 - currentDate > 1000 * 60 * 60 * 24 ? ` ${Math.floor((endDate2 - currentDate) / (1000 * 60 * 60 * 24))} 天` : endDate2 - currentDate > 1000 * 60 * 60 ? ` ${Math.floor((endDate2 - currentDate) / (1000 * 60 * 60))} 小時` :  ` ${Math.floor((endDate2 - currentDate) / (1000 * 60))} 分鐘`
 
-const backpack_notification = endDate1 - currentDate > 0 ? `<font style="font-size: 1.5em">九週年 All Max 自選還剩${diffTime1}</font>` : endDate2 - currentDate > 0 ? `<font style="font-size: 1.5em">巴哈金賞 All Max 自選還剩${diffTime2}</font>` : ''
+const backpack_notification = endDate1 - currentDate > 0 ? `<font style="font-size: 1.5em">九週年 All Max 自選還剩<font style="color: red; font-weight: bold;">${diffTime1}</font></font>` : endDate2 - currentDate > 0 ? `<font style="font-size: 1.5em">巴哈金賞 All Max 自選還剩<font style="color: red; font-weight: bold;">${diffTime2}</font></font>` : ''
 
 const myAuth = 'NTk1NjM2MzUxNzY1NjUw'
