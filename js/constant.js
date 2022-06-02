@@ -4,7 +4,7 @@ const skill_type_string = [
 ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '五屬版面', '五屬心版面'],
 ['符石轉水強化', '符石轉火強化', '符石轉木強化', '符石轉光強化', '符石轉暗強化', '符石轉心強化'],
 ['水轉其他', '火轉其他', '木轉其他', '光轉其他', '暗轉其他', '心轉其他', '指定符石轉其他'],
-['符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心'],
+['符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心', '符石效果提升', '強化珠效果提升'],
 ['水屬追打', '火屬追打', '木屬追打', '光屬追打', '暗屬追打', '無屬追打', '五屬追打', '自身追打', '全隊追打'],
 ['引爆', '整版引爆', '直行引爆', '橫行引爆', 'X型引爆', '多次引爆', '水符石引爆', '火符石引爆', '木符石引爆', '光符石引爆', '暗符石引爆', '心符石引爆', '水外符石引爆', '火外符石引爆', '木外符石引爆', '光外符石引爆', '暗外符石引爆', '心外符石引爆', '指定符石引爆', '指定符石外引爆'],
 ['人族符石製造', '獸族符石製造', '妖族符石製造', '龍族符石製造', '神族符石製造', '魔族符石製造', '機械族符石製造'],
@@ -20,7 +20,7 @@ const skill_type_string = [
 ['無法行動', '凍結敵方', '點燃敵方', '石化敵方', '電擊敵方', '寄生敵方', '敵方中毒', '敵方烈毒', '魅惑敵方', '暈擊敵方'],
 ['敵方轉水', '敵方轉火', '敵方轉木', '敵方轉光', '敵方轉暗'],
 ['解鎖', '防鎖', '防毒', '防爆', '防反擊', '無視燃燒', '無視黏腐', '無視暴風', '無視射擊', '無視黑洞', '無視致命步伐', '無視灼熱地型', '無視腐化', '黑白還原', '碎裂還原', '解除暴風', '解除休眠', '無視拼圖盾', '無視攻前盾', '無視強化盾', '無視二屬盾', '無視三屬盾', '無視四屬盾', '無視五屬盾', '無視固定連擊盾', '無視連擊相等盾', '無視追擊零化', '無視連擊法印', '無視反首消盾'],
-['風化符石處理', '凍結符石處理', '弱化符石處理', '電擊符石處理', '石化符石處理', '化血符石處理'],
+['風化符石處理', '凍結符石處理', '弱化符石處理', '電擊符石處理', '石化符石處理', '化血符石處理', '爆破炸彈處理'],
 ['我方減攻', '我方減回', '我方扣血', '限制成員攻擊', '我方受傷增加']
 ];
 
@@ -45,7 +45,7 @@ const team_skill_type_string = [
 ['對人類增傷', '對獸類增傷', '對妖精類增傷', '對龍類增傷', '對神族增傷', '對魔族增傷', '對機械族增傷'],
 ['無法行動', '電擊敵方', '寄生敵方', '暈擊敵方', '敵方中毒', '敵方烈毒'],
 ['防毒', '無視燃燒', '無視黏腐', '無視暴風', '無視電擊', '無視射擊', '無視瘴氣', '無視黑洞', '黑白還原', '無視拼圖盾', '無視攻前盾', '無視二屬盾', '無視三屬盾', '無視四屬盾', '無視五屬盾', '無視固定連擊盾', '無視連擊相等盾'],
-['風化符石處理', '凍結符石處理', '弱化符石處理', '電擊符石處理', '石化符石處理', '化血符石處理'],
+['風化符石處理', '凍結符石處理', '弱化符石處理', '電擊符石處理', '石化符石處理', '化血符石處理', '爆破炸彈處理'],
 ['物品掉落增加'],
 ['我方減攻', '我方減回'],
 ];
@@ -865,14 +865,16 @@ const veri_maxlength = 6;
 
 const monster_notification = ''
 const craft_notification = ''
+const backpack_notification = ''
 
 /* calculate remain days */
-const currentDate = new Date().getTime()
+
+/* const currentDate = new Date().getTime()
 const endDate1 = new Date('2022-05-22T23:59:59+0800').getTime();
 const endDate2 = new Date('2022-05-31T23:59:59+0800').getTime();
 const diffTime1 = endDate1 - currentDate > 1000 * 60 * 60 * 24 ? ` ${Math.floor((endDate1 - currentDate) / (1000 * 60 * 60 * 24))} 天` : endDate1 - currentDate > 1000 * 60 * 60 ? ` ${Math.floor((endDate1 - currentDate) / (1000 * 60 * 60))} 小時` :  ` ${Math.floor((endDate1 - currentDate) / (1000 * 60))} 分鐘`
 const diffTime2 = endDate2 - currentDate > 1000 * 60 * 60 * 24 ? ` ${Math.floor((endDate2 - currentDate) / (1000 * 60 * 60 * 24))} 天` : endDate2 - currentDate > 1000 * 60 * 60 ? ` ${Math.floor((endDate2 - currentDate) / (1000 * 60 * 60))} 小時` :  ` ${Math.floor((endDate2 - currentDate) / (1000 * 60))} 分鐘`
 
-const backpack_notification = endDate1 - currentDate > 0 ? `<font style="font-size: 1.5em">九週年 All Max 自選還剩<font style="color: red; font-weight: bold;">${diffTime1}</font></font>` : endDate2 - currentDate > 0 ? `<font style="font-size: 1.5em">巴哈金賞 All Max 自選還剩<font style="color: red; font-weight: bold;">${diffTime2}</font></font>` : ''
+const backpack_notification = endDate1 - currentDate > 0 ? `<font style="font-size: 1.5em">九週年 All Max 自選還剩<font style="color: red; font-weight: bold;">${diffTime1}</font></font>` : endDate2 - currentDate > 0 ? `<font style="font-size: 1.5em">巴哈金賞 All Max 自選還剩<font style="color: red; font-weight: bold;">${diffTime2}</font></font>` : '' */
 
 const myAuth = 'NTk1NjM2MzUxNjYwNDAx'
