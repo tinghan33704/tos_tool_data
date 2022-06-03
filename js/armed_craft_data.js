@@ -1,4 +1,4 @@
-// Last modified : 2022.05.19 18:33
+// Last modified : 2022.06.03 15:00
 
 const armed_craft_data = [
     {
@@ -15646,6 +15646,22 @@ const armed_craft_data = [
         'skill_description': ['1 回合內，暗屬性成員的攻擊力提升 25%', '1 回合內，完全回復生命力', '完成龍刻脈動後，將場上數量最多的 1 種符石轉化為暗符石'],
         'skill_tag': [],
         'armed_description': ['延長移動符石時間 1 秒', '消除 1 組 4 粒或以上的暗符石，自身攻擊力 1.15 倍', '自身對光屬性目標攻擊力額外 1.15 倍'],
+        'armed_tag': [],
+    },
+    {
+        'id': 7111,
+        'name': '【7111】飛雷戰銃龍璃',
+        'mode': '落影龍璃',
+        'attribute': '光',
+        'race': '妖精類',
+        'star': 2,
+        'charge': '消除符石',
+        'add_hp': 0,
+        'add_atk': 0,
+        'add_rec': 0,
+        'skill_description': ['1 回合內，妖精類成員的攻擊力提升 25%', '延遲全體敵人行動 1 回合'],
+        'skill_tag': [],
+        'armed_description': ['消除妖族符石時，自身攻擊力 1.2 倍', '消除 1 組 5 粒或以上的心符石，自身攻擊力 1.15 倍'],
         'armed_tag': [],
     },
     {
