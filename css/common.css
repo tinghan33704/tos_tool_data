@@ -630,9 +630,15 @@ select {
 	text-align: center;
 }
 .uid-nav, .seal-nav {
-	border-radius: 5px;
 	padding: 10px;
 	cursor: pointer;
+}
+.uid-nav {
+	border-radius: 5px;
+}
+.seal-nav {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 .uid-nav-active, .seal-nav-active {
 	background-color: var(--div_nav_active_background);
