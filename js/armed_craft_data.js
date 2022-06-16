@@ -1,4 +1,4 @@
-// Last modified : 2022.06.03 22:27
+// Last modified : 2022.06.16 17:24
 
 const armed_craft_data = [
     {
@@ -15678,6 +15678,22 @@ const armed_craft_data = [
         'skill_description': ['1 回合內，魔族成員的攻擊力提升 25%', '1 回合內，80% 的攻擊傷害無視五屬盾'],
         'skill_tag': [],
         'armed_description': ['延長移動符石時間 1.5 秒', '消除 1 組 5 粒或以上的火符石，自身攻擊力 1.3 倍'],
+        'armed_tag': [],
+    },
+    {
+        'id': 7113,
+        'name': '【7113】燭天熾拳龍璃',
+        'mode': '落影龍璃',
+        'attribute': '火',
+        'race': '人類',
+        'star': 3,
+        'charge': '消除符石',
+        'add_hp': 0,
+        'add_atk': 0,
+        'add_rec': 0,
+        'skill_description': ['1 回合內，隊伍攻擊力提升 25%', '1 回合內，以所受傷害 1000 倍對敵方全體進行無屬性反擊', '1 回合內，所受傷害不會使你死亡'],
+        'skill_tag': [],
+        'armed_description': ['必然延長移動符石時間 1 秒', '進入關卡後，自身主動技能 CD 減少 1', '自身攻擊無視敵人防禦力'],
         'armed_tag': [],
     },
 	{
