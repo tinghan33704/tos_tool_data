@@ -866,7 +866,8 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const monster_notification = ''
+const active_skill_notification = '準備挑戰六封災厄的勇者們請注意：王關的反首消盾無視無視反首消盾功能。快用你那無敵的手轉/其他技能想想辦法吧'
+const team_skill_notification = ''
 const craft_notification = ''
 const backpack_notification = ''
 

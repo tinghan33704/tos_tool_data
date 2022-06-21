@@ -173,9 +173,14 @@ function init() {
 function setNotification() {
 	switch(tool_id) {
         case 'active_skill':
+			if(active_skill_notification.length) {
+				$("#notification_text").html(active_skill_notification)
+				$("#notification").css({'display': 'block'})
+			}
+        break;
         case 'team_skill':
-			if(monster_notification.length) {
-				$("#notification_text").html(monster_notification)
+			if(team_skill_notification.length) {
+				$("#notification_text").html(team_skill_notification)
 				$("#notification").css({'display': 'block'})
 			}
         break;
