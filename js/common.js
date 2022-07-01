@@ -75,6 +75,7 @@ function init() {
             createFilterButtonRow("race", race_type_string);
             createFilterButtonRow("star", star_type_string, ' ★');
             createFilterButtonRow("charge", charge_type_string);
+            createFilterButtonRow("genre", genre_type_string);
         break;
         case 'team_skill':
             createFilterButtonRow("filter", team_skill_type_string);
@@ -129,6 +130,7 @@ function init() {
     $("#reset_race").length && $("#reset_race").on("click", clearFilterButtonRow('race'));
     $("#reset_star").length && $("#reset_star").on("click", clearFilterButtonRow('star'));
     $("#reset_charge").length && $("#reset_charge").on("click", clearFilterButtonRow('charge'));
+    $("#reset_genre").length && $("#reset_genre").on("click", clearFilterButtonRow('genre'));
     $("#reset_tag").length && $("#reset_tag").on("click", clearFilterButtonRow('tag'));
     $("#reset_mode").length && $("#reset_mode").on("click", clearFilterButtonRow('mode'));
     $("#reset_keyword").length && $("#reset_keyword").on("click", clearKeyword);
@@ -307,6 +309,7 @@ function clearAll()
     clearFilterButtonRow('race')();
     clearFilterButtonRow('star')();
     clearFilterButtonRow('charge')();
+    clearFilterButtonRow('genre')();
     clearFilterButtonRow('tag')();
     clearFilterButtonRow('activate')();
     clearFilterButtonRow('mode')();

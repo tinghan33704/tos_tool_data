@@ -237,7 +237,7 @@ select {
 		margin-bottom: 0.25rem;
 	}
 }
-.filter-btn, .attr-btn, .race-btn, .star-btn, .charge-btn, .activate-btn, .keyword-btn, .mode-btn, .tag-btn, .extra-tag-btn, .version-tag-btn, .option-btn, .copy-btn {
+.filter-btn, .attr-btn, .race-btn, .star-btn, .charge-btn, .activate-btn, .keyword-btn, .mode-btn, .tag-btn, .extra-tag-btn, .genre-btn, .version-tag-btn, .option-btn, .copy-btn {
     font-size: 1.2em;
     font-weight: normal;
     color: var(--text_color);
@@ -389,6 +389,16 @@ select {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%) opacity(30%);
 }
+.monster_img_combine_icon, .monster_img_combine_icon_gray {
+	position: absolute;
+    right: 2%;
+    top: -10%;
+    width: 30%;
+}
+.monster_img_combine_icon_gray {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%) opacity(40%);
+}
 .relative_img {
     max-width: 6%;
     margin: 2px 0;
@@ -412,7 +422,6 @@ select {
     text-decoration: none;
     color: var(--text_monsterid_color);
 }
-
 .charge_num_div {
     font-size: 1.7em;
     font-weight: bold;
@@ -425,6 +434,9 @@ select {
     border: 0;
     height: 0;
     margin-top: 30px;
+}
+.result_combine_hr {
+    margin: 10px 0;
 }
 
 .popover {
@@ -507,6 +519,12 @@ select {
 }
 .skill_name_recall {
     color: var(--text_recall_tooltip_color);
+    font-weight: bold;
+    text-align: left;
+    white-space: pre-wrap;
+}
+.skill_name_combine {
+    color: var(--text_name_tooltip_color);
     font-weight: bold;
     text-align: left;
     white-space: pre-wrap;
