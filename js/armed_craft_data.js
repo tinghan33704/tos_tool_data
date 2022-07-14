@@ -1,4 +1,4 @@
-// Last modified : 2022.07.11 14:35
+// Last modified : 2022.07.14 23:59
 
 const armed_craft_data = [
     {
@@ -16324,6 +16324,22 @@ const armed_craft_data = [
         'skill_description': ['1 回合內，隊伍攻擊力提升 25%', '1 回合內，以所受傷害 1000 倍對敵方全體進行無屬性反擊', '1 回合內，所受傷害不會使你死亡'],
         'skill_tag': [],
         'armed_description': ['必然延長移動符石時間 1 秒', '進入關卡後，自身主動技能 CD 減少 1', '自身攻擊無視敵人防禦力'],
+        'armed_tag': [],
+    },
+    {
+        'id': 7114,
+        'name': '【7114】聚螢青燈龍丸',
+        'mode': '鏡像龍丸',
+        'attribute': '木',
+        'race': '妖精類',
+        'star': 3,
+        'charge': '消除符石',
+        'add_hp': 0,
+        'add_atk': 0,
+        'add_rec': 0,
+        'skill_description': ['1 回合內，隊伍攻擊力提升 25%', '1 回合內，50% 的攻擊傷害無視指定形狀盾', '1 回合內，隊長以 50% 攻擊力追打五屬攻擊各 1 次'],
+        'skill_tag': [],
+        'armed_description': ['必然延長移動符石時間 1 秒', '消除妖精類符石時，自身攻擊力 1.5 倍', '消除 20 粒或以上符石，自身攻擊力 1.15 倍'],
         'armed_tag': [],
     },
 	{
