@@ -629,7 +629,7 @@ select {
 
 .option-text {
     font-size: 1.2em;
-    font-weight: normal;
+    font-weight: bold;
     color: var(--text_color);
     text-align: center;
     border: 1px solid transparent;
