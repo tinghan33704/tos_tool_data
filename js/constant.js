@@ -54,6 +54,8 @@ const team_skill_activate_string = [
 ['指定隊長', '指定戰友', '指定雙隊長', '指定隊長戰友', '指定成員', '指定屬性成員', '指定種族成員', '指定稀有度成員', '等級下限', '昇華下限', '裝備龍刻'],
 ];
 
+const leader_skill_limit_string = ['我方血量', '敵方血量', '單體攻擊', '全體攻擊', '消除特定符石', '消除數量', '消除種類數量', '消除一組數量', '成員屬性', '成員種族', '特定成員', '成員數量', '回合上限', '消除Combo', '轉珠時間', '含附加效果'];
+
 const tag_string = [
 ['自家', '合作'], 
 ['地獄魔王', '封王', '侵蝕 ‧ 封王', '公會任務', '討伐戰', '競技場', '修羅場', '戰慄級', '武術大賽', '世界募集', '公會戰', '魔神戰', '迎擊戰', '召喚師 Bingo', ],
@@ -889,4 +891,4 @@ const diffTime2 = endDate2 - currentDate > 1000 * 60 * 60 * 24 ? ` ${Math.floor(
 
 const backpack_notification = endDate1 - currentDate > 0 ? `<font style="font-size: 1.5em">九週年 All Max 自選還剩<font style="color: red; font-weight: bold;">${diffTime1}</font></font>` : endDate2 - currentDate > 0 ? `<font style="font-size: 1.5em">巴哈金賞 All Max 自選還剩<font style="color: red; font-weight: bold;">${diffTime2}</font></font>` : '' */
 
-const myAuth = 'NTk1NjM2MzUxMzkzNTA4'
+const myAuth = 'NTk1NjM2MzUxNDYwNzEx'
