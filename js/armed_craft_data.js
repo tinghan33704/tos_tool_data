@@ -1,4 +1,4 @@
-// Last modified : 2022.07.28 21:46
+// Last modified : 2022.08.11 17:50
 
 const armed_craft_data = [
     {
@@ -17292,6 +17292,22 @@ const armed_craft_data = [
         'skill_description': ['1 回合內，隊伍攻擊力提升 40%', '隊長及戰友的技能 CD 減少 3', '延遲全體敵人行動 1 回合'],
         'skill_tag': [],
         'armed_description': ['必然延長移動符石時間 1 秒', '消除 25 粒或以上符石，自身攻擊力 1.6 倍', '自身為妖精類時， 自身生命力基值 1.15 倍'],
+        'armed_tag': [],
+    },
+    {
+        'id': 7136,
+        'name': '【7136】花語茶壺龍符',
+        'mode': '映照龍符',
+        'attribute': '光',
+        'race': '妖精類',
+        'star': 3,
+        'charge': '消除符石',
+        'add_hp': 0,
+        'add_atk': 0,
+        'add_rec': 0,
+        'skill_description': ['1 回合內，隊伍攻擊力提升 25%', '1 回合內，50% 的攻擊傷害無視指定形狀盾', '1 回合內，隊長以 50% 攻擊力追打五屬攻擊各 1 次'],
+        'skill_tag': [],
+        'armed_description': ['進入關卡後，自身主動技能 CD 減少 1', '消除妖精類符石時，自身攻擊力 1.5 倍', '消除 25 粒或以上符石，自身攻擊力 1.2 倍'],
         'armed_tag': [],
     },
     {
