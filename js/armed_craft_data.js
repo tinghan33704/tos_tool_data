@@ -1,4 +1,4 @@
-// Last modified : 2022.08.17 01:25
+// Last modified : 2022.08.18 21:10
 
 const armed_craft_data = [
     {
@@ -17336,6 +17336,22 @@ const armed_craft_data = [
         'skill_description': ['1 回合內，隊伍攻擊力提升 25%', '1 回合內，50% 的攻擊傷害無視指定形狀盾', '1 回合內，隊長以 50% 攻擊力追打五屬攻擊各 1 次'],
         'skill_tag': [],
         'armed_description': ['進入關卡後，自身主動技能 CD 減少 1', '消除妖精類符石時，自身攻擊力 1.5 倍', '消除 25 粒或以上符石，自身攻擊力 1.2 倍'],
+        'armed_tag': [],
+    },
+    {
+        'id': 7138,
+        'name': '【7138】震擊板手龍紋',
+        'mode': '連鎖龍紋',
+        'attribute': '木',
+        'race': '機械族',
+        'star': 3,
+        'charge': '消除木符石',
+        'add_hp': 0,
+        'add_atk': 0,
+        'add_rec': 0,
+        'skill_description': ['對全體敵人造成 500000 點無屬性傷害，此傷害無視防禦力', '1 回合內，全隊攻擊力提升 15%，所有成員無視屬性相剋'],
+        'skill_tag': [],
+        'armed_description': ['消除 25 粒或以上符石，自身攻擊力 1.2 倍', '此召喚獸發動技能的回合，自身攻擊力 1.5 倍'],
         'armed_tag': [],
     },
     {
