@@ -873,10 +873,10 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const active_skill_notification = '作者的推薦碼：73E12A4F0482<br>如果覺得這工具還不錯用的話不妨考慮支持一下 :)'
-const team_skill_notification = '作者的推薦碼：73E12A4F0482<br>如果覺得這工具還不錯用的話不妨考慮支持一下 :)'
-const leader_skill_notification = '作者的推薦碼：73E12A4F0482<br>如果覺得這工具還不錯用的話不妨考慮支持一下 :)'
-const craft_notification = '作者的推薦碼：73E12A4F0482<br>如果覺得這工具還不錯用的話不妨考慮支持一下 :)'
+const active_skill_notification = '作者的推薦碼：<font color="red">73E12A4F0482</font><br>如果覺得這工具還不錯用的話不妨考慮支持一下 :)'
+const team_skill_notification = '作者的推薦碼：<font color="red">73E12A4F0482</font><br>如果覺得這工具還不錯用的話不妨考慮支持一下 :)'
+const leader_skill_notification = '作者的推薦碼：<font color="red">73E12A4F0482</font><br>如果覺得這工具還不錯用的話不妨考慮支持一下 :)'
+const craft_notification = '作者的推薦碼：<font color="red">73E12A4F0482</font><br>如果覺得這工具還不錯用的話不妨考慮支持一下 :)'
 const backpack_notification = ''
 
 /* calculate remain days */
