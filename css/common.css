@@ -48,6 +48,8 @@
 	--text_series_genre_all_normal: #ffaa00;
 	--div_series_genre_must_get_background_normal: #c1ffba;
 	--text_series_genre_must_get_normal: #15d800;
+	--notification_text_normal: #004085;
+	--notification_background_normal: #cce5ff;
     
     
     /* dark theme */
@@ -99,6 +101,8 @@
 	--text_series_genre_all_dark: rgba(234, 141, 88, 0.6);
 	--div_series_genre_must_get_background_dark: rgba(173, 235, 166, 0.3);
 	--text_series_genre_must_get_dark: rgba(41, 236, 0, 0.6);
+	--notification_background_dark: #355e84;
+	--notification_text_dark: #8caecc;
 
     
     /* theme replacing */
@@ -150,6 +154,8 @@
 	--text_series_genre_all: var(--text_series_genre_all_normal);
 	--div_series_genre_must_get_background: var(--div_series_genre_must_get_background_normal);
 	--text_series_genre_must_get: var(--text_series_genre_must_get_normal);
+	--notification_background: var(--notification_background_normal);
+	--notification_text: var(--notification_text_normal);
 }
 
 body {
@@ -835,6 +841,9 @@ select {
 
 #notification {
 	display: none;
+	background-color: var(--notification_background);
+	border-color: var(--notification_background);
+	color: var(--notification_text);
 }
 
 #close_notification {

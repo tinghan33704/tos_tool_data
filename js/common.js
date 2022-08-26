@@ -804,7 +804,9 @@ const theme_string = [
 	'--div_series_genre_all_background',
 	'--text_series_genre_all',
 	'--div_series_genre_must_get_background',
-	'--text_series_genre_must_get'
+	'--text_series_genre_must_get',
+	'--notification_background',
+	'--notification_text'
 ];
 
 function setTheme(theme)
