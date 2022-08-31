@@ -664,6 +664,11 @@ select {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
+@media (max-width: 768px) {
+	.seal-nav {
+		border-radius: 5px;
+	}
+}
 .uid-nav-active, .seal-nav-active {
 	background-color: var(--div_nav_active_background);
 	color: var(--text_color_anti);
