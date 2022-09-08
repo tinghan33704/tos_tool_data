@@ -1,4 +1,4 @@
-// Last modified : 2022.08.31 21:30
+// Last modified : 2022.09.08 17:58
 
 const armed_craft_data = [
     {
@@ -17451,12 +17451,28 @@ const armed_craft_data = [
         'armed_tag': [],
     },
     {
+        'id': 7137,
+        'name': '【7137】龍顱邪冠龍咒',
+        'mode': '破碎龍咒',
+        'attribute': '木',
+        'race': '龍類',
+        'star': 3,
+        'charge': '消除符石',
+        'add_hp': 0,
+        'add_atk': 0,
+        'add_rec': 0,
+        'skill_description': ['1 回合內，龍類成員的攻擊力提升 25%', '1 回合內，50% 的攻擊傷害無視攻前盾', '隨機 3 個技能 CD 冷卻中的龍類成員的技能 CD 減少 2'],
+        'skill_tag': [],
+        'armed_description': ['減少 10% 所受傷害', '消除龍類符石時，自身攻擊力 1.5 倍', '此召喚獸發動技能的回合，自身攻擊力 1.5 倍'],
+        'armed_tag': [],
+    },
+    {
         'id': 7138,
         'name': '【7138】震擊板手龍紋',
         'mode': '連鎖龍紋',
         'attribute': '木',
         'race': '機械族',
-        'star': 3,
+        'star': 2,
         'charge': '消除木符石',
         'add_hp': 5,
         'add_atk': 0,
@@ -17464,6 +17480,22 @@ const armed_craft_data = [
         'skill_description': ['對全體敵人造成 500000 點無屬性傷害，此傷害無視防禦力', '1 回合內，全隊攻擊力提升 15%，所有成員無視屬性相剋'],
         'skill_tag': [],
         'armed_description': ['消除 25 粒或以上符石，自身攻擊力 1.2 倍', '此召喚獸發動技能的回合，自身攻擊力 1.5 倍'],
+        'armed_tag': [],
+    },
+    {
+        'id': 7139,
+        'name': '【7139】獵血戰鐮龍紋',
+        'mode': '連鎖龍紋',
+        'attribute': '暗',
+        'race': '獸類',
+        'star': 2,
+        'charge': '消除符石',
+        'add_hp': 0,
+        'add_atk': 0,
+        'add_rec': 0,
+        'skill_description': ['1 回合內，獸類成員的攻擊力提升 25%', '1 回合內，50% 的攻擊傷害無視指定形狀盾'],
+        'skill_tag': [],
+        'armed_description': ['進入關卡後，自身主動技能 CD 減少 2', '此召喚獸發動技能的回合，自身攻擊力 1.8 倍'],
         'armed_tag': [],
     },
     {
