@@ -1,4 +1,4 @@
-// Last modified : 2022.09.15 17:50
+// Last modified : 2022.09.16 00:29
 
 const armed_craft_data = [
     {
@@ -17507,8 +17507,8 @@ const armed_craft_data = [
         'star': 2,
         'charge': '消除符石',
         'add_hp': 0,
-        'add_atk': 0,
-        'add_rec': 0,
+        'add_atk': 5,
+        'add_rec': 5,
         'skill_description': ['1 回合內，獸類成員的攻擊力提升 25%', '1 回合內，50% 的攻擊傷害無視指定形狀盾'],
         'skill_tag': [],
         'armed_description': ['進入關卡後，自身主動技能 CD 減少 2', '此召喚獸發動技能的回合，自身攻擊力 1.8 倍'],
