@@ -18,9 +18,17 @@ function init() {
         }, 300);
     });
     
+    $('#toBottom-btn').click(() => { 
+        $('html,body').animate({
+            scrollTop: $(document).height() - $(window).height()
+        }, 300);
+    });
+    
     $(window).scroll(() => {
         if ($(this).scrollTop() > 300) $('#toTop-btn').fadeIn(200);
         else $('#toTop-btn').stop().fadeOut(200);
+        if ($(this).scrollTop() < $(document).height() - $(this).height() - 300) $('#toBottom-btn').fadeIn(200);
+        else $('#toBottom-btn').stop().fadeOut(200);
     }).scroll();
 	
 	/*$(window).click((e) => {

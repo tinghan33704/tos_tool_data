@@ -712,7 +712,7 @@ select {
 
 /* ---------------- */
 
-.toTop {
+.toTop, .toBottom {
     width: 3rem;
     height: 3rem;
     padding: 0;
@@ -721,36 +721,19 @@ select {
     border-radius: 20%;
     opacity: 0.6;
     background: #000;
+    color: white;
     cursor: pointer;
     position:fixed;
+    font-size: 1.8rem;
     right: 1rem;
-    bottom: 1rem;
     display: none;
     z-index: 1;
 }
-.toTop::before, .toTop::after {
-    width: 25px;
-    height: 6px;
-    border-radius: 3px;
-    background: #FFF;
-    position: absolute;
-    content: "";
-}
-.toTop::before {
-    transform: rotate(-45deg) translate(0, -50%);
-    left: 0.42rem;
-}
-.toTop::after {
-    transform: rotate(45deg) translate(0, -50%);
-    right: 0.42rem;
-}
-.toTop:focus {
-    outline: none;
-}
 
 
 
-.inventory, .option, .changeTheme, .inputData, .reverseMode, .compressMode {
+
+.inventory, .option, .changeTheme, .inputData, .reverseMode, .compressMode, .toTop, .toBottom {
 	width: 3rem;
     height: 3rem;
     padding: 0;
@@ -763,12 +746,18 @@ select {
     cursor: pointer;
     position:fixed;
     font-size: 1.8rem;
-    left: 1rem;
-    display: inline-block;
     z-index: 1;
 }
-.inventory:focus, .option:focus, .changeTheme:focus, .inputData:focus, .reverseMode:focus, .compressMode:focus {
+.inventory:focus, .option:focus, .changeTheme:focus, .inputData:focus, .reverseMode:focus, .compressMode:focus, .toTop:focus, .toBottom:focus {
     outline: none;
+}
+.inventory, .option, .changeTheme, .inputData, .reverseMode, .compressMode {
+    left: 1rem;
+    display: inline-block;
+}
+.toTop, .toBottom {
+    right: 1rem;
+    display: none;
 }
 .inventory {
     bottom: 9rem;
@@ -777,6 +766,12 @@ select {
     bottom: 5rem;
 }
 .changeTheme {
+    bottom: 1rem;
+}
+.toTop {
+    bottom: 5rem;
+}
+.toBottom {
     bottom: 1rem;
 }
 
