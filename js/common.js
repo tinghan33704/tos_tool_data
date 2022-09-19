@@ -414,7 +414,7 @@ function errorAlert(index)
             alert("[Error Code "+paddingZeros(index, 2)+"] 輸入格式錯誤 (僅接受數字及空格)");
         break;
         case 10:
-            alert("[Error Code "+paddingZeros(index, 2)+"] 無法取得背包資料");
+            alert("[Error Code "+paddingZeros(index, 2)+"] 無法取得背包資料\n請確認是否已於官方健檢中心的個人資料勾選「公開背包」");
         break;
         case 11:
             alert("[Error Code "+paddingZeros(index, 2)+"] 請先選擇標籤");
