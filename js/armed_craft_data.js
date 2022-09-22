@@ -1,4 +1,4 @@
-// Last modified : 2022.09.16 00:29
+// Last modified : 2022.09.19 01:41
 
 const armed_craft_data = [
     {
@@ -16930,9 +16930,9 @@ const armed_craft_data = [
         'race': '妖精類',
         'star': 2,
         'charge': '消除符石',
-        'add_hp': 0,
+        'add_hp': 5,
         'add_atk': 0,
-        'add_rec': 0,
+        'add_rec': 5,
         'skill_description': ['1 回合內，妖精類成員的攻擊力提升 25%', '延遲全體敵人行動 1 回合'],
         'skill_tag': [],
         'armed_description': ['消除妖族符石時，自身攻擊力 1.2 倍', '消除 20 粒或以上符石，自身攻擊力 1.2 倍'],
