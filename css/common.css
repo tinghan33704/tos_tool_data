@@ -712,28 +712,7 @@ select {
 
 /* ---------------- */
 
-.toTop, .toBottom {
-    width: 3rem;
-    height: 3rem;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    border-radius: 20%;
-    opacity: 0.6;
-    background: #000;
-    color: white;
-    cursor: pointer;
-    position:fixed;
-    font-size: 1.8rem;
-    right: 1rem;
-    display: none;
-    z-index: 1;
-}
-
-
-
-
-.inventory, .option, .changeTheme, .inputData, .reverseMode, .compressMode, .toTop, .toBottom {
+.inventory, .option, .changeTheme, .inputData, .reverseMode, .compressMode, .crossOver, .toTop, .toBottom {
 	width: 3rem;
     height: 3rem;
     padding: 0;
@@ -748,16 +727,15 @@ select {
     font-size: 1.8rem;
     z-index: 1;
 }
-.inventory:focus, .option:focus, .changeTheme:focus, .inputData:focus, .reverseMode:focus, .compressMode:focus, .toTop:focus, .toBottom:focus {
+.inventory:focus, .option:focus, .changeTheme:focus, .inputData:focus, .reverseMode:focus, .compressMode:focus, .crossOver:focus, .toTop:focus, .toBottom:focus {
     outline: none;
 }
-.inventory, .option, .changeTheme, .inputData, .reverseMode, .compressMode {
+.inventory, .option, .changeTheme, .inputData, .reverseMode, .compressMode, .crossOver {
     left: 1rem;
     display: inline-block;
 }
 .toTop, .toBottom {
     right: 1rem;
-    display: none;
 }
 .inventory {
     bottom: 9rem;
@@ -770,9 +748,11 @@ select {
 }
 .toTop {
     bottom: 5rem;
+    display: none;
 }
 .toBottom {
     bottom: 1rem;
+    display: inline-block;
 }
 
 #keyword-input, .uid-input, .uid-input:focus {
