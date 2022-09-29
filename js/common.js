@@ -860,3 +860,20 @@ function changeTheme()
     
     setTheme(theme)
 }
+
+// Saitama easter egg :)
+function setGlassBreak() {
+	function showGlassBreak(x, y) {
+		const scale = 0.8 + Math.random() * 0.6
+		const angle = Math.random() * 360
+		$('<img/>',{
+			src: '../tos_tool_data/img/other/glass_break.png',
+			style: `position: absolute; left: ${x - 100}px; top: ${y - 100}px; pointer-events: none; user-select: none; opacity: 0.8; transform: rotate(${angle}deg) scale(${scale});`,
+			unselectable: 'on'
+		}).appendTo('body');
+	}
+	
+	$('img[class^="monster_img"][src$="/10294.png"]').click(function(e){
+		showGlassBreak(event.pageX, event.pageY)
+	});
+}
