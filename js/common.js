@@ -182,6 +182,10 @@ function init() {
     $("#inputData-btn").length && $('#inputData-btn').click(() => { 
         openDataInputPanel();
     });
+	
+	// preload glass break image
+	const glass_break_img = new Image()
+    img.src = '../tos_tool_data/img/other/glass_break.png'
 }
 
 function setNotification() {
