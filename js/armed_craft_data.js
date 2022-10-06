@@ -1,4 +1,4 @@
-// Last modified : 2022.09.19 01:41
+// Last modified : 2022.10.06 22:03
 
 const armed_craft_data = [
     {
@@ -17512,6 +17512,22 @@ const armed_craft_data = [
         'skill_description': ['1 回合內，獸類成員的攻擊力提升 25%', '1 回合內，50% 的攻擊傷害無視指定形狀盾'],
         'skill_tag': [],
         'armed_description': ['進入關卡後，自身主動技能 CD 減少 2', '此召喚獸發動技能的回合，自身攻擊力 1.8 倍'],
+        'armed_tag': [],
+    },
+    {
+        'id': 7148,
+        'name': '【7148】靈感羽筆龍紋',
+        'mode': '連鎖龍紋',
+        'attribute': '木',
+        'race': '人類',
+        'star': 3,
+        'charge': '消除符石',
+        'add_hp': 5,
+        'add_atk': 5,
+        'add_rec': 5,
+        'skill_description': ['1 回合內，人類成員的攻擊力提升 20%', '1 回合內，無視五屬盾', '1 回合內，完全回復生命力'],
+        'skill_tag': [],
+        'armed_description': ['進入關卡後，自身主動技能 CD 減少 2', '消除 ≥6 種符石，自身攻擊力額外 1.5 倍', '自身對水屬性目標攻擊力額外 1.2 倍'],
         'armed_tag': [],
     },
     {
