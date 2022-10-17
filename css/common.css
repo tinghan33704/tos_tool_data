@@ -830,3 +830,22 @@ select {
 	text-align: right;
 	cursor: pointer;
 }
+
+
+/* Tatsumaki & Fubuki easter egg */
+
+div[class^="image_shell"]:has(img[class^="monster_img"][src$="10293.png"]):focus {
+    box-shadow: 0px 0px 5px 4px #87ffbb;
+}
+
+img[class^="monster_img"][src$="10293.png"]:focus {
+    box-shadow: 0px 0px 5px 4px #87ffbb;
+}
+
+div[class^="image_shell"]:has(img[class^="monster_img"][src$="10296.png"]):focus {
+    box-shadow: 0px 0px 5px 4px #6dfffc;
+}
+
+img[class^="monster_img"][src$="10296.png"]:focus {
+    box-shadow: 0px 0px 5px 4px #6dfffc;
+}
