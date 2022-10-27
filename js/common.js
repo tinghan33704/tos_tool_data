@@ -835,29 +835,29 @@ function setTheme(theme)
 function changeTheme()
 {
 	pressChangeThemeTime += 1
-	if(pressChangeThemeTime === 50) {
+	if(pressChangeThemeTime === 30) {
 		alert("...看來電燈開關被按壞了\n\n請重新整理頁面以修好開關")
 	}
-	else if(pressChangeThemeTime === 100) {
+	else if(pressChangeThemeTime === 60) {
 		alert("不是，多按幾次也不會修好，真的")
 	}
-	else if(pressChangeThemeTime === 150) {
+	else if(pressChangeThemeTime === 90) {
 		alert("看吧，我就說不會這樣就修好的")
 	}
-	else if(pressChangeThemeTime === 200) {
+	else if(pressChangeThemeTime === 120) {
 		alert("太有毅力了吧\n...雖然開關依舊是壞的")
 	}
-	else if(pressChangeThemeTime === 250) {
+	else if(pressChangeThemeTime === 150) {
 		alert("要不要猜猜看再多按幾次會怎樣？")
 	}
-	else if(pressChangeThemeTime === 300) {
+	else if(pressChangeThemeTime === 180) {
 		alert("等等我開玩笑的，真的沒東西了\n\n請重新整理頁面以修好開關")
 	}
-	else if(pressChangeThemeTime >= 301) {
+	else if(pressChangeThemeTime >= 181) {
 		alert("請重新整理頁面以修好開關")
 	}
 	
-	if(pressChangeThemeTime >= 50) return;
+	if(pressChangeThemeTime >= 30) return;
 	
     theme = (theme == 'normal') ? 'dark' : 'normal';
     localStorage.setItem('TOOL_THEME', theme)
