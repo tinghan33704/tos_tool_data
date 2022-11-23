@@ -298,6 +298,9 @@ select {
     border-color: var(--button_secondary);
     color: var(--text_color_anti);
 }
+.collapse-close, .collapse-open {
+	margin-top: 3px;
+}
 .tag-collapse-div {
 	cursor: pointer;
 }
@@ -641,6 +644,12 @@ select {
     border: 1px solid transparent;
     padding: 5px 0;
 }
+@media (min-width: 992px) {
+	.option-text {
+		border-right: 1px solid #cccccc;
+	}
+}
+
 .filter[type=checkbox]:checked + label.option-btn {
     background-color: var(--button_filter_color_checked); 
     color: var(--button_text_color_checked); 

@@ -95,6 +95,15 @@ function init() {
             createFilterButtonRow("race", race_type_string);
             createFilterButtonRow("star", star_type_string, ' ★');
         break;
+        case 'leader_skill':
+            createFilterButtonRow("filter", leader_skill_type_string);
+            createKeywordRow();
+            createFilterButtonRow("tag", tag_string);
+            createFilterButtonRow("activate", team_skill_activate_string);
+            createFilterButtonRow("attr", attr_type_string);
+            createFilterButtonRow("race", race_type_string);
+            createFilterButtonRow("star", star_type_string, ' ★');
+        break;
         case 'craft':
             createFilterButtonRow("filter", craft_skill_type_string);
             createKeywordRow();
@@ -126,7 +135,9 @@ function init() {
     $(".copyright").length && $(".copyright").html(() =>  {
         const currYear = new Date().getFullYear()
 		const startYear = tool_id === 'active_skill' || tool_id === 'craft' ? '2019' : 
-						  tool_id === 'team_skill' ? '2020' : '2021'
+						  tool_id === 'team_skill' ? '2020' : 
+						  tool_id === 'backpack' || tool_id === 'id_selector' ? '2021' : 
+						  tool_id === 'monster_selector' || tool_id === 'leader_skill' ? '2022' : ''
         return `Copyright © ${startYear}-${currYear} 蒼曜(tinghan33704)`
     });
     
@@ -199,6 +210,12 @@ function setNotification() {
         case 'team_skill':
 			if(team_skill_notification.length) {
 				$("#notification_text").html(team_skill_notification)
+				$("#notification").css({'display': 'block'})
+			}
+        break;
+        case 'leader_skill':
+			if(team_skill_notification.length) {
+				$("#notification_text").html(leader_skill_notification)
 				$("#notification").css({'display': 'block'})
 			}
         break;
