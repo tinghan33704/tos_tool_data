@@ -1,4 +1,4 @@
-// Last modified : 2022.11.18 12:49
+// Last modified : 2022.11.24 17:18
 
 const armed_craft_data = [
     {
@@ -19199,6 +19199,22 @@ const armed_craft_data = [
         'skill_description': ['1 回合內，隊伍攻擊力提升 40%', '隨機 4 個技能 CD 冷卻中的「木、暗屬性」成員技能 CD -3', '將單數直行的符石轉化為木符石，並將雙數直行的符石轉化為暗符石'],
         'skill_tag': [],
         'armed_description': ['必然延長移動符石時間 1 秒', '消除 ≥3 種符石，自身攻擊力額外 1.5 倍', '自身為人類時，自身生命力基值 1.15 倍'],
+        'armed_tag': [],
+    },
+    {
+        'id': 7147,
+        'name': '【7147】追龍刀龍印',
+        'mode': '轉動龍印',
+        'attribute': '木',
+        'race': '龍類',
+        'star': 2,
+        'charge': '消除符石',
+        'add_hp': 0,
+        'add_atk': 0,
+        'add_rec': 0,
+        'skill_description': ['1 回合內，隊伍攻擊力提升 20%', '1 回合內，無視指定形狀盾'],
+        'skill_tag': [],
+        'armed_description': ['進入關卡後，自身主動技能 CD 減少 2', '此召喚獸發動技能的回合，自身攻擊力 1.8 倍'],
         'armed_tag': [],
     },
     {
