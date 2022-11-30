@@ -1,4 +1,4 @@
-// Last modified : 2022.11.24 17:18
+// Last modified : 2022.11.30 11:35
 
 const armed_craft_data = [
     {
@@ -19209,8 +19209,8 @@ const armed_craft_data = [
         'race': '龍類',
         'star': 2,
         'charge': '消除符石',
-        'add_hp': 0,
-        'add_atk': 0,
+        'add_hp': 5,
+        'add_atk': 5,
         'add_rec': 0,
         'skill_description': ['1 回合內，隊伍攻擊力提升 20%', '1 回合內，無視指定形狀盾'],
         'skill_tag': [],
