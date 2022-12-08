@@ -858,3 +858,13 @@ div[class^="image_shell"]:has(img[class^="monster_img"][src$="10296.png"]):focus
 img[class^="monster_img"][src$="10296.png"]:focus {
     box-shadow: 0px 0px 5px 4px #6dfffc;
 }
+
+.transfer-warning {
+	text-align: center;
+	font-size: 26px;
+	margin: 40px 0;
+	padding: 30px;
+	font-weight: 500;
+	border: 2px blue solid;
+	border-radius: 12px;
+}
